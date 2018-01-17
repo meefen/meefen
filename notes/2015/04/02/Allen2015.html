@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <!-- (1) Optimize for mobile versions: http://goo.gl/EOpFl -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- (1) force latest IE rendering engine: bit.ly/1c8EiC9 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Notes: Allen - 2015 - Modeling Students’ Reading Comprehension Skills with Natural Language Processing Techniques</title>
+  <meta name="description" content="References" />
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@bod0ng" />
+    <meta name="twitter:title" content="Notes: Allen - 2015 - Modeling Students’ Reading Comprehension Skills with Natural Language Processing Techniques" />
+    <meta name="twitter:image" content="http://bodong.ch//assets/images/df_logo.png" />
+    
+    <meta name="twitter:description"  content="References" />
+    
+  
+
+  <meta property="og:site_name" content="Crisscross Landscapes" />
+  <meta property="og:title" content="Notes: Allen - 2015 - Modeling Students’ Reading Comprehension Skills with Natural Language Processing Techniques"/>
+  
+  <meta property="og:description" content="References" />
+  
+  <meta property="og:image" content="http://bodong.ch//assets/images/df_logo.png" />
+  <meta property="og:url" content="http://bodong.ch//notes/2015/04/02/Allen2015.html" >
+  <meta property="og:type" content="blog" />
+  <meta property="article:published_time" content="2015-04-02T00:00:00-05:00">
+
+  <link rel="canonical" href="http://bodong.ch//notes/2015/04/02/Allen2015.html"/>
+  <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/png"/>
+  <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Linux+Libertine:400,400i,700,700i/Open+Sans:400,400i,700,700i">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+  <link rel="stylesheet" type="text/css" media="print" href="/css/print.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="/css/custom.css" />
+</head>
+
+  <body itemscope itemtype="http://schema.org/Article">
+    <!-- header start -->
+
+<a href="http://bodong.ch/" class="logo-readium"><span class="logo" style="background-image: url(/assets/images/df_logo.png)"></span></a>
+
+<!-- header end -->
+
+    <main class="content" role="main">
+      <article class="post">
+        
+        <div class="noarticleimage">
+          <div class="post-meta">
+            <h1 class="post-title">Notes: Allen - 2015 - Modeling Students’ Reading Comprehension Skills with Natural Language Processing Techniques</h1>
+            <div class="cf post-meta-text">
+              <div class="author-image" style="background-image: url(/assets/images/author.jpg)">Blog Logo</div>
+              <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person"></h4>
+              on
+              <time datetime="2015-04-02T00:00:00-05:00">02 Apr 2015</time>
+              
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        
+        <section class="post-content">
+          <div class="post-reading">
+            <span class="post-reading-time"></span> read
+          </div>
+          <a name="topofpage"></a>
+          <h2 id="references">References</h2>
+
+<p><strong>Citekey</strong>: @Allen2015</p>
+
+<p>Allen, L. K., Snow, E. L., &amp; McNamara, D. S. (2015). Are you reading my mind? Modeling Students’ Reading Comprehension Skills with Natural Language Processing Techniques. In Proceedings of the Fifth International Conference on Learning Analytics And Knowledge - LAK ’15 (pp. 246–254). doi:10.1145/2723576.2723617</p>
+
+<h2 id="notes">Notes</h2>
+
+<p>Applying Coh-Metrix and LSA to assess students’ reading comprehension. Could also be applied in collaborative online discourse.</p>
+
+<h2 id="highlights">Highlights</h2>
+
+<p>The current study leverages natural language processing tools to build models of students’ comprehension ability from the linguistic properties of their self-explanations. Students (n = 126) interacted with iSTART across eight training sessions where they self-explained target sentences from complex science texts. Coh-Metrix was then used to calculate the linguistic properties of their aggregated self-explanations. The results of this study indicated that the linguistic indices were predictive of students’ reading comprehension ability, over and above the current system algorithms. These results suggest that natural language processing techniques can inform stealth assessments and ultimately improve student models within intelligent tutoring systems. (p. 1)</p>
+
+<p>Despite these positive findings, NLP-based systems still have plenty of room for improvement. One shared difficulty lies in the ability of these systems to represent students’ knowledge and overall ability levels. ITSs typically assess students’ abilities by evaluating performance on individual items, such as math problems or the quality of students’ explanations of a particular concept. This is a beneficial form of assessment, as it allows systems to provide item-level feedback, as well as to adapt content. One problem, however, is that these assessments provide little indication of students’ prior abilities at a more global level. In order to provide the most beneficial instruction and feedback, ITSs should assess students’ ability levels on numerous dimensions. The current paper extends previous research that aimed to model students’ reading comprehension abilities in iSTART [18]. Here, we utilize an automated text analysis tool to model students’ reading comprehension skills through an analysis of the linguistic properties of their self-explanations. (p. 2)</p>
+
+<p>1.2 iSTART The Interactive Strategy Training for Active Reading and Thinking (iSTART) tutor is an ITS developed to train high school and college students on the use of reading comprehension strategies [15]. In particular, iSTART focuses on the instruction of self-explanation strategies, which have previously been shown to be beneficial for various high-level skills including problem solving, generating inferences, and deep comprehension of texts [27-28]. (p. 2)</p>
+
+<p>Currently, the algorithm assesses self-explanations based on information from a relatively small window. This window includes the specified target sentence from the text that students self-explain and the surrounding sentences from the target passage. This algorithm assesses self-explanation quality using multiple word-based indices and latent semantic analysis (LSA) [30]. Lower-level information about the self-explanations is provided by the word-based indices, such as length and overlap in the content words. These measures help the system detect selfexplanations that are too short, too similar to the topic sentence, or irrelevant. LSA is then combined with these measures to provide a more holistic index of quality. This index provides information about the degree to which self-explanations include information from earlier in the text and from outside the text (i.e., prior world knowledge). (p. 3)</p>
+
+<p>iSTART utilizes the information from these word-based and LSAbased indices to provide self-explanations a score from 0 to 3. A score of “0” indicates that a self-explanation is too short to accurately assess or that it contains irrelevant information. A score of “1” is assigned to self-explanations that are primarily related to the target sentence only. A score of “2” implies that a selfexplanation integrates information from the text beyond the target sentence. Finally, a score of “3” is associated with selfexplanations that incorporate outside information at the global level; thus, this self-explanation can include information that was not included in the text, or a self-explanation that focuses on overall themes that persist throughout the text. (p. 3)</p>
+
+<p>1.3 iSTART-ME (p. 3)</p>
+
+<p>1.2.1. iSTART Evaluation Algorithm iSTART utilizes a localized (i.e., sentence-level) evaluation algorithm that assesses the quality of individual self-explanations and allows the system to provide relevant feedback [4]. (p. 3)</p>
+
+<p>To address student disengagement, educational games and gamebased features were incorporated within the system to develop iSTART-ME (iSTART-Motivationally Enhanced). Within iSTART-ME, the three main modules of iSTART (i.e., introduction, demonstration, and practice) remain relatively unchanged. However, the extended practice module contains a selection menu that allows students to interact with both educational games and game-based features (see Figure 2 for a screenshot of the game-based selection menu). (p. 4)</p>
+
+<p>2.4 Text Analyses (p. 4)</p>
+
+<p>2.4.1 Coh-Metrix To assess the linguistic properties of students’ aggregated selfexplanations, we utilized Coh-Metrix. Coh-Metrix is an automated text analysis tool that computes linguistic indices for both the lowerand higher-level aspects of texts [38]. These indices range from basic text properties to lexical, syntactic, and cohesive measures. (p. 4)</p>
+
+<p>1.4 Current Study (p. 4)</p>
+
+<p>Coh-Metrix calculates a number of basic linguistic indices, which provide simple counts of features in a given text. This category includes descriptive indices, such as the total number of words, parts of speech (e.g., nouns, verbs, etc.), and paragraphs in a given text. In addition, Coh-Metrix calculates the average length of words (average number of letters and syllables), sentences (average number of words per sentence), and paragraphs (average number of sentences per paragraph) within that text. (p. 4)</p>
+
+<p>To this end, students’ self-explanations from the iSTART and iSTART-ME systems were collected. These individual, sentence-level self-explanations were then aggregated across each of the texts that were read and analyzed using CohMetrix. (p. 4)</p>
+
+<p>The lexical indices calculated by Coh-Metrix describe the characteristics of the words that are found in a given text. Examples of these indices include lexical diversity (i.e., the degree to which the text contains unique words, rather than repetitive language), and the age of acquisition of the words (i.e., the age at which the words used in the text are typically acquired by children). (p. 4)</p>
+
+<p>Coh-Metrix is an automated text analysis tool that provides linguistic indices related to the lexical sophistication, syntactic complexity, and cohesion of texts. (p. 4)</p>
+
+<p>Syntactic measures describe the complexity of the sentence constructions found within a text. Examples of these indices include the number of modifiers per noun phrase and the (p. 4)</p>
+
+<p>incidence of sentences that are agentless and constructed in the passive tense. (p. 5)</p>
+
+<p>Cohesion measures provide information about the type of connections that are made between ideas within a text; some relevant measures include: incidence of connectives, minimal edit distance (MED; indicates the structural similarity of the sentences in a text), and content word overlap (for adjacent sentences and all sentences). (p. 5)</p>
+
+<p>Latent Semantic Analysis (LSA) is used to provide information about the semantic similarity of texts. (p. 5)</p>
+
+<p>2.5 Data Processing (p. 5)</p>
+
+<ol>
+  <li>RESULTS (p. 5)</li>
+</ol>
+
+<p>3.1 Reading Comprehension Analysis (p. 5)</p>
+
+<p>Pearson correlations were calculated between the Coh-Metrix linguistic indices and students’ Gates-MacGinitie reading comprehension scores to examine the strength of the relationships among these variables. This correlation analysis revealed that there were 29 linguistic measures that demonstrated a significant relation with reading comprehension scores. However, 5 variables were removed due to strong multicollinearity with each other. The 24 remaining variables are included in Table 1 (p. 5)</p>
+
+<p>As an illustration, for a target text with p paragraphs and n target sentences, the resulting aggregated self-explanation file would contain p paragraphs and n self-explanations corresponding to the relative position of the target sentence (see Figure 3 for visualization of this aggregation) (p. 5)</p>
+
+<p>We calculated a stepwise regression analysis with these 24 CohMetrix indices as the predictors of students’ reading comprehension scores for the 90 students in the training set. This regression yielded a significant model, F(3, 86) = 17.624, p &lt; .001, r = .617, R2 = .381. (p. 5)</p>
+
+<p>Three variables were significant predictors in the regression analysis and combined to account for 38% of the variance in students’ comprehension scores: lexical diversity [β =.38, t(3, 86)=4.179, p &lt; .001], LSA paragraph-toparagraph [β =.32, t(3, 86)=3.519, p = .001], and average sentence length [β =-.22, t(3, 86)=-2.532, p = .013]. (p. 5)</p>
+
+<p>In the current study, we used NLP techniques to develop stealth assessments of students’ reading comprehension abilities. (p. 6)</p>
+
+<p>The Coh-Metrix correlation analysis revealed that a number of linguistic properties of students’ self-explanations were related to their comprehension scores. (p. 6)</p>
+
+        </section>
+        <footer class="post-footer">
+          <section class="share">
+            
+              
+                <a class="icon-twitter" href="http://twitter.com/share?text=Notes%3A+Allen+-+2015+-+Modeling+Students%E2%80%99+Reading+Comprehension+Skills+with+Natural+Language+Processing+Techniques&amp;url=http://bodong.ch//notes/2015/04/02/Allen2015"
+                  onclick="window.open(this.href, 'twitter-share', 'width=550,height=255');return false;">
+                <i class="fa fa-twitter"></i><span class="hidden">twitter</span>
+                </a>
+              
+            
+              
+            
+          </section>
+        </footer>
+        <div class="bottom-teaser cf">
+          <div class="isLeft">
+            <h5 class="index-headline featured"><span>Written by</span></h5>
+            <section class="author">
+              <div class="author-image" style="background-image: url(/assets/images/author.jpg)">Blog Logo</div>
+              <h4>Bodong Chen</h4>
+              <p class="bio"></p>
+              <hr>
+              <p class="published">Published <time datetime="2015-04-02 00:00">02 Apr 2015</time></p>
+            </section>
+          </div>
+          <div class="isRight">
+            <h5 class="index-headline featured"><span>Supported by</span></h5>
+            <footer class="site-footer">
+              <section class="poweredby">Proudly published with <a href="http://jekyllrb.com"> Jekyll</a></section>
+              <a class="subscribe" href="/feed.xml"> <span class="tooltip"> <i class="fa fa-rss"></i> You should subscribe to my feed.</span></a>
+              <div class="inner">
+                <section class="copyright">All content copyright <a href="http://bodong.ch//">Bodong Chen</a> &copy; 2018<br>All rights reserved.</section>
+              </div>
+            </footer>
+          </div>
+        </div>
+        
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'meefen'; // required: replace example with your forum shortname
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        
+      </article>
+    </main>
+    <div class="bottom-closer">
+      <div class="background-closer-image"  style="background-image: url(/assets/images/delicate-arch-night-stars-landscape.jpg)">
+        Image
+      </div>
+      <div class="inner">
+        <h1 class="blog-title">Crisscross Landscapes</h1>
+        <h2 class="blog-description">Bodong Chen, University of Minnesota
+</h2>
+        <a href="/" class="btn">Back to Home</a>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="/assets/js/index.js"></script>
+<script type="text/javascript" src="/assets/js/readingTime.min.js"></script>
+<script>
+(function ($) {
+  "use strict";
+  $(document).ready(function(){
+
+    var $window = $(window),
+    $image = $('.post-image-image, .teaserimage-image');
+
+      $window.on('scroll', function() {
+        var top = $window.scrollTop();
+
+        if (top < 0 || top > 1500) { return; }
+        $image
+          .css('transform', 'translate3d(0px, '+top/3+'px, 0px)')
+          .css('opacity', 1-Math.max(top/700, 0));
+      });
+      $window.trigger('scroll');
+
+      var height = $('.article-image').height();
+      $('.post-content').css('padding-top', height + 'px');
+
+      $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+         && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html,body').animate({ scrollTop: target.offset().top }, 500);
+            return false;
+          }
+        }
+      });
+
+  });
+}(jQuery));
+</script>
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50108133-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+  </body>
+</html>

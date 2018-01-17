@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <!-- (1) Optimize for mobile versions: http://goo.gl/EOpFl -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- (1) force latest IE rendering engine: bit.ly/1c8EiC9 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Demo of Using twitter-hashtag-analytics to Analyze Tweets from #LAK13</title>
+  <meta name="description" content="Building on Ben Marwick,Martin Hawksey and TonyHirst’swork on analyzing tweets with R, I started an R project for tweetanalysis, namelytwitter-hashtag-analytics.This project is hosted on Github and..." />
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@bod0ng" />
+    <meta name="twitter:title" content="Demo of Using twitter-hashtag-analytics to Analyze Tweets from #LAK13" />
+    <meta name="twitter:image" content="http://bodong.ch//assets/images/df_logo.png" />
+    
+    <meta name="twitter:description"  content="Building on Ben Marwick,Martin Hawksey and TonyHirst’swork on analyzing tweets with R, I started an R project for tweetanalysis, namelytwitter-hashtag-analytics.This project is hosted on Github and..." />
+    
+  
+
+  <meta property="og:site_name" content="Crisscross Landscapes" />
+  <meta property="og:title" content="Demo of Using twitter-hashtag-analytics to Analyze Tweets from #LAK13"/>
+  
+  <meta property="og:description" content="Building on Ben Marwick,Martin Hawksey and TonyHirst’swork on analyzing tweets with R, I started an R project for tweetanalysis, namelytwitter-hashtag-analytics.This project is hosted on Github and..." />
+  
+  <meta property="og:image" content="http://bodong.ch//assets/images/df_logo.png" />
+  <meta property="og:url" content="http://bodong.ch//blog/2013/02/26/demo-of-using-twitter-hashtag-analytics-package-to-analyze-tweets-from-lak13.html" >
+  <meta property="og:type" content="blog" />
+  <meta property="article:published_time" content="2013-02-26T00:00:00-06:00">
+
+  <link rel="canonical" href="http://bodong.ch//blog/2013/02/26/demo-of-using-twitter-hashtag-analytics-package-to-analyze-tweets-from-lak13.html"/>
+  <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/png"/>
+  <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Linux+Libertine:400,400i,700,700i/Open+Sans:400,400i,700,700i">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+  <link rel="stylesheet" type="text/css" media="print" href="/css/print.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="/css/custom.css" />
+</head>
+
+  <body itemscope itemtype="http://schema.org/Article">
+    <!-- header start -->
+
+<a href="http://bodong.ch/" class="logo-readium"><span class="logo" style="background-image: url(/assets/images/df_logo.png)"></span></a>
+
+<!-- header end -->
+
+    <main class="content" role="main">
+      <article class="post">
+        
+        <div class="noarticleimage">
+          <div class="post-meta">
+            <h1 class="post-title">Demo of Using twitter-hashtag-analytics to Analyze Tweets from #LAK13</h1>
+            <div class="cf post-meta-text">
+              <div class="author-image" style="background-image: url(/assets/images/author.jpg)">Blog Logo</div>
+              <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person"></h4>
+              on
+              <time datetime="2013-02-26T00:00:00-06:00">26 Feb 2013</time>
+              
+                <a class="tag_list_link" href="/tag/r">r</a>
+              
+                <a class="tag_list_link" href="/tag/text mining">text mining</a>
+              
+                <a class="tag_list_link" href="/tag/twitter">twitter</a>
+              
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        
+        <section class="post-content">
+          <div class="post-reading">
+            <span class="post-reading-time"></span> read
+          </div>
+          <a name="topofpage"></a>
+          <p>Building on <a href="https://github.com/benmarwick/AAA2011-Tweets">Ben Marwick</a>,
+<a href="http://mashe.hawksey.info/2012/01/tags-r/">Martin Hawksey</a> and <a href="http://blog.ouseful.info/2012/01/21/a-quick-view-over-a-mashe-google-spreadsheet-twitter-archive-of-ukgc2012-tweets/">Tony
+Hirst</a>’s
+work on analyzing tweets with R, I started an R project for tweet
+analysis, namely
+<a href="https://github.com/dirkchen/twitter-hashtag-analytics">twitter-hashtag-analytics</a>.
+This project is hosted on Github and welcomes anyone who’s interested to
+contribute. It is my very first attempt to write a package in R, so I
+admit the capabilities of it is still limited and its structure may be
+not properly planned. Any advice will be highly appreciated.</p>
+
+<p>This demo, drafted with <a href="http://yihui.name/knitr/">knitr</a>, aims to show
+the functionality of
+<a href="https://github.com/dirkchen/twitter-hashtag-analytics">twitter-hashtag-analytics</a>
+and also available on Github. It will evlove along with this project</p>
+
+<h2 id="data-preparation">Data Preparation</h2>
+
+<p>Before starting to analyze tweets, we will first load a few source files
+(libraries) in this project.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code># check working directory
+getwd()
+
+# note that Knitr automatically sets wd to where the Rmd file is.  so if
+# you wish to run code line-by-line, you should setwd mannually.
+# setwd('/home/bodong/src/r/twitter-analytics/twitter-hashtag-analytics')
+
+# load source files
+source("get_tweets.R")
+source("munge_tweets.R")
+source("utilities.R")
+</code></pre>
+</div>
+
+<p>Then we can retrieve a Twitter hashtag dataset by searching through
+Twitter API. Two other methods of retriving tweets implemented in this
+project so far include <strong>retriving from Google Spreadsheet archives</strong>
+(see <a href="http://mashe.hawksey.info/2013/02/twitter-archive-tagsv5/">here</a>)
+and <strong>reading directly from a CSV file</strong>.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code># get tweets by search
+# this function is defined in get_tweets.R
+df &lt;- GetTweetsBySearch('#LAK13')
+
+# save or load data (so you can reuse data rather than search all the time)
+save(df, file="./data/df.Rda")
+# load("./data/df.Rda")
+</code></pre>
+</div>
+
+<p>This dataset contains 108 tweets posted by 52 unique Twitter users
+between 2013-02-19 and 2013-02-26.</p>
+
+<p>Because tweet information retrieved through twitteR is kind of limited
+(see its <a href="http://cran.r-project.org/web/packages/twitteR/index.html">reference
+manual</a>, p.
+11), we need to extract user information, such as <code class="highlighter-rouge">reply_to_user</code> and
+<code class="highlighter-rouge">retweet_from_user</code>, mannually from each tweet. At the same time, the
+names of metadata in twitteR are quite different from those used in the
+official Twitter API, the following <code class="highlighter-rouge">PreprocessTweets</code> function in
+<code class="highlighter-rouge">munge_tweets.R</code> also renames some attributes of tweets. Moreover, the
+<code class="highlighter-rouge">PreprocessTweets</code> function also trims urls in tweets and put them in a
+new column named <code class="highlighter-rouge">links</code>.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code># preprocessing
+df &lt;- PreprocessTweets(df)
+
+# structure of df
+str(df)
+
+## 'data.frame':    108 obs. of  14 variables:
+##  $ text        : chr  "Introducing Drake, a kind of 'make for data' from @factual:  #lak13" "Getting more excited about pandas as i see it used RT @cteplovs: Using the pandas data analysis toolkit ...:  #lak13" "Ryan Baker's talk on Educational Datamining at #lak13 was very interesting. I think the topic fits best with what I'm doing now"| __truncated__ "RT @sbskmi: #LearningAnalytics tutorials + practicals in #lak13 open course: Tableau, R + Evidence Hub " ...
+##  $ favorited   : logi  FALSE FALSE FALSE FALSE FALSE FALSE ...
+##  $ replyToSN   : logi  NA NA NA NA NA NA ...
+##  $ created_at  : POSIXct, format: "2013-02-26 19:35:58" "2013-02-26 19:10:04" ...
+##  $ truncated   : logi  FALSE FALSE FALSE FALSE FALSE FALSE ...
+##  $ replyToSID  : chr  NA NA NA NA ...
+##  $ id          : chr  "306487793666891776" "306481273315135489" "306479634164363264" "306479439598989312" ...
+##  $ replyToUID  : logi  NA NA NA NA NA NA ...
+##  $ statusSource: chr  "&amp;lt;a href=&amp;quot;http://www.tweetdeck.com&amp;quot;&amp;gt;TweetDeck&amp;lt;/a&amp;gt;" "&amp;lt;a href=&amp;quot;http://www.tweetdeck.com&amp;quot;&amp;gt;TweetDeck&amp;lt;/a&amp;gt;" "&amp;lt;a href=&amp;quot;http://www.tweetdeck.com&amp;quot;&amp;gt;TweetDeck&amp;lt;/a&amp;gt;" "&amp;lt;a href=&amp;quot;http://twitter.com/&amp;quot;&amp;gt;web&amp;lt;/a&amp;gt;" ...
+##  $ screen_name : chr  "cteplovs" "cab938" "cbokhove" "dgasevic" ...
+##  $ from_user   : chr  "cteplovs" "cab938" "cbokhove" "dgasevic" ...
+##  $ reply_to    : chr  NA NA NA NA ...
+##  $ retweet_from: chr  NA NA NA "sbskmi" ...
+##  $ links       : chr  "http://t.co/H6kJET9w2t" "http://t.co/Z0MKo85qqR" NA "http://t.co/baQ8yNlZqV" ...
+</code></pre>
+</div>
+
+<h2 id="start-from-easy-stuff-count-things">Start from Easy Stuff: Count Things</h2>
+
+<h3 id="count-tweets-retweets-by-and-replies-to-for-each-user">Count tweets, retweets (by), and replies (to) for each user</h3>
+
+<p>Regular statuses, retweets, and replies are three main types of tweets
+we analyze. The <code class="highlighter-rouge">GetTweetCountTable</code> function can easily count total
+tweets sent by a user, times of retweeting by other users, and number of
+replies a user has received.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>require(ggplot2)
+require(reshape2)
+
+# Count tables
+countTweets &lt;- GetTweetCountTable(df, "from_user")
+countRetweets &lt;- GetTweetCountTable(df, "retweet_from")
+countReplies &lt;- GetTweetCountTable(df, "reply_to")
+
+# quickly check distribution of tweets per user
+qplot(countTweets$count, binwidth = 1, xlab = "Number of Tweets")
+</code></pre>
+</div>
+
+<p><img src="https://dl.dropbox.com/u/7599158/wp/figure/counttables1.png" alt="plot of chunk
+counttables" /></p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code># combine counts into one data frame
+counts &lt;- merge(countTweets, countRetweets, by = "user", all.x = TRUE)
+counts &lt;- merge(counts, countReplies, by = "user", all.x = TRUE)
+colnames(counts) &lt;- c("user", "tweets", "replied_to", "retweeted_by")
+counts[is.na(counts)] &lt;- 0
+
+# melt data
+counts.melt &lt;- melt(counts, id.vars = c("user"))
+
+# plot (Cleveland dot plot)
+ggplot(counts.melt, aes(x = user, y = value, color = variable)) + geom_point() +
+    coord_flip() + ggtitle("Counts of tweets, retweets, and messages") + xlab("Counts") +
+    ylab("Users")
+</code></pre>
+</div>
+
+<p><img src="https://dl.dropbox.com/u/7599158/wp/figure/counttables2.png" alt="plot of chunk
+counttables" /></p>
+
+<h3 id="ratio-of-retweets-to-tweets">Ratio of retweets to tweets</h3>
+
+<p>To get a sense how received or valued one’s tweets were within the
+community, we can further count the ratio of being retweeted by other
+users to sent tweets.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code># create new column 'ratio'
+counts$ratio &lt;- counts$retweeted_by/counts$tweets
+
+# plot ratio for users who have at least one rt
+ggplot(counts[counts$retweeted_by &gt; 0, ], aes(x = reorder(user, ratio), y = ratio)) +
+    geom_point() + coord_flip() + ggtitle("Ratio of retweets to tweets") + xlab("Users") +
+    ylab("Retweets/Tweets ratio")
+</code></pre>
+</div>
+
+<p><img src="https://dl.dropbox.com/u/7599158/wp/figure/ratio.png" alt="plot of chunk
+ratio" /></p>
+
+<h3 id="count-urls">Count URLs</h3>
+
+<p>URLs embedded in tweets are important because they usually link to
+important resources that are of interest to this community.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code># count links
+countLinks &lt;- GetTweetCountTable(df, "links")
+names(countLinks)[1] &lt;- "url"
+
+# check top links
+head(countLinks[with(countLinks, order(-count)), ])
+
+##                       url count
+## 1   https://t.co/1hj1FrD8    13
+## 2   https://t.co/8Di8QcKz     7
+## 3   https://t.co/cg9ItFZt     6
+## 4 https://t.co/EgtjcKoU6a     4
+## 5 https://t.co/jscpxQpfNA     3
+## 6 https://t.co/LnZsOCNFNs     2
+
+
+# plot to see distribution of links
+ggplot(countLinks[countLinks$count &gt; 1, ], aes(reorder(url, count), count)) +
+    geom_point() + coord_flip() + xlab("URL") + ylab("Number of messages containing the URL")
+</code></pre>
+</div>
+
+<p><img src="https://dl.dropbox.com/u/7599158/wp/figure/counturls.png" alt="plot of chunk
+counturls" /></p>
+
+<h2 id="social-network-analysis-sna">Social Network Analysis (SNA)</h2>
+
+<h3 id="visualize-social-networks">Visualize social networks</h3>
+
+<p>An archived tweet dataset contains <code class="highlighter-rouge">retweeting</code> and <code class="highlighter-rouge">replying</code> as two
+main type of links among users. Some studies looks into <code class="highlighter-rouge">following</code>
+relations, which require further queries to Twitter. So in this demo, we
+focus on <code class="highlighter-rouge">retweeting</code> and <code class="highlighter-rouge">replying</code> links.</p>
+
+<p>The <code class="highlighter-rouge">CreateSNADataFrame</code> function in <code class="highlighter-rouge">social_analysis.R</code> provides an
+easy way to create a data frame containing all edges of the requested
+social network. With created edges, we can easily create an SNA graph
+and visualize it with packages like <code class="highlighter-rouge">igraph</code> and <code class="highlighter-rouge">sna</code>.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code># load source file first
+source("social_analysis.R")
+
+# create data frame
+rt.df &lt;- CreateSNADataFrame(df, from = "from_user", to = "retweet_from", linkNames = "rt")
+rp.df &lt;- CreateSNADataFrame(df, from = "from_user", to = "reply_to", linkNames = "rp")
+
+# begin social network analysis plotting
+require(igraph)
+require(sna)
+require(Matrix)
+require(SparseM)
+
+# create graph data frame (igraph)
+g &lt;- graph.data.frame(rt.df, directed = TRUE)
+
+# plot with igraph (quick and dirty)
+plot.igraph(g)
+</code></pre>
+</div>
+
+<p><img src="https://dl.dropbox.com/u/7599158/wp/figure/sna1.png" alt="plot of chunk
+sna" /></p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code># plot with sna get adjacency matrix
+mat &lt;- get.adjacency(g)
+# convert to csr matrix provided by SparseM ref:
+# http://cos.name/cn/topic/108758
+mat.csr &lt;- as.matrix.csr(mat, ncol = ncol(mat))
+
+# plot with sna
+gplot(mat.csr)
+</code></pre>
+</div>
+
+<p><img src="https://dl.dropbox.com/u/7599158/wp/figure/sna2.png" alt="plot of chunk
+sna" /></p>
+
+<h3 id="basic-sna-measures">Basic SNA measures</h3>
+
+<p>We can further compute some basic SNA measures. For instance, density of
+this network is 0.027, reciprocity of users in the network is 0.9488,
+and degree centralization of this network is 0.2425. These measures are
+calculated as below.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code># density
+gden(mat.csr)
+
+## [1] 0.02703
+
+
+# reciprocity
+grecip(mat.csr)
+
+##    Mut
+## 0.9488
+
+
+# centralization
+centralization(mat.csr, sna::degree)
+
+## [1] 0.2425
+</code></pre>
+</div>
+
+<h3 id="community-detection">Community detection</h3>
+
+<p>A regular task in SNA is to identify communities in a network. We can do
+it through the <code class="highlighter-rouge">walktrap.community</code> function in <code class="highlighter-rouge">igraph</code> package.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>g.wc &lt;- walktrap.community(g, steps = 1000, modularity = TRUE)
+
+# number of communities
+length(g.wc)
+
+## [1] 7
+
+# sizes of communities
+sizes(g.wc)
+
+## Community sizes
+##  1  2  3  4  5  6  7
+##  3  5 23  2  2  2  1
+
+# plot
+plot(as.dendrogram(g.wc))
+</code></pre>
+</div>
+
+<p><img src="https://dl.dropbox.com/u/7599158/wp/figure/detectcommunity.png" alt="plot of chunk
+detectcommunity" /></p>
+
+<p>We have detected 7 communities in this network. The largest community
+contains 44.231% of all users in this dataset.</p>
+
+<h3 id="univariate-conditional-uniform-graph-tests">Univariate Conditional Uniform Graph Tests</h3>
+
+<p>In network analysis, people do types of tests to check whether some
+aspects of a network are <em>unusual</em>. We can do such tests, namely
+<em>conditional uniform graph tests</em>, through the <code class="highlighter-rouge">cug.test</code> function in
+the <code class="highlighter-rouge">sna</code> package. Further information about these tests can be found
+<a href="http://artax.karlin.mff.cuni.cz/r-help/library/sna/html/cug.test.html">here</a>.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code># density
+cug.gden &lt;- cug.test(mat.csr, gden)
+plot(cug.gden)
+</code></pre>
+</div>
+
+<p><img src="https://dl.dropbox.com/u/7599158/wp/figure/cug1.png" alt="plot of chunk
+cug" /></p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>range(cug.gden$rep.stat)
+
+## [1] 0.4531 0.5405
+
+
+# reciprocity
+cug.recip &lt;- cug.test(mat.csr, grecip)
+plot(cug.recip)
+</code></pre>
+</div>
+
+<p><img src="https://dl.dropbox.com/u/7599158/wp/figure/cug2.png" alt="plot of chunk
+cug" /></p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>range(cug.recip$rep.stat)
+
+## [1] 0.4495 0.5633
+
+
+# transistivity
+cug.gtrans &lt;- cug.test(mat.csr, gtrans)
+plot(cug.gtrans)
+</code></pre>
+</div>
+
+<p><img src="https://dl.dropbox.com/u/7599158/wp/figure/cug3.png" alt="plot of chunk
+cug" /></p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>range(cug.gtrans$rep.stat)
+
+## [1] 0.4537 0.5433
+
+
+# centralisation
+cug.cent &lt;- cug.test(mat.csr, centralization, FUN.arg = list(FUN = degree))
+plot(cug.cent)
+</code></pre>
+</div>
+
+<p><img src="https://dl.dropbox.com/u/7599158/wp/figure/cug4.png" alt="plot of chunk
+cug" /></p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>range(cug.cent$rep.stat)
+
+## [1] 0.06156 0.22372
+</code></pre>
+</div>
+
+<h2 id="semantic-analysis">Semantic Analysis</h2>
+
+<h3 id="words">Words</h3>
+
+<p>Firstly, make a word cloud.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code># load source file first
+source("semantic_analysis.R")
+
+# construct corpus, with regular preprocessing performed
+corpus &lt;- ConstructCorpus(df$text, removeTags = TRUE, removeUsers = TRUE)
+
+# make a word cloud
+MakeWordCloud(corpus)
+</code></pre>
+</div>
+
+<p><img src="https://dl.dropbox.com/u/7599158/wp/figure/wordcloud.png" alt="plot of chunk
+wordcloud" /></p>
+
+<p>This task first uses <code class="highlighter-rouge">ConstructCorpus</code> in <code class="highlighter-rouge">semantic_analysis.R</code> to
+create a text corpus, and then uses <code class="highlighter-rouge">MakeWordCloud</code> to make a word
+cloud. Please note that <code class="highlighter-rouge">ConstructCorpus</code> provides a number of options
+such as whether to remove hashtags (#tag) or users (@user) embedded in
+tweets.</p>
+
+<p>Next we are going to create a term-document matrix for some quick
+similarity computation.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code># create a term document matrix only keep tokens longer than three
+# characters
+td.mat &lt;- TermDocumentMatrix(corpus, control = list(minWordLength = 3))
+# have a quick look
+td.mat
+
+## A term-document matrix (292 terms, 108 documents)
+##
+## Non-/sparse entries: 746/30790
+## Sparsity           : 98%
+## Maximal term length: 17
+## Weighting          : term frequency (tf)
+
+
+# frequent words
+findFreqTerms(td.mat, lowfreq = 10)
+
+##  [1] "activity"   "analytics"  "analyzing"  "canvas"     "capturing"
+##  [6] "data"       "discussion" "feedback"   "fritz"      "john"
+## [11] "join"       "learning"   "min"        "network"    "peer"
+## [16] "recipes"    "scale"      "tools"      "using"
+
+
+# find related words of a word
+findAssocs(td.mat, "learning", 0.5)
+
+##       min analytics  feedback     fritz      peer     scale      join
+##      0.74      0.72      0.66      0.66      0.66      0.66      0.62
+##     using
+##      0.59
+</code></pre>
+</div>
+
+<p>For more advanced similarity computation among documents and terms, I am
+considering adding Latent Semantic Analysis (LSA) capability into this
+package in the future.</p>
+
+<h3 id="topic-modelling-with-latent-dirichlet-allocation-lda">Topic modelling with Latent Dirichlet Allocation (LDA)</h3>
+
+<p>With the sparse term-document matrix created above, we can use the
+<code class="highlighter-rouge">TrainLDAModel</code> function in <code class="highlighter-rouge">semantic_analysis.R</code> to train a LDA model.
+(Note: I don’t understand all of steps in the code in <code class="highlighter-rouge">TrainLDAModel</code>
+refactored from <a href="https://github.com/benmarwick/AAA2011-Tweets">Ben Marwick’s
+repo</a>. So please help to
+check it if you understand LDA.) This step may take a while depending on
+the size of the dataset.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code># timing start
+ptm &lt;- proc.time()
+
+# generate a LDA model
+lda &lt;- TrainLDAModel(td.mat)
+
+# time used
+proc.time() - ptm
+
+##    user  system elapsed
+##  143.25    0.02  143.78
+</code></pre>
+</div>
+
+<p>ThiS LDA model contains 25 topics. We can check keywords in each topic,
+get relevant topics of each tweet, and compute similarity scores among
+tweets based on topics they are related to.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code># get keywords for each topic
+lda_terms &lt;- get_terms(lda, 5)
+# look at the first 5 topics
+lda_terms[, 1:5]
+
+##      Topic 1       Topic 2     Topic 3     Topic 4     Topic 5
+## [1,] "data"        "example"   "john"      "data"      "activity"
+## [2,] "packages"    "students"  "research"  "available" "signals"
+## [3,] "scientist"   "analytics" "activity"  "example"   "collaborate"
+## [4,] "talk"        "engange"   "analyzing" "hub"       "est"
+## [5,] "educational" "learning"  "capturing" "maybe"     "hours"
+
+
+# gets topic numbers per document
+lda_topics &lt;- get_topics(lda, 5)
+# look at the first 10 documents
+lda_topics[, 1:10]
+
+##       1  2  3  4  5  6  7  8  9 10
+## [1,]  4 10  1 16 16 16 13 13 13 10
+## [2,] 14 13 24  1  1 23  4  4  4 19
+## [3,]  1 25  2  2  2  1 14 14 14  8
+## [4,]  2  1  3  3  3  2  2  2  2 18
+## [5,]  3 21  4  4  4  3  3  3  3 23
+
+
+# compute similarity between two documents
+CosineSimilarity(lda_topics[, 1], lda_topics[, 10])
+
+##        [,1]
+## [1,] 0.7508
+
+
+# computer a similarity matrix of documents
+sim.mat &lt;- sapply(1:ncol(lda_topics), function(i) {
+    sapply(1:ncol(lda_topics), function(j) CosineSimilarity(lda_topics[, i],
+        lda_topics[, j]))
+})
+
+# find most relevant tweets for a tweet
+index &lt;- 1
+ids &lt;- which(sim.mat[, index] &gt; quantile(sim.mat[, index], 0.9))
+sim.doc.df &lt;- data.frame(id = ids, sim = sim.mat[, index][ids])
+sim.doc.df &lt;- sim.doc.df[with(sim.doc.df, order(-sim)), ]
+# indices of most relevant tweets
+head(sim.doc.df$id)
+
+## [1]  1 54 59 45 61 17
+</code></pre>
+</div>
+
+<h3 id="sentiment-analysis">Sentiment Analysis</h3>
+
+<p>This project implements three methods (with one method that depends on
+<em>ViralHeat</em> not working) of analyzing sentiment of tweets. Let’s try
+function <code class="highlighter-rouge">ScoreSentiment</code> in <code class="highlighter-rouge">sentiment_analysis.R</code> implemented based on
+<a href="http://jeffreybreen.wordpress.com/2011/07/04/twitter-text-mining-r-slides/">this
+post</a>.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code># compute sentiment scores for all tweets
+scores &lt;- ScoreSentiment(df$text, .progress = "text")
+
+# plot scores
+ggplot(scores, aes(x = score)) + geom_histogram(binwidth = 1) + xlab("Sentiment score") +
+    ylab("Frequency") + ggtitle("Sentiment Analysis of Tweets")
+</code></pre>
+</div>
+
+<p><img src="https://dl.dropbox.com/u/7599158/wp/figure/sentiment1.png" alt="plot of chunk
+sentiment" /></p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>scores &lt;- scores[with(scores, order(-score)), ]
+# check happy tweets
+as.character(head(scores$text, 3))
+# check unhappy tweets
+as.character(tail(scores$text, 3))
+
+# check sentiment scores of tweets containing certain words create subset
+# based on tweets with certain words, e.g., learning
+scores.sub &lt;- subset(scores, regexpr("learning", scores$text) &gt; 0)
+# plot histogram for this token
+ggplot(scores.sub, aes(x = score)) + geom_histogram(binwidth = 1) + xlab("Sentiment score for the token 'learning'") +
+    ylab("Frequency")
+</code></pre>
+</div>
+
+<p><img src="https://dl.dropbox.com/u/7599158/wp/figure/sentiment2.png" alt="plot of chunk
+sentiment" /></p>
+
+<p>Sentiment analysis with the <code class="highlighter-rouge">sentiment</code> package.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>scores2 &lt;- ScoreSentiment2(df$text)
+
+# plot scores. scale_x_log10 is used because the score is based on log
+# likelihood
+ggplot(scores2, aes(x = score)) + geom_histogram() + xlab("Sentiment score") +
+    ylab("Frequency") + ggtitle("Sentiment Analysis of Tweets") + scale_x_log10()
+</code></pre>
+</div>
+
+<p><img src="https://dl.dropbox.com/u/7599158/wp/figure/sentiment21.png" alt="plot of chunk
+sentiment2" /></p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code># plot emotion
+qplot(scores2$emotion)
+</code></pre>
+</div>
+
+<p><img src="https://dl.dropbox.com/u/7599158/wp/figure/sentiment22.png" alt="plot of chunk
+sentiment2" /></p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code># plot most likely sentiment category
+qplot(scores2$best_fit)
+</code></pre>
+</div>
+
+<p><img src="https://dl.dropbox.com/u/7599158/wp/figure/sentiment23.png" alt="plot of chunk
+sentiment2" /></p>
+
+<p>We can further check whether these two scores are correlated.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code># put them into one data frame
+scores3 &lt;- data.frame(score1 = scores$score, score2 = scores2$score)
+
+# scatterplot with regression line
+ggplot(scores3, aes(x = score1, y = score2)) + geom_point() + stat_smooth(method = "lm") +
+    xlab("Score by counting words") + ylab("Score from sentiment package")
+</code></pre>
+</div>
+
+<p><img src="https://dl.dropbox.com/u/7599158/wp/figure/sentimentcompare.png" alt="plot of chunk
+sentimentcompare" /></p>
+
+<p>Finally, this project is at its early stage. If you are interested,
+check out
+this <a href="https://github.com/dirkchen/twitter-hashtag-analytics">twitter-hashtag-analytics</a> repo
+on Github.</p>
+
+<p><strong>Update</strong>: Since I got a lot of emails about the post, I want to point
+out that I have converted most of the work here into a Shiny app, and
+you can find an updated version of the code in <a href="https://github.com/dirkchen/twitterytics-shiny">this
+“twitterytics-shiny” Github
+repo</a>.</p>
+
+        </section>
+        <footer class="post-footer">
+          <section class="share">
+            
+              
+                <a class="icon-twitter" href="http://twitter.com/share?text=Demo+of+Using+twitter-hashtag-analytics+to+Analyze+Tweets+from+%23LAK13&amp;url=http://bodong.ch//blog/2013/02/26/demo-of-using-twitter-hashtag-analytics-package-to-analyze-tweets-from-lak13"
+                  onclick="window.open(this.href, 'twitter-share', 'width=550,height=255');return false;">
+                <i class="fa fa-twitter"></i><span class="hidden">twitter</span>
+                </a>
+              
+            
+              
+            
+          </section>
+        </footer>
+        <div class="bottom-teaser cf">
+          <div class="isLeft">
+            <h5 class="index-headline featured"><span>Written by</span></h5>
+            <section class="author">
+              <div class="author-image" style="background-image: url(/assets/images/author.jpg)">Blog Logo</div>
+              <h4>Bodong Chen</h4>
+              <p class="bio"></p>
+              <hr>
+              <p class="published">Published <time datetime="2013-02-26 00:00">26 Feb 2013</time></p>
+            </section>
+          </div>
+          <div class="isRight">
+            <h5 class="index-headline featured"><span>Supported by</span></h5>
+            <footer class="site-footer">
+              <section class="poweredby">Proudly published with <a href="http://jekyllrb.com"> Jekyll</a></section>
+              <a class="subscribe" href="/feed.xml"> <span class="tooltip"> <i class="fa fa-rss"></i> You should subscribe to my feed.</span></a>
+              <div class="inner">
+                <section class="copyright">All content copyright <a href="http://bodong.ch//">Bodong Chen</a> &copy; 2018<br>All rights reserved.</section>
+              </div>
+            </footer>
+          </div>
+        </div>
+        
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'meefen'; // required: replace example with your forum shortname
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        
+      </article>
+    </main>
+    <div class="bottom-closer">
+      <div class="background-closer-image"  style="background-image: url(/assets/images/delicate-arch-night-stars-landscape.jpg)">
+        Image
+      </div>
+      <div class="inner">
+        <h1 class="blog-title">Crisscross Landscapes</h1>
+        <h2 class="blog-description">Bodong Chen, University of Minnesota
+</h2>
+        <a href="/" class="btn">Back to Home</a>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="/assets/js/index.js"></script>
+<script type="text/javascript" src="/assets/js/readingTime.min.js"></script>
+<script>
+(function ($) {
+  "use strict";
+  $(document).ready(function(){
+
+    var $window = $(window),
+    $image = $('.post-image-image, .teaserimage-image');
+
+      $window.on('scroll', function() {
+        var top = $window.scrollTop();
+
+        if (top < 0 || top > 1500) { return; }
+        $image
+          .css('transform', 'translate3d(0px, '+top/3+'px, 0px)')
+          .css('opacity', 1-Math.max(top/700, 0));
+      });
+      $window.trigger('scroll');
+
+      var height = $('.article-image').height();
+      $('.post-content').css('padding-top', height + 'px');
+
+      $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+         && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html,body').animate({ scrollTop: target.offset().top }, 500);
+            return false;
+          }
+        }
+      });
+
+  });
+}(jQuery));
+</script>
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50108133-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+  </body>
+</html>

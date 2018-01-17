@@ -1,0 +1,138 @@
+/* Hanging indent */
+.home-news ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 4em;
+  text-indent: -4em;
+}
+
+.home-news em {
+  color:#ccc;
+}
+
+/* Tags, added by Bodong*/
+
+a.tag_list_link{
+  border-left: 1px solid #ccc;
+  color:#888;
+  font-size:23px;
+  font-variant:small-caps;
+  margin:0;
+  padding: 0 6px;
+  text-transform:lowercase;
+  background-color: rgba(48,156,64,0.25);
+  color: rgba(48,156,64,1);
+}
+a.tag_list_link:first-child{
+  border:0
+}
+a.tag_list_link:hover{
+  color:#444;
+}
+
+a.category_list_link{
+  border-left: 1px solid #ccc;
+  color:#888;
+  font-size:23px;
+  font-variant:small-caps;
+  margin:0;
+  padding: 0 6px;
+  text-transform:lowercase;
+  background-color: rgba(0,151,142,0.25);
+  color: rgba(0,151,142,1);
+}
+a.category_list_link:first-child{
+  border:0
+}
+a.category_list_link:hover{
+  color:#444;
+}
+
+ul.tags li{
+  border-left:1px solid #ccc;
+  display:inline;
+  list-style:none;
+  margin:0;
+  padding:0 8px;
+  position:relative;
+}
+ul.tags li:first-child{
+  border:0;
+  padding-left:0
+}
+li.tag_list_item{
+  line-height:1;
+  list-style:none;
+  margin:0;
+}
+
+ul.tag_list_in_post{
+  border-left:1px solid #bbb;
+  display:inline;
+  margin-left:15px;
+  padding:0 0 0 10px;
+}
+
+ul.tags{
+  float:right;
+  width:280px
+}
+ul.tag_list{
+  margin-left:12px;
+  padding-bottom:10px;
+  margin-bottom:0px;
+}
+
+/*Tag cloud*/
+a.tag_cloud_link{
+  border-left: 1px solid #ccc;
+  color:#888;
+  font-variant:small-caps;
+  margin:0;
+  padding: 0 6px;
+  text-transform:lowercase;
+  background-color: rgba(48,156,64,0.25);
+  color: rgba(48,156,64,1);
+}
+a.tag_cloud_link:first-child{
+  border:0
+}
+a.tag_cloud_link:hover{
+  color:#444;
+}
+
+ul.tag_cloud{
+  padding-bottom:20px;
+}
+
+li.tag_cloud_list{
+  list-style:none;
+  margin:0;
+  padding-bottom:10px;
+  padding-left:10px;
+}
+
+/* Archive list, used by blog post archive and notes archive */
+
+li.archive_list{
+  list-style:none;
+  margin:0;
+  padding-bottom:10px;
+  padding-top:0px;
+  padding-left:50px;
+  text-indent:-50px
+}
+li.inline{
+  display:inline
+}
+p.summary{
+  color:#444;
+  font-size:18px;
+  line-height:1.2;
+  padding:5px 0 5px 8px;
+  text-indent:0px;
+  margin-bottom: 0px;
+}
+a.archive_list_article_link {
+  font-size:18px;
+}

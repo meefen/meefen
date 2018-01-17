@@ -1,0 +1,1622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Crisscross Landscapes</title>
+    <description>Bodong Chen, University of Minnesota
+</description>
+    <link>http://bodong.ch//</link>
+    <atom:link href="http://bodong.ch//feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 17 Jan 2018 12:54:21 -0600</pubDate>
+    <lastBuildDate>Wed, 17 Jan 2018 12:54:21 -0600</lastBuildDate>
+    <generator>Jekyll v3.5.2</generator>
+    
+      <item>
+        <title>Notes: Suthers2015-vf: From contingencies to network-level phenomena</title>
+        <description>&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Citekey&lt;/strong&gt;: @Suthers2015-vf&lt;/p&gt;
+
+&lt;p&gt;Suthers, D. (2015). From contingencies to network-level phenomena: multilevel analysis of activity and actors in heterogeneous networked learning environments. In Proceedings of the Fifth International Conference on Learning Analytics And Knowledge (pp. 368–377). ACM. https://doi.org/10.1145/2723576.2723626&lt;/p&gt;
+
+&lt;h2 id=&quot;notes&quot;&gt;Notes&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Summarize&lt;/em&gt;: Introduces the Traces framework coming out of Suthers’ years of work in CSCL and learning analytics.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Reflect&lt;/em&gt;: This paper and the Traces framework are super relevant to my current thinking on multidimensional network analysis.&lt;/p&gt;
+
+&lt;h2 id=&quot;highlights&quot;&gt;Highlights&lt;/h2&gt;
+
+&lt;p&gt;vary in the agent of learning (e.g., individual, small group, network or community), and in the process of learning [34] (e.g., information transfer or knowledge communication [6], intersubjective meaning-making such as argumentation and co-construction [2, 33], shifts in participation and identity [17, 27], and accretion of cultural capital [30]). (p. 1)&lt;/p&gt;
+
+&lt;p&gt;The purpose of the paper is twofold: to summarize the current version of this framework, called Traces, and to illustrate its relevance to practitioners via an envisioned “activity reporter”. (p. 1)&lt;/p&gt;
+
+&lt;p&gt;In these environments, learning is distributed across time and virtual place (media), and learners may participate in multiple settings. We focus on networked learning environments (NLE)2, which we define to include any socio-technical network that involves (p. 1)&lt;/p&gt;
+
+&lt;p&gt;The framework is motivated by a view of learning as a complex and multilevel phenomenon. (p. 1)&lt;/p&gt;
+
+&lt;p&gt;mediated interaction between participants (hence “networked”) in which learning might take plac (p. 2)&lt;/p&gt;
+
+&lt;p&gt;Three kinds of graphs model interaction: Contingency graphs record how events such as chatting or posting a message are observably related to prior events by temporal and spatial proximity and by content. Uptake graphs aggregate the multiple contingencies between each pair of events to model how each given act may be “taking up” prior acts. Session graphs are abstractions of uptake graphs: they cluster events into spatio- temporal sessions with uptake relationships between sessions. Relationships between actors and artifacts are abstracted from interaction graphs to obtain associograms [38, 40], which can be folded into traditional sociograms. (p. 2)&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Traces Analytic Framework (p. 2)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;the theory [15, 34] and analytic representations [37, 40] behind this work. (p. 2)&lt;/p&gt;
+
+&lt;p&gt;The representations used at various levels of analysis are shown schematically in Figure 1 (next page): micro- relations between situated acts by participants are identified and then aggregated into interactional relations, and further aggregated into network level phenomena. (p. 2)&lt;/p&gt;
+
+&lt;p&gt;These are parsed using methods that are necessarily system-specific into an event stream, shown in the second level (boxes in Figure 1b). The event representation includes their time, location, event type, actor, and content or media object where relevant. (p. 2)&lt;/p&gt;
+
+&lt;p&gt;3.1 Contingency Graph (p. 2)&lt;/p&gt;
+
+&lt;p&gt;At this level of abstraction (Figure 1b), we compute contingencies between events, to produce a model of how acts are mutually contextualized (shown as arrows). (p. 2)&lt;/p&gt;
+
+&lt;p&gt;A contingency called proximal event (PE) reflects the likelihood that events occurring close together in time and space are related. (p. 3)&lt;/p&gt;
+
+&lt;p&gt;The resulting contingency graph (e.g., Figure 1b) is represented as the first layer of abstraction in what we call an Entity-Event- Contingency graph or EEC [37]. In the EEC graph, vertices are Events. These can be of various types (e.g., enter chat, exit chat, chat contribution), and are annotated with time stamps, actors, content (e.g., chat content), and locations (e.g., chat rooms) involved in the event. Contingencies are typed edges between vertices (the types were described in the previous paragraph), and there may be multiple edges between any two vertices (e.g., two proximal events by the same actor with lexical overlap will have at least three contingencies between them). (p. 3)&lt;/p&gt;
+
+&lt;p&gt;Address (ADR) and reply (RPL) contingencies are installed between an utterance mentioning a user by name and the last contribution (ADR) and next contribution (RPL) by that participant within a time window, using a parser/matcher of user IDs to first names. (p. 3)&lt;/p&gt;
+
+&lt;p&gt;3.2 Uptake Graph (p. 3)&lt;/p&gt;
+
+&lt;p&gt;Same actor contingencies (SA) are installed to prior acts of a participant over a larger time window to reflect the continuity of an agent’s purpose. (p. 3)&lt;/p&gt;
+
+&lt;p&gt;It is necessary to collapse the multiple edges between vertices into single edges for two reasons. First, most graph algorithms assume that there is at most only one edge between two vertices. Second, we are interested in uptake, the relationship between events in which a human action takes up some aspects of prior events as being significant in some manner [37]. (p. 3)&lt;/p&gt;
+
+&lt;p&gt;Overlap in content as represented by sets of lexical stems is used to produce a lexical contingency (LEX) weighted by the number of overlapping stems. (p. 3)&lt;/p&gt;
+
+&lt;p&gt;As shown in Figure 1c, uptake graphs are similar to contingency graphs in that they also relate events, but they collect together bundles of the various types of contingencies between a given pair of vertices into a single graph edge, weighted by a combination of the strength of evidence in the contingencies and optionally filtering out low-weighted bundles. (p. 4)&lt;/p&gt;
+
+&lt;p&gt;3.3 Sessions (p. 4)&lt;/p&gt;
+
+&lt;p&gt;Clusters of events in spatio-temporal proximity are computed to identify “ sessions” (indicated by rounded containers in Figure 1c). (p. 4)&lt;/p&gt;
+
+&lt;p&gt;For inter-session analysis, we collapse each session into a single vertex representing the session, but retain the inter-session uptake links. (p. 4)&lt;/p&gt;
+
+&lt;p&gt;3.5 Summary and Implementation (p. 4)&lt;/p&gt;
+
+&lt;p&gt;our framework provides multiple pathways for analysis. (p. 4)&lt;/p&gt;
+
+&lt;p&gt;For intra-session analysis, the uptake graph for a session is isolated. Several paths are possible from here. For example, the sequential structure of the interaction can be micro-analyzed to understand the development of group accomplishments: this part is not automated. Methods for graph structure analysis can be applied, such as cluster detection, analysis of graph motifs [20] that represent uptake patterns of interest, or tracing out thematic threads [41]. (p. 4)&lt;/p&gt;
+
+&lt;p&gt;3.4 Sociograms (p. 4)&lt;/p&gt;
+
+&lt;p&gt;Either within or across sessions, we can fold uptake graphs into actor-actor sociograms (directed weighted graphs, Figure 1d). The tie strength between actors is the sum of the strength of uptake between their contributions. These sociograms can be analyzed using conventional social network analysis methods such as degree or eigenvector centrality to identify key actors, etc. [22, 42]. (p. 4)&lt;/p&gt;
+
+&lt;p&gt;Another line of analysis not discussed in this paper is to fold events into actor-artifact networks, or bipartite weighted directed graphs that we call “associograms” for short, because they capture how actors are associated with each other via mutual read and write of media objects. In that line of work, we have undertaken community analysis of associograms to detect not only human participants in communities, but also the artifacts that reflect their mediated nature (e.g., synchronous or asynchronous) [38]. (p. 5)&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Examples: Periodic Activity/Actor Reports (p. 5)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;4.1.2 How are the sessions related? (p. 5)&lt;/p&gt;
+
+&lt;p&gt;4.4 How coherent are the sessions? (p. 7)&lt;/p&gt;
+
+&lt;p&gt;Here, “coherence” simply means continuity of uptake: it is not a value judgment on the quality of interaction, as there may have been several distinct yet high quality conversations in a space- time region. (p. 7)&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Future Work (p. 9)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The present implementation is research software, written to explore the range of analytic functionality enabled by the Traces framework. (p. 9)&lt;/p&gt;
+
+&lt;p&gt;The framework could be re-implemented to use current technologies and APIs. For example, the data import layer could utilize the TinCan API (tincanapi.com), which would make our framework applicable to a variety of platforms adhering to this standard and make it easier to write importers for other platforms in a less ad-hoc manner. We might replace our custom Hibernate graph persistence engine with Neo4j (neo4j.com), which has matured since we started this project. An analytic workbench such as [14] would increase usability for researchers. (p. 9)&lt;/p&gt;
+
+&lt;p&gt;[14] T. Hecking, S. Manske, L. Bollen, S. Govaerts, A. Vozniuk and H. U. Hoppe, A Flexible and Extendable Learning Analytics Infrastructure, in E. Popescu, R. H. Lau, K. Pata, H. Leung and M. Laanpere, eds., Advances in Web-Based Learning – ICWL 2014, Springer International Publishing, 2014, pp. 123-132. (p. 10)&lt;/p&gt;
+
+&lt;p&gt;[40] D. D. Suthers and D. Rosen, A unified framework for multi- level analysis of distributed learning in G. Conole, D. Gašević, P. Long and G. Siemens, eds., Proc. First International Conference on Learning Analytics &amp;amp; Knowledge, Banff, Alberta, February 27-March 1, 2011, ACM, New York, NY, 2011, pp. 64-74. (p. 10)&lt;/p&gt;
+</description>
+        <pubDate>Fri, 22 Dec 2017 00:00:00 -0600</pubDate>
+        <link>http://bodong.ch//notes/2017/12/22/Suthers2015-vf.html</link>
+        <guid isPermaLink="true">http://bodong.ch//notes/2017/12/22/Suthers2015-vf.html</guid>
+        
+        <category>learning analytics</category>
+        
+        <category>networked learning</category>
+        
+        
+        <category>notes</category>
+        
+      </item>
+    
+      <item>
+        <title>Web Annotation of Research Articles in Learning Sciences</title>
+        <description>&lt;p&gt;As a member of the Outreach Advisory Board of the &lt;a href=&quot;http://www.tandfonline.com/loi/hlns20&quot;&gt;Journal of the Learning Sciences (JLS)&lt;/a&gt;, I was really glad to see the journal putting together a web annotation event during December 11-22, 2017. This activity is yet another move made by the editorial team to engage its readership on various social media venues.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Coming Soon: Web annotation of JLS articles in Hypothes.is.&lt;br /&gt;The first article is a study by Akkerman and Bruining published in 2016 in Volume 25 (2).Read the full article at &lt;a href=&quot;https://t.co/tGoOiQKLUR&quot;&gt;https://t.co/tGoOiQKLUR&lt;/a&gt;  and visit &lt;a href=&quot;https://t.co/2dYOBe15L8&quot;&gt;https://t.co/2dYOBe15L8&lt;/a&gt;  for instructions for using &lt;a href=&quot;https://twitter.com/hypothes_is?ref_src=twsrc%5Etfw&quot;&gt;@hypothes_is&lt;/a&gt; &lt;a href=&quot;https://t.co/z5oSHleIKB&quot;&gt;pic.twitter.com/z5oSHleIKB&lt;/a&gt;&lt;/p&gt;&amp;mdash; JrnlLearningSciences (@JLearnSciences) &lt;a href=&quot;https://twitter.com/JLearnSciences/status/937719563390672896?ref_src=twsrc%5Etfw&quot;&gt;December 4, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;During this web annotation event, participants are invited to annotate a recently published open-access article, &lt;a href=&quot;http://www.tandfonline.com/doi/full/10.1080/10508406.2016.1147448&quot;&gt;&lt;em&gt;Multilevel Boundary Crossing in a Professional Development School Partnership&lt;/em&gt;&lt;/a&gt;, using an open web annotation tool named &lt;a href=&quot;https://hypothes.is/&quot;&gt;Hypothes.is&lt;/a&gt;. Hats off to the authors for their support of this event.&lt;/p&gt;
+
+&lt;p&gt;The editorial team has put together &lt;strong&gt;detailed instructions&lt;/strong&gt; in this &lt;a href=&quot;https://docs.google.com/presentation/d/1Cmoz22xEY8QjHBiYC-H2oU0YHJSTLCBhWelbusSXbKM/edit#slide=id.g2b48df0836_0_10&quot;&gt;Google presentation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;During and after the event, in addition to the Hypothes.is sidebar, a participant can either use &lt;a href=&quot;https://hypothes.is/search?q=url%3Ahttp%3A%2F%2Fwww.tandfonline.com%2Fdoi%2Ffull%2F10.1080%2F10508406.2016.1147448&quot;&gt;Hypothes.is’ advanced search functionality&lt;/a&gt; or &lt;a href=&quot;http://jonudell.net/h/facet.html?facet=uri&amp;amp;mode=documents&amp;amp;search=http://www.tandfonline.com/doi/full/10.1080/10508406.2016.1147448&quot;&gt;an aggregation tool&lt;/a&gt; to &lt;strong&gt;review existing annotations&lt;/strong&gt; made on this article.&lt;/p&gt;
+
+&lt;p&gt;I am excited for this move JLS is making, not only because &lt;strong&gt;scholarship could be more networked and discursive&lt;/strong&gt;, but also because I see great opportunities of using web annotation to bridge learning spaces in classrooms. To me, making an annotation is forming a relationship with an idea. As educators, &lt;strong&gt;we ought to think deeply and design smartly to value such relationships as students are traversing various treks of life&lt;/strong&gt;. See &lt;a href=&quot;https://cligr.github.io/projects/discow.html&quot;&gt;our ongoing NSF project&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 08 Dec 2017 00:00:00 -0600</pubDate>
+        <link>http://bodong.ch//blog/2017/12/08/jls-web-annotation.html</link>
+        <guid isPermaLink="true">http://bodong.ch//blog/2017/12/08/jls-web-annotation.html</guid>
+        
+        <category>web annotation</category>
+        
+        <category>networked scholarship</category>
+        
+        <category>featured</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>The Forest</title>
+        <description>&lt;p&gt;&lt;em&gt;(Photo Credit: &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Mordecai_MOREH_-_Tree_of_Knowledge_(Initiation).jpg&quot;&gt;Wikipedia&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The universe is expanding&lt;span style=&quot;color: white&quot;&gt;, but at what price.&lt;/span&gt;&lt;br /&gt;
+The Milky Way is a beauty&lt;span style=&quot;color: white&quot;&gt;, but at what price.&lt;/span&gt;&lt;br /&gt;
+The Sun is shining&lt;span style=&quot;color: white&quot;&gt;, but at what price.&lt;/span&gt;&lt;br /&gt;
+The Earth looks blue&lt;span style=&quot;color: white&quot;&gt;, but at what price.&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;All continents are moving&lt;span style=&quot;color: white&quot;&gt;, but at what price.&lt;/span&gt;&lt;br /&gt;
+Civilizations boom&lt;span style=&quot;color: white&quot;&gt;, but at what price.&lt;/span&gt;&lt;br /&gt;
+A wall defends ‘us’&lt;span style=&quot;color: white&quot;&gt;, but at what price.&lt;/span&gt;&lt;br /&gt;
+Pyramids are built tall&lt;span style=&quot;color: white&quot;&gt;, but at what price.&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Boats cross the ocean&lt;span style=&quot;color: white&quot;&gt;, but at what price.&lt;/span&gt;&lt;br /&gt;
+Nets get casted&lt;span style=&quot;color: white&quot;&gt;, but at what price.&lt;/span&gt;&lt;br /&gt;
+People dine and leave bones behind&lt;span style=&quot;color: white&quot;&gt;, but at what price.&lt;/span&gt;&lt;br /&gt;
+‘Research’ gets conducted&lt;span style=&quot;color: white&quot;&gt;, but at what price.&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;We Uber to the airport&lt;span style=&quot;color: white&quot;&gt;, but at what price.&lt;/span&gt;&lt;br /&gt;
+Google guides the way&lt;span style=&quot;color: white&quot;&gt;, but at what price.&lt;/span&gt;&lt;br /&gt;
+Peppa Pig speaks in the house&lt;span style=&quot;color: white&quot;&gt;, but at what price.&lt;/span&gt;&lt;br /&gt;
+A.I. is figuring things out&lt;span style=&quot;color: white&quot;&gt;, but at what price.&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Coffee smells delicious&lt;span style=&quot;color: white&quot;&gt;, but at what price.&lt;/span&gt;&lt;br /&gt;
+Muscles stretch to the cup&lt;span style=&quot;color: white&quot;&gt;, but at what price.&lt;/span&gt;&lt;br /&gt;
+Neurons are fired up&lt;span style=&quot;color: white&quot;&gt;, but at what price.&lt;/span&gt;&lt;br /&gt;
+Joy spills over&lt;span style=&quot;color: white&quot;&gt;, but at what price.&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Keys are stroked&lt;span style=&quot;color: white&quot;&gt;, but at what price.&lt;/span&gt;&lt;br /&gt;
+Bits get sent&lt;span style=&quot;color: white&quot;&gt;, but at what price.&lt;/span&gt;&lt;br /&gt;
+Photons dash through a fiber&lt;span style=&quot;color: white&quot;&gt;, but at what price.&lt;/span&gt;&lt;br /&gt;
+Particles become entangled&lt;span style=&quot;color: white&quot;&gt;, but at what price.&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;~ ~ ~ ~ ~ ~&lt;/p&gt;
+
+&lt;p&gt;A leave is dancing&lt;span style=&quot;color: white&quot;&gt;, but at what price.&lt;/span&gt;&lt;br /&gt;
+Stones get erected&lt;span style=&quot;color: white&quot;&gt;, but at what price.&lt;/span&gt;&lt;br /&gt;
+People are farming animals&lt;span style=&quot;color: white&quot;&gt;, but at what price.&lt;/span&gt;&lt;br /&gt;
+A king is crowned&lt;span style=&quot;color: white&quot;&gt;, but at what price.&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The statue is pushed over&lt;span style=&quot;color: white&quot;&gt;, but at what price.&lt;/span&gt;&lt;br /&gt;
+A wall falls down&lt;span style=&quot;color: white&quot;&gt;, but at what price.&lt;/span&gt;&lt;br /&gt;
+Another country rises&lt;span style=&quot;color: white&quot;&gt;, but at what price.&lt;/span&gt;&lt;br /&gt;
+Humans step on the moon&lt;span style=&quot;color: white&quot;&gt;, but at what price.&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Earth is half-dark&lt;span style=&quot;color: white&quot;&gt;, but at what price.&lt;/span&gt;&lt;br /&gt;
+The Sun has spots&lt;span style=&quot;color: white&quot;&gt;, but at what price.&lt;/span&gt;&lt;br /&gt;
+All stars are spinning in the ‘Dark Forest’&lt;span style=&quot;color: white&quot;&gt;, but at what price.&lt;/span&gt;&lt;br /&gt;
+Until the universe collapses&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Now, please hit Ctrl+A / Cmd+A and read again.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;P.S.: This is &lt;em&gt;not&lt;/em&gt; a poem. Just some musings translated to sentences.&lt;/p&gt;
+
+&lt;p&gt;Yours in struggle.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 13 Oct 2017 00:00:00 -0500</pubDate>
+        <link>http://bodong.ch//blog/2017/10/13/at-what-price.html</link>
+        <guid isPermaLink="true">http://bodong.ch//blog/2017/10/13/at-what-price.html</guid>
+        
+        <category>musing</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Notes: Lee2017-xm: Common Core State Standards for ELA/Literacy and Next Generation Science Standards</title>
+        <description>&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Citekey&lt;/strong&gt;: @Lee2017-xm&lt;/p&gt;
+
+&lt;p&gt;Lee, O. (2017). Common Core State Standards for ELA/Literacy and Next Generation Science Standards: Convergences and Discrepancies Using Argument as an Example. Educational Researcher , 46(2), 90–102. Retrieved from http://journals.sagepub.com/doi/abs/10.3102/0013189X17699172&lt;/p&gt;
+
+&lt;h2 id=&quot;notes&quot;&gt;Notes&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Summarize&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Assess&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Reflect&lt;/em&gt;:&lt;/p&gt;
+
+&lt;h2 id=&quot;highlights&quot;&gt;Highlights&lt;/h2&gt;
+
+&lt;p&gt;Unlike pre-CCSS standards developed within each subject area, the new standards highlight connections across subject areas (Stage, Asturias, Cheuk, Daro, &amp;amp; Hampton, 2013). (p. 1)&lt;/p&gt;
+
+&lt;p&gt;While ELA is traditionally associated with literary texts, the CCSS emphasize informational texts (Pearson, 2013) (p. 1)&lt;/p&gt;
+
+&lt;p&gt;Ms. Smith introduced a student writing assignment, which began with the prompt, “Write your opinion on . . . .” This caught my attention, as the use of opinion would be problematic in the science classroom. (p. 2)&lt;/p&gt;
+
+&lt;p&gt;The purpose of this article is to initiate a dialogue about the promise and challenge of implementing the CCSS and the NGSS in light of key convergences and discrepancies that appear across the two sets of standards. Specifically, I examine how the two sets of standards as policy documents address a foundational disciplinary practice: argument. (p. 2)&lt;/p&gt;
+
+&lt;p&gt;Research Literature on Argument in ELA/ Literacy and Science Education (p. 2)&lt;/p&gt;
+
+&lt;p&gt;The two terms can be defined to include both an individual or structural meaning and a social or dialogic meaning (Jiménez-Aleixandre &amp;amp; Erduran, 2007; McNeill, 2011). (p. 2)&lt;/p&gt;
+
+&lt;p&gt;Argument is typically defined as a product or structure based on Toulmin’s (1958) argument pattern consisting of data, claim, warrant, backing, and rebuttal. Argumentation is typically defined as a process or interactions between individuals exchanging evidence to convince each other of the validity of their claims. (p. 2)&lt;/p&gt;
+
+&lt;p&gt;My analysis focuses on how discipline-specific views of what counts as argument (i.e., disciplinary norms) and when develop- mentally argument is expected (i.e., developmental progressions) are reflected in each set of standards. As both sets of standards claim to be research based, I preface my analysis of the standards documents with a survey of relevant literature in ELA/literacy and science education with an attempt to identify conceptual sources of convergences and discrepancies between the two sets of standards. (p. 2)&lt;/p&gt;
+
+&lt;p&gt;Another important issue in ELA/literacy education (which is largely absent in science education literature) involves genres of communication (Gillespie, Olinghouse, &amp;amp; Graham, 2013; Klein &amp;amp; Rose, 2010). In the past, the focus has been on persuasion, for example, the NAEP framework’s focus on persuasive writing over the grades (NGA Center &amp;amp; CCSSO, 2010a). (p. 3)&lt;/p&gt;
+
+&lt;p&gt;owever, as one of the most important shifts in the CCSS involves an express emphasis on logical or evidence-based argument as opposed to persuasive argument (NGA Center &amp;amp; CCSSO, 2010b), (p. 3)&lt;/p&gt;
+
+&lt;p&gt;I would like to first make some general observations about the scope of the research literature on argument in ELA/literacy and science education. The literature is extensive in science edu- cation as argument is a major research program. Since 2000, sev- eral comprehensive reviews of literature address a range of topics related to argument (Bricker &amp;amp; Bell, 2008; Cavagnetto, 2010; Driver, Newton, &amp;amp; Osborne, 2000; Duschl, 2008; Ford, 2008; Manz, 2015; Sadler, 2004; Sampson &amp;amp; Clark, 2008). (p. 3)&lt;/p&gt;
+
+&lt;p&gt;Newell et al. (2011) state that “in con- trast to simply attempting to persuade someone to believe or do something, evidence-based argumentation involves making a claim supported by reasons or evidence from multiple sources that connects to the claims in a principled way” (p. 275) (p. 3)&lt;/p&gt;
+
+&lt;p&gt;In contrast, the literature on argument in ELA/lit- eracy education is limited, with one only major review by Newell, Beach, Smith, and VanDerHeide (2011). Newell et al. highlight that there is a “rather limited number of empirical studies of argu- mentative reading and writing in English language arts/reading” (p. 275). (p. 3)&lt;/p&gt;
+
+&lt;p&gt;modalities of communication, especially speaking ver- sus writing. Felton and Herko (2004) point out a gap between persuasive speaking versus writing. (p. 3)&lt;/p&gt;
+
+&lt;p&gt;In a similar manner, Bereiter and Scardamalia (1982; Scardamalia &amp;amp; Bereiter, 1986) point out that even though there are differences in children’s oral and written production of narration, there is an even greater difference in their ability to produce oral and writ- ten arguments in the absence of conversational partners. (p. 3)&lt;/p&gt;
+
+&lt;p&gt;Disciplinary Norms of Argument (p. 3)&lt;/p&gt;
+
+&lt;p&gt;even young children can produce arguments in writing as well as orally (D. D. Anderson, 2008; Riley &amp;amp; Reedy, 2005 (p. 3)&lt;/p&gt;
+
+&lt;p&gt;Newell et al. (2011) consider the contributions of two disciplinary perspectives in argumentative reading and writing. A cognitive perspective examines use of argument strategies (e.g., claim, evidence, rebuttal), whereas a social perspective focuses on how learners acquire social prac- tices through interactions in sociocultural contexts. (p. 3)&lt;/p&gt;
+
+&lt;p&gt;for reviews of a range of theoretical conceptualizations of argumentation, see Bricker &amp;amp; Bell, 2008 (p. 3)&lt;/p&gt;
+
+&lt;p&gt;Erduran, Simon, and Osborne (2004) used a simplified version of the model in which an argument was broken down into three com- ponents: (a) a claim (or conclusion), (b) the data (supporting the claim), and (c) a warrant linking the data to the claim. McNeill and Krajcik (2009) conceptualized these three com- ponents as a claim, evidence, and reasoning. (p. 3)&lt;/p&gt;
+
+&lt;p&gt;The second major issue involves argumentation as social prac- tices in the classroom community (see literature reviews by Cavagnetto, 2010; Ford, 2008; Manz, 2015; also see Engle, Langer- Osuna, &amp;amp; McKinney de Royston, 2014). (p. 4)&lt;/p&gt;
+
+&lt;p&gt;The third major issue involves argumentation as epistemic practices, which are defined as “those that ground authority for knowing in the discipline” (Manz, 2015, p. 553; also see reviews in Bricker &amp;amp; Bell, 2008; Ford &amp;amp; Forman, 2006). (p. 4)&lt;/p&gt;
+
+&lt;p&gt;The literature traditionally presupposes that elementary stu- dents are not capable of engaging in argumentation on the grounds it is too abstract for them and beyond their self-centered or egocentric view. (p. 4)&lt;/p&gt;
+
+&lt;p&gt;Extending argumentation as social practices to argumentation as epistemic practices, current research asserts that engaging students in doing what scientists do when they argue constitutes an initiation into scientific argumentation. However, there are differences in how scientists and students enact argumentation. (p. 4)&lt;/p&gt;
+
+&lt;p&gt;while elementary students have an understanding of narration, students across K–12 have difficulty with argument writing (Bereiter &amp;amp; Scardamalia, 1982; Scardamalia &amp;amp; Bereiter, 1986). (p. 4)&lt;/p&gt;
+
+&lt;p&gt;Developmental studies on argument writing across elementary, middle, and high school levels consistently indicate that elementary students were less effective in using claims, data, and warrants (Knudson, 1991, 1992; McCann, 1989) and taking alternative or audience perspectives (Ferretti, Lewis, &amp;amp; Andrews-Weckerly, 2009; Ferretti, MacArthur, &amp;amp; Dowdy, 2000; Golder &amp;amp; Coirier, 1994). (p. 4)&lt;/p&gt;
+
+&lt;p&gt;The fourth major issue involves the role of science content knowledge for argumentation. If students do not understand a given science concept, they are unable to construct a scientifically accurate claim related to that concept or justify that claim. Thus, the quality and accuracy of students’ argu- ments are influenced by both their understanding of the struc- ture of an argument and their knowledge of science content (McNeill, 2011; McNeill, Lizotte, Krajcik, &amp;amp; Marx, 2006; Sampson &amp;amp; Clark, 2008). (p. 4)&lt;/p&gt;
+
+&lt;p&gt;“While there is a significant body of literature on argument writing with older students . . . there is little attention to this issue in elementary school classrooms and a virtual invisibility of young children’s engagement with the genre” (Ghiso, 2015, p. 191), and “relatively few of the interven- tions reported on at the elementary level have focused on the evidence-based logical argumentation emphasized in the CCSS” (O’Hallaron, 2014, p. 305). (p. 4)&lt;/p&gt;
+
+&lt;p&gt;One significant line of research is that of R. C. Anderson and colleagues, who engage third-, fourth-, and fifth-grade students in “collaborative reasoning” designed to pro- mote argumentative discourse, reading, and writing (R. C. Anderson et al., 2001; Jadallah et al., 2011; Reznitskaya, Anderson, &amp;amp; Kuo, 2007; Zhang et al., 2016). (p. 4)&lt;/p&gt;
+
+&lt;p&gt;Developmental Progressions (p. 4)&lt;/p&gt;
+
+&lt;p&gt;In recent years, emerging interven- tion research on scientific argumentation with elementary stu- dents at intermediate grade levels consistently indicates that these students are able to engage in argumentation (Berland &amp;amp; McNeill, 2010; Cavagnetto et al., 2010; Chen, Wang, Lu, Lin, &amp;amp; Hong, 2016; Hong, Lin, Wang, Chen, &amp;amp; Yang, 2013; Maloney &amp;amp; Simon, 2006; McNeill, 2011; Ryu &amp;amp; Sandoval, 2012; Songer &amp;amp; Gotwals, 2012). (p. 5)&lt;/p&gt;
+
+&lt;p&gt;Other recent studies also challenge the developmental general- ization by showing that elementary students, including children as young as first graders, are capable of constructing arguments. The results consistently indicate that provided with effective instruction, elementary students are intellectually able to grasp the complexity of an issue and can develop an argument in a sophisticated way (D. D. Anderson, 2008; Ghiso, 2015; Gilbert &amp;amp; Graham, 2010; Gillespie et al., 2013; O’Hallaron, 2014; Riley &amp;amp; Reedy, 2005). (p. 5)&lt;/p&gt;
+
+&lt;p&gt;Two major literature reviews on chil- dren’s scientific thinking and reasoning, including argument, pro- vided the conceptual grounding for the Framework (NRC, 2012) and subsequently the NGSS. Both reviews portray children as com- ing to school with rich knowledge of the natural world and com- plex reasoning that afford a solid foundation for learning science. One literature review (Metz, 1995) points out that in contrast to a commonly held view of children as concrete and simplistic think- ers, their thinking is surprisingly sophisticated, and they deploy a wide range of reasoning processes. The other literature review, Ta k - ing Science to School (NRC, 2007), highlights that children come to school “with the cognitive capacity to engage in serious ways with the enterprise of science” (p. vii) and that “important building blocks for learning science are in place before they enter school” (p. 53). (p. 5)&lt;/p&gt;
+
+&lt;p&gt;As it has become clear in this section, argument has been addressed in ELA/literacy and science education separately, and thus there are no cross-disciplinary conceptual or empirical stud- ies on argument between the two subject areas. (p. 5)&lt;/p&gt;
+
+&lt;p&gt;Both the Metz (1995) and NRC (2007) reviews emphasize the importance of scaffold-rich curricular and instructional support from teachers as they engage students in scientific tasks that are meaningful to the students. (p. 5)&lt;/p&gt;
+
+&lt;p&gt;At the same time, science education researchers have acknowl- edged that children often make unsupported claims about scien- tific phenomena, ignore or distort evidence that is inconsistent with their prior beliefs, and provide unsubstantiated reasoning (Furtak, Hardy, Beinbrech, Shavelson, &amp;amp; Shemwell, 2010; Hardy, Kloetzer, Moeller, &amp;amp; Sodian, 2010). Even in secondary school, establishing a classroom culture of rigorous scientific rea- soning and argument can be challenging to achieve (Osborne, Erduran, &amp;amp; Simon, 2004). Moreover, the priority given to argu- mentation supported by evidence can inhibit conceptually rich talk to construct explanations in middle school science class- rooms (Shemwell &amp;amp; Furtak, 2010). (p. 5)&lt;/p&gt;
+
+&lt;p&gt;The CCSS and the NGSS on Argument (p. 5)&lt;/p&gt;
+
+&lt;p&gt;I examine the CCSS and NGSS documents related to argument, pointing out key similarities and differences that emerge across these two sets of standards in terms of disciplinary norms of argument (i.e., What counts as argument?) and developmental progressions of children’s ability to engage in argument (i.e., When are children capable of engaging in argument?). (p. 5)&lt;/p&gt;
+
+&lt;p&gt;First, it is an entirely new endeavor for ELA to extend argument to different disci- plines, including science. Second, the CCSS emphasize the role of evidence as a critical feature of argument independent of the discipline (p. 6)&lt;/p&gt;
+
+&lt;p&gt;Disciplinary Norms of Argument (p. 6)&lt;/p&gt;
+
+&lt;p&gt;The CCSS for ELA/literacy. The CCSS define argument as “a rea- soned, logical way of demonstrating that the writer’s position, belief, or conclusion is valid” (NGA Center &amp;amp; CCSSO, 2010b, p. 23). (p. 6)&lt;/p&gt;
+
+&lt;p&gt;Third, in underscoring the cross-disciplinary significance of evidence, the CCSS make a point of qualifying that “different disciplines call for different types of evidence” (NGA Center &amp;amp; CCSSO, 2010a, p. 7). However, the CCSS do not venture to specify the precise nature of these differences beyond broad descriptors such as “evidence from the text” in ELA or “data in a scientifically acceptable form” in science. (p. 6)&lt;/p&gt;
+
+&lt;p&gt;because an argument deals with whether the main claim is true, it demands empirical descriptive evidence, statistics, or definitions for support. When writing an argument, the writer supports his or her claim(s) with sound reasoning and relevant and sufficient evidence. (NGA Center &amp;amp; CCSSO, 2010b, p. 23) (p. 6)&lt;/p&gt;
+
+&lt;p&gt;The NGSS. The Framework (NRC, 2012) describes Practice 7, “engaging in argument from evidence,” as follows: The study of science and engineering should produce a sense of the process of argument necessary for advancing and defending a new idea or an explanation of a phenomenon and the norms for conducting such arguments. In that spirit, students should argue for the explanations they construct, defend their interpretations of the associated data, and advocate for the designs they propose. (p. 73) (p. 6)&lt;/p&gt;
+
+&lt;p&gt;The CCSS describe many purposes of arguments—“to change the reader’s point of view, to bring about some action on the reader’s part, or to ask the reader to accept the writer’s expla- nation or evaluation of a concept, issue, or problem” (NGA Center &amp;amp; CCSSO, 2010b, p. 23). Then, the CCSS distinguish between persuasive arguments and logical arguments, noting that whereas a persuasive argument relies principally on “the emotions the writing evokes in the audience or the character or credentials of the writer,” a logical argument “convinces the audience because of the perceived merit and reasonableness of the claims and proofs offered” (NGA Center &amp;amp; CCSSO, 2010b, p. 24). (p. 6)&lt;/p&gt;
+
+&lt;p&gt;noting that “the nature of an effective argu- ment and what counts as evidence is specific to each subject” (NRC, 2015, p. 31). Just as with the CCSS, however, the NGSS make no attempt to articulate what these cross-disciplinary vari- ations entail. (p. 7)&lt;/p&gt;
+
+&lt;p&gt;The CCSS describe argument in sci- ence, which is comparable to how the Framework (NRC, 2012) and the NGSS describe argument in science. (p. 7)&lt;/p&gt;
+
+&lt;p&gt;Developmental Progressions (p. 7)&lt;/p&gt;
+
+&lt;p&gt;The CCSS for ELA/literacy articulate a devel- opmental trajectory: “As students advance through the grades and master the standards in reading, writing, speaking, listening, and language, they are able to exhibit with increasing fullness and regularity these capacities of the literate individual” (NGA Center &amp;amp; CCSSO, 2010a, p. 7). (p. 7)&lt;/p&gt;
+
+&lt;p&gt;both the Framework (NRC, 2012) and the NGSS prioritize “developing students’ proficiency in science in a coherent way across grades K–12 following the logic of learning progressions” (NRC, 2012, p. 33). (p. 7)&lt;/p&gt;
+
+&lt;p&gt;Summary. The NGSS characterization of young children’s ability to engage in argument seems to contradict that of the CCSS in both subtle and obvious ways. First, the CCSS view children’s ability to engage in argument as being limited in Grades K–5 and as developing to full capacity in Grades 6–8, whereas the NGSS view children as being able to engage in argument from kinder- garten. Second, the CCSS use opinion to refer to the developing form of argument, whereas the NGSS expect young children to distinguish evidence from opinion. Third, the CCSS introduce evidence for Grade 3 and claim for Grade 5, whereas the NGSS expect young children starting from kindergarten to include evidence in supporting their claim. While the CCSS consider opinions as a “developing form of argument,” the expectation that students provide evidence regularly starting at Grade 4 and make claims regularly starting at Grade 6 suggests that K–5 stu- dents do not engage in evidence-based argumentation. When the aforementioned three points are taken together, the CCSS portray children as gradually becoming capable of engaging in arguments from evidence over the span of Grades 3–8, whereas the NGSS portray children as capable of engaging in arguments from evidence from kindergarten. (p. 9)&lt;/p&gt;
+
+&lt;p&gt;From a developmental perspective (i.e., when children are capable of engaging in argument), argument and associated con- structs are introduced at different grade levels or grade bands across the CCSS and the NGSS, especially in Grades K–5. (p. 9)&lt;/p&gt;
+
+&lt;p&gt;Discussion (p. 9)&lt;/p&gt;
+
+&lt;p&gt;Consequences for Classroom Teaching (p. 9)&lt;/p&gt;
+
+&lt;p&gt;However, neither the standards docu- ments nor the research literature offer substantive insights into the precise nature of these differences or the consequences of such differences on classroom teaching across subject areas. (p. 9)&lt;/p&gt;
+
+&lt;p&gt;Recommendations for Educational Policies and Research Agenda (p. 10)&lt;/p&gt;
+
+&lt;p&gt;One approach to cross-disciplinary collaboration could involve a research forum consisting of stakeholder groups, including disciplinary experts, educational researchers, teachers, writers of standards, and policymakers across ELA/literacy and science education. (p. 10)&lt;/p&gt;
+
+&lt;p&gt;Another approach could involve a systematic, comprehen- sive, and integrative review of literature (for which the literature review section in this article could serve as a point of departure). (p. 10)&lt;/p&gt;
+
+&lt;p&gt;Teachers need informed guidance about how to go about resolving these discrepancies. (p. 10)&lt;/p&gt;
+
+&lt;p&gt;Still another approach could involve researchers and teach- ers working closely together for classroom research on curricu- lum, instruction, and assessment (e.g., Penuel, Fishman, Cheng, &amp;amp; Sabelli, 2011). (p. 10)&lt;/p&gt;
+
+&lt;p&gt;In assisting teachers and policymakers, the education research community could play a key role. (p. 10)&lt;/p&gt;
+
+&lt;p&gt;As envisioned in the new standards, researchers across ELA/lit- eracy and science education should engage in cross-disciplinary col- laboration to address how to capitalize on convergences and resolve discrepancies between the two sets of standards and between the two bodies of research literature. (p. 10)&lt;/p&gt;
+
+&lt;p&gt;I concur with Pearson (2013) that while supporting the CCSS and the NGSS, these standards “will prove to be ‘living Standards’ that will be revised regularly so that they are always based on our most current knowledge” (p. 258). (p. 10)&lt;/p&gt;
+
+&lt;p&gt;I would like to propose three interrelated areas of research activitie (p. 10)&lt;/p&gt;
+</description>
+        <pubDate>Fri, 22 Sep 2017 00:00:00 -0500</pubDate>
+        <link>http://bodong.ch//notes/2017/09/22/Lee2017-xm.html</link>
+        <guid isPermaLink="true">http://bodong.ch//notes/2017/09/22/Lee2017-xm.html</guid>
+        
+        <category>curriculum</category>
+        
+        <category>science education</category>
+        
+        <category>argumentation</category>
+        
+        <category>literacy</category>
+        
+        
+        <category>notes</category>
+        
+      </item>
+    
+      <item>
+        <title>Notes: Lee2013-sl: Science and language for English language learners in relation to Next Generation Science Standards and with implications for Common Core State Standards for English language arts and mathematics</title>
+        <description>&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Citekey&lt;/strong&gt;: @Lee2013-sl&lt;/p&gt;
+
+&lt;p&gt;Lee, O., Quinn, H., &amp;amp; Valdés, G. (2013). Science and language for English language learners in relation to Next Generation Science Standards and with implications for Common Core State Standards for English language arts and mathematics. Educational Researcher , 42(4), 223–233. Retrieved from http://journals.sagepub.com/doi/abs/10.3102/0013189X13480524&lt;/p&gt;
+
+&lt;h2 id=&quot;notes&quot;&gt;Notes&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Summarize&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Assess&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Reflect&lt;/em&gt;:&lt;/p&gt;
+
+&lt;h2 id=&quot;highlights&quot;&gt;Highlights&lt;/h2&gt;
+
+&lt;p&gt;By examining intersections between learning of science and learning of language, the article identifies key features of the language of the science classroom as students engage in these language-intensive science and engineering practices. We propose that when students, especially English language learners, are adequately supported to “do” spe- cific things with language, both science learning and language learning are promoted. (p. 1)&lt;/p&gt;
+
+&lt;p&gt;This article discusses language learning challenges and oppor- tunities that will emerge as ELLs engage with NGSS. (p. 1)&lt;/p&gt;
+
+&lt;p&gt;Table 1 Three Dimensions of the Science Framework (p. 2)&lt;/p&gt;
+
+&lt;p&gt;Engagement in any of the science and engineering practices involves both scientific sense-making and language use. (p. 2)&lt;/p&gt;
+
+&lt;p&gt;Engagement in these practices is also lan - guage intensive. (p. 2)&lt;/p&gt;
+
+&lt;p&gt;(no. 2) developing and using models, (no. 6) constructing explanations (for science) and designing solutions (for engineering), (no. 7) engaging in argu- ment from evidence, and (no. 8) obtaining, evaluating, and com- municating information. (p. 2)&lt;/p&gt;
+
+&lt;p&gt;Next Generation Science Standards with a Focus on Science and Engineering Practices (p. 2)&lt;/p&gt;
+
+&lt;p&gt;The Framework defines science learning as having three dimen- sions: (a) science and engineering practices, (b) crosscutting con- cepts, and (c) core ideas in each science discipline (see Table 1). (p. 2)&lt;/p&gt;
+
+&lt;p&gt;The meaning of the term inquiry-based sci- ence is refined and deepened by the explicit definition of the set of science and engineering practices. These practices are pre- sented both as a representation of what scientists do as they engage in scientific inquiry and as a necessary part of what stu- dents must do both to learn science and to understand the nature of science. (p. 2)&lt;/p&gt;
+
+&lt;p&gt;Second, these practices are language intensive and require stu- dents to engage in classroom science discourse (see literature review by G. Kelly, 2007). Students must read, write, view, and visually represent as they develop their models and explanations. (p. 2)&lt;/p&gt;
+
+&lt;p&gt;Third, these practices are generally less familiar to many sci- ence teachers and require shifts for science teaching (Windschitl, Thompson, &amp;amp; Braaten, 2011). (p. 3)&lt;/p&gt;
+
+&lt;p&gt;Finally, the requirement for classroom discourse and the norms for this behavior are to a great extent common across all the science disciplines, and indeed across all the subject areas. (p. 3)&lt;/p&gt;
+
+&lt;p&gt;In short, as science classrooms incorporate the discourse-rich science and engineering practices described in the Framework, they will become richer language learning environments as well as richer science learning environments for all students. (p. 4)&lt;/p&gt;
+
+&lt;p&gt;intervention studies to support teachers’ and students’ use of discourse and social practice in developing scientific under- standing and engaging in scientific practices. For example, Engle and Conant (2002) identified four principles to foster productive disciplinary engagement in the classroom: problematizing con- tent, giving students authority, holding students accountable to others and to disciplinary norms, and providing relevant resources. In a similar line of research, Cornelius and Herrenkohl (2004) mapped students’ epistemological development in science onto the dynamic interactions of talk, text, other representations, and social interactions that took place in science classrooms. As another line of research, Windschitl et al. (2011) developed dis- course tools and scaffolding to support novice science teachers in developing elements of expertlike teaching, with the greatest gains made in pressing their students for evidence-based scientific explanations through modeling and representations of challeng- ing science concepts. (p. 4)&lt;/p&gt;
+
+&lt;p&gt;Language in Science Learning and Teaching (p. 4)&lt;/p&gt;
+
+&lt;p&gt;teachers need a nuanced view of how language is used to construct and commu- nicate meaning in science. Contemporary research on language in science learning and teaching highlights what students and teachers do with language as they engage in science inquiry and discourse practices (see literature review by Carlsen, 2007; G. Kelly, 2007). (p. 4)&lt;/p&gt;
+
+&lt;p&gt;Systemic Functional Linguistics Perspective (p. 4)&lt;/p&gt;
+
+&lt;p&gt;Systemic functional linguistics provides one perspective on how language is used in science learning. Halliday and Martin (1993) framed what they termed “the linguistic register”3 of science class- room communication as a resource for meaning-making, not as a rigid set of conventions or a system of rules to be learned. Halliday (2002) argued that students must develop and under- stand the linguistic tools for meaning-making in science as com- prising a unique linguistic register. This register provides tools for understanding what people are doing, what their relations are to each other, and how they are using language in the context of making scientific meaning. (p. 4)&lt;/p&gt;
+
+&lt;p&gt;Language in Science Learning with ELLs (p. 4)&lt;/p&gt;
+
+&lt;p&gt;another area of research on language in science learning has focused on students who have traditionally been marginalized in science, including ELLs. (p. 4)&lt;/p&gt;
+
+&lt;p&gt;Halliday and Matthiessen (2004) argued that science and everyday discourse are dialogi- cally complementary, interrelated, and synergistic and represent a fundamental continuity that provides different ways of depict- ing a common reality. (p. 4)&lt;/p&gt;
+
+&lt;p&gt;The work focuses on the linguistic, cultural, concep - tual, and imaginative resources that ELLs bring to the science classroom that can serve as intellectual resources for learning scien- tific knowledge and practices. In another longstanding line of research, Lee and colleagues (e.g., Lee, Buxton, Lewis, &amp;amp; LeRoy, 2006; Lee &amp;amp; Fradd, 1998) highlighted the importance of develop- ing congruence between students’ cultural and linguistic experi- ences and the specific demands of particular academic disciplines such as science. (p. 4)&lt;/p&gt;
+
+&lt;p&gt;Discourse and Social Practice in the Science Classroom (p. 4)&lt;/p&gt;
+
+&lt;p&gt;how discourse becomes part of the social practice of the science classroom (see literature review by G. Kelly, 2007). (p. 4)&lt;/p&gt;
+
+&lt;p&gt;Lemke (1990) argued that discourse should be seen as “differenti- ated speech” that different groups of people and texts bring to science. For Lemke, the greatest challenge science teachers face is how to support students in building connections across differen- tiated speech forms, from everyday language to disciplinary dis- course. In a similar vein, Gee (1990) proposed that to become competent users of the genre of classroom science discourse (which he distinguished from the genre of research science discourse), students must adopt certain communicative practices, such as those accepted for evaluating claims (p. 4)&lt;/p&gt;
+
+&lt;p&gt;New Standards and Second Language Acquisition with ELLs (p. 4)&lt;/p&gt;
+
+&lt;p&gt;Theories of Second Language Acquisition and Pedagogy (p. 5)&lt;/p&gt;
+
+&lt;p&gt;second language acquisition (SLA) (p. 5)&lt;/p&gt;
+
+&lt;p&gt;Here we present a brief discussion of first and second lan- guages and their acquisition that emphasizes pragmatic, textual, and sociolinguistic competencies in SLA (Bachman, 1990; Canale &amp;amp; Swain, 1980). (p. 5)&lt;/p&gt;
+
+&lt;p&gt;“Doing” Things With Language (p. 5)&lt;/p&gt;
+
+&lt;p&gt;Children naturally acquire both the ability to use language and implicit knowledge about not only the structure of that language (e.g., the sound patterns of words, the order of words) but also the conventions (e.g., when to speak or not speak and what to say to whom). By the time they arrive in school, children are skilled users of the variety of language functions used in their home and community. They can do many things with language. For exam- ple, they can argue with their siblings, complain, disagree, ask and answer questions, and make their needs and feelings known. (p. 5)&lt;/p&gt;
+
+&lt;p&gt;Second language pedagogy. Over 25 centuries of second language teaching (L. G. Kelly, 1969), there have been a series of pendu- lum shifts, debates, innovations, and controversies. In general, research on second language teaching (Ellis, 2005; Norris &amp;amp; Ortega, 2000, 2006) has been carried out primarily with adults in post-secondary settings. (p. 5)&lt;/p&gt;
+
+&lt;p&gt;Students who are referred to as ELLs arrive at school with a well-established first language but at many different levels of English language development. (p. 5)&lt;/p&gt;
+
+&lt;p&gt;second language pedago - gies can generally be classified as following one of two approaches: the structural and the experiential (Stern, 1990). Structural approaches based on traditional or mainstream SLA focus on “teaching” specific language elements (e.g., vocabulary, pronun- ciation, grammatical forms) (p. 5)&lt;/p&gt;
+
+&lt;p&gt;However, when supported appropriately, most ELLs are capable of learning subjects such as science through their emerging language and of comprehending and car- rying out sophisticated language functions (e.g., arguing from evidence, providing explanations) using less-than-perfect English. They can do a number of things using whatever level of English they have and can participate in science and engineering prac- tices. (p. 5)&lt;/p&gt;
+
+&lt;p&gt;Experiential approaches to teaching language, adopted in this article, are based on the socially oriented view of SLA. These approaches focus on supporting students’ ability to do things with language, engaging them in purposeful activities, and pro- viding them with opportunities for language use. (p. 6)&lt;/p&gt;
+
+&lt;p&gt;In this article, we argue for two shifts: (a) a shift away from both content-based language instruction and the sheltered model to a focus on language-in-use environments and (b) a shift away from “teaching” discrete language skills to a focus on supporting language development by providing appropriate contexts and experiences. We envision science teachers who create carefully planned classrooms where students engage in science and engi- neering practices, such as evidence-based arguments and explana- tions of phenomena or systems. (p. 6)&lt;/p&gt;
+
+&lt;p&gt;Intersections between Learning of Science and Learning of Language (p. 6)&lt;/p&gt;
+
+&lt;p&gt;In this article, we identify key features of the language of the sci- ence classroom as students engage in language-intensive science and engineering practices. (p. 6)&lt;/p&gt;
+
+&lt;p&gt;Language of the Science Classroom: Moving Toward Disciplinary Language of Science (p. 6)&lt;/p&gt;
+
+&lt;p&gt;Content-Based Language Instruction (p. 6)&lt;/p&gt;
+
+&lt;p&gt;Content-based language instruction, at its best, integrates the teaching of language and the teaching of academic subjects (Scarcella, 2003; Schleppegrell, 2004; Snow, 2001). (p. 6)&lt;/p&gt;
+
+&lt;p&gt;If science teachers are to engage ELLs in science and engineering practices, they must have a clear understanding of the ways that students and teachers use oral and written language to interact with each other and to obtain information from writ- ten materials. They must monitor individual students’ language use to ensure that all students are comprehending the discourse and participating in it. (p. 6)&lt;/p&gt;
+
+&lt;p&gt;we introduce the term language of the science classroom that includes the registers (i.e., styles of talk) used in the science classroom by teachers and students as they participate in aca- demic tasks and activities and demonstrate their knowledge in oral or written forms.5 Language of the science classroom is grounded in colloquial or everyday language but moves toward the disciplinary language of science. (p. 6)&lt;/p&gt;
+
+&lt;p&gt;As the grade level advances, written materials intended for learners tend to mirror disciplinary language more closely. Our intent is to be explicit about what science teachers and their students “do” with lan- guage in their classrooms. (p. 6)&lt;/p&gt;
+
+&lt;p&gt;Table 2 presents the four selected (p. 6)&lt;/p&gt;
+
+&lt;p&gt;Table 3 Language of the Science Classroom (p. 8)&lt;/p&gt;
+
+&lt;p&gt;science and engineering practices, types of analytical tasks that students engage in for each practice, and receptive (listening/ reading) and productive (speaking/writing) language functions (see CCSSO, 2012, for all eight practices). (p. 8)&lt;/p&gt;
+
+&lt;p&gt;language use: modality, registers, and examples of registers in an attempt to move beyond simple definitions of “the language of science” as vocabulary or grammatical correctness. (p. 8)&lt;/p&gt;
+
+&lt;p&gt;Language serves as the vehicle to perform analytical tasks and ultimately to construct knowledge. (p. 8)&lt;/p&gt;
+
+&lt;p&gt;Table 3 focuses on the language of the science classroom itself and, in column 1, highlights three key elements of classroom (p. 8)&lt;/p&gt;
+
+&lt;p&gt;Conclusions and Implications (p. 9)&lt;/p&gt;
+
+&lt;p&gt;Across these three subject areas, the new standards share a common emphasis on disciplinary practices and classroom discourse (see Figure 1). As engagement in these practices is language intensive, it presents both language demands and opportunities for all students, espe- cially ELLs. (p. 9)&lt;/p&gt;
+
+&lt;p&gt;Given the richness of science and engineering practices, NGSS will lead to science classrooms that are also rich language learning environments for ELLs. (p. 9)&lt;/p&gt;
+
+&lt;p&gt;This view is consistent with contemporary litera - ture on language in science learning and teaching that highlights what students and teachers do with language as they engage in science inquiry and discourse practices (Carlsen, 2007; G. Kelly, 2007). This view is also consistent with current theories of SLA that emphasize what learners can do with language—the socially oriented (rather than individually oriented) view of SLA and the experiential (rather than structural) pedagogies. (p. 9)&lt;/p&gt;
+
+&lt;p&gt;Although content-based language instruction, sheltered instruction, and academic language instruction are valuable attempts to bring together subject matter instruction and second language instruction, their predominant emphases have been on the study and practice of language elements rather than on immersion in rich environments that use language for sense- making. (p. 9)&lt;/p&gt;
+
+&lt;p&gt;We also stress the value of attention to the language of the science classroom that moves toward the disciplin- ary language of science (see Table 3). (p. 9)&lt;/p&gt;
+
+&lt;p&gt;To the contrary, we argue that NGSS can provide a context where science learning and language learn- ing can occur simultaneously. (p. 9)&lt;/p&gt;
+</description>
+        <pubDate>Fri, 22 Sep 2017 00:00:00 -0500</pubDate>
+        <link>http://bodong.ch//notes/2017/09/22/Lee2013-sl.html</link>
+        <guid isPermaLink="true">http://bodong.ch//notes/2017/09/22/Lee2013-sl.html</guid>
+        
+        <category>curriculum</category>
+        
+        <category>science education</category>
+        
+        <category>literacy</category>
+        
+        <category>second language education</category>
+        
+        
+        <category>notes</category>
+        
+      </item>
+    
+      <item>
+        <title>Notes: Olinghouse2013-yd: The relationship between vocabulary and writing quality in three genres</title>
+        <description>&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Citekey&lt;/strong&gt;: @Olinghouse2013-yd&lt;/p&gt;
+
+&lt;p&gt;Olinghouse, N. G., &amp;amp; Wilson, J. (2013). The relationship between vocabulary and writing quality in three genres. Reading and Writing, 26(1), 45–65. https://doi.org/10.1007/s11145-012-9392-5&lt;/p&gt;
+
+&lt;h2 id=&quot;notes&quot;&gt;Notes&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Summarize&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Assess&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Reflect&lt;/em&gt;:&lt;/p&gt;
+
+&lt;h2 id=&quot;highlights&quot;&gt;Highlights&lt;/h2&gt;
+
+&lt;p&gt;Abstract The purpose of this study was to examine the role of vocabulary in writing across three genres. Fifth graders (N = 105) wrote three compositions: story, persuasive, and informative. Each composition revolved around the topic of outer space to control for background knowledge. Written compositions were scored for holistic writing quality and several different vocabulary constructs: diversity, maturity, elaboration, academic words, content words, and register. The results indicated that students vary their vocabulary usage by genre. Story text had higher diversity than informative text as well as higher maturity as compared to persuasive text. Persuasive text contained higher diversity than informative text, and higher register than both of the other genres. Informative text included more content words and elaboration than the other text types as well as more maturity than persuasive text. Additionally, multiple regression and commonality analysis indicated that the vocabulary constructs related to writing quality differed by genre. For story text, vocabulary diversity was a unique predictor, while for persuasive text, content words and register were unique predictors. Finally, for informative text content words was the strongest unique predictor explaining almost all of the total variance in the five factor model, although maturity was also a unique predictor. (p. 1)&lt;/p&gt;
+
+&lt;p&gt;Writing is a complex process, involving the coordination of many high-level cognitive and meta-cognitive skills. Seminal models of the writing process (e.g., (p. 1)&lt;/p&gt;
+
+&lt;p&gt;Flower &amp;amp; Hayes, 1981; Hayes, 1996; Scardamalia &amp;amp; Bereiter, 1987) suggest that producing a quality written text requires generating and organizing ideas, goal- setting, planning, drafting, revising, and continuously self-monitoring performance. (p. 2)&lt;/p&gt;
+
+&lt;p&gt;However, one area that has received little attention is the relationship between vocabulary and quality within written compositions. (p. 2)&lt;/p&gt;
+
+&lt;p&gt;One resource, long-term memory, helps explain how vocabulary may be used in the writing process. Flower and Hayes (1980) discuss long-term memory within their explanation of the translating process (p. 2)&lt;/p&gt;
+
+&lt;p&gt;Scardamalia and Bereiter’s (1987) knowledge-telling model—a model of developing writing—expands on this link between vocabulary and long-term memory. (p. 2)&lt;/p&gt;
+
+&lt;p&gt;Content knowledge includes specific knowledge related to the topic of the written text. Discourse knowledge includes procedural knowledge (how to compose quality text), and genre knowledge (the important features of different genres). (p. 2)&lt;/p&gt;
+
+&lt;p&gt;Students who possess a higher degree of content and discourse knowledge are predicted to compose texts of higher quality than those who lack such knowledge (e.g., Benton, Corkill, Sharp, Downey, &amp;amp; Khramtsova, 1995; DeGroff, 1987; Langer, 1984; McCutchen, 1986; Olinghouse &amp;amp; Graham, 2009). (p. 2)&lt;/p&gt;
+
+&lt;p&gt;Vocabulary is implicated in each of these knowledge-spaces. Vocabulary conveys content knowledge because many topics have specialized vocabulary (Harmon, Hedrick, &amp;amp; Wood, 2005). (p. 2)&lt;/p&gt;
+
+&lt;p&gt;they express their knowledge in a way which is valued and accepted by the discourse community for that field (e.g., Swales, 1988). (p. 2)&lt;/p&gt;
+
+&lt;p&gt;Vocabulary also is implicated in discourse knowledge because it is hypothesized to be a distinguishing feature of different genres of text (Biber, 1988; Halliday &amp;amp; Hasan, 1976). (p. 2)&lt;/p&gt;
+
+&lt;p&gt;Vocabulary constructs and measures (p. 3)&lt;/p&gt;
+
+&lt;p&gt;Frequently measured vocabulary constructs in writing include: diversity, maturity, content vocabulary, academic vocabulary, and register. (p. 3)&lt;/p&gt;
+
+&lt;p&gt;Vocabulary diversity, likely the most common vocabulary construct included in past writing research, refers to the breadth of words used in a text (p. 3)&lt;/p&gt;
+
+&lt;p&gt;Vocabulary maturity is a construct describing the sophistication of the vocabulary used in a text. (p. 3)&lt;/p&gt;
+
+&lt;p&gt;Content vocabulary, sometimes referred to as ‘‘domain-specific vocabulary’’ (Marzano &amp;amp; Pickering, 2005)or ‘‘technical terms’’ (Harmon, Wood, &amp;amp; Medina, 2009; Rehder et al., 1998), refers to words that are unique to different topics (e.g., weather, Civil War, outer space). (p. 3)&lt;/p&gt;
+
+&lt;p&gt;academic vocabulary is comprised of words used in a variety of academic contexts (e.g., synthesize, confirm, deduce) rather than words associated with specific disciplines or topics. (p. 3)&lt;/p&gt;
+
+&lt;p&gt;register is a construct which describes the unique features of language which vary according to different situations, purposes, and forms of language use (Biber &amp;amp; Vasquez, 2008; Halliday &amp;amp; Hasan, 1976). Register has been shown to vary according to linguistic mode (oral vs. written; Biber, 2009), and according to text type (Biber &amp;amp; Kurjian, 2007). (p. 3)&lt;/p&gt;
+
+&lt;p&gt;Earlier measures simply included the number of different or unique words (Barenbaum, Newcomer, &amp;amp; Nodine, 1987; Grobe, 1981) or a ratio of types to tokens (i.e., number of words written; Johnson, 1944). (p. 4)&lt;/p&gt;
+
+&lt;p&gt;corrected type-token ratio (CTTR; Carroll, 1964) attempted to remove the effect of text length (p. 4)&lt;/p&gt;
+
+&lt;p&gt;More recent developments in measuring lexical diversity have attempted to overcome this barrier by using complex computer algorithms. For example, the Measure of Textual Lexical Diversity (MTLD; McCarthy &amp;amp; Jarvis, 2010) virtually eliminates text length as a confounding issue. (p. 4)&lt;/p&gt;
+
+&lt;p&gt;Vocabulary, genre, and quality (p. 4)&lt;/p&gt;
+
+&lt;p&gt;Three commonly assessed genres in writing are narrative, persuasive, and informative text. (p. 4)&lt;/p&gt;
+
+&lt;p&gt;In a cross-sectional study of fifth-, eighth-, and eleventh-graders, Grobe (1981) found vocabulary diversity to be a significant predictor of narrative writing quality. (p. 4)&lt;/p&gt;
+
+&lt;p&gt;Three measures of vocabulary maturity predicted writing quality in the fifth-grade sample: rank, vocabulary repeat rate, and average word size. (p. 4)&lt;/p&gt;
+
+&lt;p&gt;Olinghouse and Leaird (2009) also found that measures of vocabulary diversity were significant predictors of narrative writing quality for second- and fourth- graders. (p. 5)&lt;/p&gt;
+
+&lt;p&gt;Purpose of the present study (p. 5)&lt;/p&gt;
+
+&lt;p&gt;This is the first study of its kind to explore such relationships in all three of the primary text-types, and to investigate relationships between vocabulary and writing quality in persuasive text. (p. 5)&lt;/p&gt;
+
+&lt;p&gt;We selected vocabulary constructs and measures that had the potential to be predictive of writing quality in different genres (p. 5)&lt;/p&gt;
+
+&lt;p&gt;Instead of hypotheses, the following research questions (RQ) guided the present study: RQ1: For fifth-grade writers, are measures of vocabulary stable across three written genres? RQ2: For fifth-grade writers, which vocabulary measures predict writing quality? Do the vocabulary predictors of writing quality vary across genres? (p. 5)&lt;/p&gt;
+
+&lt;p&gt;Methodology (p. 5)&lt;/p&gt;
+
+&lt;p&gt;Participants (p. 6)&lt;/p&gt;
+
+&lt;p&gt;Final participants included 107 students from the six classrooms described above. (p. 6)&lt;/p&gt;
+
+&lt;p&gt;To compare students to a nationally-normed sample of fifth-grade students, the Spontaneous Writing test of the Test of Written Language-3 (TOWL-3; Hammill &amp;amp; Larsen, 1996; all reliabilities range from .83 to .92 for fifth-grade students) was administered (p. 6)&lt;/p&gt;
+
+&lt;p&gt;Procedures (p. 7)&lt;/p&gt;
+
+&lt;p&gt;Measures (p. 8)&lt;/p&gt;
+
+&lt;p&gt;Overall writing quality (p. 8)&lt;/p&gt;
+
+&lt;p&gt;Each rubric evaluated four aspects of writing: (1) Development of Ideas (Elaboration), (2) Organization, (3) Sentences/Word Choice/Voice, and (4) Genre Elements. (p. 8)&lt;/p&gt;
+
+&lt;p&gt;Vocabulary (p. 9)&lt;/p&gt;
+
+&lt;p&gt;Diversity Vocabulary diversity was calculated using the Measure of Textual Lexical Diversity (MTLD, McCarthy &amp;amp; Jarvis, 2010), included as part of the Gramulator software program (McCarthy, Watanabi, &amp;amp; Lamkin, in press). (p. 9)&lt;/p&gt;
+
+&lt;p&gt;Maturity Mature vocabulary was assessed by comparing the vocabulary used in students’ text to the General Service List (GSL; West, 1953). (p. 9)&lt;/p&gt;
+
+&lt;p&gt;Content vocabulary In this study, content vocabulary was assessed using a researcher-developed list of vocabulary words highly associated with the topic ‘‘outer space’’. (p. 9)&lt;/p&gt;
+
+&lt;p&gt;(a) solar system (e.g., planets, sun, earth.), (b) space exploration and travel (e.g., astronaut, space ship, shuttle), (c) galaxies/ universes (e.g., black hole, quasar, white dwarf), and (d) astronomy (e.g., telescope, Hubble, astronomer). (p. 10)&lt;/p&gt;
+
+&lt;p&gt;Text was collected from 160 websites whose Flesch–Kincaid reading levels fell between Grades 2–9 (average reading level = 5.8) and from 3 comprehensive books on outer space targeted toward upper elementary students. The text was then analyzed using the Concordance software program (Watt, 2000) which identified 119,261 words, of which 8,333 were unique. A word was only included in the content vocabulary list if it had a minimum of 10 occurrences in the corpus (reducing the list to 1,218), and was deemed by three RAs to be essential to outer space content and unlikely to be found in other unrelated content areas. This produced a list of 159 words. (p. 10)&lt;/p&gt;
+
+&lt;p&gt;Finally, the content vocabulary list was compared to a general corpus to ensure that the words on the list occurred significantly more often in the outer space corpus than in a corpus of general text (Educator’s Word Frequency Guide; Zeno, Ivens, Millard, &amp;amp; Duvvuri, 1995). (p. 10)&lt;/p&gt;
+
+&lt;p&gt;Elaboration Elaboration was assessed by determining the average number of modifiers per noun phrase in a text using CohMetrix (McNamara, Louwerse, Cai, &amp;amp; Graesser, 2005). (p. 10)&lt;/p&gt;
+
+&lt;p&gt;Register This study used the proportion of words in a text of Latinate origin as compared to Germanic origin (Bar-Ilan &amp;amp; Berman, 2007) as a measure of register. (p. 10)&lt;/p&gt;
+
+&lt;p&gt;Academic words The Academic Word List (Coxhead, 2000) includes 570 word families and approximately 3,000 total words that frequently occur in many types of academic text. (p. 10)&lt;/p&gt;
+
+&lt;p&gt;Results (p. 11)&lt;/p&gt;
+
+&lt;p&gt;Though academic vocabulary was measured in the study, means (.01) revealed that the fifth-graders in this sample included a very small percentage of such vocabulary in their compositions. (p. 11)&lt;/p&gt;
+
+&lt;p&gt;Narrative text had higher diversity than informative text as well as higher maturity as compared to persuasive text. Persuasive text contained higher diversity than informative text, and higher register than both of the other genres. Informative text included more content words and elaboration than the other text types as well as more maturity than persuasive text. (p. 12)&lt;/p&gt;
+
+&lt;p&gt;Research question 2: Which vocabulary measures predict writing quality? (p. 12)&lt;/p&gt;
+
+&lt;p&gt;Bivariate correlations among the vocabulary measures and writing quality for each genre are presented in Tables 3 and 4. (p. 12)&lt;/p&gt;
+
+&lt;p&gt;The regression model predicting story writing quality was significant. Vocab- ulary diversity and maturity explained approximately 9 % of the variance in narrative quality, although only vocabulary diversity was a significant unique predictor. (p. 12)&lt;/p&gt;
+
+&lt;p&gt;The model predicting persuasive writing quality also was significant. Vocabulary diversity, the inclusion of content words, and the use of a higher linguistic register explained approximately 14 % of the variance in persuasive writing quality. (p. 13)&lt;/p&gt;
+
+&lt;p&gt;The model predicting informative writing quality was significant. The overall model explained almost half of the variance (46 %) in informative writing quality. After controlling for the other predictors in the model, maturity and content words were significant unique predictors. Content words was the strongest unique predictor, explaining 31 % of the total variance. Maturity was the only other variable that contributed unique prediction, 3.4 % (p. 14)&lt;/p&gt;
+
+&lt;p&gt;Discussion (p. 15)&lt;/p&gt;
+
+&lt;p&gt;While not directly testing causal mechanisms within the Knowledge Telling Model (Scardamalia &amp;amp; Bereiter, 1987), the results support the premise that genre knowledge and topic knowledge are knowledge bases students access to select appropriate words while composing written text. (p. 15)&lt;/p&gt;
+
+&lt;p&gt;Despite an emphasis on academic vocabulary in late elementary and secondary settings (e.g., Lawrence, White, &amp;amp; Snow, 2010) and the inclusion of academic vocabulary in CCSS Language standards (Common Core State Standards Initiative, 2010): ‘‘Acquire and use accurately grade-appropriate general academic and domain-specific words and phrases …’’ (p. 29), fifth-grade students in this study included very few academic words in their written compositions, regardless of the genre. On average, approximately 1 % of words were academic words, translating to around 1.5 academic words in each written composition. In comparison, published text for fifth-grade students included 0.8 % academic words in narrative text, and 2.7 % academic words in expository text (Gardner, 2004). (p. 16)&lt;/p&gt;
+
+&lt;p&gt;Nagy and Scott (2000) and Scott, Lubliner, and Hiebert (2006) provide an overview of the common vocabulary constructs underlying word selection and assessment tasks typically found in word learning instruction. Nagy and Scott identified five constructs: incrementality, multidimensionality, polysemy, interrelatedness, and heterogeneity. Scott et al. added additional constructs such as breadth, accuracy, automaticity, and semantic decision making. (p. 18)&lt;/p&gt;
+
+&lt;p&gt;A considerable lack of overlap occurs between word learning research and writing research. An argument can be made that breadth (Scott et al., 2006; general vocabulary knowledge), and diversity (index of number of unique words in writing) share some commonalities; however, other constructs between the two fields have few similarities. (p. 18)&lt;/p&gt;
+</description>
+        <pubDate>Wed, 20 Sep 2017 00:00:00 -0500</pubDate>
+        <link>http://bodong.ch//notes/2017/09/20/Olinghouse2013-yd.html</link>
+        <guid isPermaLink="true">http://bodong.ch//notes/2017/09/20/Olinghouse2013-yd.html</guid>
+        
+        <category>vocabulary</category>
+        
+        <category>writing</category>
+        
+        
+        <category>notes</category>
+        
+      </item>
+    
+      <item>
+        <title>Notes: Ford-Connors2015-dd: Vocabulary Instruction in Fifth Grade and Beyond: Sources of Word Learning and Productive Contexts for Development</title>
+        <description>&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Citekey&lt;/strong&gt;: @Ford-Connors2015-dd&lt;/p&gt;
+
+&lt;p&gt;Ford-Connors, E., &amp;amp; Paratore, J. R. (2015). Vocabulary Instruction in Fifth Grade and Beyond: Sources of Word Learning and Productive Contexts for Development. Review of Educational Research, 85(1), 50–91. https://doi.org/10.3102/0034654314540943&lt;/p&gt;
+
+&lt;h2 id=&quot;notes&quot;&gt;Notes&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Summarize&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Assess&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Reflect&lt;/em&gt;:&lt;/p&gt;
+
+&lt;h2 id=&quot;highlights&quot;&gt;Highlights&lt;/h2&gt;
+
+&lt;p&gt;Synthesizing the literature around the general topics of vocabu- lary instruction, classroom discourse, and teacher talk, this review provides a comprehensive and critical examination of instruction that supports vocab- ulary learning in older students with a particular focus on practices that promote productive discussions of content. (p. 1)&lt;/p&gt;
+
+&lt;p&gt;Although, according to the latest National Assessment of Educational Progress (NAEP, 2013) report, the percentage of eighth-grade students achieving reading proficiency has increased slightly (from 30% in 2011 to 32% in 2013), the overall result is the same: Only one third of those tested comprehend text proficiently. (p. 1)&lt;/p&gt;
+
+&lt;p&gt;a large gap remains between minority and nonminority students (NAEP, 2013). (p. 1)&lt;/p&gt;
+
+&lt;p&gt;Alvermann (2001, p. 4) argued that “basic level literacy is insufficient in today’s world (p. 1)&lt;/p&gt;
+
+&lt;p&gt;If young people are to succeed in a world that is dominated by ever-changing digital tech- nologies, and accordingly new literacies, and ever-growing competition in a global economy, they will need to acquire and maintain high levels of literacy skill and analytical ability. (p. 1)&lt;/p&gt;
+
+&lt;p&gt;Students with large vocabularies demonstrate stronger reading comprehension and score higher on standardized achievement tests than their peers with smaller vocabularies (Stahl &amp;amp; Fairbanks, 1986). Moreover, vocabulary knowledge is closely linked to students’ long-term aca- demic achievement (Cunningham &amp;amp; Stanovich, 1997; National Reading Panel, 2000), and limited vocabulary has been linked to the achievement gap for students of color, English language learners, and students with learning disabilities (Biemiller &amp;amp; Slonim, 2001; Proctor, Carlo, August, &amp;amp; Snow, 2005). (p. 2)&lt;/p&gt;
+
+&lt;p&gt;increasing evi- dence of positive influences of classroom discussion on students’ text comprehen- sion and learning (e.g., Murphy, Wilkinson, Soter, Hennessey, &amp;amp; Alexander, 2009; Soter et al., 2008), and we wondered to what extent classroom discussion also exerted an influence on vocabulary learning (p. 2)&lt;/p&gt;
+
+&lt;p&gt;We set our sights on students in Grades 5 through 12 for two reasons. First, researchers have identified that literacy learning of young ado- lescents as an area in need of greater attention (e.g., Biancarosa &amp;amp; Snow, 2004). Second, as students advance through the grades, the texts they are expected to read increase in both concept density and linguistic complexity. As a result, both knowing words and also knowing how to derive meanings of unfamiliar words has more importance in achieving text understanding, thus helping realize a level of reading proficiency that will prepare students for success in and out of school. (p. 2)&lt;/p&gt;
+
+&lt;p&gt;We next examine the nature of word learning, with a focus on what it means to know a word. (p. 2)&lt;/p&gt;
+
+&lt;p&gt;Background for the Study (p. 2)&lt;/p&gt;
+
+&lt;p&gt;Vocabulary’s Connection to Comprehension (p. 2)&lt;/p&gt;
+
+&lt;p&gt;The exact relationship between vocabulary and reading comprehension is not well understood (Harmon, 1998; National Reading Panel, 2000; Pearson, Hiebert, &amp;amp; Kamil, 2007). Although vocabulary is recognized as a predictor of reading comprehension, it also develops as a result of reading (RAND Reading Study Group, 2002). (p. 2)&lt;/p&gt;
+
+&lt;p&gt;A second proposes that gen- eral knowledge of the world supports both vocabulary and text comprehension, with all three connected through mental schema (e.g., Anderson &amp;amp; Freebody, 1981). (p. 2)&lt;/p&gt;
+
+&lt;p&gt;A fourth suggests that the relationship of vocabulary to reading compre- hension is likely bidirectional and reciprocal, with comprehension and vocabulary influencing each other recursively, and with both connected to reading volume (Nagy, 2005). (p. 3)&lt;/p&gt;
+
+&lt;p&gt;In undertaking this review, we considered these hypotheses not as competing theories but as evidence of an intricate network of skills, knowledge, and cogni- tive processes that are multidirectional, reciprocal, and that, at different points in time and in different contexts, exert more or less influence on each other. (p. 3)&lt;/p&gt;
+
+&lt;p&gt;The Nature of Word Learning (p. 3)&lt;/p&gt;
+
+&lt;p&gt;Word knowledge exists as a rich network of information in which words are connected to mental schema, prior experience, and associations with other words, concepts, and ideas. Knowledge of a word thus extends well beyond its definition to include not only the ability to recognize a word but also to instantly access information about it and to create meaning from spoken or written texts. In fact, word knowledge is “primarily procedural rather than declarative, a matter of ‘knowing how’ rather than ‘knowing that’ . . . knowing a word means being able to do things with it,” such that “word knowledge is applied knowledge” (Nagy &amp;amp; Scott, 2000, p. 273). (p. 3)&lt;/p&gt;
+
+&lt;p&gt;its development as a gradual process that occurs over time and through an accumulation of experi- ences and exposures to words and related ideas (p. 3)&lt;/p&gt;
+
+&lt;p&gt;Dale (1965) represented the multidimensional and incremental nature of word knowledge as four levels or stages of knowing: (a) having no idea of a word’s meaning, (b) having heard it but not knowing its meaning, (c) recognizing it in context as related to a particular category or idea, and (d) understanding its mean- ing in a variety of contexts. Paribakht and Wesche (1996) added a fifth stage, suggesting that the ability to accurately use the word in speaking and writing is the ultimate marker of mastery of the word’s meaning. (p. 3)&lt;/p&gt;
+
+&lt;p&gt;Nagy and Scott (2000) further explained dimensions of word knowledge as incrementality, that is, word learning is a process that occurs in small steps; poly- semy, that is, the same word can have different meanings or similar, but nuanced, meanings; multidimensionality, that is, word knowledge includes various forms, including spoken, written, grammatical function, location with other words, rela- tionships to other words, frequency of use, and conceptual meaning (Nation, 1990); interrelatedness, that is, connectedness to other words, categories, con- cepts, and ideas; and heterogeneity, that is, those aspects of word knowledge that influence what one knows about the word. Vermeer (2001) likened word knowl- edge to “nodes in a network” (p. 218), linked across numerous dimensions that include both breadth and depth of knowledge, with denser networks indicating greater knowledge of and about a word. Word knowledge is thus far more than simple labels or definitions but rather a deep network that holds crucial (p. 3)&lt;/p&gt;
+
+&lt;p&gt;connections to language development and growth in general knowledge. When viewed together, these multiple dimensions illumine the complexity of word knowledge and suggest not only its influence on reading comprehension but also its fundamental role in general knowledge acquisition. (p. 4)&lt;/p&gt;
+
+&lt;p&gt;given the significant differences in vocabulary knowledge that children bring to the classroom. Disparities in children’s vocabulary, evident as early as preschool, persist into students’ later elementary and middle school years, with consequences for learning and success in school (e.g., Biemiller &amp;amp; Slonim, 2001; Hart &amp;amp; Risley, 1995; Proctor et al., 2005). (p. 4)&lt;/p&gt;
+
+&lt;p&gt;The work of Beck, McKeown, and their colleagues (Beck, Perfetti, &amp;amp; McKeown, 1982; McKeown, Beck, Omanson, &amp;amp; Perfetti, 1983; McKeown, Beck, Omanson, &amp;amp; Pople, 1985), conducted with younger (fourth-grade) students, helped establish an understanding of instructional conditions that improve vocabulary learning. (p. 4)&lt;/p&gt;
+
+&lt;p&gt;deep vocab- ulary learning is realized when vocabulary instruction (a) develops both defini- tional knowledge and understanding of a word’s broad range of semantic connections and related concepts, (b) provides many exposures to target words in multiple contexts (McKeown et al., 1983), and (c) requires that students justify and explain their reasoning as they make associations among words. (p. 4)&lt;/p&gt;
+
+&lt;p&gt;this type of instructional approach is not commonplace in middle or secondary school instruction. (p. 4)&lt;/p&gt;
+
+&lt;p&gt;The common practices identified by these studies do little to increase students’ vocabulary, and an instructional focus on definitional information may actually lead to misinterpretations about word meaning. (p. 5)&lt;/p&gt;
+
+&lt;p&gt;Scott and Nagy postulated that definitions offered little learning support because “the language of definitions is in some sense an extreme version of literate language—even more decontextualized, more terse, and less like oral language than most of the written language to which children have been exposed” (p. 187). (p. 5)&lt;/p&gt;
+
+&lt;p&gt;The National Reading Panel (2000) acknowledged that although we have a fairly well-devel- oped understanding of the various facets of vocabulary knowledge, little is known about the instructional contexts that support its growth, especially after fifth grade. As a result, there is currently limited understanding about the most produc- tive approaches for teaching words to students as they advance into middle school and beyond, and although recent studies have begun to address this gap (e.g., Kucan, 2007; Lesaux, Kieffer, Faller, &amp;amp; Kelley, 2010), effective vocabulary instruction with older students continues to be understudied. (p. 5)&lt;/p&gt;
+
+&lt;p&gt;Our investigation, then, centered on the question, What are the instructional practices and classroom con- texts that improve the vocabulary knowledge of young adolescent and adolescent students? (p. 6)&lt;/p&gt;
+
+&lt;p&gt;Method (p. 6)&lt;/p&gt;
+
+&lt;p&gt;we searched Academic OneFile, Education Full Text, and ERIC databases for investigations (p. 6)&lt;/p&gt;
+
+&lt;p&gt;Using the key words vocabulary instruction and adoles- cent, our search of Academic OneFile yielded 33 results, Education Full Text yielded 288, and ERIC generated 23 results. (p. 6)&lt;/p&gt;
+
+&lt;p&gt;The terms classroom discourse and vocabulary yielded a total of 1,141 studies from these databases, but when we added adolescent or middle school as additional search terms, the results fell closer to 300. A search of the three databases using the key words and phrases teacher talk, vocabulary, and adolescent yielded 146 results. We next searched the same three databases on the terms vocabulary instruction and classroom discourse. This combination of terms yielded 63 studies. We also searched with a combination of vocabulary instruction and teacher talk, which resulted in 35 studies. (p. 6)&lt;/p&gt;
+
+&lt;p&gt;we accepted only studies from peer-reviewed journals. (p. 6)&lt;/p&gt;
+
+&lt;p&gt;we included both quantitative and qualitative research designs (p. 6)&lt;/p&gt;
+
+&lt;p&gt;We also elimi- nated studies with a focus on teaching English as a foreign language. (p. 6)&lt;/p&gt;
+
+&lt;p&gt;Finally, to contextualize the findings, we included meta-analyses and noted them as such in our review. (p. 6)&lt;/p&gt;
+
+&lt;p&gt;With these restrictions applied, 33 studies remained. Among the included stud- ies, 28 focused on vocabulary development and/or vocabulary instruction; of these, 21 were quantitative or mixed-methods designs, 4 were qualitative, and 3 were meta-analyses (Table 1). (p. 6)&lt;/p&gt;
+
+&lt;p&gt;Results (p. 16)&lt;/p&gt;
+
+&lt;p&gt;This review is qualitative rather than quantitative. (p. 16)&lt;/p&gt;
+
+&lt;p&gt;The review is organized within two major strands. The first is sources of word learning. These include (a) wide reading as a pathway to vocabulary knowledge; (b) instruction of word learning strategies, including context clues, morphological analysis, awareness of polysemy, and developing word consciousness; (c) direct instruction of individual words; and (d) direct instruction plus strategies. The sec- ond is the contexts teachers create to support these sources of word learning. (p. 16)&lt;/p&gt;
+
+&lt;p&gt;Sources of Word Learning (p. 16)&lt;/p&gt;
+
+&lt;p&gt;Wide Reading as a Pathway to Vocabulary Knowledge (p. 16)&lt;/p&gt;
+
+&lt;p&gt;In studies with students in Grades 4, 5, and 6 ( N = 134), Cunningham and Stanovich (1991) demonstrated that the quantity of students’ reading signifi- cantly contributed to growth in both vocabulary and overall knowledge. (p. 16)&lt;/p&gt;
+
+&lt;p&gt;However, for vocabulary to increase through reading, students must read fre- quently, in significant quantities, and with texts of sufficient complexity to be exposed to new and sophisticated language (Graves, 2006). (p. 16)&lt;/p&gt;
+
+&lt;p&gt;These col- lective findings suggest that many adolescents do not read in quantities sufficient to have significant impact on their vocabulary growth. (p. 16)&lt;/p&gt;
+
+&lt;p&gt;However, readers’ skill levels strongly influence their abilities to infer word meaning from context. (p. 19)&lt;/p&gt;
+
+&lt;p&gt;The conclusion that characteristics of the focal and adjacent words, and of the readers, themselves, may render the text-based context an inconsistent source for acquiring vocabulary is further supported by evidence from Swanborn and deGlopper’s (1999) meta-analysis of 20 incidental word learning studies. (p. 19)&lt;/p&gt;
+
+&lt;p&gt;The results indicated the probability of learning a particular word’s meaning based on a single encounter with it in context to be around 15%, with low-ability and younger readers demonstrating far greater difficulty inferring meaning than high- ability and older readers. (p. 19)&lt;/p&gt;
+
+&lt;p&gt;In sum, despite strong evidence that wide reading contributes to vocabulary development and growth, such outcomes are likely to be realized primarily by (p. 19)&lt;/p&gt;
+
+&lt;p&gt;students who engage in frequent reading of texts with complex and interesting vocabulary, who have strong English language proficiency, and who are capable readers. (p. 20)&lt;/p&gt;
+
+&lt;p&gt;In the subsequent sections, we explore studies of instruction and classroom practices that promote vocabulary growth. We have organized these studies in two groups: those that examine instruction of word learning strategies and those that examine direct instruction of target words. (p. 20)&lt;/p&gt;
+
+&lt;p&gt;Instruction of Word Learning Strategies (p. 20)&lt;/p&gt;
+
+&lt;p&gt;Studies of instruction targeted at word learning strategies suggest four essential practices: the use of context clues, morphological analysis, understanding the polysemous nature of words, and developing metacognitive awareness of word meanings. (p. 20)&lt;/p&gt;
+
+&lt;p&gt;Fukkink and DeGlopper (1998) conducted a meta-analysis of 12 studies focused on improving students’ skill in deriving word meaning from context while reading. (p. 20)&lt;/p&gt;
+
+&lt;p&gt;Approaches to instruction varied among five types: (a) teaching students to identify context clues, (b) using cloze tasks to increase students’ awareness of related language found in the text and surrounding novel words, c) teaching strategies to infer word meaning, (d) focusing on definitional approaches to develop a general schema of a word’s meaning, (e) and practice-only conditions in which students practiced exercises but without other instruction. (p. 20)&lt;/p&gt;
+
+&lt;p&gt;with a mean effect size of .43 for these treatment groups. (p. 20)&lt;/p&gt;
+
+&lt;p&gt;Combined findings from these studies indicate that explicit instruction in con- text clues helps readers of all ability levels in defining unfamiliar words (Baumann et al., 2002; Fukkink &amp;amp; DeGlopper, 1998; Goerss et al., 1999). However, students may experience similar success when taught to use other word learning strategies (e.g., morphological analysis) or when taught to pair the use of context clues with morphological analysis (Baumann et al., 2002). (p. 21)&lt;/p&gt;
+
+&lt;p&gt;Morphological analysis. Students’ ability to engage in morphological analysis becomes increasingly important as they advance in school and the morphologi- cal complexity of words in grade-level texts increases (Nippold &amp;amp; Sun, 2008). (p. 21)&lt;/p&gt;
+
+&lt;p&gt;Morphological awareness made “a signifi- cant unique contribution at all grade levels” (Nagy et al., 2006, p. 140) to reading comprehension, reading vocabulary, and spelling. (p. 21)&lt;/p&gt;
+
+&lt;p&gt;Looking across studies, morphological knowledge aided students in decipher- ing word meaning, spelling, and comprehension (Nagy et al., 2006), and skill in applying this knowledge increased as students progressed in school (Nippold &amp;amp; Sun, 2008). Morphological analysis provided a valuable tool to help students with and without disabilities unlock word meanings (Harris et al., 2011). When strate- gies for analysis were taught, students improved both knowledge of words and ability to infer meanings from new words (Baumann et al., 2003). As a whole, these studies also suggest that students can continue to benefit from a focus on morphology, context, and word analysis strategies as they advance in school. (p. 23)&lt;/p&gt;
+
+&lt;p&gt;Awareness of polysemy. Polysemous words are understood to be “those that have more than one related sense” (Crossley, Salsbury, &amp;amp; McNamara, 2010, p. 575), containing a core meaning, as well as several related senses. Awareness of words’ polysemous nature is a metalinguistic skill that improves students’ abil- ity to derive meaning in academic work. (p. 23)&lt;/p&gt;
+
+&lt;p&gt;In combination, studies reviewed thus far suggest three important understand- ings about words that contribute to discerning word meanings. Direct instruction in context clues is effective for raising students’ awareness of the meaning of unfamiliar words, both as an independent strategy and in combination with other strategies. In addition, morphological awareness makes an important contribution to students’ vocabulary knowledge and reading comprehension; ability to use morphological analysis seems to develop as students progress in school (Ram et al., 2013; Wysocki &amp;amp; Jenkins, 1987) and, therefore, may be of particular benefit to students beginning in the late elementary and middle grades where texts typi- cally contain longer and more complex words and convey more abstract ideas (e.g., Nagy et al., 2006; Nippold &amp;amp; Sun, 2008). Furthermore, providing instruc- tion in polysemous words may improve word learning and text comprehension (Nelson &amp;amp; Stage, 2007). (p. 24)&lt;/p&gt;
+
+&lt;p&gt;Developing word consciousness. According to Stahl and Nagy (2006), word consciousness is a “multi-faceted construct” (p. 140) that incorporates students’ awareness of differences between oral and written language, understandings about the effect that a word’s role in a sentence may have on its meaning (syntactical awareness), knowledge of the effects of word parts on meaning (morphological awareness), and an appreciation of word choice. (p. 24)&lt;/p&gt;
+
+&lt;p&gt;As such, they were subject to the naturalistic classroom con- ditions and potentially variable instruction of the teachers who implemented the interventions (p. 25)&lt;/p&gt;
+
+&lt;p&gt;Direct Instruction of Individual Words (p. 25)&lt;/p&gt;
+
+&lt;p&gt;there is widespread agreement that direct instruc- tion of selected, key words improves vocabulary knowledge. Such instruction may be especially important in disciplinary learning (p. 25)&lt;/p&gt;
+
+&lt;p&gt;Stahl and Fairbanks (1986) provided convincing evidence that direct instruction of key words has immediate benefit and is tied to improved reading comprehension. (p. 25)&lt;/p&gt;
+
+&lt;p&gt;Although there is general support for teaching individual words, there are var- ied approaches to determining words that merit such focused attention. Among the most familiar is Beck et al.’s (2002) identification of Tier Two words, defined as words regularly used and understood by mature language users and whose knowledge supports comprehension and communicative ability across contexts and subject areas. In this approach, focal words are selected according to the cur- ricular and text content and needs of the students in the classroom. (p. 26)&lt;/p&gt;
+
+&lt;p&gt;Others have suggested different criteria for selecting words for focused instruc- tion. Biemiller (2003, p. 331) proposed teaching words that students “commonly encounter, rather than uncommon and complex words.” (p. 26)&lt;/p&gt;
+
+&lt;p&gt;Hiebert (2005) extended this focus on word roots and families to include words that students might know through association with known words, words possessing derivatives that students frequently encounter, and words with multiple meanings. The National Reading Panel (2000, pp. 4–5) (p. 26)&lt;/p&gt;
+
+&lt;p&gt;suggested choosing vocabulary words for instruction that are “derived from con- tent learning materials” and, therefore, conceptually related to the material being taught. Finally, recent attention has been placed on selecting words from the Academic Word List (Coxhead, 2000) and providing instruction in those words common to disciplinary literacy and across academic texts (Nagy &amp;amp; Townsend, 2012). (p. 27)&lt;/p&gt;
+
+&lt;p&gt;Direct Instruction of Target Words Plus Strategies (p. 27)&lt;/p&gt;
+
+&lt;p&gt;Several recent studies have combined direct teaching of focal words with strat- egy instruction to increase students’ knowledge of target words and strengthen their abilities to independently determine the meaning of unfamiliar words. (p. 27)&lt;/p&gt;
+
+&lt;p&gt;Together, these studies demonstrate the effectiveness of multifaceted instruc- tion combining explicit teaching of target words with strategies to promote stu- dents’ independence in word recognition and analysis. (p. 27)&lt;/p&gt;
+
+&lt;p&gt;Summary of Sources of Word Learning (p. 28)&lt;/p&gt;
+
+&lt;p&gt;A robust body of research that stretches over three decades sheds light on the multiple ways that words are learned. The complex nature of word knowledge demands a comprehensive approach to vocabulary instruction that acknowledges and develops the various facets of knowledge that words represent. In addition to reading widely, positive learning outcomes result from teaching students to iden- tify and use context-based clues for determining the meanings of unfamiliar words in text (Fukkink &amp;amp; DeGlopper, 1998). In addition, morphological analysis (e.g., Baumann et al., 2002; Nippold &amp;amp; Sun, 2008) and attention to polysemy (Nelson &amp;amp; Stage, 2007) have proved useful for determining meanings of unfamiliar words. Combining strategies (e.g., morphological and contextual analysis) improves stu- dents’ vocabulary knowledge (e.g., Baumann et al., 2003). As well, strategic approaches that focus on students’ metacognition promote self-efficacy for moni- toring comprehension and applying word learning strategies in new contexts (Dole et al., 1995; Lubliner &amp;amp; Smetana, 2005). (p. 28)&lt;/p&gt;
+
+&lt;p&gt;Studies also affirm the value of direct instruction of target words (Stahl &amp;amp; Fairbanks, 1986; Townsend &amp;amp; Collins, 2009). Rich instruction creates variety in the instructional activities and events where target words are situated, which, in turn, offers students repeated opportunities to hear and use words, authentically. Incorporating direct word instruction with strategic instruction strengthens stu- dents’ knowledge about words as well as of words (Carlo et al., 2004; Lesaux et al., 2010). Moreover, these comprehensive instructional approaches are likely to address the multifaceted nature of word knowledge with its related networks of conceptual and semantic associations (Beck et al., 2002). (p. 28)&lt;/p&gt;
+
+&lt;p&gt;Productive Contexts for Teaching and Learning Vocabulary (p. 28)&lt;/p&gt;
+
+&lt;p&gt;A related line of research in vocabulary instruction has focused on discussion as a productive context for vocabulary teaching and learning. A discourse-rich approach to instruction is rooted in the work of Vygotsky (1978), who held that language serves as the principal tool for sharing knowledge and creating common understandings. He emphasized the crucial role of language in the development of students’ thinking, or inner language, to enable critical thinking and analysis and argued that thinking is facilitated and enhanced through interactions with a more knowledgeable other within a social community (Resnick, Levine, &amp;amp; Teasley, 1991). (p. 28)&lt;/p&gt;
+
+&lt;p&gt;classroom discussion offers a language-rich context in which to explore words’ meanings and uses and to tie important vocabulary to texts and content. (p. 28)&lt;/p&gt;
+
+&lt;p&gt;Given what we have learned about the development of deep knowledge of word meanings and, in particular, the need for students to explore word meanings within a broad semantic context of the word, we reasoned that an effective discus- sion about vocabulary, by its very nature, must be situated within a meaningful context. (p. 29)&lt;/p&gt;
+
+&lt;p&gt;Discussion as a Context for Vocabulary Instruction (p. 29)&lt;/p&gt;
+
+&lt;p&gt;n a study set in three class- rooms, Stahl and Vancil (1986) examined semantic mapping with discussion as an instructional approach to increasing sixth-grade students’ (N = 45) knowledge of lesson-related vocabulary. (p. 29)&lt;/p&gt;
+
+&lt;p&gt;Students receiving instruction under the first and second conditions (classroom discussion alone or combined with a semantic map) per- formed better on several posttests of vocabulary learning, with no significant dif- ferences between the two groups, than did students who worked with semantic maps alone. (p. 29)&lt;/p&gt;
+
+&lt;p&gt;Stahl and Clark (1987) investigated students’ acquisition of science vocabulary in four classrooms of fifth graders (N = 69). (p. 29)&lt;/p&gt;
+
+&lt;p&gt;Treatment (p. 29)&lt;/p&gt;
+
+&lt;p&gt;students also demonstrated significantly higher concept learning than comparison students. Students were also compared across treatment groups, with significant differences in word learning found among them, as measured by the sentence anomaly test: both participation in discussion (i.e., Called-On) and anticipation of participation (i.e., Ignored) led to significantly higher levels of word learning when compared with students in the Listening condition. (p. 30)&lt;/p&gt;
+
+&lt;p&gt;Snow et al. (2009) studied effects of a 24-week program for middle school stu- dents focused on developing students’ academic vocabulary through discussions of high-interest topics. Five new focal words, taken from the Academic Word List (Coxhead, 2000), were introduced each week (p. 30)&lt;/p&gt;
+
+&lt;p&gt;target word learning of treatment group students sur - passed that of control group students with effect sizes ranging from .33 to .56. (p. 30)&lt;/p&gt;
+
+&lt;p&gt;Dixon-Krauss (2002) undertook a “mediation model design” (p. 310) for vocabulary instruction in two ninth-grade English classes (N = 43). (p. 30)&lt;/p&gt;
+
+&lt;p&gt;Students’ knowledge of target words was stronger after the second lesson series in which words were emphasized in context. The number of focal words students used in their writing decreased but their appropriate uses of vocabulary words increased. (p. 30)&lt;/p&gt;
+
+&lt;p&gt;Teacher-facilitated student dialogues provided the focus of a small, qualitative study by Harmon (2000) with sixth- and seventh-grade students (N = 6) enrolled in developmental reading classes. (p. 30)&lt;/p&gt;
+
+&lt;p&gt;Throughout these teacher-facilitated discussions, students used a variety of strategies to determine the meaning of unfamiliar words or to connect the word to (p. 30)&lt;/p&gt;
+
+&lt;p&gt;the text. Working together, some students consulted the immediate textual context or made connections to personal experiences or the more general story line to grapple with possible word meanings. Other students relied more heavily on teacher prompts and guidance to try to explain the word’s meaning and to clarify its relationship to the story. (p. 31)&lt;/p&gt;
+
+&lt;p&gt;Harmon concluded that discussions supported students’ sharing of these various strategies and encouraged metacognitive approaches to word meaning, but with varying levels of skill. (p. 31)&lt;/p&gt;
+
+&lt;p&gt;Discussion thus offers both a context and a tool for examining the relationships of words to important ideas and holds potential for improving student learning. (p. 31)&lt;/p&gt;
+
+&lt;p&gt;The Teacher’s Role in Productive Discussions (p. 31)&lt;/p&gt;
+
+&lt;p&gt;Despite evidence of their effectiveness, discussions as contexts for word learn- ing are relatively uncommon in the classroom (Scott et al., 2003). (p. 31)&lt;/p&gt;
+
+&lt;p&gt;there is limited information to guide teachers in how to engage students or facilitate these conversations about vocabulary in productive ways. (p. 31)&lt;/p&gt;
+
+&lt;p&gt;a classroom environment rich in both teacher and student talk has consistently been linked to student achievement at many grade levels and for a diverse range of learners (e.g., Knapp, 1995; Langer, 2001). (p. 31)&lt;/p&gt;
+
+&lt;p&gt;others have noted that quality of the classroom talk trumps quantity; thus, it is not so much how much students talk as what they talk about that seems to drive the effectiveness of these discursive environments. (p. 31)&lt;/p&gt;
+
+&lt;p&gt;Discussions deemed most effective are those in which teachers orchestrate open explorations of content that engage students in critically reasoning and engaging with impor- tant ideas (Murphy et al., 2009). (p. 31)&lt;/p&gt;
+
+&lt;p&gt;Yet, despite these important understandings, there is substantial variability in the effectiveness with which teachers facilitate discussions (Adler, Rougle, Kaiser, &amp;amp; Caughlan, 2003/2004; Soter et al., 2008). (p. 32)&lt;/p&gt;
+
+&lt;p&gt;Teachers’ Orchestration of Discussion (p. 32)&lt;/p&gt;
+
+&lt;p&gt;Longer periods of student explanation, prompted through teachers’ ques- tions, resulted in more student reasoning and critical analysis of content. (p. 32)&lt;/p&gt;
+
+&lt;p&gt;Nystrand et al. (2003), in which they examined the relationship among the nature of classroom discourse (e.g., types of questions, presence of uptake, student responses), student variables (e.g., characteristics of students, class size, socioeconomic status), and student learning. (p. 32)&lt;/p&gt;
+
+&lt;p&gt;researchers found that dialogic discourse, that is, the “unprescripted exchange of ideas among students and the teacher” (Nystrand et al., 2003, p. 185), correlated with improved student learning. (p. 32)&lt;/p&gt;
+
+&lt;p&gt;Furthermore, dialogic episodes were characterized by teachers’ uptake of students’ ideas and “high-level evaluation” (Nystrand et al., 2003, p. 146) in which teachers incorporated students’ responses, either through elaboration or a follow-up question. (p. 32)&lt;/p&gt;
+
+&lt;p&gt;Wolf et al. (2005) examined the relationship between teacher talk and the rigor of classroom discussions. They rated rigor on the basis of instruction and discussion that required students to grapple with ideas (p. 32)&lt;/p&gt;
+
+&lt;p&gt;They found signifi- cant correlations between the nature of teachers’ questions and the level of cogni- tive challenge and engagement of student responses. (p. 33)&lt;/p&gt;
+
+&lt;p&gt;In a case study, Sharpe (2008) described the kinds of talk used by an experi- enced middle school teacher to scaffold students’ participation in historical inquiry (p. 33)&lt;/p&gt;
+
+&lt;p&gt;Transcript analysis indicated that the teacher used questioning and “low control” moves (Wood, 1992), like speculating and suggesting, that encouraged students to generate mul- tiple ideas about the topic and increased “prospectiveness” (i.e., exploratory talk that promoted hypotheses about events and people of that time period; Sharpe, 2008, p. 138). (p. 33)&lt;/p&gt;
+
+&lt;p&gt;Taken together, these studies present a picture of effective teachers’ talk as diverse, flexible, and consisting of an extensive repertoire and variety of talk (Sharpe, 2008; Soter et al., 2008) that supports constructive, content-related inter- actions with students throughout lessons. Effective teachers’ talk repertoires rep- resent a range of instructional elicitations and responses that build connections for students and help them integrate new information with what is already known (Nystrand et al., 2003; Wolf et al., 2005). (p. 33)&lt;/p&gt;
+
+&lt;p&gt;Summary of Productive Contexts for Teaching and Learning Vocabulary (p. 33)&lt;/p&gt;
+
+&lt;p&gt;The language-rich interactions that occur when students and the teacher productively discuss content and grapple with ideas have proven effective as tools that strengthen students’ learning (Nystrand et al., 2003; Soter et al., 2008). (p. 34)&lt;/p&gt;
+
+&lt;p&gt;In particular, discussion has proven effective as a context for vocabulary devel- opment. Discussion promotes students’ knowledge about words and conceptual understanding by creating a productive setting for exploring words and connect- ing vocabulary to important discipline-specific concepts (Harmon, 2000; Snow et al., 2009; Stahl &amp;amp; Clark, 1987; Stahl &amp;amp; Vancil, 1986). In addition, discussion promotes dialogic interactions through which students not only negotiate mean- ing but also authentically explore ideas related to important words; this new knowledge then serves as a cognitive resource for students to use in subsequent academic tasks (Dixon-Krauss, 2002; Stahl &amp;amp; Vancil, 1986). (p. 34)&lt;/p&gt;
+
+&lt;p&gt;Such discussions feature authentic, teacher–student dialogic exchanges (Nystrand et al., 2003); they emphasize higher-order thinking and reasoning about content; and they include the develop- ment of students’ strategic knowledge (e.g., Langer, 2001). (p. 34)&lt;/p&gt;
+
+&lt;p&gt;a range of instructional talk moves with which effective teachers provide scaffolding that engages students productively with content (Dixon-Krauss, 2002; Sharpe, 2008). A broader repertoire of teacher talk moves, including, for example, questioning, elaborating, or speculating, scaf- folds students’ participation and offers students models for engaging in academic inquiry (Sharpe, 2008). (p. 34)&lt;/p&gt;
+
+&lt;p&gt;Discussion (p. 34)&lt;/p&gt;
+
+&lt;p&gt;t is clear that vocabulary is a complex construct with connections to many aspects of language development and general knowledge growth. As such, the simplistic view of word learning through dictionary definitions that often predominates in classroom instruction (Blachowicz, Fisher, Ogle, &amp;amp; Watts-Taffe, 2006; Hedrick et al., 2004) is largely ineffective for increasing students’ understanding of words. Rather, deep word knowledge emerges over time through productive interactions with authentic texts, tasks, and talk (Beck et al., 2002; Beck, McKeown, &amp;amp; Kucan, 2008; Blachowicz &amp;amp; Fisher, 2000; Graves, 2006; Scott, 2005; Stahl &amp;amp; Nagy, 2006). (p. 34)&lt;/p&gt;
+
+&lt;p&gt;The second action teachers take relates to the ways they frame classroom dis- cussions to prompt productive explorations and provide the “rich oral language” necessary to build networks of semantic and associative information about words (McKeown et al., 1983; McKeown et al., 1985; Stahl &amp;amp; Vancil, 1987). Exploring words and their meanings through discussions of classroom texts and content anchors students’ developing vocabulary in meaningful contexts with authentic applications and opportunities to experience words in ways that support learning. (p. 35)&lt;/p&gt;
+
+&lt;p&gt;to address the multidimensionality of what it means to know a word (p. 35)&lt;/p&gt;
+
+&lt;p&gt;research suggests that discus- sions as contexts for word learning are relatively uncommon (Scott et al., 2003). (p. 35)&lt;/p&gt;
+
+&lt;p&gt;instead, they attribute productive discourse as resulting more from luck or timing than from a teacher’s knowledge and discursive skill (Adler et al., 2003/2004). It seems that, at this point, many teachers lack a deep under- standing of the teacher’ pivotal role in orchestrating productive classroom talk. (p. 35)&lt;/p&gt;
+
+&lt;p&gt;National Assessment of Educational Progress. (2013). 2013 Reading Assessment. Washington, DC: U.S. Department of Education, Institute of Education Sciences, National Center for Education Statistics. Retrieved from http://nces.ed.gov/nation- sreportcard/reading/ (p. 39)&lt;/p&gt;
+
+&lt;p&gt;National Reading Panel. (2000). Report of the National Reading Panel: Teaching chil- dren to read: An evidence-based assessment of the scientific research literature on reading and its implications for reading instruction (NIH Publication No. 00-4769). Washington, DC: U.S. Government Printing Office. (p. 39)&lt;/p&gt;
+
+&lt;p&gt;Resnick, L. B., Levine, J. M., &amp;amp; Teasley, S. D. (Eds.). (1991). Perspectives on socially shared cognition. Washington, DC: American Psychological Association. (p. 40)&lt;/p&gt;
+</description>
+        <pubDate>Mon, 18 Sep 2017 00:00:00 -0500</pubDate>
+        <link>http://bodong.ch//notes/2017/09/18/Ford-Connors2015-dd.html</link>
+        <guid isPermaLink="true">http://bodong.ch//notes/2017/09/18/Ford-Connors2015-dd.html</guid>
+        
+        <category>vocabulary</category>
+        
+        <category>literacies</category>
+        
+        
+        <category>notes</category>
+        
+      </item>
+    
+      <item>
+        <title>Notes: Kuhn2012-qo The structure of scientific revolutions</title>
+        <description>&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Citekey&lt;/strong&gt;: @Kuhn2012-qo&lt;/p&gt;
+
+&lt;p&gt;Kuhn, T. S. (2012). The structure of scientific revolutions (4th ed.). Chicago, IL: University of Chicago Press. Retrieved from https://books.google.com/books?id=3eP5Y_OOuzwC&lt;/p&gt;
+
+&lt;h2 id=&quot;notes&quot;&gt;Notes&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Summarize&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Assess&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Reflect&lt;/em&gt;:&lt;/p&gt;
+
+&lt;h2 id=&quot;highlights&quot;&gt;Highlights&lt;/h2&gt;
+
+&lt;p&gt;A footnote encountered by chance led me to the experiments by which Jean Piaget has illuminated both the various worlds of the 2growing child and the process of transition from one to the next.2 One of my colleagues set me to reading pape rs in the psychology of perception, my colleagues set me to reading pape rs in the psychology of perception, particularly the Gestalt psychologists ; another introduced me to B. L. particularly the Gestalt psychologists ; another introduced me to B. L. Whorf ’s speculations about the effect of language on world view; and W. V. O . Q u i n e o p e n e d f o r m e t h e p h i l o s o p h i c a l p u z z l e s o f t h e a n a l y t i c -3synthetic distinction.3 That is the sort of random exploration that the Society of Fellows permits, and only through it could I have encountered Society of Fellows permits, and only through it could I have encountered Ludwik Fleck’s almost unknown monograph, Entstehung und Entwicklung einer wis- (p. 6)&lt;/p&gt;
+
+&lt;p&gt;composed predominantly of social scientists confronted me with unanticipated problems about the differences between such communities and those of the natural scientists among whom I had been trained. Particularly, I was struck by the number and extent of the overt disagreements between social scientists about the nature of fi (p. 8)&lt;/p&gt;
+
+&lt;p&gt;physics, chemistry, or biology normally fails to evoke the controversies over fundamentals that today often seem endemic among, say, over fundamentals that today often seem endemic among, say, psychologists or sociologists. Attempting to discover the source of that psychologists or sociologists. Attempting to discover the source of that difference led me to recognize the role in scientific research of what I have since called “paradigms.” (p. 8)&lt;/p&gt;
+
+&lt;p&gt;I. Introduction: A Role for History (p. 13)&lt;/p&gt;
+
+&lt;p&gt;That image has previously been drawn, even by scientists themselves, mainly from the study of finished scientific achievements as these are recorded in the classics and, more (p. 13)&lt;/p&gt;
+
+&lt;p&gt;This essay attempts to show that we have been misled by them in (p. 13)&lt;/p&gt;
+
+&lt;p&gt;Those texts have, for example, often seemed to imply that the content of science is uniquely exemplified by the observations, laws, and theories described in their pages. (p. 13)&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;teaching only through textbooks is doing injustice to science learning. (p. 13)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If science is the constellation of fa cts, theories, and methods collected in current texts, then scientists ar e the men who, successfully or not, have striven to contribute one or another element to that particular have striven to contribute one or another element to that particular constellation. Scientific development becomes the piecemeal process by constellation. Scientific development becomes the piecemeal process (p. 13)&lt;/p&gt;
+
+&lt;p&gt;In recent years, however, a few historians of science have been finding it more and more difficult to fulfil the functions that the concept of development-by-accumulation assigns to them. As chroniclers of an development-by-accumulation assigns (p. 14)&lt;/p&gt;
+
+&lt;p&gt;individual discoveries and inventions. Simultaneously, these same historians confront growing difficultie s in distinguishing the “scientific” component of past observation and belief from what their predecessors had readily labeled “error” and “supe (p. 14)&lt;/p&gt;
+
+&lt;p&gt;If these out-ofdate beliefs are to be called myths, then myths can be produced by the same sorts of methods and held for the same sorts of reasons that now lead to scienti fic knowledge. If, on the other hand, they are to be called science, then science has included bodies of belief quite incompatible with the ones we hold today. Given these alternatives, the historian must choose the latter. (p. 14)&lt;/p&gt;
+
+&lt;p&gt;unscienti fic because they have been ficult to see scientific discarded. That choice, however, makes it difficult to see scientific development as a process of accretion. displays the difficulties in isolating indi (p. 15)&lt;/p&gt;
+
+&lt;p&gt;What aspects of science will emerge to prominence in the course of this effort? First, at least in order of presentation, is the insufficiency of methodological directives, by themselves, to dictate a unique substantive conclusion to many sorts of scientifi (p. 15)&lt;/p&gt;
+
+&lt;p&gt;What differentiated these various schools was not one or anothe r failure of method— they were all “scientific”—but what we shall come to call their incommensurable ways of seeing the world and of practici (p. 16)&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;incommensurable ways of seeing the world and of practicing science in it – a beautiful way of describing the issue here.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Reflecting on many debates in ed research, are we isolating us in our own incommensurable ways of seeing the world? (p. 16)&lt;/p&gt;
+
+&lt;p&gt;An apparently arbitrary element, compounded of personal and historical accident, is always a formative ingredient of the beliefs espoused by a given scienti fic community at a given time. community at a given time. (p. 16)&lt;/p&gt;
+
+&lt;p&gt;That element of arbitrariness does not, however, indicate that any entific group could practice its trade without some set of received scientific group could practice its trade without some set of received beliefs. Nor does it make less consequential the particular constellation (p. 16)&lt;/p&gt;
+
+&lt;p&gt;research scarcely begins before a scientific community thinks it has acquired firm answers to questions like the following: What are the acquired firm answers to questionfundamental entities (p. 16)&lt;/p&gt;
+
+&lt;p&gt;examining normal science in Sections III, IV, and V, we shall want finally to describe that research as a strenuous and devoted attempt to force nature into the conceptual boxes supplied by professional education. Simultaneously, we shall wonder whether research could proceed without such boxes, whatever the element of arbitrariness in their historic origins and, occasionally, in their subsequent development. historic origins and, occasionally, in their subsequent development. (p. 17)&lt;/p&gt;
+
+&lt;p&gt;fundamental novelties because they are necessarily subversive of its basic commitments. Nevertheless, so long as those commitments retain an element of the arbitrary, the very nature of normal research ensures an element of the arbitrary, the very nature of normal research ensures that novelty shall not be suppressed for very long. Sometimes a normal that novelty shall not be suppressed for very long. (p. 17)&lt;/p&gt;
+
+&lt;p&gt;these and other ways besides, normal science repeatedly goes astray. And when it does—when, that is, the profession can no longer evade And when it does—when, that is, the profession can no longer evade anomalies that subvert the existing tradition of scientific practice—then anomalies that subvert the existing tradition of scientific practice—then begin the extraordinary investigations th at lead the profession at last to a new set of commitments, a new basis for the practice of science. The extraordinary episodes in which that shift of professional commitments occurs are the ones known in this essay as scientific revolutions. They are the tradition-shattering complements to the tradition-bound activity are the tradition-shattering complements to the tradition-bound activity of normal science. of normal science. (p. 18)&lt;/p&gt;
+
+&lt;p&gt;necessitated the community’s rejection of one time-honored scientific theory in favor of another incompatible with it. Each produced a consequent shift in the problems available for scientific scrutiny and in the standards by which the profession determined what should count as an admissible problem or as a legitimate problem-solution. And each transformed the scientific imagination in ways that we shall ultimately need to describe as a transformation of the world within which scientific work was done. Such changes, together with the controversies that almost always accompany them, are the de fining characteristics of scientific revolutions. (p. 18)&lt;/p&gt;
+
+&lt;p&gt;new theories regularly, and appropriately, evokes the same response from some of the specialists on whose area of special competence they from some of the specialists on whose area of special competence they impinge. For these men the new theory implies a change in the rules impinge. For these men the new theory implies a change in the rules governing the prior practice of normal science. Inevitably, therefore, it reflects upon much scientific work they have already successfully completed. That is why a new theory, however special its range of application, is seldom or never just an increment to what is already known. Its assimilation requires the reconstruction of prior theory and the re-evaluation of prior fact, an in trinsically revolutionary process that (p. 19)&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;a new theory is seldom or never just an increment to what is already know! (p. 19)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;That is why the unexpected discovery is not simply factual in its import and why the scientist’s world is qualitatively transformed as well as quantitatively enriched by fundamental novelties of either fact or theory. (p. 19)&lt;/p&gt;
+
+&lt;p&gt;descriptive discipline. The theses suggested above are, however, often (p. 20)&lt;/p&gt;
+
+&lt;p&gt;II. The Route to Normal Science (p. 22)&lt;/p&gt;
+
+&lt;p&gt;‘normal science’ means research firmly based upon one or more past scientific achievements, achievements that some particular scientific community acknowledges for a time as supplying the scientific community acknowledges for a time as supplying the foundation for its further practice (p. 22)&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;AKA textbook science; canons (p. 22)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;accepted theory, illustrate many or a ll of its successful applications, and compare these applications with exemplary observations and compare these applications with exemplary observations and experiments. Before such books became popular early in the nineteenth experiments. (p. 22)&lt;/p&gt;
+
+&lt;p&gt;They were able to do so because they shared two essential characteristics. Their achievement was sufficiently unprecedented to attract an enduring group of adherents away from competing modes of scientific activity. Simultaneously, it was sufficiently open-ended to leave all sorts of problems for the redefined group of practitioners to resolve. (p. 22)&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;fruitfulness (p. 22)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Achievements that share these two characteristics I shall henceforth refer to as ‘paradigms,’ a term that relates closely to ‘normal science.’ (p. 22)&lt;/p&gt;
+
+&lt;p&gt;particular coherent traditions of scientific research (p. 22)&lt;/p&gt;
+
+&lt;p&gt;paradigms, including many that are far more specialized than those named illustratively above, is what mainly prepares the student for membership in the particular scientific community with which he will later practice. Because he there joins men who learned the bases of their later practice. (p. 23)&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;scientific community – mentioning it is important. Link with identity (p. 23)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;research is based on shared paradi gms are committed to the same rules and standards for scientific practice. That commitment and the apparent consensus it produces are prerequisites for normal science, i.e., for the genesis and continuation of a particular research tradition. i.e., for the genesis and continuation of a particular research tradition. (p. 23)&lt;/p&gt;
+
+&lt;p&gt;what sense is the shared paradigm a fundamental unit for the student of scientific development, a unit that cannot be fully reduced to logically (p. 23)&lt;/p&gt;
+
+&lt;p&gt;paradigm and of the more esoteric type of research it permits is a sign of maturity in the development of any given scientific field. (p. 23)&lt;/p&gt;
+
+&lt;p&gt;These transformations of the paradigms of physical optics are scientific revolutions, and the successive transition from one paradigm to another via revolution is the usual developmental pattern of mature science. (p. 24)&lt;/p&gt;
+
+&lt;p&gt;At various times all these schools made signi ficant contributions to the body of concepts, phenomena, and techniques from which Newton drew the first nearly uniformly accepted paradigm for physical optics. (p. 25)&lt;/p&gt;
+
+&lt;p&gt;physical optics before Newton may well conclude that, though the field’s practitioners were scientists, the net result of their activity was something less than science. Being able to take no common body of belief for granted, each writer on phys ical optics felt forced to build his field anew from its foundations. In doing so, his choice of supporting observation and experiment was relatively free, for there was no standard set of methods or of phenomena that every optical writer felt forced to employ and explain. Under these circumstances, the dialogue of the resulting books was often directed as much to the members of other schools as it was to nature. That pattern is not unfamiliar in a number of creative fields today, nor is it incompatible with significant discovery and invention. It is not, however, the pattern of development that physical optics acquired af ter Newton and that other natural sciences make familiar today. (p. 25)&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;interesting. So the establishment of a paradigm benefits continual growth of a body of work. (p. 25)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Only through the work of Franklin and his immediate successors did a theory arise that could account with something like equal facility for very nearly all th ese effects and that therefore could and did provide a subsequent gene ration of “electricians” with a common paradigm for its research. common paradigm for its research. Excluding those fields, like math (p. 27)&lt;/p&gt;
+
+&lt;p&gt;NA (p. 27)&lt;/p&gt;
+
+&lt;p&gt;question what parts of social science have yet acquired such paradigms at all. History suggests that the road to a firm research consensus is extraordinarily arduous. the road to a firm research consensus is extraordinarily arduous. (p. 27)&lt;/p&gt;
+
+&lt;p&gt;candidate for paradigm, all of the facts that could possibly pertain to the development of a given science are likely to seem equally relevant. As a result, early fact-gathering is a far more nearly random activity than the one that subsequent scientific development makes familiar. (p. 27)&lt;/p&gt;
+
+&lt;p&gt;Because the crafts are one readily accessible source of facts that could not have been casually discovered, technology (p. 27)&lt;/p&gt;
+
+&lt;p&gt;has often played a vital role in the emergence of new sciences. (p. 28)&lt;/p&gt;
+
+&lt;p&gt;No natural history can be interpreted in the absence of at least some implicit body (p. 28)&lt;/p&gt;
+
+&lt;p&gt;of intertwined theoretical and me thodological belief that permits selection, evaluation, and criticism. If that body of belief is not already implicit in the collection of facts—in which case more than “mere facts” are at hand—it must be externally supplied, perhaps by a current metaphysic, by another science, or by personal and historical accident. (p. 29)&lt;/p&gt;
+
+&lt;p&gt;fluid and therefore gave particular emphasis to conduction provide an excellent case in point. Led by this belief, which could scarcely cope with the known multiplicity of attractive and repulsive effects, several of them conceived the idea of bottling the electrical fluid. The immediate fruit of their efforts was the Leyden jar, a device which might never have been discovered by a man exploring nature casually or at random, but which was in fact independently developed by at least two investigators in the 7early 1740’s. (p. 29)&lt;/p&gt;
+
+&lt;p&gt;To be accepted as a paradigm, a etitors, but theory must seem better than its competitors, but (p. 29)&lt;/p&gt;
+
+&lt;p&gt;it need not, and in fact never does, explain all the facts with which it can be confronted. What the fluid theory of electricity did for the subgroup that held it, the Franklinian paradigm later did for the entire group of electricians. It suggested which experiments would be worth performing and which, because directed to secondary or to overly complex manifestations of (p. 30)&lt;/p&gt;
+
+&lt;p&gt;Freed from the concern with any and all electrical phenomena, the united group of electricians could pursue selected phenomena in far more detail, designing much special equipment for the task and employing it more designing much special equipment for the task and employing it more stubbornly and systematically than electricians had ever done before. stubbornly and systematically than electricians had ever done before. Both fact collection and theory arti culation became highly directed (p. 30)&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;promisingness judgments become easier (p. 30)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;emergence of a paradigm affects the structure of the group that practices the field. When, in the development of a natural science, an individual or group first produces a synthesis able to attract most of the next generation’s practitioners, the older schools gradually disappear. (p. 30)&lt;/p&gt;
+
+&lt;p&gt;gm implies a new and more rigid definition of the field. Those unwilling or unable to accommodate their work to it must proceed in isolation or attach themselves to some other work to it must proceed in isolation or attach themselves to some other group.11 Historically, they have often simply stayed in the departments group.11 Historically, they have often simply stayed in the departments of philosophy from which so many of the special sciences have been of philosophy from which so many of the special sciences have been spawned. As these indications hint, it is sometimes just its reception of a paradigm that transforms a group previously interested merely in the paradigm that transforms a group previously interested merely in the study of nature into a profession or, at least, a discipline. In the sciences study of nature into a profession or, at least, a discipline. (p. 31)&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;interesting.. so we are heading to the philosophy department if we are deemed useless in our own professions. Haha.  (p. 31)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The more rigid definition of the scienti fic group has other consequences. When the individual scientist can take a paradigm for granted, he need no longer, in his major works, attempt to build his fi eld anew (p. 31)&lt;/p&gt;
+
+&lt;p&gt;Given a textbook, however, the creative scientist can begin his research where it leaves off and thus concentrate exclusively upon the subtlest and most esoteric aspect s of the natural phenomena that subtlest and most esoteric aspect s of the natural phenomena that concern his group. And as he does this, his research communiqués will begin to change in (p. 32)&lt;/p&gt;
+
+&lt;p&gt;To d a y i n t h e s c i e n c e s , b o o k s a r e u s u a lly either texts or retrospective reflections upon one aspect or another of the scientific life. (p. 32)&lt;/p&gt;
+
+&lt;p&gt;guide the whole group’s research. Except with the advantage of hindsight, it is hard to find another criterion that so clearly proclaims a field a science. (p. 34)&lt;/p&gt;
+
+&lt;p&gt;III. The Nature of Normal Science (p. 35)&lt;/p&gt;
+
+&lt;p&gt;In a sc ience, on the other hand, a paradigm is rarely an object for replication. Instead, like an accepted judicial decision in the common law, it is an object for further articulation and specification under new or more stringent conditions. (p. 35)&lt;/p&gt;
+
+&lt;p&gt;he success of a paradigm—whether Aristotle’s analysis of motion, Ptolemy’s computations of planetary position, Lavoisier’s application of the balance, or Maxwell’s mathematization of the electromagnetic field—is at the start largely a promise of success discoverable in selected and (p. 35)&lt;/p&gt;
+
+&lt;p&gt;still incomplete examples. (p. 36)&lt;/p&gt;
+
+&lt;p&gt;Normal science consists in the actualization of that promise, an actualization achieved by extending the knowledge of those facts that the paradigm displays as particularly revealing, by increasing the extent of the match between those facts and the paradigm’s predictions, and by further articulation of the paradigm itself. (p. 36)&lt;/p&gt;
+
+&lt;p&gt;Mop-ping-up operations are what engage most scientists throughout their careers. They constitute what I am here calling normal science. (p. 36)&lt;/p&gt;
+
+&lt;p&gt;Nor do scientists normally aim to invent new theories, and they are often intolerant of those invented by others.1 Instead, normal-scientific research is directed to the articulation of those phenomena and theories that the paradigm already supplies. (p. 36)&lt;/p&gt;
+
+&lt;p&gt;On what aspects of nature do scientists ordinarily report? What determines their choice? And, since most scientific observation consumes much time, equipment, and money, what motivates the scientist to pursue that choice to a conclusion? (p. 37)&lt;/p&gt;
+
+&lt;p&gt;Attempts to increase the accuracy and scope with which facts like these are known occupy a significant fraction of the literature of experimental and observational science. (p. 37)&lt;/p&gt;
+
+&lt;p&gt;some scientists have acquired great reputations, not from any novelty of their discoveries, but from the precision, reliability, and scope of the methods they developed for the redetermination of a previously known sort of fact. (p. 38)&lt;/p&gt;
+
+&lt;p&gt;apparatus (p. 38)&lt;/p&gt;
+
+&lt;p&gt;The existence of the paradigm sets the problem to be solved; often the paradigm theory is implicated directly in the design of apparatus able to solve the problem (p. 39)&lt;/p&gt;
+
+&lt;p&gt;A third class of experiments and observations exhausts, I think, the fact-gathering activities of normal science. It consists of empirical work undertaken to articulate the paradigm theory, resolving some of its residual ambiguities and permitting the solution of problems to which it had previously only drawn attention. This class proves to be the most important of all, and its description demands its subdivision (p. 39)&lt;/p&gt;
+
+&lt;p&gt;experimentalists (p. 40)&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;great stories about theoretical physicists working with experimental physicists etc (p. 40)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Coulomb’s success depended upon his constructing special apparatus to measure the force between point charges (p. 40)&lt;/p&gt;
+
+&lt;p&gt;But that design, in turn, depended upon the previous recognition that every particle of electric fluid acts upon every other at a distance. (p. 40)&lt;/p&gt;
+
+&lt;p&gt;A part of normal theoretical work, though only a small part, consists simply in the use of existing theory to predict factual information of intrinsic value. (p. 42)&lt;/p&gt;
+
+&lt;p&gt;The need for work of this sort arises from the immense difficulties often encountered in developing points of contact between a theory and nature. (p. 42)&lt;/p&gt;
+
+&lt;p&gt;Even in the mathematical sciences there are also theoretical problems of paradigm articulation; and during periods when scientific development is predominantly qualitative, these problems dominate. (p. 45)&lt;/p&gt;
+
+&lt;p&gt;More than any other sort of normal research, the problems of paradigm articulation are simultaneously theoretical and experimental; (p. 45)&lt;/p&gt;
+
+&lt;p&gt;They were working both with fact and with theory, and their work produced not simply new information but a more precise paradigm, obtained by the elimination of ambiguities that the original from which they worked had retained. In many sciences, most normal work is of this sort. (p. 46)&lt;/p&gt;
+
+&lt;p&gt;These three classes of problems—determination of significant fact, matching of facts with theory, and articulation of theory-exhaust, I think, the literature of normal science, both empirical and theoretical. (p. 46)&lt;/p&gt;
+
+&lt;p&gt;Inevitably, therefore, th e overwhelming majority of the problems undertaken by even the very best scientists usually fall into one of the three categories outlined above. Work under the paradigm can be conducted in no other way, and to desert the paradigm is to cease practicing the science it defines. We shall shortly discover that such desertions do occur. They are the pivots about which scientific revolutions turn. (p. 46)&lt;/p&gt;
+
+&lt;p&gt;IV. Normal Science as Puzzle-solving (p. 47)&lt;/p&gt;
+
+&lt;p&gt;Perhaps the most striking feature of the normal research problems we have just encountered is how little they aim to produce major novelties, conceptual or phenomenal. (p. 47)&lt;/p&gt;
+
+&lt;p&gt;Because they yielded neit her consistent nor simple results, they could not be used to articulate the paradigm from which they derived. Therefore, they remained mere facts, unrelated and unrelatable to the continuing progress of electrical research. (p. 47)&lt;/p&gt;
+
+&lt;p&gt;But if the aim of normal science is not major substantive novelties—if failure to come near the anticipated result is usually (p. 47)&lt;/p&gt;
+
+&lt;p&gt;failure as a scientist—then why are these problems undertaken at all? (p. 48)&lt;/p&gt;
+
+&lt;p&gt;Bringing a normal research pr oblem to a conclusion is achieving the anticipated in a new way, and it requires the solution of all sorts of complex instrumental, conceptual, and mathematical puzzles. The man who succeeds proves himself an expert puzzle-solver, and the challenge of the puzzle is an important part of what usually drives him on. (p. 48)&lt;/p&gt;
+
+&lt;p&gt;It is no criterion of goodness in a puzzle that its outcome be intrinsically interesting or important. (p. 48)&lt;/p&gt;
+
+&lt;p&gt;n e o f t h e t h i n g s a s c i e n t i fic community acquires with a paradigm is a criterion for choosing problems that, while the paradigm is taken for granted, can be assumed to have solutions. (p. 49)&lt;/p&gt;
+
+&lt;p&gt;Other problems, including many that had previously been standard, are rejected as metaphysical, as the concern of another discipline, or sometimes as just too problematic to be worth the time. (p. 49)&lt;/p&gt;
+
+&lt;p&gt;A man may be attracted to science for all sorts of reasons. Among them are the desire to be useful, the excitement of exploring new territory, the hope of finding order, a n d t h e d r i ve t o t e s t e s t a b l i s h e d knowledge. (p. 49)&lt;/p&gt;
+
+&lt;p&gt;the rules that govern jigsaw-puzzle solutions (p. 50)&lt;/p&gt;
+
+&lt;p&gt;Only a change in the rules of the game could have provided an alternative. (p. 52)&lt;/p&gt;
+
+&lt;p&gt;While they continue to be honored, such statements help to set puzzles and to limit acceptable solutions. (p. 52)&lt;/p&gt;
+
+&lt;p&gt;Less local and temporary, though still not unchanging characteristics of science, are the higher level, quasi-metaphysical commitments that historical study so regularly displays. (p. 53)&lt;/p&gt;
+
+&lt;p&gt;after the appearance of Descartes’s immensely influential scientific writings, most physical scientists assumed that the universe was composed of microscopic corpuscles and that all natural phenomena could be explained in terms of corpuscular shape, size, motion, and interaction. That nest of commitments proved to be both metaphysical and methodological. As metaphysical, it told scientists what sorts of entities the universe did and did not contain: there was only shaped matter in motion. As methodological, it told them what ultimate laws and fundamental explanations must be like: laws must specify corpuscular motion and interaction, and explanation must reduce any given natural phenomenon to corpuscular action under these laws. (p. 53)&lt;/p&gt;
+
+&lt;p&gt;Finally, at a still higher level, there is another set of commitments without which no man is a scientist. The scientist must, for example, be concerned to understand the world and to extend the precision and scope with which it has been ordered. That commitment must, in turn, lead him to scrutinize, either for himself or through colleagues, some aspect of nature in great empirical detail. And, if that scrutiny displays pockets of apparent disorder, then these must challenge him to a new refinement of his observational techniques or to a further articulation of his theories. (p. 54)&lt;/p&gt;
+
+&lt;p&gt;The existence of this strong network of commitments—conceptual, theoretical, instrumental, and methodological—is a principal source of the metaphor that relates normal science to puzzle-solving. Because it provides rules that tell the practitioner of a mature specialty what both the world and his science are like, he can concentrate with assurance upon the esoteric problems that these rules and existing knowledge define for him. (p. 54)&lt;/p&gt;
+
+&lt;p&gt;ules, I suggest, derive from paradigms, but paradigms can guide research even in the absence of rules. (p. 54)&lt;/p&gt;
+
+&lt;p&gt;V. T h e P r i o r i t y o f P a r a d i g m s (p. 55)&lt;/p&gt;
+
+&lt;p&gt;Nevertheless, if the coherence of the research tradition is to be understood in terms of rules, some specification of common ground in the corresponding area is needed. As a result, the search for a body of rules competent to constitute a given normal research tradition becomes a source of continual and deep frustration. (p. 56)&lt;/p&gt;
+
+&lt;p&gt;Inevitably, the first effect of those statements is to raise problems. In the absence of a competent body of rules, what restricts the scientist to a particular normal-scientific tradition? What can the phrase ‘direct inspection of paradigms’ mean? Partial answers to questions like these were developed by the late Ludwig Wittgenstein (p. 56)&lt;/p&gt;
+
+&lt;p&gt;What need we know, Wittgenstein asked, in order that we (p. 56)&lt;/p&gt;
+
+&lt;p&gt;apply terms like ‘chair,’ or ‘leaf,’ or ‘game’ unequivocally and without provoking argument?2 (p. 57)&lt;/p&gt;
+
+&lt;p&gt;That question is very old and has generally been answered by saying that we must know, consciously or intuitively, what a chair, or leaf, or game is. We m u s t , t h a t i s , g r a s p s o m e s e t of attributes that all games and that only games have in common. Wittgenstein, however, concluded that, given the way we use language and the sort of world to which we apply it, there need be no such set of characteristics. (p. 57)&lt;/p&gt;
+
+&lt;p&gt;Scientists work from models acquired through education and through subsequent exposure to the literature often without quite knowing or needing to know what characteristics have given these models the status of community paradigms. (p. 58)&lt;/p&gt;
+
+&lt;p&gt;The coherence displayed by the research tradition in which they participate may not imply even the existence of an underlying body of rules and assumptions that additional historical or philosophical investigation might uncover. (p. 58)&lt;/p&gt;
+
+&lt;p&gt;o far this p oint has been entirely theoretical: paradigms could determine normal science without the intervention of discoverable rules. (p. 58)&lt;/p&gt;
+
+&lt;p&gt;The first, which has already been discussed quite fully, is the severe difficulty of discovering the rules that have guided particular normal-scientific traditions. (p. 58)&lt;/p&gt;
+
+&lt;p&gt;The second, to which the first is really a corollary, i s r o o t e d i n t h e n a t ure of scientific education. Scientists, it should already be clear, never learn concepts, laws, and theories in the abstract and by themselves. Instead, these intellectual tools are from the start encountered in a historically and pedagogically prior unit that displays them with and through their applications. (p. 58)&lt;/p&gt;
+
+&lt;p&gt;But they continue to be closely modeled on previous achievements as are the problems that normally occupy him during his subsequent independent scientific career. One is at liberty to suppose that somewhere along the way the scientist has intuitively abstracted rules of the game for himself, but there is little reason to believe it. (p. 59)&lt;/p&gt;
+
+&lt;p&gt;they are little better than laymen at characterizing the established bases of their field, its legitimate problems and methods. (p. 59)&lt;/p&gt;
+
+&lt;p&gt;A fourth reason for granting paradigms a status prior to that of shared rules and assumptions (p. 61)&lt;/p&gt;
+
+&lt;p&gt;The introduction to this essay suggested that there can be small revolutions as well as large ones, that some revolutions affect only the members of a professional subspecialty, and that for such groups even the discovery of a new and unexpected phenomenon may be revolutionary. (p. 61)&lt;/p&gt;
+
+&lt;p&gt;If normal science is so rigid and if scientific communities are so close-knit as the preceding discussion has implied, how can a change of paradigm ever affect only a small subgroup? What has been said so far may have seemed to imply that normal science is a single monolithic and unified enterprise that must stand or fall with any one of its paradigms as well as with all of them together. But science is obviously seldom or never like that. Often, viewing all fields together, it seems instead a rather ramshackle structure with little coherence among its various parts. (p. 61)&lt;/p&gt;
+
+&lt;p&gt;On the contrary, substituting paradigms for rules should make the diversity of scientific fields and specialties easier to understand. Explicit rules, when they exist, are usually common to a very broad scientific group, but paradigms need not be. (p. 61)&lt;/p&gt;
+
+&lt;p&gt;In short, though quantum mechanics (or Newtonian dynamics, or electromagnetic theory) is a paradigm for many scientific groups, it is not the same paradigm for them all. (p. 62)&lt;/p&gt;
+
+&lt;p&gt;VI. Anomaly and the Emergence of Scientific Discoveries (p. 64)&lt;/p&gt;
+
+&lt;p&gt;Normal science, the puzzle-solving activity we have just examined, is a highly cumulative enterprise (p. 64)&lt;/p&gt;
+
+&lt;p&gt;Yet one standard prod uct of the scientific enterprise is missing. Normal science does not aim at novelties of fact or theory and, when successful, finds none. (p. 64)&lt;/p&gt;
+
+&lt;p&gt;History even suggests that the scientific enterprise has developed a uniquely powerful technique for producing surprises of this sort. (p. 64)&lt;/p&gt;
+
+&lt;p&gt;That distinction between discovery and invention or between fact and theory will, however, immediately prove to be exceedingly artificial. Its artificiality is an important clue to several of this essay’s main theses. (p. 64)&lt;/p&gt;
+
+&lt;p&gt;Discovery commences with the awareness of anomaly, i.e., with the recognition that nature has somehow violated the paradigm-induced (p. 64)&lt;/p&gt;
+
+&lt;p&gt;expectations that govern normal science. It then continues with a more or less extended exploration of the area of anomaly. And it closes only when the paradigm theory has been adjusted so that the anomalous has become the expected. Assimilating a new sort of fact demands a more than additive adjustment of theory, and until that adjustment is completed—until the scientist has learned to see nature in a different way—the new fact is not quite a scientific fact at all. (p. 65)&lt;/p&gt;
+
+&lt;p&gt;To s e e h o w c l o s e l y f a c t u a l a n d t h e o r e t i c a l n o v e l t y a r e i n t e r t w i n e d i n scientific discovery examine a particularly famous example, the discovery of oxygen. (p. 65)&lt;/p&gt;
+
+&lt;p&gt;Clearly we need a new vocabulary and concepts for analyzing events like the discovery of oxygen. Though undoubtedly correct, the sentence, “Oxygen was discovered,” misleads by suggesting that discovering something is a single simple act assimilable to our usual (and also questionable) concept of seeing. That is why we so readily assume that discovering, like seeing or touching, should be unequivocally attributable to an individual and to a moment in time. (p. 67)&lt;/p&gt;
+
+&lt;p&gt;any attempt to date the discovery must inevitably be arbitrary because discovering a new sort of phenomenon is necessarily a complex event, one which involves recognizing both that something is and what it is. (p. 67)&lt;/p&gt;
+
+&lt;p&gt;That theory was the keystone for a reformulation of chemistry so vast that it is usually called the chemical revolution. (p. 68)&lt;/p&gt;
+
+&lt;p&gt;Notice, however, since it will be important later, that the discovery of oxygen was not by itself the cause of the change in chemical theory. Long before he played any part in the discovery of the new gas, Lavoisier was convinced both that something was wrong with the phlogiston theory and that burning bodies absorbed some part of the atmosphere. (p. 68)&lt;/p&gt;
+
+&lt;p&gt;Neither ox ygen nor X-rays emerged without a further process of experimentation and assimilation. At what point in Roentgen’s investigation, for example, ought we say that X-rays had actually been discovered? No (p. 69)&lt;/p&gt;
+
+&lt;p&gt;Nor, it is almost as clear, can the moment of discovery be pushed forward to a point during the last week of investigation, by which time Roentgen was exploring the properties of the new radiation he had already discovered. We can only say that X-rays emerged in Würzburg between November 8 and December 28, 1895. (p. 70)&lt;/p&gt;
+
+&lt;p&gt;In short, consciously or not, the decision to employ a particular piece of apparatus and to use it in a particular way carries an assumption that only certain sorts of circumstances will arise. There are instrumental as well as theoretical expectations, and they have often played a decisive role in scientific development. (p. 71)&lt;/p&gt;
+
+&lt;p&gt;Paradigm procedures and applications are as necessary to science as paradigm laws and theories, and they have the same effects. Inevitably they restrict the phenom- enological field accessible for scientific investigation (p. 72)&lt;/p&gt;
+
+&lt;p&gt;Recognizing that much, we may simultaneously see an essential sense in which a discovery like X-rays necessitates paradigm change—and therefore change in both procedures and expectations—for a special segment of the scientific community. As a result, we may also understand how the discovery of X-rays could seem to open a strange new world to many scientists and could thus participate so effectively in the crisis that led to twentieth-century physics. (p. 73)&lt;/p&gt;
+
+&lt;p&gt;Our final example of scientific discovery, that of the Leyden jar, belongs to a class that may be described as theory-induced (p. 73)&lt;/p&gt;
+
+&lt;p&gt;But not all theories are paradigm theories. (p. 73)&lt;/p&gt;
+
+&lt;p&gt;Those characteristics include: the previous awareness of anomaly, the gradual and simultaneous emergence of both observational and conceptual recognition, and the consequent change of paradigm categories and procedures often accompanied by resistance. (p. 74)&lt;/p&gt;
+
+&lt;p&gt;Either as a metaphor or because it reflects the nature of the mind, that psychological experiment provides a wonderfully simple and cogent schema for the process of scientific discovery. In science, as in the playing card experiment, novelty emerges only with difficulty, manifested by resistance, against a background provided by expectation. Initially, only the anticipated and usual are experienced even under circumstances where anomaly is later to be observed. Further acquaintance, however, does result in awareness of something wrong or does relate the effect to something that has gone wrong before. That awareness of anomaly opens a period in which conceptual categories are adjusted until the initially anomalous has become the anticipated. At this point the discovery has been completed. I have already urged that that process or one very much like it is involved in the emergence of all fundamental scientific novelties. (p. 76)&lt;/p&gt;
+
+&lt;p&gt;In the development of any science, the first received paradigm is usually felt to account quite successfully for most of the observations and experiments easily accessible to that science’s practitioners. Further development, therefore, ordinarily calls for the construction of elaborate equipment, the development of an esoteric vocabulary and skills, and a refinement of concepts that increasingly lessens their resemblance to their usual common-sense prototypes. That professionalization leads, on the one hand, to an immense restriction of the scientist’s vision and to a considerable resistance to paradigm change. The science has become increasingly rigid. On the other hand, within those areas to which the paradigm directs the attention of the (p. 76)&lt;/p&gt;
+
+&lt;p&gt;group, normal science leads to a detail of information and to a precision of the observation-theory match that could be achieved in no other way. (p. 77)&lt;/p&gt;
+
+&lt;p&gt;novelty or dinarily emerges only for the man who, knowing with precision what he should expect, is able to recognize that something has gone wrong. Anomaly appears only against the background provided by the paradigm. The more precise and far- reaching that paradigm is, the more sensitive an indicator it provides of anomaly and hence of an occasion for paradigm change. (p. 77)&lt;/p&gt;
+
+&lt;p&gt;By ensuring that the paradigm will not be too easily surrendered, resistance guarantees that scientists will not be lightly distracted and that the anomalies that lead to paradigm change will penetrate existing knowledge to the core. The very fact that a significant scientific novelty so often emerges simultaneously from several laboratories is an index both to the strongly traditional nature of normal science and to the completeness with which that traditional pursuit prepares the way for its own change. (p. 77)&lt;/p&gt;
+</description>
+        <pubDate>Wed, 13 Sep 2017 00:00:00 -0500</pubDate>
+        <link>http://bodong.ch//notes/2017/09/13/Kuhn2012-qo.html</link>
+        <guid isPermaLink="true">http://bodong.ch//notes/2017/09/13/Kuhn2012-qo.html</guid>
+        
+        <category>science</category>
+        
+        <category>methodology</category>
+        
+        
+        <category>notes</category>
+        
+      </item>
+    
+      <item>
+        <title>Notes: Wang2016-lu-Modeling customer preferences using multidimensional network analysis in engineering design</title>
+        <description>&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Citekey&lt;/strong&gt;: @Wang2016-lu&lt;/p&gt;
+
+&lt;p&gt;Wang, M., Chen, W., Huang, Y., Contractor, N. S., &amp;amp; Fu, Y. (2016). Modeling customer preferences using multidimensional network analysis in engineering design. Design Science, 2. https://doi.org/10.1017/dsj.2016.11&lt;/p&gt;
+
+&lt;h2 id=&quot;notes&quot;&gt;Notes&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Summarize&lt;/em&gt;: This paper presents a case of using multidimensional network analysis – powered by ERGM – to model customer preferences in China’s car market. Data were from user surveys. The authors patiently set the background, introduce the techniques, compared MNA with unidimensional network analysis, and considerately presented various analytical decisions associated with these approaches.&lt;/p&gt;
+
+&lt;h2 id=&quot;highlights&quot;&gt;Highlights&lt;/h2&gt;
+
+&lt;p&gt;we present a novel conceptual framework of multidimensional network analysis (MNA) for modeling customer preferences in supporting design decisions. In the proposed multidimensional customerproduct network (MCPN), customerproduct interactions are viewed as a socio-technical system where separate entities of &lt;code class=&quot;highlighter-rouge&quot;&gt;customers' and &lt;/code&gt;products’ are simultaneously modeled as two layers of a network, and multiple types of relations, such as consideration and purchase, product associations, and customer social interactions, are considered (p. 1)&lt;/p&gt;
+
+&lt;p&gt;. Beyond the traditional descriptive analysis used in network analysis, we employ the exponential random graph model (ERGM) as a unified statistical inference framework to interpret complex preference decisions. Our approach broadens the traditional utility-based logit models by considering dependency among complex customerproduct relations, including the similarity of associated products, `irrationality’ of customers induced by social influence, nested multichoice decisions, and correlated attributes of customers and products. (p. 1)&lt;/p&gt;
+
+&lt;p&gt;In recent years, disaggregate quantitative models such as discrete choice analysis (DCA) (Ben-Akiva &amp;amp; Lerman 1985; Train 2009) have been widely studied by the engineering design research community for consumer preference modeling. Following the random utility theory, the customer purchase decision is captured by a utility function of product attributes/features and customer attributes (e.g., social demographic and usage attributes) (Hoyle et al. 2010; He et al. 2012). Even though DCA provides a probabilistic approach for modeling customer heterogeneity, there are several major obstacles (p. 2)&lt;/p&gt;
+
+&lt;p&gt;We aim to develop a preference model that broadens the utility-based DCA by considering complex customerproduct relations, including the similarity of associated products, `irrationality’ of customers induced by social influence, nested multichoice decisions, and correlated attributes of customers and products. To this end, we propose a novel MCPN framework as shown in Figure 1. (p. 3)&lt;/p&gt;
+
+&lt;p&gt;customerproduct interactions form a complex socio-technical system (Trist 1981), not only because there are complex relations between the customers (e.g., social interactions) and amongst the products (e.g., market segmentation or product family), but also because there exist multiple types of relations between customers and products (e.g., &lt;code class=&quot;highlighter-rouge&quot;&gt;consideration' versus &lt;/code&gt;purchase’) (p. 3)&lt;/p&gt;
+
+&lt;p&gt;On one hand, the social structures can influence how people conceive a new technology (or a product), as well as whether and how they will use it (Rice &amp;amp; Aydin 1991; Kraut et al. 1998; Karahanna et al. 1999). On the other hand, new technologies (or products) could bring changes to social and communication relationships among people (Dimaggio et al. 2001). (p. 4)&lt;/p&gt;
+
+&lt;p&gt;this paper represents the first attempt to introduce MNA into engineering design. The complex customerproduct interactions are represented as a multidimensional network where multiple relationships are considered, including social network relations among customers, association relations among products, as well as preference relations between customers and products. (p. 4)&lt;/p&gt;
+
+&lt;p&gt;the exponential random graph model (ERGM) as a unified statistical inference framework for MNA. (p. 4)&lt;/p&gt;
+
+&lt;p&gt;Figure 2. Development of network structures. (p. 5)&lt;/p&gt;
+
+&lt;p&gt;Exponential random graph models have several advantages over the utility-based logit models: (1) network links are modeled to be interdependent in ERGM rather than assumed to be independent; (2) ERGMs can incorporate binary, categorical, and continuous nodal attributes to determine whether they are associated with the formation of network links, (3) ERGMs are capable of characterizing local and global network features; (4) ERGMs can be applied in flexible ways to many dierent types of networks and relational data; (5) data used for fitting ERGMs can be cross-sectional or longitudinal (changes with time), and a dynamic model can be built to study the emergence and dynamics of a network; (6) in contrast to a machine learning model that focuses on prediction, ERGM is an explanatory model whose results can be used to derive behavioral theories and design implications. (p. 5)&lt;/p&gt;
+
+&lt;p&gt;the detailed development in this paper is devoted to modeling consideration decisions among product alternatives. (p. 5)&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Technical background (p. 6)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;2.1. Network analysis in product design and market study (p. 6)&lt;/p&gt;
+
+&lt;p&gt;2.2. Modeling the impact of social influence (p. 6)&lt;/p&gt;
+
+&lt;p&gt;comprehensive study of how peer influence aects product attribute preference was provided by Narayan et al. (2011) who modeled three dierent mechanisms of social influence. (p. 6)&lt;/p&gt;
+
+&lt;p&gt;2.3. Advances in social network analysis (p. 7)&lt;/p&gt;
+
+&lt;p&gt;Development of analytical techniques to explain the emergence of networks is often motivated by the multitheoretical multilevel (MTML) framework (Monge &amp;amp; Contractor 2003). (p. 7)&lt;/p&gt;
+
+&lt;p&gt;Social network models have multilevel interpretations because the emergence of a network can be influenced, for instance, by theories of self-interest that refer to characteristics of actors (at the individual level), theories of social exchange that describe links between pairs of actors (at the dyadic level), theories of balance that explain the configuration of links among three actors (at the triadic level), and theories of collective action that explain configurations among larger aggregates of actors (at the group or network level). (p. 7)&lt;/p&gt;
+
+&lt;p&gt;Eq. (1) suggests that the probability of observing any particular graph (e.g. MCPN) is proportional to the exponent of a weighted combination of network characteristics: one statistic z. y/ is more likely to occur if the corresponding is positive. (p. 7)&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;A multidimensional network approach for preference modeling (p. 8)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;3.1. The multidimensional customer–product network (MCPN) framework (p. 8)&lt;/p&gt;
+
+&lt;p&gt;The product layer contains a collection of engineering products P (e.g., vehicles, electronics and appliances, software). Products are connected by various links which can be either directed or non-directed. Directed links often involve product hierarchy or preference, while non-directed links imply product similarity or association. Product attributes or features, quantitative (e.g., fuel eciency, horsepower) or qualitative (e.g., safety, styling), can be taken into account as nodal attributes. Similar attributes/features between products are represented as association links in the product network. Alternatively, product associations can be identified by their co-consideration relations from customers. (p. 8)&lt;/p&gt;
+
+&lt;p&gt;The customer layer describes a social network consisting of a customer population C who make decisions or take actions. Each customer has a unique profile (e.g., socioeconomic and anthropometric attributes, purchase history and usage context attributes, etc.) which potentially aects customer preference decisions. Links between two customers represent their social relations, such as friendship or communication. (p. 8)&lt;/p&gt;
+
+&lt;p&gt;As seen, the proposed MCPN framework can capture rich information on dependency in a complex socio-technical system so as to assist product design decision-making. A combined analysis of all relations mentioned above allows designers to evaluate product decisions not in isolation, but with expectation that the market system will react to the planned decisions, and any design change may easily aect other connected entities across the network in ways that were initially unintended. (p. 9)&lt;/p&gt;
+
+&lt;p&gt;3.2. Unidimensional network analysis of product associations (p. 9)&lt;/p&gt;
+
+&lt;p&gt;The unidimensional network can be viewed as a compressed but simplified version (p. 9)&lt;/p&gt;
+
+&lt;p&gt;Distance measures commonly used in content-based recommender systems, such as Jaccard index (Real &amp;amp; Vargas 1996), Cosine similarity (Chowdhury 2010), Gower similarity (Gower 1971) etc., can be applied to assess the strength of connections. (p. 9)&lt;/p&gt;
+
+&lt;p&gt;The descriptive network analysis involves the computation of topological measures to assess the position of nodes and the implication of structural advantages. (p. 9)&lt;/p&gt;
+
+&lt;p&gt;Although the unidimensional network approach can describe interdependen- cies in relational data, the method cannot provide quantitative assessment of the impact of product attributes for a particular group of customers of interest. Further, the unidimensional network analysis studies customers’ averaged (aggregated) preference across the population. Advanced network modeling approaches that capture disaggregated preference behaviors of individual customers are needed as examined next. (p. 11)&lt;/p&gt;
+
+&lt;p&gt;3.3. Analyzing multidimensional network considering product associations (p. 11)&lt;/p&gt;
+
+&lt;p&gt;Beyond existing network approaches that are mostly descriptive in nature, we use ERGM as a unified statistical framework to analyze the MCPN (p. 12)&lt;/p&gt;
+
+&lt;p&gt;Exponential random graph model literature has established more than 20 dierent types of eects (Lusher et al. 2012) for describing the various forms of dependence that exist in the relational data within social networks. Examples of eects, their configurations, and interpretations are provided in Table 2. (p. 12)&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Read this paper (p. 12)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The network eects fall into three categories: pure structural eects, attribute-relation eects involving product/customer attributes, and cross-level eects involving both between-level and within-level relations. Pure structural eects are related to the well-known structural regularities in the network literature (e.g., eects [A] to [C] in Table 2); attribute-relation eects assume the attributes of products/customers can also influence possible tie formations in a given structure (p. 12)&lt;/p&gt;
+
+&lt;p&gt;Compared to a unidimensional network (Section 3.2), a multidimensional network provides a more natural way to model relations between two dierent classes of nodes (customers and products) and the non-hierarchical association relations between products. Moreover, its capacity to preserve two types of nodes allows designers to parse out the unique contribution of dierent types of nodes to the overall network structure (p. 12)&lt;/p&gt;
+
+&lt;p&gt;3.4. Analyzing multidimensional network incorporating social influence (p. 13)&lt;/p&gt;
+
+&lt;p&gt;To account for the eect of social influence on customer preference decisions, we further expand the multidimensional network structure to simultaneously measure within-layer social relations, within-layer product associations, and between-layer customerproduct relations (Figure 6). (p. 13)&lt;/p&gt;
+
+&lt;p&gt;Unlike the prior research that incorporates social influence as customer attributes, this research employs the ERGM to assess the social influence eects. In theory, compared to the use of DCA, one should draw more reliable conclusions based on the results from the network approach, because of its capability of handling correlated node attributes and interdependent link relations, which avoids faulty inferences on covariates (Cranmer &amp;amp; Desmarais 2011). (p. 15)&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Case study – vehicle preference modeling (p. 15)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In this section, two implementations on modeling vehicle preferences in the growing China market are presented to demonstrate the proposed methodology. (p. 15)&lt;/p&gt;
+
+&lt;p&gt;4.1. Using unidimensional network (p. 15)&lt;/p&gt;
+
+&lt;p&gt;We develop two types of product association networks  a vehicle association network with undirected links showing the similarity of products, and avehicle hierarchal network with directed links indicating preference hierarchies. (p. 15)&lt;/p&gt;
+
+&lt;p&gt;The two vehicle association networks are constructed using the 2013 New Car Buyers Survey (NCBS) data provided by an independent research institute in China. The dataset contains 49,921 new car buyers who considered and purchased from a pool of 389 vehicle models in 2013. (p. 15)&lt;/p&gt;
+
+&lt;p&gt;The vehicle association network is created to aid the analysis of customer consideration decisions by linking any pair of vehicles if both vehicles are considered by most consumers in his (her) consideration set. The association link is viewed as a form of similarity or closeness between any two vehicles (p. 15)&lt;/p&gt;
+
+&lt;p&gt;The link strength is quantified by lift to reflect how often the two products are compared by a population of customers. (p. 16)&lt;/p&gt;
+
+&lt;p&gt;To prune the network links, a thinning threshold at 1 is chosen for the lift value (p. 16)&lt;/p&gt;
+
+&lt;p&gt;As a measure of network centrality, the node degree calculates the number of links attached to a node. (p. 16)&lt;/p&gt;
+
+&lt;p&gt;For the constructed vehicle network, the product community analysis is employed following Newman’s modularity method to determine groups of interconnected vehicles (p. 16)&lt;/p&gt;
+
+&lt;p&gt;As a refinement to the above undirected network, a directed network is constructed where a link direction is determined through both consideration and purchase data in NCBS. (p. 16)&lt;/p&gt;
+
+&lt;p&gt;Again, the links are trimmed to highlight positive associations (p. 16)&lt;/p&gt;
+
+&lt;p&gt;Figure 7. Unimodal vehicle networks constructed from NCBS 2013. Nodes are sized by network degrees (or in-degrees) and colored by network communities. Network layout is computed by the FruchtermanReingold force-directed algorithm based on aesthetic criteria (Fruchterman &amp;amp; Reingold 1991). Link strength is not specified and has no relation to the distance of nodes (p. 17)&lt;/p&gt;
+
+&lt;p&gt;With a directed network, graph metrics indicating node hierarchy, such as node in-degree, can be computed to reflect customers’ aggregated preferences across the population. (p. 18)&lt;/p&gt;
+
+&lt;p&gt;Our illustrative example shows that descriptive network analysis may serve as a useful tool for designers to determine product positioning and product priorities in the phase of design planning. Centrality, community, and hierarchy allow designers to uncover the root causes of the dierences in vehicle sales under a specific market. (p. 18)&lt;/p&gt;
+
+&lt;p&gt;there is a need for an approach to quantitatively evaluate customer heterogeneous preferences while addressing issues such as dependent alternatives, multiple decisions, social influence, and correlated observations (p. 18)&lt;/p&gt;
+
+&lt;p&gt;4.2. Using MCPN for modeling luxury vehicle preferences in Central China (p. 18)&lt;/p&gt;
+
+&lt;p&gt;Our second implementation demonstrates the use of inferential network technique (ERGM) for analyzing the vehicle MCPN framework (Sections 3.3 and 3.4). (p. 18)&lt;/p&gt;
+
+&lt;p&gt;The proposed MCPN integrates a feature-driven product association network, a customerproduct network, and a customer social network as a unified entity for analysis. The implementation of the proposed approach goes beyond the descriptive analysis and consists of three major steps: network construction, ERGM specification, and ERGM interpretation; each of these steps is explained in the remainder of this section. (p. 19)&lt;/p&gt;
+
+&lt;p&gt;4.2.1. Data transformation &amp;amp; network construction (p. 19)&lt;/p&gt;
+
+&lt;p&gt;4.2.1.1. Product associations. (p. 19)&lt;/p&gt;
+
+&lt;p&gt;’. In this example, product association links in the product layer of the multidimensional network are constructed using the complete set of attributes considered, including vehicle price, engine capacity, fuel consumption, and the existence of turbo. The association link is viewed as a form of overall product similarity from the perspective of engineering design. (p. 19)&lt;/p&gt;
+
+&lt;p&gt;Within the association network construct, the Gower’s coecient (Gower 1971) is calculated to determine the existence of a link between any product pair. Gower’s coecient has the capability to appropriately handle continuous, ordinal, nominal and binary variables as inputs. (p. 19)&lt;/p&gt;
+
+&lt;p&gt;Based on the empirical results, a global thinning threshold at 0.05 is chosen (p. 19)&lt;/p&gt;
+
+&lt;p&gt;4.2.1.2. Preference relations. We use the between-layer links connecting a product and a customer to model customers’ consideration decisions over vehicle models. The structure of these links is precisely defined by NCBS data. (p. 19)&lt;/p&gt;
+
+&lt;p&gt;4.2.1.3. Social relations. (p. 19)&lt;/p&gt;
+
+&lt;p&gt;Using the same strategy in our previous work on network simulation (He et al. 2014), a social space is constructed based on customer geographical locations and selected social attributes (age, income, education). (p. 19)&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;em.. so the links are not strictly ‘social’ but based on customer attributes. (p. 19)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Based on the homophily assumption that two customers with shorter distance in the social space are more likely to be connected (p. 19)&lt;/p&gt;
+
+&lt;p&gt;To mimic the properties of real world networks, we then adjust the social links using the small-world model (Watts &amp;amp; Strogatz 1998; Delre et al. 2007) to assure the high transitivity (&lt;code class=&quot;highlighter-rouge&quot;&gt;one's friends are likely to be friends') and low average path length (&lt;/code&gt;six degrees of separation’ between any two individuals). (p. 20)&lt;/p&gt;
+
+&lt;p&gt;4.2.2. Specification of ERGMs for multidimensional networks (p. 20)&lt;/p&gt;
+
+&lt;p&gt;As presented in Table 4, the examined network eects are restricted to a subset of cross-level configurations and product/customer attributes of dierent forms. The choice of which network eect to include depends on the social theory, hypothesis, and the specific research questions to answer. (p. 20)&lt;/p&gt;
+
+&lt;p&gt;4.2.3. Comparisons and interpretations of ERGMs (p. 20)&lt;/p&gt;
+
+&lt;p&gt;hus, we employ a stochastic approximation (Snijders 2002) that relies on MCMC simulations of graphs. (p. 20)&lt;/p&gt;
+
+&lt;p&gt;The results of the ERGM estimates for various specifications are presented in Table 4. The significant coecient estimates are shown in bold font, (p. 20)&lt;/p&gt;
+
+&lt;p&gt;Model 1 formulates a bipartite ERGM analogous to a logistic model that contains only the attribute-relation eects composed by attributes of customers and products. (p. 22)&lt;/p&gt;
+
+&lt;p&gt;Model 2 parameterizes a bipartite ERGM similar to Model 1 but with the addition of the pure structural eects and the cross-level product association eect. (p. 22)&lt;/p&gt;
+
+&lt;p&gt;The specification of Model 3 is the most complete model that includes all three types of ERGM eects. With the integration of the cross-level social influence eect, peer influences on preference decisions can be evaluated together with other product attributes, customer demographics, and structural patterns within the same model. (p. 22)&lt;/p&gt;
+
+&lt;p&gt;Two penalized-likelihood criteria  AIC and BIC  are also provided in Table 4. The two measures decrease gradually as the addition of the considered structural eects, suggesting improved fits from Model 1 to Model 3. (p. 22)&lt;/p&gt;
+
+&lt;p&gt;The interpretation of Model 1 is similar to that for a logistic model. The vehicle price has a negative significant sign, implies that lower price is preferred in consideration of luxury vehicles. The significant positive turbocharger and engine capacity indicate that the presence of the turbocharger and the increased size of the engine would increase the probability for a customer to consider a particular vehicle model. (p. 22)&lt;/p&gt;
+
+&lt;p&gt;The statistically negative first-time buyer suggests that first-time buyers are unlikely to enter the luxury vehicle market (p. 22)&lt;/p&gt;
+
+&lt;p&gt;In Model 2, the addition of the pure structural eects and the cross-level customer considers similar products eect considerably changes the interpretation of the underlying preference data. (p. 22)&lt;/p&gt;
+
+&lt;p&gt;In contrast, the degree distribution is more centered for customer nodes, as shown by the negative consideration range coecient, because customers only consider a limited number of vehicles (13) in NCBS data. (p. 22)&lt;/p&gt;
+
+&lt;p&gt;The coecients of Model 3 are largely consistent with those in Model 2, except that the previously insignificant income becomes significant, while the previously significant engine capacity becomes insignificant. (p. 23)&lt;/p&gt;
+
+&lt;p&gt;The significant positive peer influence indicates that a customer is likely to become `irrational’ in decision- making and simply considers what his/her peer has considered. Modeling the peer influence is a unique contribution of our work as such eect cannot be modeled either theoretically or computationally without the MCPN framework. (p. 23)&lt;/p&gt;
+
+&lt;p&gt;First, including the attribute-relation main eects alone (Model 1) can explain a large part of the formation of preference links. (p. 23)&lt;/p&gt;
+
+&lt;p&gt;Finally, the peer influence eect (Model 3) introduces another layer of dependencies between two customers into the structure of the network. The significant positive estimate reflects the importance of social influence in explaining customer behavior and modeling product demand. Overall, the results of this example suggest that the nodal attributes (representing customer and product attributes) and network structures (representing product associations, social influences, and other underlying eects) are indispensable elements playing together in shaping the preferences of customers. (p. 23)&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Discussion and conclusion (p. 23)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Though powerful and flexible, MNA has certain characteristics that need careful attentions when implemented for preference modeling (p. 24)&lt;/p&gt;
+
+&lt;p&gt;Depending on the purpose of the analysis, the size of a network model can vary from a few nodes to hundreds or thousands of nodes containing a diverse set of products. However, the network model could be sensitive to the issue of missing data and influenced by how links are defined (Kossinets &amp;amp; Watts 2006). In addition, for a poorly specified model, degeneracy may occur in model estimation and cause the Markov chain to move towards an extreme graph of all or no edges (Snijders 2002). This issue can be solved by incorporating curved exponential family terms that exhibit more stable behavior in model construction (Snijders et al. 2006). (p. 25)&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;important analytical considerations  (p. 25)&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Tue, 12 Sep 2017 00:00:00 -0500</pubDate>
+        <link>http://bodong.ch//notes/2017/09/12/Wang2016-lu.html</link>
+        <guid isPermaLink="true">http://bodong.ch//notes/2017/09/12/Wang2016-lu.html</guid>
+        
+        <category>network analysis</category>
+        
+        <category>multidimensional network</category>
+        
+        
+        <category>notes</category>
+        
+      </item>
+    
+      <item>
+        <title>Notes: Berliner2002-jo- Comment: Educational research: The hardest science of all</title>
+        <description>&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Citekey&lt;/strong&gt;: @Berliner2002-jo&lt;/p&gt;
+
+&lt;p&gt;Berliner, D. C. (2002). Comment: Educational research: The hardest science of all. Educational Researcher, 31(8), 18–20. https://doi.org/10.3102/0013189X031008018&lt;/p&gt;
+
+&lt;h2 id=&quot;notes&quot;&gt;Notes&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Summarize&lt;/em&gt;: An argument against the sole promotion / endorsement of  randomized control trials / experiments in the No Child Left Behind Act of 2001. Nicely argued.&lt;/p&gt;
+
+&lt;h2 id=&quot;highlights&quot;&gt;Highlights&lt;/h2&gt;
+
+&lt;p&gt;The “evidence-based practices” and “scientific research” men- tioned over 100 times in the No Child Left Behind Act of 2001 are code words for randomized experiments, a method of re- search with which I too am much enamored (p. 1)&lt;/p&gt;
+
+&lt;p&gt;Discussion of these issues leads to the conclusion that educational science is unusually hard to do and that the government may not be serious about wanting evidence-based practices in education. (p. 1)&lt;/p&gt;
+
+&lt;p&gt;The government seems to be inappropriately diverging from the two definitions of science provided above by confusing a particular method of science with science itself. This is a form of superstitious thinking that is the antithesis of science. (p. 1)&lt;/p&gt;
+
+&lt;p&gt;Hard and Soft Science: A Flawed Dichotomy (p. 1)&lt;/p&gt;
+
+&lt;p&gt;Definitions of Science (p. 1)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I admire Richard Feynman’s (1999) definition of science as “the belief in the ignorance of authority” (p. 187). (p. 1)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Ed- ucational research is considered too soft, squishy, unreliable, and imprecise to rely on as a basis for practice in the same way that other sciences are involved in the design of bridges and electronic circuits, sending rockets to the moon, or developing new drugs. (p. 1)&lt;/p&gt;
+
+&lt;p&gt;As politicians recognize that “facts are negotiable, perceptions are rock solid,” so there is no guarantee that science will reduce ignorance. But as long as argument is tolerated and unfettered, that possibility exists. (p. 1)&lt;/p&gt;
+
+&lt;p&gt;Easy-to-do science is what those in physics, chemistry, ge- ology, and some other fields do. (p. 1)&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;really? (p. 1)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;neither confuses science with method or technique, (p. 1)&lt;/p&gt;
+
+&lt;p&gt;The Power of Contexts (p. 2)&lt;/p&gt;
+
+&lt;p&gt;But they have more often found regularities in nature across physical contexts while we struggle to find regularities across social contexts. (p. 2)&lt;/p&gt;
+
+&lt;p&gt;Each local context was different, re- quiring differences in programs, personnel, teaching methods, budgets, leadership, and kinds of community support. These huge context effects cause scientists great trouble in trying to un- derstand school life. (p. 2)&lt;/p&gt;
+
+&lt;p&gt;In this hardest-to-do science, educators often need knowledge of the particular—the local—while in the easier-to-do sciences the aim is for more general knowl- edge. (p. 2)&lt;/p&gt;
+
+&lt;p&gt;Doing science and implementing scientific findings are so dif- ficult in education because humans in schools are embedded in complex and changing networks of social interaction. (p. 2)&lt;/p&gt;
+
+&lt;p&gt;There were 93 classroom contexts, 93 dif- ferent patterns of the relationship between evaluation anxiety and student achievement, and a general scientific conclusion that completely missed the particularities of each classroom situation. (p. 2)&lt;/p&gt;
+
+&lt;p&gt;embedded- (p. 2)&lt;/p&gt;
+
+&lt;p&gt;ness of educational phenomena in social life, which results in the myriad interactions that complicate our science. (p. 3)&lt;/p&gt;
+
+&lt;p&gt;Decade by Findings Interactions (p. 3)&lt;/p&gt;
+
+&lt;p&gt;There is still another point about the uniqueness of educational science, the short half-life of our findings. (p. 3)&lt;/p&gt;
+
+&lt;p&gt;Instead of putting its imprimatur on the one method of sci- entific inquiry to improve education, the government would do far better to build our community of scholars, as recommended in the NRC report. (p. 3)&lt;/p&gt;
+
+&lt;p&gt;Decade by findings interactions seem more common in the so- cial sciences and education than they do in other scientific fields of inquiry, making educational science very hard to do. (p. 3)&lt;/p&gt;
+
+&lt;p&gt;A single method is not what the government should be promoting for educational researchers (p. 3)&lt;/p&gt;
+</description>
+        <pubDate>Thu, 07 Sep 2017 00:00:00 -0500</pubDate>
+        <link>http://bodong.ch//notes/2017/09/07/Berliner2002-jo.html</link>
+        <guid isPermaLink="true">http://bodong.ch//notes/2017/09/07/Berliner2002-jo.html</guid>
+        
+        <category>methodology</category>
+        
+        
+        <category>notes</category>
+        
+      </item>
+    
+  </channel>
+</rss>
