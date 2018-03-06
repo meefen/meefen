@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Bodong Chen</title>
+    <title>Homepage on Bodong Chen</title>
     <link>/</link>
-    <description>Recent content in Home on Bodong Chen</description>
+    <description>Recent content in Homepage on Bodong Chen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Mar 2018 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
@@ -41,7 +41,6 @@ I hope you will enjoy this theme. The source code is [on Github](https://github.
 &lt;h3 id=&#34;in-press&#34;&gt;In press&lt;/h3&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Chen, B.&lt;/strong&gt;, Chen, C.-M., Hong, H.-Y., &amp;amp; Chai, C. S. (in press). Learning analytics: Approaches and cases from Asia. In &lt;em&gt;The Routledge Handbook on Schools and Schooling in Asia&lt;/em&gt;. Routledge.&lt;/li&gt;
 &lt;li&gt;Fan, Y., Zhang, G., &lt;strong&gt;Chen, B.&lt;/strong&gt;, &amp;amp; Wang, Q. (in press). Why did they come back? Analyzing motivations for repeated enrollment in MOOCs [in Chinese]. &lt;em&gt;Open Education Research&lt;/em&gt;.&lt;/li&gt;
 &lt;li&gt;Hong, H.-Y., Chen, B., Zhang, J., &amp;amp; Messina, R. (in press). Moving from belief mode to design mode of teaching practices: A knowledge building approach. In J. Zhang, &amp;amp; S. Yu (Eds.), &lt;em&gt;Educational Innovations for Sustained Knowledge Building: Pedagogical and Technological Innovations&lt;/em&gt;. Singapore: Springer.&lt;/li&gt;
 &lt;/ol&gt;
@@ -49,7 +48,12 @@ I hope you will enjoy this theme. The source code is [on Github](https://github.
 &lt;h3 id=&#34;2018&#34;&gt;2018&lt;/h3&gt;
 
 &lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Chen, B.&lt;/strong&gt;, Knight, S., &amp;amp; Wise, A. F. (2018). Critical issues in designing and implementing temporal analytics. &lt;em&gt;Journal of Learning Analytics, 5&lt;/em&gt;(1).&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Chen, B.&lt;/strong&gt;, Chang, Y.-H., Ouyang, F., &amp;amp; Zhou, W. (2018). Fostering student engagement in online discussion through social learning analytics. &lt;em&gt;The Internet and Higher Education&lt;/em&gt;. &lt;a href=&#34;https://doi.org/10.1016/j.iheduc.2017.12.002&#34;&gt;https://doi.org/10.1016/j.iheduc.2017.12.002&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lund, K., &lt;strong&gt;Chen, B.&lt;/strong&gt;, Gaudwin, S. (2018). The potential of interdisciplinarity in MOOC research: How do researchers in education and computer science compare?. In &lt;em&gt;Proceedings of the 2018 Learning @ Scale Conference&lt;/em&gt;. London, UK: ACM Press.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Chen, B.&lt;/strong&gt;, &amp;amp; Fan, Y. (2018). Learning analytics: Perspectives from Mainland China. In C. P. Lim &amp;amp; V. L. Tinio (Eds.), &lt;em&gt;Learning analytics for the Global South (pp. 36–43)&lt;/em&gt;. Quezon City, Philippines: Foundation for Information Technology Education and Development.&lt;/li&gt;
+&lt;li&gt;Huang, T., &amp;amp; &lt;strong&gt;Chen, B.&lt;/strong&gt; (2018). Uncovering the rich club phenomenon in an online class. In &lt;em&gt;Proceedings of the 2018 ICLS Conference&lt;/em&gt;. London, UK: ISLS.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Chen, B.&lt;/strong&gt;, Chen, C.-M., Hong, H.-Y., &amp;amp; Chai, C. S. (2018). Learning analytics: Approaches and cases from Asia. In &lt;em&gt;The Routledge Handbook on Schools and Schooling in Asia&lt;/em&gt;. Routledge.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&#34;2017&#34;&gt;2017&lt;/h3&gt;
@@ -330,7 +334,9 @@ I hope you will enjoy this theme. The source code is [on Github](https://github.
       
       <guid>/blog/2017-10-13-at-what-price/</guid>
       <description>
-        &lt;p&gt;_(Photo Credit: &lt;a href=&#34;https://commons.wikimedia.org/wiki/File:Mordecai_MOREH_-_Tree_of_Knowledge_(Initiation).jpg&#34;&gt;Wikipedia&lt;/a&gt;)_&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/c/c5/Mordecai_MOREH_-_Tree_of_Knowledge_%28Initiation%29.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(Photo Credit: &lt;a href=&#34;https://commons.wikimedia.org/wiki/File:Mordecai_MOREH_-_Tree_of_Knowledge_(Initiation).jpg&#34;&gt;Wikipedia&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;The universe is expanding&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
 The Milky Way is a beauty&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
@@ -727,7 +733,9 @@ RETURN color, count(color) as count ORDER BY count DESC LIMIT 10
       
       <guid>/blog/2017-03-23-umn-lacop/</guid>
       <description>
-        &lt;p&gt;&lt;em&gt;(Photo Credit: &lt;a href=&#34;http://www.thebluediamondgallery.com/wooden-tile/c/community.html&#34;&gt;Blue Diamond Gallery&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;/images/article_images/community.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(Photo Credit: &lt;a href=&#34;http://www.thebluediamondgallery.com/wooden-tile/c/community.html&#34;&gt;Blue Diamond Gallery&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Today, we kicked off our &lt;a href=&#34;https://cei.umn.edu/courses-programs/learning-analytics-community-practice&#34;&gt;Learning Analytics Community of Practice at UMN&lt;/a&gt; (#UMNLACoP)! Launching this CoP has been a joint effort among the &lt;a href=&#34;https://cei.umn.edu/&#34;&gt;Center for Educational Innovation&lt;/a&gt;, the &lt;a href=&#34;https://cla.umn.edu/&#34;&gt;College of Liberal Arts&lt;/a&gt;, the &lt;a href=&#34;https://www.lib.umn.edu&#34;&gt;Libraries&lt;/a&gt;, and the &lt;a href=&#34;https://cehd.umn.edu&#34;&gt;College of Education and Human Development&lt;/a&gt;.&lt;/p&gt;
 

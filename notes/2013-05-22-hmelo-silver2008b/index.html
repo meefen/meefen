@@ -19,7 +19,8 @@
 
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/fonts.css" />
-    <link rel="stylesheet" href="/css/custom.css" />
+    
+<link rel="stylesheet" href="/css/custom.css" />
 
   </head>
 
@@ -389,11 +390,28 @@ fashion.</p>
   <span class="nav-prev">&larr; <a href="/notes/2014-09-15-ebben13unpacking/">Notes: Unpacking mooc scholarly discourse</a></span>
   <span class="nav-next"><a href="/notes/2017-06-15-tutzauer2013-oq/">Notes: Tutzauer, F. (2013). A Family of Affiliation Indices for Two-Mode Networks</a> &rarr;</span>
 </nav>
+<script type="text/javascript">
+document.addEventListener('keyup', function(e) {
+  if (e.target.nodeName.toUpperCase() != 'BODY') return;
+  var url = false;
+  if (e.which == 37) {  
+    
+    url = '\/notes\/2014-09-15-ebben13unpacking\/';
+    
+  } else if (e.which == 39) {  
+    
+    url = '\/notes\/2017-06-15-tutzauer2013-oq\/';
+    
+  }
+  if (url) window.location = url;
+});
+</script>
 
 
 
 <section class="comments">
   <div id="disqus_thread"></div>
+  <script src="/js/disqusloader.min.js"></script>
   <script>
   var disqus_config = function () {
   
@@ -406,10 +424,17 @@ fashion.</p>
     };
     if (inIFrame()) return;
     var disqus_js = '//meefen.disqus.com/embed.js';
-    var d = document, s = d.createElement('script');
-    s.src = disqus_js; s.async = true;
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
+    
+    if (location.hash.match(/^#comment/)) {
+      var d = document, s = d.createElement('script');
+      s.src = disqus_js; s.async = true;
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    } else {
+      disqusLoader('#disqus_thread', {
+        scriptUrl: disqus_js, laziness: 0, disqusConfig: disqus_config
+      });
+    }
   })();
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
@@ -417,16 +442,15 @@ fashion.</p>
 
 
 
-<script src="//yihui.name/js/math-code.js"></script>
-<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
-<script async src="//yihui.name/js/center-img.js"></script>
+
+
 
   
 
   
   <hr>
-  <div class="copyright">&copy; <a href="http://bodong.ch/">Bodong Chen</a> 2018 | <a href="https://github.com/meefen">Github</a> | <a href="https://twitter.com/bod0ng">Twitter</a></div>
+  <div class="copyright">&copy; <a href="http://bodong.ch/">Bodong Chen</a> 2015-2018 | <a href="https://github.com/meefen">Github</a> | <a href="https://twitter.com/bod0ng">Twitter</a></div>
   
   </footer>
   </article>
