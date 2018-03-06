@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learning analytics, pedagogy, learning design on Bodong Chen</title>
+    <link>/tags/learning-analytics-pedagogy-learning-design/</link>
+    <description>Recent content in Learning analytics, pedagogy, learning design on Bodong Chen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/tags/learning-analytics-pedagogy-learning-design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Notes: Lockyer. (2013). Informing Pedagogical Action</title>
+      <link>/notes/2015-12-01-lockyer2013/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2015-12-01-lockyer2013/</guid>
+      <description>References Citekey: @Lockyer2013
+Lockyer, L., Heathcote, E., &amp;amp; Dawson, S. (2013). Informing Pedagogical Action: Aligning Learning Analytics With Learning Design. American Behavioral Scientist, 57(10), 1439–1459. doi:10.1177&amp;frasl;0002764213479367
+Notes Learning design is a new area for me. But one critical point made in this article is that interpretation of learning analytics should be made in the context of pedagogical designs. This is a point that should not be neglected so often in learning analytics research.</description>
+    </item>
+    
+  </channel>
+</rss>

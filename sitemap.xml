@@ -1,3184 +1,2127 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>http://bodong.ch/</loc>
-    <lastmod>2018-01-17T12:54:21-06:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2017/12/22/Suthers2015-vf.html</loc>
-      
-        <lastmod>2017-12-22T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//blog/2017/12/08/jls-web-annotation.html</loc>
-      
-        <lastmod>2017-12-08T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//blog/2017/10/13/at-what-price.html</loc>
-      
-        <lastmod>2017-10-13T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2017/09/22/Lee2017-xm.html</loc>
-      
-        <lastmod>2017-09-22T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2017/09/22/Lee2013-sl.html</loc>
-      
-        <lastmod>2017-09-22T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2017/09/20/Olinghouse2013-yd.html</loc>
-      
-        <lastmod>2017-09-20T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2017/09/18/Ford-Connors2015-dd.html</loc>
-      
-        <lastmod>2017-09-18T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2017/09/13/Kuhn2012-qo.html</loc>
-      
-        <lastmod>2017-09-13T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2017/09/12/Wang2016-lu.html</loc>
-      
-        <lastmod>2017-09-12T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2017/09/07/Berliner2002-jo.html</loc>
-      
-        <lastmod>2017-09-07T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2017/09/01/Zhang2016-ps.html</loc>
-      
-        <lastmod>2017-09-01T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2017/09/01/Snijders2010-ua.html</loc>
-      
-        <lastmod>2017-09-01T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2017/08/31/Wagner2005-ib.html</loc>
-      
-        <lastmod>2017-08-31T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2017/08/18/Ke2008-hw.html</loc>
-      
-        <lastmod>2017-08-18T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2017/08/18/Chen2010-ao.html</loc>
-      
-        <lastmod>2017-08-18T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//blog/2017/07/27/data-sharing-workshop-2.html</loc>
-      
-        <lastmod>2017-07-27T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//blog/2017/07/25/data-sharing-workshop-1.html</loc>
-      
-        <lastmod>2017-07-25T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//blog/2017/07/24/value-in-education.html</loc>
-      
-        <lastmod>2017-07-24T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2017/07/14/Lungeanu2015-mb.html</loc>
-      
-        <lastmod>2017-07-14T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2017/07/12/Contractor2011-vc.html</loc>
-      
-        <lastmod>2017-07-12T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2017/07/12/Contractor2009-sv.html</loc>
-      
-        <lastmod>2017-07-12T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2017/07/10/Yamagata-Lynch2010-eu.html</loc>
-      
-        <lastmod>2017-07-10T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2017/07/10/Sannino2016-lr.html</loc>
-      
-        <lastmod>2017-07-10T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2017/07/10/Cowan2013-ke.html</loc>
-      
-        <lastmod>2017-07-10T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2017/07/04/Sannino2009-cg.html</loc>
-      
-        <lastmod>2017-07-04T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2017/07/04/Engestrom2011-yr.html</loc>
-      
-        <lastmod>2017-07-04T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2017/06/27/Vaquero2013-ld.html</loc>
-      
-        <lastmod>2017-06-27T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2017/06/16/Barab2001-jt.html</loc>
-      
-        <lastmod>2017-06-16T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2017/06/15/Tutzauer2013-oq.html</loc>
-      
-        <lastmod>2017-06-15T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2017/06/15/Morris2003-pc.html</loc>
-      
-        <lastmod>2017-06-15T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2017/06/15/Malinick2013-ub.html</loc>
-      
-        <lastmod>2017-06-15T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2017/06/15/Agneessens2013-wp.html</loc>
-      
-        <lastmod>2017-06-15T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2017/04/24/Schneider2016-du.html</loc>
-      
-        <lastmod>2017-04-24T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//blog/2017/04/10/graphing-reddit-place.html</loc>
-      
-        <lastmod>2017-04-10T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2017/04/04/Engestrom2009-fq.html</loc>
-      
-        <lastmod>2017-04-04T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2017/04/03/Teplovs2013-yi.html</loc>
-      
-        <lastmod>2017-04-03T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2017/03/24/Engestrom2000-yq.html</loc>
-      
-        <lastmod>2017-03-24T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2017/03/24/Cole1993-zt.html</loc>
-      
-        <lastmod>2017-03-24T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//blog/2017/03/23/umn-lacop.html</loc>
-      
-        <lastmod>2017-03-23T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2017/03/10/Jonassen1999-dz.html</loc>
-      
-        <lastmod>2017-03-10T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2017/03/02/Mor2015-kw.html</loc>
-      
-        <lastmod>2017-03-02T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2017/02/08/Carley2003-zk.html</loc>
-      
-        <lastmod>2017-02-08T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2017/01/30/Carley2012-xn.html</loc>
-      
-        <lastmod>2017-01-30T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2017/01/27/Borgatti2012-vh.html</loc>
-      
-        <lastmod>2017-01-27T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2017/01/18/Yazan2015-wn.html</loc>
-      
-        <lastmod>2017-01-18T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2017/01/18/Flyvbjerg2006-eu.html</loc>
-      
-        <lastmod>2017-01-18T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2017/01/03/Kennedy2016-qw.html</loc>
-      
-        <lastmod>2017-01-03T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/11/16/Martinez2016-sz.html</loc>
-      
-        <lastmod>2016-11-16T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//blog/2016/11/14/windchill-learning-analytics.html</loc>
-      
-        <lastmod>2016-11-14T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//blog/2016/11/03/trip-to-asia.html</loc>
-      
-        <lastmod>2016-11-03T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/10/19/Johnson2004-cv.html</loc>
-      
-        <lastmod>2016-10-19T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//blog/2016/10/17/paperpile-workflow-part-2.html</loc>
-      
-        <lastmod>2016-10-17T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/10/14/Rummel2016-wa.html</loc>
-      
-        <lastmod>2016-10-14T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/10/14/Rose2016-rs.html</loc>
-      
-        <lastmod>2016-10-14T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/10/13/Veletsianos2015-hd.html</loc>
-      
-        <lastmod>2016-10-13T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/10/13/Lopez-Meneses2015-ct.html</loc>
-      
-        <lastmod>2016-10-13T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/10/13/Liyanagunawardena2013-ku.html</loc>
-      
-        <lastmod>2016-10-13T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/10/13/Ebben2014-gz.html</loc>
-      
-        <lastmod>2016-10-13T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/10/12/Gasevic2014-ki.html</loc>
-      
-        <lastmod>2016-10-12T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/10/04/Boote2005-kt.html</loc>
-      
-        <lastmod>2016-10-04T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/09/29/Tong2014-tx.html</loc>
-      
-        <lastmod>2016-09-29T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/09/29/Strain2011-sn.html</loc>
-      
-        <lastmod>2016-09-29T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/09/29/Snyder2011-ss.html</loc>
-      
-        <lastmod>2016-09-29T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/09/28/Clark2014-nn.html</loc>
-      
-        <lastmod>2016-09-28T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/09/27/Buckingham2010-mc.html</loc>
-      
-        <lastmod>2016-09-27T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/09/26/Segedy2015-sy.html</loc>
-      
-        <lastmod>2016-09-26T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/09/26/Roll_undated-pn.html</loc>
-      
-        <lastmod>2016-09-26T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/09/26/Kinnebrew2013-de.html</loc>
-      
-        <lastmod>2016-09-26T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/09/23/Zimmerman1986-vd.html</loc>
-      
-        <lastmod>2016-09-23T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/09/23/Winne2016-as.html</loc>
-      
-        <lastmod>2016-09-23T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/09/23/Wieman2014-vd.html</loc>
-      
-        <lastmod>2016-09-23T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/09/23/Southerland2014-vk.html</loc>
-      
-        <lastmod>2016-09-23T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/09/23/Rudolph2014-fd.html</loc>
-      
-        <lastmod>2016-09-23T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/09/23/Phillips2014-jd.html</loc>
-      
-        <lastmod>2016-09-23T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/09/23/Gutierrez2014-qm.html</loc>
-      
-        <lastmod>2016-09-23T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//blog/2016/09/22/paperpile-workflow-part-1.html</loc>
-      
-        <lastmod>2016-09-22T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/09/01/Ladson-Billings2006-um.html</loc>
-      
-        <lastmod>2016-09-01T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/08/26/Littlejohn2016-um.html</loc>
-      
-        <lastmod>2016-08-26T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/08/26/Guo2014-ve.html</loc>
-      
-        <lastmod>2016-08-26T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/08/24/Lee2016-ys.html</loc>
-      
-        <lastmod>2016-08-24T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/08/15/Sun2008b.html</loc>
-      
-        <lastmod>2016-08-15T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/08/15/Rentzou2013.html</loc>
-      
-        <lastmod>2016-08-15T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/08/15/KerresMalecki2003.html</loc>
-      
-        <lastmod>2016-08-15T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/08/12/Mandinach2016a.html</loc>
-      
-        <lastmod>2016-08-12T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/08/12/Mandinach2016.html</loc>
-      
-        <lastmod>2016-08-12T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/07/19/Berners-Lee2010.html</loc>
-      
-        <lastmod>2016-07-19T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/07/19/Berners-Lee2006.html</loc>
-      
-        <lastmod>2016-07-19T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/07/18/OHara1997.html</loc>
-      
-        <lastmod>2016-07-18T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/07/15/Hwang2007.html</loc>
-      
-        <lastmod>2016-07-15T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/07/15/Chen2012c.html</loc>
-      
-        <lastmod>2016-07-15T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/07/14/Michalak2016.html</loc>
-      
-        <lastmod>2016-07-14T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/07/14/Ciccarese2013.html</loc>
-      
-        <lastmod>2016-07-14T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/07/14/Aturban2015.html</loc>
-      
-        <lastmod>2016-07-14T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/07/13/Su2010.html</loc>
-      
-        <lastmod>2016-07-13T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/06/28/Zwitter2014.html</loc>
-      
-        <lastmod>2016-06-28T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/06/28/Zheng2016.html</loc>
-      
-        <lastmod>2016-06-28T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/06/28/VanNoorden2014.html</loc>
-      
-        <lastmod>2016-06-28T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/06/24/Shute2010.html</loc>
-      
-        <lastmod>2016-06-24T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/06/24/Hickey2011.html</loc>
-      
-        <lastmod>2016-06-24T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//blog/2016/05/20/learning-analytics-tensions.html</loc>
-      
-        <lastmod>2016-05-20T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/04/14/andrade2015using.html</loc>
-      
-        <lastmod>2016-04-14T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/04/14/Lin2013.html</loc>
-      
-        <lastmod>2016-04-14T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/04/14/Laat2007.html</loc>
-      
-        <lastmod>2016-04-14T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/04/13/Dawson2010a.html</loc>
-      
-        <lastmod>2016-04-13T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/04/13/Dawson2010.html</loc>
-      
-        <lastmod>2016-04-13T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/04/12/Mazza2007a.html</loc>
-      
-        <lastmod>2016-04-12T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/04/12/Mazza2007.html</loc>
-      
-        <lastmod>2016-04-12T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/04/11/Kucirkova2015.html</loc>
-      
-        <lastmod>2016-04-11T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/04/07/Edelson2002.html</loc>
-      
-        <lastmod>2016-04-07T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/02/03/Pelletier2006.html</loc>
-      
-        <lastmod>2016-02-03T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/02/03/Oshima2006.html</loc>
-      
-        <lastmod>2016-02-03T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/02/03/Chan2006b.html</loc>
-      
-        <lastmod>2016-02-03T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/02/01/Hakkarainen2003a.html</loc>
-      
-        <lastmod>2016-02-01T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/02/01/Chai2006a.html</loc>
-      
-        <lastmod>2016-02-01T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/01/28/Woodruff1997.html</loc>
-      
-        <lastmod>2016-01-28T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/01/28/Oshima1998.html</loc>
-      
-        <lastmod>2016-01-28T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/01/26/Haneda2000.html</loc>
-      
-        <lastmod>2016-01-26T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/01/23/Porcaro2014.html</loc>
-      
-        <lastmod>2016-01-23T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2016/01/22/Hewitt1998.html</loc>
-      
-        <lastmod>2016-01-22T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/12/17/Sengupta2015.html</loc>
-      
-        <lastmod>2015-12-17T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/12/06/Macfadyen2012.html</loc>
-      
-        <lastmod>2015-12-06T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/12/04/Kollar2013.html</loc>
-      
-        <lastmod>2015-12-04T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/12/01/smith2012predictive.html</loc>
-      
-        <lastmod>2015-12-01T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/12/01/Thompson2013.html</loc>
-      
-        <lastmod>2015-12-01T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/12/01/Nistor2014.html</loc>
-      
-        <lastmod>2015-12-01T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/12/01/Lockyer2013.html</loc>
-      
-        <lastmod>2015-12-01T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/12/01/Clow2013.html</loc>
-      
-        <lastmod>2015-12-01T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/12/01/Ali2013.html</loc>
-      
-        <lastmod>2015-12-01T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/11/29/oblinger2012let.html</loc>
-      
-        <lastmod>2015-11-29T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/11/29/Ali2012.html</loc>
-      
-        <lastmod>2015-11-29T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/11/29/Agudo2014.html</loc>
-      
-        <lastmod>2015-11-29T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//blog/2015/11/19/canvasnet.html</loc>
-      
-        <lastmod>2015-11-19T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/11/17/Shum2012b.html</loc>
-      
-        <lastmod>2015-11-17T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/11/06/Sinha2015.html</loc>
-      
-        <lastmod>2015-11-06T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/10/02/Oliveira2014.html</loc>
-      
-        <lastmod>2015-10-02T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/10/02/Jiang2013.html</loc>
-      
-        <lastmod>2015-10-02T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/10/01/Denner2011.html</loc>
-      
-        <lastmod>2015-10-01T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/09/30/Goel2014.html</loc>
-      
-        <lastmod>2015-09-30T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/09/30/Dijksterhuis2006.html</loc>
-      
-        <lastmod>2015-09-30T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/09/23/Sadler1998.html</loc>
-      
-        <lastmod>2015-09-23T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/09/23/Black1998a.html</loc>
-      
-        <lastmod>2015-09-23T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/08/29/Choudhury2008.html</loc>
-      
-        <lastmod>2015-08-29T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/08/28/Lv2011.html</loc>
-      
-        <lastmod>2015-08-28T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/08/27/Onnela2014.html</loc>
-      
-        <lastmod>2015-08-27T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/08/27/Choudhury2004.html</loc>
-      
-        <lastmod>2015-08-27T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/08/26/r-graphics-talk.html</loc>
-      
-        <lastmod>2015-08-26T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/08/26/kress2009multimodality.html</loc>
-      
-        <lastmod>2015-08-26T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/08/19/Ferguson2012.html</loc>
-      
-        <lastmod>2015-08-19T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/08/17/Graesser2011.html</loc>
-      
-        <lastmod>2015-08-17T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//blog/2015/08/17/teaching-first-semester.html</loc>
-      
-        <lastmod>2015-08-17T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/08/13/Worsley2012.html</loc>
-      
-        <lastmod>2015-08-13T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/08/13/Blikstein2013.html</loc>
-      
-        <lastmod>2015-08-13T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/08/11/Ford-Connors2015.html</loc>
-      
-        <lastmod>2015-08-11T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//blog/2015/06/21/a-round-trip.html</loc>
-      
-        <lastmod>2015-06-21T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/05/07/schwartz13measuring.html</loc>
-      
-        <lastmod>2015-05-07T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//blog/2015/05/02/mining-frequent-sequences.html</loc>
-      
-        <lastmod>2015-05-02T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/04/28/nae2015.html</loc>
-      
-        <lastmod>2015-04-28T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/04/07/%E9%A1%BE%E5%B0%8F%E6%B8%852012%E5%AD%A6%E4%B9%A0%E5%88%86%E6%9E%90.html</loc>
-      
-        <lastmod>2015-04-07T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/04/07/zhu13xue.html</loc>
-      
-        <lastmod>2015-04-07T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/04/07/zhang14xuexi.html</loc>
-      
-        <lastmod>2015-04-07T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/04/07/wei13xue.html</loc>
-      
-        <lastmod>2015-04-07T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/04/07/li12xuexi.html</loc>
-      
-        <lastmod>2015-04-07T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/04/02/Allen2015.html</loc>
-      
-        <lastmod>2015-04-02T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/04/01/zimmerman1999social.html</loc>
-      
-        <lastmod>2015-04-01T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/04/01/Bannert2014.html</loc>
-      
-        <lastmod>2015-04-01T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/03/31/zimmerman1990self.html</loc>
-      
-        <lastmod>2015-03-31T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/03/30/Gruzd2013.html</loc>
-      
-        <lastmod>2015-03-30T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//blog/2015/02/04/longitudinal-productive-vocabulary.html</loc>
-      
-        <lastmod>2015-02-04T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//blog/2015/01/27/learning-analytics-course.html</loc>
-      
-        <lastmod>2015-01-27T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/01/14/siemens2013learning.html</loc>
-      
-        <lastmod>2015-01-14T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2015/01/14/Shum2012a.html</loc>
-      
-        <lastmod>2015-01-14T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//zh/2014/12/26/philosophical-baby-2.html</loc>
-      
-        <lastmod>2014-12-26T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2014/12/10/bereiter2014knowledge.html</loc>
-      
-        <lastmod>2014-12-10T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2014/12/09/johnson2014ethics.html</loc>
-      
-        <lastmod>2014-12-09T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2014/11/10/meara2001p.html</loc>
-      
-        <lastmod>2014-11-10T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2014/11/09/meara2000lex30.html</loc>
-      
-        <lastmod>2014-11-09T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2014/11/04/laufer2013lexical.html</loc>
-      
-        <lastmod>2014-11-04T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2014/11/04/hoff2002children.html</loc>
-      
-        <lastmod>2014-11-04T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2014/10/30/Laufer01121994.html</loc>
-      
-        <lastmod>2014-10-30T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//blog/2014/10/14/twitter-archeology.html</loc>
-      
-        <lastmod>2014-10-14T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2014/09/26/colvin14learning.html</loc>
-      
-        <lastmod>2014-09-26T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2014/09/25/Xiong15092011.html</loc>
-      
-        <lastmod>2014-09-25T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2014/09/18/oconnor1979reasons.html</loc>
-      
-        <lastmod>2014-09-18T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2014/09/18/dia05education.html</loc>
-      
-        <lastmod>2014-09-18T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2014/09/18/darkenwald1988assessment.html</loc>
-      
-        <lastmod>2014-09-18T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2014/09/18/boshier91psychometric.html</loc>
-      
-        <lastmod>2014-09-18T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2014/09/18/blunt02factor.html</loc>
-      
-        <lastmod>2014-09-18T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2014/09/15/ebben13unpacking.html</loc>
-      
-        <lastmod>2014-09-15T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2014/09/15/Breslow2013.html</loc>
-      
-        <lastmod>2014-09-15T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2014/09/11/kloft14predicting.html</loc>
-      
-        <lastmod>2014-09-11T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2014/09/06/gunther2010neuralnet.html</loc>
-      
-        <lastmod>2014-09-06T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2014/09/02/Zhang2011c.html</loc>
-      
-        <lastmod>2014-09-02T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2014/08/29/petropoulou2014lae.html</loc>
-      
-        <lastmod>2014-08-29T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2014/07/18/Hong2014.html</loc>
-      
-        <lastmod>2014-07-18T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//blog/2014/06/06/knowledge-forum-API.html</loc>
-      
-        <lastmod>2014-06-06T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//zh/2014/06/04/%E4%BB%B0%E8%A7%86%E7%9A%84%E5%8A%9B%E9%87%8F.html</loc>
-      
-        <lastmod>2014-06-04T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//zh/2014/05/27/philosophical-baby-1.html</loc>
-      
-        <lastmod>2014-05-27T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2014/05/26/mcgreal2007learning.html</loc>
-      
-        <lastmod>2014-05-26T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2014/05/26/borokhovski2011extended.html</loc>
-      
-        <lastmod>2014-05-26T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2014/05/26/abrami2006review.html</loc>
-      
-        <lastmod>2014-05-26T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2014/05/09/strunk1918elements.html</loc>
-      
-        <lastmod>2014-05-09T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2014/05/06/piaget1970genetic.html</loc>
-      
-        <lastmod>2014-05-06T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2014/05/06/devries2000vygotsky.html</loc>
-      
-        <lastmod>2014-05-06T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2014/05/06/Cole1996.html</loc>
-      
-        <lastmod>2014-05-06T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2014/05/05/rose2014what.html</loc>
-      
-        <lastmod>2014-05-05T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//blog/2014/05/02/mining-frequent-sequences.html</loc>
-      
-        <lastmod>2014-05-02T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2014/05/01/Wen2014a.html</loc>
-      
-        <lastmod>2014-05-01T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2014/05/01/Wen2014.html</loc>
-      
-        <lastmod>2014-05-01T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2014/05/01/Hoadley2004.html</loc>
-      
-        <lastmod>2014-05-01T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2014/04/30/perera2009clustering.html</loc>
-      
-        <lastmod>2014-04-30T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2014/04/30/Kinnebrew2012.html</loc>
-      
-        <lastmod>2014-04-30T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//blog/2014/04/20/finland-education-system.html</loc>
-      
-        <lastmod>2014-04-20T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//blog/2014/04/17/temporailty-in-dialogues.html</loc>
-      
-        <lastmod>2014-04-17T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//blog/2014/03/31/digital-learning-in-ontario-schools.html</loc>
-      
-        <lastmod>2014-03-31T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//blog/2014/03/10/academic-job-search-a-reading-list.html</loc>
-      
-        <lastmod>2014-03-10T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//blog/2013/12/09/top-links-from-the-mooc-research-conference-twitter-backchannel-mri13.html</loc>
-      
-        <lastmod>2013-12-09T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//blog/2013/12/09/mongodb-java-r-a-handy-toolbox-for-archiving-and-analyzing-twitter-data.html</loc>
-      
-        <lastmod>2013-12-09T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2013/11/05/haythornthwaite2013.html</loc>
-      
-        <lastmod>2013-11-05T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2013/11/05/garton2006.html</loc>
-      
-        <lastmod>2013-11-05T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2013/10/07/caswell2002.html</loc>
-      
-        <lastmod>2013-10-07T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2013/10/04/lam2008.html</loc>
-      
-        <lastmod>2013-10-04T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2013/10/04/hakkarainen2004a.html</loc>
-      
-        <lastmod>2013-10-04T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2013/09/28/chan1997.html</loc>
-      
-        <lastmod>2013-09-28T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2013/09/26/sainsbury2011.html</loc>
-      
-        <lastmod>2013-09-26T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2013/09/26/rehder1998.html</loc>
-      
-        <lastmod>2013-09-26T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2013/09/26/johnson2010.html</loc>
-      
-        <lastmod>2013-09-26T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2013/09/26/hogarth2001.html</loc>
-      
-        <lastmod>2013-09-26T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2013/09/26/davis2001.html</loc>
-      
-        <lastmod>2013-09-26T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2013/08/29/scardamalia1994a.html</loc>
-      
-        <lastmod>2013-08-29T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2013/08/29/forrester2006.html</loc>
-      
-        <lastmod>2013-08-29T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2013/08/28/sternberg2003expert.html</loc>
-      
-        <lastmod>2013-08-28T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2013/08/28/scardamalia1991.html</loc>
-      
-        <lastmod>2013-08-28T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2013/08/20/scardamalia2006.html</loc>
-      
-        <lastmod>2013-08-20T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2013/08/20/scardamalia2004.html</loc>
-      
-        <lastmod>2013-08-20T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2013/08/20/scardamalia1994.html</loc>
-      
-        <lastmod>2013-08-20T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2013/08/16/scardamalia1989.html</loc>
-      
-        <lastmod>2013-08-16T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//blog/2013/07/01/topic-modeling-and-visualization-of-knowledge-forum-discussion.html</loc>
-      
-        <lastmod>2013-07-01T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//blog/2013/07/01/make-cordtra-diagrams-with-r.html</loc>
-      
-        <lastmod>2013-07-01T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2013/06/24/bickhard1996.html</loc>
-      
-        <lastmod>2013-06-24T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//blog/2013/06/15/cscl2013-pre-conference-workshop-measuring-collaborative-thinking-using-epistemic-network-analysis.html</loc>
-      
-        <lastmod>2013-06-15T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2013/06/07/sandoval2005.html</loc>
-      
-        <lastmod>2013-06-07T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2013/06/07/mikkila-erdmann2001.html</loc>
-      
-        <lastmod>2013-06-07T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2013/06/06/chi2008.html</loc>
-      
-        <lastmod>2013-06-06T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2013/06/05/dunbar1995.html</loc>
-      
-        <lastmod>2013-06-05T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2013/05/26/gee2003.html</loc>
-      
-        <lastmod>2013-05-26T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2013/05/26/gee-melbourne.html</loc>
-      
-        <lastmod>2013-05-26T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2013/05/25/gee2008game.html</loc>
-      
-        <lastmod>2013-05-25T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2013/05/25/cheung2008.html</loc>
-      
-        <lastmod>2013-05-25T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2013/05/22/hmelo-silver2008b.html</loc>
-      
-        <lastmod>2013-05-22T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2013/05/21/hmelo-silver2003.html</loc>
-      
-        <lastmod>2013-05-21T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2013/04/12/laurillard2012teaching.html</loc>
-      
-        <lastmod>2013-04-12T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2013/04/11/halatchliyski2013.html</loc>
-      
-        <lastmod>2013-04-11T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2013/04/10/oshima2012a.html</loc>
-      
-        <lastmod>2013-04-10T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//blog/2013/04/03/knaer-data-visualization-workshop.html</loc>
-      
-        <lastmod>2013-04-03T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2013/03/31/bereiter2002.html</loc>
-      
-        <lastmod>2013-03-31T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//notes/2013/03/26/kapur2012.html</loc>
-      
-        <lastmod>2013-03-26T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//blog/2013/03/11/analyze-text-similarity-in-r-latent-semantic-analysis-and-multidimentional-scaling.html</loc>
-      
-        <lastmod>2013-03-11T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//blog/2013/02/26/demo-of-using-twitter-hashtag-analytics-package-to-analyze-tweets-from-lak13.html</loc>
-      
-        <lastmod>2013-02-26T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//blog/2012/04/16/overview-of-aera2012-tweets.html</loc>
-      
-        <lastmod>2012-04-16T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//blog/2011/09/16/promisingness-judgments-by-grade-3s.html</loc>
-      
-        <lastmod>2011-09-16T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//blog/2011/05/25/meaning-of-promisingness.html</loc>
-      
-        <lastmod>2011-05-25T00:00:00-05:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//blog/2010/12/24/integrate-knowledge-building-with-learning-in-open-educational-resources.html</loc>
-      
-        <lastmod>2010-12-24T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-    <url>
-      <loc>http://bodong.ch//blog/2010/03/09/walking-on-the-altered-side.html</loc>
-      
-        <lastmod>2010-03-09T00:00:00-06:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://bodong.ch//404.html</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/about/</loc>
+    <lastmod>2018-02-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//contact.html</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/cv/</loc>
+    <lastmod>2018-02-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//cv.html</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/teaching/</loc>
+    <lastmod>2018-02-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/notes/2017-12-22-suthers2015-vf/</loc>
+    <lastmod>2017-12-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//research/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/blog/2017-12-08-jls-web-annotation/</loc>
+    <lastmod>2017-12-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/blog/2017-10-13-at-what-price/</loc>
+    <lastmod>2017-10-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//zh/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/blog/2017-07-27-data-sharing-workshop-2/</loc>
+    <lastmod>2017-07-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//notes/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/blog/2017-07-25-data-sharing-workshop-1/</loc>
+    <lastmod>2017-07-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//teaching/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/blog/2017-07-24-value-in-education/</loc>
+    <lastmod>2017-07-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//news.html</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/blog/2017-04-10-graphing-reddit-place/</loc>
+    <lastmod>2017-04-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page2/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/blog/2017-03-23-umn-lacop/</loc>
+    <lastmod>2017-03-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page3/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/notes/</loc>
+    <lastmod>2017-01-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page4/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/blog/2016-11-14-windchill-learning-analytics/</loc>
+    <lastmod>2016-11-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page5/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/blog/2016-11-03-trip-to-asia/</loc>
+    <lastmod>2016-11-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page6/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/blog/2016-10-17-paperpile-workflow-part-2/</loc>
+    <lastmod>2016-10-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page7/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/blog/2016-09-22-paperpile-workflow-part-1/</loc>
+    <lastmod>2016-09-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page8/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/blog/2016-05-20-learning-analytics-tensions/</loc>
+    <lastmod>2016-05-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page9/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/blog/2015-11-19-canvasnet/</loc>
+    <lastmod>2015-11-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page10/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/blog/2015-08-17-teaching-first-semester/</loc>
+    <lastmod>2015-08-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page11/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/blog/2015-06-21-a-round-trip/</loc>
+    <lastmod>2015-06-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page12/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/blog/2015-05-02-mining-frequent-sequences/</loc>
+    <lastmod>2015-05-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page13/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/blog/2015-02-04-longitudinal-productive-vocabulary/</loc>
+    <lastmod>2015-02-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page14/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/blog/2015-01-27-learning-analytics-course/</loc>
+    <lastmod>2015-01-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page15/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/cn/2014/12/26/%E5%93%B2%E5%AD%A6%E6%80%A7%E7%9A%84%E5%A9%B4%E5%84%BF%E4%B9%8B%E4%BA%8C%E5%9B%A0%E6%9E%9C%E9%93%BE%E6%8E%A5/</loc>
+    <lastmod>2014-12-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page16/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/blog/2014-10-14-twitter-archeology/</loc>
+    <lastmod>2014-10-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page17/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/blog/2014-06-06-knowledge-forum-api/</loc>
+    <lastmod>2014-06-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page18/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/cn/2014/06/04/%E4%BB%B0%E8%A7%86%E7%9A%84%E5%8A%9B%E9%87%8F/</loc>
+    <lastmod>2014-06-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page19/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/cn/2014/05/27/%E5%93%B2%E5%AD%A6%E6%80%A7%E7%9A%84%E5%A9%B4%E5%84%BF%E4%B8%80%E5%A9%B4%E5%84%BF%E5%B9%B6%E9%9D%9E%E5%BC%B1%E5%BC%B1%E7%9A%84%E4%BA%BA%E7%B1%BB/</loc>
+    <lastmod>2014-05-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page20/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/blog/2014-05-02-mining-frequent-sequences/</loc>
+    <lastmod>2014-05-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page21/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/blog/2014-04-20-finland-education-system/</loc>
+    <lastmod>2014-04-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page22/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/blog/2014-04-17-temporailty-in-dialogues/</loc>
+    <lastmod>2014-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page23/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/blog/2014-03-31-digital-learning-in-ontario-schools/</loc>
+    <lastmod>2014-03-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page24/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/blog/2014-03-10-academic-job-search-a-reading-list/</loc>
+    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page25/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/blog/2013-12-09-mongodb-java-r-a-handy-toolbox-for-archiving-and-analyzing-twitter-data/</loc>
+    <lastmod>2013-12-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page26/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/blog/2013-12-09-top-links-from-the-mooc-research-conference-twitter-backchannel-mri13/</loc>
+    <lastmod>2013-12-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page27/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/blog/2013-07-01-make-cordtra-diagrams-with-r/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page28/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/blog/2013-07-01-topic-modeling-and-visualization-of-knowledge-forum-discussion/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page29/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/blog/2013-06-15-cscl2013-pre-conference-workshop-measuring-collaborative-thinking-using-epistemic-network-analysis/</loc>
+    <lastmod>2013-06-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page30/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/blog/2013-04-03-knaer-data-visualization-workshop/</loc>
+    <lastmod>2013-04-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page31/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/blog/2013-03-11-analyze-text-similarity-in-r-latent-semantic-analysis-and-multidimentional-scaling/</loc>
+    <lastmod>2013-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page32/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/blog/2013-02-26-demo-of-using-twitter-hashtag-analytics-package-to-analyze-tweets-from-lak13/</loc>
+    <lastmod>2013-02-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page33/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/blog/2012-04-16-overview-of-aera2012-tweets/</loc>
+    <lastmod>2012-04-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page34/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/blog/2011-09-16-promisingness-judgments-by-grade-3s/</loc>
+    <lastmod>2011-09-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page35/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/blog/2011-05-25-meaning-of-promisingness/</loc>
+    <lastmod>2011-05-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page36/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/blog/2010-12-24-integrate-knowledge-building-with-learning-in-open-educational-resources/</loc>
+    <lastmod>2010-12-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page37/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/blog/2010-03-09-walking-on-the-altered-side/</loc>
+    <lastmod>2010-03-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page38/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/tags/academia/</loc>
+    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page39/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/tags/academic-life/</loc>
+    <lastmod>2010-03-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page40/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/tags/achievement-gap/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page41/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/tags/activity-theory/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page42/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/tags/adaptive-learning/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page43/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/tags/adult-education/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page44/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/tags/advanced-sna/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page45/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/tags/agent-based-modeling/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page46/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/tags/analytics/</loc>
+    <lastmod>2015-05-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page47/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/tags/annotation/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page48/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/tags/argumentation/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page49/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/tags/assessment/</loc>
+    <lastmod>2016-11-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page50/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/tags/attitude/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page51/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/tags/autism/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page52/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/tags/automation/</loc>
+    <lastmod>2017-07-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://bodong.ch//blog/page53/</loc>
-    
-      <lastmod>2018-01-17</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
+    <loc>/tags/baby/</loc>
+    <lastmod>2014-12-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/bibliometrics/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/big-data/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/blog/</loc>
+    <lastmod>2017-12-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/blog/</loc>
+    <lastmod>2017-12-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/cscl/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/canada/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/case-study/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2017-12-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/china/</loc>
+    <lastmod>2015-06-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/choice-making/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/cn/</loc>
+    <lastmod>2014-12-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/coauthorship/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/collaboration/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/collaborative-learning/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/community/</loc>
+    <lastmod>2017-03-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/computational-thinking/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/conceptual-change/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/constructivism/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/continuing-education/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/correlation/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/cscl/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/cultural/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/curriculum/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/data-analysis/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/data-literacy/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/data-mining/</loc>
+    <lastmod>2014-10-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/data-sharing/</loc>
+    <lastmod>2017-07-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/data-visualization/</loc>
+    <lastmod>2013-04-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/design-research/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/digital-learning/</loc>
+    <lastmod>2014-03-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/digital-literacy/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/distributed-cognition/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/doctoral-training/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/e-learning/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/edtech/</loc>
+    <lastmod>2014-03-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/education/</loc>
+    <lastmod>2010-12-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/educational-data-mining/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/educational-games/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/engagement/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/epistemic-beliefs/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/epistemology/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/equity/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ethics/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/evaluation/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/expansive-learning/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/experimental-design/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/expertise/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/featured/</loc>
+    <lastmod>2017-12-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/feedback/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/formative-assessment/</loc>
+    <lastmod>2015-11-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/frequent-sequence-mining/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/game-based-learning/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/games/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/general-education/</loc>
+    <lastmod>2017-07-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/graph-database/</loc>
+    <lastmod>2017-04-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/hci/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/higher-education/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/history/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/innovation/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/inquiry-learning/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/institutional-capacity/</loc>
+    <lastmod>2017-03-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/instrument/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/intervention/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/intuition/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/japan/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/job-search/</loc>
+    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/knowledge-building/</loc>
+    <lastmod>2015-02-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/knowledge-creation/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/knowledge-forum/</loc>
+    <lastmod>2013-03-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/lms/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/learning/</loc>
+    <lastmod>2010-12-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/learning-analytics/</loc>
+    <lastmod>2016-11-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/learning-analytics/</loc>
+    <lastmod>2017-12-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/learning-analytics-pedagogy-learning-design/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/learning-attitude/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/learning-community/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/learning-sciences/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/learning-technologies/</loc>
+    <lastmod>2014-03-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/learning-theory/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/literacies/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/literacy/</loc>
+    <lastmod>2015-02-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/literature-review/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/lms/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/mooc/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/moocs/</loc>
+    <lastmod>2016-11-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/machine-learning/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/metacognition/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/methodology/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/mobile/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/mobile-learning/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/mongodb/</loc>
+    <lastmod>2013-12-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/mooc/</loc>
+    <lastmod>2013-12-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/moocs/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/motivation/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/multidimensional-network/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/multimodal/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/musing/</loc>
+    <lastmod>2017-10-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/natural-language-processing/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/neo4j/</loc>
+    <lastmod>2017-04-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/network-analysis/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/networked-learning/</loc>
+    <lastmod>2017-12-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/networked-scholarship/</loc>
+    <lastmod>2017-12-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/notes/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/notes/2014-09-06-gunther2010neuralnet/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2014-05-26-abrami2006review/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-06-15-agneessens2013-wp/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-11-29-agudo2014/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-11-29-ali2012/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-12-01-ali2013/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-04-02-allen2015/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2013-08-29-forrester2006/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2014-05-26-borokhovski2011extended/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2013-05-21-hmelo-silver2003/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2013-04-11-halatchliyski2013/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-04-14-andrade2015using/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2014-09-18-darkenwald1988assessment/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-07-14-aturban2015/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-04-01-bannert2014/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-06-16-barab2001-jt/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2014-12-10-bereiter2014knowledge/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-09-07-berliner2002-jo/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-07-19-berners-lee2006/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-07-19-berners-lee2010/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2014-05-06-cole1996/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-09-23-black1998a/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-08-13-blikstein2013/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-10-04-boote2005-kt/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-01-27-borgatti2012-vh/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-09-27-buckingham2010-mc/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2013-08-20-scardamalia2004/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-02-08-carley2003-zk/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-01-30-carley2012-xn/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-02-01-chai2006a/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-02-03-chan2006b/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-08-18-chen2010-ao/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-07-15-chen2012c/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-08-27-choudhury2004/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-08-29-choudhury2008/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-07-14-ciccarese2013/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-09-28-clark2014-nn/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-12-01-clow2013/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2014-04-30-perera2009clustering/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-03-24-cole1993-zt/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2014-09-26-colvin14learning/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2014-07-18-hong2014/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2013-08-20-scardamalia1994/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2013-08-16-scardamalia1989/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-07-12-contractor2011-vc/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-07-12-contractor2009-sv/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-07-10-cowan2013-ke/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-04-13-dawson2010a/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-04-13-dawson2010/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2013-03-31-bereiter2002/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2013-03-26-kapur2012/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2013-06-24-bickhard1996/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-09-30-dijksterhuis2006/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2014-05-26-mcgreal2007learning/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-10-13-ebben2014-gz/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-04-07-edelson2002/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2013-09-26-hogarth2001/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-04-04-engestrom2009-fq/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-07-04-engestrom2011-yr/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-03-24-engestrom2000-yq/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2013-05-25-cheung2008/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2014-09-18-blunt02factor/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-08-19-ferguson2012/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-01-18-flyvbjerg2006-eu/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-08-11-ford-connors2015/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-09-18-ford-connors2015-dd/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2013-10-04-lam2008/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2013-05-25-gee2008game/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-10-12-gasevic2014-ki/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2013-05-26-gee-melbourne/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2014-05-06-piaget1970genetic/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-09-30-goel2014/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-08-17-graesser2011/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-03-30-gruzd2013/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-08-26-guo2014-ve/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-09-23-gutierrez2014-qm/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-02-01-hakkarainen2003a/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-01-26-haneda2000/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-01-22-hewitt1998/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-06-24-shute2010/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-06-24-hickey2011/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2013-08-28-scardamalia1991/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2014-11-04-hoff2002children/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2013-06-05-dunbar1995/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-07-15-hwang2007/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2014-04-30-kinnebrew2012/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2013-06-07-mikkila-erdmann2001/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2013-11-05-haythornthwaite2013/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-10-02-jiang2013/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2014-12-09-johnson2014ethics/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-10-19-johnson2004-cv/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-03-10-jonassen1999-dz/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-08-18-ke2008-hw/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-01-03-kennedy2016-qw/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-08-15-kerresmalecki2003/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-09-26-kinnebrew2013-de/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2013-04-10-oshima2012a/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2013-09-28-chan1997/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2013-10-07-caswell2002/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2013-08-20-scardamalia2006/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-08-26-kress2009multimodality/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-08-26-r-graphics-talk/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-04-11-kucirkova2015/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-09-13-kuhn2012-qo/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2014-08-29-petropoulou2014lae/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-09-01-ladson-billings2006-um/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2013-09-26-sainsbury2011/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2014-10-30-laufer01121994/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2014-11-04-laufer2013lexical/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-10-01-denner2011/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-08-24-lee2016-ys/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-09-22-lee2013-sl/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-09-22-lee2017-xm/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-04-14-lin2013/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2014-05-01-wen2014/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-08-26-littlejohn2016-um/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-10-13-liyanagunawardena2013-ku/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-12-01-lockyer2013/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-10-13-lopez-meneses2015-ct/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-07-14-lungeanu2015-mb/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-08-28-lv2011/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-12-06-macfadyen2012/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-06-15-malinick2013-ub/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-08-12-mandinach2016a/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-08-12-mandinach2016/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-11-16-martinez2016-sz/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-04-12-mazza2007/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-04-12-mazza2007a/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2014-11-09-meara2000lex30/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2014-11-10-meara2001p/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-07-14-michalak2016/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-03-02-mor2015-kw/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-06-15-morris2003-pc/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-12-04-kollar2013/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-04-28-nae2015/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-12-01-nistor2014/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-09-20-olinghouse2013-yd/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-10-02-oliveira2014/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-08-27-onnela2014/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-01-28-oshima1998/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-02-03-oshima2006/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-07-18-ohara1997/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-02-03-pelletier2006/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2013-09-26-davis2001/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-09-23-phillips2014-jd/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-01-23-porcaro2014/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2014-09-11-kloft14predicting/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2014-09-18-boshier91psychometric/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2013-10-04-hakkarainen2004a/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2014-09-02-zhang2011c/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2014-09-18-oconnor1979reasons/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-08-15-rentzou2013/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-09-26-roll_undated-pn/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-10-14-rose2016-rs/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-09-23-rudolph2014-fd/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-10-14-rummel2016-wa/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-09-23-sadler1998/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-07-04-sannino2009-cg/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-07-10-sannino2016-lr/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-04-24-schneider2016-du/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-05-07-schwartz13measuring/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-09-26-segedy2015-sy/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-12-17-sengupta2015/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2014-05-01-wen2014a/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-01-14-shum2012a/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-11-17-shum2012b/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-01-14-siemens2013learning/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-11-06-sinha2015/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-11-29-oblinger2012let/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-12-01-smith2012predictive/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-09-01-snijders2010-ua/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-09-29-snyder2011-ss/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-09-23-southerland2014-vk/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-09-29-strain2011-sn/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2013-11-05-garton2006/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2014-09-15-breslow2013/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-07-13-su2010/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-08-15-sun2008b/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2013-04-12-laurillard2012teaching/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-04-03-teplovs2013-yi/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2013-08-29-scardamalia1994a/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2014-09-18-dia05education/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2014-05-09-strunk1918elements/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-12-01-thompson2013/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2013-06-06-chi2008/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-09-29-tong2014-tx/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-06-15-tutzauer2013-oq/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2013-05-22-hmelo-silver2008b/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2014-09-15-ebben13unpacking/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2013-09-26-rehder1998/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-06-28-vannoorden2014/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-06-27-vaquero2013-ld/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-10-13-veletsianos2015-hd/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2014-05-06-devries2000vygotsky/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-08-31-wagner2005-ib/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-09-12-wang2016-lu/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2014-05-05-rose2014what/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2013-08-28-sternberg2003expert/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2013-05-26-gee2003/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2013-09-26-johnson2010/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2014-05-01-hoadley2004/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-09-23-wieman2014-vd/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-09-23-winne2016-as/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-01-28-woodruff1997/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-08-13-worsley2012/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2014-09-25-xiong15092011/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-07-10-yamagata-lynch2010-eu/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-01-18-yazan2015-wn/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-09-01-zhang2016-ps/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-06-28-zheng2016/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-03-31-zimmerman1990self/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-04-01-zimmerman1999social/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-09-23-zimmerman1986-vd/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-06-28-zwitter2014/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2016-04-14-laat2007/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-04-07-zhang14xuexi/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-04-07-li12xuexi/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-04-07-%E9%A1%BE%E5%B0%8F%E6%B8%852012%E5%AD%A6%E4%B9%A0%E5%88%86%E6%9E%90/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-04-07-zhu13xue/</loc>
+  </url>
+  
+  <url>
+    <loc>/notes/2015-04-07-wei13xue/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/oer/</loc>
+    <lastmod>2010-12-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/online-community/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/online-discussion/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/online-learning/</loc>
+    <lastmod>2013-12-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ontario/</loc>
+    <lastmod>2014-03-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/open-access/</loc>
+    <lastmod>2016-10-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/open-annotation/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/open-scholar/</loc>
+    <lastmod>2015-08-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/open-science/</loc>
+    <lastmod>2017-07-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/openness/</loc>
+    <lastmod>2016-11-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/pedagogy/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/peer/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/phd/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/play/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/playfulness/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/policy/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/practice/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/prediction/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/professional-development/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/promisingness/</loc>
+    <lastmod>2011-09-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/quantitative/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/r/</loc>
+    <lastmod>2014-10-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/r/</loc>
+    <lastmod>2015-11-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/random/</loc>
+    <lastmod>2010-03-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/reading/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/research-design/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/rigor/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/sna/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/srl/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/scholarship/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/science/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/science-education/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/science-learning/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/second-language-education/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/self-organization/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/self-regulated-learning/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/semantic-analysis/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/sequence-mining/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/sna/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/social-annotation/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/social-learning/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/social-media/</loc>
+    <lastmod>2017-04-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/social-network/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/social-network-analysis/</loc>
+    <lastmod>2015-11-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/social-networks/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/social-support/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/sociocultural/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/survey/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/swarm-intelligence/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/teacher/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/teacher-education/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/teaching/</loc>
+    <lastmod>2015-08-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/temporal/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/temporality/</loc>
+    <lastmod>2015-05-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/text-mining/</loc>
+    <lastmod>2013-03-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/thesis/</loc>
+    <lastmod>2011-09-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/travel/</loc>
+    <lastmod>2015-06-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/twitter/</loc>
+    <lastmod>2014-10-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/two-mode/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/notes/2013-06-07-sandoval2005/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/visual-analytics/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/visualization/</loc>
+    <lastmod>2014-10-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/vocabulary/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/wearable-sensor/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/web-2.0/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/web-annotation/</loc>
+    <lastmod>2017-12-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/workflow/</loc>
+    <lastmod>2017-07-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/writing/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/zh/</loc>
+    <lastmod>2014-12-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Peer on Bodong Chen</title>
+    <link>/tags/peer/</link>
+    <description>Recent content in Peer on Bodong Chen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/tags/peer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Notes: Lin. (2013). Online formative assessments with social network awareness</title>
+      <link>/notes/2016-04-14-lin2013/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2016-04-14-lin2013/</guid>
+      <description>References Citekey: @Lin2013
+Lin, J.-W., &amp;amp; Lai, Y.-C. (2013). Online formative assessments with social network awareness. Computers &amp;amp; Education, 66, 40–53. doi:10.1016/j.compedu.2013.02.008
+Notes This paper reports an interesting SNA-based system that recommend peer helpers based on friendship statuses (&amp;lsquo;social context&amp;rsquo; as called by the authors) and results of &amp;lsquo;formative assessment&amp;rsquo; (i.e., results of a formative test; &amp;lsquo;knowledge context&amp;rsquo; as called by the authors). The tool, SNAFA, engages students in 1) self-report information including friendship statuses, 2) take a test, and 3) review recommended peer helpers to seek help.</description>
+    </item>
+    
+  </channel>
+</rss>

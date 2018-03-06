@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Intuition on Bodong Chen</title>
+    <link>/tags/intuition/</link>
+    <description>Recent content in Intuition on Bodong Chen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/tags/intuition/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Notes: Educating intuition</title>
+      <link>/notes/2013-09-26-hogarth2001/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2013-09-26-hogarth2001/</guid>
+      <description>References Citekey: @hogarth2001
+Hogarth, R. M. (2001). Educating intuition. Chicago, Ill.: University of Chicago Press.
+Notes Hogarth defines intuition as responses ‘reached with little apparent effort, and typically without conscious effort. They involve little or no conscious deliberation’ (p. 14).
+Hogarth pursues the question of whether we can rely upon our intuition. That is, should we let our intuition guide our decision making? The answer that emerges from the book is not a simple ‘yes’ or ‘no’.</description>
+    </item>
+    
+  </channel>
+</rss>

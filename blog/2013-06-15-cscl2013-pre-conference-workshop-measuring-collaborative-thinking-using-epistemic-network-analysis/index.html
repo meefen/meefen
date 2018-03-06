@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>#CSCL2013 pre-conference workshop: Measuring Collaborative Thinking Using Epistemic Network Analysis - Bodong Chen</title>
+    <meta property="og:title" content="#CSCL2013 pre-conference workshop: Measuring Collaborative Thinking Using Epistemic Network Analysis - Bodong Chen">
+    
+
+    
+      
+    
+
+    
+
+    
+    
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/custom.css" />
+
+  </head>
+
+  
+  <body class="blog">
+    <header class="masthead">
+      <h1><a href="/">Bodong Chen</a></h1>
+
+<p class="tagline">Crisscross Landscapes</p>
+
+      <nav class="menu">
+        <input id="menu-check" type="checkbox" />
+        <label id="menu-label" for="menu-check" class="unselectable">
+          <span class="icon close-icon">✕</span>
+          <span class="icon open-icon">☰</span>
+          <span class="text">Menu</span>
+        </label>
+        <ul>
+        
+        
+        <li><a href="/">Home</a></li>
+        
+        <li><a href="/blog/">Blog</a></li>
+        
+        <li><a href="/cv/">Publications</a></li>
+        
+        <li><a href="/notes/">Open Scholar</a></li>
+        
+        <li><a href="/teaching/">Teaching</a></li>
+        
+        <li><a href="/cn/">博客</a></li>
+        
+        <li><a href="/index.xml">Subscribe</a></li>
+        
+        
+        </ul>
+      </nav>
+    </header>
+
+    <article class="main">
+      <header class="title">
+      
+<h1>#CSCL2013 pre-conference workshop: Measuring Collaborative Thinking Using Epistemic Network Analysis</h1>
+
+<h3>
+  2013-06-15</h3>
+<hr>
+
+
+      </header>
+
+
+
+
+
+<p>Today I&rsquo;ve participated in a wonderful full-day workshop about Epistemic
+Network Analysis (ENA), which I had been wishing to learn for a long
+time. David and Gol did a great job explaining its theoretical
+background, walking through a bunch of mathematical computation behind
+it, and doing some interesting demos with some real data from their
+research project. I had a great time playing with the sample data with
+my &ldquo;teammate&rdquo; <a href="https://twitter.com/OhMissAcosta">Alisa</a>, and will
+definitely apply it on some Knowledge Forum data in the near future.
+It&rsquo;s also interesting that the system is based on R, and it makes me
+seriously thinking about the possibility of building KF analytics on R.</p>
+
+<p><img src="http://www.edgaps.org/gaps/wp-content/uploads/ENA_logo_web_sm.jpg" alt="ENA" /></p>
+
+<p>I am posting my notes below. For more information about the workshop,
+check <a href="http://www.isls.org/cscl2013/pre-conference-sessions.html">conference
+website</a></p>
+
+<h2 id="intro-by-david-shaffer-https-twitter-com-dwshaffer-measure-collaborative-thinking-with-ena">Intro by <a href="https://twitter.com/DWShaffer">David Shaffer</a>: Measure collaborative thinking with ENA</h2>
+
+<ul>
+<li><a href="http://www.slideshare.net/dws1d/lak-05">David&rsquo;s slides</a></li>
+</ul>
+
+<h3 id="theoretical-background-of-ena">Theoretical background of ENA</h3>
+
+<ul>
+<li>Its roots in research of epistemic games. Show video about the
+epistemic game for engineering education</li>
+<li>Data mining &ndash;&gt; Data geology (data mining is a problematic term;
+have to understand the underline structure before digging into the
+data)</li>
+<li>the need for 21st century thinking</li>
+<li>community of knowledge &mdash;| culture, knowledge, skills, values,
+identity; shared epistemology is important for a community</li>
+<li>Shawn&rsquo;s research on creative community; reflection-on-action (pretty
+inspiring for my work on promisingness)</li>
+<li>ENA aims to understand the structure of skills, knowledge, identity,
+values and epistemology.</li>
+<li>go beyond psychometrics work focusing on specific skills. this tool
+is generic, can be applied to anyplace where network (of coding
+categories / epistemic frames) is more important rather than
+individual components.</li>
+</ul>
+
+<h3 id="explanation-of-the-tool-focusing-on-mathematical-stuff-behind-it">Explanation of the tool, focusing on mathematical stuff behind it</h3>
+
+<ul>
+<li>get chat discourse from the engineering epistemic game</li>
+<li>code each utterance</li>
+<li>validate (alpha scores)</li>
+<li>coded data ready &ndash; matrix, binary (rather than proportional data)</li>
+<li>define stanza &ndash; this concept is very important, because it will
+decide how co-occurrences occur</li>
+<li>build adjacency matrix, based on collapsing coding results in a same
+stanza</li>
+<li>build adjacency vector, converted from adjacency matrix</li>
+<li>decide the unit of analysis - student, group of students, or else?</li>
+<li>collapse stanzas for each unit of analysis, to get vectors for each
+unit</li>
+<li>vectors represented by their directions, rather than positions</li>
+<li>dimensional reduction (SVD) &ndash; similar to Principal Component
+Analysis</li>
+<li>each unit represented in a 3D space</li>
+<li>making sense of reduced dimensions &ndash; loading</li>
+<li>this tool will not allow the analyzer to see a final position of
+each unit, but also its development trajectory.</li>
+</ul>
+
+<p>My questions:</p>
+
+<ul>
+<li>What assumptions are made in the stanza compression process?</li>
+<li>What if frequency of epistemic frames are different? (also asked by
+another participant)</li>
+</ul>
+
+<p>Thoughts</p>
+
+<ul>
+<li>For the analysis of math discourse we are doing, counting appearance
+of different types of vocabs in students&rsquo; utterance will basically
+give coded data of students&rsquo; mathematical thinking. And then the
+tool can be applied. It will also be interesting to see the links
+between mathematical thinking and KB contribution.</li>
+<li>Being able to see evolution of thinking is interesting.</li>
+</ul>
+
+<h2 id="demos-by-golnaz-arastoopour-https-twitter-com-heyitsgol">Demos by <a href="https://twitter.com/HeyItsGol">Golnaz Arastoopour</a></h2>
+
+<p><a href="http://epistemicgames.org/ena/">Link to the ENA tool</a></p>
+
+<ul>
+<li>The project started from Excel, and now its backend is based on R,
+and front-end visualizations are based on JavaScript</li>
+<li>csv or R data; can be exported as R data to be further explored in
+RStudio</li>
+</ul>
+
+<p>Questions and comments:</p>
+
+<ul>
+<li>Given the larger number of plots to look at, how to find the most
+helpful plot?
+
+<ul>
+<li>David: the reduced dimensions are ordered already by the
+percentage of variance.</li>
+</ul></li>
+<li>This whole system is backed by R. Interesting way to develop LA
+systems.</li>
+</ul>
+
+<h2 id="presentation-by-chandra-orrill-university-of-massachusetts-dartmouth">Presentation by Chandra Orrill, University of Massachusetts Dartmouth</h2>
+
+<p>General intro</p>
+
+<ul>
+<li>work a lot on math education; focusing on teacher&rsquo;s professional
+development; proportional reasoning</li>
+<li>diSessa&rsquo;s knowledge in pieces as hypothesis of her research</li>
+<li>novice vs. expert teachers; experts focus on big ideas</li>
+<li>importance of knowledge coherence for teachers</li>
+</ul>
+
+<p>Study</p>
+
+<ul>
+<li>interview data of teachers about proportional reasoning</li>
+<li>7 teachers</li>
+<li>Data coding
+
+<ul>
+<li>Ratio concepts: iteration, ideas of growth, invariance,
+ratio-as-measure, ration calculation</li>
+<li>Fraction concepts: &hellip;</li>
+<li>Problem solving: problem interpretation, verify math is correct,
+attend to context</li>
+<li>Representation: interpretation diagram, validate representation</li>
+<li>Other math ideas: &hellip;</li>
+</ul></li>
+<li>different patterns for different levels of teachers (stronger,
+middle, weaker)</li>
+<li>adding more items (concepts?) into analysis will change results</li>
+</ul>
+
+<p>Lessons learned</p>
+
+<ul>
+<li>It helps to start small &ndash; know data better</li>
+<li>Not to be over-generous when coding &ndash; be more strict when doing.
+&ldquo;Do I see &hellip; in this unit?&rdquo;</li>
+<li>Deal with codes that confound.</li>
+</ul>
+
+<p>Questions:</p>
+
+<ul>
+<li>Where I can access the R code that is used in RStudio?</li>
+<li>What is a proper stanza for typical interview data? (Her answer is
+&ndash; in her case, each teacher was asked to talk about a series of
+items. and discussion about one item was treated as a stanza. that
+makes sense!)</li>
+</ul>
+
+<h2 id="david-presenting-the-process-of-going-from-raw-data-to-ena">David presenting the process of going from raw data to ENA</h2>
+
+<ul>
+<li>Example of analyzing Common Core standards</li>
+<li>Important to make data reproducible; can go back</li>
+<li>Be thoughtful in defining metadata, which is very useful for
+reproducing or reconstructing data</li>
+</ul>
+
+
+  <footer>
+  
+<nav class="post-nav">
+  <span class="nav-prev">&larr; <a href="/blog/2013-04-03-knaer-data-visualization-workshop/">KNAER Data Visualization Workshop</a></span>
+  <span class="nav-next"><a href="/blog/2013-07-01-topic-modeling-and-visualization-of-knowledge-forum-discussion/">Topic Modeling and Visualization of Knowledge Forum Discussion</a> &rarr;</span>
+</nav>
+
+
+
+<section class="comments">
+  <div id="disqus_thread"></div>
+  <script>
+  var disqus_config = function () {
+  
+  };
+  (function() {
+    var inIFrame = function() {
+      var iframe = true;
+      try { iframe = window.self !== window.top; } catch (e) {}
+      return iframe;
+    };
+    if (inIFrame()) return;
+    var disqus_js = '//meefen.disqus.com/embed.js';
+    var d = document, s = d.createElement('script');
+    s.src = disqus_js; s.async = true;
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+
+
+<script src="//yihui.name/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+  
+
+  
+  <hr>
+  <div class="copyright">&copy; <a href="http://bodong.ch/">Bodong Chen</a> 2018 | <a href="https://github.com/meefen">Github</a> | <a href="https://twitter.com/bod0ng">Twitter</a></div>
+  
+  </footer>
+  </article>
+  
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-50108133-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+  </body>
+</html>
+

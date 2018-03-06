@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Notes: Suthers2015-vf: From contingencies to network-level phenomena - Bodong Chen</title>
+    <meta property="og:title" content="Notes: Suthers2015-vf: From contingencies to network-level phenomena - Bodong Chen">
+    
+
+    
+      
+    
+
+    
+
+    
+    
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/custom.css" />
+
+  </head>
+
+  
+  <body class="notes">
+    <header class="masthead">
+      <h1><a href="/">Bodong Chen</a></h1>
+
+<p class="tagline">Crisscross Landscapes</p>
+
+      <nav class="menu">
+        <input id="menu-check" type="checkbox" />
+        <label id="menu-label" for="menu-check" class="unselectable">
+          <span class="icon close-icon">✕</span>
+          <span class="icon open-icon">☰</span>
+          <span class="text">Menu</span>
+        </label>
+        <ul>
+        
+        
+        <li><a href="/">Home</a></li>
+        
+        <li><a href="/blog/">Blog</a></li>
+        
+        <li><a href="/cv/">Publications</a></li>
+        
+        <li><a href="/notes/">Open Scholar</a></li>
+        
+        <li><a href="/teaching/">Teaching</a></li>
+        
+        <li><a href="/cn/">博客</a></li>
+        
+        <li><a href="/index.xml">Subscribe</a></li>
+        
+        
+        </ul>
+      </nav>
+    </header>
+
+    <article class="main">
+      <header class="title">
+      
+<h1>Notes: Suthers2015-vf: From contingencies to network-level phenomena</h1>
+
+<h3>
+  2017-12-22</h3>
+<hr>
+
+
+      </header>
+
+
+
+
+
+<h2 id="references">References</h2>
+
+<p><strong>Citekey</strong>: @Suthers2015-vf</p>
+
+<p>Suthers, D. (2015). From contingencies to network-level phenomena: multilevel analysis of activity and actors in heterogeneous networked learning environments. In Proceedings of the Fifth International Conference on Learning Analytics And Knowledge (pp. 368–377). ACM. <a href="https://doi.org/10.1145/2723576.2723626">https://doi.org/10.1145/2723576.2723626</a></p>
+
+<h2 id="notes">Notes</h2>
+
+<p><em>Summarize</em>: Introduces the Traces framework coming out of Suthers&rsquo; years of work in CSCL and learning analytics.</p>
+
+<p><em>Reflect</em>: This paper and the Traces framework are super relevant to my current thinking on multidimensional network analysis.</p>
+
+<h2 id="highlights">Highlights</h2>
+
+<p>vary in the agent of learning (e.g., individual, small group, network or community), and in the process of learning <a href="e.g., information transfer or knowledge communication [6], intersubjective meaning-making such as argumentation and co-construction [2, 33], shifts in participation and identity [17, 27], and accretion of cultural capital [30]">34</a>. (p. 1)</p>
+
+<p>The purpose of the paper is twofold: to summarize the current version of this framework, called Traces, and to illustrate its relevance to practitioners via an envisioned “activity reporter”. (p. 1)</p>
+
+<p>In these environments, learning is distributed across time and virtual place (media), and learners may participate in multiple settings. We focus on networked learning environments (NLE)2, which we define to include any socio-technical network that involves (p. 1)</p>
+
+<p>The framework is motivated by a view of learning as a complex and multilevel phenomenon. (p. 1)</p>
+
+<p>mediated interaction between participants (hence “networked”) in which learning might take plac (p. 2)</p>
+
+<p>Three kinds of graphs model interaction: Contingency graphs record how events such as chatting or posting a message are observably related to prior events by temporal and spatial proximity and by content. Uptake graphs aggregate the multiple contingencies between each pair of events to model how each given act may be “taking up” prior acts. Session graphs are abstractions of uptake graphs: they cluster events into spatio- temporal sessions with uptake relationships between sessions. Relationships between actors and artifacts are abstracted from interaction graphs to obtain associograms [38, 40], which can be folded into traditional sociograms. (p. 2)</p>
+
+<ol>
+<li>Traces Analytic Framework (p. 2)</li>
+</ol>
+
+<p>the theory [15, 34] and analytic representations [37, 40] behind this work. (p. 2)</p>
+
+<p>The representations used at various levels of analysis are shown schematically in Figure 1 (next page): micro- relations between situated acts by participants are identified and then aggregated into interactional relations, and further aggregated into network level phenomena. (p. 2)</p>
+
+<p>These are parsed using methods that are necessarily system-specific into an event stream, shown in the second level (boxes in Figure 1b). The event representation includes their time, location, event type, actor, and content or media object where relevant. (p. 2)</p>
+
+<p>3.1 Contingency Graph (p. 2)</p>
+
+<p>At this level of abstraction (Figure 1b), we compute contingencies between events, to produce a model of how acts are mutually contextualized (shown as arrows). (p. 2)</p>
+
+<p>A contingency called proximal event (PE) reflects the likelihood that events occurring close together in time and space are related. (p. 3)</p>
+
+<p>The resulting contingency graph (e.g., Figure 1b) is represented as the first layer of abstraction in what we call an Entity-Event- Contingency graph or EEC [37]. In the EEC graph, vertices are Events. These can be of various types (e.g., enter chat, exit chat, chat contribution), and are annotated with time stamps, actors, content (e.g., chat content), and locations (e.g., chat rooms) involved in the event. Contingencies are typed edges between vertices (the types were described in the previous paragraph), and there may be multiple edges between any two vertices (e.g., two proximal events by the same actor with lexical overlap will have at least three contingencies between them). (p. 3)</p>
+
+<p>Address (ADR) and reply (RPL) contingencies are installed between an utterance mentioning a user by name and the last contribution (ADR) and next contribution (RPL) by that participant within a time window, using a parser/matcher of user IDs to first names. (p. 3)</p>
+
+<p>3.2 Uptake Graph (p. 3)</p>
+
+<p>Same actor contingencies (SA) are installed to prior acts of a participant over a larger time window to reflect the continuity of an agent’s purpose. (p. 3)</p>
+
+<p>It is necessary to collapse the multiple edges between vertices into single edges for two reasons. First, most graph algorithms assume that there is at most only one edge between two vertices. Second, we are interested in uptake, the relationship between events in which a human action takes up some aspects of prior events as being significant in some manner [37]. (p. 3)</p>
+
+<p>Overlap in content as represented by sets of lexical stems is used to produce a lexical contingency (LEX) weighted by the number of overlapping stems. (p. 3)</p>
+
+<p>As shown in Figure 1c, uptake graphs are similar to contingency graphs in that they also relate events, but they collect together bundles of the various types of contingencies between a given pair of vertices into a single graph edge, weighted by a combination of the strength of evidence in the contingencies and optionally filtering out low-weighted bundles. (p. 4)</p>
+
+<p>3.3 Sessions (p. 4)</p>
+
+<p>Clusters of events in spatio-temporal proximity are computed to identify “ sessions” (indicated by rounded containers in Figure 1c). (p. 4)</p>
+
+<p>For inter-session analysis, we collapse each session into a single vertex representing the session, but retain the inter-session uptake links. (p. 4)</p>
+
+<p>3.5 Summary and Implementation (p. 4)</p>
+
+<p>our framework provides multiple pathways for analysis. (p. 4)</p>
+
+<p>For intra-session analysis, the uptake graph for a session is isolated. Several paths are possible from here. For example, the sequential structure of the interaction can be micro-analyzed to understand the development of group accomplishments: this part is not automated. Methods for graph structure analysis can be applied, such as cluster detection, analysis of graph motifs [20] that represent uptake patterns of interest, or tracing out thematic threads [41]. (p. 4)</p>
+
+<p>3.4 Sociograms (p. 4)</p>
+
+<p>Either within or across sessions, we can fold uptake graphs into actor-actor sociograms (directed weighted graphs, Figure 1d). The tie strength between actors is the sum of the strength of uptake between their contributions. These sociograms can be analyzed using conventional social network analysis methods such as degree or eigenvector centrality to identify key actors, etc. [22, 42]. (p. 4)</p>
+
+<p>Another line of analysis not discussed in this paper is to fold events into actor-artifact networks, or bipartite weighted directed graphs that we call “associograms” for short, because they capture how actors are associated with each other via mutual read and write of media objects. In that line of work, we have undertaken community analysis of associograms to detect not only human participants in communities, but also the artifacts that reflect their mediated nature (e.g., synchronous or asynchronous) [38]. (p. 5)</p>
+
+<ol>
+<li>Examples: Periodic Activity/Actor Reports (p. 5)</li>
+</ol>
+
+<p>4.1.2 How are the sessions related? (p. 5)</p>
+
+<p>4.4 How coherent are the sessions? (p. 7)</p>
+
+<p>Here, “coherence” simply means continuity of uptake: it is not a value judgment on the quality of interaction, as there may have been several distinct yet high quality conversations in a space- time region. (p. 7)</p>
+
+<ol>
+<li>Future Work (p. 9)</li>
+</ol>
+
+<p>The present implementation is research software, written to explore the range of analytic functionality enabled by the Traces framework. (p. 9)</p>
+
+<p>The framework could be re-implemented to use current technologies and APIs. For example, the data import layer could utilize the TinCan API (tincanapi.com), which would make our framework applicable to a variety of platforms adhering to this standard and make it easier to write importers for other platforms in a less ad-hoc manner. We might replace our custom Hibernate graph persistence engine with Neo4j (neo4j.com), which has matured since we started this project. An analytic workbench such as [14] would increase usability for researchers. (p. 9)</p>
+
+<p>[14] T. Hecking, S. Manske, L. Bollen, S. Govaerts, A. Vozniuk and H. U. Hoppe, A Flexible and Extendable Learning Analytics Infrastructure, in E. Popescu, R. H. Lau, K. Pata, H. Leung and M. Laanpere, eds., Advances in Web-Based Learning – ICWL 2014, Springer International Publishing, 2014, pp. 123-132. (p. 10)</p>
+
+<p>[40] D. D. Suthers and D. Rosen, A unified framework for multi- level analysis of distributed learning in G. Conole, D. Gašević, P. Long and G. Siemens, eds., Proc. First International Conference on Learning Analytics &amp; Knowledge, Banff, Alberta, February 27-March 1, 2011, ACM, New York, NY, 2011, pp. 64-74. (p. 10)</p>
+
+
+  <footer>
+  
+<nav class="post-nav">
+  <span class="nav-prev">&larr; <a href="/notes/2014-09-06-gunther2010neuralnet/">Notes:  neuralnet: Training of neural network</a></span>
+  <span class="nav-next"></span>
+</nav>
+
+
+
+<section class="comments">
+  <div id="disqus_thread"></div>
+  <script>
+  var disqus_config = function () {
+  
+  };
+  (function() {
+    var inIFrame = function() {
+      var iframe = true;
+      try { iframe = window.self !== window.top; } catch (e) {}
+      return iframe;
+    };
+    if (inIFrame()) return;
+    var disqus_js = '//meefen.disqus.com/embed.js';
+    var d = document, s = d.createElement('script');
+    s.src = disqus_js; s.async = true;
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+
+
+<script src="//yihui.name/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+  
+
+  
+  <hr>
+  <div class="copyright">&copy; <a href="http://bodong.ch/">Bodong Chen</a> 2018 | <a href="https://github.com/meefen">Github</a> | <a href="https://twitter.com/bod0ng">Twitter</a></div>
+  
+  </footer>
+  </article>
+  
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-50108133-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+  </body>
+</html>
+

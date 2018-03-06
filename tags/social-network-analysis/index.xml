@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Social network analysis on Bodong Chen</title>
+    <link>/tags/social-network-analysis/</link>
+    <description>Recent content in Social network analysis on Bodong Chen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Nov 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/social-network-analysis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CanvasNet: Formative feedback for &#39;social learning&#39; on Canvas</title>
+      <link>/blog/2015-11-19-canvasnet/</link>
+      <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2015-11-19-canvasnet/</guid>
+      <description>I have been teaching an undergraduate course using Canvas this semester. I don&amp;rsquo;t remember how it happened because I&amp;rsquo;m essentially a disbeliever in Learning Management Systems (LMS). I believe one&amp;rsquo;s learning should not be managed. &amp;ldquo;LMS is the minivan of Education,&amp;rdquo; says Phil Hill. Even better, &amp;ldquo;the LMS is more like a bus than a minivan - someone else is driving, it only travels on a pre-arranged route, the bus is often late but you still have to be on time because it won&amp;rsquo;t wait if you miss it&amp;rdquo; &amp;ndash; says Stephen Downes.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Andrade, A. (2015). Using Situated-Action Networks to visualize complex learning</title>
+      <link>/notes/2016-04-14-andrade2015using/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2016-04-14-andrade2015using/</guid>
+      <description>References Citekey: @andrade2015using
+Andrade, A. (2015). Using Situated-Action Networks to visualize complex learning. In O. Lindwall, P. Häkkinen, T. Koschmann, P. Tchounikine, &amp;amp; S. Ludvigsen (Eds.), Exploring the Material Conditions of Learning: The Computer Supported Collaborative Learning (CSCL) Conference 2015, Volume 1 (pp. 372–379). Gothenburg, Sweden: International Society of the Learning Sciences.
+Notes This paper introduces a quite interesting analytical technique, named Situated-Action Network, which is theoretically informed by sociocultural learning theories and methodologically grounded in SNA.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Dawson, S. (2010). “Seeing” the learning community</title>
+      <link>/notes/2016-04-13-dawson2010a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2016-04-13-dawson2010a/</guid>
+      <description>References Citekey: @Dawson2010a
+Dawson, S. (2010). “Seeing” the learning community: An exploration of the development of a resource for monitoring online student networking. British Journal of Educational Technology, 41(5), 736–752. doi:10.1111/j.1467-8535.2009.00970.x
+Notes Another great article by Shane Dawson, which sports a very well-written intro and discussion. The SNA analysis conducted in this study is different from those in SNAPP studies, emphasizing ego-centric networks of high- vs. low-performing students in a large lecture (N &amp;gt; 1000).</description>
+    </item>
+    
+    <item>
+      <title>Notes: Dawson. (2010). SNAPP</title>
+      <link>/notes/2016-04-13-dawson2010/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2016-04-13-dawson2010/</guid>
+      <description>References Citekey: @Dawson2010
+Dawson, S., Bakharia, A., &amp;amp; Heathcote, E. (2010). SNAPP: Realising the affordances of real-time SNA within networked learning environments. In Proceedings of the 7th International Conference on Networked Learning (pp. 125–133).
+Notes This paper introduces SNAPP, a real-time SNA tool integrated with multiple widely used LMS. The paper explains motivation of designing this tool, multiple design principles of this tool, and its main usefulness (uncovering facilitator centric patterns and identifying isolators).</description>
+    </item>
+    
+    <item>
+      <title>Notes: Jiang. (2013). Mining the Temporal Evolution of the Android Bug Reporting Community via Sliding Windows</title>
+      <link>/notes/2015-10-02-jiang2013/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2015-10-02-jiang2013/</guid>
+      <description>References Citekey: @Jiang2013
+Jiang, F., Wang, J., Hindle, A., &amp;amp; Nascimento, M. A. (2013). Mining the Temporal Evolution of the Android Bug Reporting Community via Sliding Windows. CoRR, abs/1310.7. Retrieved from http://arxiv.org/abs/1310.7469
+Notes This paper reports a study of applying an interesting sliding-windows social network analysis on Android bug reporting community. This technique shows clear advantage in comparison with global analysis of social networks in that it takes temporal information into consideration.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Lin. (2013). Online formative assessments with social network awareness</title>
+      <link>/notes/2016-04-14-lin2013/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2016-04-14-lin2013/</guid>
+      <description>References Citekey: @Lin2013
+Lin, J.-W., &amp;amp; Lai, Y.-C. (2013). Online formative assessments with social network awareness. Computers &amp;amp; Education, 66, 40–53. doi:10.1016/j.compedu.2013.02.008
+Notes This paper reports an interesting SNA-based system that recommend peer helpers based on friendship statuses (&amp;lsquo;social context&amp;rsquo; as called by the authors) and results of &amp;lsquo;formative assessment&amp;rsquo; (i.e., results of a formative test; &amp;lsquo;knowledge context&amp;rsquo; as called by the authors). The tool, SNAFA, engages students in 1) self-report information including friendship statuses, 2) take a test, and 3) review recommended peer helpers to seek help.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Oliveira. (2014). Dynamic communities in evolving customer networks</title>
+      <link>/notes/2015-10-02-oliveira2014/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2015-10-02-oliveira2014/</guid>
+      <description>References Citekey: @Oliveira2014
+Oliveira, M., Guerreiro, A., &amp;amp; Gama, J. (2014). Dynamic communities in evolving customer networks: an analysis using landmark and sliding windows. Social Network Analysis and Mining, 4(1), 208. doi:10.1007/s13278-014-0208-2
+Notes This article contrasts two kinds of dynamic network analysis&amp;mdash;landmark window and sliding window&amp;mdash;by applying both approaches to analysis of a customer network. Besides comparisons of well-known network metrics (e.g., centrality, density), it also tracks development of sub-communities in the network.</description>
+    </item>
+    
+    <item>
+      <title>Notes: de Laat. (2007). Investigating patterns of interaction in networked learning and computer-supported collaborative learning</title>
+      <link>/notes/2016-04-14-laat2007/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2016-04-14-laat2007/</guid>
+      <description>References Citekey: @Laat2007
+de Laat, M., Lally, V., Lipponen, L., &amp;amp; Simons, R.-J. (2007). Investigating patterns of interaction in networked learning and computer-supported collaborative learning: A role for Social Network Analysis. International Journal of Computer-Supported Collaborative Learning, 2(1), 87–103. doi:10.1007/s11412-007-9006-4
+Notes This paper is about applying SNA in analyzing CSCL (or networked learning as called in EU). What is unique about this study is it highlights the value of combining SNA with Content Analysis together, and put them both onto a timeline (considering the temporal dimension), to more holistically analyze CSCL processes.</description>
+    </item>
+    
+  </channel>
+</rss>

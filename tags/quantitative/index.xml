@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quantitative on Bodong Chen</title>
+    <link>/tags/quantitative/</link>
+    <description>Recent content in Quantitative on Bodong Chen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/tags/quantitative/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Notes: Clark - 2014 - Quantitative research designs: recognizing the overall plan for a study</title>
+      <link>/notes/2016-09-28-clark2014-nn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2016-09-28-clark2014-nn/</guid>
+      <description>References Citekey: @Clark2014-nn
+Clark, V. L. P., &amp;amp; Creswell, J. W. (2014). Understanding research: A consumer’s guide. Pearson Higher Ed. (Chapter 6)
+Notes Highlights This chapter first introduces you to two major types of quantitative research. It then focuses on the characteristics of five quantitative research designs that you will likely encounter as you read research. Knowing about different quantitative research designs will help you read the Method sections of quantitative reports and understand and evaluate the research designs used in quantitative studies.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Strain - 2011 - Randomized, Controlled Trial of the LEAP Model of Early Intervention for Young Children With Autism Spectrum Disorders</title>
+      <link>/notes/2016-09-29-strain2011-sn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2016-09-29-strain2011-sn/</guid>
+      <description>References Citekey: @Strain2011-sn
+Strain, P. S., &amp;amp; Bovey, E. H. (2011). Randomized, Controlled Trial of the LEAP Model of Early Intervention for Young Children With Autism Spectrum Disorders. Topics in Early Childhood Special Education, 31(3), 133–154.
+Notes Highlights 28 inclusive preschool classrooms were randomly assigned to receive 2 years of training and coaching to fidelity in the LEAP (Learning Experiences and Alternative Program for Preschoolers and Their Parents) preschool model, and 28 inclusive classes were assigned to receive intervention manuals only.</description>
+    </item>
+    
+  </channel>
+</rss>

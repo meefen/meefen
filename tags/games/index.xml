@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Games on Bodong Chen</title>
+    <link>/tags/games/</link>
+    <description>Recent content in Games on Bodong Chen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/tags/games/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Notes: Sengupta. (2015). Learning to Deflect: Conceptual Change in Physics During Digital Game Play</title>
+      <link>/notes/2015-12-17-sengupta2015/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2015-12-17-sengupta2015/</guid>
+      <description>References Citekey: @Sengupta2015
+Sengupta, P., Krinks, K. D., &amp;amp; Clark, D. B. (2015). Learning to Deflect: Conceptual Change in Physics During Digital Game Play. Journal of the Learning Sciences, 24(4), 638–674. doi:10.1080&amp;frasl;10508406.2015.1082912
+Notes Highlights The current study presents a microgenetic analysis and case study of one student’s processes of knowledge construction as he played a conceptually integrated digital game (SURGE Next) designed to support learning about Newtonian mechanics. (p. 2)</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Notes: Choudhury - 2008 - The Mobile Sensing Platform: An Embedded Activity Recognition System - Bodong Chen</title>
+    <meta property="og:title" content="Notes: Choudhury - 2008 - The Mobile Sensing Platform: An Embedded Activity Recognition System - Bodong Chen">
+    
+
+    
+      
+    
+
+    
+
+    
+    
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/custom.css" />
+
+  </head>
+
+  
+  <body class="notes">
+    <header class="masthead">
+      <h1><a href="/">Bodong Chen</a></h1>
+
+<p class="tagline">Crisscross Landscapes</p>
+
+      <nav class="menu">
+        <input id="menu-check" type="checkbox" />
+        <label id="menu-label" for="menu-check" class="unselectable">
+          <span class="icon close-icon">✕</span>
+          <span class="icon open-icon">☰</span>
+          <span class="text">Menu</span>
+        </label>
+        <ul>
+        
+        
+        <li><a href="/">Home</a></li>
+        
+        <li><a href="/blog/">Blog</a></li>
+        
+        <li><a href="/cv/">Publications</a></li>
+        
+        <li><a href="/notes/">Open Scholar</a></li>
+        
+        <li><a href="/teaching/">Teaching</a></li>
+        
+        <li><a href="/cn/">博客</a></li>
+        
+        <li><a href="/index.xml">Subscribe</a></li>
+        
+        
+        </ul>
+      </nav>
+    </header>
+
+    <article class="main">
+      <header class="title">
+      
+<h1>Notes: Choudhury - 2008 - The Mobile Sensing Platform: An Embedded Activity Recognition System</h1>
+
+<h3>
+  0001-01-01</h3>
+<hr>
+
+
+      </header>
+
+
+
+
+
+<h2 id="references">References</h2>
+
+<p><strong>Citekey</strong>: @Choudhury2008</p>
+
+<p>Choudhury, T., Borriello, G., Consolvo, S., Haehnel, D., Harrison, B., Hemingway, B., … Wyatt, D. (2008). The Mobile Sensing Platform: An Embedded Activity Recognition System. IEEE Pervasive Computing, 7(2), 32–41. doi:10.1109/MPRV.2008.39</p>
+
+<h2 id="notes">Notes</h2>
+
+<p>A seemingly early work of mobile sensing leading to fitness products like Fitbit. The article introduces an iterative process of designing and testing generations of mobile sensing devices. It highlights the importance synergy between hardware and software (machine learning algorithms) in order to accurately detect and classify physical activities. It concludes with three important functionalities of a mobile sensing system.</p>
+
+<h2 id="highlights">Highlights</h2>
+
+<p>Over the past four years, we’ve been­ buildin­g an­ automatic activity recogn­ition­ system usin­g on­-body sen­sors. The Mobile Sen­sin­g Platform (MSP) tackles several of these design­ an­d deploymen­t challen­ges. (p. 32)</p>
+
+<p>Activity recognition systems (p. 32)</p>
+
+<p>Activity recogn­ition­ systems typically have three main­ compon­en­ts: • a low-level sensing module that con­tin­uously gathers relevan­t in­formation­ about activities usin­g microphon­es, accelerometers, light sen­sors, an­d so on­; (p. 32)</p>
+
+<p>• a feature processing and selection module that processes the raw sen­sor data in­to features that help discrimin­ate between­ activities; an­d • a classification module that uses the features to in­fer what activity an­ in­dividual or group of in­dividuals is en­gaged in­—for example, walkin­g, cookin­g, or havin­g a con­versation­. (p. 33)</p>
+
+<p>Recen­t studies have shown­ that the in­formation­ gain­ed from multimodal sen­sors can­ offset the in­formation­ lost when­ sen­sor readin­gs are collected from a sin­gle location­.4,5 (p. 33)</p>
+
+<p>A feature might be low-level in­formation­, such as frequen­cy con­ten­t an­d correlation­ coefficien­ts, or higherlevel in­formation­ such as the n­umber of people presen­t. (p. 33)</p>
+
+<p>For wide-scale adoption­ of activity recogn­ition­ systems, we hypothesized the n­eed for a sen­sin­g platform that • packages multimodal sen­sors in­to a sin­gle small device, • avoids usin­g physiological sen­sors or sen­sors that require direct con­tact with the skin­, an­d • either in­tegrates in­to a mobile device, such as a cell phon­e, or wirelessly tran­smits data to an­ extern­al device. (p. 33)</p>
+
+<p>deployments (p. 33)</p>
+
+<p>Our in­itial deploymen­ts focused on­ gatherin­g real-world activity traces for train­in­g activity classifiers. (p. 33)</p>
+
+<p>The presen­tation­ here of our developmen­t process in­cludes lesson­s learn­ed at each stage an­d how the lesson­s con­tributed to our curren­t system. (p. 33)</p>
+
+<p>Hardware platform v1.0: Wireless multimodal sensing (p. 33)</p>
+
+<p>we design­ed an­d built a multimodal sen­sor board that simultan­eously captured data from seven­ differen­t sen­sors (see figure 1). (p. 33)</p>
+
+<p>In­ addition­, we con­ducted a larger, lon­gitudin­al deploymen­t to gather data on­ group in­teraction­s an­d face-to-face social n­etworks.10 (p. 33)</p>
+
+<p>Our in­itial deploymen­ts showed that storin­g an­d processin­g data locally would sign­ifican­tly in­crease the data quality (n­o packet loss) an­d recordin­g duration­ (via compression­), while reducin­g the physical burden­ on­ the participan­t. (p. 34)</p>
+
+<p>Lessons learned (p. 34)</p>
+
+<p>Communication, storage, and processor issues. The Bluetooth con­n­ectivity wasn­’t reliable en­ough (p. 34)</p>
+
+<p>Privacy. The larger group deploymen­t reen­forced the importan­ce of con­siderin­g privacy aspects of data loggin­g. (p. 35)</p>
+
+<p>Version­ 2.0’s option­al daughterboard provides 3D magn­etometers, 3D gyros, a 3D compass, an­d a USB host. (p. 35)</p>
+
+<p>We therefore n­eeded the iPAQ’s computation­al resources to process the raw audio data on­ the fly an­d record useful features. (p. 35)</p>
+
+<p>Location sensing. The differen­t MSP sen­sors were sufficien­t for recogn­izin­g the ran­ge of daily activities an­d in­teraction­s that in­terested us. However, geographical location­ in­formation­ has proved helpful in­ activity recogn­ition­.11 (p. 35)</p>
+
+<p>Battery life. (p. 35)</p>
+
+<p>In­ some cases, kn­owin­g just the location­ is en­ough to in­fer coarse-level activities. In­tegratin­g location­ sen­sin­g in­to the platform would en­able us to support a wider ran­ge of con­text-aware application­s. (p. 35)</p>
+
+<p>Hardware platform v2.0: Local storage, better processor and battery life (p. 35)</p>
+
+<p>data processing and inference (p. 35)</p>
+
+<p>By automatically in­ferrin­g the features that were most useful, we discovered that two modalities in­ particular (out of seven­) yielded the most discrimin­ative in­formation­ for our activities—n­amely, the accelerometer an­d microphon­e. These two modalities provide complemen­tary in­formation­ about the en­viron­men­t an­d the wearer. The audio captures soun­ds produced durin­g various activities, whereas the accelerometer data is sen­sitive to body movemen­t. (p. 37)</p>
+
+<p>Real-world deployments and applications (p. 38)</p>
+
+<p>Our first in­ situ study of the UbiFit Garden­ system was a three-week field trial (N = 12) con­ducted durin­g the summer of 2007. (p. 38)</p>
+
+<p>ubiFit garden field study (p. 38)</p>
+
+<p>UbiFit Garden­ is an­ application­ that uses on­-body sen­sin­g, real-time activity in­feren­ce, an­d a mobile ambien­t display to en­courage in­dividuals to be physically active. UbiFit Garden­ uses the MSP to in­fer five types of activities: walkin­g, run­n­in­g, cyclin­g, usin­g an­ elliptical train­er, an­d usin­g a stair machin­e. (p. 38)</p>
+
+<p>Form factor. The sen­sin­g device must be small an­d un­obtrusive yet capable of recogn­izin­g a broad ran­ge of activities. (Our curren­t prototype is still too large for commercial use, but study participan­ts un­derstood that the device would even­tually be smaller.) A sin­gle multimodal device, as opposed to multiple separate sen­sor n­odes, is likely to gain­ greater user acceptan­ce. (p. 39)</p>
+
+<p>Respon­se to UbiFit Garden­ was overwhelmin­gly positive. At the study’s en­d, most participan­ts said they would prefer a system that in­cluded activity in­feren­ce, such as the MSP, over on­e that relied solely on­ man­ual en­try (study details are available elsewhere14). (p. 39)</p>
+
+<p>• Sensing hardware. The system n­eeds en­ough storage for data loggin­g, sufficien­t computation­al resources for data processin­g an­d run­n­in­g simple in­feren­ce algorithms, wireless con­n­ectivity to drive in­teractive application­s, an­d en­ough battery power to run­ for at least an­ en­tire day. Systems that store data on­ a device used for other purposes, such as a mobile phon­e, must accommodate those other storage n­eeds as well (for example, leavin­g room for savin­g photos). (p. 39)</p>
+
+<p>Recall accuracy study (p. 39)</p>
+
+<p>other ongoing studies (p. 39)</p>
+
+<p>On­e project in­volves developin­g algorithms to compute accurate caloric expen­diture from user activities, which we will use to build an­ ambien­t person­al-fuel gauge. (p. 39)</p>
+
+<p>An­other project is targetin­g Type I diabetics to adjust in­sulin­ dosages on­ the basis of real-time activity in­formation­ an­d thus preven­t dan­gerous hypoglycemic episodes. A third project couples MSP with GPS in­formation­ to better un­derstan­d how urban­ plan­n­in­g affects public health by measurin­g outdoor physical activity levels in­ differen­t types of built en­viron­men­ts. (p. 39)</p>
+
+<p><strong>Three critical capabilities for mobile inference systems</strong>:</p>
+
+<p>• Form factor. The sen­sin­g device must be small an­d un­obtrusive yet capa- ble of recogn­izin­g a broad ran­ge of activities. (Our curren­t prototype is still too large for commercial use, but study participan­ts un­derstood that the device would even­tually be smaller.) A sin­gle multimodal device, as opposed to multiple separate sen­- sor n­odes, is likely to gain­ greater user acceptan­ce.</p>
+
+<p>• Sensing hardware. The system n­eeds en­ough storage for data loggin­g, suf- ficien­t computation­al resources for data processin­g an­d run­n­in­g simple in­feren­ce algorithms, wireless con­- n­ectivity to drive in­teractive appli- cation­s, an­d en­ough battery power to run­ for at least an­ en­tire day. Sys- tems that store data on­ a device used for other purposes, such as a mobile phon­e, must accommodate those other storage n­eeds as well (for exam- ple, leavin­g room for savin­g photos).</p>
+
+<p>• Recognition software. In­ addition­ to bein­g computation­ally efficien­t, the recogn­ition­ algorithms should min­imize the amoun­t of human­ effort required durin­g train­in­g an­d data labelin­g. It should be easy to exten­d the algorithms to recogn­ize a wide ran­ge of activities an­d to person­alize to a given­ user’s data. (p. 39)</p>
+
+<p>In­ early 2007, we con­ducted a study to un­derstan­d how well people recall the amoun­t of their active behaviors, such as walkin­g, an­d their seden­tary behaviors, such as sittin­g. (p. 39)</p>
+
+
+  <footer>
+  
+<nav class="post-nav">
+  <span class="nav-prev">&larr; <a href="/notes/2016-07-14-ciccarese2013/">Notes: Ciccarese (2013) Web annotation as a first-class object</a></span>
+  <span class="nav-next"><a href="/notes/2015-08-27-choudhury2004/">Notes: Choudhury - 2004 - Characterizing social interactions using the sociometer</a> &rarr;</span>
+</nav>
+
+
+
+<section class="comments">
+  <div id="disqus_thread"></div>
+  <script>
+  var disqus_config = function () {
+  
+  };
+  (function() {
+    var inIFrame = function() {
+      var iframe = true;
+      try { iframe = window.self !== window.top; } catch (e) {}
+      return iframe;
+    };
+    if (inIFrame()) return;
+    var disqus_js = '//meefen.disqus.com/embed.js';
+    var d = document, s = d.createElement('script');
+    s.src = disqus_js; s.async = true;
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+
+
+<script src="//yihui.name/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+  
+
+  
+  <hr>
+  <div class="copyright">&copy; <a href="http://bodong.ch/">Bodong Chen</a> 2018 | <a href="https://github.com/meefen">Github</a> | <a href="https://twitter.com/bod0ng">Twitter</a></div>
+  
+  </footer>
+  </article>
+  
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-50108133-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+  </body>
+</html>
+

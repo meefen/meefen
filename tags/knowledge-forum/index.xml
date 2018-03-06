@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Knowledge forum on Bodong Chen</title>
+    <link>/tags/knowledge-forum/</link>
+    <description>Recent content in Knowledge forum on Bodong Chen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Mar 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/knowledge-forum/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Analyze Text Similarity with R: Latent Semantic Analysis and Multidimentional Scaling</title>
+      <link>/blog/2013-03-11-analyze-text-similarity-in-r-latent-semantic-analysis-and-multidimentional-scaling/</link>
+      <pubDate>Mon, 11 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2013-03-11-analyze-text-similarity-in-r-latent-semantic-analysis-and-multidimentional-scaling/</guid>
+      <description>Background One of the most pressing questions I have been pondering upon when redesigning Knowledge Forum is how to represent the knowledge space of a community to better support idea improvement. Many people think Knowledge Forum as another discussion forum (or learning management system) with a 2-D interface (see below). This notion lead people to treat a Knowledge Forum view merely as a container of notes. The reason why this happens is because users usually fail to recognize one important principle behind the design of Knowledge Forum view: to support multiple perspectives of community knowledge.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Notes: Morris, M. (2003). Local Rules and Global Properties: Modeling the Emergence of Network Structure - Bodong Chen</title>
+    <meta property="og:title" content="Notes: Morris, M. (2003). Local Rules and Global Properties: Modeling the Emergence of Network Structure - Bodong Chen">
+    
+
+    
+      
+    
+
+    
+
+    
+    
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/custom.css" />
+
+  </head>
+
+  
+  <body class="notes">
+    <header class="masthead">
+      <h1><a href="/">Bodong Chen</a></h1>
+
+<p class="tagline">Crisscross Landscapes</p>
+
+      <nav class="menu">
+        <input id="menu-check" type="checkbox" />
+        <label id="menu-label" for="menu-check" class="unselectable">
+          <span class="icon close-icon">✕</span>
+          <span class="icon open-icon">☰</span>
+          <span class="text">Menu</span>
+        </label>
+        <ul>
+        
+        
+        <li><a href="/">Home</a></li>
+        
+        <li><a href="/blog/">Blog</a></li>
+        
+        <li><a href="/cv/">Publications</a></li>
+        
+        <li><a href="/notes/">Open Scholar</a></li>
+        
+        <li><a href="/teaching/">Teaching</a></li>
+        
+        <li><a href="/cn/">博客</a></li>
+        
+        <li><a href="/index.xml">Subscribe</a></li>
+        
+        
+        </ul>
+      </nav>
+    </header>
+
+    <article class="main">
+      <header class="title">
+      
+<h1>Notes: Morris, M. (2003). Local Rules and Global Properties: Modeling the Emergence of Network Structure</h1>
+
+<h3>
+  0001-01-01</h3>
+<hr>
+
+
+      </header>
+
+
+
+
+
+<h2 id="references">References</h2>
+
+<p><strong>Citekey</strong>: @Morris2003-pc</p>
+
+<p>Morris, M. (2003). Local Rules and Global Properties: Modeling the Emergence of Network Structure. In Dynamic Social Network Modeling and Analysis: Workshop Summary and Papers (pp. 174–186). National Academies Press. Retrieved from <a href="https://market.android.com/details?id=book-DOo-hq1-oF0C">https://market.android.com/details?id=book-DOo-hq1-oF0C</a></p>
+
+<h2 id="notes">Notes</h2>
+
+<p><em>Summarize</em>: This article argues for use of statistical modeling, esp. ERGM, in network analysis. It offers some useful analysis of the gap (~15 yrs ago) and proposes approaches to mitigating the gaps. Some important points include &lsquo;model closes the gap between theory and data&rsquo; and &lsquo;traditional network analysis focuses on descriptives, for no apparent reasons&rsquo;.</p>
+
+<p><em>Reflect</em>: This article is helpful for my thinking on modeling collaboration in a network manner. The connection between theory and data with model, and the connection between simple, local rules and larger network patterns are especially interesting and relevant.</p>
+
+<h2 id="highlights">Highlights</h2>
+
+<p>Network theory has traditionally sought to use social relations to bridge what social scientists refer to as the micro-macro gap: understanding how social structures are formed by the accumulation of simple rules operating on local relations. (p. 187)</p>
+
+<p>One particularly promising approach is based on exponential random graph models (ERGM). ERGM were first applied in the context of spatial statistics, and they provide a general framework for modeling dependent data where the dependence can be thought of as a neighborhood effect. The models can be used to decompose overall network structural properties into the effects of localized interaction rules; the traditional concern of the field. An example is given using an HIV transmission network. (p. 187)</p>
+
+<p>underlying process that gives rise to the patterns of links among nodes in the population – this requires us to think about a dynamic model that links local processes to a global outcome. The second is the inverse question: how to infer the underlying process from the patterns we observe – this requires statistical methods for sampling, estimation and inference. (p. 187)</p>
+
+<p>some simple local rules may lead to overall network structures that display striking regularities, like linear hierarchies, stable cliques, or stable cycles of exchange. (p. 188)</p>
+
+<blockquote>
+<p>idea<br />
+ one idea is to model the change of a simple rule (e.g., read 2 notes before posting 1) can have an impact on social networks in collaboration. (p. 188)</p>
+</blockquote>
+
+<p>Whatever the reason, however, the methodology that did develop in the field of network analysis focused on static descriptive measures, rather than the dynamic model. (p. 188)</p>
+
+<p>The descriptive approach (p. 188)</p>
+
+<p>have become the heart of the field, providing a rich framework for thinking about networks and a wide range of summary measures to represent both the network position occupied by specific nodes, and the overall network structure (p. 188)</p>
+
+<p>Model-based methods rely on the assumption of independent observations to obtain tractable likelihood-based estimation and inference. (p. 188)</p>
+
+<p>Statistical Models for Networks (p. 189)</p>
+
+<p>There is general agreement that the exponential family of distributions provides a good framework for modeling the probability that a random graph (or sociomatrix) X takes the observed value x. (p. 189)</p>
+
+<p>Much of the statistical theory for ERGM was developed and applied in the context of spatial statistics by Besag (1974). The simplest spatial models represent observations as points on a lattice, and assume that only the nearest neighbors have an influence on the status of a site. (p. 189)</p>
+
+<p>While physical space may influence the pattern of ties, it is not the only factor. As a result, the notion of “space” in network models is largely endogeneous and neighborhoods are typically not defined in terms of proximity in the matrix. (p. 190)</p>
+
+<p>Because the nature of the “spatial” dependence is the primary focus of interest in network analysis, the parameters that define this dependence are not nuisance parameters, but the parameters of most interest. (p. 190)</p>
+
+<p>The first application of ERGM like models to networks was Holland and Leinhardt’s p1 model for directed graphs. (p. 191)</p>
+
+<p>First, the network statistics that drive the model are simple functions of links, and the neighborhood represented by the statistics is easy to read from functional forms. (p. 191)</p>
+
+<p>Second, one can also catch a glimpse of the two key mechanisms for reducing the number of parameters in these models: one is to limit the number of configurations represented as having an effect on the probability of the graph, the other is to impose “homogeneity constraints” on isomorphic configurations. (p. 191)</p>
+
+<p>The next extension of ERGM in networks took on the task of modeling dyadic dependence. The ability to model dyadic dependence is the single most important feature of the ERGM framework, both because it is theoretically appealing, and because it is statistically innovative. (p. 192)</p>
+
+<p>Despite the enormous flexibility the ERG framework has brought to the field, virtually all of the published applications of these models have either used a variant of the original p1 model, or the simplified Markov graph. This is somewhat curious, as both are pretty mechanical renderings of what one might think of as the “neighborhood” of influence, and neither is particularly well suited to representing the kinds of processes traditionally of interest to network modelers. (p. 193)</p>
+
+<p>The lack of model development is probably due to the extremely challenging technical problems that accompany the estimation of these models.3 Another problem is the lack of data, or at least of the type of data currently required. (p. 193)</p>
+
+<p>Finally, it may also be that our ability to think, empirically, in terms of positions and network structure has atrophied as we have waited for the right tools to become available. Whatever the reason, there has been remarkably little application of these modeling tools to data. (p. 193)</p>
+
+<blockquote>
+<p>note<br />
+ good point to make. (p. 193)</p>
+</blockquote>
+
+<p>Models are the bridge between theory and data. (p. 193)</p>
+
+<p>In the rest of this paper, I will show how these models can be used to formalize the investigation of how a global network structure might cumulate up from simple local rules in a specific case. (p. 193)</p>
+
+<p>From local rules to global structures: Partnership networks and the spread of HIV (p. 194)</p>
+
+<p>There is some reason to think that such local rules may govern the network structures of interest. (p. 194)</p>
+
+<p>Mixing refers to assortative and disassortative biases in the joint distribution of partners’ attributes. Examples include the degree of matching on race, age, sex, social status, sexual orientation or level of sexual activity. Assortative biases can create patchy, clustered networks, which tends to increase the speed of spread within groups, and slow the spread between them. (p. 194)</p>
+
+<p>Linking network data to network simulation requires a statistical bridge: a modeling framework that enables the key structural parameters to be estimated from network data, so that these can be used to directly drive a simulation. ERGMs have the potential to do this. (p. 195)</p>
+
+<p>A Model-Based Hypothesis (p. 196)</p>
+
+<p>We are now in a position to test a different kind of hypothesis about the role of networks on disease spread. (p. 196)</p>
+
+<p>That is, we choose partners because they are the right sex, age, race and status, and we often care if they have other partners. (p. 196)</p>
+
+<p>If simple local rules govern partner selection, then these also determine the aggregate structure in the network: what looks like an unfathomably complicated system is, in fact, produced by a few key local organizing principles. (p. 196)</p>
+
+<blockquote>
+<p>idea<br />
+ interesting — simple local rules that govern + actionable insights to make changes.<br />
+ This example is about public health. We can apply to the health of discourse as well. (p. 196)</p>
+</blockquote>
+
+<p>Both mixing and concurrency are network properties that can be measured with local network sampling strategies. If it turns out that these two local rules explain most of the variation (p. 196)</p>
+
+<p>in network structure that is relevant to disease spread, then we have a simple inexpensive way to measure network vulnerability routinely in public health surveillance. And they describe simple behavioral rules that people can be taught to recognize and change. (p. 197)</p>
+
+<p>So the last piece of the puzzle is to determine how to test the hypothesis that mixing and concurrency contain all of the information we need to know to evaluate the spread potential in a network. We seek a “goodness of fit” test, but one that is tailored to what we want to fit. (p. 197)</p>
+
+<p>Transmission potential in a network is determined by the network connectivity. Connectivity can be measured in a number of ways, but two simple measures are the properties of reachability (is person i connected to person j by a path of some length?) and distance (what is the length of that path?). (p. 197)</p>
+
+<p>We can also use the MCMC simulation engine to verify whether these features are sufficient for establishing the epidemic potential in a network. (p. 197)</p>
+
+
+  <footer>
+  
+<nav class="post-nav">
+  <span class="nav-prev">&larr; <a href="/notes/2015-12-04-kollar2013/">Notes: NA</a></span>
+  <span class="nav-next"><a href="/notes/2017-03-02-mor2015-kw/">Notes: Mor2015-kw</a> &rarr;</span>
+</nav>
+
+
+
+<section class="comments">
+  <div id="disqus_thread"></div>
+  <script>
+  var disqus_config = function () {
+  
+  };
+  (function() {
+    var inIFrame = function() {
+      var iframe = true;
+      try { iframe = window.self !== window.top; } catch (e) {}
+      return iframe;
+    };
+    if (inIFrame()) return;
+    var disqus_js = '//meefen.disqus.com/embed.js';
+    var d = document, s = d.createElement('script');
+    s.src = disqus_js; s.async = true;
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+
+
+<script src="//yihui.name/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+  
+
+  
+  <hr>
+  <div class="copyright">&copy; <a href="http://bodong.ch/">Bodong Chen</a> 2018 | <a href="https://github.com/meefen">Github</a> | <a href="https://twitter.com/bod0ng">Twitter</a></div>
+  
+  </footer>
+  </article>
+  
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-50108133-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+  </body>
+</html>
+

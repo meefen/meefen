@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Social learning on Bodong Chen</title>
+    <link>/tags/social-learning/</link>
+    <description>Recent content in Social learning on Bodong Chen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/tags/social-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Notes: Shum. (2012). Social learning analytics</title>
+      <link>/notes/2015-11-17-shum2012b/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2015-11-17-shum2012b/</guid>
+      <description>References Citekey: @Shum2012b
+Shum, S. B., &amp;amp; Ferguson, R. (2012). Social learning analytics. Educational Technology and Society, 15(3), 3–26.
+Notes Highlights Learning analytics has its roots in two computing endeavours not specifically concerned with learning, but rather with strong business imperatives to understand internal organisational data, and external consumer behaviour. (p. 1)
+Educational Data Mining (EDM) “an emerging discipline, concerned with developing methods for exploring the unique types of data that come from educational settings, and using those methods to better understand students, and the settings which they learn in” (Baker &amp;amp; Yacef, 2009).</description>
+    </item>
+    
+  </channel>
+</rss>

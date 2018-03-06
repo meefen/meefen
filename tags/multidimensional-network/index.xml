@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Multidimensional network on Bodong Chen</title>
+    <link>/tags/multidimensional-network/</link>
+    <description>Recent content in Multidimensional network on Bodong Chen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/tags/multidimensional-network/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Notes: Wang2016-lu-Modeling customer preferences using multidimensional network analysis in engineering design</title>
+      <link>/notes/2017-09-12-wang2016-lu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2017-09-12-wang2016-lu/</guid>
+      <description>References Citekey: @Wang2016-lu
+Wang, M., Chen, W., Huang, Y., Contractor, N. S., &amp;amp; Fu, Y. (2016). Modeling customer preferences using multidimensional network analysis in engineering design. Design Science, 2. https://doi.org/10.1017/dsj.2016.11
+Notes Summarize: This paper presents a case of using multidimensional network analysis &amp;ndash; powered by ERGM &amp;ndash; to model customer preferences in China&amp;rsquo;s car market. Data were from user surveys. The authors patiently set the background, introduce the techniques, compared MNA with unidimensional network analysis, and considerately presented various analytical decisions associated with these approaches.</description>
+    </item>
+    
+  </channel>
+</rss>

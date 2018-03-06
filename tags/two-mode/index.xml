@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Two-mode on Bodong Chen</title>
+    <link>/tags/two-mode/</link>
+    <description>Recent content in Two-mode on Bodong Chen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/tags/two-mode/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Notes: Agneessens, F., &amp; Everett, M. G. (2013). Introduction to the special issue on advances in two-mode social networks</title>
+      <link>/notes/2017-06-15-agneessens2013-wp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2017-06-15-agneessens2013-wp/</guid>
+      <description>References Citekey: @Agneessens2013-wp
+Agneessens, F., &amp;amp; Everett, M. G. (2013). Introduction to the special issue on advances in two-mode social networks. Social Networks, 35(2), 145–147. https://doi.org/10.1016/j.socnet.2013.03.002
+Notes Summarize:
+Assess:
+Reflect:
+Highlights Two-mode data was collected by Davis et al. (1941) in theirclassic study on theparticipation of Southern women in social events and later by a variety of researchers studying interlocking directorates from the 1970s onwards (e.g., Stokman et al., 1985).</description>
+    </item>
+    
+    <item>
+      <title>Notes: Borgatti. (2012). Two-Mode Concepts in Social Network Analysis</title>
+      <link>/notes/2017-01-27-borgatti2012-vh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2017-01-27-borgatti2012-vh/</guid>
+      <description>References Citekey: @Borgatti2012-vh
+Borgatti, S. P. (2012). Social Network Analysis, Two-Mode Concepts in. In R. A. Meyers (Ed.), Computational Complexity (pp. 2912–2924). Springer New York. https://doi.org/10.1007/978-1-4614-1800-9_179
+Notes A great intro to two-mode SNA. Requires understanding of SNA basics.
+Highlights In social network analysis, 2-mode data refers to data recording ties between two sets of entities. In this con- text, the term “mode” refers to a class of entities – typically called actors, nodes or vertices – whose members have so- cial ties with other members (in the 1-mode case) or with members of another class (in the 2-mode case).</description>
+    </item>
+    
+    <item>
+      <title>Notes: Malinick, T. E., Tindall, D. B., &amp; Diani, M. (2013). Network centrality and social movement media coverage</title>
+      <link>/notes/2017-06-15-malinick2013-ub/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2017-06-15-malinick2013-ub/</guid>
+      <description>References Citekey: @Malinick2013-ub
+Malinick, T. E., Tindall, D. B., &amp;amp; Diani, M. (2013). Network centrality and social movement media coverage: A two-mode network analytic approach. Social Networks, 35(2), 148–158. https://doi.org/10.1016/j.socnet.2011.10.005
+Notes Summarize:
+Reflect:
+Highlights abstract This article examines the relationship between structural location (namely, degree centrality) and news media coverage. Our central hypothesis is that the network centrality of social movement actors is positively associated with the prevalence of actors being cited in the print news media.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Tutzauer, F. (2013). A Family of Affiliation Indices for Two-Mode Networks</title>
+      <link>/notes/2017-06-15-tutzauer2013-oq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2017-06-15-tutzauer2013-oq/</guid>
+      <description>References Citekey: @Tutzauer2013-oq
+Tutzauer, F. (2013). A Family of Affiliation Indices for Two-Mode Networks. Journal of Social and Biological Structures, 14, 1. Retrieved from https://www.cmu.edu/joss/content/articles/volume14/Tutzauer.pdf
+Notes Summarize: This paper introduces affiliation index, a new measure to characterize affiliation in a two-mode network. As the author nicely argues, this index is two-mode in nature, compared to centrality measures which are one-mode in nature and often borrowed to analyze two-mode networks. The author also introduces a family of affiliation indices and significance tests based on its binomial distribution.</description>
+    </item>
+    
+  </channel>
+</rss>

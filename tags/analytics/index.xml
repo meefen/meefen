@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Analytics on Bodong Chen</title>
+    <link>/tags/analytics/</link>
+    <description>Recent content in Analytics on Bodong Chen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 May 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/analytics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mining frequent sequences in knowledge building dialogues</title>
+      <link>/blog/2015-05-02-mining-frequent-sequences/</link>
+      <pubDate>Sat, 02 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2015-05-02-mining-frequent-sequences/</guid>
+      <description>In a previous post I highlighted the significance of studying temporality in collaborative learning and argued it should be studied more widely in learning sciences research because temporality matters for learning in a socio-cultural context. In the specific study I presented at LAK14, an analytic technique named Lag-sequential Analysis (LsA) was applied to investigate sequential patterns among six contribution types in knowledge building dialogues by elementary school students. Such analysis was able to uncover temporal patterns that were otherwise undiscoverable using a traditional &amp;ldquo;coding-and-counting&amp;rdquo; technique, which is widely applied in many learning sciences studies.</description>
+    </item>
+    
+    <item>
+      <title>Towards A Longitudinal Understanding of the Growth of Productive Vocabulary in Knowledge Building</title>
+      <link>/blog/2015-02-04-longitudinal-productive-vocabulary/</link>
+      <pubDate>Wed, 04 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2015-02-04-longitudinal-productive-vocabulary/</guid>
+      <description>&amp;ldquo;My theory is that it&amp;rsquo;s all about gravity. The groundwater stays down by gravity!&amp;rdquo; (Grade one, Water unit)
+&amp;ldquo;Because the plane is so big and heavy it is hard to reduce gravity because gravity can be taken away better if there are lighter, stronger materials.&amp;rdquo; (Grade two, Flight unit)
+&amp;ldquo;How does gravity work? Is it a force in the ground that pulls you down or something in the air that pushes you down?</description>
+    </item>
+    
+    <item>
+      <title>My First Course: Learning Analytics in the Knowledge Age</title>
+      <link>/blog/2015-01-27-learning-analytics-course/</link>
+      <pubDate>Tue, 27 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2015-01-27-learning-analytics-course/</guid>
+      <description>There has been tons of learning going on for me after moving to Minnesota two months ago: getting used to the imperial unit system; finding out it&amp;rsquo;s impossible to purchase alcohol on Sundays; realizing we need to &amp;ldquo;import&amp;rdquo; our car; people actually can fly kites on lakes; and, of course, people don&amp;rsquo;t have the accent as in the movie Fargo :)&amp;hellip; It has been an amazing experience so far to get accustomed to MPLS (I am not saying &amp;ldquo;Twin Cities&amp;rdquo; because local Minnesotans prefer MPLS &amp;ndash; another lesson learned).</description>
+    </item>
+    
+    <item>
+      <title>Twitter Archeology of the Learning Analytics Community</title>
+      <link>/blog/2014-10-14-twitter-archeology/</link>
+      <pubDate>Tue, 14 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2014-10-14-twitter-archeology/</guid>
+      <description>Learning analytics as a nascent field of scholarship is evolving rapidly and garnering broad interest in both educational research and practice. Since the inaugural Learning Analytics and Knowledge (LAK) conference in 2011, exciting moves have been made during the past four years. The Society of Learning Analytics Research (SoLAR) was launched in 2012; the Learning Analytics Summer Institute (LASI) was first held in 2013; the first issue of the Journal of Learning Analytics was published in 2014.</description>
+    </item>
+    
+    <item>
+      <title>Knowledge Forum API: A demo</title>
+      <link>/blog/2014-06-06-knowledge-forum-api/</link>
+      <pubDate>Fri, 06 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2014-06-06-knowledge-forum-api/</guid>
+      <description>Knowledge Forum (KF) has been recognized as the founding software in the computer-supported collaborative learning (CSCL) community. And it was also one of the earliest to offer embedded analytic tools for formative assessment. Thanks to contributions from a broad international community, a number of analytic tools have been developed for KF, including a suite of embedded applets (e.g., Contributions, Social Networks, Semantic Overlap, Vocabulary Growth, and Lexical Analysis; see Teplovs et al.</description>
+    </item>
+    
+    <item>
+      <title>Mining frequent sequences in knowledge building dialogues</title>
+      <link>/blog/2014-05-02-mining-frequent-sequences/</link>
+      <pubDate>Fri, 02 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2014-05-02-mining-frequent-sequences/</guid>
+      <description>In a previous post I highlighted the significance of studying temporality in collaborative learning and argued it should be studied more widely in learning sciences research because temporality matters for learning in a socio-cultural context. In the specific study I presented at LAK14, an analytic technique named Lag-sequential Analysis (LsA) was applied to investigate sequential patterns among six contribution types in knowledge building dialogues by elementary school students. Such analysis was able to uncover temporal patterns that were otherwise undiscoverable using a traditional &amp;ldquo;coding-and-counting&amp;rdquo; technique, which is widely applied in many learning sciences studies.</description>
+    </item>
+    
+    <item>
+      <title>The taste of time: Temporality in students&#39; explanation building dialogues</title>
+      <link>/blog/2014-04-17-temporailty-in-dialogues/</link>
+      <pubDate>Thu, 17 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2014-04-17-temporailty-in-dialogues/</guid>
+      <description>Things unfold over time. One thing I remember from my high school history lessons is that a particular historical event, e.g., a war, could be triggered by one single incident, but might also be already predetermined by a broader historical context. In the time dimension, various factors come into play, interact with each other, and frame historical events. So interpretation of any event needs to take various factors and players involved.</description>
+    </item>
+    
+    <item>
+      <title>Topic Modeling and Visualization of Knowledge Forum Discussion</title>
+      <link>/blog/2013-07-01-topic-modeling-and-visualization-of-knowledge-forum-discussion/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2013-07-01-topic-modeling-and-visualization-of-knowledge-forum-discussion/</guid>
+      <description>In an earlier blog post I played with the idea of visualizing Knowledge Forum discourse in a 2D space, to support one specific perspective of community knowledge focusing on semantic similarity/distance among contributions. I used Latent Semantic Analysis (LSA) for similarity computation and Multidimensional scaling (MDS) for dimensionality reduction. The results was interesting, with notes around a same topic generally clustered together. However, as one colleague pointed out in a comment, it&amp;rsquo;s hard to interpret topics around different clusters and it would be nice if it&amp;rsquo;s possible to inspect clusters and somehow label them.</description>
+    </item>
+    
+    <item>
+      <title>Notes:  neuralnet: Training of neural network</title>
+      <link>/notes/2014-09-06-gunther2010neuralnet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2014-09-06-gunther2010neuralnet/</guid>
+      <description>References Citekey: @gunther2010neuralnet
+Gu ̈nther, F. and Fritsch, S. (2010). neuralnet: Training of neural networks. The R journal, 2(1):30–38.
+Notes This article introduces neuralnet &amp;ndash; an R package that trains supervised neural networks.
+Highlights There are two other packages that deal with artificial neural networks at the moment: nnet (Venables and Ripley, 2002) and AMORE (Limas et al., 2007). nnet provides the opportunity to train feed-forward neural networks with traditional backpropagation and in AMORE, the TAO robust neural network algorithm is implemented.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Ali. (2013). Factors influencing beliefs for adoption of a learning analytics tool</title>
+      <link>/notes/2015-12-01-ali2013/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2015-12-01-ali2013/</guid>
+      <description>References Citekey: @Ali2013
+Ali, L., Asadi, M., Gašević, D., Jovanović, J., &amp;amp; Hatala, M. (2013). Factors influencing beliefs for adoption of a learning analytics tool: An empirical study. Computers &amp;amp; Education, 62, 130–148.
+Notes Highlights In this paper, we propose and empirically validate a Learning Analytics Acceptance Model (LAAM) of factors influencing the beliefs of educators concerning the adoption a learning analytics tool. In particular, our model explains how the usage beliefs (i.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Analyzing the flow of ideas and profiles of contributors in an open learning community</title>
+      <link>/notes/2013-04-11-halatchliyski2013/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2013-04-11-halatchliyski2013/</guid>
+      <description>References Citekey: @halatchliyski2013
+References Halatchliyski, I., Hecking, T., G\&amp;ldquo;ohnertTilman, &amp;amp; Hoppe, H. U. (2013). Analyzing the flow of ideas and profiles of contributors in an open learning community. In Proceedings of the Third International Conference on Learning Analytics and Knowledge LAK &amp;lsquo;13 (66). New York, New York, USA: ACM Press. doi:10.1145&amp;frasl;2460296.2460311
+Rough summary The title of this article grasped my eyes. It appeared to be very relevant to what we&amp;rsquo;re discussing about designing assessment of/for knowledge creation.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Blikstein - 2013 - Multimodal learning analytics</title>
+      <link>/notes/2015-08-13-blikstein2013/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2015-08-13-blikstein2013/</guid>
+      <description>References Citekey: @Blikstein2013
+Blikstein, P. (2013). Multimodal learning analytics. In Proceedings of the Third International Conference on Learning Analytics and Knowledge - LAK ’13 (p. 102). New York, New York, USA: ACM Press. doi:10.1145&amp;frasl;2460296.2460316
+Notes Paulo Blikstein&amp;rsquo;s intro to a series of his preliminary work on multimodal learning analytics. I think he is credited as the creator of this line of work.
+ I presented a series of proof-of-concept studies for what I termed “multimodal learning analytics:” a set of techniques that can be used to collect multiple sources of data in highfrequency (video, logs, audio, gestures, biosensors), synchronize and code the data, and examine learning in realistic, ecologically valid, social, mixed-media learning environments.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Choudhury - 2004 - Characterizing social interactions using the sociometer</title>
+      <link>/notes/2015-08-27-choudhury2004/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2015-08-27-choudhury2004/</guid>
+      <description>References Citekey: @Choudhury2004
+Choudhury, T., &amp;amp; Pentland, A. (2004). Characterizing social interactions using the sociometer. Proceedings of NAACOS, 1–4. Retrieved from http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.153.7399&amp;amp;rep=rep1&amp;amp;type=pdf
+Notes A much earlier version of sociometers when they only measure voices for conversation and turn-taking.
+Highlights SENSING &amp;amp; MODELING HUMAN NETWORKS (p. 1)
+This paper describes our work in developing a computational framework to model face-to-face interactions within a community. We have integrated methods from speech processing and machine learning to demonstrate that it is possible to extract information about people’s patterns of communication, without imposing any restriction on the user’s interactions or environment.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Clustering and sequential pattern mining of online collaborative learning data</title>
+      <link>/notes/2014-04-30-perera2009clustering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2014-04-30-perera2009clustering/</guid>
+      <description>References Perera, D., Kay, J., Koprinska, I., Yacef, K., &amp;amp; Zaïane, O. R. (2009). Clustering and sequential pattern mining of online collaborative learning data. Knowledge and Data Engineering, IEEE Transactions on, 21(6), 759–772.
+Citekey: @perera2009clustering
+Notes Highlights mirroring (p. 2)
+To underpin our work, we have used the Big Five theory of group work [1]. (p. 3)
+It has established five key factors: leadership, mutual performance monitoring, backup behaviour, adaptability and team orientation.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Graesser - 2011 - Coh-Metrix</title>
+      <link>/notes/2015-08-17-graesser2011/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2015-08-17-graesser2011/</guid>
+      <description>References Citekey: @Graesser2011
+Graesser, A. C., McNamara, D. S., &amp;amp; Kulikowich, J. M. (2011). Coh-Metrix: Providing Multilevel Analyses of Text Characteristics. Educational Researcher, 40(5), 223–234. doi:10.3102/0013189X11413260
+Notes An overview of measures provided by Coh-Metrix.
+Highlights Two important caveats must be raised before describing the computer analyses of text characteristics. First, computers obviously cannot identify and scale texts on all levels of language, discourse, and meaning. Available computer systems cannot fully comprehend the deep metaphors, literary devices, and historical contexts of Shakespeare’s plays, for example.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Identifying Learning Behaviors by Contextualizing Differential Sequence Mining with Action Features and Performance Evolution</title>
+      <link>/notes/2014-04-30-kinnebrew2012/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2014-04-30-kinnebrew2012/</guid>
+      <description>References Kinnebrew, J., &amp;amp; Biswas, G. (2012). Identifying Learning Behaviors by Contextualizing Differential Sequence Mining with Action Features and Performance Evolution. In the 5th International Conference on Educational Data Mining (pp. 57–64). Retrieved from http://files.eric.ed.gov/fulltext/ED537192.pdf
+Citekey: @Kinnebrew2012
+Highlights The core algorithm employs sequence mining techniques to identify differentially frequent patterns between two predefined groups. (p. 1)
+In developing a computer-based learning environment (CBLE) called Betty’s Brain, we have adopted a self-regulated learning (SRL) framework to help students develop learning strategies.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Introduction to the Special Issue on Learning Analytics</title>
+      <link>/notes/2013-11-05-haythornthwaite2013/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2013-11-05-haythornthwaite2013/</guid>
+      <description>References Citekey: @haythornthwaite2013
+Haythornthwaite, C., de Laat, M., &amp;amp; Dawson, S. (2013). Introduction to the Special Issue on Learning Analytics. American Behavioral Scientist, 57(10), 1371–1379. doi:10.1177&amp;frasl;0002764213498850
+Summary An intro to [[http://abs.sagepub.com/content/57/10.toc|a special issue of LA]] on the //Social Sciences, Interdisciplinary// journal. Also a nice brief intro to the field of LA.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Knowledge Building Discourse Explorer</title>
+      <link>/notes/2013-04-10-oshima2012a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2013-04-10-oshima2012a/</guid>
+      <description>References Citekey: @oshima2012a
+Oshima, J., Oshima, R., &amp;amp; Matsuzawa, Y. (2012). Knowledge Building Discourse Explorer: a social network analysis application for knowledge building discourse. Educational Technology Research and Development. doi:10.1007/s11423-012-9265-2
+Notes Rough summary I got to know KBDeX two years ago. This paper is very helpful for understanding the power of this tool to support assessment for knowledge creation. Before reading it, I was thinking of KBDeX as just another analytic tool.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Latent class analysis of early reading skills</title>
+      <link>/notes/2013-09-26-sainsbury2011/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2013-09-26-sainsbury2011/</guid>
+      <description>References Citekey: @sainsbury2011
+Sainsbury, M., &amp;amp; Benton, T. (2011). Designing a formative e-assessment: Latent class analysis of early reading skills. British Journal Of Educational Technology, 42(3), 500–514. doi:10.1111/j.1467-8535.2009.01044.x
+Notes This article is interesting in that it explores computer-based formative assessment based on traditionally designed item-based test. It applies an interesting technique, Latent Class Analysis/model, to classfy students into different groups. Based on charactersitics of those groups, the system could produce profiles that could inform instruction of teachers.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Laufer - 1994 - The Lexical Profile of Second Language Writing: Does It Change Over Time?</title>
+      <link>/notes/2014-10-30-laufer01121994/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2014-10-30-laufer01121994/</guid>
+      <description>References Citekey: @Laufer01121994
+Laufer B (1994). “The Lexical Profile of Second Language Writing: Does It Change Over Time?” RELC Journal, 25(2), pp. 21-33. , http://rel.sagepub.com/content/25/2/21.full.pdf+html, .
+Notes One of the classic studies by Laufer around Lexical Frequency Profile.
+Highlights lexical richness, (p. 2)
+lexical variation. (p. 2)
+lexical acquisition research would have to account for the gradual increase in the learner’s vocabulary size, as the most striking difference between the vocabulary of native speakers and that of language learners is in the number of words they can control, particularly in free production: speech or writing.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Onnela - 2014 - Using sociometers to quantify social interaction patterns</title>
+      <link>/notes/2015-08-27-onnela2014/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2015-08-27-onnela2014/</guid>
+      <description>References Citekey: @Onnela2014
+Onnela, J.-P., Waber, B. N., Pentland, A., Schnorf, S., &amp;amp; Lazer, D. (2014). Using sociometers to quantify social interaction patterns. Scientific Reports, 4, 1–8. doi:10.1038/srep05604
+Notes One of the most clear description of how sociometers work. Study focuses on gender difference in terms of proximity and talkativeness. &amp;ldquo;The strongest effect discovered in our study is the difference in gender participation as a function of tie strength and group size.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Quantified measures of online discourse as knowledge building indicators</title>
+      <link>/notes/2014-09-02-zhang2011c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2014-09-02-zhang2011c/</guid>
+      <description>References Citekey: @Zhang2011c
+Zhang, J. and Sun, Y. (2011). Quantified measures of online discourse as knowledge building indicators. In Spada, H., G., S., Miyake, N., and Law, N., editors, Connecting computer-supported collaborative learning to policy and practice: CSCL2011 conference proceedings, volume 1, pages 72–79. ISLS, Hong Kong SAR, China.
+Notes Highlights This secondary data analysis examined a set of social interaction (e.g., social network patterns), content (e.g., questions, ideas), and lexical measures (e.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Sentiment Analysis in MOOC Discussion Forums</title>
+      <link>/notes/2014-05-01-wen2014a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2014-05-01-wen2014a/</guid>
+      <description>##References
+Wen, M., Yang, D., &amp;amp; Rosé, C. P. (2014). Sentiment Analysis in MOOC Discussion Forums: What does it tell us? In EDM2014.
+Citekey: @Wen2014a
+##Notes
+General comments
+ What will be a more interesting variable to correlate to than drop out rates? The link between sentiment and dropout behaviors is slippery, because we have no evidence that negative sentiments will cause dropouts. So the main logic in this paper is undermined.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Studying Online Social Networks</title>
+      <link>/notes/2013-11-05-garton2006/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2013-11-05-garton2006/</guid>
+      <description>References Citekey: @garton2006
+Garton, L., Haythornthwaite, C., &amp;amp; Wellman, B. (2006). Studying Online Social Networks. Journal of Computer-Mediated Communication, 3(1). doi:10.1111/j.1083-6101.1997.tb00062.x
+Summary This paper gives a great introduction to SNA, covering basic concepts, units of analysis, data collection, and data analysis. Although everything is not in great detail, but it&amp;rsquo;s a great place to start unless you wish to start with a huge textbook.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Using latent semantic analysis to assess knowledge</title>
+      <link>/notes/2013-09-26-rehder1998/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2013-09-26-rehder1998/</guid>
+      <description>References Citekey: @rehder1998
+Rehder, B., Schreiner, M. E., Wolfe, M. B. W., Laham, D., Landauer, T. K., &amp;amp; Kintsch, W. (1998). Using latent semantic analysis to assess knowledge: Some technical considerations. Discourse Processes, 25(2), 337 – 354. doi:10.1080&amp;frasl;01638539809545031
+Notes In another article (Wolfe et al., 1998/this issue) we showed how Latent Semantic Analysis (LSA) can be used to assess student knowledge—how essays can be graded by LSA and how LSA can match students with appropriate instructional texts.</description>
+    </item>
+    
+    <item>
+      <title>Notes: What Sociolinguistics and Machine Learning Have to Say to One Another about Interaction Analysis</title>
+      <link>/notes/2014-05-05-rose2014what/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2014-05-05-rose2014what/</guid>
+      <description>References Citekey: @rose2014what
+Rosé, C. P., &amp;amp; Tovares A. (in press). What Sociolinguistics and Machine Learning Have to Say to One Another about Interaction Analysis. In L. Resnick, Asterhan C., &amp;amp; Clarke S. (Eds.), Socializing Intelligence Through Academic Talk and Dialogue. Washington, D.C.: American Educational Research Association.
+Notes  This chapter grapples with two seemingly contradictory views towards discourse analysis: a sociolinguist approach that embraces complexity (such as Gee&amp;rsquo;s intertextuality approach), and a quantitative approach that strives to best discretize discourse behaviors.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Worsley - 2012 - Multimodal learning analytics</title>
+      <link>/notes/2015-08-13-worsley2012/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2015-08-13-worsley2012/</guid>
+      <description>References Citekey: @Worsley2012
+Worsley, M. (2012). Multimodal learning analytics. In Proceedings of the 14th ACM international conference on Multimodal interaction - ICMI ’12 (p. 353). New York, New York, USA: ACM Press. doi:10.1145&amp;frasl;2388676.2388755
+Notes Worsley&amp;rsquo;s brief description of his plan of dissertation work.
+Highlights In order to develop a more appropriate measure and means for assessing SPBL I want to construct a complete picture of how learning takes place in SPBL environments through the use of multimodal learning interfaces and techniques.</description>
+    </item>
+    
+  </channel>
+</rss>

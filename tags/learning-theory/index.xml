@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learning theory on Bodong Chen</title>
+    <link>/tags/learning-theory/</link>
+    <description>Recent content in Learning theory on Bodong Chen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/tags/learning-theory/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Notes: Cole &amp; Engeström - 1993 - A cultural-historical approach to distributed cognition</title>
+      <link>/notes/2017-03-24-cole1993-zt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2017-03-24-cole1993-zt/</guid>
+      <description>References Citekey: @Cole1993-zt
+Cole, M., &amp;amp; Engeström, Y. (1993). A cultural-historical approach to distributed cognition. In G. Salomon (Ed.), Distributed cognitions: Psychological and educational considerations (pp. 1–46). New York: Cambridge University Press.
+Notes Summarize: This is a seminal piece about the activity (system) theory as a cultural-historical view of learning. It touches on several important connections between AT and expansive learning, distributed cognition, etc.
+Assess: I especially like the second example presented in this paper.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Engeström. (2000). Activity theory as a framework for analyzing and redesigning work</title>
+      <link>/notes/2017-03-24-engestrom2000-yq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2017-03-24-engestrom2000-yq/</guid>
+      <description>References Citekey: @Engestrom2000-yq
+Engeström, Y. (2000). Activity theory as a framework for analyzing and redesigning work. Ergonomics, 43(7), 960–974. https://doi.org/10.1080/001401300409143
+Notes Summarize: Engeström expands on the notion of knotworking in this article, in comparison with the 1993 article. This is especially relevant to critical moments of knowledge creation. A bit surprising there has been not much uptake of this concept in KB research.
+The notion of constant co-configuration is also interesting.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Shum. (2012). Social learning analytics</title>
+      <link>/notes/2015-11-17-shum2012b/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2015-11-17-shum2012b/</guid>
+      <description>References Citekey: @Shum2012b
+Shum, S. B., &amp;amp; Ferguson, R. (2012). Social learning analytics. Educational Technology and Society, 15(3), 3–26.
+Notes Highlights Learning analytics has its roots in two computing endeavours not specifically concerned with learning, but rather with strong business imperatives to understand internal organisational data, and external consumer behaviour. (p. 1)
+Educational Data Mining (EDM) “an emerging discipline, concerned with developing methods for exploring the unique types of data that come from educational settings, and using those methods to better understand students, and the settings which they learn in” (Baker &amp;amp; Yacef, 2009).</description>
+    </item>
+    
+    <item>
+      <title>Notes: Winne, P. (2016). Self-regulated learning</title>
+      <link>/notes/2016-09-23-winne2016-as/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2016-09-23-winne2016-as/</guid>
+      <description>References Citekey: @Winne2016-as
+Winne, P. (2016). Self-regulated learning. SFU Educational Review, 1(1).
+Notes Highlights  Cool to see Winne articulate assumptions of his research program. Everyone should do this :) Neat! (p. 1)
+ Several assumptions undergird my research program. First, one way people learn relies on innate features of our cognitive architecture. Like Pavlov’s dogs, who learned a novel stimulus (a bell) could forecast food or Skinner’s pigeons who learned to behave in particular ways (pecking button on a wall) under particular conditions (when a red light but not a green light was illuminated) to obtain food, we assemble information in the world to create knowledge in our minds.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Zimmerman - 1990 - Self-regulated learning and academic achievement</title>
+      <link>/notes/2015-03-31-zimmerman1990self/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2015-03-31-zimmerman1990self/</guid>
+      <description>References Citekey: @zimmerman1990self
+Zimmerman, B. J. (1990). Self-regulated learning and academic achievement: An overview. Educational Psychologist, 25(1), 3–17.
+Notes Highlights the importance of individuals assuming personal responsibility and control for their own acquisition of knowledge and skill. (p. 2)
+Gardner (1963), former Secretary of Health, Education, and Welfare, who suggested that (p. 2)
+&amp;ldquo;the ultimate goal of the education system is shift to the individual the burden of pursuing his own education&amp;rdquo; (p.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Zimmerman - 1999 - A social cognitive perspective</title>
+      <link>/notes/2015-04-01-zimmerman1999social/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2015-04-01-zimmerman1999social/</guid>
+      <description>References Citekey: @zimmerman1999social
+Zimmerman, B. J. (1999). Attaining self-regulation: A social cognitive perspective. In M. Boekaerts, M. Zeidner, &amp;amp; P. R. Pintrich (Eds.), Handbook of self-regulation. Elsevier Science. Retrieved from https://books.google.com/books?id=rv3DZSim6z4C
+Notes Key take-aways:
+ Triad: &amp;ldquo;A social cognitive perspective is distinctive in viewing self-regulation as an interaction of personal, behavioral, and environmental triadic processes&amp;rdquo; Cyclical phases: &amp;ldquo;From a social cognitive perspective, self-regulatory processes and accompanying beliefs fall into three cyclical phases: forethought, performance or volitional control, and self-reflection processes&amp;rdquo; Developmental Levels of Regulatory Skill: Observation, Emulation, Self-control, Self-regulation  Highlights This chapter will define self-regulation and will discuss the structure of self-regulatory systems, social and physical environmental context influences on self-regulation, dysfunctions in selfregulation, and self-regulatory development.</description>
+    </item>
+    
+  </channel>
+</rss>

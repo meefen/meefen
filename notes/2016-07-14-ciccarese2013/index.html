@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Notes: Ciccarese (2013) Web annotation as a first-class object - Bodong Chen</title>
+    <meta property="og:title" content="Notes: Ciccarese (2013) Web annotation as a first-class object - Bodong Chen">
+    
+
+    
+      
+    
+
+    
+
+    
+    
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/custom.css" />
+
+  </head>
+
+  
+  <body class="notes">
+    <header class="masthead">
+      <h1><a href="/">Bodong Chen</a></h1>
+
+<p class="tagline">Crisscross Landscapes</p>
+
+      <nav class="menu">
+        <input id="menu-check" type="checkbox" />
+        <label id="menu-label" for="menu-check" class="unselectable">
+          <span class="icon close-icon">✕</span>
+          <span class="icon open-icon">☰</span>
+          <span class="text">Menu</span>
+        </label>
+        <ul>
+        
+        
+        <li><a href="/">Home</a></li>
+        
+        <li><a href="/blog/">Blog</a></li>
+        
+        <li><a href="/cv/">Publications</a></li>
+        
+        <li><a href="/notes/">Open Scholar</a></li>
+        
+        <li><a href="/teaching/">Teaching</a></li>
+        
+        <li><a href="/cn/">博客</a></li>
+        
+        <li><a href="/index.xml">Subscribe</a></li>
+        
+        
+        </ul>
+      </nav>
+    </header>
+
+    <article class="main">
+      <header class="title">
+      
+<h1>Notes: Ciccarese (2013) Web annotation as a first-class object</h1>
+
+<h3>
+  0001-01-01</h3>
+<hr>
+
+
+      </header>
+
+
+
+
+
+<h2 id="references">References</h2>
+
+<p><strong>Citekey</strong>: @Ciccarese2013</p>
+
+<p>Ciccarese, P., Soiland-Reyes, S., &amp; Clark, T. (2013). Web annotation as a first-class object. IEEE Internet Computing, 17(6), 71–75. doi:10.1109/MIC.2013.123</p>
+
+<h2 id="notes">Notes</h2>
+
+<p>A thorough explanation of the history of web annotation.</p>
+
+<h2 id="highlights">Highlights</h2>
+
+<p>The W3C Open Annotation Data Model provides facilities for annotating content directly on the Web without changing the original content.Third-party semantic annotations of content are now emerging as rst-class objects on the Web. (p. 71)</p>
+
+<p>Scholars have made handwritten notes and comments in books and manuscripts for centuries. Today’s blogs and news sites typically invite users to express their opinions on the published content; URLs let them share Web resources with accompanying annotations and comments using third-party services such as Twitter or Facebook. These contributions have until recently been constrained within speci c services, making them useful, but second-class citizens of the Web. (p. 71)</p>
+
+<p>Now, Web annotations are emerging as fully independent linked data in their own right, no longer restricted to plain textual comments in application silos. Annotations can range from bookmarks and comments, to ne-grained annotations of a selected section of a frame in a video stream. Technologies and standards already exist to create, publish, syndicate, mash up, and consume nely targeted, semantically rich digital annotations on practically any content: annotations have become rst-class Web citizens. This development is driven by a need for collaboration and annotation reuse among domain researchers, computer scientists, scienti c publishers, and scholarly content databases. (p. 71)</p>
+
+<p>What do these applications have in common? First, the annotations they support have a shared subject, typically identi ed by a URI (for example, to a webpage, image, or video). Second, these annotations live within a single system, at either the resource provider or a third-party bookmarking site. (p. 71)</p>
+
+<p>Up until recently, no common annotation model has existed independently of what is being annotated. (p. 71)</p>
+
+<p>Freeing Annotation from Content Silos (p. 71)</p>
+
+<p>Although this might not pose a signi cant problem for ordinary social media users, it’s a big problem in digital scholarship. This challenge is driving a signi cant change in how we can implement and reuse annotations across systems and domains. (p. 71)</p>
+
+<p>Content annotation in one form or another is a basic, de ning part of Web 2.0. (p. 71)</p>
+
+<p>Semantics, Not Just Comments (p. 72)</p>
+
+<p>In July 2013, Google announced the availability of 800 million documents annotated by 11 billion Freebase concepts.1 This is semantic tagging. (p. 72)</p>
+
+<p>Using formal vocabularies specied in the Web Ontology Language (OWL), we can create richer, more computationally tractable structures than by using dictionaries or encyclopedias. Formal ontologies relate elements in one domain to another, using formal predicates, and let us perform automated reasoning over these knowledge structures. They might also supplement, identify, or tag dictionary and encyclopedia entries themselves. (p. 72)</p>
+
+<p>machine assistance to reading, comprehension, and knowledge accumulation is increasingly necessary (p. 73)</p>
+
+<p>Semantic tagging or linking is now a reality, and extends beyond Google and Freebase. Perhaps its most important application is in scholarship. For example, the Europe PubMed Central database of scienti c articles (http:// europepmc.org) now semantically tags all its entries with protein, gene, and chemical compound names found in the text. But dealing with these tags raises further important questions. (p. 73)</p>
+
+<p>How do we represent tags and other annotations? Are they injected in the text, or stored separately? How do we share them across systems? (p. 73)</p>
+
+<p>by injecting targeted elements from separate annotation stores. When a user accessed a webpage, any annotations of that page could be loaded from and published to separate Annotea servers, one of which the W3C formerly hosted (and which is now decommissioned). Annotea consisted of an RDF schema with an accompanying REST API for annotation discovery and publication. (p. 73)</p>
+
+<p>And how can we make this representation live as linked data on the Web — as a rst-class citizen? (p. 73)</p>
+
+<p>These capabilities are now becoming available to Web developers using linked data annotation tools and models. (p. 73)</p>
+
+<p>it laid out a basic path that subsequent systems followed and exploited. (p. 73)</p>
+
+<p>The Open Annotation Model (p. 73)</p>
+
+<p>The Evolution of Web Annotation (p. 73)</p>
+
+<p>Building on RDF and partially inspired by Annotea, two parallel projects were begun independently in 2009: the Open Annotation Collaboration (OAC) and the Annotation Ontology (AO). Both models adopted Annotea’s fundamental structure: an annotation with a target (annotated resource) and a body (content) that concerns that target. (p. 73)</p>
+
+<p>More than a decade ago, seminal lines of research on the Distributed Link Service (DLS)2 and Conceptual Open Hypermedia (COHSE)3 explored an early form of Web annotation. Their main goal was to enhance collaboration via shared metadata-based Web annotations, bookmarks, and their combinations. (p. 73)</p>
+
+<p>The Annotea data model was lightweight. Annotations were stored separately from the documents they annotated, and consisted of three parts. An Annotation instance annotates a Web resource by associating it with a body — another Web resource — such as a comment or reply (typically XHTML embedded as an XML literal). The annotation had provenance properties such as author, created, and modi ed, which specialized corresponding Dublin Core elements. Finally, a context could indicate the speci c selection within an annotated document, typically using an XPointer. Several subclasses of Annotation were de ned — for instance, Question, Comment, or Example. (p. 73)</p>
+
+<p>Around the same time, Annotea, an early W3C project, enabled collaboration by sharing annotations and metadata,4 which were attached to a full or partial webpage. (p. 73)</p>
+
+<p>OAC was designed to support digital humanities, whereas AO was geared toward biomedical use cases (p. 73)</p>
+
+<p>Linked Data Annotation Tools (p. 74)</p>
+
+<p>Several systems already use annotations to produce linked data. (p. 74)</p>
+
+<p>DBpedia Spotlight is a tool for automatically annotating mentions of DBpedia resources in text (http:// spotlight.dbpedia.org). (p. 74)</p>
+
+<p>The Domeo Annotation Toolkit (www.annotationframework.org) lets users trigger external text mining services or algorithms and transform their results into annotations that human agents can further curate (see Figure 1). (p. 74)</p>
+
+<p>Utopia Documents (<a href="http://getutopia">http://getutopia</a>. com) is a PDF reader that, when opening a research article, can overlay manipulable visualizations of the data behind the article, providing data analysis tools and links to external resources. (p. 74)</p>
+
+<p>OAC and AO took similar enough approaches to be able to mergeintoasingleproject (p. 74)</p>
+
+<p>The Open Annotation Model (OA; see the sidebar)6 combined and elaborated these prior projects under the umbrella of the W3C Open Annotation Community Group (www. w3.org/community/openannotation/). The OA model incorporates features from its predecessors, but with further exibility and richness, catering to a wider range of annotation needs. (p. 74)</p>
+
+<p>Another valuable example of annotation and linked data is Maphub (<a href="https://maphub.herokuapp.com">https://maphub.herokuapp.com</a>), an online application for exploring and annotating digitized, high-resolution (p. 74)</p>
+
+<p>historical maps (see Figure 2). (p. 75)</p>
+
+<p>OA is new: we’ve never before had a comprehensive, fully featured model for linked data annotations, with signi cant community buy-in. As applications and annotation communities fully adopt this model for their work, linked data annotations will become rst-class, fully interoperable Web citizens — primary Web content in their own right. (p. 75)</p>
+
+
+  <footer>
+  
+<nav class="post-nav">
+  <span class="nav-prev">&larr; <a href="/notes/2016-09-28-clark2014-nn/">Notes: Clark - 2014 - Quantitative research designs: recognizing the overall plan for a study</a></span>
+  <span class="nav-next"><a href="/notes/2015-08-29-choudhury2008/">Notes: Choudhury - 2008 - The Mobile Sensing Platform: An Embedded Activity Recognition System</a> &rarr;</span>
+</nav>
+
+
+
+<section class="comments">
+  <div id="disqus_thread"></div>
+  <script>
+  var disqus_config = function () {
+  
+  };
+  (function() {
+    var inIFrame = function() {
+      var iframe = true;
+      try { iframe = window.self !== window.top; } catch (e) {}
+      return iframe;
+    };
+    if (inIFrame()) return;
+    var disqus_js = '//meefen.disqus.com/embed.js';
+    var d = document, s = d.createElement('script');
+    s.src = disqus_js; s.async = true;
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+
+
+<script src="//yihui.name/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+  
+
+  
+  <hr>
+  <div class="copyright">&copy; <a href="http://bodong.ch/">Bodong Chen</a> 2018 | <a href="https://github.com/meefen">Github</a> | <a href="https://twitter.com/bod0ng">Twitter</a></div>
+  
+  </footer>
+  </article>
+  
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-50108133-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+  </body>
+</html>
+

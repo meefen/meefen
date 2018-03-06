@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web 2.0 on Bodong Chen</title>
+    <link>/tags/web-2.0/</link>
+    <description>Recent content in Web 2.0 on Bodong Chen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/tags/web-2.0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Notes: Ciccarese (2013) Web annotation as a first-class object</title>
+      <link>/notes/2016-07-14-ciccarese2013/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2016-07-14-ciccarese2013/</guid>
+      <description>References Citekey: @Ciccarese2013
+Ciccarese, P., Soiland-Reyes, S., &amp;amp; Clark, T. (2013). Web annotation as a first-class object. IEEE Internet Computing, 17(6), 71–75. doi:10.1109/MIC.2013.123
+Notes A thorough explanation of the history of web annotation.
+Highlights The W3C Open Annotation Data Model provides facilities for annotating content directly on the Web without changing the original content.Third-party semantic annotations of content are now emerging as rst-class objects on the Web. (p. 71)</description>
+    </item>
+    
+    <item>
+      <title>Notes: Michalak, R. (2016). Diigo</title>
+      <link>/notes/2016-07-14-michalak2016/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2016-07-14-michalak2016/</guid>
+      <description>References Citekey: @Michalak2016
+Michalak, R. (2016). Diigo. Technical Services Quarterly, 33(1), 96–97. doi:10.1080&amp;frasl;07317131.2015.1093854
+Notes As an experienced Diigo user (before), I found this intro not informative enough to illustrate the core philosophy of Diigo, that is to create another layer on top of web content. This intro focuses too much on the Library, which is important indeed, but does not talk enough about the social engagement piece that (co-)defines Diigo.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Big data on Bodong Chen</title>
+    <link>/tags/big-data/</link>
+    <description>Recent content in Big data on Bodong Chen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/tags/big-data/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Notes: Zwitter. (2014). Big Data ethics</title>
+      <link>/notes/2016-06-28-zwitter2014/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2016-06-28-zwitter2014/</guid>
+      <description>References Citekey: @Zwitter2014
+Zwitter, A. (2014). Big Data ethics. Big Data &amp;amp; Society, 1(2). doi:10.1177&amp;frasl;2053951714559253
+Notes A primer of Big Data ethics. Considering adding it to the reading list of the Tech &amp;amp; Ethics course.
+Highlights Hence, much less commonly discussed are the ethical implications of impersonal data. Examples include, among others, the ‘‘likes’’ on Facebook sold to marketing companies in order to more specifically target certain micro-markets; information generated out of Twitter feed based sentiment analyses for political manipulation of groups, etc.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data mining on Bodong Chen</title>
+    <link>/tags/data-mining/</link>
+    <description>Recent content in Data mining on Bodong Chen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Oct 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/data-mining/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Twitter Archeology of the Learning Analytics Community</title>
+      <link>/blog/2014-10-14-twitter-archeology/</link>
+      <pubDate>Tue, 14 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2014-10-14-twitter-archeology/</guid>
+      <description>Learning analytics as a nascent field of scholarship is evolving rapidly and garnering broad interest in both educational research and practice. Since the inaugural Learning Analytics and Knowledge (LAK) conference in 2011, exciting moves have been made during the past four years. The Society of Learning Analytics Research (SoLAR) was launched in 2012; the Learning Analytics Summer Institute (LASI) was first held in 2013; the first issue of the Journal of Learning Analytics was published in 2014.</description>
+    </item>
+    
+    <item>
+      <title>&#34;Overview&#34; of #AERA2012 Tweets</title>
+      <link>/blog/2012-04-16-overview-of-aera2012-tweets/</link>
+      <pubDate>Mon, 16 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2012-04-16-overview-of-aera2012-tweets/</guid>
+      <description>The AERA Annual Meeting is probably the largest getting-together of educational researchers and practitioners around the world. This year it has around 13,000 participants. Several hundreds of them are taking advantage of Twitter as a &#34;backchannel&#34; for communication at this conference. On Twitter, hashtags are usually used to easily aggregate tweets of a same topic together. This year, three hashtags, i.e. #AERA2012, #AERA, and #AERA12, are used, and #AERA2012 is the most popular one.</description>
+    </item>
+    
+  </channel>
+</rss>

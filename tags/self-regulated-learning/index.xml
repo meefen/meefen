@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Self-regulated learning on Bodong Chen</title>
+    <link>/tags/self-regulated-learning/</link>
+    <description>Recent content in Self-regulated learning on Bodong Chen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/tags/self-regulated-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Notes: Bannert - 2014 - Process mining techniques for analysing patterns and strategies in students’ self-regulated learning</title>
+      <link>/notes/2015-04-01-bannert2014/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2015-04-01-bannert2014/</guid>
+      <description>References Citekey: @Bannert2014
+Bannert, M., Reimann, P., &amp;amp; Sonnenberg, C. (2014). Process mining techniques for analysing patterns and strategies in students’ self-regulated learning. Metacognition and Learning, 9, 161–185. doi:10.1007/s11409-013-9107-6
+Notes A nice article applying Process Mining (PM) on the study of self-regulated learning. Starting from discussing the importance of studying temporal and sequential information in self-regulated learning, this article moves on to introduce the key ideas of PM. Then it illustrates the application of PM, using a software called ProM v5, to study a group of students&amp;rsquo; learning in a hypermedia environment.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Kinnebrew2013-A Contextualized, Differential Sequence Mining Method to Derive Students’ Learning Behavior Patterns</title>
+      <link>/notes/2016-09-26-kinnebrew2013-de/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2016-09-26-kinnebrew2013-de/</guid>
+      <description>References Citekey: @Kinnebrew2013-de
+Kinnebrew, J. S., Loretz, K. M., &amp;amp; Biswas, G. (2013). A Contextualized, Differential Sequence Mining Method to Derive Students’ Learning Behavior Patterns. JEDM - Journal of Educational Data Mining, 5(1), 190–219.
+Notes Highlights The core algorithm employs a novel combination of sequence mining techniques to identify di erentially frequent patterns between groups of students (e.g., experimental versus control conditions or high versus low performers). We extend this technique by contextualizing the sequence mining with information about the stu- dent&amp;rsquo;s performance over the course of the learning interactions.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Segedy - 2015 - Using Coherence Analysis to Characterize Self-Regulated Learning Behaviours in Open-Ended Learning Environments</title>
+      <link>/notes/2016-09-26-segedy2015-sy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2016-09-26-segedy2015-sy/</guid>
+      <description>References Citekey: @Segedy2015-sy
+Segedy, J. R., Kinnebrew, J. S., &amp;amp; Biswas, G. (2015). Using Coherence Analysis to Characterize Self-Regulated Learning Behaviours in Open-Ended Learning Environments. Journal of Learning Analytics, 2(1), 13–48.
+Notes Nice work! So this work follows this &amp;lsquo;logic&amp;rsquo;: SRL is important and we have good theoretical models based on decades of research. We have Betty&amp;rsquo;s Brain as an &amp;lsquo;open-ended learning environment&amp;rsquo; (note that&amp;rsquo;s different from open learning environments), where SRL is key for learner success.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Winne, P. (2016). Self-regulated learning</title>
+      <link>/notes/2016-09-23-winne2016-as/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2016-09-23-winne2016-as/</guid>
+      <description>References Citekey: @Winne2016-as
+Winne, P. (2016). Self-regulated learning. SFU Educational Review, 1(1).
+Notes Highlights  Cool to see Winne articulate assumptions of his research program. Everyone should do this :) Neat! (p. 1)
+ Several assumptions undergird my research program. First, one way people learn relies on innate features of our cognitive architecture. Like Pavlov’s dogs, who learned a novel stimulus (a bell) could forecast food or Skinner’s pigeons who learned to behave in particular ways (pecking button on a wall) under particular conditions (when a red light but not a green light was illuminated) to obtain food, we assemble information in the world to create knowledge in our minds.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Zimmerman - 1990 - Self-regulated learning and academic achievement</title>
+      <link>/notes/2015-03-31-zimmerman1990self/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2015-03-31-zimmerman1990self/</guid>
+      <description>References Citekey: @zimmerman1990self
+Zimmerman, B. J. (1990). Self-regulated learning and academic achievement: An overview. Educational Psychologist, 25(1), 3–17.
+Notes Highlights the importance of individuals assuming personal responsibility and control for their own acquisition of knowledge and skill. (p. 2)
+Gardner (1963), former Secretary of Health, Education, and Welfare, who suggested that (p. 2)
+&amp;ldquo;the ultimate goal of the education system is shift to the individual the burden of pursuing his own education&amp;rdquo; (p.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Zimmerman - 1999 - A social cognitive perspective</title>
+      <link>/notes/2015-04-01-zimmerman1999social/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2015-04-01-zimmerman1999social/</guid>
+      <description>References Citekey: @zimmerman1999social
+Zimmerman, B. J. (1999). Attaining self-regulation: A social cognitive perspective. In M. Boekaerts, M. Zeidner, &amp;amp; P. R. Pintrich (Eds.), Handbook of self-regulation. Elsevier Science. Retrieved from https://books.google.com/books?id=rv3DZSim6z4C
+Notes Key take-aways:
+ Triad: &amp;ldquo;A social cognitive perspective is distinctive in viewing self-regulation as an interaction of personal, behavioral, and environmental triadic processes&amp;rdquo; Cyclical phases: &amp;ldquo;From a social cognitive perspective, self-regulatory processes and accompanying beliefs fall into three cyclical phases: forethought, performance or volitional control, and self-reflection processes&amp;rdquo; Developmental Levels of Regulatory Skill: Observation, Emulation, Self-control, Self-regulation  Highlights This chapter will define self-regulation and will discuss the structure of self-regulatory systems, social and physical environmental context influences on self-regulation, dysfunctions in selfregulation, and self-regulatory development.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Zimmerman. (1986). Development of a structured interview for assessing student use of self-regulated learning strategies</title>
+      <link>/notes/2016-09-23-zimmerman1986-vd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2016-09-23-zimmerman1986-vd/</guid>
+      <description>References Citekey: @Zimmerman1986-vd
+Zimmerman, B. J., &amp;amp; Pons, M. M. (1986). Development of a structured interview for assessing student use of self-regulated learning strategies. American Educational Research Journal, 23(4), 614–628.
+Notes Highlights High achieving students displayed significantly greater use of 13 cate- gories of self-regulated learning (p. 1)
+Recently, several theoretical articles have sought to relate various views of self-regulated learning to academic moti- vation and achievement (Corno &amp;amp; Mandinach, 1983; McCombs, 1984; Schunk, 1984).</description>
+    </item>
+    
+  </channel>
+</rss>

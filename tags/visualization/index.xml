@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visualization on Bodong Chen</title>
+    <link>/tags/visualization/</link>
+    <description>Recent content in Visualization on Bodong Chen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Oct 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/visualization/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Twitter Archeology of the Learning Analytics Community</title>
+      <link>/blog/2014-10-14-twitter-archeology/</link>
+      <pubDate>Tue, 14 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2014-10-14-twitter-archeology/</guid>
+      <description>Learning analytics as a nascent field of scholarship is evolving rapidly and garnering broad interest in both educational research and practice. Since the inaugural Learning Analytics and Knowledge (LAK) conference in 2011, exciting moves have been made during the past four years. The Society of Learning Analytics Research (SoLAR) was launched in 2012; the Learning Analytics Summer Institute (LASI) was first held in 2013; the first issue of the Journal of Learning Analytics was published in 2014.</description>
+    </item>
+    
+    <item>
+      <title>Make CORDTRA Diagrams with R</title>
+      <link>/blog/2013-07-01-make-cordtra-diagrams-with-r/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2013-07-01-make-cordtra-diagrams-with-r/</guid>
+      <description>CORDTRA (Chronologically-Ordered Representation of Discourse and Tool-Related Activity) is a visualization technique proposed by Cindy Hmelo-Silver (2003) for interpreting collaborative learning processes, based on Luckin et al.&amp;rsquo;s CORDFU (Chronologically-Ordered Representation of Discourse and Features Used). This technique could provide a holistic view of learning processes by making temporal relationship among various types of learning activities visible. By presenting a few interesting case studies, Hmelo-Silver and colleagues (2003, 2008) demonstrate that CORDTRA could provide useful insights about student interactions in computer-supported collaborative learning (CSCL).</description>
+    </item>
+    
+    <item>
+      <title>&#34;Overview&#34; of #AERA2012 Tweets</title>
+      <link>/blog/2012-04-16-overview-of-aera2012-tweets/</link>
+      <pubDate>Mon, 16 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2012-04-16-overview-of-aera2012-tweets/</guid>
+      <description>The AERA Annual Meeting is probably the largest getting-together of educational researchers and practitioners around the world. This year it has around 13,000 participants. Several hundreds of them are taking advantage of Twitter as a &#34;backchannel&#34; for communication at this conference. On Twitter, hashtags are usually used to easily aggregate tweets of a same topic together. This year, three hashtags, i.e. #AERA2012, #AERA, and #AERA12, are used, and #AERA2012 is the most popular one.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Thompson. (2013). Processing and Visualizing Data in Complex Learning Environments</title>
+      <link>/notes/2015-12-01-thompson2013/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2015-12-01-thompson2013/</guid>
+      <description>References Citekey: @Thompson2013
+Thompson, K., Ashe, D., Carvalho, L., Goodyear, P., Kelly, N., &amp;amp; Parisio, M. (2013). Processing and Visualizing Data in Complex Learning Environments. American Behavioral Scientist, 57(10), 1401–1420. doi:10.1177&amp;frasl;0002764213479368
+Notes I like the proposed framework and model. But the presence of LA in Case 1 is especially minimal. Case 2 involves much human coding. Appears to be a more traditional CSCL research.
+Highlights We discuss, using the cases of two learning environments, how structure affects the behavior of learners and, in turn, how that behavior has the potential to affect learning.</description>
+    </item>
+    
+  </channel>
+</rss>

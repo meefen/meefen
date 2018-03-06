@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Twitter on Bodong Chen</title>
+    <link>/tags/twitter/</link>
+    <description>Recent content in Twitter on Bodong Chen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Oct 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/twitter/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Twitter Archeology of the Learning Analytics Community</title>
+      <link>/blog/2014-10-14-twitter-archeology/</link>
+      <pubDate>Tue, 14 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2014-10-14-twitter-archeology/</guid>
+      <description>Learning analytics as a nascent field of scholarship is evolving rapidly and garnering broad interest in both educational research and practice. Since the inaugural Learning Analytics and Knowledge (LAK) conference in 2011, exciting moves have been made during the past four years. The Society of Learning Analytics Research (SoLAR) was launched in 2012; the Learning Analytics Summer Institute (LASI) was first held in 2013; the first issue of the Journal of Learning Analytics was published in 2014.</description>
+    </item>
+    
+    <item>
+      <title>MongoDB &#43; Java &#43; R = A handy toolbox for archiving and analyzing Twitter data</title>
+      <link>/blog/2013-12-09-mongodb-java-r-a-handy-toolbox-for-archiving-and-analyzing-twitter-data/</link>
+      <pubDate>Mon, 09 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2013-12-09-mongodb-java-r-a-handy-toolbox-for-archiving-and-analyzing-twitter-data/</guid>
+      <description>I&amp;rsquo;ve been using Martin Hawksey&amp;rsquo;s brilliant Google Spreadsheet TAGS for archiving Twitter data for y-e-a-r-s. It works very well, and allowed me to develop little R toys like twitterytics-shiny to interactively explore Twitter archives.
+However, I have a few complains. First, Twitter API authentication needs to be set up for each archive. The task which require a few steps in Google Spreadsheet is not trivial. Second, I often ended up getting hundreds or even thousands of duplicates that may cause the file size to exceed Google Spreadsheet&amp;rsquo;s size limit.</description>
+    </item>
+    
+    <item>
+      <title>Demo of Using twitter-hashtag-analytics to Analyze Tweets from #LAK13</title>
+      <link>/blog/2013-02-26-demo-of-using-twitter-hashtag-analytics-package-to-analyze-tweets-from-lak13/</link>
+      <pubDate>Tue, 26 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2013-02-26-demo-of-using-twitter-hashtag-analytics-package-to-analyze-tweets-from-lak13/</guid>
+      <description>Building on Ben Marwick, Martin Hawksey and Tony Hirst&amp;rsquo;s work on analyzing tweets with R, I started an R project for tweet analysis, namely twitter-hashtag-analytics. This project is hosted on Github and welcomes anyone who&amp;rsquo;s interested to contribute. It is my very first attempt to write a package in R, so I admit the capabilities of it is still limited and its structure may be not properly planned. Any advice will be highly appreciated.</description>
+    </item>
+    
+    <item>
+      <title>&#34;Overview&#34; of #AERA2012 Tweets</title>
+      <link>/blog/2012-04-16-overview-of-aera2012-tweets/</link>
+      <pubDate>Mon, 16 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2012-04-16-overview-of-aera2012-tweets/</guid>
+      <description>The AERA Annual Meeting is probably the largest getting-together of educational researchers and practitioners around the world. This year it has around 13,000 participants. Several hundreds of them are taking advantage of Twitter as a &#34;backchannel&#34; for communication at this conference. On Twitter, hashtags are usually used to easily aggregate tweets of a same topic together. This year, three hashtags, i.e. #AERA2012, #AERA, and #AERA12, are used, and #AERA2012 is the most popular one.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Gruzd - 2013 - Enabling community through social media</title>
+      <link>/notes/2015-03-30-gruzd2013/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2015-03-30-gruzd2013/</guid>
+      <description>References Citekey: @Gruzd2013
+Gruzd, A., &amp;amp; Haythornthwaite, C. (2013). Enabling community through social media. Journal of Medical Internet Research, 15(10). doi:10.2196/jmir.2796
+Notes Highlights Pescosolido [19] has suggested that a network-centered view of health, based on social network principles, can act as a bridge between medical sciences and individual health experience. Her ideas respond to an increasing recognition of the impact of connectivity and experience: “The individual is seen as embedded in an ongoing relational dynamic with sequences of events seen as patterned, contingent and emergent” (p.</description>
+    </item>
+    
+  </channel>
+</rss>

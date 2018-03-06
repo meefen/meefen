@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Knowledge Forum API: A demo - Bodong Chen</title>
+    <meta property="og:title" content="Knowledge Forum API: A demo - Bodong Chen">
+    
+
+    
+      
+    
+
+    
+
+    
+    
+
+
+<link href='//cdn.bootcss.com/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/custom.css" />
+
+  </head>
+
+  
+  <body class="blog">
+    <header class="masthead">
+      <h1><a href="/">Bodong Chen</a></h1>
+
+<p class="tagline">Crisscross Landscapes</p>
+
+      <nav class="menu">
+        <input id="menu-check" type="checkbox" />
+        <label id="menu-label" for="menu-check" class="unselectable">
+          <span class="icon close-icon">✕</span>
+          <span class="icon open-icon">☰</span>
+          <span class="text">Menu</span>
+        </label>
+        <ul>
+        
+        
+        <li><a href="/">Home</a></li>
+        
+        <li><a href="/blog/">Blog</a></li>
+        
+        <li><a href="/cv/">Publications</a></li>
+        
+        <li><a href="/notes/">Open Scholar</a></li>
+        
+        <li><a href="/teaching/">Teaching</a></li>
+        
+        <li><a href="/cn/">博客</a></li>
+        
+        <li><a href="/index.xml">Subscribe</a></li>
+        
+        
+        </ul>
+      </nav>
+    </header>
+
+    <article class="main">
+      <header class="title">
+      
+<h1>Knowledge Forum API: A demo</h1>
+
+<h3>
+  2014-06-06</h3>
+<hr>
+
+
+      </header>
+
+
+
+
+
+<p><a href="http://en.wikipedia.org/wiki/Knowledge_Forum">Knowledge Forum (KF)</a> has been recognized as the founding software in the computer-supported collaborative learning (CSCL) community. And it was also one of the earliest to offer embedded analytic tools for formative assessment. Thanks to contributions from a broad international community, a number of analytic tools have been developed for KF, including a suite of embedded applets (e.g., Contributions, Social Networks, Semantic Overlap, Vocabulary Growth, and Lexical Analysis; see <a href="http://dl.acm.org/citation.cfm?id=1599732">Teplovs et al., 2007</a>), a standalone Analytic Toolkit (ATK, Burtis, 1998), and more recently, a few independent analytic tools such as <a href="http://tccl.rit.albany.edu/wpsite/?page_id=265">Idea Thread Mapper</a> and <a href="http://kbdex.org/">Knowledge Building Discourse Explorer</a>. Underlying these development projects is a fundamental emphasis of <a href="http://ikit.org/kbi/knowledge-building">knowledge building</a>&mdash;the theory and pedagogy behind Knowledge Forum&mdash;on &ldquo;embedded, concurrent, transformative assessment&rdquo; for continual idea improvement. Thus, both the spirits and practice of learning analytics are present within the established line of knowledge building research.</p>
+
+<p>Despite such a strong presence of learning analytics, I have a few complains about the way those analytic tools have been developed. First, developing an embedded analytic applet for the old KF is not a trivial task. Because an applet (written in Java Swing) uses the same communication mechanism as the core KF client, writing it requires a certain level of familiarity with the core KF codebase. This situation makes prototyping new tools especially difficult. Second, the condition for developing those independent analytic tools such as Idea Thread Mapper is not ideal either. Such work requires similar familiarity with KF development stack, and thus demands direct support from the core engineering team. Moreover, because teams in our distributed international community tend to favor a variety of different development stacks (relation vs. non-relation databases, for instance), plenty of redundant efforts have been made to retrieve KF data. We definitely need a more agile and standard way to make KF data accessible.</p>
+
+<p>So when developing the next-generation Knowledge Forum, I have been advocating for <strong>an open Knowledge Forum API</strong>. Thanks to our engineer team&rsquo;s hard work, such an API is finally taking shape. It is currently being used to develop an iPad version of KF. Because of my interests in learning analytics, I am especially interested in building a new technological framework for KF analytics. In this post, I am going to demo the API in <a href="http://www.r-project.org/">R</a>, a statistical programming language widely used by data scientists, to demonstrate how analytics could be compiled using the new API.</p>
+
+<p><em>Note: The API is in its preliminary stage. So any suggestion will be appreciated.</em></p>
+
+<h2 id="setup">Setup</h2>
+
+<p>I&rsquo;ve written <a href="https://github.com/meefen/KF-R">an R wrapper for the KF API</a> to make it easier to work with the API in R. This library currently depends on two R packages: <code>RCurl</code>&mdash;to make HTTP calls to the API, and <code>jsonlite</code>&mdash;to parse JSON objects returned by the API.</p>
+
+<p>After loading the API library functions, you would need to create a &lsquo;curl handle&rsquo; that will be shared by all API calls.</p>
+
+<p>{% highlight r %}
+source(&ldquo;kf-api-lib.R&rdquo;) # load the function library</p>
+
+<h2 id="create-a-curl-handle-that-will-be-shared-among-api-calls">Create a curl handle that will be shared among API calls</h2>
+
+<p>curl = CreateCurlHandle()
+{% endhighlight %}</p>
+
+<h2 id="user-authentication">User authentication</h2>
+
+<p>After the server and login information is configured, user authentication can be done with one line of code. The results of authentication contain information about which sections (or knowledge-building communities) I&rsquo;m currently registered in.</p>
+
+<p>{% highlight r %}</p>
+
+<h2 id="login-info">Login info</h2>
+
+<p>host = &ldquo;<a href="http://kf.utoronto.ca:8080/kforum/&quot;">http://kf.utoronto.ca:8080/kforum/&quot;</a>
+username = &ldquo;bodong&rdquo; # YOUR_USERNAME
+password = &ldquo;******&rdquo; # YOUR_PASSWORD</p>
+
+<p>regs = Authenticate(host, username, password, curl)
+regs[, c(&ldquo;sectionId&rdquo;, &ldquo;sectionTitle&rdquo;)] # check sections I&rsquo;m in
+{% endhighlight %}</p>
+
+<pre><code>##                              sectionId              sectionTitle
+## 1 416658e6-b49f-4189-8f9a-fe78d8b5f4c1            KF Stress Test
+## 2 b1f6fed2-a64e-4bd2-ab8b-393fb2ed1f06 Knowledge Society Network
+</code></pre>
+
+<h2 id="retrieve-my-posts-in-a-community">Retrieve my posts in a community</h2>
+
+<p>After being authenticated, I can now access data in communities I&rsquo;m a member of. Let&rsquo;s first take a look at how posts (or notes) can be retrieved.</p>
+
+<p>With the library, I could get all posts in a specific community and only keep mine.</p>
+
+<p>{% highlight r %}</p>
+
+<h2 id="choose-a-section-community-i-m-interested-in">Choose a section/community I&rsquo;m interested in</h2>
+
+<p>userId = regs$authorInfo.guid[2]
+sectionId = regs$sectionId[2]</p>
+
+<h2 id="2-my-posts">2. My posts</h2>
+
+<p>posts = GetSectionPosts(host, sectionId, curl)
+myPosts = FilterPostsByAuthors(posts, userId) # all my posts here
+{% endhighlight %}</p>
+
+<p>Then we can do all kinds of things with the results. For example, we can compare the number of my posts with the community average.</p>
+
+<p>{% highlight r %}
+authors = do.call(&ldquo;rbind&rdquo;, posts$authors) # all unique authors
+tmp = data.frame(author=factor(c(&ldquo;Me&rdquo;,&ldquo;Average&rdquo;), levels=c(&ldquo;Me&rdquo;,&ldquo;Average&rdquo;)), notes=c(nrow(myPosts), nrow(posts)/length(unique(authors$guid))))
+library(ggplot2)
+library(ggthemes)
+ggplot(data=tmp, aes(x=author, y=notes, fill=author)) +
+  geom_bar(colour=&ldquo;black&rdquo;, stat=&ldquo;identity&rdquo;) +
+  ggtitle(&ldquo;Number of my posts compared to community average&rdquo;) +
+  guides(fill=FALSE) +
+  theme_solarized()
+{% endhighlight %}</p>
+
+<p><img src="/assets/kf-api-compare-with-average.png" alt="" /></p>
+
+<p>We could also create a calendar to visualize my posting activities.</p>
+
+<p>{% highlight r %}
+dates = strptime(myPosts$created, &ldquo;%b %d, %Y %I:%M:%S %p&rdquo;)
+dates_str = as.character(format(dates, format=&ldquo;%Y-%m-%d&rdquo;))
+tmp = data.frame(table(dates_str))
+names(tmp) = c(&ldquo;date&rdquo;, &ldquo;value&rdquo;)
+CalendarHeatmap(tmp, title=&ldquo;Posting Activities&rdquo;)
+{% endhighlight %}</p>
+
+<p><img src="/assets/kf-api-posting-calendar.png" alt="" /></p>
+
+<p>Obviously I have been not super active in this community.</p>
+
+<p>We can also find out the top terms in my posts.</p>
+
+<p>{% highlight r %}
+library&trade;
+myNotes = Corpus(VectorSource(myPosts$body))
+myDtm &lt;- DocumentTermMatrix(myNotes, control = list(
+  stopwords = TRUE, minWordLength = 3,
+  removeNumbers = TRUE, removePunctuation = TRUE))
+myFreqTerms = findFreqTerms(myDtm, 8, 100)
+myFreq = colSums(inspect(myDtm[, myFreqTerms]))
+tmp = sort(freq, decreasing=TRUE)
+data.frame(term=names(tmp), freq=tmp, row.names=NULL)
+{% endhighlight %}</p>
+
+<pre><code>        term freq
+1  knowledge   24
+2   building   21
+3       will   17
+4  analytics   14
+5       note   14
+6       view   13
+7     badges   11
+8       open   10
+9     design    8
+10      need    8
+</code></pre>
+
+<p>As you can tell, I posted mostly about <em>knowledge building</em>, <em>analytics</em>, <em>open badges</em>, and <em>design</em>.</p>
+
+<h2 id="inspect-a-specific-view">Inspect a specific view</h2>
+
+<p>In Knowledge Forum, a <em>view</em> is a 2D space where <em>notes</em> (or posts) are organized. It is one of the most important feature that distinguishes KF from threaded discussion tools.</p>
+
+<p>With the API, I could retrieve all views in the current community:</p>
+
+<pre><code class="language-r">views = GetSectionViews(host, sectionId, curl)
+</code></pre>
+
+<p>Then, I can further inspect one specific view.</p>
+
+<pre><code class="language-r">viewId = views[15, &quot;guid&quot;] # I'm interested in view #15
+view = GetView(host, viewId, curl)
+</code></pre>
+
+<p>With more detailed information about this view, we can count number of its posts and calculate the percentage of <em>build-ons</em> among those posts.</p>
+
+<pre><code class="language-r">nrow(view$viewPostRefs)
+nrow(view$buildOns) / nrow(view$viewPostRefs)
+</code></pre>
+
+<p>We could also re-visualize the view, given the location of each note is also stored in the JSON object returned by the API.</p>
+
+<pre><code class="language-r">ggplot(view$viewPostRefs, aes(x=location$point$x, y=location$point$y)) +
+  geom_text(aes(label=postInfo$title), hjust=0) +
+  ggtitle(view$title) +
+  scale_y_reverse() + theme_bw() +
+  theme(axis.title=element_blank(),
+        axis.text=element_blank(),
+        axis.ticks=element_blank(),
+        panel.grid=element_blank())
+</code></pre>
+
+<p><img src="/assets/kf-api-revisualize-view.png" alt="" /></p>
+
+<p>Similar to what&rsquo;s done for my personal notes, we can also find top terms used by posts within this view.</p>
+
+<pre><code class="language-r">notes = Corpus(VectorSource(view$viewPostRefs$postInfo$body))
+dtm &lt;- DocumentTermMatrix(notes, control = list(
+  stopwords = TRUE, minWordLength = 3,
+  removeNumbers = TRUE, removePunctuation = TRUE))
+freqTerms = findFreqTerms(dtm, 8, 100)
+freq = colSums(inspect(dtm[, freqTerms]))
+
+tmp = sort(freq, decreasing=TRUE)
+data.frame(term=names(tmp), freq=tmp, row.names=NULL)
+</code></pre>
+
+<pre><code>        term freq
+1       note   45
+2       view   33
+3      notes   22
+4        can   17
+5        new   13
+6       will   13
+7        tap   12
+8       work   12
+9        add   10
+10    chrome   10
+11    issues   10
+12   version   10
+13     ideas    9
+14       one    9
+15     views    9
+16  attached    8
+17     build    8
+18    design    8
+19      idea    8
+20       ios    8
+21      need    8
+22 scaffolds    8
+23      text    8
+24     title    8
+25       use    8
+</code></pre>
+
+<p>And then, I can further find out the overlap between the community&rsquo;s and my own top terms.</p>
+
+<pre><code class="language-r">intersect(myFreqTerms, freqTerms)
+</code></pre>
+
+<pre><code>## [1] &quot;design&quot; &quot;need&quot;   &quot;note&quot;   &quot;view&quot;   &quot;will&quot;
+</code></pre>
+
+<h2 id="future-work">Future work</h2>
+
+<p>As a researcher interested in learning analytic tools, I am personally very excited about this API. As shown in this demo, it makes prototyping in R extremely easy. Using <code>rApache</code> or <code>Shiny</code>, we could further turn prototypes into analytic tools that can be seamlessly integrated within the new KF. Of course, you could choose to access the API in other languages such as Python and Java as well.</p>
+
+<p>However, the API is still in its preliminary stage. More work needs to be done to make user clicklog accessible. Meanwhile, it should also support posting data backwards to KF.</p>
+
+<p>In this year&rsquo;s <a href="http://ikit.org/summerinstitute2014/">Knowledge Building Summer Institute</a> in Quebec City, I will be leading a knowledge building analytics workshop to further discuss the design of this API. Other broader issues related to epistemological, ethical, and technological aspects of knowledge building analytics will also be explored. Stay tuned.</p>
+
+
+  <footer>
+  
+<nav class="post-nav">
+  <span class="nav-prev">&larr; <a href="/blog/2014-05-02-mining-frequent-sequences/">Mining frequent sequences in knowledge building dialogues</a></span>
+  <span class="nav-next"><a href="/blog/2014-10-14-twitter-archeology/">Twitter Archeology of the Learning Analytics Community</a> &rarr;</span>
+</nav>
+
+
+
+<section class="comments">
+  <div id="disqus_thread"></div>
+  <script>
+  var disqus_config = function () {
+  
+  };
+  (function() {
+    var inIFrame = function() {
+      var iframe = true;
+      try { iframe = window.self !== window.top; } catch (e) {}
+      return iframe;
+    };
+    if (inIFrame()) return;
+    var disqus_js = '//meefen.disqus.com/embed.js';
+    var d = document, s = d.createElement('script');
+    s.src = disqus_js; s.async = true;
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+
+
+<script src="//yihui.name/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+  
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/tex.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+  
+  <hr>
+  <div class="copyright">&copy; <a href="http://bodong.ch/">Bodong Chen</a> 2018 | <a href="https://github.com/meefen">Github</a> | <a href="https://twitter.com/bod0ng">Twitter</a></div>
+  
+  </footer>
+  </article>
+  
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-50108133-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+  </body>
+</html>
+

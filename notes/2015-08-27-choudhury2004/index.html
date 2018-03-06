@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Notes: Choudhury - 2004 - Characterizing social interactions using the sociometer - Bodong Chen</title>
+    <meta property="og:title" content="Notes: Choudhury - 2004 - Characterizing social interactions using the sociometer - Bodong Chen">
+    
+
+    
+      
+    
+
+    
+
+    
+    
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/custom.css" />
+
+  </head>
+
+  
+  <body class="notes">
+    <header class="masthead">
+      <h1><a href="/">Bodong Chen</a></h1>
+
+<p class="tagline">Crisscross Landscapes</p>
+
+      <nav class="menu">
+        <input id="menu-check" type="checkbox" />
+        <label id="menu-label" for="menu-check" class="unselectable">
+          <span class="icon close-icon">✕</span>
+          <span class="icon open-icon">☰</span>
+          <span class="text">Menu</span>
+        </label>
+        <ul>
+        
+        
+        <li><a href="/">Home</a></li>
+        
+        <li><a href="/blog/">Blog</a></li>
+        
+        <li><a href="/cv/">Publications</a></li>
+        
+        <li><a href="/notes/">Open Scholar</a></li>
+        
+        <li><a href="/teaching/">Teaching</a></li>
+        
+        <li><a href="/cn/">博客</a></li>
+        
+        <li><a href="/index.xml">Subscribe</a></li>
+        
+        
+        </ul>
+      </nav>
+    </header>
+
+    <article class="main">
+      <header class="title">
+      
+<h1>Notes: Choudhury - 2004 - Characterizing social interactions using the sociometer</h1>
+
+<h3>
+  0001-01-01</h3>
+<hr>
+
+
+      </header>
+
+
+
+
+
+<h2 id="references">References</h2>
+
+<p><strong>Citekey</strong>: @Choudhury2004</p>
+
+<p>Choudhury, T., &amp; Pentland, A. (2004). Characterizing social interactions using the sociometer. Proceedings of NAACOS, 1–4. Retrieved from <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.153.7399&amp;rep=rep1&amp;type=pdf">http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.153.7399&amp;rep=rep1&amp;type=pdf</a></p>
+
+<h2 id="notes">Notes</h2>
+
+<p>A much earlier version of sociometers when they only measure voices for conversation and turn-taking.</p>
+
+<h2 id="highlights">Highlights</h2>
+
+<p>SENSING &amp; MODELING HUMAN NETWORKS (p. 1)</p>
+
+<p>This paper describes our work in developing a computational framework to model face-to-face interactions within a community. We have integrated methods from speech processing and machine learning to demonstrate that it is possible to extract information about people’s patterns of communication, without imposing any restriction on the user’s interactions or environment. Furthermore, we analyze some of the conversational dynamics and present results that demonstrate distinctive and consistent turntaking styles for individuals during conversations. Finally, we present results that show strong correlation between a person’s turn-taking style during one-on-one conversations and the person’s role within the network. (p. 1)</p>
+
+<p>The sociometer is an adaptation of the hoarder board, a wearable data acquisition board, designed by the electronic publishing and the wearable computing groups at the Media lab [6]. The sociometer stores the following information (i) identity of people wearing the sociometer (IR sensor 17Hz) and (ii) speech information (microphone-8KHz). (p. 1)</p>
+
+<p>Figure 1: The Sociometer (p. 1)</p>
+
+<p>LEARNING THE SOCIAL NETWORK (p. 2)</p>
+
+<p>Once we detect the pair-wise conversations we can measure all the communication that occurs within the community and map the links between individuals. (p. 2)</p>
+
+<p>Detecting Conversations (p. 2)</p>
+
+<p>To detect conversations, we need to reliably segment speech regions from the raw audio. As the first step, we extract spectral features proposed in [2] that discriminate well between speech and non-speech regions. An HMM is trained to detect voiced/unvoiced regions using the features. This method works very reliable even in noisy environment with less than 2% error at 10dB SNR. However, the downside of this is that all speech and not just the user’s speech are detected. (p. 2)</p>
+
+<p>we can use the energy of the speech signal to segment the user’s speech from the rest. When two people are nearby and are talking, although it is highly likely that they are talking to each other, we cannot say this with certainty. Results presented in [2] demonstrate that we can detect whether two people are in a conversation by relying on the fact that the speech of two people in a conversation is tightly synchronized. (p. 2)</p>
+
+<p>We can reliably detect when two people are talking to each other by calculating the mutual information of the two voicing streams, which peaks sharply when they are in a conversation as opposed to talking to someone else. This measures works very well for conversations that are at least one minute in duration. (p. 2)</p>
+
+<p>TURN-TAKING DYNAMICS (p. 3)</p>
+
+<p>We primarily focus on the turn-taking patterns of individuals and how they differ from each other. We use these individual dynamics to later estimate how much an individual’s overall pattern changes during her interaction with specific individuals. (p. 3)</p>
+
+<p>We start by defining a “turn”. For each unit of time we estimate how much time each of the participants speaks, the participants who has the highest fraction of speaking time is considered to hold the “turn” for that time unit. (p. 3)</p>
+
+<p>We use the speaker segmentation output within conversations to estimate the turn-taking transition probability. Because most of the conversations in the dataset are between pairs, we transition between two states: speaker A’s turn and speaker B’s turn. (p. 3)</p>
+
+<p>Once we have estimated the turn-taking transition probabilities for the individuals we can measure how similar or dissimilar they are from each other. Figure 6 shows the output of multidimensional scaling of the transition probabilities using a Euclidean distance metric, which shows that individuals have distinctive turn-taking styles and that these turn-taking patterns are not just a noisy variation of the same average style. (p. 4)</p>
+
+<p>Estimating Influences from Turn-taking Dynamics (p. 4)</p>
+
+<p>Now by learning the influence parameters we can measure how much one person affects another’s turn-taking behavior. We discovered an interesting and statistically significant correlation between a person’s influence score and their centrality, the correlation value was 0.90 (p-value &lt; 0.0004, rank correlation 0.92). It appears that a person’s interaction style is indicative of her role within the community based on centrality measure.</p>
+
+
+  <footer>
+  
+<nav class="post-nav">
+  <span class="nav-prev">&larr; <a href="/notes/2015-08-29-choudhury2008/">Notes: Choudhury - 2008 - The Mobile Sensing Platform: An Embedded Activity Recognition System</a></span>
+  <span class="nav-next"><a href="/notes/2016-07-15-chen2012c/">Notes: Chen. (2012). Development and evaluation of a Web 2.0 annotation system</a> &rarr;</span>
+</nav>
+
+
+
+<section class="comments">
+  <div id="disqus_thread"></div>
+  <script>
+  var disqus_config = function () {
+  
+  };
+  (function() {
+    var inIFrame = function() {
+      var iframe = true;
+      try { iframe = window.self !== window.top; } catch (e) {}
+      return iframe;
+    };
+    if (inIFrame()) return;
+    var disqus_js = '//meefen.disqus.com/embed.js';
+    var d = document, s = d.createElement('script');
+    s.src = disqus_js; s.async = true;
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+
+
+<script src="//yihui.name/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+  
+
+  
+  <hr>
+  <div class="copyright">&copy; <a href="http://bodong.ch/">Bodong Chen</a> 2018 | <a href="https://github.com/meefen">Github</a> | <a href="https://twitter.com/bod0ng">Twitter</a></div>
+  
+  </footer>
+  </article>
+  
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-50108133-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+  </body>
+</html>
+

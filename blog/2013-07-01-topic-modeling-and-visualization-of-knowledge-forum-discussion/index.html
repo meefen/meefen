@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Topic Modeling and Visualization of Knowledge Forum Discussion - Bodong Chen</title>
+    <meta property="og:title" content="Topic Modeling and Visualization of Knowledge Forum Discussion - Bodong Chen">
+    
+
+    
+      
+    
+
+    
+
+    
+    
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/custom.css" />
+
+  </head>
+
+  
+  <body class="blog">
+    <header class="masthead">
+      <h1><a href="/">Bodong Chen</a></h1>
+
+<p class="tagline">Crisscross Landscapes</p>
+
+      <nav class="menu">
+        <input id="menu-check" type="checkbox" />
+        <label id="menu-label" for="menu-check" class="unselectable">
+          <span class="icon close-icon">✕</span>
+          <span class="icon open-icon">☰</span>
+          <span class="text">Menu</span>
+        </label>
+        <ul>
+        
+        
+        <li><a href="/">Home</a></li>
+        
+        <li><a href="/blog/">Blog</a></li>
+        
+        <li><a href="/cv/">Publications</a></li>
+        
+        <li><a href="/notes/">Open Scholar</a></li>
+        
+        <li><a href="/teaching/">Teaching</a></li>
+        
+        <li><a href="/cn/">博客</a></li>
+        
+        <li><a href="/index.xml">Subscribe</a></li>
+        
+        
+        </ul>
+      </nav>
+    </header>
+
+    <article class="main">
+      <header class="title">
+      
+<h1>Topic Modeling and Visualization of Knowledge Forum Discussion</h1>
+
+<h3>
+  2013-07-01</h3>
+<hr>
+
+
+      </header>
+
+
+
+<p>In an earlier <a href="http://bodongchen.com/blog/?p=301">blog post</a> I played
+with the idea of visualizing Knowledge Forum discourse in a 2D space, to
+support one specific perspective of community knowledge focusing on
+semantic similarity/distance among contributions. I used <a href="http://lsa.colorado.edu/whatis.html">Latent
+Semantic Analysis</a> (LSA) for
+similarity computation and <a href="http://en.wikipedia.org/wiki/Multidimensional_scaling">Multidimensional
+scaling</a> (MDS)
+for dimensionality reduction. The results was interesting, with notes
+around a same topic generally clustered together. However, as one
+colleague pointed out in a comment, it&rsquo;s hard to interpret topics around
+different clusters and it would be nice if it&rsquo;s possible to inspect
+clusters and somehow label them.</p>
+
+<p>At the <a href="http://cscl2013.isls.org/">CSCL 2013 conference</a> around ten days
+ago I attended an interactive presentation by Norma Ming. In her work,
+she conducted <a href="http://en.wikipedia.org/wiki/Probabilistic_latent_semantic_analysis">probabilistic
+LSA</a>
+(pLSA) on four weeks of online discussion by college students in a
+biology class and extracted 100 topics for the dataset. After pLSA, the
+semantic space of the online discussion could be represented by a
+100-dimensional space, with each post represented by a 100-dimensional
+vector. To visualize all posts on a 2D space, locally linear embedding
+(LLE) was further conducted, reducing the 100-dimensional space to 2D
+while keeping locally clustered posts in the high dimensional space
+still close in the 2D space. With posts visualized in a 2D canvas, Norma
+further mapped students&rsquo; scores of the final exam as well as week # of
+discussion onto the visualization. Interestingly, they found students
+achieving higher scores tended to contribute more posts in &ldquo;outer
+space&rdquo;, while low-achieving students&rsquo; posts only covered the central
+area. With course week information, they found quite clear boundaries
+among discussion of different weeks, although over-plotting might be an
+issue as you see in the following figure from their paper. These results
+were pretty powerful, especially if we don&rsquo;t only think retrospectively
+but also prospectively. For example, whether is it possible to guide
+students to &ldquo;outer space&rdquo; by progressively represent their discussion in
+this way to encourage &ldquo;metadiscourse&rdquo; (namely, discourse about
+discourse)?</p>
+
+<p><img src="https://dl.dropboxusercontent.com/u/7599158/wp/figure/norma-plsa.png" alt="norma" /></p>
+
+<p>Coming back from CSCL, I resumed the work of representing semantic space
+of Knowledge Forum discussion for metadiscourse. Rather than using pLSA,
+I used <a href="https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation">latent Dirichlet
+allocation</a>
+(LDA), a more sophisticated technique for topic modeling. The key idea
+is similar to Norma&rsquo;s work, which is to represent discourse in a
+high-dimensional space and then reduce it to 2D for visualization. <a href="http://glimmer.rstudio.com/bodong/topicmodels">A
+Shiny app</a> was developed
+as a proof of concept. It has three main functionalities:</p>
+
+<p>I. Visualization of semantic space. The visualization is implemented
+with a Google (&ldquo;non-moving Motion&rdquo;) Chart, which allows users to
+interact with the visualization. Users can easily change x and y axises
+as well as the meaning of color and size of dots in the visualization to
+help interpret the results. It provides a potentially powerful way to
+interact with data if the data have a rich set of variables. Further,
+zooming in functionality is available if an area is cluttered with too
+many dots so the problem of over-plotting could be alleviated.</p>
+
+<p><img src="https://dl.dropboxusercontent.com/u/7599158/wp/figure/topicmodels-vis.png" alt="topicmodels
+visualization" /></p>
+
+<p>​II. Summary of extracted topics. Top words of each extracted topic are
+listed to help users interpret the results. Users can choose to show
+more (or less) top words in the process of making sense of a topic.
+Moreover, numbers of notes under topics are also provided, to help
+identify popular topics. It opens the door to further tracking
+popularity of topics in a discussion.</p>
+
+<p><img src="https://dl.dropboxusercontent.com/u/7599158/wp/figure/topicmodels-topics.png" alt="topicmodels
+topics" /></p>
+
+<p>​III. Detailed content of notes. Detailed content of notes are also
+presented for users to make sense of the results and to decide whether
+the topic modeling results are accurate.</p>
+
+<p><img src="https://dl.dropboxusercontent.com/u/7599158/wp/figure/topicmodels-notes.png" alt="topicmodels
+notes" /></p>
+
+<p>This application is a first step of my exploration of visualizing
+students&rsquo; online discourse to facilitate metadiscourse. I plan to
+introduce more variables such as authorship, timestamp, and various
+types of coding results into this visualization in the future. <strong>Please
+let me know if you wish to explore any idea.</strong></p>
+
+
+  <footer>
+  
+<nav class="post-nav">
+  <span class="nav-prev">&larr; <a href="/blog/2013-06-15-cscl2013-pre-conference-workshop-measuring-collaborative-thinking-using-epistemic-network-analysis/">#CSCL2013 pre-conference workshop: Measuring Collaborative Thinking Using Epistemic Network Analysis</a></span>
+  <span class="nav-next"><a href="/blog/2013-07-01-make-cordtra-diagrams-with-r/">Make CORDTRA Diagrams with R</a> &rarr;</span>
+</nav>
+
+
+
+<section class="comments">
+  <div id="disqus_thread"></div>
+  <script>
+  var disqus_config = function () {
+  
+  };
+  (function() {
+    var inIFrame = function() {
+      var iframe = true;
+      try { iframe = window.self !== window.top; } catch (e) {}
+      return iframe;
+    };
+    if (inIFrame()) return;
+    var disqus_js = '//meefen.disqus.com/embed.js';
+    var d = document, s = d.createElement('script');
+    s.src = disqus_js; s.async = true;
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+
+
+<script src="//yihui.name/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+  
+
+  
+  <hr>
+  <div class="copyright">&copy; <a href="http://bodong.ch/">Bodong Chen</a> 2018 | <a href="https://github.com/meefen">Github</a> | <a href="https://twitter.com/bod0ng">Twitter</a></div>
+  
+  </footer>
+  </article>
+  
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-50108133-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+  </body>
+</html>
+

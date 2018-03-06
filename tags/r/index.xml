@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on Bodong Chen</title>
+    <link>/tags/r/</link>
+    <description>Recent content in R on Bodong Chen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Nov 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CanvasNet: Formative feedback for &#39;social learning&#39; on Canvas</title>
+      <link>/blog/2015-11-19-canvasnet/</link>
+      <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2015-11-19-canvasnet/</guid>
+      <description>I have been teaching an undergraduate course using Canvas this semester. I don&amp;rsquo;t remember how it happened because I&amp;rsquo;m essentially a disbeliever in Learning Management Systems (LMS). I believe one&amp;rsquo;s learning should not be managed. &amp;ldquo;LMS is the minivan of Education,&amp;rdquo; says Phil Hill. Even better, &amp;ldquo;the LMS is more like a bus than a minivan - someone else is driving, it only travels on a pre-arranged route, the bus is often late but you still have to be on time because it won&amp;rsquo;t wait if you miss it&amp;rdquo; &amp;ndash; says Stephen Downes.</description>
+    </item>
+    
+  </channel>
+</rss>

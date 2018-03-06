@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Innovation on Bodong Chen</title>
+    <link>/tags/innovation/</link>
+    <description>Recent content in Innovation on Bodong Chen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/tags/innovation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Notes: National Academy of Engineering. (2015). Educate to Innovate</title>
+      <link>/notes/2015-04-28-nae2015/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2015-04-28-nae2015/</guid>
+      <description>References Citekey: @nae2015
+National Academy of Engineering. (2015). Educate to Innovate: Factors That Influence Innovation: Based on Input from Innovators and Stakeholders. Washington, D.C.: The National Academies Press.
+Notes This book on &amp;lsquo;education for innovation&amp;rsquo; is a fun read. Ideas presented in the book are mostly based on interviews and workshops with &amp;lsquo;innovators&amp;rsquo; and resonated with me. Chapter 4, which presents a framework that explains how skills experiences and environments relate to innovation, is of particular interest to me.</description>
+    </item>
+    
+  </channel>
+</rss>

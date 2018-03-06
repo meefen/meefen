@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learning community on Bodong Chen</title>
+    <link>/tags/learning-community/</link>
+    <description>Recent content in Learning community on Bodong Chen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/tags/learning-community/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Notes: Nistor. (2014). Participation in virtual academic communities of practice</title>
+      <link>/notes/2015-12-01-nistor2014/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2015-12-01-nistor2014/</guid>
+      <description>References Citekey: @Nistor2014
+Nistor, N., Baltes, B., Dascălu, M., Mihăilă, D., Smeaton, G., &amp;amp; Trăuşan-Matu, Ş. (2014). Participation in virtual academic communities of practice under the influence of technology acceptance and community factors. A learning analytics application. Computers in Human Behavior, 34, 339–344. doi:10.1016/j.chb.2013.10.051
+Notes Not a typical learning analytics research even though &amp;lsquo;learning analytics&amp;rsquo; is featured in the title.
+Highlights 2.2. Educational technology acceptance (p. 340)
+A prominent acceptance theory is Venkatesh’s Unified Theory of Acceptance and Use of Technology (UTAUT; Venkatesh et al.</description>
+    </item>
+    
+  </channel>
+</rss>

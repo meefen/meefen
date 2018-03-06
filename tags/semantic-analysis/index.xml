@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Semantic analysis on Bodong Chen</title>
+    <link>/tags/semantic-analysis/</link>
+    <description>Recent content in Semantic analysis on Bodong Chen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jul 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/semantic-analysis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Topic Modeling and Visualization of Knowledge Forum Discussion</title>
+      <link>/blog/2013-07-01-topic-modeling-and-visualization-of-knowledge-forum-discussion/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2013-07-01-topic-modeling-and-visualization-of-knowledge-forum-discussion/</guid>
+      <description>In an earlier blog post I played with the idea of visualizing Knowledge Forum discourse in a 2D space, to support one specific perspective of community knowledge focusing on semantic similarity/distance among contributions. I used Latent Semantic Analysis (LSA) for similarity computation and Multidimensional scaling (MDS) for dimensionality reduction. The results was interesting, with notes around a same topic generally clustered together. However, as one colleague pointed out in a comment, it&amp;rsquo;s hard to interpret topics around different clusters and it would be nice if it&amp;rsquo;s possible to inspect clusters and somehow label them.</description>
+    </item>
+    
+    <item>
+      <title>Analyze Text Similarity with R: Latent Semantic Analysis and Multidimentional Scaling</title>
+      <link>/blog/2013-03-11-analyze-text-similarity-in-r-latent-semantic-analysis-and-multidimentional-scaling/</link>
+      <pubDate>Mon, 11 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2013-03-11-analyze-text-similarity-in-r-latent-semantic-analysis-and-multidimentional-scaling/</guid>
+      <description>Background One of the most pressing questions I have been pondering upon when redesigning Knowledge Forum is how to represent the knowledge space of a community to better support idea improvement. Many people think Knowledge Forum as another discussion forum (or learning management system) with a 2-D interface (see below). This notion lead people to treat a Knowledge Forum view merely as a container of notes. The reason why this happens is because users usually fail to recognize one important principle behind the design of Knowledge Forum view: to support multiple perspectives of community knowledge.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Linguistic Reflections of Student Engagement in Massive Open Online Courses</title>
+      <link>/notes/2014-05-01-wen2014/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2014-05-01-wen2014/</guid>
+      <description>References Wen, M., Yang, D., &amp;amp; Rose, C. P. (2014). Linguistic Reflections of Student Engagement in Massive Open Online Courses. In ICWSM’14.
+Citekey: @Wen2014
+Notes  This paper introduces a novel approach to use linguistic features to measure student motivation and cognitive engagement (two important aspects for learning) in MOOC discussion forum.
+ Highlights &amp;ldquo;Based on the learning sciences literature, we quantify a student’s level of engagement in a MOOC from two different angles: (1) displayed level of motivation to continue with the course and (2) the level of cognitive engagement with the learning material.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Sentiment Analysis in MOOC Discussion Forums</title>
+      <link>/notes/2014-05-01-wen2014a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2014-05-01-wen2014a/</guid>
+      <description>##References
+Wen, M., Yang, D., &amp;amp; Rosé, C. P. (2014). Sentiment Analysis in MOOC Discussion Forums: What does it tell us? In EDM2014.
+Citekey: @Wen2014a
+##Notes
+General comments
+ What will be a more interesting variable to correlate to than drop out rates? The link between sentiment and dropout behaviors is slippery, because we have no evidence that negative sentiments will cause dropouts. So the main logic in this paper is undermined.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Using latent semantic analysis to assess knowledge</title>
+      <link>/notes/2013-09-26-rehder1998/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2013-09-26-rehder1998/</guid>
+      <description>References Citekey: @rehder1998
+Rehder, B., Schreiner, M. E., Wolfe, M. B. W., Laham, D., Landauer, T. K., &amp;amp; Kintsch, W. (1998). Using latent semantic analysis to assess knowledge: Some technical considerations. Discourse Processes, 25(2), 337 – 354. doi:10.1080&amp;frasl;01638539809545031
+Notes In another article (Wolfe et al., 1998/this issue) we showed how Latent Semantic Analysis (LSA) can be used to assess student knowledge—how essays can be graded by LSA and how LSA can match students with appropriate instructional texts.</description>
+    </item>
+    
+    <item>
+      <title>Notes: What Sociolinguistics and Machine Learning Have to Say to One Another about Interaction Analysis</title>
+      <link>/notes/2014-05-05-rose2014what/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2014-05-05-rose2014what/</guid>
+      <description>References Citekey: @rose2014what
+Rosé, C. P., &amp;amp; Tovares A. (in press). What Sociolinguistics and Machine Learning Have to Say to One Another about Interaction Analysis. In L. Resnick, Asterhan C., &amp;amp; Clarke S. (Eds.), Socializing Intelligence Through Academic Talk and Dialogue. Washington, D.C.: American Educational Research Association.
+Notes  This chapter grapples with two seemingly contradictory views towards discourse analysis: a sociolinguist approach that embraces complexity (such as Gee&amp;rsquo;s intertextuality approach), and a quantitative approach that strives to best discretize discourse behaviors.</description>
+    </item>
+    
+  </channel>
+</rss>

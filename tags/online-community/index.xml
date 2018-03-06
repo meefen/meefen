@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Online community on Bodong Chen</title>
+    <link>/tags/online-community/</link>
+    <description>Recent content in Online community on Bodong Chen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/tags/online-community/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Notes: Jiang. (2013). Mining the Temporal Evolution of the Android Bug Reporting Community via Sliding Windows</title>
+      <link>/notes/2015-10-02-jiang2013/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2015-10-02-jiang2013/</guid>
+      <description>References Citekey: @Jiang2013
+Jiang, F., Wang, J., Hindle, A., &amp;amp; Nascimento, M. A. (2013). Mining the Temporal Evolution of the Android Bug Reporting Community via Sliding Windows. CoRR, abs/1310.7. Retrieved from http://arxiv.org/abs/1310.7469
+Notes This paper reports a study of applying an interesting sliding-windows social network analysis on Android bug reporting community. This technique shows clear advantage in comparison with global analysis of social networks in that it takes temporal information into consideration.</description>
+    </item>
+    
+  </channel>
+</rss>

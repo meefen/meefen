@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lms on Bodong Chen</title>
+    <link>/tags/lms/</link>
+    <description>Recent content in Lms on Bodong Chen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/tags/lms/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Notes: Mazza, R., &amp; Dimitrova, V. (2007). CourseVis</title>
+      <link>/notes/2016-04-12-mazza2007a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2016-04-12-mazza2007a/</guid>
+      <description>References Citekey: @Mazza2007a
+Mazza, R., &amp;amp; Dimitrova, V. (2007). CourseVis: A graphical student monitoring tool for supporting instructors in web-based distance courses. International Journal of Human-Computer Studies, 65(2), 125–139. doi:10.1016/j.ijhcs.2006.08.008
+Notes This paper introduces CoruseVis, a visual learning analytics system designed for WebCT. The design of CourseVis draws heavily from Information Visualization principles and (loosely) map with three identified aspects of learning, namely cognitive, social, and behavioral. A large portion of this paper reports on an evaluation study about the effectiveness, efficiency, and usefulness of CourseVis among instructors.</description>
+    </item>
+    
+  </channel>
+</rss>

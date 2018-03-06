@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Annotation on Bodong Chen</title>
+    <link>/tags/annotation/</link>
+    <description>Recent content in Annotation on Bodong Chen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/tags/annotation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Notes: O’Hara, K., &amp; Sellen, A. (1997). A comparison of reading paper and on-line documents</title>
+      <link>/notes/2016-07-18-ohara1997/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2016-07-18-ohara1997/</guid>
+      <description>References Citekey: @OHara1997
+O’Hara, K., &amp;amp; Sellen, A. (1997). A comparison of reading paper and on-line documents. In Proceedings of the SIGCHI conference on Human factors in computing systems - CHI ’97 (pp. 335–342). New York, New York, USA: ACM Press. doi:10.1145&amp;frasl;258549.258787
+Notes Highlights The Literature (p. 1)
+A fairly substantial body of literature comparing the reading of paper versus on-line documents can be found in the psychological, human factors, and ergonomics literature (see [4, 10] for comprehensive reviews).</description>
+    </item>
+    
+  </channel>
+</rss>

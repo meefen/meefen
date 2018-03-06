@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agent-based modeling on Bodong Chen</title>
+    <link>/tags/agent-based-modeling/</link>
+    <description>Recent content in Agent-based modeling on Bodong Chen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/tags/agent-based-modeling/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Notes: Morris, M. (2003). Local Rules and Global Properties: Modeling the Emergence of Network Structure</title>
+      <link>/notes/2017-06-15-morris2003-pc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2017-06-15-morris2003-pc/</guid>
+      <description>References Citekey: @Morris2003-pc
+Morris, M. (2003). Local Rules and Global Properties: Modeling the Emergence of Network Structure. In Dynamic Social Network Modeling and Analysis: Workshop Summary and Papers (pp. 174–186). National Academies Press. Retrieved from https://market.android.com/details?id=book-DOo-hq1-oF0C
+Notes Summarize: This article argues for use of statistical modeling, esp. ERGM, in network analysis. It offers some useful analysis of the gap (~15 yrs ago) and proposes approaches to mitigating the gaps. Some important points include &amp;lsquo;model closes the gap between theory and data&amp;rsquo; and &amp;lsquo;traditional network analysis focuses on descriptives, for no apparent reasons&amp;rsquo;.</description>
+    </item>
+    
+  </channel>
+</rss>
