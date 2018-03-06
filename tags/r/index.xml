@@ -6,22 +6,23 @@
     <description>Recent content in R on Bodong Chen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Nov 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Oct 2014 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>CanvasNet: Formative feedback for &#39;social learning&#39; on Canvas</title>
-      <link>/blog/2015-11-19-canvasnet/</link>
-      <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
+      <title>Twitter Archeology of the Learning Analytics Community</title>
+      <link>/blog/2014-10-14-twitter-archeology/</link>
+      <pubDate>Tue, 14 Oct 2014 00:00:00 +0000</pubDate>
       
-      <guid>/blog/2015-11-19-canvasnet/</guid>
-      <description>I have been teaching an undergraduate course using Canvas this semester. I don&amp;rsquo;t remember how it happened because I&amp;rsquo;m essentially a disbeliever in Learning Management Systems (LMS). I believe one&amp;rsquo;s learning should not be managed. &amp;ldquo;LMS is the minivan of Education,&amp;rdquo; says Phil Hill. Even better, &amp;ldquo;the LMS is more like a bus than a minivan - someone else is driving, it only travels on a pre-arranged route, the bus is often late but you still have to be on time because it won&amp;rsquo;t wait if you miss it&amp;rdquo; &amp;ndash; says Stephen Downes.</description>
+      <guid>/blog/2014-10-14-twitter-archeology/</guid>
+      <description>Learning analytics as a nascent field of scholarship is evolving rapidly and garnering broad interest in both educational research and practice. Since the inaugural Learning Analytics and Knowledge (LAK) conference in 2011, exciting moves have been made during the past four years. The Society of Learning Analytics Research (SoLAR) was launched in 2012; the Learning Analytics Summer Institute (LASI) was first held in 2013; the first issue of the Journal of Learning Analytics was published in 2014.</description>
     </item>
     
-  </channel>
-</rss>link>/blog/2013-12-09-mongodb-java-r-a-handy-toolbox-for-archiving-and-analyzing-twitter-data/</link>
+    <item>
+      <title>MongoDB &#43; Java &#43; R = A handy toolbox for archiving and analyzing Twitter data</title>
+      <link>/blog/2013-12-09-mongodb-java-r-a-handy-toolbox-for-archiving-and-analyzing-twitter-data/</link>
       <pubDate>Mon, 09 Dec 2013 00:00:00 +0000</pubDate>
       
       <guid>/blog/2013-12-09-mongodb-java-r-a-handy-toolbox-for-archiving-and-analyzing-twitter-data/</guid>
