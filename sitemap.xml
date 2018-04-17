@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/blog/considering-time/</loc>
+    <lastmod>2018-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/cv/</loc>
     <lastmod>2018-04-10T00:00:00+00:00</lastmod>
   </url>
@@ -375,13 +380,13 @@
   
   <url>
     <loc>/categories/blog/</loc>
-    <lastmod>2018-04-07T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/blog/</loc>
-    <lastmod>2018-04-07T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -402,7 +407,7 @@
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2018-04-07T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -458,10 +463,6 @@
   <url>
     <loc>/tags/conceptual-change/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/blog/considering-time/</loc>
   </url>
   
   <url>
@@ -763,7 +764,7 @@
   
   <url>
     <loc>/tags/learning-analytics/</loc>
-    <lastmod>2017-12-22T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1921,13 +1922,13 @@
   
   <url>
     <loc>/tags/r/</loc>
-    <lastmod>2014-10-14T00:00:00+00:00</lastmod>
+    <lastmod>2015-11-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/r/</loc>
-    <lastmod>2015-11-19T00:00:00+00:00</lastmod>
+    <lastmod>2014-10-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2100,7 +2101,7 @@
   
   <url>
     <loc>/tags/temporality/</loc>
-    <lastmod>2015-05-02T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

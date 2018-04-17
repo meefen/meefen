@@ -6,10 +6,20 @@
     <description>Recent content in Learning analytics on Bodong Chen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/learning-analytics/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Considering Time in Education</title>
+      <link>/blog/considering-time/</link>
+      <pubDate>Sun, 15 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/considering-time/</guid>
+      <description>(Photo Credit: Luca Florio)
+It was on August 7, 2016 when the call for papers of our Special Section on Temporal Analyses of Learning Data was posted on the Journal of Learning analytics (JLA) website. It was even earlier &amp;ndash; probably around late 2014 &amp;ndash; when Alyssa Wise, Simon Knight, Britte Cheng and I teamed up for the temporality workshop series at the Learning Analytics and Knowledge (LAK) conference. At that time, I was still in Toronto, Alyssa in Vancouver, Simon in the UK, and Britte at SRI.</description>
+    </item>
     
     <item>
       <title>Notes: Suthers2015-vf: From contingencies to network-level phenomena</title>
@@ -71,16 +81,6 @@ Learning analytics is an emerging, highly interdisciplinary field where many dis
       
       <guid>/blog/2013-07-01-make-cordtra-diagrams-with-r/</guid>
       <description>CORDTRA (Chronologically-Ordered Representation of Discourse and Tool-Related Activity) is a visualization technique proposed by Cindy Hmelo-Silver (2003) for interpreting collaborative learning processes, based on Luckin et al.&amp;rsquo;s CORDFU (Chronologically-Ordered Representation of Discourse and Features Used). This technique could provide a holistic view of learning processes by making temporal relationship among various types of learning activities visible. By presenting a few interesting case studies, Hmelo-Silver and colleagues (2003, 2008) demonstrate that CORDTRA could provide useful insights about student interactions in computer-supported collaborative learning (CSCL).</description>
-    </item>
-    
-    <item>
-      <title>Considering Time in Education</title>
-      <link>/blog/considering-time/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/considering-time/</guid>
-      <description>date: &amp;lsquo;2018-03-08&amp;rsquo;
-It was 2016-08-07 when the call for papers of our Special Section on Temporal Analyses of Learning Data was posted on the Journal of Learning analytics (JLA) website. It was even earlier, probably around late 2014, when Alyssa Wise, Simon Knight, Britte Cheng and I teamed up for the temporality workshop series at the Learning Analytics and Knowledge (LAK) conference. At that time, I was still in Toronto, Alyssa in Vancouver, Simon in the UK, and Britte at SRI.</description>
     </item>
     
     <item>

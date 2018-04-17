@@ -10,6 +10,123 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Considering Time in Education</title>
+      <link>/blog/considering-time/</link>
+      <pubDate>Sun, 15 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/considering-time/</guid>
+      <description>
+        
+
+&lt;p&gt;&lt;img src=&#34;/images/article_images/25216272279_4278853fc4_z.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;em&gt;(Photo Credit: &lt;a href=&#34;https://www.flickr.com/photos/elle_florio/25216272279&#34;&gt;Luca Florio&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;It was on August 7, 2016 when &lt;a href=&#34;http://learning-analytics.info/journals/index.php/JLA/announcement/view/119&#34;&gt;the call for papers of our &lt;em&gt;Special Section on Temporal Analyses of Learning Data&lt;/em&gt;&lt;/a&gt; was posted on the &lt;em&gt;Journal of Learning analytics&lt;/em&gt; (JLA) website. It was even earlier &amp;ndash; probably around late 2014 &amp;ndash; when Alyssa Wise, Simon Knight, Britte Cheng and I teamed up for the temporality workshop series at the &lt;em&gt;Learning Analytics and Knowledge (LAK)&lt;/em&gt; conference. At that time, I was still in Toronto, Alyssa in Vancouver, Simon in the UK, and Britte at SRI. This April, 3.5 years after conceiving the temporality workshop series, &lt;a href=&#34;http://learning-analytics.info/journals/index.php/JLA/issue/view/427/showToc&#34;&gt;the second part of the &lt;em&gt;Special Section on Temporal Analyses&lt;/em&gt;&lt;/a&gt; has finally come out in JLA.&lt;/p&gt;
+
+&lt;p&gt;As you can read in &lt;a href=&#34;http://learning-analytics.info/journals/index.php/JLA/article/view/5940&#34;&gt;&lt;strong&gt;our JLA editorial&lt;/strong&gt;&lt;/a&gt;, we try to draw the community&amp;rsquo;s attention to four critical questions for &lt;em&gt;temporal analysis&lt;/em&gt; (typically by researchers) and &lt;em&gt;temporal analytics&lt;/em&gt; (that move from research towards practical ends):&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/article_images/critical-questions.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;One brief, yet important, section of this editorial reflects on &lt;strong&gt;the influence of &lt;em&gt;measured time&lt;/em&gt; on &lt;em&gt;experienced time&lt;/em&gt; in education&lt;/strong&gt;. In the editorial, we did not have the luxury &amp;ndash; in terms of both time and space &amp;ndash; of exploring this issue as deep as we could. In this blog post, I hope to expand on this important issue from multiple angles.&lt;/p&gt;
+
+&lt;h2 id=&#34;our-understanding-of-time-is-never-settled&#34;&gt;Our understanding of time is never settled&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Time&lt;/em&gt; is discussed, and quite often disputed, in philosophical texts. Deep reflection on time dates back to thousands of years in different philosophical traditions (e.g., Greek, Indian, Chinese philosophies). Many key questions remain debated nowadays. For example:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Is time real?&lt;/li&gt;
+&lt;li&gt;Does time have a beginning or an end?&lt;/li&gt;
+&lt;li&gt;Does time progress linearly?&lt;/li&gt;
+&lt;li&gt;Are there parallel timelines?&lt;/li&gt;
+&lt;li&gt;Which can be considered &amp;lsquo;primitive&amp;rsquo; &amp;ndash; instant &lt;em&gt;time points&lt;/em&gt; or &lt;em&gt;time durations&lt;/em&gt;?&lt;/li&gt;
+&lt;li&gt;How are time and space related?&lt;/li&gt;
+&lt;li&gt;How do human beings sense time?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This list of questions can keep going. One sure thing is: &lt;strong&gt;Our understanding of time&lt;/strong&gt;, reflected in philosophical thinking of all kinds, &lt;strong&gt;is &lt;a href=&#34;https://plato.stanford.edu/entries/time/&#34;&gt;very much unsettled&lt;/a&gt;&lt;/strong&gt; &amp;ndash; ontologically, epistemologically, and psychologically.&lt;/p&gt;
+
+&lt;!-- Narrowing down to the debate on *time points* and *time durations* for instance, ... --&gt;
+
+&lt;!-- Take human perception of time, for example, great complexity has been uncovered in cognitive, sensory, physical, biophysical, and neural aspects (Pöppel 2004). For example, a time period shorter than 40 milliseconds is perceived as a &#39;time point&#39;, whereas one&#39;s subjective present lasts for approximately 2 to 3 seconds. --&gt;
+
+&lt;h2 id=&#34;our-relation-to-time-is-often-implicitly-assumed&#34;&gt;Our relation to time is often implicitly assumed&lt;/h2&gt;
+
+&lt;p&gt;At the individual level, how we conceive and relate ourselves to time is very important but rarely articulated.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;How is &lt;em&gt;time&lt;/em&gt; related to our perception, memory, decision-making, or action?
+&lt;!-- - Is one&#39;s *time* a resource? --&gt;&lt;/li&gt;
+&lt;li&gt;How are one&amp;rsquo;s actions coordinated in relation to time?&lt;/li&gt;
+&lt;li&gt;How to &lt;em&gt;time&lt;/em&gt; an action to achieve a goal? How to time an action in relation to other actions to achieve a goal? How to time an action in relation to other actions by other agents (people, machine, etc.) to achieve a goal?
+&lt;!-- - Or do we simply think time as time, nothing more and nothing less? --&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We rarely engage with these types of questions as individuals. Our relation with time is usually maintained at the &lt;em&gt;first-order&lt;/em&gt; at best; that is, we think about or plan our use of time or the timing of personal actions within a social context. &lt;strong&gt;Yet we rarely reflect on the &lt;em&gt;second-order&lt;/em&gt; relation with time; that is how our relation with time &amp;ndash; both perceived and enacted &amp;ndash; is impacting us as individuals and a society.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;At the societal level, looking back into the human history, it is apparent that as societies evolve, our relation with time has gone through dramatic changes. Our lived experiences are fundamentally shaped by our conception of time (and space). In ancient times a hallmark of an advanced civilization is the precision of its calendar because it would inform crucial societal activities such as farming and hunting. Farmers consult calendars to decide when to plant seeds, while hunters would adjust their group activities based on animal birth rates, migration, and so forth. Our ancestors understood and internalized rhythms of the nature and also constructed ones in order to coordinate complex social activities. The societies and cultures we grow up with and live in greatly shaped our relation with time, which in turn shape how our societies operate. Our relation with time gets built in &lt;a href=&#34;https://www.sciencedaily.com/releases/2017/05/170502112607.htm&#34;&gt;languages we speak, which in turn shape how we perceive time&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As the &amp;ldquo;clock time&amp;rdquo; or &lt;a href=&#34;http://www.britishmuseum.org/explore/themes/time/mechanical_time.aspx&#34;&gt;mechanical time&lt;/a&gt; became established as a standard and spread around the globe, our relation with time became increasingly finely defined. &lt;a href=&#34;https://www.history.com/this-day-in-history/railroads-create-the-first-time-zones&#34;&gt;The time zone system came to exist because of steam engines&lt;/a&gt;, and now it&amp;rsquo;s dictating all sorts of human communication. The reordering of space and time was/is an undercurrent of colonization, modernization, and globalization (Edwards &amp;amp; Usher, 2000). Now time slots on our personal calendars have become inter-connected, and the ways in which we could coordinate our time at various levels are more sophisticated than ever. As a result, any in-depth temporal analysis of human activities requires a deep look at our second-order relation with time.&lt;/p&gt;
+
+&lt;!-- More recently, globalization has resulted in a compression of time (and space) (Edwards &amp; Usher, 200X).
+
+&gt; Central to globalisation is...  (p. 27) --&gt;
+
+&lt;h2 id=&#34;temporal-considerations-are-built-into-technological-environments&#34;&gt;Temporal considerations are built into technological environments&lt;/h2&gt;
+
+&lt;p&gt;Given human activities are increasingly mediated by computer-based environments, it is also key to recognize assumed theories of time built into computer systems, as well as what data they capture and how they are captured in relation to time.&lt;/p&gt;
+
+&lt;p&gt;From temporal reasoning perspectives, for instance, artificial intelligence (AI) scholars Knight and Ma (1993) have worked on various ways of representing time in temporal systems decades ago. They explain:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The most common theoretical basis is the standard time-point system assumed by classical physics. In this theory, the time domain consists of a continuum of time points, isomorphic to  the real line. Time intervals are taken as intervals on the real line, and duration of intervals is the real number difference of their start and end points. However, for many applications, particularly those in artificial intelligence and natural language understanding, the time-point system is not ideal for either the expression of temporal facts, or for the storage and organisation of incomplete temporal knowledge. (p. 401)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In the learning analytics community, and the broader ecosystem it operates within (which includes important information system standards such as xAPI), &lt;strong&gt;we often take &lt;em&gt;the standard time-point system&lt;/em&gt; for granted&lt;/strong&gt;. We accordingly engineer computer systems to tag learning actions by timestamps, which then get used for temporal analysis and reasoning. However, we need to be aware of a myriad of inferences we make from those timestamps to our claims of learning phenomena. Take MOOC learning for example, we often assume within a single login session, the amount of time (duration) a learner spends on a specific course page is determined by two adjacent timestamps. While we can reasonably argue this inferred measure is good enough, &lt;strong&gt;we as a community should be aware of temporal considerations as such built into learning systems and data&lt;/strong&gt;, as well as their implications for temporal analyses.&lt;/p&gt;
+
+&lt;!-- ## Time and Artificial intelligence
+
+Finally, existing temporal analysis techniques were built with specific analytical goals related to temporality. @Reimann2009-pm distinguishes two important categories: time---as related to questions such as when an event take place, how long it lasts, and how a state change over time; and order---focused on temporal organization of events. A variety of temporal analysis techniques, as we see in this Special Section, are designed with an emphasis on one over the other. Sometimes it could beneficial to experiment with multiple techniques for converging or complementary findings (Chen et al. 2017). In some other cases, like studies included in the Special Section, we should take the liberty to propose new temporal measures and techniques. In addition to the time vs. order distinction, we should clearly delineate the boundary between temporality and causation in temporal analysis, as they are too often mixed with each other [REF]. This is particularly important when temporal analysis is applied in practice to make impactful changes. We need to avoid making deterministic and prescriptive claims (in Fatalistic terms) based on temporal observations even though how causation can be drawn from temporal observations remains debated [REF]. --&gt;
+
+&lt;!-- ## Time, learning, and impact
+
+Learning is fundamentally about change, which takes time. (Of course, philosophers like [John McTaggart](https://plato.stanford.edu/entries/mctaggart/) would also agree change is essential to time as well.) In the JLA editorial, we pointed out that learning theories have explicit and implicit assumptions and considerations of how changes take place over time. In other words, learning theories are grounded in assumed theories of time. These theories of learning would inform analytical choices made in temporal analysis---choices such as whether to focus on time-points or durations, changes over time or temporal organizations, timescales, reference points, and the relationship between temporal analysis and other analytical angles.
+
+In addition to inspecting temporal assumptions embedded in learning theories, we also need to look at Given learning if often contextualized in an education regime and mediated by computer technologies,
+
+-   Given time constraints placed by education regimes, the concern is to incur satisfactory “positive” changes in learners within a certain period of time. [How about no-change? Is it okay to stay unchanged?]
+
+This speaks to, for instance, the context of MOOC and the notion of international classrooms (edX report) that have indeed blabla.
+
+Education in particular has strict temporal boundaries that would dictate daily educational practice. Yet they are also usually implicitly assumed, just like our general relations to time at the individual and societal level.  Since the industrial age, we started to place learners into grade schools based on their age. Like other institutions, we slice up a calendar year into semesters or quarters, and divide a day into sessions for varied educational activities. In one class session, detailed planning is often championed and a “model” teacher may crush a session into minutes to demonstrate one’s dedication to education. In computer-supported learning environments, we implement sophisticated mechanisms to record timestamped learner activities; we build dashboards to present temporal graphs related to one’s progress in a domain. It seems in education we are also moving towards finer planning, monitoring, and controlling over our relation with time. Learning analytics as a field offers rich, exciting opportunities in this area. --&gt;
+
+&lt;h2 id=&#34;moving-forward&#34;&gt;Moving forward&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;There is an urgent need to (re)consider and reunite time and space in educational systems.&lt;/strong&gt; While many educational theories are fundamentally about time (e.g., Piaget&amp;rsquo;s stages of cognitive development), there is increasing recognition of learning that happens in different spaces, places, and socio-cultural-political contexts.  Just like the reordering of time and space in modernization and globalization, the reordering of time and space has crucial implications for learning in our postmodern, postcolonial world. When building &amp;ldquo;powerful&amp;rdquo; tools like MOOCs and predictive analytics, we are inheriting &amp;ndash; often unknowingly &amp;ndash; older spatiotemporal structures that would dictate educational experiences of many. And of course, we&amp;rsquo;re also creating new structures.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Moving forward, one important exercise we could do is to reveal dominant views of time and space in our work at hand and ask some bizarre questions.&lt;/strong&gt; I don&amp;rsquo;t know&amp;hellip; Maybe asking:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Are we making arrogant temporal assumptions about learners?&lt;/li&gt;
+&lt;li&gt;How might the adopted temporal structure in our MOOC impact a learner from a different culture or speaking a different language?&lt;/li&gt;
+&lt;li&gt;Is an analytics tool we build based on temporal analysis fair?&lt;/li&gt;
+&lt;li&gt;How is a tool impacting the temporal aspect of learning?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Many of these questions are tough to answer. And we cannot expect algorithms or AI to address such questions. What questions do you have?&lt;/p&gt;
+
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Chen, B., Knight, S., &amp;amp; Wise, A. F. (2018). Critical Issues in Designing and Implementing Temporal Analytics. Journal of Learning Analytics, 5(1), 1–9. &lt;a href=&#34;https://doi.org/10.18608/jla.2018.53.1&#34;&gt;https://doi.org/10.18608/jla.2018.53.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Edwards, R., &amp;amp; Usher, R. (2007). Globalisation &amp;amp; Pedagogy: Space, Place and Identity. Routledge.&lt;/li&gt;
+&lt;li&gt;Knight, B., &amp;amp; Ma, J. (1993). Time representation: A taxonomy of temporal models. Artificial Intelligence Review, 7(6), 401–419. &lt;a href=&#34;https://doi.org/10.1007/BF00849933&#34;&gt;https://doi.org/10.1007/BF00849933&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Publications</title>
       <link>/cv/</link>
       <pubDate>Tue, 10 Apr 2018 00:00:00 +0000</pubDate>
@@ -4591,68 +4708,6 @@ repo&lt;/a&gt;.&lt;/p&gt;
 颓树缺月，&lt;br /&gt;
 幽人望，&lt;br /&gt;
 别恨心间。&lt;/p&gt;
-
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Considering Time in Education</title>
-      <link>/blog/considering-time/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/considering-time/</guid>
-      <description>
-        
-
-&lt;p&gt;date: &amp;lsquo;2018-03-08&amp;rsquo;&lt;/p&gt;
-
-&lt;p&gt;It was 2016-08-07 when &lt;a href=&#34;http://learning-analytics.info/journals/index.php/JLA/announcement/view/119&#34;&gt;the call for papers of our &lt;em&gt;Special Section on Temporal Analyses of Learning Data&lt;/em&gt;&lt;/a&gt; was posted on the &lt;em&gt;Journal of Learning analytics&lt;/em&gt; (JLA) website. It was even earlier, probably around late 2014, when Alyssa Wise, Simon Knight, Britte Cheng and I teamed up for the temporality workshop series at the &lt;em&gt;Learning Analytics and Knowledge (LAK)&lt;/em&gt; conference. At that time, I was still in Toronto, Alyssa in Vancouver, Simon in the UK, and Britte at SRI. This April, 3.5 years after conceiving the temporality workshop series, the second part of the &lt;em&gt;Special Section on Temporal Analyses&lt;/em&gt; will finally come out in JLA.&lt;/p&gt;
-
-&lt;p&gt;As you could read in &lt;a href=&#34;#&#34;&gt;our editorial&lt;/a&gt;, we&amp;rsquo;re trying to draw the community&amp;rsquo;s attention to a number of critical questions for temporal analysis (by researchers) and temporal analytics (that move from research towards practice). One brief yet vital section of this editorial reflects on the influence of &amp;ldquo;measured time&amp;rdquo; on &amp;ldquo;experienced time&amp;rdquo; in education. We did not have enough luxuary (both in terms of space and time) to go as deep as we wished in the editorial. In this blog post, I hope to expand on this important discussion from ontological, epistemological, and analytical standpoints.&lt;/p&gt;
-
-&lt;h2 id=&#34;our-understanding-of-time-is-never-settled&#34;&gt;Our understanding of time is never settled&lt;/h2&gt;
-
-&lt;p&gt;&lt;em&gt;Time&lt;/em&gt; is discussed, and quite often disputed, in philosophical texts. Deep reflection on time dates back to thousands of years in both Western and Eastern philosophies. Many key questions remain debated nowadays. For example: Is time real? Does time have a beginning or an end? Does time progress linearly? Are there parallel timelines? Which can be considered &amp;lsquo;primitive&amp;rsquo;&amp;mdash;instant &lt;em&gt;time points&lt;/em&gt; or &lt;em&gt;time durations&lt;/em&gt;? How are time and space related? What exactly is time and how can humans make sense of it? Human understanding of time, reflected in texts of all kinds, is very much unsettled ontologically, epistemologically, and psychologically (Pöppel 2004).&lt;/p&gt;
-
-&lt;p&gt;Narrowing down to the debate on &lt;em&gt;time points&lt;/em&gt; and &lt;em&gt;time durations&lt;/em&gt; for instance, &amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;As of human perception of time, great complexity has been uncovered in cognitive, sensory, physical, biophysical, and neural aspects [@Poppel2004-ge]. For example, a time period shorter than 40 miliseconds is perceived as a &amp;lsquo;time point&amp;rsquo;, whereas one&amp;rsquo;s subjective present lasts for approximately 2 to 3 seconds.&lt;/p&gt;
-
-&lt;h2 id=&#34;our-relation-to-time-is-often-implictly-assumed&#34;&gt;Our relation to time is often implictly assumed&lt;/h2&gt;
-
-&lt;p&gt;At the individual level, how we conceive and relate ourselves to time is of huge importance, which is rarely explicitly discussed. Is one&amp;rsquo;s time a resource? If so, how is it allocated? How is one&amp;rsquo;s actions coordinated in relation to time? How to time an action to achieve a goal? How to time an action in relation to other actions to achieve a goal? How to time an action in relation to other actions by other agents to achieve a goal? Or do we simply think time as time, nothing more and nothing less? We rarely engage with these types of questions individually. Our relation with time is usually maintained at the &lt;em&gt;first-order&lt;/em&gt; at best; that is, we think about or plan our use of time or the timing of personal actions in a social context. Yet we rarely reflect on the &lt;em&gt;second-order&lt;/em&gt; relation with time&amp;mdash;XXX&lt;/p&gt;
-
-&lt;p&gt;At the society level, looking back into the human history, it is apparent that as societies evolve, our relation with time has gone through dramatic changes. Our lived experiences are fundamentally shaped by our conception of time (and space). In ancient times a hallmark of an advanced civilization is the precision of its calendar because it would inform crucial societal activities such as farming and hunting. Farmers consult calendars to decide when to plant seeds, while hunters would adjust their group activities based on animal birth rates, migration, and so forth. They understand and internalize rhythms of the nature and also construct ones in order to coordinate complex social activities. As the &amp;ldquo;clock time&amp;rdquo; or mechanical time became established as a standard and spread around the globe, our relation with time became increasingly finely defined. The time zone system was nonexistent before the steam engines, and now it is amazing how a group of people from several corners of the globe would show up in a virtual meeting right on time, with a timed agenda, and would wrap up the meeting right on time in order to move on to the next activity on each one&amp;rsquo;s calendar. Time slots on our personal calendars are connected (e.g., via a calendar invite) and the ways in which we could coordinate our time at various levels are more sophisticated than ever.  The societies and cultures we grow out of and live in greatly shaped our relations with time, which in turn shape how our societies operate. Thus, for any deep temporal analysis of human activities we need to reflect upon these relations.&lt;/p&gt;
-
-&lt;p&gt;More recently, globalization has resulted in a compression of time (and space) (Edwards &amp;amp; Usher, 200X).&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Central to globalisation is&amp;hellip;  (p. 27)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;This speaks to, for instance, the context of MOOC and the notion of international classrooms (edX report) that have indeed blabla.&lt;/p&gt;
-
-&lt;p&gt;However, temporal analytics are necessarily making claims based on a dominant view of time and order (one that either represents Western institutions or is embedded in the MOOC design) and sometimes gets quite arrogant against views and realities held by the learners. For MOOCs, more research is needed to understand learnes from non-dominant cultures and background are experiencing ..,&lt;/p&gt;
-
-&lt;p&gt;Education in particular has strict temporal boundaries that would dictate daily educational practice. Yet they are also usually implicitly assumed, just like our general relations to time at the individual and societal level.  Since the industrial age, we started to place learners into grade schools based on their age. Like other institutions, we slice up a calendar year into semesters or quarters, and divide a day into sessions for varied educational activities. In one class session, detailed planning is often championed and a “model” teacher may crush a session into minutes to demonstrate one’s dedication to education. In computer-supported learning environments, we implement sophisticated mechanisms to record timestamped learner activities; we build dashboards to present temporal graphs related to one’s progress in a domain. It seems in education we are also moving towards finer planning, monitoring, and controlling over our relation with time. Learning analytics as a field offers rich, exciting opportunities in this area.&lt;/p&gt;
-
-&lt;h2 id=&#34;time-and-learning&#34;&gt;Time and learning&lt;/h2&gt;
-
-&lt;p&gt;Such an emphasis on controlling and aligning phenomena with time is unsurprising. Learning is fundamentally about change, which takes time. (Philosophers would also agree change is essential to time as well [McTaggart; entropy theory].) Learning theories have explicit and implicit assumptions and considerations of how changes take place over time. In other words, learning theories are grounded in assumed theories of time. For example, Piaget’s theory of stages of cognitive development, and his thoughts on genetic epistemology in particular, is fundamentally about tracing the origins and trajectory of human knowledge across one’s lifespan [REF]. On a relatively shorter timescale, self-regulated learning is inherently concerned with temporal sequences and patterns (Winne 2014). Broadening from a single person to consider greater complexity related to groups, “interaction trajectory” in CSCL is concerned with how interaction among students lead to the development of understanding over time (Furberg and Ludvigsen 2008). Expanding further to larger social structures, communities, and cultures, Activity Theory deals with historical development of activity systems that involve multiple parties [REF]. These theories of learning would inform analytical choices of temporal analysis&amp;mdash;choices such as whether to focus on timepoints or durations, changes over time or temporal organizations, timescales, reference points and frames in temporal analysis, and the relationship between temporal analysis and other analytical angles.
--   Given time constraints placed by education regimes, the concern is to incur satisfactory “positive” changes in learners within a certain period of time. [How about no-change? Is it okay to stay unchanged?]&lt;/p&gt;
-
-&lt;h2 id=&#34;time-and-technological-environments&#34;&gt;Time and technological environments&lt;/h2&gt;
-
-&lt;p&gt;Given temporal analyses in the learning analytics community are often situated in computer-based environments, it is also key to recognize assumed theory of time built with/into computer systems, as well as what data they capture and how they are captured. From temporal reasoning perspectives, artificial intelligence (AI) scholars such as (Knight and Ma 1993) have worked on various ways of representing time in temporal systems, to aid for reasoning in AI. In the learning analytics community, and the broader ecosystem it operates within (which includes important information system standards such as xAPI), we often take as granted that learning actions are timestamped in computer systems and those timestamps are temporal information we can draw upon. However, we need to be aware of a myriad of inferences we make from those timestamps (which, philosophically speaking, treats time points instead of durations as being primitive) to our claims of learning phenomena. Take MOOC learning for example, we often assume within a single login session, the amount of time (duration) a learner spends on a specific course page is determined by two adjacent timestamps. [another/better example?] While we can reasonably argue this measure is accurate enough, we should also be aware temporal considerations built into computer systems and their data would either hamper or empower temporal analysis.&lt;/p&gt;
-
-&lt;h2 id=&#34;time-and-artificial-intelligence&#34;&gt;Time and Artificial intelligence&lt;/h2&gt;
-
-&lt;p&gt;Finally, existing temporal analysis techniques were built with specific analytical goals related to temporality. @Reimann2009-pm distinguishes two important categories: time&amp;mdash;as related to questions such as when an event take place, how long it lasts, and how a state change over time; and order&amp;mdash;focused on temporal organization of events. A variety of temporal analysis techniques, as we see in this Special Section, are designed with an emphasis on one over the other. Sometimes it could beneficial to experiment with multiple techniques for converging or complementary findings (Chen et al. 2017). In some other cases, like studies included in the Special Section, we should take the liberty to propose new temporal measures and techniques. In addition to the time vs. order distinction, we should clearly delineate the boundary between temporality and causation in temporal analysis, as they are too often mixed with each other [REF]. This is particularly important when temporal analysis is applied in practice to make impactful changes. We need to avoid making deterministic and prescriptive claims (in Fatalistic terms) based on temporal observations even though how causation can be drawn from temporal observations remains debated [REF].&lt;/p&gt;
-
-&lt;h2 id=&#34;unite-time-and-space-in-educational-theories&#34;&gt;Unite time and space in educational theories&lt;/h2&gt;
-
-&lt;p&gt;There is an urgent need to reunite time and space in educational considerations. While many educational theories are fundamentally about time (e.g., stages of development), there is increasing recognition of learning happening in different spaces, palces, and socio-cultural-political contexts.  (Edwards &amp;amp; Usher). How could we recognize these &amp;ndash; from learning analytics standpoints&amp;hellip;&lt;/p&gt;
 
         
       </description>

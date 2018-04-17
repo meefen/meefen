@@ -6,10 +6,20 @@
     <description>Recent content in Blogs on Bodong Chen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Considering Time in Education</title>
+      <link>/blog/considering-time/</link>
+      <pubDate>Sun, 15 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/considering-time/</guid>
+      <description>(Photo Credit: Luca Florio)
+It was on August 7, 2016 when the call for papers of our Special Section on Temporal Analyses of Learning Data was posted on the Journal of Learning analytics (JLA) website. It was even earlier &amp;ndash; probably around late 2014 &amp;ndash; when Alyssa Wise, Simon Knight, Britte Cheng and I teamed up for the temporality workshop series at the Learning Analytics and Knowledge (LAK) conference. At that time, I was still in Toronto, Alyssa in Vancouver, Simon in the UK, and Britte at SRI.</description>
+    </item>
     
     <item>
       <title>Episodes from my trip in China</title>
@@ -399,16 +409,6 @@ The workshop went quite well, with around 60 participants mostly from school boa
       <guid>/blog/2010-03-09-walking-on-the-altered-side/</guid>
       <description>About forty years ago, Dr. James Finn gave a speech entitled &amp;ldquo;A Walk on the Altered Side&amp;rdquo; talking about an undergoing revolution in education powered by cutting edge technologies at that time, technologies that were best represented by computers. He opened up his discussion by quoting J. Robert Oppenheimer&amp;rsquo;s words,
  &amp;ldquo;One thing that is new is the prevalence of newness, the changing scale and scope of change itself, so that the world alters as we walk in it, so that the years of man’s life measure not some small growth or rearrangement or moderation of what he learned in childhood, but a great upheaval.</description>
-    </item>
-    
-    <item>
-      <title>Considering Time in Education</title>
-      <link>/blog/considering-time/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/considering-time/</guid>
-      <description>date: &amp;lsquo;2018-03-08&amp;rsquo;
-It was 2016-08-07 when the call for papers of our Special Section on Temporal Analyses of Learning Data was posted on the Journal of Learning analytics (JLA) website. It was even earlier, probably around late 2014, when Alyssa Wise, Simon Knight, Britte Cheng and I teamed up for the temporality workshop series at the Learning Analytics and Knowledge (LAK) conference. At that time, I was still in Toronto, Alyssa in Vancouver, Simon in the UK, and Britte at SRI.</description>
     </item>
     
   </channel>
