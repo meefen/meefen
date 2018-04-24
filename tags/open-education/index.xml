@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open education on Bodong Chen</title>
+    <link>/tags/open-education/</link>
+    <description>Recent content in Open education on Bodong Chen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/open-education/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Open Textbooks and Open Educational Practices</title>
+      <link>/blog/2018-04-24-open-textbooks/</link>
+      <pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018-04-24-open-textbooks/</guid>
+      <description>I was included in an MN Daily story about open textbooks last week. It was actually a bit embarrassing as I thought a few other colleagues would ‘co-star’ with me in this story because there are exciting work on open textbooks and affordable content going on at UMN.
+University of Minnesota professors use their free time to write free textbooks: https://t.co/iCgMCxC3qf @mndailynews @bod0ng @dernst @UMNews #UMNproud #CEHD Learn more: https://t.</description>
+    </item>
+    
+  </channel>
+</rss>
