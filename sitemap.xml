@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/notes/2018-05-31-farris2016-fz/</loc>
+    <lastmod>2018-05-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/notes/2018-05-10-greenhow2016-vu/</loc>
     <lastmod>2018-05-10T00:00:00+00:00</lastmod>
   </url>
@@ -476,7 +481,14 @@
   </url>
   
   <url>
+    <loc>/tags/computation/</loc>
+    <lastmod>2018-04-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/computational-thinking/</loc>
+    <lastmod>2018-04-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -877,6 +889,12 @@
   </url>
   
   <url>
+    <loc>/tags/modeling/</loc>
+    <lastmod>2018-04-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/mongodb/</loc>
     <lastmod>2013-12-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -944,7 +962,7 @@
   
   <url>
     <loc>/categories/notes/</loc>
-    <lastmod>2018-05-10T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2008,6 +2026,7 @@
   
   <url>
     <loc>/tags/science-education/</loc>
+    <lastmod>2018-04-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

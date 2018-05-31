@@ -1,57 +1,131 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>MOOC on Bodong Chen</title>
+    <title>Mooc on Bodong Chen</title>
     <link>/tags/mooc/</link>
-    <description>Recent content in MOOC on Bodong Chen</description>
+    <description>Recent content in Mooc on Bodong Chen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 09 Dec 2013 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/mooc/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Notes: Predicting mooc dropout over weeks using machine learning methods</title>
-      <link>/notes/2014-09-11-kloft14predicting/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Top Links from the MOOC Research Conference Twitter Backchannel (#MRI13)</title>
+      <link>/blog/2013-12-09-top-links-from-the-mooc-research-conference-twitter-backchannel-mri13/</link>
+      <pubDate>Mon, 09 Dec 2013 00:00:00 +0000</pubDate>
       
-      <guid>/notes/2014-09-11-kloft14predicting/</guid>
-      <description>References Citekey: @kloftpredicting
-Kloft, M., Stiehler, F., Zheng, Z., and Pinkwart, N. (2014). Predicting mooc dropout over weeks using machine learning methods. In Modeling Large Scale Social Interaction in Massively Open Online Courses Workshop (EMNLP 2014).
-Notes A potentially useful paper. The element of using historical features to predict dropouts is useful. It also built and tested a number of features for predicting dropouts. But the value of predicting dropouts in later weeks of a MOOC is limited.</description>
+      <guid>/blog/2013-12-09-top-links-from-the-mooc-research-conference-twitter-backchannel-mri13/</guid>
+      <description>The MOOC Research Conference has just taken place at University of Texas, Arlington, December 5-6, 2013. I was fortunate to be on board of one research project &amp;ndash; &amp;ldquo;Hatch, Match, and Dispatch: Examining the relationship between student intent, expectations, behaviours and outcomes in six Coursera MOOCs at the University of Toronto&amp;rdquo; &amp;ndash; which was among the 20+ MRI projects participating in this MOOC Research Conference. Chris Teplovs, Stian Håklev and Laurie Harrison from our team attended the conference in person, and they were surprised by an Icepocalyse in that area.</description>
     </item>
     
     <item>
-      <title>Notes: Studying learning in the worldwide classroom: Research into edX’s first MOOC</title>
-      <link>/notes/2014-09-15-breslow2013/</link>
+      <title>Notes: Ebben-2014-Unpacking MOOC scholarly discourse</title>
+      <link>/notes/2016-10-13-ebben2014-gz/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/notes/2014-09-15-breslow2013/</guid>
-      <description>References Citekey: @Breslow2013
-Breslow, L. and Pritchard, D. (2013). Studying learning in the worldwide classroom: Research into edX’s first MOOC. Research &amp;amp; Practice Assessment, 8(1):13–25.
-Notes This article is one of my favorite piece about MOOC research. It was also one of the earliest to look more deeply into MOOC learner activities. The questions got answered are important, and preliminary at the same time. But these many questions the authors ask are even more important to further explore.</description>
+      <guid>/notes/2016-10-13-ebben2014-gz/</guid>
+      <description>References Citekey: @Ebben2014-gz
+Ebben, M., &amp;amp; Murphy, J. S. (2014). Unpacking MOOC scholarly discourse: a review of nascent MOOC scholarship. Learning, Media and Technology, 39(3), 328–345.
+Notes Summarize: This paper unpacks the MOOC scholarly discourse, with critical lenses that are terribly needed. It focuses on publications from 2009 – 2013, which features the transitional moment from cMOOCs to xMOOCs. The search results &amp;ldquo;only&amp;rdquo; include 15 papers published during that time.</description>
     </item>
     
     <item>
-      <title>Notes: Unpacking mooc scholarly discourse</title>
-      <link>/notes/2014-09-15-ebben13unpacking/</link>
+      <title>Notes: Gasevic - 2014 - Where is research on massive open online courses headed</title>
+      <link>/notes/2016-10-12-gasevic2014-ki/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/notes/2014-09-15-ebben13unpacking/</guid>
-      <description>References Citekey: @ebben13unpacking
-Ebben, M. and Murphy, J. S. (2014). Unpacking mooc scholarly discourse: a review of nascent mooc scholarship. Learning, Media and Technology, 39(3):328–345.
-Notes A review of MOOC research is useful for someone who is new to the topic (and its history). Based on a review of about two dozen journal articles, the authors identified two phases of MOOC scholarly discourse, characterizing each phase by their key ingredients.</description>
+      <guid>/notes/2016-10-12-gasevic2014-ki/</guid>
+      <description>References Citekey: @Gasevic2014-ki
+Gasevic, D., Kovanovic, V., Joksimovic, S., &amp;amp; Siemens, G. (2014). Where is research on massive open online courses headed? A data analysis of the MOOC Research Initiative. The International Review Of Research In Open And Distributed Learning, 15(5), 134–176.
+Notes Summarize: This review is unique compared to typical literature analysis as it focuses on grant proposals submitted to the MRI initiative. Applying a wide range of analytical techniques, this paper uncovers key themes, leading authors (being cited in proposals), representation of disciplines, status of interdisciplinarity, and the impact of the breadth of coverage (defined by SNA measures of resulting citation networks within clusters of disciplines) on likelihood of being funded.</description>
     </item>
     
     <item>
-      <title>Notes: Zhang2016-ps-Understanding the dynamics of MOOC discussion forums with simulation investigation for empirical network analysis (SIENA)</title>
-      <link>/notes/2017-09-01-zhang2016-ps/</link>
+      <title>Notes: Linguistic Reflections of Student Engagement in Massive Open Online Courses</title>
+      <link>/notes/2014-05-01-wen2014/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/notes/2017-09-01-zhang2016-ps/</guid>
-      <description>References Citekey: @Zhang2016-ps
-Zhang, J., Skryabin, M., &amp;amp; Song, X. (2016). Understanding the dynamics of MOOC discussion forums with simulation investigation for empirical network analysis (SIENA). Distance Education, 37(3), 270–286. https://doi.org/10.1080/01587919.2016.1226230
-Notes Interesting and well-grounded study of MOOC forums using SIENA. It adopts a hypothesis-testing paradigm. The discussion of the literation is extensive and useful. The findings could be further discussed. For example, I would like to see the authors&amp;rsquo; discussion of why reciprocity declined across the time periods.</description>
+      <guid>/notes/2014-05-01-wen2014/</guid>
+      <description>References Wen, M., Yang, D., &amp;amp; Rose, C. P. (2014). Linguistic Reflections of Student Engagement in Massive Open Online Courses. In ICWSM’14.
+Citekey: @Wen2014
+Notes  This paper introduces a novel approach to use linguistic features to measure student motivation and cognitive engagement (two important aspects for learning) in MOOC discussion forum.
+ Highlights &amp;ldquo;Based on the learning sciences literature, we quantify a student’s level of engagement in a MOOC from two different angles: (1) displayed level of motivation to continue with the course and (2) the level of cognitive engagement with the learning material.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Liyanagunawardena-2013-A Systematic Study of the Published Literature 2008-2012</title>
+      <link>/notes/2016-10-13-liyanagunawardena2013-ku/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2016-10-13-liyanagunawardena2013-ku/</guid>
+      <description>References Citekey: @Liyanagunawardena2013-ku
+Liyanagunawardena, T. R., Adams, A. A., &amp;amp; Williams, S. A. (2013). MOOCs: A Systematic Study of the Published Literature 2008-2012. The International Review of Research in Open and Distributed Learning, 14(3), 202–227.
+Notes Summarize: An early review of the MOOC literature. Forty-five peer reviewed papers are identified, using several different search strategies. Several glitches/hurdles were noted, such as other research using the same acronym. Quantitative analysis deals with pub year, counts in journals, leading authors, etc.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Lopez-Meneses-2015-Analysis and Implications of the Impact of MOOC Movement in the Scientific Community: JCR and Scopus</title>
+      <link>/notes/2016-10-13-lopez-meneses2015-ct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2016-10-13-lopez-meneses2015-ct/</guid>
+      <description>References Citekey: @Lopez-Meneses2015-ct
+López-Meneses, E., Vázquez-Cano, E., &amp;amp; Román-Graván, P. (2015). Analysis and Implications of the Impact of MOOC Movement in the Scientific Community: JCR and Scopus (2010-13). Comunicar, 22(44), 73–80.
+Notes Summarize: One interesting approach used in this paper is key word network based on co-occurrence.
+Assess: However, the extraction of dominant keywords did not offer significant insights in the discourse. The discussion mentioned that influential pieces in MOOCs exist in non-academic spaces like blogs, highlighting a tension among different spaces for scholarly communication.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Rose-2016-Technology Support for Discussion Based Learning</title>
+      <link>/notes/2016-10-14-rose2016-rs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2016-10-14-rose2016-rs/</guid>
+      <description>References Citekey: @Rose2016-rs
+Rosé, C. P., &amp;amp; Ferschke, O. (2016). Technology Support for Discussion Based Learning: From Computer Supported Collaborative Learning to the Future of Massive Open Online Courses. International Journal of Artificial Intelligence in Education, 26(2), 660–678.
+Notes Summarize:
+Assess:
+Reflect:
+Highlights Thisarticleoffersavisionfortechnologysupportedcollaborativeanddiscussionbased learning at scale. (p. 660)
+In particular, this support has been enabled by an integration of text mining and conversational agents to form a novel type of micro-script support for productive discussion processes.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Sentiment Analysis in MOOC Discussion Forums</title>
+      <link>/notes/2014-05-01-wen2014a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2014-05-01-wen2014a/</guid>
+      <description>##References
+Wen, M., Yang, D., &amp;amp; Rosé, C. P. (2014). Sentiment Analysis in MOOC Discussion Forums: What does it tell us? In EDM2014.
+Citekey: @Wen2014a
+##Notes
+General comments
+ What will be a more interesting variable to correlate to than drop out rates? The link between sentiment and dropout behaviors is slippery, because we have no evidence that negative sentiments will cause dropouts. So the main logic in this paper is undermined.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Veletsianos-2015-Interdisciplinarity in MOOC research and its changes over time</title>
+      <link>/notes/2016-10-13-veletsianos2015-hd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2016-10-13-veletsianos2015-hd/</guid>
+      <description>References Citekey: @Veletsianos2015-hd
+Veletsianos, G., &amp;amp; Shepherdson, P. (2015). Who studies MOOCs? Interdisciplinarity in MOOC research and its changes over time. The International Review of Research in. Retrieved from http://www.irrodl.org/index.php/irrodl/article/view/2202
+Notes Summarize: This study builds on earlier studies of the MOOC literature, but with a special focus (on interdisciplnarity) and a different approach. Briefly, it studies the scope of the literature from 2013-2015; it uses author affiliation as a proxy for Interdisciplinarity; it covers a broad range of literature extracted from multiple indices; it relies on descriptive and inferential statistics (Chi-square) to describe interdisciplinarityand compare it with data from earlier studies.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Zheng. (2016). The role of social media in MOOCs</title>
+      <link>/notes/2016-06-28-zheng2016/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2016-06-28-zheng2016/</guid>
+      <description>References Citekey: @Zheng2016
+Zheng, S., Han, K., Rosson, M. B., &amp;amp; Carroll, J. M. (2016). The role of social media in MOOCs. In Proceedings of the Third (2016) ACM Conference on Learning @ Scale - L@S ’16 (pp. 419–428). New York, New York, USA: ACM Press. doi:10.1145&amp;frasl;2876034.2876047
+Notes A nice paper investigating social media (more specifically Facebook groups) in three MOOCs. The key findings include that FB is a better place for social engagement, and students feel more connected, behave better, and interact more in FB.</description>
     </item>
     
   </channel>

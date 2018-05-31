@@ -264,9 +264,18 @@
     </item>
     
     <item>
+      <title>Computation</title>
+      <link>/tags/computation/</link>
+      <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/computation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Computational thinking</title>
       <link>/tags/computational-thinking/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/computational-thinking/</guid>
       <description></description>
@@ -948,6 +957,15 @@
     </item>
     
     <item>
+      <title>Modeling</title>
+      <link>/tags/modeling/</link>
+      <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/modeling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Mongodb</title>
       <link>/tags/mongodb/</link>
       <pubDate>Mon, 09 Dec 2013 00:00:00 +0000</pubDate>
@@ -1355,7 +1373,7 @@
     <item>
       <title>Science education</title>
       <link>/tags/science-education/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/science-education/</guid>
       <description></description>
