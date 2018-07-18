@@ -6,18 +6,46 @@
     <description>Recent content in R on Bodong Chen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Nov 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Oct 2014 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>CanvasNet: Formative feedback for &#39;social learning&#39; on Canvas</title>
-      <link>/blog/2015-11-19-canvasnet/</link>
-      <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
+      <title>Twitter Archeology of the Learning Analytics Community</title>
+      <link>/blog/2014-10-14-twitter-archeology/</link>
+      <pubDate>Tue, 14 Oct 2014 00:00:00 +0000</pubDate>
       
-      <guid>/blog/2015-11-19-canvasnet/</guid>
-      <description>I have been teaching an undergraduate course using Canvas this semester. I don&amp;rsquo;t remember how it happened because I&amp;rsquo;m essentially a disbeliever in Learning Management Systems (LMS). I believe one&amp;rsquo;s learning should not be managed. &amp;ldquo;LMS is the minivan of Education,&amp;rdquo; says Phil Hill. Even better, &amp;ldquo;the LMS is more like a bus than a minivan - someone else is driving, it only travels on a pre-arranged route, the bus is often late but you still have to be on time because it won&amp;rsquo;t wait if you miss it&amp;rdquo; &amp;ndash; says Stephen Downes.</description>
+      <guid>/blog/2014-10-14-twitter-archeology/</guid>
+      <description>Learning analytics as a nascent field of scholarship is evolving rapidly and garnering broad interest in both educational research and practice. Since the inaugural Learning Analytics and Knowledge (LAK) conference in 2011, exciting moves have been made during the past four years. The Society of Learning Analytics Research (SoLAR) was launched in 2012; the Learning Analytics Summer Institute (LASI) was first held in 2013; the first issue of the Journal of Learning Analytics was published in 2014.</description>
+    </item>
+    
+    <item>
+      <title>MongoDB &#43; Java &#43; R = A handy toolbox for archiving and analyzing Twitter data</title>
+      <link>/blog/2013-12-09-mongodb-java-r-a-handy-toolbox-for-archiving-and-analyzing-twitter-data/</link>
+      <pubDate>Mon, 09 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2013-12-09-mongodb-java-r-a-handy-toolbox-for-archiving-and-analyzing-twitter-data/</guid>
+      <description>I&amp;rsquo;ve been using Martin Hawksey&amp;rsquo;s brilliant Google Spreadsheet TAGS for archiving Twitter data for y-e-a-r-s. It works very well, and allowed me to develop little R toys like twitterytics-shiny to interactively explore Twitter archives.
+However, I have a few complains. First, Twitter API authentication needs to be set up for each archive. The task which require a few steps in Google Spreadsheet is not trivial. Second, I often ended up getting hundreds or even thousands of duplicates that may cause the file size to exceed Google Spreadsheet&amp;rsquo;s size limit.</description>
+    </item>
+    
+    <item>
+      <title>Analyze Text Similarity with R: Latent Semantic Analysis and Multidimentional Scaling</title>
+      <link>/blog/2013-03-11-analyze-text-similarity-in-r-latent-semantic-analysis-and-multidimentional-scaling/</link>
+      <pubDate>Mon, 11 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2013-03-11-analyze-text-similarity-in-r-latent-semantic-analysis-and-multidimentional-scaling/</guid>
+      <description>Background One of the most pressing questions I have been pondering upon when redesigning Knowledge Forum is how to represent the knowledge space of a community to better support idea improvement. Many people think Knowledge Forum as another discussion forum (or learning management system) with a 2-D interface (see below). This notion lead people to treat a Knowledge Forum view merely as a container of notes. The reason why this happens is because users usually fail to recognize one important principle behind the design of Knowledge Forum view: to support multiple perspectives of community knowledge.</description>
+    </item>
+    
+    <item>
+      <title>Demo of Using twitter-hashtag-analytics to Analyze Tweets from #LAK13</title>
+      <link>/blog/2013-02-26-demo-of-using-twitter-hashtag-analytics-package-to-analyze-tweets-from-lak13/</link>
+      <pubDate>Tue, 26 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2013-02-26-demo-of-using-twitter-hashtag-analytics-package-to-analyze-tweets-from-lak13/</guid>
+      <description>Building on Ben Marwick, Martin Hawksey and Tony Hirst&amp;rsquo;s work on analyzing tweets with R, I started an R project for tweet analysis, namely twitter-hashtag-analytics. This project is hosted on Github and welcomes anyone who&amp;rsquo;s interested to contribute. It is my very first attempt to write a package in R, so I admit the capabilities of it is still limited and its structure may be not properly planned. Any advice will be highly appreciated.</description>
     </item>
     
   </channel>
