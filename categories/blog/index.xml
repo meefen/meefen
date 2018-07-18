@@ -6,10 +6,19 @@
     <description>Recent content in Blog on Bodong Chen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My Ongoing Experiment: Public Scholarly Annotation</title>
+      <link>/blog/2018-07-public-scholarly-annotation/</link>
+      <pubDate>Wed, 18 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018-07-public-scholarly-annotation/</guid>
+      <description>Background stories I value Open Scholarship and have been practicing it for years &amp;ndash; both in terms of doing it and learning to do it. Stian Haklev, an OER and Open Access champion, introduced me to this idea. He built a wiki-based workflow system, named researchr, and convinced a few OISE friends, including Cresencia Fong and Alisa Acosta, to share our annotations publicly, in a well-organized manner. For us, the benefits of using researchr are obvious: the system scaffolds the scholarly process of reading and annotating articles, as well as summarizing and organizing our notes.</description>
+    </item>
     
     <item>
       <title>Open Textbooks and Open Educational Practices</title>

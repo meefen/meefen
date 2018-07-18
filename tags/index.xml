@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Bodong Chen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Mar 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Academia</title>
       <link>/tags/academia/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 18 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/academia/</guid>
       <description></description>
@@ -1155,6 +1155,15 @@
     </item>
     
     <item>
+      <title>Open scholarship</title>
+      <link>/tags/open-scholarship/</link>
+      <pubDate>Wed, 18 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/open-scholarship/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Open science</title>
       <link>/tags/open-science/</link>
       <pubDate>Thu, 27 Jul 2017 00:00:00 +0000</pubDate>
@@ -1166,7 +1175,7 @@
     <item>
       <title>Openness</title>
       <link>/tags/openness/</link>
-      <pubDate>Thu, 03 Nov 2016 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 18 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/openness/</guid>
       <description></description>

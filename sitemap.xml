@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/blog/2018-07-public-scholarly-annotation/</loc>
+    <lastmod>2018-07-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/2018-06-28-national_academies_of_sciences2018-yf/</loc>
+    <lastmod>2018-06-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/notes/2018-05-31-farris2016-fz/</loc>
     <lastmod>2018-05-31T00:00:00+00:00</lastmod>
   </url>
@@ -309,7 +319,7 @@
   
   <url>
     <loc>/tags/academia/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -405,13 +415,13 @@
   
   <url>
     <loc>/categories/blog/</loc>
-    <lastmod>2018-04-24T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/blog/</loc>
-    <lastmod>2018-04-24T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -432,7 +442,7 @@
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2018-04-24T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -962,7 +972,7 @@
   
   <url>
     <loc>/categories/notes/</loc>
-    <lastmod>2018-05-31T00:00:00+00:00</lastmod>
+    <lastmod>2018-06-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1898,6 +1908,12 @@
   </url>
   
   <url>
+    <loc>/tags/open-scholarship/</loc>
+    <lastmod>2018-07-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/open-science/</loc>
     <lastmod>2017-07-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -1905,7 +1921,7 @@
   
   <url>
     <loc>/tags/openness/</loc>
-    <lastmod>2016-11-03T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2120,7 +2136,7 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
