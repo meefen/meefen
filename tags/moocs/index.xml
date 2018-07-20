@@ -1,37 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Moocs on Bodong Chen</title>
+    <title>MOOCs on Bodong Chen</title>
     <link>/tags/moocs/</link>
-    <description>Recent content in Moocs on Bodong Chen</description>
+    <description>Recent content in MOOCs on Bodong Chen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 03 Nov 2016 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/moocs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Notes: Guo. (2014). Demographic Differences in How Students Navigate Through MOOCs</title>
-      <link>/notes/2016-08-26-guo2014-ve/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>MOOCs, Open Universities, and Learning Analytics in Asia</title>
+      <link>/blog/2016-11-03-trip-to-asia/</link>
+      <pubDate>Thu, 03 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>/notes/2016-08-26-guo2014-ve/</guid>
-      <description>References Citekey: @Guo2014-ve
-Guo, P. J., &amp;amp; Reinecke, K. (2014). Demographic Differences in How Students Navigate Through MOOCs. In Proceedings of the First ACM Conference on Learning @ Scale Conference (pp. 21–30). New York, NY, USA: ACM.
-Notes A nice study exploring demographic differences (age, gender, country origin) among MOOC learners. Interesting findings that many learners skipped a significant portion of course content, navigated in a non-linear manner, etc., pointing to opportunities for future research.</description>
-    </item>
-    
-    <item>
-      <title>Notes: Littlejohn - 2016 - Learning in MOOCs: Motivations and self-regulated learning in MOOCs</title>
-      <link>/notes/2016-08-26-littlejohn2016-um/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/notes/2016-08-26-littlejohn2016-um/</guid>
-      <description>References Citekey: @Littlejohn2016-um
-Littlejohn, A., Hood, N., Milligan, C., &amp;amp; Mustain, P. (2016&amp;frasl;4). Learning in MOOCs: Motivations and self-regulated learning in MOOCs. The Internet and Higher Education, 29, 40–48.
-Notes Nice research investigating SRL in MOOCs. Survey used for measuring SRL of learners; interviews were used to understand learners in greater details.
-No use of clicklog data to triangulate these findings could be a future direction.
-Highlights Massive open online courses (MOOCs) require individual learners to be able to self-regulate their learning, determining when and how they engage.</description>
+      <guid>/blog/2016-11-03-trip-to-asia/</guid>
+      <description>My October ended with a trip to Asia &amp;ndash; Beijing and Manila this time. Visiting Beijing was like going back to an ever-changing hometown, while visiting Manila (where I&amp;rsquo;ve never been before) was like venturing into a rain forest. Both very exciting!
+MOOCs in China: Research and Practice Three days in Beijing was filled by a busy MOOC conference agenda, working meetings at the X-Learning Center on a MOOC project, and casual exchanges with graduate students at the Graduate School of Education at Peking University.</description>
     </item>
     
   </channel>

@@ -10,7 +10,7 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>My Ongoing Experiment: Public Scholarly Annotation</title>
+      <title>An Ongoing Experiment: Public Scholarly Annotation</title>
       <link>/blog/2018-07-public-scholarly-annotation/</link>
       <pubDate>Wed, 18 Jul 2018 00:00:00 +0000</pubDate>
       
@@ -34,15 +34,23 @@
 
 &lt;p&gt;In Phase 1, I will publicly annotate web documents about &lt;em&gt;open scholarly annotation&lt;/em&gt;, using &lt;a href=&#34;https://hypothes.is/&#34;&gt;Hypothes.is&lt;/a&gt; and a tag &lt;code&gt;ValueAnnotation&lt;/code&gt;. Below is an evolving collection of my annotations, and I invite you to annotate with me using the same tag.&lt;/p&gt;
 
+&lt;!-- &lt;iframe width=&#34;560&#34; height=&#34;500&#34; src=&#34;/images/article_images/hypothesis.html&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt; --&gt;
+
 &lt;iframe width=&#34;560&#34; height=&#34;600&#34; src=&#34;https://hypothes.is/search?q=tag:%22ValueAnnotation%22&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;!-- Here is an example of a Hypothesis annotation I created.
+&lt;p&gt;Here is an example of a Hypothesis annotation I created.&lt;/p&gt;
 
-![](/images/article_images/h-annotation.png) --&gt;
+&lt;p&gt;&lt;img src=&#34;/images/article_images/h-annotation.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;phase-2&#34;&gt;Phase 2&lt;/h3&gt;
 
 &lt;p&gt;This is an emerging process. The next step, as I see now, is to make sense of generated annotations and update this post with summaries and new ideas that &amp;lsquo;rise above&amp;rsquo; existing ones.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt; (2018-7-20): In preparation for an &lt;a href=&#34;http://www.aera.net/Events-Meetings/Annual-Meeting/2019-Annual-Meeting-Theme&#34;&gt;AERA 2019&lt;/a&gt; submission, I wrote a research summary describing what I hope to do next. The summary &amp;ndash; embedded below &amp;ndash; is informed by Hypothesis annotations above. However, I found it difficult to demonstrate the &amp;lsquo;moves&amp;rsquo; from annotations to writing.&lt;/p&gt;
+
+&lt;iframe width=&#34;100%&#34; height=&#34;600&#34; src=&#34;https://docs.google.com/document/d/e/2PACX-1vR2KgWL47pKHyfDr_YRnIbJEutWQynICTNxusVrsVXHFjyiTODXxU06mihU6kaHrqUJR8haky2kL3q-/pub&#34; frameborder=&#34;1&#34; allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;To be continued&amp;hellip;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
