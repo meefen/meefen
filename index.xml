@@ -10,6 +10,35 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>A.I.与鸡头蛇怪</title>
+      <link>/cn/2018/07/22/ai-basilisk/</link>
+      <pubDate>Sun, 22 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/cn/2018/07/22/ai-basilisk/</guid>
+      <description>
+        &lt;p&gt;&lt;strong&gt;A.I.，也就是人工智能，已渗透到各个领域。它就像一个迅速膨胀的热气球，几乎所有人都在往里鼓气。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;网上报道，中国的人脸识别技术已让世界颤抖。警察戴上人脸识别墨镜，分分钟教“逃犯”做人。它像极了希腊神话里的“鸡头蛇怪”，必杀技是一对电眼，冷却时间为零。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/1/14/Basilisk_aldrovandi.jpg&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+(图片来源：Wikipedia)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;然而，热气球不爆炸是因为有冷空气的平衡。鸡头蛇怪被杀死，是因为镜子里自己的眼神，或公鸡的一声啼鸣。&lt;/strong&gt; A.I.的发展，却需要这一套装备——包裹它的冷空气，能照请它的镜子，和一声声啼鸣。&lt;/p&gt;
+
+&lt;p&gt;A.I.也好，机器学习也罢，一个重要的特征是其输出结果不会“好过”输入数据。&lt;strong&gt;电脑算法是一种政治文化制品。&lt;/strong&gt; A.I.在被用于解决社会问题的同时，也被封装进了已有的社会文化现实、关系、及偏见。例如，2016年一篇名为《基于面部图像的自动犯罪性概率推断》的文章，试图运用机器学习分析1856张人脸照，从中提取能用来区分“罪犯”与“非罪犯”的面部特征。可不曾想，罪犯的照片来自警察局，而非罪犯的照片来自其个人页面。试想，哪类照片里的人更容易嘴角上扬？机器学习，难免会习得数据里的偏见。&lt;/p&gt;
+
+&lt;p&gt;其实这个文章的例子还好，因为文章作者带着追求学术的初衷，把研究的细节都公之于众。想想那些被封存于“黑箱”里的算法，它们运转着脸书上的动态墙、银行给的信用分、雇员的任免与晋升…… &lt;strong&gt;有A.I.的世界里没有乌托邦式的愿望。相反，当决策越来越多地被自动化、批量化时，我们需要更透明、更具反思性的机制。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/51eUw-v0X%2BL._SX329_BO1,204,203,200_.jpg&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+(图片来源：Amazon)&lt;/p&gt;
+
+&lt;p&gt;此时，面对A.I.热，我们需要给它周围包裹上一层冷空气，让它不致爆炸。再找来一面镜子，让它能看到自己，看到那些从人类继承下来的偏见。然后再让每个人学会“公鸡的啼鸣”，包括那些被A.I.束缚的人、因A.I.而收获便利的人、制造A.I.的人，让A.I.真正为更多的人谋福祉。&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
       <title>An Ongoing Experiment: Public Scholarly Annotation</title>
       <link>/blog/2018-07-public-scholarly-annotation/</link>
       <pubDate>Wed, 18 Jul 2018 00:00:00 +0000</pubDate>
@@ -1230,10 +1259,10 @@ Education in particular has strict temporal boundaries that would dictate daily 
     
     <item>
       <title>天宝趣谈</title>
-      <link>/cn/2018/04/01/%E5%A4%A9%E5%AE%9D%E8%B6%A3%E8%B0%88/</link>
+      <link>/cn/2018/04/01/tianbao/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/cn/2018/04/01/%E5%A4%A9%E5%AE%9D%E8%B6%A3%E8%B0%88/</guid>
+      <guid>/cn/2018/04/01/tianbao/</guid>
       <description>
         &lt;blockquote&gt;
 &lt;p&gt;按：这是我受邀为天宝小学写的一篇文章。人生头13年在天宝乡度过。现如今，因为乡镇合并，它已经从地图上消失。好在记忆还一直存留。&lt;/p&gt;
@@ -1273,10 +1302,10 @@ Education in particular has strict temporal boundaries that would dictate daily 
     
     <item>
       <title>火车</title>
-      <link>/cn/2018/03/20/%E7%81%AB%E8%BD%A6/</link>
+      <link>/cn/2018/03/20/trains/</link>
       <pubDate>Tue, 20 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/cn/2018/03/20/%E7%81%AB%E8%BD%A6/</guid>
+      <guid>/cn/2018/03/20/trains/</guid>
       <description>
         &lt;p&gt;上次在中国坐硬座火车可能需要追溯到十年前。&lt;/p&gt;
 
