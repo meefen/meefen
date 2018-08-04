@@ -98,6 +98,106 @@
   </url>
   
   <url>
+    <loc>/notes/2017-09-22-lee2013-sl/</loc>
+    <lastmod>2017-09-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-09-22-lee2017-xm/</loc>
+    <lastmod>2017-09-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-09-20-olinghouse2013-yd/</loc>
+    <lastmod>2017-09-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-09-18-ford-connors2015-dd/</loc>
+    <lastmod>2017-09-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-09-13-kuhn2012-qo/</loc>
+    <lastmod>2017-09-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-09-12-wang2016-lu/</loc>
+    <lastmod>2017-09-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-09-07-berliner2002-jo/</loc>
+    <lastmod>2017-09-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-09-01-snijders2010-ua/</loc>
+    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-09-01-zhang2016-ps/</loc>
+    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-08-31-wagner2005-ib/</loc>
+    <lastmod>2017-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-08-18-chen2010-ao/</loc>
+    <lastmod>2017-08-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-08-18-ke2008-hw/</loc>
+    <lastmod>2017-08-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-07-14-lungeanu2015-mb/</loc>
+    <lastmod>2017-08-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-07-12-contractor2011-vc/</loc>
+    <lastmod>2017-08-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-07-12-contractor2009-sv/</loc>
+    <lastmod>2017-08-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-07-10-cowan2013-ke/</loc>
+    <lastmod>2017-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-07-10-sannino2016-lr/</loc>
+    <lastmod>2017-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-07-10-yamagata-lynch2010-eu/</loc>
+    <lastmod>2017-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-07-04-engestrom2011-yr/</loc>
+    <lastmod>2017-08-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-07-04-sannino2009-cg/</loc>
+    <lastmod>2017-08-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/2017-07-27-data-sharing-workshop-2/</loc>
     <lastmod>2017-07-27T00:00:00+00:00</lastmod>
   </url>
@@ -113,8 +213,63 @@
   </url>
   
   <url>
+    <loc>/notes/2017-06-27-vaquero2013-ld/</loc>
+    <lastmod>2017-06-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-06-16-barab2001-jt/</loc>
+    <lastmod>2017-06-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-06-15-agneessens2013-wp/</loc>
+    <lastmod>2017-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-06-15-malinick2013-ub/</loc>
+    <lastmod>2017-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-06-15-morris2003-pc/</loc>
+    <lastmod>2017-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-06-15-tutzauer2013-oq/</loc>
+    <lastmod>2017-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-04-04-engestrom2009-fq/</loc>
+    <lastmod>2017-04-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-04-24-schneider2016-du/</loc>
+    <lastmod>2017-04-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/2017-04-10-graphing-reddit-place/</loc>
     <lastmod>2017-04-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-04-03-teplovs2013-yi/</loc>
+    <lastmod>2017-04-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-03-24-cole1993-zt/</loc>
+    <lastmod>2017-03-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-03-24-engestrom2000-yq/</loc>
+    <lastmod>2017-03-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -128,8 +283,48 @@
   </url>
   
   <url>
+    <loc>/notes/2017-03-10-jonassen1999-dz/</loc>
+    <lastmod>2017-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-03-02-mor2015-kw/</loc>
+    <lastmod>2017-03-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-02-08-carley2003-zk/</loc>
+    <lastmod>2017-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/notes/</loc>
     <lastmod>2017-01-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-01-30-carley2012-xn/</loc>
+    <lastmod>2017-01-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-01-27-borgatti2012-vh/</loc>
+    <lastmod>2017-01-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-01-18-flyvbjerg2006-eu/</loc>
+    <lastmod>2017-01-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-01-18-yazan2015-wn/</loc>
+    <lastmod>2017-01-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/2017-01-03-kennedy2016-qw/</loc>
+    <lastmod>2017-01-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -346,6 +541,7 @@
   
   <url>
     <loc>/tags/activity-theory/</loc>
+    <lastmod>2017-08-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -361,11 +557,13 @@
   
   <url>
     <loc>/tags/advanced-sna/</loc>
+    <lastmod>2017-08-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/agent-based-modeling/</loc>
+    <lastmod>2017-06-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -388,6 +586,7 @@
   
   <url>
     <loc>/tags/argumentation/</loc>
+    <lastmod>2017-09-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -449,6 +648,7 @@
   
   <url>
     <loc>/tags/cscl/</loc>
+    <lastmod>2017-08-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -459,6 +659,7 @@
   
   <url>
     <loc>/tags/case-study/</loc>
+    <lastmod>2017-08-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -470,13 +671,13 @@
   
   <url>
     <loc>/tags/china/</loc>
-    <lastmod>2018-04-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/china/</loc>
-    <lastmod>2018-04-07T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -487,6 +688,7 @@
   
   <url>
     <loc>/tags/coauthorship/</loc>
+    <lastmod>2017-08-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -497,6 +699,7 @@
   
   <url>
     <loc>/tags/collaborative-learning/</loc>
+    <lastmod>2017-01-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -540,6 +743,7 @@
   
   <url>
     <loc>/tags/cscl/</loc>
+    <lastmod>2017-08-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -556,6 +760,7 @@
   
   <url>
     <loc>/tags/curriculum/</loc>
+    <lastmod>2017-09-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -605,6 +810,7 @@
   
   <url>
     <loc>/tags/distributed-cognition/</loc>
+    <lastmod>2017-03-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -637,6 +843,7 @@
   
   <url>
     <loc>/tags/educational-games/</loc>
+    <lastmod>2017-08-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -672,6 +879,7 @@
   
   <url>
     <loc>/tags/expansive-learning/</loc>
+    <lastmod>2017-08-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -767,6 +975,7 @@
   
   <url>
     <loc>/tags/intervention/</loc>
+    <lastmod>2017-04-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -788,7 +997,7 @@
   
   <url>
     <loc>/tags/knowledge-building/</loc>
-    <lastmod>2015-02-04T00:00:00+00:00</lastmod>
+    <lastmod>2017-04-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -854,17 +1063,19 @@
   
   <url>
     <loc>/tags/learning-theory/</loc>
+    <lastmod>2017-03-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/literacies/</loc>
+    <lastmod>2017-09-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/literacy/</loc>
-    <lastmod>2015-02-04T00:00:00+00:00</lastmod>
+    <lastmod>2017-09-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -880,6 +1091,7 @@
   
   <url>
     <loc>/tags/mooc/</loc>
+    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -901,6 +1113,7 @@
   
   <url>
     <loc>/tags/methodology/</loc>
+    <lastmod>2017-09-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -911,6 +1124,7 @@
   
   <url>
     <loc>/tags/mobile-learning/</loc>
+    <lastmod>2017-08-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -944,6 +1158,7 @@
   
   <url>
     <loc>/tags/multidimensional-network/</loc>
+    <lastmod>2017-09-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -971,6 +1186,7 @@
   
   <url>
     <loc>/tags/network-analysis/</loc>
+    <lastmod>2017-09-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -998,10 +1214,6 @@
   
   <url>
     <loc>/notes/2014-05-26-abrami2006review/</loc>
-  </url>
-  
-  <url>
-    <loc>/notes/2017-06-15-agneessens2013-wp/</loc>
   </url>
   
   <url>
@@ -1053,15 +1265,7 @@
   </url>
   
   <url>
-    <loc>/notes/2017-06-16-barab2001-jt/</loc>
-  </url>
-  
-  <url>
     <loc>/notes/2014-12-10-bereiter2014knowledge/</loc>
-  </url>
-  
-  <url>
-    <loc>/notes/2017-09-07-berliner2002-jo/</loc>
   </url>
   
   <url>
@@ -1089,10 +1293,6 @@
   </url>
   
   <url>
-    <loc>/notes/2017-01-27-borgatti2012-vh/</loc>
-  </url>
-  
-  <url>
     <loc>/notes/2016-09-27-buckingham2010-mc/</loc>
   </url>
   
@@ -1101,23 +1301,11 @@
   </url>
   
   <url>
-    <loc>/notes/2017-02-08-carley2003-zk/</loc>
-  </url>
-  
-  <url>
-    <loc>/notes/2017-01-30-carley2012-xn/</loc>
-  </url>
-  
-  <url>
     <loc>/notes/2016-02-01-chai2006a/</loc>
   </url>
   
   <url>
     <loc>/notes/2016-02-03-chan2006b/</loc>
-  </url>
-  
-  <url>
-    <loc>/notes/2017-08-18-chen2010-ao/</loc>
   </url>
   
   <url>
@@ -1149,10 +1337,6 @@
   </url>
   
   <url>
-    <loc>/notes/2017-03-24-cole1993-zt/</loc>
-  </url>
-  
-  <url>
     <loc>/notes/2014-09-26-colvin14learning/</loc>
   </url>
   
@@ -1166,18 +1350,6 @@
   
   <url>
     <loc>/notes/2013-08-16-scardamalia1989/</loc>
-  </url>
-  
-  <url>
-    <loc>/notes/2017-07-12-contractor2011-vc/</loc>
-  </url>
-  
-  <url>
-    <loc>/notes/2017-07-12-contractor2009-sv/</loc>
-  </url>
-  
-  <url>
-    <loc>/notes/2017-07-10-cowan2013-ke/</loc>
   </url>
   
   <url>
@@ -1221,18 +1393,6 @@
   </url>
   
   <url>
-    <loc>/notes/2017-04-04-engestrom2009-fq/</loc>
-  </url>
-  
-  <url>
-    <loc>/notes/2017-07-04-engestrom2011-yr/</loc>
-  </url>
-  
-  <url>
-    <loc>/notes/2017-03-24-engestrom2000-yq/</loc>
-  </url>
-  
-  <url>
     <loc>/notes/2013-05-25-cheung2008/</loc>
   </url>
   
@@ -1245,15 +1405,7 @@
   </url>
   
   <url>
-    <loc>/notes/2017-01-18-flyvbjerg2006-eu/</loc>
-  </url>
-  
-  <url>
     <loc>/notes/2015-08-11-ford-connors2015/</loc>
-  </url>
-  
-  <url>
-    <loc>/notes/2017-09-18-ford-connors2015-dd/</loc>
   </url>
   
   <url>
@@ -1357,18 +1509,6 @@
   </url>
   
   <url>
-    <loc>/notes/2017-03-10-jonassen1999-dz/</loc>
-  </url>
-  
-  <url>
-    <loc>/notes/2017-08-18-ke2008-hw/</loc>
-  </url>
-  
-  <url>
-    <loc>/notes/2017-01-03-kennedy2016-qw/</loc>
-  </url>
-  
-  <url>
     <loc>/notes/2016-08-15-kerresmalecki2003/</loc>
   </url>
   
@@ -1405,10 +1545,6 @@
   </url>
   
   <url>
-    <loc>/notes/2017-09-13-kuhn2012-qo/</loc>
-  </url>
-  
-  <url>
     <loc>/notes/2014-08-29-petropoulou2014lae/</loc>
   </url>
   
@@ -1437,14 +1573,6 @@
   </url>
   
   <url>
-    <loc>/notes/2017-09-22-lee2013-sl/</loc>
-  </url>
-  
-  <url>
-    <loc>/notes/2017-09-22-lee2017-xm/</loc>
-  </url>
-  
-  <url>
     <loc>/notes/2016-04-14-lin2013/</loc>
   </url>
   
@@ -1469,19 +1597,11 @@
   </url>
   
   <url>
-    <loc>/notes/2017-07-14-lungeanu2015-mb/</loc>
-  </url>
-  
-  <url>
     <loc>/notes/2015-08-28-lv2011/</loc>
   </url>
   
   <url>
     <loc>/notes/2015-12-06-macfadyen2012/</loc>
-  </url>
-  
-  <url>
-    <loc>/notes/2017-06-15-malinick2013-ub/</loc>
   </url>
   
   <url>
@@ -1517,14 +1637,6 @@
   </url>
   
   <url>
-    <loc>/notes/2017-03-02-mor2015-kw/</loc>
-  </url>
-  
-  <url>
-    <loc>/notes/2017-06-15-morris2003-pc/</loc>
-  </url>
-  
-  <url>
     <loc>/notes/2015-12-04-kollar2013/</loc>
   </url>
   
@@ -1534,10 +1646,6 @@
   
   <url>
     <loc>/notes/2015-12-01-nistor2014/</loc>
-  </url>
-  
-  <url>
-    <loc>/notes/2017-09-20-olinghouse2013-yd/</loc>
   </url>
   
   <url>
@@ -1621,18 +1729,6 @@
   </url>
   
   <url>
-    <loc>/notes/2017-07-04-sannino2009-cg/</loc>
-  </url>
-  
-  <url>
-    <loc>/notes/2017-07-10-sannino2016-lr/</loc>
-  </url>
-  
-  <url>
-    <loc>/notes/2017-04-24-schneider2016-du/</loc>
-  </url>
-  
-  <url>
     <loc>/notes/2015-05-07-schwartz13measuring/</loc>
   </url>
   
@@ -1673,10 +1769,6 @@
   </url>
   
   <url>
-    <loc>/notes/2017-09-01-snijders2010-ua/</loc>
-  </url>
-  
-  <url>
     <loc>/notes/2016-09-29-snyder2011-ss/</loc>
   </url>
   
@@ -1709,10 +1801,6 @@
   </url>
   
   <url>
-    <loc>/notes/2017-04-03-teplovs2013-yi/</loc>
-  </url>
-  
-  <url>
     <loc>/notes/2013-08-29-scardamalia1994a/</loc>
   </url>
   
@@ -1737,10 +1825,6 @@
   </url>
   
   <url>
-    <loc>/notes/2017-06-15-tutzauer2013-oq/</loc>
-  </url>
-  
-  <url>
     <loc>/notes/2013-05-22-hmelo-silver2008b/</loc>
   </url>
   
@@ -1757,23 +1841,11 @@
   </url>
   
   <url>
-    <loc>/notes/2017-06-27-vaquero2013-ld/</loc>
-  </url>
-  
-  <url>
     <loc>/notes/2016-10-13-veletsianos2015-hd/</loc>
   </url>
   
   <url>
     <loc>/notes/2014-05-06-devries2000vygotsky/</loc>
-  </url>
-  
-  <url>
-    <loc>/notes/2017-08-31-wagner2005-ib/</loc>
-  </url>
-  
-  <url>
-    <loc>/notes/2017-09-12-wang2016-lu/</loc>
   </url>
   
   <url>
@@ -1814,18 +1886,6 @@
   
   <url>
     <loc>/notes/2014-09-25-xiong15092011/</loc>
-  </url>
-  
-  <url>
-    <loc>/notes/2017-07-10-yamagata-lynch2010-eu/</loc>
-  </url>
-  
-  <url>
-    <loc>/notes/2017-01-18-yazan2015-wn/</loc>
-  </url>
-  
-  <url>
-    <loc>/notes/2017-09-01-zhang2016-ps/</loc>
   </url>
   
   <url>
@@ -1885,12 +1945,13 @@
   
   <url>
     <loc>/tags/online-discussion/</loc>
+    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/online-learning/</loc>
-    <lastmod>2013-12-09T00:00:00+00:00</lastmod>
+    <lastmod>2017-06-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1908,6 +1969,7 @@
   
   <url>
     <loc>/tags/open-annotation/</loc>
+    <lastmod>2017-01-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1999,13 +2061,13 @@
   
   <url>
     <loc>/tags/r/</loc>
-    <lastmod>2014-10-14T00:00:00+00:00</lastmod>
+    <lastmod>2015-11-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/r/</loc>
-    <lastmod>2015-11-19T00:00:00+00:00</lastmod>
+    <lastmod>2014-10-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2038,6 +2100,7 @@
   
   <url>
     <loc>/tags/sna/</loc>
+    <lastmod>2017-08-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2053,6 +2116,7 @@
   
   <url>
     <loc>/tags/science/</loc>
+    <lastmod>2017-09-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2069,11 +2133,13 @@
   
   <url>
     <loc>/tags/second-language-education/</loc>
+    <lastmod>2017-09-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/self-organization/</loc>
+    <lastmod>2017-08-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2095,11 +2161,13 @@
   
   <url>
     <loc>/tags/sna/</loc>
+    <lastmod>2017-08-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/social-annotation/</loc>
+    <lastmod>2017-04-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2127,6 +2195,7 @@
   
   <url>
     <loc>/tags/social-networks/</loc>
+    <lastmod>2017-08-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2147,6 +2216,7 @@
   
   <url>
     <loc>/tags/swarm-intelligence/</loc>
+    <lastmod>2017-04-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2174,6 +2244,7 @@
   
   <url>
     <loc>/tags/temporal/</loc>
+    <lastmod>2017-02-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2185,7 +2256,7 @@
   
   <url>
     <loc>/tags/text-mining/</loc>
-    <lastmod>2013-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2017-01-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2209,6 +2280,7 @@
   
   <url>
     <loc>/tags/two-mode/</loc>
+    <lastmod>2017-06-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2229,6 +2301,7 @@
   
   <url>
     <loc>/tags/vocabulary/</loc>
+    <lastmod>2017-09-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2256,6 +2329,7 @@
   
   <url>
     <loc>/tags/writing/</loc>
+    <lastmod>2017-09-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
