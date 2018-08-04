@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/cn/2018/07/22/ai-basilisk/</loc>
+    <loc>/%E5%8D%9A%E5%AE%A2/ai-basilisk/</loc>
     <lastmod>2018-07-22T00:00:00+00:00</lastmod>
   </url>
   
@@ -58,12 +58,12 @@
   </url>
   
   <url>
-    <loc>/cn/2018/04/01/tianbao/</loc>
+    <loc>/%E5%8D%9A%E5%AE%A2/tianbao/</loc>
     <lastmod>2018-04-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/cn/2018/03/20/trains/</loc>
+    <loc>/%E5%8D%9A%E5%AE%A2/trains/</loc>
     <lastmod>2018-03-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -119,6 +119,11 @@
   
   <url>
     <loc>/blog/2017-03-23-umn-lacop/</loc>
+    <lastmod>2017-03-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2017-03-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -183,7 +188,7 @@
   </url>
   
   <url>
-    <loc>/cn/2014/12/26/%E5%93%B2%E5%AD%A6%E6%80%A7%E7%9A%84%E5%A9%B4%E5%84%BF%E4%B9%8B%E4%BA%8C%E5%9B%A0%E6%9E%9C%E9%93%BE%E6%8E%A5/</loc>
+    <loc>/%E5%8D%9A%E5%AE%A2/2014-12-26-philosophical-baby-2/</loc>
     <lastmod>2014-12-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -198,12 +203,12 @@
   </url>
   
   <url>
-    <loc>/cn/2014/06/04/%E4%BB%B0%E8%A7%86%E7%9A%84%E5%8A%9B%E9%87%8F/</loc>
+    <loc>/%E5%8D%9A%E5%AE%A2/2014-06-04-%E4%BB%B0%E8%A7%86%E7%9A%84%E5%8A%9B%E9%87%8F/</loc>
     <lastmod>2014-06-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/cn/2014/05/27/%E5%93%B2%E5%AD%A6%E6%80%A7%E7%9A%84%E5%A9%B4%E5%84%BF%E4%B8%80%E5%A9%B4%E5%84%BF%E5%B9%B6%E9%9D%9E%E5%BC%B1%E5%BC%B1%E7%9A%84%E4%BA%BA%E7%B1%BB/</loc>
+    <loc>/%E5%8D%9A%E5%AE%A2/2014-05-27-philosophical-baby-1/</loc>
     <lastmod>2014-05-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -278,12 +283,12 @@
   </url>
   
   <url>
-    <loc>/cn/2011/12/04/%E7%9B%9B%E5%AE%B4%E8%BF%98%E6%98%AF%E6%B7%B1%E6%B8%8A%E5%8F%8D%E6%80%9D%E6%95%99%E8%82%B2%E6%8A%80%E6%9C%AF%E7%8E%B0%E7%8A%B6/</loc>
+    <loc>/%E5%8D%9A%E5%AE%A2/2011-12-04-edtech/</loc>
     <lastmod>2011-12-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/cn/2011/11/30/%E4%B8%AD%E5%8E%BF%E5%B9%B2%E9%83%A8-vs.-%E5%AD%A6%E6%9C%AF%E4%BC%A6%E7%90%86/</loc>
+    <loc>/%E5%8D%9A%E5%AE%A2/2011-11-30-zhongxian/</loc>
     <lastmod>2011-11-30T00:00:00+00:00</lastmod>
   </url>
   
@@ -303,7 +308,7 @@
   </url>
   
   <url>
-    <loc>/cn/2010/11/29/%E6%95%99%E8%82%B2%E6%94%B9%E9%9D%A9%E6%88%90%E6%95%88%E7%9A%84%E5%BD%B1%E5%93%8D%E5%9B%A0%E7%B4%A0/</loc>
+    <loc>/%E5%8D%9A%E5%AE%A2/2010-11-29-education-reforms/</loc>
     <lastmod>2010-11-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -313,12 +318,12 @@
   </url>
   
   <url>
-    <loc>/cn/2009/05/12/%E4%BA%94%E6%9C%88%E7%9A%84%E5%A4%A9/</loc>
+    <loc>/%E5%8D%9A%E5%AE%A2/2009-05-12-may/</loc>
     <lastmod>2009-05-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/cn/2006/06/20/%E8%87%AA%E4%B9%A0%E5%AE%A4/</loc>
+    <loc>/%E5%8D%9A%E5%AE%A2/2006-06-20-zixishi/</loc>
     <lastmod>2006-06-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -465,24 +470,18 @@
   
   <url>
     <loc>/tags/china/</loc>
-    <lastmod>2018-04-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/china/</loc>
     <lastmod>2018-04-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/choice-making/</loc>
+    <loc>/tags/china/</loc>
+    <lastmod>2018-04-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/cn/</loc>
-    <lastmod>2018-07-22T00:00:00+00:00</lastmod>
+    <loc>/tags/choice-making/</loc>
     <priority>0</priority>
   </url>
   
@@ -2000,13 +1999,13 @@
   
   <url>
     <loc>/tags/r/</loc>
-    <lastmod>2015-11-19T00:00:00+00:00</lastmod>
+    <lastmod>2014-10-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/r/</loc>
-    <lastmod>2014-10-14T00:00:00+00:00</lastmod>
+    <lastmod>2015-11-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
