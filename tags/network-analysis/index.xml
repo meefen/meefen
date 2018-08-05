@@ -23,6 +23,20 @@ Notes Summarize: This paper presents a case of using multidimensional network an
     </item>
     
     <item>
+      <title>Notes: Snijders2010-ua-Introduction to stochastic actor-based models for network dynamics</title>
+      <link>/notes/2017-09-01-snijders2010-ua/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2017-09-01-snijders2010-ua/</guid>
+      <description>References Citekey: @Snijders2010-ua
+Snijders, T. A. B., van de Bunt, G. G., &amp;amp; Steglich, C. E. G. (2010). Introduction to stochastic actor-based models for network dynamics. Social Networks, 32(1), 44–60. https://doi.org/10.1016/j.socnet.2009.02.004
+Notes Summarize: A such nicely written intro to SIENA. Should be read for more than once.
+Assess:
+Reflect:
+Highlights In this article we give a tutorial introduction to what we call here stochastic actor-based models for network dynamics, which are a type of models that have the purpose to represent net- work dynamics on the basis of observed longitudinal data, and evaluate these according to the paradigm of statistical inference.</description>
+    </item>
+    
+    <item>
       <title>Notes: Zhang2016-ps-Understanding the dynamics of MOOC discussion forums with simulation investigation for empirical network analysis (SIENA)</title>
       <link>/notes/2017-09-01-zhang2016-ps/</link>
       <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
