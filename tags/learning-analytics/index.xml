@@ -1,24 +1,294 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Learning Analytics on Bodong Chen</title>
+    <title>Learning analytics on Bodong Chen</title>
     <link>/tags/learning-analytics/</link>
-    <description>Recent content in Learning Analytics on Bodong Chen</description>
+    <description>Recent content in Learning analytics on Bodong Chen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/learning-analytics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>MOOCs, Open Universities, and Learning Analytics in Asia</title>
-      <link>/blog/2016-11-03-trip-to-asia/</link>
-      <pubDate>Thu, 03 Nov 2016 00:00:00 +0000</pubDate>
+      <title>Considering Time in Education</title>
+      <link>/blog/considering-time/</link>
+      <pubDate>Sun, 15 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/2016-11-03-trip-to-asia/</guid>
-      <description>My October ended with a trip to Asia &amp;ndash; Beijing and Manila this time. Visiting Beijing was like going back to an ever-changing hometown, while visiting Manila (where I&amp;rsquo;ve never been before) was like venturing into a rain forest. Both very exciting!
-MOOCs in China: Research and Practice Three days in Beijing was filled by a busy MOOC conference agenda, working meetings at the X-Learning Center on a MOOC project, and casual exchanges with graduate students at the Graduate School of Education at Peking University.</description>
+      <guid>/blog/considering-time/</guid>
+      <description>(Photo Credit: Luca Florio)
+It was on August 7, 2016 when the call for papers of our Special Section on Temporal Analyses of Learning Data was posted on the Journal of Learning analytics (JLA) website. It was even earlier &amp;ndash; probably around late 2014 &amp;ndash; when Alyssa Wise, Simon Knight, Britte Cheng and I teamed up for the temporality workshop series at the Learning Analytics and Knowledge (LAK) conference. At that time, I was still in Toronto, Alyssa in Vancouver, Simon in the UK, and Britte at SRI.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Suthers2015-vf: From contingencies to network-level phenomena</title>
+      <link>/notes/2017-12-22-suthers2015-vf/</link>
+      <pubDate>Fri, 22 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2017-12-22-suthers2015-vf/</guid>
+      <description>References Citekey: @Suthers2015-vf
+Suthers, D. (2015). From contingencies to network-level phenomena: multilevel analysis of activity and actors in heterogeneous networked learning environments. In Proceedings of the Fifth International Conference on Learning Analytics And Knowledge (pp. 368–377). ACM. https://doi.org/10.1145/2723576.2723626
+Notes Summarize: Introduces the Traces framework coming out of Suthers&amp;rsquo; years of work in CSCL and learning analytics.
+Reflect: This paper and the Traces framework are super relevant to my current thinking on multidimensional network analysis.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Engestrom. (2009). The future of activity theory</title>
+      <link>/notes/2017-04-04-engestrom2009-fq/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2017-04-04-engestrom2009-fq/</guid>
+      <description>References Citekey: @Engestrom2009-fq
+Engeström, Y. (2009). The future of activity theory: A rough draft. Learning and Expanding with Activity Theory, 303–328. Retrieved from https://books.google.com/books?hl=en&amp;amp;lr=&amp;amp;id=pyY5EusnjBcC&amp;amp;oi=fnd&amp;amp;pg=PA303&amp;amp;dq=the+future+of+activity+theory&amp;amp;ots=KRW_JyuHpy&amp;amp;sig=mvpfOxH73y4RFSPYguo4CrM0LDY
+Notes Summarize: A thoughtful piece that explains AT deeply and also explores its neighboring concepts.
+Assess:
+Reflect:
+Highlights Recently Aaro Toomela has published two papers in which he critically assesses the contents and potential of activity theory. The first one is titled ’Activity theory is a dead end for cultural-historical psychology’ (Toomela, 2000), the second one ’Activity theory is a dead end for methodological thinking in cultural psychology too’ (Toomela, 2008).</description>
+    </item>
+    
+    <item>
+      <title>A biased introduction to Learning Analytics: Kicking-off #UMNLACoP</title>
+      <link>/blog/2017-03-23-umn-lacop/</link>
+      <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2017-03-23-umn-lacop/</guid>
+      <description>(Photo Credit: Blue Diamond Gallery)
+Today, we kicked off our Learning Analytics Community of Practice at UMN (#UMNLACoP)! Launching this CoP has been a joint effort among the Center for Educational Innovation, the College of Liberal Arts, the Libraries, and the College of Education and Human Development.
+During today&amp;rsquo;s kick-off event, I spent 15 minutes presenting a quick introduction to the field of Learning Analytics. Below is an audio recording of my presentation.</description>
+    </item>
+    
+    <item>
+      <title>Windchill, and Validity in Learning Analytics</title>
+      <link>/blog/2016-11-14-windchill-learning-analytics/</link>
+      <pubDate>Mon, 14 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2016-11-14-windchill-learning-analytics/</guid>
+      <description>(Photo Credit: Dustin Gaffke)
+Windchill I was listening to a science radio program the other (other) night when the host was talking about &amp;lsquo;windchill being inaccurate,&amp;rsquo; even though many of us have never questioned its accuracy at all. Scientific American has published an article on the same topic, saying:
+ Wind chill is a mathematically derived number that approximates how cold your skin feels&amp;mdash;not how cold your skin actually is.</description>
+    </item>
+    
+    <item>
+      <title>Key Tensions in the Field of Learning Analytics</title>
+      <link>/blog/2016-05-20-learning-analytics-tensions/</link>
+      <pubDate>Fri, 20 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2016-05-20-learning-analytics-tensions/</guid>
+      <description>As the second iteration of my Learning Analytics course concludes at UMN, I thought it might be a good time to reflect on various issues we&amp;rsquo;ve explored in this course and I&amp;rsquo;ve been personally reflecting on.
+Learning analytics is an emerging, highly interdisciplinary field where many disciplines&amp;ndash;such as education, computer science, and engineering&amp;ndash;intersect. Since its first significant scholarly gathering in 2011, learning analytics has been increasingly mentioned in news, technical reports, academic publications, and grant solicitations.</description>
+    </item>
+    
+    <item>
+      <title>CanvasNet: Formative feedback for &#39;social learning&#39; on Canvas</title>
+      <link>/blog/2015-11-19-canvasnet/</link>
+      <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2015-11-19-canvasnet/</guid>
+      <description>I have been teaching an undergraduate course using Canvas this semester. I don&amp;rsquo;t remember how it happened because I&amp;rsquo;m essentially a disbeliever in Learning Management Systems (LMS). I believe one&amp;rsquo;s learning should not be managed. &amp;ldquo;LMS is the minivan of Education,&amp;rdquo; says Phil Hill. Even better, &amp;ldquo;the LMS is more like a bus than a minivan - someone else is driving, it only travels on a pre-arranged route, the bus is often late but you still have to be on time because it won&amp;rsquo;t wait if you miss it&amp;rdquo; &amp;ndash; says Stephen Downes.</description>
+    </item>
+    
+    <item>
+      <title>Make CORDTRA Diagrams with R</title>
+      <link>/blog/2013-07-01-make-cordtra-diagrams-with-r/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2013-07-01-make-cordtra-diagrams-with-r/</guid>
+      <description>CORDTRA (Chronologically-Ordered Representation of Discourse and Tool-Related Activity) is a visualization technique proposed by Cindy Hmelo-Silver (2003) for interpreting collaborative learning processes, based on Luckin et al.&amp;rsquo;s CORDFU (Chronologically-Ordered Representation of Discourse and Features Used). This technique could provide a holistic view of learning processes by making temporal relationship among various types of learning activities visible. By presenting a few interesting case studies, Hmelo-Silver and colleagues (2003, 2008) demonstrate that CORDTRA could provide useful insights about student interactions in computer-supported collaborative learning (CSCL).</description>
+    </item>
+    
+    <item>
+      <title>Notes: Agudo-Peregrina. (2014). Can we predict success from log data in VLEs</title>
+      <link>/notes/2015-11-29-agudo2014/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2015-11-29-agudo2014/</guid>
+      <description>References Citekey: @Agudo2014
+Agudo-Peregrina, Á. F., Iglesias-Pradas, S., Conde-González, M. Á., &amp;amp; Hernández-García, Á. (2014). Can we predict success from log data in VLEs? Classification of interactions for learning analytics and their relation with performance in VLE-supported F2F and online learning. Computers in Human Behavior, 31, 542–550. doi:10.1016/j.chb.2013.05.031
+Notes Highlights The emergence of distance learning fostered a shift towards the decentralization of the learning process, with higher effort put on course structure and content creation (p.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Ali. (2012). A qualitative evaluation of evolution of a learning analytics tool</title>
+      <link>/notes/2015-11-29-ali2012/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2015-11-29-ali2012/</guid>
+      <description>References Citekey: @Ali2012
+Ali, L., Hatala, M., Gašević, D., &amp;amp; Jovanović, J. (2012). A qualitative evaluation of evolution of a learning analytics tool. Computers &amp;amp; Education, 58(1), 470–489. doi:10.1016/j.compedu.2011.08.030
+Notes Highlights In our research, we have been specifically interested in investigating the use of semantic technologies for learning analytics. Semantic technologies can enable meaningful linking of students’ learning activities and their interactions with the learning contents as well as with the other participants of their learning processes.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Andrade, A. (2015). Using Situated-Action Networks to visualize complex learning</title>
+      <link>/notes/2016-04-14-andrade2015using/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2016-04-14-andrade2015using/</guid>
+      <description>References Citekey: @andrade2015using
+Andrade, A. (2015). Using Situated-Action Networks to visualize complex learning. In O. Lindwall, P. Häkkinen, T. Koschmann, P. Tchounikine, &amp;amp; S. Ludvigsen (Eds.), Exploring the Material Conditions of Learning: The Computer Supported Collaborative Learning (CSCL) Conference 2015, Volume 1 (pp. 372–379). Gothenburg, Sweden: International Society of the Learning Sciences.
+Notes This paper introduces a quite interesting analytical technique, named Situated-Action Network, which is theoretically informed by sociocultural learning theories and methodologically grounded in SNA.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Bannert - 2014 - Process mining techniques for analysing patterns and strategies in students’ self-regulated learning</title>
+      <link>/notes/2015-04-01-bannert2014/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2015-04-01-bannert2014/</guid>
+      <description>References Citekey: @Bannert2014
+Bannert, M., Reimann, P., &amp;amp; Sonnenberg, C. (2014). Process mining techniques for analysing patterns and strategies in students’ self-regulated learning. Metacognition and Learning, 9, 161–185. doi:10.1007/s11409-013-9107-6
+Notes A nice article applying Process Mining (PM) on the study of self-regulated learning. Starting from discussing the importance of studying temporal and sequential information in self-regulated learning, this article moves on to introduce the key ideas of PM. Then it illustrates the application of PM, using a software called ProM v5, to study a group of students&amp;rsquo; learning in a hypermedia environment.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Clow, D. (2013). An overview of learning analytics</title>
+      <link>/notes/2015-12-01-clow2013/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2015-12-01-clow2013/</guid>
+      <description>References Citekey: @Clow2013
+Clow, D. (2013). An overview of learning analytics. Teaching in Higher Education, 18(6), 683–695. doi:10.1080&amp;frasl;13562517.2013.827653
+Notes Highlights It is rooted in the dramatic increase in the quantity of data about learners and linked to management approaches that focus on quantitative metrics, which are sometimes antithetical to an educational sense of teaching. (p. 1)
+It argues that teachers can and should engage with learning analytics as a way of influencing the metrics agenda towards richer conceptions of learning and to improve their teaching.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Dawson, S. (2010). “Seeing” the learning community</title>
+      <link>/notes/2016-04-13-dawson2010a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2016-04-13-dawson2010a/</guid>
+      <description>References Citekey: @Dawson2010a
+Dawson, S. (2010). “Seeing” the learning community: An exploration of the development of a resource for monitoring online student networking. British Journal of Educational Technology, 41(5), 736–752. doi:10.1111/j.1467-8535.2009.00970.x
+Notes Another great article by Shane Dawson, which sports a very well-written intro and discussion. The SNA analysis conducted in this study is different from those in SNAPP studies, emphasizing ego-centric networks of high- vs. low-performing students in a large lecture (N &amp;gt; 1000).</description>
+    </item>
+    
+    <item>
+      <title>Notes: Dawson. (2010). SNAPP</title>
+      <link>/notes/2016-04-13-dawson2010/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2016-04-13-dawson2010/</guid>
+      <description>References Citekey: @Dawson2010
+Dawson, S., Bakharia, A., &amp;amp; Heathcote, E. (2010). SNAPP: Realising the affordances of real-time SNA within networked learning environments. In Proceedings of the 7th International Conference on Networked Learning (pp. 125–133).
+Notes This paper introduces SNAPP, a real-time SNA tool integrated with multiple widely used LMS. The paper explains motivation of designing this tool, multiple design principles of this tool, and its main usefulness (uncovering facilitator centric patterns and identifying isolators).</description>
+    </item>
+    
+    <item>
+      <title>Notes: LAe-R</title>
+      <link>/notes/2014-08-29-petropoulou2014lae/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2014-08-29-petropoulou2014lae/</guid>
+      <description>References Citekey: @petropoulou2014lae
+Petropoulou, O., Kasimatis, K., Dimopoulos, I., and Retalis, S. (2014). Lae-r: A new learning analytics tool in moodle for assessing students’ performance. Bulletin of the IEEE Technical Committee on Learning Technology, 16(1):1.
+Notes The short paper introduces Learning Analytics Enriched Rubric (LAe-R), an assessment plugin in Moodle. One unique thing about this tool is it allows the teacher to create rubrics by themselves and map aspects of learning with specific activities in Moodle.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Macfadyen. (2012). Numbers are not enough</title>
+      <link>/notes/2015-12-06-macfadyen2012/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2015-12-06-macfadyen2012/</guid>
+      <description>References Citekey: @Macfadyen2012
+Macfadyen, L., &amp;amp; Dawson, S. (2012). Numbers are not enough. Why e-learning analytics failed to inform an institutional strategic plan. Journal of Educational Technology &amp;amp; Society, 15(3), 149–163.
+Notes Highlights institutional level; academic analytics: Instead, the best institutional predictors of educational gain are “measures of educational process: what institutions do with their resources to make the most of whatever students they have” (Gibbs, 2010, p. 2). To investigate the impact, a longitudinal participant observation process (Douglas, 1976).</description>
+    </item>
+    
+    <item>
+      <title>Notes: Mazza, R., &amp; Botturi, L. (2007). Monitoring an Online Course with the GISMO Tool</title>
+      <link>/notes/2016-04-12-mazza2007/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2016-04-12-mazza2007/</guid>
+      <description>References Citekey: @Mazza2007
+Mazza, R., &amp;amp; Botturi, L. (2007). Monitoring an Online Course with the GISMO Tool: A Case Study. Journal of Interactive Learning Research, 18(2), 251–265. Retrieved from http://www.editlib.org/?fuseaction=Reader.ViewFullText&amp;amp;paper_id=30472#page=100
+Notes This paper introduces GISMO, an interesting visual analytics tool integrated into Moodle to support monitoring of learning activities. Activities tracked by GISMO are mostly behavioral (e.g., accessing course materials and posting/reading forum posts). By turning data into a range of (simple) visualizations GISMO could help the instructor (it&amp;rsquo;s only accessible to instructors) monitor students and find areas of the course to be redesigned.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Mazza, R., &amp; Dimitrova, V. (2007). CourseVis</title>
+      <link>/notes/2016-04-12-mazza2007a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2016-04-12-mazza2007a/</guid>
+      <description>References Citekey: @Mazza2007a
+Mazza, R., &amp;amp; Dimitrova, V. (2007). CourseVis: A graphical student monitoring tool for supporting instructors in web-based distance courses. International Journal of Human-Computer Studies, 65(2), 125–139. doi:10.1016/j.ijhcs.2006.08.008
+Notes This paper introduces CoruseVis, a visual learning analytics system designed for WebCT. The design of CourseVis draws heavily from Information Visualization principles and (loosely) map with three identified aspects of learning, namely cognitive, social, and behavioral. A large portion of this paper reports on an evaluation study about the effectiveness, efficiency, and usefulness of CourseVis among instructors.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Predicting mooc dropout over weeks using machine learning methods</title>
+      <link>/notes/2014-09-11-kloft14predicting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2014-09-11-kloft14predicting/</guid>
+      <description>References Citekey: @kloftpredicting
+Kloft, M., Stiehler, F., Zheng, Z., and Pinkwart, N. (2014). Predicting mooc dropout over weeks using machine learning methods. In Modeling Large Scale Social Interaction in Massively Open Online Courses Workshop (EMNLP 2014).
+Notes A potentially useful paper. The element of using historical features to predict dropouts is useful. It also built and tested a number of features for predicting dropouts. But the value of predicting dropouts in later weeks of a MOOC is limited.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Rose-2016-Technology Support for Discussion Based Learning</title>
+      <link>/notes/2016-10-14-rose2016-rs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2016-10-14-rose2016-rs/</guid>
+      <description>References Citekey: @Rose2016-rs
+Rosé, C. P., &amp;amp; Ferschke, O. (2016). Technology Support for Discussion Based Learning: From Computer Supported Collaborative Learning to the Future of Massive Open Online Courses. International Journal of Artificial Intelligence in Education, 26(2), 660–678.
+Notes Summarize:
+Assess:
+Reflect:
+Highlights Thisarticleoffersavisionfortechnologysupportedcollaborativeanddiscussionbased learning at scale. (p. 660)
+In particular, this support has been enabled by an integration of text mining and conversational agents to form a novel type of micro-script support for productive discussion processes.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Shum - 2012 - UNESCO Policy Brief: Learning Analytics</title>
+      <link>/notes/2015-01-14-shum2012a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2015-01-14-shum2012a/</guid>
+      <description>References Citekey: @Shum2012a
+Shum SB (2012). “UNESCO Policy Brief: Learning Analytics.” Technical Report November, UNESCO Institute for Information Technologies in Education. .
+Notes Highlights The emerging conversaon goes far beyond technologists (academic and commercial), to include researchers in educaon, leaders and policymakers, educaonal praconers, organisaonal administrators, instruconal designers, product vendors, and crically, the learners themselves (who are oen the first adopters of new cloud applicaons, many of which make data available, and who are the primary consumers of certain kinds of learning analyc).</description>
+    </item>
+    
+    <item>
+      <title>Notes: Shum. (2012). Social learning analytics</title>
+      <link>/notes/2015-11-17-shum2012b/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2015-11-17-shum2012b/</guid>
+      <description>References Citekey: @Shum2012b
+Shum, S. B., &amp;amp; Ferguson, R. (2012). Social learning analytics. Educational Technology and Society, 15(3), 3–26.
+Notes Highlights Learning analytics has its roots in two computing endeavours not specifically concerned with learning, but rather with strong business imperatives to understand internal organisational data, and external consumer behaviour. (p. 1)
+Educational Data Mining (EDM) “an emerging discipline, concerned with developing methods for exploring the unique types of data that come from educational settings, and using those methods to better understand students, and the settings which they learn in” (Baker &amp;amp; Yacef, 2009).</description>
+    </item>
+    
+    <item>
+      <title>Notes: Slade. (2013). Learning analytics: Ethical issues and dilemmas</title>
+      <link>/notes/2015-11-29-oblinger2012let/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2015-11-29-oblinger2012let/</guid>
+      <description>References Citekey: @slade2013learning
+Slade, S., &amp;amp; Prinsloo, P. (2013). Learning analytics: Ethical issues and dilemmas. American Behavioral Scientist, 57(10), 1510–1529. doi:10.1177&amp;frasl;0002764213479366
+Notes Highlights This article proposes a sociocritical perspective on the use of learning analytics. Such an approach highlights the role of power, the impact of surveillance, the need for transparency, and an acknowledgment that student identity is a transient, temporal, and context-bound construct. Each of these affects the scope and definition of learning analytics’ ethical use.</description>
+    </item>
+    
+    <item>
+      <title>Notes: Smith. (2012). Predictive Modeling to Forecast Student Outcomes and Drive Effective Interventions in Online Community College Courses</title>
+      <link>/notes/2015-12-01-smith2012predictive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/2015-12-01-smith2012predictive/</guid>
+      <description>References Citekey: @smith2012predictive
+Smith, V. C., Lange, A., &amp;amp; Huston, D. R. (2012). Predictive Modeling to Forecast Student Outcomes and Drive Effective Interventions in Online Community College Courses. Journal of Asynchronous Learning Networks, 16(3), 51–61.
+Notes Highlights This is a case study from a community college utilizing learning analytics and the development of predictive models to identify at-risk students based on dozens of key variables. (p. 1)
+The recent demands for increased student success efforts, most notably from the American Graduation Initiative [1], have come as colleges are facing limited funding and resources.</description>
     </item>
     
   </channel>
