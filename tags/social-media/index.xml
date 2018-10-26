@@ -1,90 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Social media on Bodong Chen</title>
-    <link>/tags/social-media/</link>
-    <description>Recent content in Social media on Bodong Chen</description>
+    <title>social media on Bodong Chen</title>
+    <link>https://meefen.github.io/tags/social-media/</link>
+    <description>Recent content in social media on Bodong Chen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>&amp;copy; 2018 Bodong Chen</copyright>
     <lastBuildDate>Mon, 10 Apr 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/social-media/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://meefen.github.io/tags/social-media/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Graphing the Reddit Place Sensation with Neo4j</title>
-      <link>/blog/2017-04-10-graphing-reddit-place/</link>
+      <link>https://meefen.github.io/post/2017-04-10-graphing-reddit-place/</link>
       <pubDate>Mon, 10 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>/blog/2017-04-10-graphing-reddit-place/</guid>
+      <guid>https://meefen.github.io/post/2017-04-10-graphing-reddit-place/</guid>
       <description>I&amp;rsquo;ver never liked the April Fool&amp;rsquo;s Day, until this year when Reddit decided to launch a social experiment called Reddit Place.
 The idea is simple. The whole world &amp;ndash; or all Reddit users &amp;ndash; were given a 999 x 999 blank canvas to draw on. Some simple rules apply:
  Each user could choose one pixel from 16 colors to place anywhere on the canvas. They could place as many pixels of as many colors as they wanted, but they had to wait a few minutes between placing each one.</description>
-    </item>
-    
-    <item>
-      <title>MongoDB &#43; Java &#43; R = A handy toolbox for archiving and analyzing Twitter data</title>
-      <link>/blog/2013-12-09-mongodb-java-r-a-handy-toolbox-for-archiving-and-analyzing-twitter-data/</link>
-      <pubDate>Mon, 09 Dec 2013 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/2013-12-09-mongodb-java-r-a-handy-toolbox-for-archiving-and-analyzing-twitter-data/</guid>
-      <description>I&amp;rsquo;ve been using Martin Hawksey&amp;rsquo;s brilliant Google Spreadsheet TAGS for archiving Twitter data for y-e-a-r-s. It works very well, and allowed me to develop little R toys like twitterytics-shiny to interactively explore Twitter archives.
-However, I have a few complains. First, Twitter API authentication needs to be set up for each archive. The task which require a few steps in Google Spreadsheet is not trivial. Second, I often ended up getting hundreds or even thousands of duplicates that may cause the file size to exceed Google Spreadsheet&amp;rsquo;s size limit.</description>
-    </item>
-    
-    <item>
-      <title>&#34;Overview&#34; of #AERA2012 Tweets</title>
-      <link>/blog/2012-04-16-overview-of-aera2012-tweets/</link>
-      <pubDate>Mon, 16 Apr 2012 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/2012-04-16-overview-of-aera2012-tweets/</guid>
-      <description>The AERA Annual Meeting is probably the largest getting-together of educational researchers and practitioners around the world. This year it has around 13,000 participants. Several hundreds of them are taking advantage of Twitter as a &#34;backchannel&#34; for communication at this conference. On Twitter, hashtags are usually used to easily aggregate tweets of a same topic together. This year, three hashtags, i.e. #AERA2012, #AERA, and #AERA12, are used, and #AERA2012 is the most popular one.</description>
-    </item>
-    
-    <item>
-      <title>Notes: Gruzd - 2013 - Enabling community through social media</title>
-      <link>/notes/2015-03-30-gruzd2013/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/notes/2015-03-30-gruzd2013/</guid>
-      <description>References Citekey: @Gruzd2013
-Gruzd, A., &amp;amp; Haythornthwaite, C. (2013). Enabling community through social media. Journal of Medical Internet Research, 15(10). doi:10.2196/jmir.2796
-Notes Highlights Pescosolido [19] has suggested that a network-centered view of health, based on social network principles, can act as a bridge between medical sciences and individual health experience. Her ideas respond to an increasing recognition of the impact of connectivity and experience: “The individual is seen as embedded in an ongoing relational dynamic with sequences of events seen as patterned, contingent and emergent” (p.</description>
-    </item>
-    
-    <item>
-      <title>Notes: Lee. (2016). Social network analysis of peer relationships and online interactions in a blended class using blogs</title>
-      <link>/notes/2016-08-24-lee2016-ys/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/notes/2016-08-24-lee2016-ys/</guid>
-      <description>References Citekey: @Lee2016-ys
-Lee, J., &amp;amp; Bonk, C. J. (2016). Social network analysis of peer relationships and online interactions in a blended class using blogs. The Internet and Higher Education, 28, 35–44.
-Notes An interesting study exploring the relationships between perceived closeness between students and their actual interactions on blogs. Some explanations of SNA are questionable, so are the interpretation of several SNA results. For instance, comparisons of network measures over time should come after an explicit explanation of network construction (e.</description>
-    </item>
-    
-    <item>
-      <title>Notes: Van Noorden. (2014). Online collaboration: Scientists and the social network</title>
-      <link>/notes/2016-06-28-vannoorden2014/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/notes/2016-06-28-vannoorden2014/</guid>
-      <description>References Citekey: @VanNoorden2014
-Van Noorden, R. (2014). Online collaboration: Scientists and the social network. Nature, 512(7513), 126–129. doi:10.1038/512126a
-Notes A brief commentary on the use of social media (esp. ResearchGate) by academics.
-Highlights Ijad Madisch, a Berlin-based former physician and virologist, tells this story as just one example of the successes of ResearchGate, which he founded with two friends six years ago. (p. 126)
-The list of failed efforts to launch a ‘Facebook for science’ included Scientist Solutions, SciLinks, Epernicus, 2collab and Nature Network (run by the company that publishes Nature).</description>
-    </item>
-    
-    <item>
-      <title>Notes: Zheng. (2016). The role of social media in MOOCs</title>
-      <link>/notes/2016-06-28-zheng2016/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/notes/2016-06-28-zheng2016/</guid>
-      <description>References Citekey: @Zheng2016
-Zheng, S., Han, K., Rosson, M. B., &amp;amp; Carroll, J. M. (2016). The role of social media in MOOCs. In Proceedings of the Third (2016) ACM Conference on Learning @ Scale - L@S ’16 (pp. 419–428). New York, New York, USA: ACM Press. doi:10.1145&amp;frasl;2876034.2876047
-Notes A nice paper investigating social media (more specifically Facebook groups) in three MOOCs. The key findings include that FB is a better place for social engagement, and students feel more connected, behave better, and interact more in FB.</description>
     </item>
     
   </channel>

@@ -2,39 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Bodong Chen</title>
-    <link>/categories/</link>
+    <link>https://meefen.github.io/categories/</link>
     <description>Recent content in Categories on Bodong Chen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <copyright>&amp;copy; 2018 Bodong Chen</copyright>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://meefen.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Blog</title>
-      <link>/categories/blog/</link>
-      <pubDate>Wed, 18 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/blog/</guid>
-      <description></description>
-    </item>
     
     <item>
-      <title>Notes</title>
-      <link>/categories/notes/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate>
+      <title>blog</title>
+      <link>https://meefen.github.io/categories/blog/</link>
+      <pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/categories/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Zh</title>
-      <link>/categories/zh/</link>
-      <pubDate>Sun, 22 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/zh/</guid>
+      <guid>https://meefen.github.io/categories/blog/</guid>
       <description></description>
     </item>
     

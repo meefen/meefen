@@ -1,35 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Higher education on Bodong Chen</title>
-    <link>/tags/higher-education/</link>
-    <description>Recent content in Higher education on Bodong Chen</description>
+    <title>Higher Education on Bodong Chen</title>
+    <link>https://meefen.github.io/tags/higher-education/</link>
+    <description>Recent content in Higher Education on Bodong Chen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>&amp;copy; 2018 Bodong Chen</copyright>
+    <lastBuildDate>Thu, 25 Jan 2018 00:00:00 -0600</lastBuildDate>
     
-	<atom:link href="/tags/higher-education/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://meefen.github.io/tags/higher-education/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Notes: Lee. (2016). Social network analysis of peer relationships and online interactions in a blended class using blogs</title>
-      <link>/notes/2016-08-24-lee2016-ys/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Fostering student engagement in online discussion through social learning analytics</title>
+      <link>https://meefen.github.io/publication/chen2018-mc/</link>
+      <pubDate>Thu, 25 Jan 2018 00:00:00 -0600</pubDate>
       
-      <guid>/notes/2016-08-24-lee2016-ys/</guid>
-      <description>References Citekey: @Lee2016-ys
-Lee, J., &amp;amp; Bonk, C. J. (2016). Social network analysis of peer relationships and online interactions in a blended class using blogs. The Internet and Higher Education, 28, 35–44.
-Notes An interesting study exploring the relationships between perceived closeness between students and their actual interactions on blogs. Some explanations of SNA are questionable, so are the interpretation of several SNA results. For instance, comparisons of network measures over time should come after an explicit explanation of network construction (e.</description>
+      <guid>https://meefen.github.io/publication/chen2018-mc/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Notes: Macfadyen. (2012). Numbers are not enough</title>
-      <link>/notes/2015-12-06-macfadyen2012/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Adaptive Learning</title>
+      <link>https://meefen.github.io/project/adaptive-learning/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/notes/2015-12-06-macfadyen2012/</guid>
-      <description>References Citekey: @Macfadyen2012
-Macfadyen, L., &amp;amp; Dawson, S. (2012). Numbers are not enough. Why e-learning analytics failed to inform an institutional strategic plan. Journal of Educational Technology &amp;amp; Society, 15(3), 149–163.
-Notes Highlights institutional level; academic analytics: Instead, the best institutional predictors of educational gain are “measures of educational process: what institutions do with their resources to make the most of whatever students they have” (Gibbs, 2010, p. 2). To investigate the impact, a longitudinal participant observation process (Douglas, 1976).</description>
+      <guid>https://meefen.github.io/project/adaptive-learning/</guid>
+      <description>The purpose of this research project is to find better learning and instructional practices utilizing an adaptive learning environment focused on 1000-level chemistry courses. The study is looking to predict outcomes and develop interventions based on student learning behaviors.</description>
     </item>
     
   </channel>

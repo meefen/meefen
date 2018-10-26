@@ -1,33 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Openness on Bodong Chen</title>
-    <link>/tags/openness/</link>
-    <description>Recent content in Openness on Bodong Chen</description>
+    <title>openness on Bodong Chen</title>
+    <link>https://meefen.github.io/tags/openness/</link>
+    <description>Recent content in openness on Bodong Chen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <copyright>&amp;copy; 2018 Bodong Chen</copyright>
+    <lastBuildDate>Wed, 18 Jul 2018 00:00:00 -0500</lastBuildDate>
     
-	<atom:link href="/tags/openness/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://meefen.github.io/tags/openness/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>An Ongoing Experiment: Public Scholarly Annotation</title>
-      <link>/blog/2018-07-public-scholarly-annotation/</link>
-      <pubDate>Wed, 18 Jul 2018 00:00:00 +0000</pubDate>
+      <link>https://meefen.github.io/post/2018-07-public-scholarly-annotation/</link>
+      <pubDate>Wed, 18 Jul 2018 00:00:00 -0500</pubDate>
       
-      <guid>/blog/2018-07-public-scholarly-annotation/</guid>
+      <guid>https://meefen.github.io/post/2018-07-public-scholarly-annotation/</guid>
       <description>Background stories I value Open Scholarship and have been practicing it for years &amp;ndash; both in terms of doing it and learning to do it. Stian Haklev, an OER and Open Access champion, introduced me to this idea. He built a wiki-based workflow system, named researchr, and convinced a few OISE friends, including Cresencia Fong and Alisa Acosta, to share our annotations publicly, in a well-organized manner. For us, the benefits of using researchr are obvious: the system scaffolds the scholarly process of reading and annotating articles, as well as summarizing and organizing our notes.</description>
-    </item>
-    
-    <item>
-      <title>MOOCs, Open Universities, and Learning Analytics in Asia</title>
-      <link>/blog/2016-11-03-trip-to-asia/</link>
-      <pubDate>Thu, 03 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/2016-11-03-trip-to-asia/</guid>
-      <description>My October ended with a trip to Asia &amp;ndash; Beijing and Manila this time. Visiting Beijing was like going back to an ever-changing hometown, while visiting Manila (where I&amp;rsquo;ve never been before) was like venturing into a rain forest. Both very exciting!
-MOOCs in China: Research and Practice Three days in Beijing was filled by a busy MOOC conference agenda, working meetings at the X-Learning Center on a MOOC project, and casual exchanges with graduate students at the Graduate School of Education at Peking University.</description>
     </item>
     
   </channel>

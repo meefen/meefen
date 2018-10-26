@@ -1,33 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Oer on Bodong Chen</title>
-    <link>/tags/oer/</link>
-    <description>Recent content in Oer on Bodong Chen</description>
+    <title>oer on Bodong Chen</title>
+    <link>https://meefen.github.io/tags/oer/</link>
+    <description>Recent content in oer on Bodong Chen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>&amp;copy; 2018 Bodong Chen</copyright>
     <lastBuildDate>Tue, 24 Apr 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/oer/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://meefen.github.io/tags/oer/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Open Textbooks and Open Educational Practices</title>
-      <link>/blog/2018-04-24-open-textbooks/</link>
+      <link>https://meefen.github.io/post/2018-04-24-open-textbooks/</link>
       <pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/2018-04-24-open-textbooks/</guid>
+      <guid>https://meefen.github.io/post/2018-04-24-open-textbooks/</guid>
       <description>I was included in an MN Daily story about open textbooks last week. It was actually a bit embarrassing as I thought a few other colleagues would ‘co-star’ with me in this story because there are exciting work on open textbooks and affordable content going on at UMN.
 University of Minnesota professors use their free time to write free textbooks: https://t.co/iCgMCxC3qf @mndailynews @bod0ng @dernst @UMNews #UMNproud #CEHD Learn more: https://t.</description>
-    </item>
-    
-    <item>
-      <title>Integrating Knowledge Building with Open Educational Resources</title>
-      <link>/blog/2010-12-24-integrate-knowledge-building-with-learning-in-open-educational-resources/</link>
-      <pubDate>Fri, 24 Dec 2010 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/2010-12-24-integrate-knowledge-building-with-learning-in-open-educational-resources/</guid>
-      <description>Open Educational Resources Inspired by the MIT OpenCourseWare (OCW) which was launched in 2002, the open educational resources (OER) movement, which strives to “champion the sharing of knowledge worldwide to increase human intellectual capacity,” has rapidly expanded throughout the world and is becoming increasingly powerful in the era of knowledge creation and lifelong learning. Most OER projects to date have been concentrated on making quality educational content openly and freely accessible on the Internet.</description>
     </item>
     
   </channel>

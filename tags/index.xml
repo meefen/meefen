@@ -2,1722 +2,265 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Bodong Chen</title>
-    <link>/tags/</link>
+    <link>https://meefen.github.io/tags/</link>
     <description>Recent content in Tags on Bodong Chen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <copyright>&amp;copy; 2018 Bodong Chen</copyright>
+    <lastBuildDate>Fri, 26 Oct 2018 15:42:17 -0500</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://meefen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Academia</title>
-      <link>/tags/academia/</link>
-      <pubDate>Wed, 18 Jul 2018 00:00:00 +0000</pubDate>
+      <title>Design-Based Research</title>
+      <link>https://meefen.github.io/tags/design-based-research/</link>
+      <pubDate>Fri, 26 Oct 2018 15:42:17 -0500</pubDate>
       
-      <guid>/tags/academia/</guid>
+      <guid>https://meefen.github.io/tags/design-based-research/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Academic life</title>
-      <link>/tags/academic-life/</link>
-      <pubDate>Tue, 09 Mar 2010 00:00:00 +0000</pubDate>
+      <title>Higher Education</title>
+      <link>https://meefen.github.io/tags/higher-education/</link>
+      <pubDate>Thu, 25 Jan 2018 00:00:00 -0600</pubDate>
       
-      <guid>/tags/academic-life/</guid>
+      <guid>https://meefen.github.io/tags/higher-education/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Achievement gap</title>
-      <link>/tags/achievement-gap/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>K-12</title>
+      <link>https://meefen.github.io/tags/k-12/</link>
+      <pubDate>Fri, 26 Oct 2018 15:42:17 -0500</pubDate>
       
-      <guid>/tags/achievement-gap/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Activity theory</title>
-      <link>/tags/activity-theory/</link>
-      <pubDate>Thu, 10 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/activity-theory/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Adaptive learning</title>
-      <link>/tags/adaptive-learning/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/adaptive-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Adult education</title>
-      <link>/tags/adult-education/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/adult-education/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Advanced SNA</title>
-      <link>/tags/advanced-sna/</link>
-      <pubDate>Sat, 12 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/advanced-sna/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Agent-based modeling</title>
-      <link>/tags/agent-based-modeling/</link>
-      <pubDate>Thu, 15 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/agent-based-modeling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Algorithm</title>
-      <link>/tags/algorithm/</link>
-      <pubDate>Sun, 22 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/algorithm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Analytics</title>
-      <link>/tags/analytics/</link>
-      <pubDate>Sat, 02 May 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/analytics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Annotation</title>
-      <link>/tags/annotation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/annotation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Argumentation</title>
-      <link>/tags/argumentation/</link>
-      <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/argumentation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Artificial intelligence</title>
-      <link>/tags/artificial-intelligence/</link>
-      <pubDate>Sun, 22 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/artificial-intelligence/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Assessment</title>
-      <link>/tags/assessment/</link>
-      <pubDate>Mon, 14 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/assessment/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Attitude</title>
-      <link>/tags/attitude/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/attitude/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Autism</title>
-      <link>/tags/autism/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/autism/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Automation</title>
-      <link>/tags/automation/</link>
-      <pubDate>Mon, 24 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/automation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Baby</title>
-      <link>/tags/baby/</link>
-      <pubDate>Fri, 26 Dec 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/baby/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bibliometrics</title>
-      <link>/tags/bibliometrics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/bibliometrics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Big data</title>
-      <link>/tags/big-data/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/big-data/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CSCL</title>
-      <link>/tags/cscl/</link>
-      <pubDate>Fri, 18 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/cscl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Canada</title>
-      <link>/tags/canada/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/canada/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Case study</title>
-      <link>/tags/case-study/</link>
-      <pubDate>Fri, 18 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/case-study/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>China</title>
-      <link>/tags/china/</link>
-      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/china/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>China</title>
-      <link>/tags/china/</link>
-      <pubDate>Sat, 07 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/china/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Choice making</title>
-      <link>/tags/choice-making/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/choice-making/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Coauthorship</title>
-      <link>/tags/coauthorship/</link>
-      <pubDate>Mon, 14 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/coauthorship/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Collaboration</title>
-      <link>/tags/collaboration/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/collaboration/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Collaborative learning</title>
-      <link>/tags/collaborative-learning/</link>
-      <pubDate>Tue, 03 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/collaborative-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Community</title>
-      <link>/tags/community/</link>
-      <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/community/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Computation</title>
-      <link>/tags/computation/</link>
-      <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/computation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Computational thinking</title>
-      <link>/tags/computational-thinking/</link>
-      <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/computational-thinking/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Conceptual change</title>
-      <link>/tags/conceptual-change/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/conceptual-change/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Constructivism</title>
-      <link>/tags/constructivism/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/constructivism/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Continuing education</title>
-      <link>/tags/continuing-education/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/continuing-education/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Correlation</title>
-      <link>/tags/correlation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/correlation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cscl</title>
-      <link>/tags/cscl/</link>
-      <pubDate>Fri, 18 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/cscl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cultural</title>
-      <link>/tags/cultural/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/cultural/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Culture</title>
-      <link>/tags/culture/</link>
-      <pubDate>Sat, 07 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/culture/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Curriculum</title>
-      <link>/tags/curriculum/</link>
-      <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/curriculum/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Data analysis</title>
-      <link>/tags/data-analysis/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/data-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Data literacy</title>
-      <link>/tags/data-literacy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/data-literacy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Data mining</title>
-      <link>/tags/data-mining/</link>
-      <pubDate>Tue, 14 Oct 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/data-mining/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Data sharing</title>
-      <link>/tags/data-sharing/</link>
-      <pubDate>Thu, 27 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/data-sharing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Data visualization</title>
-      <link>/tags/data-visualization/</link>
-      <pubDate>Wed, 03 Apr 2013 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/data-visualization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Design research</title>
-      <link>/tags/design-research/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/design-research/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Digital learning</title>
-      <link>/tags/digital-learning/</link>
-      <pubDate>Mon, 31 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/digital-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Digital literacy</title>
-      <link>/tags/digital-literacy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/digital-literacy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Distributed cognition</title>
-      <link>/tags/distributed-cognition/</link>
-      <pubDate>Fri, 24 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/distributed-cognition/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Doctoral training</title>
-      <link>/tags/doctoral-training/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/doctoral-training/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>E-learning</title>
-      <link>/tags/e-learning/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/e-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Edtech</title>
-      <link>/tags/edtech/</link>
-      <pubDate>Mon, 31 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/edtech/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Education</title>
-      <link>/tags/education/</link>
-      <pubDate>Fri, 24 Dec 2010 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/education/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Educational data mining</title>
-      <link>/tags/educational-data-mining/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/educational-data-mining/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Educational games</title>
-      <link>/tags/educational-games/</link>
-      <pubDate>Fri, 18 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/educational-games/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Engagement</title>
-      <link>/tags/engagement/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/engagement/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Epistemic beliefs</title>
-      <link>/tags/epistemic-beliefs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/epistemic-beliefs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Epistemology</title>
-      <link>/tags/epistemology/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/epistemology/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Equity</title>
-      <link>/tags/equity/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/equity/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ethics</title>
-      <link>/tags/ethics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/ethics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Evaluation</title>
-      <link>/tags/evaluation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/evaluation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Expansive learning</title>
-      <link>/tags/expansive-learning/</link>
-      <pubDate>Thu, 10 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/expansive-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Experimental design</title>
-      <link>/tags/experimental-design/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/experimental-design/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Expertise</title>
-      <link>/tags/expertise/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/expertise/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Featured</title>
-      <link>/tags/featured/</link>
-      <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/featured/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Feedback</title>
-      <link>/tags/feedback/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/feedback/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Formative assessment</title>
-      <link>/tags/formative-assessment/</link>
-      <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/formative-assessment/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Frequent sequence mining</title>
-      <link>/tags/frequent-sequence-mining/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/frequent-sequence-mining/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Game-based learning</title>
-      <link>/tags/game-based-learning/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/game-based-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Games</title>
-      <link>/tags/games/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/games/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>General education</title>
-      <link>/tags/general-education/</link>
-      <pubDate>Mon, 24 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/general-education/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Graph database</title>
-      <link>/tags/graph-database/</link>
-      <pubDate>Mon, 10 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/graph-database/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hci</title>
-      <link>/tags/hci/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/hci/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Higher education</title>
-      <link>/tags/higher-education/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/higher-education/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>History</title>
-      <link>/tags/history/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/history/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Innovation</title>
-      <link>/tags/innovation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/innovation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Inquiry learning</title>
-      <link>/tags/inquiry-learning/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/inquiry-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Institutional capacity</title>
-      <link>/tags/institutional-capacity/</link>
-      <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/institutional-capacity/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Instrument</title>
-      <link>/tags/instrument/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/instrument/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Intervention</title>
-      <link>/tags/intervention/</link>
-      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/intervention/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Intuition</title>
-      <link>/tags/intuition/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/intuition/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Japan</title>
-      <link>/tags/japan/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/japan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Job search</title>
-      <link>/tags/job-search/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/job-search/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Knowledge building</title>
-      <link>/tags/knowledge-building/</link>
-      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/knowledge-building/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Knowledge creation</title>
-      <link>/tags/knowledge-creation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/knowledge-creation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Knowledge forum</title>
-      <link>/tags/knowledge-forum/</link>
-      <pubDate>Mon, 11 Mar 2013 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/knowledge-forum/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>LMS</title>
-      <link>/tags/lms/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/lms/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Learning</title>
-      <link>/tags/learning/</link>
-      <pubDate>Fri, 24 Dec 2010 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/learning/</guid>
+      <guid>https://meefen.github.io/tags/k-12/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learning Analytics</title>
-      <link>/tags/learning-analytics/</link>
-      <pubDate>Thu, 03 Nov 2016 00:00:00 +0000</pubDate>
+      <link>https://meefen.github.io/tags/learning-analytics/</link>
+      <pubDate>Thu, 25 Jan 2018 00:00:00 -0600</pubDate>
       
-      <guid>/tags/learning-analytics/</guid>
+      <guid>https://meefen.github.io/tags/learning-analytics/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Learning analytics</title>
-      <link>/tags/learning-analytics/</link>
-      <pubDate>Sun, 15 Apr 2018 00:00:00 +0000</pubDate>
+      <title>Learning Sciences</title>
+      <link>https://meefen.github.io/tags/learning-sciences/</link>
+      <pubDate>Fri, 26 Oct 2018 15:42:17 -0500</pubDate>
       
-      <guid>/tags/learning-analytics/</guid>
+      <guid>https://meefen.github.io/tags/learning-sciences/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Learning analytics, pedagogy, learning design</title>
-      <link>/tags/learning-analytics-pedagogy-learning-design/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>academia</title>
+      <link>https://meefen.github.io/tags/academia/</link>
+      <pubDate>Wed, 18 Jul 2018 00:00:00 -0500</pubDate>
       
-      <guid>/tags/learning-analytics-pedagogy-learning-design/</guid>
+      <guid>https://meefen.github.io/tags/academia/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Learning attitude</title>
-      <link>/tags/learning-attitude/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>automation</title>
+      <link>https://meefen.github.io/tags/automation/</link>
+      <pubDate>Mon, 24 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/learning-attitude/</guid>
+      <guid>https://meefen.github.io/tags/automation/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Learning community</title>
-      <link>/tags/learning-community/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>china</title>
+      <link>https://meefen.github.io/tags/china/</link>
+      <pubDate>Sat, 07 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/learning-community/</guid>
+      <guid>https://meefen.github.io/tags/china/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Learning sciences</title>
-      <link>/tags/learning-sciences/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>community</title>
+      <link>https://meefen.github.io/tags/community/</link>
+      <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/learning-sciences/</guid>
+      <guid>https://meefen.github.io/tags/community/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Learning technologies</title>
-      <link>/tags/learning-technologies/</link>
-      <pubDate>Mon, 31 Mar 2014 00:00:00 +0000</pubDate>
+      <title>culture</title>
+      <link>https://meefen.github.io/tags/culture/</link>
+      <pubDate>Sat, 07 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/learning-technologies/</guid>
+      <guid>https://meefen.github.io/tags/culture/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Learning theory</title>
-      <link>/tags/learning-theory/</link>
-      <pubDate>Fri, 24 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/learning-theory/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Literacies</title>
-      <link>/tags/literacies/</link>
-      <pubDate>Mon, 18 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/literacies/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Literacy</title>
-      <link>/tags/literacy/</link>
-      <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/literacy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Literature review</title>
-      <link>/tags/literature-review/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/literature-review/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lms</title>
-      <link>/tags/lms/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/lms/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>MOOC</title>
-      <link>/tags/mooc/</link>
-      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/mooc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>MOOCs</title>
-      <link>/tags/moocs/</link>
-      <pubDate>Thu, 03 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/moocs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Machine learning</title>
-      <link>/tags/machine-learning/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/machine-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Metacognition</title>
-      <link>/tags/metacognition/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/metacognition/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Methodology</title>
-      <link>/tags/methodology/</link>
-      <pubDate>Wed, 13 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/methodology/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mobile</title>
-      <link>/tags/mobile/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/mobile/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mobile learning</title>
-      <link>/tags/mobile-learning/</link>
-      <pubDate>Thu, 10 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/mobile-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Modeling</title>
-      <link>/tags/modeling/</link>
-      <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/modeling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mongodb</title>
-      <link>/tags/mongodb/</link>
-      <pubDate>Mon, 09 Dec 2013 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/mongodb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mooc</title>
-      <link>/tags/mooc/</link>
-      <pubDate>Mon, 09 Dec 2013 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/mooc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Moocs</title>
-      <link>/tags/moocs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/moocs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Motivation</title>
-      <link>/tags/motivation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/motivation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Multidimensional network</title>
-      <link>/tags/multidimensional-network/</link>
-      <pubDate>Tue, 12 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/multidimensional-network/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Multimodal</title>
-      <link>/tags/multimodal/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/multimodal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Musing</title>
-      <link>/tags/musing/</link>
-      <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/musing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Natural language processing</title>
-      <link>/tags/natural-language-processing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/natural-language-processing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Neo4j</title>
-      <link>/tags/neo4j/</link>
-      <pubDate>Mon, 10 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/neo4j/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Network analysis</title>
-      <link>/tags/network-analysis/</link>
-      <pubDate>Tue, 12 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/network-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Networked learning</title>
-      <link>/tags/networked-learning/</link>
-      <pubDate>Fri, 22 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/networked-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Networked scholarship</title>
-      <link>/tags/networked-scholarship/</link>
-      <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/networked-scholarship/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Oer</title>
-      <link>/tags/oer/</link>
-      <pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/oer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Online community</title>
-      <link>/tags/online-community/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/online-community/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Online discussion</title>
-      <link>/tags/online-discussion/</link>
-      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/online-discussion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Online learning</title>
-      <link>/tags/online-learning/</link>
-      <pubDate>Tue, 27 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/online-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ontario</title>
-      <link>/tags/ontario/</link>
-      <pubDate>Mon, 31 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/ontario/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Open access</title>
-      <link>/tags/open-access/</link>
-      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/open-access/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Open annotation</title>
-      <link>/tags/open-annotation/</link>
-      <pubDate>Tue, 03 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/open-annotation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Open education</title>
-      <link>/tags/open-education/</link>
-      <pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/open-education/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Open scholar</title>
-      <link>/tags/open-scholar/</link>
-      <pubDate>Mon, 17 Aug 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/open-scholar/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Open scholarship</title>
-      <link>/tags/open-scholarship/</link>
-      <pubDate>Wed, 18 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/open-scholarship/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Open science</title>
-      <link>/tags/open-science/</link>
+      <title>data sharing</title>
+      <link>https://meefen.github.io/tags/data-sharing/</link>
       <pubDate>Thu, 27 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/open-science/</guid>
+      <guid>https://meefen.github.io/tags/data-sharing/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Openness</title>
-      <link>/tags/openness/</link>
-      <pubDate>Wed, 18 Jul 2018 00:00:00 +0000</pubDate>
+      <title>general education</title>
+      <link>https://meefen.github.io/tags/general-education/</link>
+      <pubDate>Mon, 24 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/openness/</guid>
+      <guid>https://meefen.github.io/tags/general-education/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Pedagogy</title>
-      <link>/tags/pedagogy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/pedagogy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Peer</title>
-      <link>/tags/peer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/peer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PhD</title>
-      <link>/tags/phd/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/phd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Play</title>
-      <link>/tags/play/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/play/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Playfulness</title>
-      <link>/tags/playfulness/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/playfulness/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Policy</title>
-      <link>/tags/policy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/policy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Practice</title>
-      <link>/tags/practice/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/practice/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Prediction</title>
-      <link>/tags/prediction/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/prediction/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Professional development</title>
-      <link>/tags/professional-development/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/professional-development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Promisingness</title>
-      <link>/tags/promisingness/</link>
-      <pubDate>Fri, 16 Sep 2011 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/promisingness/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Quantitative</title>
-      <link>/tags/quantitative/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/quantitative/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>/tags/r/</link>
-      <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>/tags/r/</link>
-      <pubDate>Tue, 14 Oct 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Random</title>
-      <link>/tags/random/</link>
-      <pubDate>Tue, 09 Mar 2010 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/random/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reading</title>
-      <link>/tags/reading/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/reading/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Research design</title>
-      <link>/tags/research-design/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/research-design/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rigor</title>
-      <link>/tags/rigor/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/rigor/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rural</title>
-      <link>/tags/rural/</link>
-      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/rural/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SNA</title>
-      <link>/tags/sna/</link>
-      <pubDate>Mon, 14 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/sna/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SRL</title>
-      <link>/tags/srl/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/srl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Scholarship</title>
-      <link>/tags/scholarship/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/scholarship/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Science</title>
-      <link>/tags/science/</link>
-      <pubDate>Wed, 13 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/science/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Science education</title>
-      <link>/tags/science-education/</link>
-      <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/science-education/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Science learning</title>
-      <link>/tags/science-learning/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/science-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Second language education</title>
-      <link>/tags/second-language-education/</link>
-      <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/second-language-education/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Self-organization</title>
-      <link>/tags/self-organization/</link>
-      <pubDate>Thu, 31 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/self-organization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Self-regulated learning</title>
-      <link>/tags/self-regulated-learning/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/self-regulated-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Semantic analysis</title>
-      <link>/tags/semantic-analysis/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/semantic-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sequence mining</title>
-      <link>/tags/sequence-mining/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/sequence-mining/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sna</title>
-      <link>/tags/sna/</link>
-      <pubDate>Mon, 14 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/sna/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Social annotation</title>
-      <link>/tags/social-annotation/</link>
-      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/social-annotation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Social learning</title>
-      <link>/tags/social-learning/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/social-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Social media</title>
-      <link>/tags/social-media/</link>
+      <title>graph database</title>
+      <link>https://meefen.github.io/tags/graph-database/</link>
       <pubDate>Mon, 10 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/social-media/</guid>
+      <guid>https://meefen.github.io/tags/graph-database/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Social network</title>
-      <link>/tags/social-network/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>institutional capacity</title>
+      <link>https://meefen.github.io/tags/institutional-capacity/</link>
+      <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/social-network/</guid>
+      <guid>https://meefen.github.io/tags/institutional-capacity/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Social network analysis</title>
-      <link>/tags/social-network-analysis/</link>
-      <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
+      <title>knowledge building</title>
+      <link>https://meefen.github.io/tags/knowledge-building/</link>
+      <pubDate>Thu, 25 Oct 2018 00:00:00 -0500</pubDate>
       
-      <guid>/tags/social-network-analysis/</guid>
+      <guid>https://meefen.github.io/tags/knowledge-building/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Social networks</title>
-      <link>/tags/social-networks/</link>
-      <pubDate>Sat, 12 Aug 2017 00:00:00 +0000</pubDate>
+      <title>learning analytics</title>
+      <link>https://meefen.github.io/tags/learning-analytics/</link>
+      <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/social-networks/</guid>
+      <guid>https://meefen.github.io/tags/learning-analytics/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Social support</title>
-      <link>/tags/social-support/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>musing</title>
+      <link>https://meefen.github.io/tags/musing/</link>
+      <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/social-support/</guid>
+      <guid>https://meefen.github.io/tags/musing/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Sociocultural</title>
-      <link>/tags/sociocultural/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>neo4j</title>
+      <link>https://meefen.github.io/tags/neo4j/</link>
+      <pubDate>Mon, 10 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/sociocultural/</guid>
+      <guid>https://meefen.github.io/tags/neo4j/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Survey</title>
-      <link>/tags/survey/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/survey/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Swarm intelligence</title>
-      <link>/tags/swarm-intelligence/</link>
-      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/swarm-intelligence/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Teacher</title>
-      <link>/tags/teacher/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/teacher/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Teacher education</title>
-      <link>/tags/teacher-education/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/teacher-education/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Teaching</title>
-      <link>/tags/teaching/</link>
-      <pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/teaching/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Temporal</title>
-      <link>/tags/temporal/</link>
-      <pubDate>Wed, 08 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/temporal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Temporality</title>
-      <link>/tags/temporality/</link>
-      <pubDate>Sun, 15 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/temporality/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Text mining</title>
-      <link>/tags/text-mining/</link>
-      <pubDate>Mon, 30 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/text-mining/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Thesis</title>
-      <link>/tags/thesis/</link>
-      <pubDate>Fri, 16 Sep 2011 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/thesis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Travel</title>
-      <link>/tags/travel/</link>
-      <pubDate>Sun, 21 Jun 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/travel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Twitter</title>
-      <link>/tags/twitter/</link>
-      <pubDate>Tue, 14 Oct 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/twitter/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Two-mode</title>
-      <link>/tags/two-mode/</link>
-      <pubDate>Thu, 15 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/two-mode/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Visual analytics</title>
-      <link>/tags/visual-analytics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/visual-analytics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Visualization</title>
-      <link>/tags/visualization/</link>
-      <pubDate>Tue, 14 Oct 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/visualization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vocabulary</title>
-      <link>/tags/vocabulary/</link>
-      <pubDate>Wed, 20 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/vocabulary/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Wearable sensor</title>
-      <link>/tags/wearable-sensor/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/wearable-sensor/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Web 2.0</title>
-      <link>/tags/web-2.0/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/web-2.0/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Web annotation</title>
-      <link>/tags/web-annotation/</link>
+      <title>networked scholarship</title>
+      <link>https://meefen.github.io/tags/networked-scholarship/</link>
       <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/web-annotation/</guid>
+      <guid>https://meefen.github.io/tags/networked-scholarship/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Workflow</title>
-      <link>/tags/workflow/</link>
+      <title>oer</title>
+      <link>https://meefen.github.io/tags/oer/</link>
+      <pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://meefen.github.io/tags/oer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>open education</title>
+      <link>https://meefen.github.io/tags/open-education/</link>
+      <pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://meefen.github.io/tags/open-education/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>open scholarship</title>
+      <link>https://meefen.github.io/tags/open-scholarship/</link>
+      <pubDate>Wed, 18 Jul 2018 00:00:00 -0500</pubDate>
+      
+      <guid>https://meefen.github.io/tags/open-scholarship/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>open science</title>
+      <link>https://meefen.github.io/tags/open-science/</link>
+      <pubDate>Thu, 27 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://meefen.github.io/tags/open-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>openness</title>
+      <link>https://meefen.github.io/tags/openness/</link>
+      <pubDate>Wed, 18 Jul 2018 00:00:00 -0500</pubDate>
+      
+      <guid>https://meefen.github.io/tags/openness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>social media</title>
+      <link>https://meefen.github.io/tags/social-media/</link>
+      <pubDate>Mon, 10 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://meefen.github.io/tags/social-media/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>teaching</title>
+      <link>https://meefen.github.io/tags/teaching/</link>
+      <pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://meefen.github.io/tags/teaching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web annotation</title>
+      <link>https://meefen.github.io/tags/web-annotation/</link>
+      <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://meefen.github.io/tags/web-annotation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>workflow</title>
+      <link>https://meefen.github.io/tags/workflow/</link>
       <pubDate>Tue, 25 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/workflow/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Writing</title>
-      <link>/tags/writing/</link>
-      <pubDate>Wed, 20 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/writing/</guid>
+      <guid>https://meefen.github.io/tags/workflow/</guid>
       <description></description>
     </item>
     

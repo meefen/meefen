@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Bodong Chen</title>
+    <link>https://meefen.github.io/home/</link>
+    <description>Recent content in Homes on Bodong Chen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Bodong Chen</copyright>
+    <lastBuildDate>Fri, 20 Apr 2018 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://meefen.github.io/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://meefen.github.io/home/about/</link>
+      <pubDate>Fri, 20 Apr 2018 00:00:00 -0500</pubDate>
+      
+      <guid>https://meefen.github.io/home/about/</guid>
+      <description>About me I am an Assistant Professor in the College of Education and Human Development at the University of Minnesota. My research is at the intersection of CSCL, learning analytics, networked learning, and network analysis. My work is broadly published in premier venues and funded by the NSF CRII, the Digital Learning for Development initiative, the University of Minnesota.
+See CoLIG for my research projects.
+ 陈伯栋，明尼苏达大学教育与人类发展学院助理教授。主要研究方向包括：计算机支持的协作学习、学习分析学、网络分析、网络学习。
+研究项目参见研究组网站。</description>
+    </item>
+    
+    <item>
+      <title>Recent Publications</title>
+      <link>https://meefen.github.io/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>https://meefen.github.io/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Selected Talks</title>
+      <link>https://meefen.github.io/home/talks_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>https://meefen.github.io/home/talks_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://meefen.github.io/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>https://meefen.github.io/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>https://meefen.github.io/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>https://meefen.github.io/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://meefen.github.io/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>https://meefen.github.io/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://meefen.github.io/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>https://meefen.github.io/home/teaching/</guid>
+      <description>I teach the following courses in the Department of Curriculum and Instruction at UMN:
+CI 8371: Applied Social Network Analysis in Education*
+ An introduction to social network analysis for graduate students in education Spring &amp;lsquo;17  CI 8134-35: Foundations of Research in Curriculum and Instruction
+ A required course for all first year Ph.D. students in my department Co-taught with Dr. Mark Vagle (2016-2017) and Dr. Nina Asher (2017-2018)  CI 5371: Learning Analytics: Theory and Practice*</description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>https://meefen.github.io/home/tags/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0500</pubDate>
+      
+      <guid>https://meefen.github.io/home/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>https://meefen.github.io/home/search/</link>
+      <pubDate>Mon, 23 Jul 2018 00:00:00 -0500</pubDate>
+      
+      <guid>https://meefen.github.io/home/search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://meefen.github.io/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>https://meefen.github.io/home/contact/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Automation on Bodong Chen</title>
-    <link>/tags/automation/</link>
-    <description>Recent content in Automation on Bodong Chen</description>
+    <title>automation on Bodong Chen</title>
+    <link>https://meefen.github.io/tags/automation/</link>
+    <description>Recent content in automation on Bodong Chen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>&amp;copy; 2018 Bodong Chen</copyright>
     <lastBuildDate>Mon, 24 Jul 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/automation/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://meefen.github.io/tags/automation/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Changing Value and Valuation in Education</title>
-      <link>/blog/2017-07-24-value-in-education/</link>
+      <link>https://meefen.github.io/post/2017-07-24-value-in-education/</link>
       <pubDate>Mon, 24 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/blog/2017-07-24-value-in-education/</guid>
+      <guid>https://meefen.github.io/post/2017-07-24-value-in-education/</guid>
       <description>In his arguments against the Common Core, Prof. Yong Zhao, a known educational thinker, referred to his home village:
  When I was growing up, the most valued talent was the ability to handle water buffalos used to plow the rice field, other than physical strengths to carry things such as newly harvested rice or sweet potatoes. I don’t know for sure how good a water buffalo handler she [Lady Gaga] could be, but I am quite sure she will not be able to run on bumpy muddy paths with 200 pounds of sweet potatoes dangling on each end of a bamboo pole.</description>
     </item>

@@ -1,47 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Learning sciences on Bodong Chen</title>
-    <link>/tags/learning-sciences/</link>
-    <description>Recent content in Learning sciences on Bodong Chen</description>
+    <title>Learning Sciences on Bodong Chen</title>
+    <link>https://meefen.github.io/tags/learning-sciences/</link>
+    <description>Recent content in Learning Sciences on Bodong Chen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>&amp;copy; 2018 Bodong Chen</copyright>
+    <lastBuildDate>Fri, 26 Oct 2018 15:42:17 -0500</lastBuildDate>
     
-	<atom:link href="/tags/learning-sciences/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://meefen.github.io/tags/learning-sciences/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Notes: Beyond the Individual-Social Antinomy in Discussions of Piaget and Vygotsky</title>
-      <link>/notes/2014-05-06-cole1996/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Idea Magnets</title>
+      <link>https://meefen.github.io/project/idea-magnets/</link>
+      <pubDate>Fri, 26 Oct 2018 15:42:17 -0500</pubDate>
       
-      <guid>/notes/2014-05-06-cole1996/</guid>
-      <description>References Cole, M., &amp;amp; Wertsch, J. V. (1996). Beyond the Individual-Social Antinomy in Discussions of Piaget and Vygotsky. Human Development, 39(5), 250–256. doi:10.1159&amp;frasl;000278475
-Citekey: @Cole1996
-Notes  This article affords a &amp;lsquo;fresh&amp;rsquo; look at the contrast between Piaget and Vygotsky&amp;rsquo;s constructivist theories. The authors highlight that Piaget has not denied the role of social interactions in knowledge construction, so hasn&amp;rsquo;t Vygotsgy excluded the role of individual thinking. While conventional contrast focuses on the individual vs.</description>
+      <guid>https://meefen.github.io/project/idea-magnets/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Notes: Designing for Productive Failure</title>
-      <link>/notes/2013-03-26-kapur2012/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Knowledge Building: Theory and Design</title>
+      <link>https://meefen.github.io/project/knowledge-building/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/notes/2013-03-26-kapur2012/</guid>
-      <description>References Citekey: @kapur2012
-Kapur, M., &amp;amp; Bielaczyc, K. (2012). Designing for Productive Failure. Journal of the Learning Sciences, 21(1), 45&amp;ndash;83. doi:10.1080&amp;frasl;10508406.2011.591717
-Clippings the design principles undergirding productive failure (PF; M. Kapur, 2008). (p. 3)
-(a) PF, in which students collaboratively solved complex problems on average speed without any instructional support or scaffolds up until a teacher-led consolidation; or (b) direct instruction (DI), in which the teacher provided strong instructional support, scaffolding, and feedback (p.</description>
-    </item>
-    
-    <item>
-      <title>Notes: Why the Learning Sciences and Instructional Systems Need Each Other</title>
-      <link>/notes/2014-05-01-hoadley2004/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/notes/2014-05-01-hoadley2004/</guid>
-      <description>References Hoadley, C. M. (2004). Learning and Design: Why the Learning Sciences and Instructional Systems Need Each Other. Educational Technology, 3, 6–12.
-Citekey: @Hoadley2004
-Notes Highlights &amp;ldquo;While both analyses varied in their coverage and techniques, they came to similar conclusions, that the literatures identified with these two communities had surprisingly little overlap, and that a small number of individuals represented a large portion of what overlap did exist.&amp;rdquo; (p. 3)</description>
+      <guid>https://meefen.github.io/project/knowledge-building/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus.</description>
     </item>
     
   </channel>

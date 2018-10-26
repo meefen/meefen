@@ -1,36 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Data sharing on Bodong Chen</title>
-    <link>/tags/data-sharing/</link>
-    <description>Recent content in Data sharing on Bodong Chen</description>
+    <title>data sharing on Bodong Chen</title>
+    <link>https://meefen.github.io/tags/data-sharing/</link>
+    <description>Recent content in data sharing on Bodong Chen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>&amp;copy; 2018 Bodong Chen</copyright>
     <lastBuildDate>Thu, 27 Jul 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/data-sharing/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://meefen.github.io/tags/data-sharing/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>AERA-NSF Workshop: Data Sharing and Research Transparency (Part II)</title>
-      <link>/blog/2017-07-27-data-sharing-workshop-2/</link>
+      <link>https://meefen.github.io/post/2017-07-27-data-sharing-workshop-2/</link>
       <pubDate>Thu, 27 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/blog/2017-07-27-data-sharing-workshop-2/</guid>
-      <description>(Photo Credit: Zachary Veach)
-Story continued, after Part I.
+      <guid>https://meefen.github.io/post/2017-07-27-data-sharing-workshop-2/</guid>
+      <description>Story continued, after Part I.
 In the 2.5 days of the workshop, the group continued to deepen the discussion on Data Sharing to more concrete and practical items. In Part II of my personal reflection, I summarize key Data Sharing resources/initiatives to be aware of, possible action items, and some personal random thoughts on future directions.
 The 3-day workshop on &amp;quot;Data Sharing and Research Transparency at the Article Publishing Stage&amp;quot; comes to a close today in D.</description>
     </item>
     
     <item>
       <title>AERA-NSF Workshop: Data Sharing and Research Transparency (Part I)</title>
-      <link>/blog/2017-07-25-data-sharing-workshop-1/</link>
+      <link>https://meefen.github.io/post/2017-07-25-data-sharing-workshop-1/</link>
       <pubDate>Tue, 25 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/blog/2017-07-25-data-sharing-workshop-1/</guid>
-      <description>(Photo Credit: Roche et al. 2014)
-It was an honor to be invited to attend the AERA-NSF Workshop on Data Sharing and Research Transparency at the Article Publishing Stage in Washington, D.C. during July 25‐27, 2017. I am attending as an early career scholar from the International Society of the Learning Sciences &amp;mdash; my academic home.
+      <guid>https://meefen.github.io/post/2017-07-25-data-sharing-workshop-1/</guid>
+      <description>It was an honor to be invited to attend the AERA-NSF Workshop on Data Sharing and Research Transparency at the Article Publishing Stage in Washington, D.C. during July 25‐27, 2017. I am attending as an early career scholar from the International Society of the Learning Sciences &amp;mdash; my academic home.
 It&amp;rsquo;s only a half-day into the workshop but I&amp;rsquo;m already amazed by so many great thoughts from a full room of journal editors, program officers from funding agencies, and early career peers.</description>
     </item>
     

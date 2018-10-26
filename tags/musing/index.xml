@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Musing on Bodong Chen</title>
-    <link>/tags/musing/</link>
-    <description>Recent content in Musing on Bodong Chen</description>
+    <title>musing on Bodong Chen</title>
+    <link>https://meefen.github.io/tags/musing/</link>
+    <description>Recent content in musing on Bodong Chen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>&amp;copy; 2018 Bodong Chen</copyright>
     <lastBuildDate>Fri, 13 Oct 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/musing/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://meefen.github.io/tags/musing/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The Forest</title>
-      <link>/blog/2017-10-13-at-what-price/</link>
+      <link>https://meefen.github.io/post/2017-10-13-at-what-price/</link>
       <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>/blog/2017-10-13-at-what-price/</guid>
+      <guid>https://meefen.github.io/post/2017-10-13-at-what-price/</guid>
       <description>(Photo Credit: Wikipedia)
 The universe is expanding, but at what price.
 The Milky Way is a beauty, but at what price.

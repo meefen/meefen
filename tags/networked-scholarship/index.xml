@@ -1,36 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Networked scholarship on Bodong Chen</title>
-    <link>/tags/networked-scholarship/</link>
-    <description>Recent content in Networked scholarship on Bodong Chen</description>
+    <title>networked scholarship on Bodong Chen</title>
+    <link>https://meefen.github.io/tags/networked-scholarship/</link>
+    <description>Recent content in networked scholarship on Bodong Chen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>&amp;copy; 2018 Bodong Chen</copyright>
     <lastBuildDate>Fri, 08 Dec 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/networked-scholarship/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://meefen.github.io/tags/networked-scholarship/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Web Annotation of Research Articles in Learning Sciences</title>
-      <link>/blog/2017-12-08-jls-web-annotation/</link>
+      <link>https://meefen.github.io/post/2017-12-08-jls-web-annotation/</link>
       <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>/blog/2017-12-08-jls-web-annotation/</guid>
+      <guid>https://meefen.github.io/post/2017-12-08-jls-web-annotation/</guid>
       <description>As a member of the Outreach Advisory Board of the Journal of the Learning Sciences (JLS), I was really glad to see the journal putting together a web annotation event during December 11-22, 2017. This activity is yet another move made by the editorial team to engage its readership on various social media venues.
 Coming Soon: Web annotation of JLS articles in Hypothes.is.
 The first article is a study by Akkerman and Bruining published in 2016 in Volume 25 (2).</description>
-    </item>
-    
-    <item>
-      <title>Notes: Wagner, C. S., &amp; Leydesdorff, L. (2005). Network structure, self-organization, and the growth of international collaboration in science. Research Policy, 34(10), 1608–1618. https://doi.org/10.1016/j.respol.2005.08.002 </title>
-      <link>/notes/2017-08-31-wagner2005-ib/</link>
-      <pubDate>Thu, 31 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/notes/2017-08-31-wagner2005-ib/</guid>
-      <description>References Citekey: @Wagner2005-ib
-Wagner, C. S., &amp;amp; Leydesdorff, L. (2005). Network structure, self-organization, and the growth of international collaboration in science. Research Policy, 34(10), 1608–1618. https://doi.org/10.1016/j.respol.2005.08.002
-Notes Summarize: Very interesting study of international collaboration using the sociological concept of preferential attachment to make an argument about the self-organizing feature of international collaboration (driven by all sorts of rewards). Two references regarding different types of collaborators highlighted near the end are also quite interesting and could apply to an analysis of an emerging, interdisciplinary area like learning analytics and MOOCs.</description>
     </item>
     
   </channel>

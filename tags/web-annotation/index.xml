@@ -1,95 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Web annotation on Bodong Chen</title>
-    <link>/tags/web-annotation/</link>
-    <description>Recent content in Web annotation on Bodong Chen</description>
+    <title>web annotation on Bodong Chen</title>
+    <link>https://meefen.github.io/tags/web-annotation/</link>
+    <description>Recent content in web annotation on Bodong Chen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>&amp;copy; 2018 Bodong Chen</copyright>
     <lastBuildDate>Fri, 08 Dec 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/web-annotation/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://meefen.github.io/tags/web-annotation/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Web Annotation of Research Articles in Learning Sciences</title>
-      <link>/blog/2017-12-08-jls-web-annotation/</link>
+      <link>https://meefen.github.io/post/2017-12-08-jls-web-annotation/</link>
       <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>/blog/2017-12-08-jls-web-annotation/</guid>
+      <guid>https://meefen.github.io/post/2017-12-08-jls-web-annotation/</guid>
       <description>As a member of the Outreach Advisory Board of the Journal of the Learning Sciences (JLS), I was really glad to see the journal putting together a web annotation event during December 11-22, 2017. This activity is yet another move made by the editorial team to engage its readership on various social media venues.
 Coming Soon: Web annotation of JLS articles in Hypothes.is.
 The first article is a study by Akkerman and Bruining published in 2016 in Volume 25 (2).</description>
-    </item>
-    
-    <item>
-      <title>Notes: Aturban (2015) Quantifying orphaned annotations in Hypothes.is</title>
-      <link>/notes/2016-07-14-aturban2015/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/notes/2016-07-14-aturban2015/</guid>
-      <description>References Citekey: @Aturban2015
-Aturban, M., Nelson, M. L., &amp;amp; Weigle, M. C. (2015). Quantifying orphaned annotations in Hypothes.is (pp. 15–27). doi:10.1007&amp;frasl;978-3-319-24592-8_2
-Notes An empirical investigation of orphaned annotations in Hypothes.is. The results are clearly stated in the paper. This paper highlights the significant challenge faced by web annotations &amp;ndash; the persistence of the first-order content that maintains the context of annotations.
-(This paper has a light, useful intro to Hypothes.</description>
-    </item>
-    
-    <item>
-      <title>Notes: Chen. (2012). Development and evaluation of a Web 2.0 annotation system</title>
-      <link>/notes/2016-07-15-chen2012c/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/notes/2016-07-15-chen2012c/</guid>
-      <description>References Citekey: @Chen2012c
-Chen, Y.-C., Hwang, R.-H., &amp;amp; Wang, C.-Y. (2012). Development and evaluation of a Web 2.0 annotation system as a learning tool in an e-learning environment. Computers &amp;amp; Education, 58(4), 1094–1105. doi:10.1016/j.compedu.2011.12.017
-Notes This study implements MyNote, the web annotation system primarily tied to an LMS, and evaluate usability of this system with students. This system does not adhere to any web annotation standards.
-Highlights The purpose of this study was to develop a Web 2.</description>
-    </item>
-    
-    <item>
-      <title>Notes: Ciccarese (2013) Web annotation as a first-class object</title>
-      <link>/notes/2016-07-14-ciccarese2013/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/notes/2016-07-14-ciccarese2013/</guid>
-      <description>References Citekey: @Ciccarese2013
-Ciccarese, P., Soiland-Reyes, S., &amp;amp; Clark, T. (2013). Web annotation as a first-class object. IEEE Internet Computing, 17(6), 71–75. doi:10.1109/MIC.2013.123
-Notes A thorough explanation of the history of web annotation.
-Highlights The W3C Open Annotation Data Model provides facilities for annotating content directly on the Web without changing the original content.Third-party semantic annotations of content are now emerging as rst-class objects on the Web. (p. 71)</description>
-    </item>
-    
-    <item>
-      <title>Notes: Hwang. (2007). A study of multimedia annotation of Web-based materials</title>
-      <link>/notes/2016-07-15-hwang2007/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/notes/2016-07-15-hwang2007/</guid>
-      <description>References Citekey: @Hwang2007
-Hwang, W.-Y., Wang, C.-Y., &amp;amp; Sharples, M. (2007). A study of multimedia annotation of Web-based materials. Computers &amp;amp; Education, 48(4), 680–699. doi:10.1016/j.compedu.2005.04.020
-Notes Highlights We describe a Web-based tool for creating and sharing annotations and investigate the eVect on learning of its use with college students. First, an annotation tool was designed and implemented for the research. Second, learning support mechanisms, including full and group annotation sharing, were developed to promote students’ motivation for annotation.</description>
-    </item>
-    
-    <item>
-      <title>Notes: Michalak, R. (2016). Diigo</title>
-      <link>/notes/2016-07-14-michalak2016/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/notes/2016-07-14-michalak2016/</guid>
-      <description>References Citekey: @Michalak2016
-Michalak, R. (2016). Diigo. Technical Services Quarterly, 33(1), 96–97. doi:10.1080&amp;frasl;07317131.2015.1093854
-Notes As an experienced Diigo user (before), I found this intro not informative enough to illustrate the core philosophy of Diigo, that is to create another layer on top of web content. This intro focuses too much on the Library, which is important indeed, but does not talk enough about the social engagement piece that (co-)defines Diigo.</description>
-    </item>
-    
-    <item>
-      <title>Notes: Su (2010) A Web 2.0-based collaborative annotation system for enhancing knowledge sharing</title>
-      <link>/notes/2016-07-13-su2010/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/notes/2016-07-13-su2010/</guid>
-      <description>References Citekey: @Su2010
-Su, A. Y. S., Yang, S. J. H., Hwang, W.-Y., &amp;amp; Zhang, J. (2010). A Web 2.0-based collaborative annotation system for enhancing knowledge sharing in collaborative learning environments. Computers &amp;amp; Education, 55(2), 752–766. doi:10.1016/j.compedu.2010.03.008
-Notes An independent implementation of an interesting web annotation system. This paper focuses on evaluating students&amp;rsquo; acceptance of the system and how the use of web annotations have helped students learn.
-The use of annotations in this study, and in many others, has been focused on knowledge sharing, especially in the process of consuming or making sense of shared readings.</description>
     </item>
     
   </channel>
