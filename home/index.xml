@@ -19,17 +19,16 @@
       
       <guid>https://meefen.github.io/home/about/</guid>
       <description>About me I am an Assistant Professor in the College of Education and Human Development at the University of Minnesota. My research is at the intersection of CSCL, learning analytics, networked learning, and network analysis. My work is broadly published in premier venues and funded by the NSF CRII, the Digital Learning for Development initiative, the University of Minnesota.
-See CoLIG for my research projects.
  陈伯栋，明尼苏达大学教育与人类发展学院助理教授。主要研究方向包括：计算机支持的协作学习、学习分析学、网络分析、网络学习。
 研究项目参见研究组网站。</description>
     </item>
     
     <item>
-      <title>Recent Publications</title>
-      <link>https://meefen.github.io/home/publications/</link>
+      <title>Blog Posts</title>
+      <link>https://meefen.github.io/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>https://meefen.github.io/home/publications/</guid>
+      <guid>https://meefen.github.io/home/posts/</guid>
       <description></description>
     </item>
     
@@ -52,11 +51,11 @@ See CoLIG for my research projects.
     </item>
     
     <item>
-      <title>Recent Posts</title>
-      <link>https://meefen.github.io/home/posts/</link>
+      <title>Recent Publications</title>
+      <link>https://meefen.github.io/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>https://meefen.github.io/home/posts/</guid>
+      <guid>https://meefen.github.io/home/publications/</guid>
       <description></description>
     </item>
     
