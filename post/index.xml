@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Bodong Chen</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://meefen.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
@@ -25,7 +25,7 @@ The Open Access Week website has provided a great list of ideas for researchers 
     <item>
       <title>An Ongoing Experiment: Public Scholarly Annotation</title>
       <link>https://meefen.github.io/post/2018-07-public-scholarly-annotation/</link>
-      <pubDate>Wed, 18 Jul 2018 00:00:00 -0500</pubDate>
+      <pubDate>Wed, 18 Jul 2018 00:00:00 -0600</pubDate>
       
       <guid>https://meefen.github.io/post/2018-07-public-scholarly-annotation/</guid>
       <description>Background stories I value Open Scholarship and have been practicing it for years &amp;ndash; both in terms of doing it and learning to do it. Stian Haklev, an OER and Open Access champion, introduced me to this idea. He built a wiki-based workflow system, named researchr, and convinced a few OISE friends, including Cresencia Fong and Alisa Acosta, to share our annotations publicly, in a well-organized manner. For us, the benefits of using researchr are obvious: the system scaffolds the scholarly process of reading and annotating articles, as well as summarizing and organizing our notes.</description>

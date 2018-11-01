@@ -7,8 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Bodong Chen</copyright>
-    <lastBuildDate>Fri, 20 Apr 2018 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 20 Apr 2018 00:00:00 -0600</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Annotation as Infrastructure for Next Generation Digital Learning Environments</title>
+      <link>https://meefen.github.io/talk/2018-educause/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 -0600</pubDate>
+      
+      <guid>https://meefen.github.io/talk/2018-educause/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;p&gt;Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the Google Slides.&lt;/p&gt;
+
+&lt;/div&gt;
+
+</description>
+    </item>
     
     <item>
       <title>#OAWeek 2018: My Personal Journey</title>
@@ -103,7 +117,7 @@
     <item>
       <title>Integrated STEM learning in an idea-centered knowledge-building environment</title>
       <link>https://meefen.github.io/publication/hong2018-ch/</link>
-      <pubDate>Thu, 25 Oct 2018 00:00:00 -0500</pubDate>
+      <pubDate>Thu, 25 Oct 2018 00:00:00 -0600</pubDate>
       
       <guid>https://meefen.github.io/publication/hong2018-ch/</guid>
       <description></description>
@@ -112,7 +126,7 @@
     <item>
       <title>An Ongoing Experiment: Public Scholarly Annotation</title>
       <link>https://meefen.github.io/post/2018-07-public-scholarly-annotation/</link>
-      <pubDate>Wed, 18 Jul 2018 00:00:00 -0500</pubDate>
+      <pubDate>Wed, 18 Jul 2018 00:00:00 -0600</pubDate>
       
       <guid>https://meefen.github.io/post/2018-07-public-scholarly-annotation/</guid>
       <description>
@@ -263,7 +277,7 @@
     <item>
       <title>Fostering student engagement in online discussion through social learning analytics</title>
       <link>https://meefen.github.io/publication/chen2018-mc/</link>
-      <pubDate>Thu, 25 Jan 2018 00:00:00 -0600</pubDate>
+      <pubDate>Thu, 25 Jan 2018 00:00:00 -0700</pubDate>
       
       <guid>https://meefen.github.io/publication/chen2018-mc/</guid>
       <description></description>
@@ -272,7 +286,7 @@
     <item>
       <title>Designing for Networked Collaborative Discourse: An UnLMSApproach</title>
       <link>https://meefen.github.io/publication/chen2018-tw/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 -0600</pubDate>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 -0700</pubDate>
       
       <guid>https://meefen.github.io/publication/chen2018-tw/</guid>
       <description></description>
@@ -281,7 +295,7 @@
     <item>
       <title>Using differentiated feedback to improve performance in introductory statistics</title>
       <link>https://meefen.github.io/publication/cai2018-za/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 -0600</pubDate>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 -0700</pubDate>
       
       <guid>https://meefen.github.io/publication/cai2018-za/</guid>
       <description></description>
@@ -580,127 +594,6 @@ _(Photo Credit: [Roche et al. 2014](https://dx.doi.org/10.1371/journal.pbio.1001
 &lt;li&gt;[1] Sources from McKinsey Quarterly: &lt;a href=&#34;http://www.mckinsey.com/business-functions/digital-mckinsey/our-insights/where-machines-could-replace-humans-and-where-they-cant-yet&#34; target=&#34;_blank&#34;&gt;Where machines could replace humans—and where they can’t (yet)&lt;/a&gt;, and &lt;a href=&#34;http://www.mckinsey.com/business-functions/digital-mckinsey/our-insights/four-fundamentals-of-workplace-automation&#34; target=&#34;_blank&#34;&gt;Four fundamentals of workplace automation&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;[2] Thomas, D., &amp;amp; Brown, J. S. (2011). A new culture of learning: Cultivating the imagination for a world of constant change. Lexington, KY: CreateSpace.&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Graphing the Reddit Place Sensation with Neo4j</title>
-      <link>https://meefen.github.io/post/2017-04-10-graphing-reddit-place/</link>
-      <pubDate>Mon, 10 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://meefen.github.io/post/2017-04-10-graphing-reddit-place/</guid>
-      <description>
-
-&lt;!-- image: /assets/article_images/ajWiAYi.png --&gt;
-
-&lt;p&gt;I&amp;rsquo;ver never liked the April Fool&amp;rsquo;s Day, until this year when &lt;a href=&#34;https://www.reddit.com/&#34; target=&#34;_blank&#34;&gt;Reddit&lt;/a&gt; decided to &lt;a href=&#34;https://www.reddit.com/r/announcements/comments/62mesr/place/&#34; target=&#34;_blank&#34;&gt;launch a social experiment&lt;/a&gt; called &lt;a href=&#34;https://www.reddit.com/r/place/&#34; target=&#34;_blank&#34;&gt;Reddit Place&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The idea is simple. The whole world &amp;ndash; or all Reddit users &amp;ndash; were given a 999 x 999 blank canvas to draw on. Some simple rules apply:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Each user could choose one pixel from 16 colors to place anywhere on the canvas. They could place as many pixels of as many colors as they wanted, but they had to wait a few minutes between placing each one. (&lt;a href=&#34;http://sudoscript.com/reddit-place/&#34; target=&#34;_blank&#34;&gt;source&lt;/a&gt;)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;During the following 72 hours, amazingly interesting things happened on this 999 x 999 canvas. Below is a gif that gives you a glimpse into what had happened. Numerous accounts of this event have been posted. See &lt;a href=&#34;http://sudoscript.com/reddit-place/&#34; target=&#34;_blank&#34;&gt;this post&lt;/a&gt; for a good overview, and more posts can be found at the &lt;a href=&#34;https://www.reddit.com/r/place&#34; target=&#34;_blank&#34;&gt;Reddit Place&lt;/a&gt; itself.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://i.redd.it/5p68ukzkwdpy.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;graphing-the-reddit-place-with-neo4j&#34;&gt;Graphing the Reddit Place with Neo4j&lt;/h2&gt;
-
-&lt;p&gt;The Reddit Place as a web-based social phenomenon will be remembered and studied by many people. I didn&amp;rsquo;t follow this event at all but was amazed by the various types of participating users, sub-communities who self-organized to achieve certain goals, clashes and fights, evolving rules, impressive artworks, and so on &amp;ndash; all that happened on this little canvas. I&amp;rsquo;m especially intrigued by the emergent, self-organizing processes of constructing, destructing, negotiating, and re-constructing among numerous users and user networks supported by all kinds of communication tools (mostly Reddit itself).&lt;/p&gt;
-
-&lt;p&gt;With &lt;a href=&#34;https://www.reddit.com/r/PlaceDevs/comments/637ynq/a_datadump_but_from_a_different_scraper/&#34; target=&#34;_blank&#34;&gt;a data dump&lt;/a&gt; that captured the history of this event, I could not resist myself from playing with it using &lt;a href=&#34;https://neo4j.com/&#34; target=&#34;_blank&#34;&gt;Neo4j&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;importing-data&#34;&gt;Importing data&lt;/h3&gt;
-
-&lt;p&gt;To begin with, I wrote the following Cypher scripts to import the csv dump into Neo4j:&lt;/p&gt;
-
-&lt;p&gt;{% highlight cypher %}
-// Set constraints
-CREATE CONSTRAINT ON (p:Point) ASSERT p.location IS UNIQUE;
-CREATE INDEX ON :User(name);&lt;/p&gt;
-
-&lt;p&gt;// Insert data
-USING PERIODIC COMMIT 1000
-LOAD CSV FROM &amp;ldquo;file:///export.csv&amp;rdquo; AS l
-WITH l, [toInt(l[1]), toInt(l[2])] AS loc
-WHERE l[3] IS NOT NULL
-MERGE (p:Point {location: loc})
-  ON CREATE SET p.location = loc, p.count = 1
-  ON MATCH SET p.count = p.count + 1
-MERGE (u:User {name: l[3]})
-  ON CREATE SET u.name = l[3], u.count = 1
-  ON MATCH SET u.count = u.count + 1
-MERGE (u)-[r:PAINT]-&amp;gt;(p)
-  ON CREATE SET r.count = 1, r.ids = [toInt(l[0])],
-    r.colors = [toInt(l[4])], r.times = [toInt(l[5])]
-  ON MATCH SET r.count = r.count + 1,
-    r.ids = r.ids + toInt(l[0]),
-    r.colors = r.colors + toInt(l[4]),
-    r.times = r.times + toInt(l[5]);
-{% endhighlight %}&lt;/p&gt;
-
-&lt;p&gt;The figure below demonstrates the &lt;em&gt;graph model&lt;/em&gt; of the created Neo4j graph database. The model is quite simple and intuitive, including two node types named &lt;code&gt;User&lt;/code&gt; and &lt;code&gt;Point&lt;/code&gt; and one relationship type named &lt;code&gt;Paint&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://meefen.github.io/assets/article_images/r-place-graph-model.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;It took my computer ~22 minutes to create 1.6 million labels, 1.6 million nodes, 28.8 million properties, and 4.13 million relationships in this graph database, the size of which ended up to be 4.30 GB.&lt;/p&gt;
-
-&lt;h3 id=&#34;general-queries&#34;&gt;General queries&lt;/h3&gt;
-
-&lt;p&gt;After data were loaded, I did some quick queries.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;First, who were the most active users?&lt;/strong&gt; User &lt;code&gt;itsnotlupus&lt;/code&gt; won the game as s/he painted for 177 times. This may not sound much but if you multiple 177 by 5 minutes (the &amp;lsquo;cooldown&amp;rsquo; time), you will find the user spent roughly 15 hours painting or contemplating the next pixel on the canvas. This time amount does not include activities in other communication tools.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Where did &lt;code&gt;itsnotlupus&lt;/code&gt; paint?&lt;/strong&gt; Below is a graph showing this user (in the center) and 100 pixels s/he painted on. Note that each pixel is identified by its coordinates in the 2D canvas.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://meefen.github.io/assets/article_images/top-user.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I noticed this user painted a whole lot near &lt;code&gt;Point [380, 880]&lt;/code&gt;. By clicking on the [380, 881] Point node, see below, I could check who else have painted on that spot. 16 other users have painted there. Maybe there were some interesting collisions on that single pixel?&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://meefen.github.io/assets/article_images/top-user-clashes.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Which colors did &lt;code&gt;itsnotlupus&lt;/code&gt; use?&lt;/strong&gt; It appeared &lt;code&gt;itsnotlupus&lt;/code&gt; painted &lt;span style=&#34;background-color:#e59500&#34;&gt;#E59500&lt;/span&gt; for 104 times, and &lt;span style=&#34;background-color:#e50000&#34;&gt;#E50000&lt;/span&gt; for 70 times. Do those two colors belong to specific clans &lt;code&gt;itsnotlupus&lt;/code&gt; was affiliated with?&lt;/p&gt;
-
-&lt;p&gt;{% highlight cypher %}
-MATCH (u:User {name: &amp;ldquo;itsnotlupus&amp;rdquo;})-[r:PAINT]-&amp;gt;()
-WITH collect(r.colors) as colors
-UNWIND colors as array
-UNWIND array as color
-RETURN color, count(color) as count
-ORDER BY count DESC LIMIT 10
-{% endhighlight %}&lt;/p&gt;
-
-&lt;h3 id=&#34;the-blue-corner&#34;&gt;The Blue Corner&lt;/h3&gt;
-
-&lt;p&gt;Based on &lt;a href=&#34;http://sudoscript.com/reddit-place/&#34; target=&#34;_blank&#34;&gt;this post&lt;/a&gt;, the lower-right corner was occupied by &lt;a href=&#34;https://www.reddit.com/r/BlueCorner/&#34; target=&#34;_blank&#34;&gt;Blue&lt;/a&gt;. So I checked the corner pixel [999, 999]. The following Cypher query returned a total of &lt;strong&gt;&lt;code&gt;10,121&lt;/code&gt; user actions on that single pixel&lt;/strong&gt;. The figure that follows shows 100 of those users who painted at [999, 999].&lt;/p&gt;
-
-&lt;p&gt;{% highlight cypher %}
-MATCH (p:Point {location: [999, 999]})&amp;lt;-[r:PAINT]-()
-RETURN count&amp;reg;
-{% endhighlight %}&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://meefen.github.io/assets/article_images/999x999-users.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Top painters in that corner&lt;/strong&gt; are listed in the figure below. Querying the top [999, 999] painter &lt;code&gt;MrMeltJr&lt;/code&gt; I found him painting &lt;span style=&#34;text-shadow: 4px 4px 2px #0000EA&#34;&gt;&lt;code&gt;blue (#0000EA)&lt;/code&gt;&lt;/span&gt; predominantly (105 out of 116 times). He was clearly a member of the Blue Corner sub-community.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://meefen.github.io/assets/article_images/999x999-top-users.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What was the most used color in that corner?&lt;/strong&gt; The following query found the most dominant color to be &lt;span style=&#34;text-shadow: 4px 4px 2px #0000EA&#34;&gt;&lt;code&gt;#0000EA&lt;/code&gt;&lt;/span&gt;, which appeared for 7400 times, followed by &lt;span style=&#34;text-shadow: 4px 4px 2px #820080&#34;&gt;&lt;code&gt;#820080&lt;/code&gt;&lt;/span&gt;&amp;rsquo;s 2055 times. This finding could be confirmed by the gif above.&lt;/p&gt;
-
-&lt;p&gt;{% highlight cypher %}
-MATCH (p:Point {location: [999, 999]})&amp;lt;-[r:PAINT]-()
-WITH collect(r.colors) as allColors
-UNWIND allColors as array
-UNWIND array as color
-RETURN color, count(color) as count ORDER BY count DESC LIMIT 10
-{% endhighlight %}&lt;/p&gt;
-
-&lt;h2 id=&#34;more-fun-to-come&#34;&gt;More Fun to Come&lt;/h2&gt;
-
-&lt;p&gt;These queries are far from even scratching the surface of the complex social phenomenon. Two aspects I&amp;rsquo;m especially interested in exploring (if I have time) are the &lt;code&gt;temporal&lt;/code&gt; aspect of user actions on single pixels and the &lt;code&gt;spacial&lt;/code&gt; aspect of changes with neighboring pixels. In addition, it would also be useful if we could connect communication and coordination among users and communities external to the canvas.&lt;/p&gt;
-
-&lt;p&gt;Yes, now I see the April Fool&amp;rsquo;s Day could be fun!&lt;/p&gt;
 </description>
     </item>
     

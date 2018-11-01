@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Knowledge Infrastructure on Bodong Chen</title>
+    <link>https://meefen.github.io/tags/knowledge-infrastructure/</link>
+    <description>Recent content in Knowledge Infrastructure on Bodong Chen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Bodong Chen</copyright>
+    <lastBuildDate>Thu, 01 Nov 2018 00:00:00 -0600</lastBuildDate>
+    
+	<atom:link href="https://meefen.github.io/tags/knowledge-infrastructure/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Annotation as Infrastructure for Next Generation Digital Learning Environments</title>
+      <link>https://meefen.github.io/talk/2018-educause/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 -0600</pubDate>
+      
+      <guid>https://meefen.github.io/talk/2018-educause/</guid>
+      <description>Click on the Slides button above to view the Google Slides.
+ </description>
+    </item>
+    
+  </channel>
+</rss>
