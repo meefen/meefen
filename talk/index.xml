@@ -7,15 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Bodong Chen</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0600</lastBuildDate>
     
 	<atom:link href="https://meefen.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Technology Use in K-12 Schools: Cases from North America</title>
+      <link>https://meefen.github.io/talk/2018-mingda-institute-lecture/</link>
+      <pubDate>Thu, 08 Nov 2018 00:00:00 -0600</pubDate>
+      
+      <guid>https://meefen.github.io/talk/2018-mingda-institute-lecture/</guid>
+      <description>Click on the Slides button above to view the Google Slides.
+ </description>
+    </item>
+    
+    <item>
       <title>Annotation as Infrastructure for Next Generation Digital Learning Environments</title>
       <link>https://meefen.github.io/talk/2018-educause/</link>
-      <pubDate>Thu, 01 Nov 2018 00:00:00 -0600</pubDate>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 -0500</pubDate>
       
       <guid>https://meefen.github.io/talk/2018-educause/</guid>
       <description>Click on the Slides button above to view the Google Slides.
