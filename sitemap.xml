@@ -36,6 +36,14 @@
     
     <url>
     
+      <loc>https://meefen.github.io/project/frog-online/</loc>
+      <lastmod>2018-10-26T15:42:17-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://meefen.github.io/publication/hong2018-ch/</loc>
       <lastmod>2018-10-25T00:00:00-05:00</lastmod>
     </url>
@@ -220,6 +228,14 @@
     
     <url>
     
+      <loc>https://meefen.github.io/project/networked-learning/</loc>
+      <lastmod>2016-04-27T00:00:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://meefen.github.io/publication/chen2016-kn/</loc>
       <lastmod>2016-01-01T00:00:00-06:00</lastmod>
     </url>
@@ -270,6 +286,15 @@
     
     <url>
     
+      <loc>https://meefen.github.io/tags/cscl/</loc>
+      <lastmod>2018-10-26T15:42:17-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://meefen.github.io/categories/</loc>
       <priority>0</priority>
     </url>
@@ -288,7 +313,7 @@
     <url>
     
       <loc>https://meefen.github.io/tags/higher-education/</loc>
-      <lastmod>2018-01-25T00:00:00-06:00</lastmod>
+      <lastmod>2018-10-26T15:42:17-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -332,7 +357,16 @@
     
     <url>
     
-      <loc>https://meefen.github.io/tags/learning-sciences/</loc>
+      <loc>https://meefen.github.io/tags/online-learning/</loc>
+      <lastmod>2018-10-26T15:42:17-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://meefen.github.io/tags/open-pedagogy/</loc>
       <lastmod>2018-10-26T15:42:17-05:00</lastmod>
       <priority>0</priority>
     </url>

@@ -1,71 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cscl on Bodong Chen</title>
-    <link>/tags/cscl/</link>
-    <description>Recent content in Cscl on Bodong Chen</description>
+    <title>CSCL on Bodong Chen</title>
+    <link>https://meefen.github.io/tags/cscl/</link>
+    <description>Recent content in CSCL on Bodong Chen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 18 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <copyright>&amp;copy; 2018 Bodong Chen</copyright>
+    <lastBuildDate>Fri, 26 Oct 2018 15:42:17 -0500</lastBuildDate>
     
-	<atom:link href="/tags/cscl/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://meefen.github.io/tags/cscl/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Notes: Chen. (2010). What do students do in a F2F CSCL classroom? The optimization of multiple communications modes</title>
-      <link>/notes/2017-08-18-chen2010-ao/</link>
-      <pubDate>Fri, 18 Aug 2017 00:00:00 +0000</pubDate>
+      <title>Idea Magnets</title>
+      <link>https://meefen.github.io/project/idea-magnets/</link>
+      <pubDate>Fri, 26 Oct 2018 15:42:17 -0500</pubDate>
       
-      <guid>/notes/2017-08-18-chen2010-ao/</guid>
-      <description>References Citekey: @Chen2010-ao
-Chen, W., Looi, C.-K., &amp;amp; Tan, S. (2010). What do students do in a F2F CSCL classroom? The optimization of multiple communications modes. Computers &amp;amp; Education, 55(3), 1159–1170. https://doi.org/10.1016/j.compedu.2010.05.013
-Notes Summarize: An interesting descriptive (or exploratory) case study investigating student online &amp;amp; F2F communication in a CSCL environment.
-Highlights Small groups of students interacted face- to-face over a computer-mediated communication (CMC) technology called Group Scribbles (GS) to jointly complete a learning task.</description>
+      <guid>https://meefen.github.io/project/idea-magnets/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Notes: Analyzing collaborative knowledge construction</title>
-      <link>/notes/2013-05-21-hmelo-silver2003/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Orchestration Graphs for Collaboration</title>
+      <link>https://meefen.github.io/project/frog-online/</link>
+      <pubDate>Fri, 26 Oct 2018 15:42:17 -0500</pubDate>
       
-      <guid>/notes/2013-05-21-hmelo-silver2003/</guid>
-      <description>References Citekey: @hmelo-silver2003
-Notes Highlights References Hmelo-Silver, C. E. (2003). Analyzing collaborative knowledge construction. Computers &amp;amp; Education, 41(4), 397–420. doi:10.1016/j.compedu.2003.07.001
-Summary I got interested in this paper because of the CORDTRA diagram mentioned at an AERA session. The main message from this article is discourse data need to be analyzed with multiple methods in order to get a clear understanding about what&amp;rsquo;s going on with collaborative learning or knowledge construction.</description>
+      <guid>https://meefen.github.io/project/frog-online/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Notes: Porcaro. (2014). Educational change in Oman</title>
-      <link>/notes/2016-01-23-porcaro2014/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Knowledge Building: Theory and Design</title>
+      <link>https://meefen.github.io/project/knowledge-building/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/notes/2016-01-23-porcaro2014/</guid>
-      <description>References Citekey: @Porcaro2014
-Porcaro, D. S. (2014). Educational change in Oman: a design research study of personal, institutional, and societal reactions to collaborative knowledge building. Technology, Pedagogy and Education, 23(2), 199–223. doi:10.1080/1475939X.2013.802993
-Notes I am reading this article when reviewing literature on knowledge building. However, knowledge building is not a central concept in this article as its general sense is applied here. Maybe constructivist collaborative learning is the general approach here.</description>
-    </item>
-    
-    <item>
-      <title>Notes: Understanding collaborative learning processes in new learning environments</title>
-      <link>/notes/2013-05-22-hmelo-silver2008b/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/notes/2013-05-22-hmelo-silver2008b/</guid>
-      <description>References Citekey: @hmelo-silver2008b
-Hmelo-Silver, C. E., Chernobilsky, E., &amp;amp; Jordan, R. (2008). Understanding collaborative learning processes in new learning environments. Instructional Science, 36(5-6), 409–430. doi:10.1007/s11251-008-9063-8
-Summary This paper builds on the 2003 paper, further explaining how CORDTRA diagrams help us interpret learning.
-What I found very useful in this paper in particular is the coding schemes they used to analyze collaborative learning. The coding scheme of &amp;ldquo;complexity&amp;rdquo; and &amp;ldquo;monitoring&amp;rdquo; could be especially useful for me to analyze use of promisingness tool by students.</description>
-    </item>
-    
-    <item>
-      <title>Notes: de Laat. (2007). Investigating patterns of interaction in networked learning and computer-supported collaborative learning</title>
-      <link>/notes/2016-04-14-laat2007/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/notes/2016-04-14-laat2007/</guid>
-      <description>References Citekey: @Laat2007
-de Laat, M., Lally, V., Lipponen, L., &amp;amp; Simons, R.-J. (2007). Investigating patterns of interaction in networked learning and computer-supported collaborative learning: A role for Social Network Analysis. International Journal of Computer-Supported Collaborative Learning, 2(1), 87–103. doi:10.1007/s11412-007-9006-4
-Notes This paper is about applying SNA in analyzing CSCL (or networked learning as called in EU). What is unique about this study is it highlights the value of combining SNA with Content Analysis together, and put them both onto a timeline (considering the temporal dimension), to more holistically analyze CSCL processes.</description>
+      <guid>https://meefen.github.io/project/knowledge-building/</guid>
+      <description></description>
     </item>
     
   </channel>

@@ -1,37 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Online learning on Bodong Chen</title>
-    <link>/tags/online-learning/</link>
-    <description>Recent content in Online learning on Bodong Chen</description>
+    <title>Online Learning on Bodong Chen</title>
+    <link>https://meefen.github.io/tags/online-learning/</link>
+    <description>Recent content in Online Learning on Bodong Chen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Jun 2017 00:00:00 +0000</lastBuildDate>
+    <copyright>&amp;copy; 2018 Bodong Chen</copyright>
+    <lastBuildDate>Fri, 26 Oct 2018 15:42:17 -0500</lastBuildDate>
     
-	<atom:link href="/tags/online-learning/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://meefen.github.io/tags/online-learning/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Notes: Vaquero, L. M., &amp; Cebrian, M. (2013). The rich club phenomenon in the classroom</title>
-      <link>/notes/2017-06-27-vaquero2013-ld/</link>
-      <pubDate>Tue, 27 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/notes/2017-06-27-vaquero2013-ld/</guid>
-      <description>References Citekey: @Vaquero2013-ld
-Vaquero, L. M., &amp;amp; Cebrian, M. (2013). The rich club phenomenon in the classroom. Scientific Reports, 3, 1174. https://doi.org/10.1038/srep01174
-Notes Summarize:
-Assess:
-Reflect:
-Highlights social interactions generally imply better score for students engaging in them. We find that thesestudents, which is created during the first weeks of the course. Low performing students try to engage in theclub after it has been initially formed, and fail to produce reciprocity in their interactions, displaying more (p.</description>
-    </item>
     
     <item>
-      <title>Top Links from the MOOC Research Conference Twitter Backchannel (#MRI13)</title>
-      <link>/blog/2013-12-09-top-links-from-the-mooc-research-conference-twitter-backchannel-mri13/</link>
-      <pubDate>Mon, 09 Dec 2013 00:00:00 +0000</pubDate>
+      <title>Orchestration Graphs for Collaboration</title>
+      <link>https://meefen.github.io/project/frog-online/</link>
+      <pubDate>Fri, 26 Oct 2018 15:42:17 -0500</pubDate>
       
-      <guid>/blog/2013-12-09-top-links-from-the-mooc-research-conference-twitter-backchannel-mri13/</guid>
-      <description>The MOOC Research Conference has just taken place at University of Texas, Arlington, December 5-6, 2013. I was fortunate to be on board of one research project &amp;ndash; &amp;ldquo;Hatch, Match, and Dispatch: Examining the relationship between student intent, expectations, behaviours and outcomes in six Coursera MOOCs at the University of Toronto&amp;rdquo; &amp;ndash; which was among the 20+ MRI projects participating in this MOOC Research Conference. Chris Teplovs, Stian Håklev and Laurie Harrison from our team attended the conference in person, and they were surprised by an Icepocalyse in that area.</description>
+      <guid>https://meefen.github.io/project/frog-online/</guid>
+      <description></description>
     </item>
     
   </channel>
