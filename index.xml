@@ -11,6 +11,121 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>#LAK19 Conference Report [Part 1]: Pre-Conference Workshops</title>
+      <link>https://meefen.github.io/post/2019-03-08-lak19-part1/</link>
+      <pubDate>Fri, 08 Mar 2019 21:45:15 -0600</pubDate>
+      
+      <guid>https://meefen.github.io/post/2019-03-08-lak19-part1/</guid>
+      <description>
+
+&lt;p&gt;I just came back from the &lt;a href=&#34;https://lak19.solaresearch.org/&#34; target=&#34;_blank&#34;&gt;2019 &lt;em&gt;Learning Analytics and Knowledge (LAK)&lt;/em&gt; conference&lt;/a&gt; hosted by Arizona State University. This conference, surely one of my favorites, is inching to its 10th anniversary next year. I still remember when I was in the 2nd year of my PhD in 2010, &lt;a href=&#34;https://www.si.umich.edu/people/chris-teplovs&#34; target=&#34;_blank&#34;&gt;Chris Teplovs&lt;/a&gt; told me about &lt;a href=&#34;https://tekri.athabascau.ca/analytics/&#34; target=&#34;_blank&#34;&gt;an exciting, upcoming gathering&lt;/a&gt; of 60~ people in Banff, Canada to discuss a thing called &amp;ldquo;learning analytics.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;After nearly a decade of development, we see clear progress this community has accomplished. The growth of the conference size itself, from 60 to  500+ attendees, while impressive, does not speak to the international sensation around this topic. As someone who first attended LAK as a doctoral student in 2014 and now work on a tenure-track position to grow this area at my institution, I can speak to my lived experiences of observing the rise of local interests in this topic (e.g., the &amp;ldquo;R1&amp;rdquo; university I&amp;rsquo;m part of, the state&amp;rsquo;s Department of Education), as well as an international passion for learning analytics when I travel to Singapore, Manila, Beijing, and so on.&lt;/p&gt;
+
+&lt;p&gt;The rise of learning analytics (the field), LAK (its conference) and &lt;a href=&#34;https://solaresearch.org/&#34; target=&#34;_blank&#34;&gt;SoLAR&lt;/a&gt; (its society), coincides with many other things. In education, there is a push for &amp;ldquo;evidence-based practice&amp;rdquo; and &amp;ldquo;data use&amp;rdquo; in schools (however we mean by evidence or data). In EdTech, words like A.I., adaptive learning, personalization are mentioned in board rooms, websites of philanthropist foundations, and news headlines. Of course, an earlier surge of MOOCs and an ongoing rise of online, lifelong learning demand analytic supports while also offering fertile arenas for the field of learning analytics to grow. In many cases, learning analytics are truly needed and making impossible things possible. But in others, it&amp;rsquo;s scooped up to be a tag on a product to drive sales.&lt;/p&gt;
+
+&lt;p&gt;Realities, for better or worse, just like many other fields we can think of.&lt;/p&gt;
+
+&lt;h2 id=&#34;overall-impression-of-lak19&#34;&gt;Overall impression of LAK19&lt;/h2&gt;
+
+&lt;p&gt;First of all, many thanks to the amazing organizing team who has done a wonderful job to make everything real and enjoyable! The program is cohesively organized; conference amenities are thoughtfully arranged; student volunteers are amazing. These are on top of myself escaping -20C weather in Minnesota for the 20C dessert temperature.&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Thanks &lt;a href=&#34;https://twitter.com/hashtag/LAK19?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#LAK19&lt;/a&gt; Defrosting in progress. &lt;a href=&#34;https://t.co/C1lPgc52XE&#34;&gt;pic.twitter.com/C1lPgc52XE&lt;/a&gt;&lt;/p&gt;&amp;mdash; Bodong Chen (@bod0ng) &lt;a href=&#34;https://twitter.com/bod0ng/status/1102575805559758849?ref_src=twsrc%5Etfw&#34;&gt;March 4, 2019&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;As the community grows bigger, I always found multiple concurrent sessions/talks I hoped to check out. So my impression and report of this conference are surely biased.&lt;/p&gt;
+
+&lt;h2 id=&#34;monday-full-day-workshop-on-connectivism&#34;&gt;Monday: Full-Day Workshop on Connectivism&lt;/h2&gt;
+
+&lt;p&gt;I went to this workshops mainly for jokes among Canadians, Aussies, and Serbians :). I was sorted of disappointed because &lt;a href=&#34;https://vitomir.kovanovic.info/&#34; target=&#34;_blank&#34;&gt;Vita&lt;/a&gt; was clearly jet-lagged.&lt;/p&gt;
+
+&lt;p&gt;Jokes aside, I&amp;rsquo;ve been a big fan of &lt;em&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Connectivism&#34; target=&#34;_blank&#34;&gt;Connectivism&lt;/a&gt;&lt;/em&gt;, George Siemens, and Stephen Downes for years. Many ideas under Connectivism resonate with me, as my research is grounded in the &lt;em&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Knowledge_building&#34; target=&#34;_blank&#34;&gt;Knowledge-Building Community&lt;/a&gt;&lt;/em&gt; model created by Scardamalia and Bereiter.&lt;/p&gt;
+
+&lt;p&gt;George kicked off the workshop by briefly explaining its 15-year history. Connectivism emerged in the early stage of the Read/Write web (Web 2.0) and grew out of a dissatisfaction with existing frameworks of learning that were not very helpful in explaining the construction of &amp;ldquo;modern&amp;rdquo; knowledge in a networked world.&lt;/p&gt;
+
+&lt;p&gt;The core arguments made by Connectivism are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Knowledge is networked&lt;/strong&gt;. This idea is in line with works from Rosen (2012), combinatorial creativity, Nielsen (2013), and Borner (network of science).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Learning is the process of developing those networks&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;These two ideas apply beyond learning.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;At this workshop, George challenged us to work on &lt;strong&gt;three domains where learning is networked: Neural; Cognitive/Conceptual; and Social/External&lt;/strong&gt;. Future work on Connectivism should try to deliver quality empirical research about networked learning at these levels, detail how things fit together, integrate networks across levels, and articulate human and artificial cognition.&lt;/p&gt;
+
+&lt;p&gt;Critiques of Connectivism as a learning theory were mentioned for multiple times. It&amp;rsquo;s probably accurate to say George found these critiques fair and highlighted that Connectivism meant to provide a framework (or paradigm) to think about knowledge and learning differently. There is a vast empty space left by Connectivism, including pedagogy, learning analytics, etc.&lt;/p&gt;
+
+&lt;p&gt;Stephen Downes joined the workshop remotely and shared a very informative review* of recent work on connectivism. His review looked at scholars&amp;rsquo; various interpretations of connectivism, criticisms, connectivism as pedagogy (e.g., &lt;a href=&#34;http://www.irrodl.org/index.php/irrodl/article/view/3269&#34; target=&#34;_blank&#34;&gt;Wang, Anderson, &amp;amp; Chen 2018&lt;/a&gt;), connectivism as a theory of learning, and properties of a successful network. He offered a number of future directions, including critical thinking and deep learning (not the ML sense), rhizomatic learning, social networking, and &lt;a href=&#34;https://www.researchgate.net/publication/303894484_What_Are_Cognitive_Cities&#34; target=&#34;_blank&#34;&gt;cognitive cities&lt;/a&gt;. Listening to such a review from one of the creators was helpful.&lt;/p&gt;
+
+&lt;p&gt;(*: &lt;em&gt;As a strong advocate of open scholarship, Stephen may have chosen to focus this review on open-access publications.&lt;/em&gt;)&lt;/p&gt;
+
+&lt;p&gt;Coming into this workshop, I was looking for two things:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Conceptually, I was wondering why many research papers on cMOOCs used frameworks such as the &lt;em&gt;Community of Inquiry&lt;/em&gt; to examine connectivist learning instead of connectivism itself. I was curious about further articulation of connectivism.&lt;/li&gt;
+&lt;li&gt;In terms of design &amp;ndash; of both connectivist learning environments and analytics &amp;ndash; I was looking for design principles and design ideas to inform some of our ongoing projects.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Four principles&lt;/strong&gt; of connectivism Stephen laid out later was quite useful. These principles include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Autonomy&lt;/strong&gt; of learners&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Diversity&lt;/strong&gt; of learners, ideas, information, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Openness&lt;/strong&gt; of the environment and process.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Interactivity&lt;/strong&gt; within the network.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I found these principles valuable even though more work is needed to further unpack and articulate them. Stephen predicted a shift is going to happen (if not yet) even if it&amp;rsquo;s not necessarily tagged with connectivism.&lt;/p&gt;
+
+&lt;p&gt;At the workshop, there were several interesting research talks as well, including analyzing group communication, assessing idea development using &lt;a href=&#34;https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology&#34; target=&#34;_blank&#34;&gt;epidemiological modeling&lt;/a&gt;, and modeling network dynamics. They represented promising directions to further advance connectivism, especially in the areas of analyzing connective learning processes and developing automated indices about connective learning. More details can be found on the &lt;a href=&#34;http://connectivism.net/&#34; target=&#34;_blank&#34;&gt;workshop website&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I very much appreciated the multi-level network view laid out by George and his urge for us to connect levels. These ideas are informative for my recent thinking, tinkering, and design (since 2017) to:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Represent, describe, and model learning (at multiple levels) as complex networks&lt;/li&gt;
+&lt;li&gt;Design tools for &lt;em&gt;personal, connectivist learning&lt;/em&gt; that give learners agency to maintain their networks&lt;/li&gt;
+&lt;li&gt;Brainstorm an analytical infrastructure that maintains complexity of all sorts of learning processes&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Attending this workshop was a treat!&lt;/p&gt;
+
+&lt;h2 id=&#34;tuesday-workshop-on-fairness&#34;&gt;Tuesday: Workshop on Fairness&lt;/h2&gt;
+
+&lt;p&gt;It was an honor to give an invited talk about &lt;em&gt;Value-Sensitive Design&lt;/em&gt; in learning analytics at the &lt;a href=&#34;https://sites.google.com/view/fairlak&#34; target=&#34;_blank&#34;&gt;FairLAK workshop&lt;/a&gt; organized by Kenneth Holstein and Shayan Doroudi.&lt;/p&gt;
+
+&lt;p&gt;It is a timely workshop that deals with a topic that&amp;rsquo;s critical for our work in this community and beyond. I didn&amp;rsquo;t know there are 21 fairness definitions (Narayanan, 2018; &lt;a href=&#34;https://www.youtube.com/watch?v=jIXIuYdnyyk&#34; target=&#34;_blank&#34;&gt;Youtube video&lt;/a&gt;). During my limited time spent at the workshop, it is refreshing to see multiple approaches to consider fairness, ranging from creating new metric based on slice analysis to evaluate fairness in predictive models (Josh Gardner), to applying the Socio-Technical Integration Research approach to design processes.&lt;/p&gt;
+
+&lt;p&gt;The program and slides of the FairLAK workshop can be found on &lt;a href=&#34;https://sites.google.com/view/fairlak&#34; target=&#34;_blank&#34;&gt;its website&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;tuesday-workshop-on-curriculum-development-in-la-programs&#34;&gt;Tuesday: Workshop on Curriculum Development in LA Programs&lt;/h2&gt;
+
+&lt;p&gt;Stephanie Teasley and John Stamper asked to stop by another workshop about curriculum development in learning analytics. It was half-way through after coming from the FairLAK workshop.&lt;/p&gt;
+
+&lt;p&gt;Charles Lang and Leah Macfadyen showed us their informative reviews of degree programs related to learning analytics. John Stamper showed us &lt;a href=&#34;https://hcii.cmu.edu/masters-educational-technology-and-applied-learning-science-program-overview&#34; target=&#34;_blank&#34;&gt;CMU&amp;rsquo;s Master&amp;rsquo;s Educational Technology and Applied Learning Science program&lt;/a&gt; that interestingly integrates courses from different disciplines and connects deeply with the industry.&lt;/p&gt;
+
+&lt;p&gt;Following Charles&amp;rsquo; lead, we even got a chance to co-design a class activity to engage students to consider and experience themselves as data &lt;em&gt;producers&lt;/em&gt;, data &lt;em&gt;analysts&lt;/em&gt;, and analytics &lt;em&gt;consumers&lt;/em&gt;. &lt;strong&gt;I believe nurturing criticality in all course of a learning analytics program is critical.&lt;/strong&gt; Interesting activities like this could be very helpful.&lt;/p&gt;
+
+&lt;p&gt;We discussed collectively mapping out a learning analytics curriculum. Workshop leaders will be working on compiling a list of courses and syllabi to be shared on the SoLAR website. I look forward to being part of this important work.&lt;/p&gt;
+
+&lt;h2 id=&#34;other-pre-conference-workshops&#34;&gt;Other Pre-Conference Workshops&lt;/h2&gt;
+
+&lt;p&gt;There were many interesting workshops happening at LAK.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;Writing Analytics workshop&lt;/strong&gt; has generously shared &lt;a href=&#34;https://docs.google.com/document/d/1cwd90hDVQgDwK_wODCfuA7SXti9pufjWIGU1cV_gDCU/edit#heading=h.lq1iijue859q&#34; target=&#34;_blank&#34;&gt;their notes&lt;/a&gt; that I look forward to dig into. Mladen Rakovic from SFU channeled some &amp;ldquo;knowledge telling vs. knowledge transforming&amp;rdquo; wisdom I&amp;rsquo;m familiar with.&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Writing analytics for helping students move from knowledge telling to knowledge transforming in writing &lt;a href=&#34;https://twitter.com/hashtag/WaLAK19?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#WaLAK19&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/LAK19?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#LAK19&lt;/a&gt; &lt;a href=&#34;https://twitter.com/MladenRakovic?ref_src=twsrc%5Etfw&#34;&gt;@MladenRakovic&lt;/a&gt; &lt;a href=&#34;https://t.co/TIb20hWbRl&#34;&gt;pic.twitter.com/TIb20hWbRl&lt;/a&gt;&lt;/p&gt;&amp;mdash; Shibani Antonette (@ShibaniAntonett) &lt;a href=&#34;https://twitter.com/ShibaniAntonett/status/1102637203748876288?ref_src=twsrc%5Etfw&#34;&gt;March 4, 2019&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;The Doctoral Consortium seemed to be going strong as well! I chatted with a couple of student participants during the conference. I&amp;rsquo;m sure they received great advice from this panel. As you may find out from a SoLAR 10-year anniversary video, I feel in debt to this community especially because we&amp;rsquo;re invested in emerging scholars. Way to go!&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&lt;a href=&#34;https://twitter.com/hashtag/LAK19?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#LAK19&lt;/a&gt; Doctoral Consortium careers panel with special guests  ⁦&lt;a href=&#34;https://twitter.com/aekrumm?ref_src=twsrc%5Etfw&#34;&gt;@aekrumm&lt;/a&gt;⁩ &lt;a href=&#34;https://twitter.com/sasha?ref_src=twsrc%5Etfw&#34;&gt;@sasha&lt;/a&gt; &lt;a href=&#34;https://twitter.com/whitmer?ref_src=twsrc%5Etfw&#34;&gt;@whitmer&lt;/a&gt; joining the co-chairs to share the pros and cons of future trajectories After The PhD&amp;hellip;! &lt;a href=&#34;https://t.co/RheoO3IOH2&#34;&gt;pic.twitter.com/RheoO3IOH2&lt;/a&gt;&lt;/p&gt;&amp;mdash; Simon Buckingham Shum (@sbuckshum) &lt;a href=&#34;https://twitter.com/sbuckshum/status/1103071063141838848?ref_src=twsrc%5Etfw&#34;&gt;March 5, 2019&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;Stay tuned for later parts of the LAK19 conference report&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Towards Value-Sensitive Learning Analytics Design</title>
       <link>https://meefen.github.io/publication/chen2019-lak/</link>
       <pubDate>Wed, 26 Dec 2018 21:08:26 -0600</pubDate>
@@ -354,71 +469,6 @@ image: https://c1.staticflickr.com/3/2453/3973300988_824ec066a9_b.jpg --&gt;
 &lt;p&gt;During and after the event, in addition to the Hypothes.is sidebar, a participant can either use &lt;a href=&#34;https://hypothes.is/search?q=url%3Ahttp%3A%2F%2Fwww.tandfonline.com%2Fdoi%2Ffull%2F10.1080%2F10508406.2016.1147448&#34; target=&#34;_blank&#34;&gt;Hypothes.is&amp;rsquo; advanced search functionality&lt;/a&gt; or &lt;a href=&#34;http://jonudell.net/h/facet.html?facet=uri&amp;amp;mode=documents&amp;amp;search=http://www.tandfonline.com/doi/full/10.1080/10508406.2016.1147448&#34; target=&#34;_blank&#34;&gt;an aggregation tool&lt;/a&gt; to &lt;strong&gt;review existing annotations&lt;/strong&gt; made on this article.&lt;/p&gt;
 
 &lt;p&gt;I am excited for this move JLS is making, not only because &lt;strong&gt;scholarship could be more networked and discursive&lt;/strong&gt;, but also because I see great opportunities of using web annotation to bridge learning spaces in classrooms. To me, making an annotation is forming a relationship with an idea. As educators, &lt;strong&gt;we ought to think deeply and design smartly to value such relationships as students are traversing various treks of life&lt;/strong&gt;. See &lt;a href=&#34;https://cligr.github.io/projects/discow.html&#34; target=&#34;_blank&#34;&gt;our ongoing NSF project&lt;/a&gt; for details.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The Forest</title>
-      <link>https://meefen.github.io/post/2017-10-13-at-what-price/</link>
-      <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://meefen.github.io/post/2017-10-13-at-what-price/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/c/c5/Mordecai_MOREH_-_Tree_of_Knowledge_%28Initiation%29.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;(Photo Credit: &lt;a href=&#34;https://commons.wikimedia.org/wiki/File:Mordecai_MOREH_-_Tree_of_Knowledge_(Initiation).jpg&#34; target=&#34;_blank&#34;&gt;Wikipedia&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;The universe is expanding&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
-The Milky Way is a beauty&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
-The Sun is shining&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
-The Earth looks blue&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;All continents are moving&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
-Civilizations boom&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
-A wall defends &amp;lsquo;us&amp;rsquo;&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
-Pyramids are built tall&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;Boats cross the ocean&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
-Nets get casted&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
-People dine and leave bones behind&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
-&amp;lsquo;Research&amp;rsquo; gets conducted&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;We Uber to the airport&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
-Google guides the way&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
-Peppa Pig speaks in the house&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
-A.I. is figuring things out&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;Coffee smells delicious&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
-Muscles stretch to the cup&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
-Neurons are fired up&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
-Joy spills over&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;Keys are stroked&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
-Bits get sent&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
-Photons dash through a fiber&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
-Particles become entangled&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;~ ~ ~ ~ ~ ~&lt;/p&gt;
-
-&lt;p&gt;A leave is dancing&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
-Stones get erected&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
-People are farming animals&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
-A king is crowned&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;The statue is pushed over&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
-A wall falls down&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
-Another country rises&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
-Humans step on the moon&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;The Earth is half-dark&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
-The Sun has spots&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
-All stars are spinning in the &amp;lsquo;Dark Forest&amp;rsquo;&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
-Until the universe collapses&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Now, please hit Ctrl+A / Cmd+A and read again.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;P.S.: This is &lt;em&gt;not&lt;/em&gt; a poem. Just some musings translated to sentences.&lt;/p&gt;
-
-&lt;p&gt;Yours in struggle.&lt;/p&gt;
 </description>
     </item>
     
