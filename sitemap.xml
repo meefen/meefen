@@ -4,6 +4,14 @@
     
     <url>
     
+      <loc>https://meefen.github.io/post/2019-03-14-automation/</loc>
+      <lastmod>2019-03-14T13:57:08-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://meefen.github.io/post/2019-03-08-lak19-part2/</loc>
       <lastmod>2019-03-09T21:45:15-06:00</lastmod>
     </url>
@@ -20,16 +28,16 @@
     
     <url>
     
-      <loc>https://meefen.github.io/publication/chen2019-tw/</loc>
-      <lastmod>2019-03-01T00:00:00-06:00</lastmod>
+      <loc>https://meefen.github.io/publication/chen2019-lak/</loc>
+      <lastmod>2019-03-04T21:08:26-06:00</lastmod>
     </url>
     
   
     
     <url>
     
-      <loc>https://meefen.github.io/publication/chen2019-lak/</loc>
-      <lastmod>2018-12-26T21:08:26-06:00</lastmod>
+      <loc>https://meefen.github.io/publication/chen2019-tw/</loc>
+      <lastmod>2019-03-01T00:00:00-06:00</lastmod>
     </url>
     
   
@@ -301,6 +309,24 @@
     
     <url>
     
+      <loc>https://meefen.github.io/tags/ai/</loc>
+      <lastmod>2019-03-14T13:57:08-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://meefen.github.io/tags/automation/</loc>
+      <lastmod>2019-03-14T13:57:08-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://meefen.github.io/</loc>
       <lastmod>2018-04-20T00:00:00-05:00</lastmod>
       <priority>0</priority>
@@ -433,7 +459,7 @@
     <url>
     
       <loc>https://meefen.github.io/tags/</loc>
-      <lastmod>2018-10-26T15:42:17-05:00</lastmod>
+      <lastmod>2019-03-14T13:57:08-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -443,6 +469,15 @@
     
       <loc>https://meefen.github.io/tags/teacher-learning/</loc>
       <lastmod>2018-11-08T00:00:00-06:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://meefen.github.io/tags/value/</loc>
+      <lastmod>2019-03-14T13:57:08-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -567,7 +602,7 @@
     <url>
     
       <loc>https://meefen.github.io/tags/learning-analytics/</loc>
-      <lastmod>2018-12-26T21:08:26-06:00</lastmod>
+      <lastmod>2019-03-04T21:08:26-06:00</lastmod>
       <priority>0</priority>
     </url>
     

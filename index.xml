@@ -11,6 +11,26 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Automate for Whom?</title>
+      <link>https://meefen.github.io/post/2019-03-14-automation/</link>
+      <pubDate>Thu, 14 Mar 2019 13:57:08 -0500</pubDate>
+      
+      <guid>https://meefen.github.io/post/2019-03-14-automation/</guid>
+      <description>&lt;p&gt;I have been working at a large public R1 university long enough &amp;ndash; 4 years &amp;ndash; to witness steady changes with technology installed in public restrooms.&lt;/p&gt;
+
+&lt;p&gt;Below is a newly installed automatic paper towel dispenser in our office building. As someone who tends to use 1 paper towel, I was very frustrated by the design that doesn&amp;rsquo;t keep me &amp;ndash; a user &amp;ndash; in the loop and forces me to use that much paper.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;automatic-towel-dispenser.JPG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Below is a picture of a fancy hand wash station I saw during last week&amp;rsquo;s conference travel. It neatly integrates the soap dispenser, a water tap, and a hand dryer together. There are at least three sensors built in this integrated system. It&amp;rsquo;s probably based on a zero-paper consumption philosophy, and has fundamentally transformed one&amp;rsquo;s hand-washing process.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;hand-wash-station.JPG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I started to wonder: &lt;strong&gt;Whom does automation &amp;ndash; and an integrated automation system &amp;ndash; serve? Whom did the designers have in mind when designing these products?&lt;/strong&gt;  And finally, &lt;strong&gt;what lessons we can learn as designers of learning systems&lt;/strong&gt; (or using a new fancy title, as &lt;strong&gt;learning engineers&lt;/strong&gt;)?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>#LAK19 Conference Report [Part 2]: Main Conference</title>
       <link>https://meefen.github.io/post/2019-03-08-lak19-part2/</link>
       <pubDate>Sat, 09 Mar 2019 21:45:15 -0600</pubDate>
@@ -242,20 +262,20 @@
     </item>
     
     <item>
+      <title>Towards Value-Sensitive Learning Analytics Design</title>
+      <link>https://meefen.github.io/publication/chen2019-lak/</link>
+      <pubDate>Mon, 04 Mar 2019 21:08:26 -0600</pubDate>
+      
+      <guid>https://meefen.github.io/publication/chen2019-lak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Designing for Networked Collaborative Discourse: An UnLMSApproach</title>
       <link>https://meefen.github.io/publication/chen2019-tw/</link>
       <pubDate>Fri, 01 Mar 2019 00:00:00 -0600</pubDate>
       
       <guid>https://meefen.github.io/publication/chen2019-tw/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Towards Value-Sensitive Learning Analytics Design</title>
-      <link>https://meefen.github.io/publication/chen2019-lak/</link>
-      <pubDate>Wed, 26 Dec 2018 21:08:26 -0600</pubDate>
-      
-      <guid>https://meefen.github.io/publication/chen2019-lak/</guid>
       <description></description>
     </item>
     
@@ -552,15 +572,6 @@
       <pubDate>Thu, 25 Jan 2018 00:00:00 -0600</pubDate>
       
       <guid>https://meefen.github.io/publication/chen2018-mc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Using differentiated feedback to improve performance in introductory statistics</title>
-      <link>https://meefen.github.io/publication/cai2018-za/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 -0600</pubDate>
-      
-      <guid>https://meefen.github.io/publication/cai2018-za/</guid>
       <description></description>
     </item>
     
