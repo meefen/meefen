@@ -4,6 +4,14 @@
     
     <url>
     
+      <loc>https://meefen.github.io/publication/chen2019-mu/</loc>
+      <lastmod>2019-03-29T21:08:49-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://meefen.github.io/post/2019-03-14-automation/</loc>
       <lastmod>2019-03-14T13:57:08-05:00</lastmod>
     </url>
@@ -37,6 +45,14 @@
     <url>
     
       <loc>https://meefen.github.io/publication/chen2019-tw/</loc>
+      <lastmod>2019-03-01T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://meefen.github.io/talk/2019-lak/</loc>
       <lastmod>2019-03-01T00:00:00-06:00</lastmod>
     </url>
     
@@ -301,7 +317,7 @@
     <url>
     
       <loc>https://meefen.github.io/publication_types/2/</loc>
-      <lastmod>2019-03-01T00:00:00-06:00</lastmod>
+      <lastmod>2019-03-29T21:08:49-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -346,6 +362,15 @@
     <url>
     
       <loc>https://meefen.github.io/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://meefen.github.io/tags/design-research/</loc>
+      <lastmod>2019-03-01T00:00:00-06:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -407,6 +432,15 @@
     
     <url>
     
+      <loc>https://meefen.github.io/tags/learning-analytics/</loc>
+      <lastmod>2019-03-01T00:00:00-06:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://meefen.github.io/tags/online-learning/</loc>
       <lastmod>2018-10-26T15:42:17-05:00</lastmod>
       <priority>0</priority>
@@ -435,7 +469,7 @@
     <url>
     
       <loc>https://meefen.github.io/publication_types/</loc>
-      <lastmod>2019-03-01T00:00:00-06:00</lastmod>
+      <lastmod>2019-03-29T21:08:49-05:00</lastmod>
       <priority>0</priority>
     </url>
     
