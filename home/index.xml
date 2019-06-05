@@ -4,12 +4,12 @@
     <title>Homes on Bodong Chen</title>
     <link>https://meefen.github.io/home/</link>
     <description>Recent content in Homes on Bodong Chen</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2019 Bodong Chen</copyright>
-    <lastBuildDate>Fri, 20 Apr 2018 00:00:00 -0500</lastBuildDate>
+    <copyright>&amp;copy; 2016--2019 Bodong Chen</copyright>
+    <lastBuildDate>Mon, 23 Jul 2018 00:00:00 -0500</lastBuildDate>
     
-	<atom:link href="https://meefen.github.io/home/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://meefen.github.io/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,9 +18,18 @@
       <pubDate>Fri, 20 Apr 2018 00:00:00 -0500</pubDate>
       
       <guid>https://meefen.github.io/home/about/</guid>
-      <description>About me I am an Associate Professor in the College of Education and Human Development at the University of Minnesota. My research is at the intersection of knowledge building, learning analytics, networked learning, and network analysis. My work is broadly published in premier venues and funded by the NSF CRII, the Digital Learning for Development initiative, the University of Minnesota.
- 陈伯栋，明尼苏达大学教育与人类发展学院助理教授。主要研究方向包括：计算机支持的协作学习、学习分析学、网络分析、网络学习。
-研究项目参见研究组网站。</description>
+      <description>
+
+&lt;h1 id=&#34;about-me&#34;&gt;About me&lt;/h1&gt;
+
+&lt;p&gt;I am an Associate Professor in the &lt;a href=&#34;http://www.cehd.umn.edu/&#34; target=&#34;_blank&#34;&gt;College of Education and Human Development&lt;/a&gt; at the &lt;a href=&#34;https://twin-cities.umn.edu/&#34; target=&#34;_blank&#34;&gt;University of Minnesota&lt;/a&gt;. My research is at the intersection of &lt;a href=&#34;https://en.wikipedia.org/wiki/Knowledge_building&#34; target=&#34;_blank&#34;&gt;knowledge building&lt;/a&gt;, &lt;a href=&#34;https://en.wikipedia.org/wiki/Learning_analytics&#34; target=&#34;_blank&#34;&gt;learning analytics&lt;/a&gt;, &lt;a href=&#34;https://en.wikipedia.org/wiki/Networked_learning&#34; target=&#34;_blank&#34;&gt;networked learning&lt;/a&gt;, and &lt;a href=&#34;https://en.wikipedia.org/wiki/Network_science&#34; target=&#34;_blank&#34;&gt;network analysis&lt;/a&gt;. My work is broadly published in premier venues and funded by the &lt;a href=&#34;https://www.nsf.gov/awardsearch/showAward?AWD_ID=1657009&#34; target=&#34;_blank&#34;&gt;NSF CRII&lt;/a&gt;, the &lt;a href=&#34;http://dl4d.org/&#34; target=&#34;_blank&#34;&gt;Digital Learning for Development initiative&lt;/a&gt;, the University of Minnesota.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;陈伯栋，明尼苏达大学教育与人类发展学院助理教授。主要研究方向包括：计算机支持的协作学习、学习分析学、网络分析、网络学习。&lt;/p&gt;
+
+&lt;p&gt;研究项目参见&lt;a href=&#34;https://colig.github.io/research/&#34; target=&#34;_blank&#34;&gt;研究组网站&lt;/a&gt;。&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -74,10 +83,45 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
       <guid>https://meefen.github.io/home/teaching/</guid>
-      <description>I teach the following courses in the Department of Curriculum and Instruction at UMN:
-CI 8371: Applied Social Network Analysis in Education*
- An introduction to social network analysis for graduate students in education Spring &amp;lsquo;17  CI 8134-35: Foundations of Research in Curriculum and Instruction
- A required course for all first year Ph.D. students in my department Co-taught with Dr. Mark Vagle (2016-2017) and Dr. Nina Asher (2017-2018)  CI 5371: Learning Analytics: Theory and Practice*</description>
+      <description>&lt;p&gt;I teach the following courses in the Department of Curriculum and Instruction at UMN:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;CI 8371: Applied Social Network Analysis in Education&lt;/strong&gt;*&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;An introduction to social network analysis for graduate students in education&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://bookdown.org/chen/snaEd/&#34; target=&#34;_blank&#34;&gt;Spring &amp;lsquo;17&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;CI 8134-35: Foundations of Research in Curriculum and Instruction&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A required course for all first year Ph.D. students in my department&lt;/li&gt;
+&lt;li&gt;Co-taught with Dr. Mark Vagle (2016-2017) and Dr. Nina Asher (2017-2018)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;CI 5371: Learning Analytics: Theory and Practice&lt;/strong&gt;*&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A general survey of the nascent field of learning analytics and its applications in various educational contexts&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://colig.github.io/laumn/&#34; target=&#34;_blank&#34;&gt;Fall &amp;lsquo;18&lt;/a&gt;, &lt;a href=&#34;https://github.com/meefen/la-spring16&#34; target=&#34;_blank&#34;&gt;Spring &amp;lsquo;16&lt;/a&gt;, &lt;a href=&#34;https://github.com/meefen/LA-UMN&#34; target=&#34;_blank&#34;&gt;Spring &amp;lsquo;15&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;CI 5301: Foundations of Computer Applications for Business and Education&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;This course examines the instructional uses of computers and representative business, education, and marketing applications&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/meefen/ci5301&#34; target=&#34;_blank&#34;&gt;Syllabus&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;CI 4331W: Technology and Ethics in Society&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A liberal education theme, writing intensive course &lt;a href=&#34;https://github.com/meefen/CI4311W/blob/master/CI4311W-Syllabus-2016-Spring.md&#34; target=&#34;_blank&#34;&gt;Syllabus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Course website hosted on Canvas&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;*: New courses developed by myself.&lt;/p&gt;
+</description>
     </item>
     
     <item>

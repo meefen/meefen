@@ -4,12 +4,12 @@
     <title>Posts on Bodong Chen</title>
     <link>https://meefen.github.io/post/</link>
     <description>Recent content in Posts on Bodong Chen</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2019 Bodong Chen</copyright>
+    <copyright>&amp;copy; 2016--2019 Bodong Chen</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0600</lastBuildDate>
     
-	<atom:link href="https://meefen.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://meefen.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,8 +18,18 @@
       <pubDate>Thu, 14 Mar 2019 13:57:08 -0500</pubDate>
       
       <guid>https://meefen.github.io/post/2019-03-14-automation/</guid>
-      <description>I have been working at a large public R1 university long enough &amp;ndash; 4 years &amp;ndash; to witness steady changes with technology installed in public restrooms.
-Below is a newly installed automatic paper towel dispenser in our office building. As someone who tends to use 1 paper towel, I was very frustrated by the design that doesn&amp;rsquo;t keep me &amp;ndash; a user &amp;ndash; in the loop and forces me to use that much paper.</description>
+      <description>&lt;p&gt;I have been working at a large public R1 university long enough &amp;ndash; 4 years &amp;ndash; to witness steady changes with technology installed in public restrooms.&lt;/p&gt;
+
+&lt;p&gt;Below is a newly installed automatic paper towel dispenser in our office building. As someone who tends to use 1 paper towel, I was very frustrated by the design that doesn&amp;rsquo;t keep me &amp;ndash; a user &amp;ndash; in the loop and forces me to use that much paper.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;automatic-towel-dispenser.JPG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Below is a picture of a fancy hand wash station I saw during last week&amp;rsquo;s conference travel. It neatly integrates a soap dispenser, a water tap, and a hand dryer together. There are at least three sensors built in this integrated system. It&amp;rsquo;s probably based on a zero-paper consumption philosophy, and has fundamentally transformed one&amp;rsquo;s hand-washing process.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;hand-wash-station.JPG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I started to wonder: &lt;strong&gt;Whom does automation &amp;ndash; and an integrated automation system &amp;ndash; serve? Whom did the designers have in mind when designing these products?&lt;/strong&gt;  And finally, &lt;strong&gt;what lessons we can learn as designers of learning systems&lt;/strong&gt; (or using a new fancy title, as &lt;strong&gt;learning engineers&lt;/strong&gt;)?&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -28,12 +38,114 @@ Below is a newly installed automatic paper towel dispenser in our office buildin
       <pubDate>Sat, 09 Mar 2019 21:45:15 -0600</pubDate>
       
       <guid>https://meefen.github.io/post/2019-03-08-lak19-part2/</guid>
-      <description>(This is the second part of a report of the #LAK19 conference. See Part 1 here.)
-It was the only beginning of many fun conversations when the Main Conference kicked off on Wednesday!
-Our conference and program chairs delivered an exciting welcome message.
-LAK is becoming larger,
-Largest LAK ever &amp;amp; 60% attendees are 1st timers! - shared by conference chair @shoha99 #LAK19 pic.twitter.com/k7C02NGWol
-&amp;mdash; Bodong Chen (@bod0ng) March 6, 2019</description>
+      <description>
+
+&lt;p&gt;(This is the second part of a report of the #LAK19 conference. See &lt;a href=&#34;https://meefen.github.io/post/2019-03-08-lak19-part1/&#34;&gt;Part 1 here&lt;/a&gt;.)&lt;/p&gt;
+
+&lt;p&gt;It was the only beginning of many fun conversations when the Main Conference kicked off on Wednesday!&lt;/p&gt;
+
+&lt;p&gt;Our conference and program chairs delivered an exciting welcome message.&lt;/p&gt;
+
+&lt;p&gt;LAK is becoming larger,&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Largest LAK ever &amp;amp; 60% attendees are 1st timers! - shared by conference chair &lt;a href=&#34;https://twitter.com/shoha99?ref_src=twsrc%5Etfw&#34;&gt;@shoha99&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/LAK19?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#LAK19&lt;/a&gt; &lt;a href=&#34;https://t.co/k7C02NGWol&#34;&gt;pic.twitter.com/k7C02NGWol&lt;/a&gt;&lt;/p&gt;&amp;mdash; Bodong Chen (@bod0ng) &lt;a href=&#34;https://twitter.com/bod0ng/status/1103323756661882882?ref_src=twsrc%5Etfw&#34;&gt;March 6, 2019&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;but still selective &amp;ndash; with a 33% acceptance rate for Full and Short papers.&lt;/p&gt;
+
+&lt;p&gt;LAK is international &amp;ndash; given representation and collaboration patterns. And interdisciplinary &amp;ndash; based on which publication sources we cite.&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;International collaboration and interdisciplinarity are in the genes of the &lt;a href=&#34;https://twitter.com/hashtag/LAK?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#LAK&lt;/a&gt; community &lt;a href=&#34;https://twitter.com/hashtag/LAK19?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#LAK19&lt;/a&gt; &lt;a href=&#34;https://t.co/xK1ZwCMuqK&#34;&gt;pic.twitter.com/xK1ZwCMuqK&lt;/a&gt;&lt;/p&gt;&amp;mdash; Bodong Chen (@bod0ng) &lt;a href=&#34;https://twitter.com/bod0ng/status/1103326619362455552?ref_src=twsrc%5Etfw&#34;&gt;March 6, 2019&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;See their &lt;a href=&#34;https://docs.google.com/presentation/d/1DBDxkoW7WdcCLxM6kpR5M6S7Nw-9sHiH9PAbFpXKmig/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;slides&lt;/a&gt; for more detailed information.&lt;/p&gt;
+
+&lt;h2 id=&#34;keynotes-1-and-2&#34;&gt;Keynotes 1 and 2&lt;/h2&gt;
+
+&lt;p&gt;With a young family, I could only stay till Thursday and had to miss the third keynote by  &lt;strong&gt;Shirley Alexander&lt;/strong&gt; (Professor &amp;amp; Deputy Vice-Chancellor, University of Technology Sydney, Australia) on how to nurture a &lt;em&gt;Data-Intensive University&lt;/em&gt;.&lt;/p&gt;
+
+&lt;!-- &lt;blockquote class=&#34;twitter-tweet&#34; data-cards=&#34;hidden&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;The final &lt;a href=&#34;https://twitter.com/hashtag/LAK19?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#LAK19&lt;/a&gt; keynote with &lt;a href=&#34;https://twitter.com/SAlexander_UTS?ref_src=twsrc%5Etfw&#34;&gt;@SAlexander_UTS&lt;/a&gt; on building a data intensive university, the talk today outlines a field guide. &lt;br&gt;&lt;br&gt;Watch now at &lt;a href=&#34;https://t.co/IadDaNy8mA&#34;&gt;https://t.co/IadDaNy8mA&lt;/a&gt;&lt;/p&gt;&amp;mdash; LAK19 (@lak19asu) &lt;a href=&#34;https://twitter.com/lak19asu/status/1104054595704127488?ref_src=twsrc%5Etfw&#34;&gt;March 8, 2019&lt;/a&gt;&lt;/blockquote&gt; --&gt;
+
+&lt;!-- &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt; --&gt;
+
+&lt;p&gt;The other two keynotes were delivered by &lt;strong&gt;Ryan Baker&lt;/strong&gt; (UPenn) and &lt;strong&gt;Lise Getoor&lt;/strong&gt; (UC Santa Cruz). I am reviewing these two keynotes together because they were both slightly more technical (compared by the third keynote by Alexander) and both about addressing challenges in building models.&lt;/p&gt;
+
+&lt;p&gt;Ryan Baker is the founding president of the international society of Educational Data Mining (EDM), a sister community of learning analytics. His talk was focused on six important challenges faced by both EDM and learning analytics. As a keynote it almost sets a future research agenda for the community.&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;First keynote at &lt;a href=&#34;https://twitter.com/hashtag/LAK19?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#LAK19&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/BakerEDMLab?ref_src=twsrc%5Etfw&#34;&gt;@BakerEDMLab&lt;/a&gt; &lt;a href=&#34;https://t.co/EkrAAOA6qv&#34;&gt;pic.twitter.com/EkrAAOA6qv&lt;/a&gt;&lt;/p&gt;&amp;mdash; Sweet San Pedro (@sweetsp) &lt;a href=&#34;https://twitter.com/sweetsp/status/1103330050059857920?ref_src=twsrc%5Etfw&#34;&gt;March 6, 2019&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Challenges set by ⁦&lt;a href=&#34;https://twitter.com/BakerEDMLab?ref_src=twsrc%5Etfw&#34;&gt;@BakerEDMLab&lt;/a&gt;⁩ &lt;a href=&#34;https://twitter.com/hashtag/lak19?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#lak19&lt;/a&gt; &lt;a href=&#34;https://t.co/na9aBhwwCa&#34;&gt;pic.twitter.com/na9aBhwwCa&lt;/a&gt;&lt;/p&gt;&amp;mdash; Bodong Chen (@bod0ng) &lt;a href=&#34;https://twitter.com/bod0ng/status/1103337235158429696?ref_src=twsrc%5Etfw&#34;&gt;March 6, 2019&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Predictive models&lt;/em&gt; has been a trending topic in the community even though prediction is only one of those five EDM techniques outlined by &lt;a href=&#34;https://jedm.educationaldatamining.org/index.php/JEDM/article/view/8&#34; target=&#34;_blank&#34;&gt;Baker and Yacef (2009)&lt;/a&gt; (see also &lt;a href=&#34;https://journals.sagepub.com/doi/abs/10.1177/0002764213498851?journalCode=absb&#34; target=&#34;_blank&#34;&gt;Siemens, 2013&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;I appreciated Ryan&amp;rsquo;s keynote because it pointed out a few acute problems with our current research and practice. We build models and analytics facing a serious constraint &amp;ndash; the &amp;lsquo;learning system wall&amp;rsquo; problem (&lt;strong&gt;Challenge #1&lt;/strong&gt;). Learning analytics systems we build are not making lasting impact on student lives (&lt;strong&gt;Challenge #2&lt;/strong&gt;). Findings from models are not necessarily interpretable (&lt;strong&gt;Challenge #3&lt;/strong&gt;). We are less confident in detecting student learning in real-world scenarios (say, not in front of a computer) (&lt;strong&gt;Challenge #4&lt;/strong&gt;). Our models are not generalizable across contexts (&lt;strong&gt;Challenge #5&lt;/strong&gt;). Our models are not general either &amp;ndash; not built for a non-typical population (e.g. high school dropouts, Alaska students) (&lt;strong&gt;Challenge #6&lt;/strong&gt;).&lt;/p&gt;
+
+&lt;p&gt;These important challenges are closely aligned with LAK19&amp;rsquo;s theme, &lt;em&gt;Promoting Inclusion and Access&lt;/em&gt;, and vital for the long-term legitimacy of this field. Framing them in technical terms was intended to help us find practical solutions. But I started to feel less optimistic about addressing them within the next 18 years when considering the complex political, ethical, socio-technical, theoretical terrain facing these challenges.&lt;/p&gt;
+
+&lt;p&gt;(&lt;em&gt;Note: Expect Ryan to share more details about these challenges via &lt;a href=&#34;https://twitter.com/BakerEDMLab&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; soon.&lt;/em&gt;)&lt;/p&gt;
+
+&lt;p&gt;The second keynote by Prof. &lt;strong&gt;Lise Getoor&lt;/strong&gt; was focused on &lt;em&gt;Collective Reasoning&lt;/em&gt; as a key challenge in data mining and machine learning. She first called attention to structures in data and critiqued the widespread practice of flattening rich behavioral data into tables. Starting from this recognition, she highlighted that all decisions are structured and argued we should use multimodal, multi-relational, spatio-temporal features of data when making decisions, instead of flattening data and discarding relations.&lt;/p&gt;
+
+&lt;p&gt;Getoor went further to explain Collective Reasoning and suggested constructing logial rules &amp;ndash; many of them &amp;ndash; to further support reasoning.&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;.⁦&lt;a href=&#34;https://twitter.com/lgetoor?ref_src=twsrc%5Etfw&#34;&gt;@lgetoor&lt;/a&gt;⁩ speaks about the challenge of achieving Collective Reasoning! &lt;a href=&#34;https://twitter.com/hashtag/lak19?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#lak19&lt;/a&gt; &lt;a href=&#34;https://t.co/fH7DzjMh8D&#34;&gt;pic.twitter.com/fH7DzjMh8D&lt;/a&gt;&lt;/p&gt;&amp;mdash; Bodong Chen (@bod0ng) &lt;a href=&#34;https://twitter.com/bod0ng/status/1103688260641972224?ref_src=twsrc%5Etfw&#34;&gt;March 7, 2019&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;Her group developed the &lt;a href=&#34;https://psl.linqs.org/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Probabilistic soft logic (PSL)&lt;/strong&gt;&lt;/a&gt; framework and toolkit for building probabilistic models. She then went ahead to introduce the application of PSL in a wide range of problem spaces (including MOOC discussion forums).&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Second keynote at &lt;a href=&#34;https://twitter.com/hashtag/LAK19?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#LAK19&lt;/a&gt; is &lt;a href=&#34;https://twitter.com/lgetoor?ref_src=twsrc%5Etfw&#34;&gt;@lgetoor&lt;/a&gt; presenting her approach named Probabilistic Soft Logic for &lt;a href=&#34;https://twitter.com/hashtag/machinelearning?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#machinelearning&lt;/a&gt; to deal with relations, inconsistencies and inference. &lt;a href=&#34;https://t.co/fsNo64swLx&#34;&gt;pic.twitter.com/fsNo64swLx&lt;/a&gt;&lt;/p&gt;&amp;mdash; Daniele Di Mitri (@dimstudi0) &lt;a href=&#34;https://twitter.com/dimstudi0/status/1103693761589067776?ref_src=twsrc%5Etfw&#34;&gt;March 7, 2019&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;Issues discussed by Getoor spoke to my heart. In the learning sciences, we&amp;rsquo;ve been criticizing the practice of coding-and-counting approach. While part of my research has been trying to cast light on micro-temporal dynamics in learning processes, I am also interested in maintaining the complexity of learning data intact when conducting data analysis. The keynote itself did not provide more details about Probabilistic Soft Logic (PSL), given the time limit, so I look forward to digging into the PSL framework and tools later.&lt;/p&gt;
+
+&lt;h2 id=&#34;learning-sciences-panel&#34;&gt;Learning Sciences Panel&lt;/h2&gt;
+
+&lt;p&gt;On Wednesday, I moderated a Learning Sciences panel featuring Ryan Baker, Nancy Law (University of Hong Kong), Phil Winne (Simon Fraser University), and Alyssa Wise (New York University). We were charged to inspire the audience with &amp;ldquo;Design and analysis strategies that promote inclusion and increase access&amp;rdquo;. While all of our panelists had very wise things to say, we all concurred we need more expertise represented in the room.&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&lt;a href=&#34;https://twitter.com/bod0ng?ref_src=twsrc%5Etfw&#34;&gt;@bod0ng&lt;/a&gt; Important observation about how learning science&lt;em&gt;s&lt;/em&gt; have gone far to help elucidate the political and material conditions affecting learning and what is valued about what we measure in &lt;a href=&#34;https://twitter.com/hashtag/LearningAnalytics?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#LearningAnalytics&lt;/a&gt;  &lt;a href=&#34;https://twitter.com/hashtag/LAK19?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#LAK19&lt;/a&gt;&lt;/p&gt;&amp;mdash; Robin Pappas (@RobinPappas1) &lt;a href=&#34;https://twitter.com/RobinPappas1/status/1103361698709164032?ref_src=twsrc%5Etfw&#34;&gt;March 6, 2019&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;Near the end of the session, one of this year&amp;rsquo;s Doctoral Consortium participants Catherine Manly (UM-Amherst) mentioned her work on Universal Design for Learning. We need more work like this!&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;It&amp;#39;s exciting to have my dissertation work recognized by the &lt;a href=&#34;https://twitter.com/hashtag/LAK19?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#LAK19&lt;/a&gt; Doctoral Consortium! &lt;a href=&#34;https://t.co/imn52QpD0E&#34;&gt;https://t.co/imn52QpD0E&lt;/a&gt;&lt;/p&gt;&amp;mdash; Catherine Manly (@c_manly) &lt;a href=&#34;https://twitter.com/c_manly/status/1096210546888769537?ref_src=twsrc%5Etfw&#34;&gt;February 15, 2019&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;sessions-on-text-discourse-design-ethics&#34;&gt;Sessions on Text &amp;amp; Discourse, Design, Ethics&lt;/h2&gt;
+
+&lt;p&gt;The rest of my conference participation was a bit disjointed. Besides my own presentation on &lt;em&gt;Value Sensitive Design&lt;/em&gt;, I was only able to attend a few sessions on &lt;em&gt;Ethics&lt;/em&gt; (which I chaired), &lt;em&gt;Dialogue &amp;amp; Engagement&lt;/em&gt;, and &lt;em&gt;Reading Analytics&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;There were many sessions I wished to attend. And I missed an important talk on &lt;a href=&#34;https://dl-acm-org.ezp1.lib.umn.edu/citation.cfm?id=3303784&amp;amp;dl=ACM&amp;amp;coll=DL&#34; target=&#34;_blank&#34;&gt;the impact of learning analytics&lt;/a&gt;, by Shane Dowson and colleagues.&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;analysis of 522 papers thus far in#LAK: simplification, techno-centric, case studies, exploratory&amp;hellip; similar trends in the last several years.. where is learning optimisation? how do we move the field forward in education as a complex system &lt;a href=&#34;https://twitter.com/shaned07?ref_src=twsrc%5Etfw&#34;&gt;@shaned07&lt;/a&gt; &lt;a href=&#34;https://twitter.com/s_joksimovic?ref_src=twsrc%5Etfw&#34;&gt;@s_joksimovic&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/lak19?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#lak19&lt;/a&gt;&lt;/p&gt;&amp;mdash; Sasha (@choux) &lt;a href=&#34;https://twitter.com/choux/status/1104081335784599554?ref_src=twsrc%5Etfw&#34;&gt;March 8, 2019&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;Fortunately, &lt;a href=&#34;https://dl.acm.org/citation.cfm?id=3303772&amp;amp;picked=prox&amp;amp;preflayout=tabs&#34; target=&#34;_blank&#34;&gt;the conference proceedings&lt;/a&gt; are nicely organized by sessions for us to catch up.&lt;/p&gt;
+
+&lt;p&gt;Slides of my talk on &lt;strong&gt;Towards Value-Sensitive Learning Analytics Design&lt;/strong&gt; can be found below. I am excited about this direction!&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/uaJEb1QKL12xpa&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/dirkchen/lak19-towards-valuesensitive-learning-analytics-design&#34; title=&#34;LAK19 - Towards Value-Sensitive Learning Analytics Design&#34; target=&#34;_blank&#34;&gt;LAK19 - Towards Value-Sensitive Learning Analytics Design&lt;/a&gt; &lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;looking-ahead&#34;&gt;Looking Ahead&lt;/h2&gt;
+
+&lt;p&gt;It has been a great LAK!&lt;/p&gt;
+
+&lt;p&gt;Given it will be LAK&amp;rsquo;s 10th anniversary, I do wonder how much this community has achieved and what needs to be down in the next 5 or 10 years.&lt;/p&gt;
+
+&lt;h3 id=&#34;below-i-offer-my-own-list-of-challenges&#34;&gt;Below I offer my own list of challenges:&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Work with the larger system&lt;/strong&gt;. While we&amp;rsquo;re doing detailed, careful work, it is important to make sure our work is contributing to the betterment of the larger education system. We need to connect models with design, and with feedback. We need to engage more voices in our work. We need to look at choice-making by learners besides knowledge acquisition. We need to connect learning that&amp;rsquo;s life-wide and lifelong.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Move towards knowledge convergence&lt;/strong&gt;. While we can do all sorts of cool analyses on all sorts of interesting data, we need to be an even better job on understanding learning in richer contexts. How can we put advances from multiple analytical perspectives together?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Focus on impact&lt;/strong&gt;. While there are convincing cases of data-rich educational practices, we need to invest more in studying acceptance and impact.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Include one keynote speaker from a &amp;ldquo;non-&lt;a href=&#34;https://www.apa.org/monitor/2010/05/weird&#34; target=&#34;_blank&#34;&gt;WEIRD&lt;/a&gt;&amp;rdquo; country each year&lt;/strong&gt;. While the society has been doing an amazing job on equity and inclusion, I would like to see a stronger representation from the Global South in the next 10 years. Ensuring voices from &amp;ldquo;non-WEIRD&amp;rdquo; countries could be a good start.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://lak20.solaresearch.org/wp-content/uploads/2019/02/lak2020-banner-no-affiliations-1.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Look forward to seeing you at &lt;a href=&#34;https://lak20.solaresearch.org/&#34; target=&#34;_blank&#34;&gt;LAK &amp;lsquo;20&lt;/a&gt; in Frankfurt, Germany.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -42,7 +154,113 @@ Largest LAK ever &amp;amp; 60% attendees are 1st timers! - shared by conference 
       <pubDate>Fri, 08 Mar 2019 21:45:15 -0600</pubDate>
       
       <guid>https://meefen.github.io/post/2019-03-08-lak19-part1/</guid>
-      <description>I just came back from the 2019 Learning Analytics and Knowledge (LAK) conference hosted by Arizona State University. This conference, surely one of my favorites, is inching to its 10th anniversary next year. I still remember when I was in the 2nd year of my PhD in 2010, Chris Teplovs told me about an exciting, upcoming gathering of 60~ people in Banff, Canada to discuss a thing called &amp;ldquo;learning analytics.</description>
+      <description>
+
+&lt;p&gt;I just came back from the &lt;a href=&#34;https://lak19.solaresearch.org/&#34; target=&#34;_blank&#34;&gt;2019 &lt;em&gt;Learning Analytics and Knowledge (LAK)&lt;/em&gt; conference&lt;/a&gt; hosted by Arizona State University. This conference, surely one of my favorites, is inching to its 10th anniversary next year. I still remember when I was in the 2nd year of my PhD in 2010, &lt;a href=&#34;https://www.si.umich.edu/people/chris-teplovs&#34; target=&#34;_blank&#34;&gt;Chris Teplovs&lt;/a&gt; told me about &lt;a href=&#34;https://tekri.athabascau.ca/analytics/&#34; target=&#34;_blank&#34;&gt;an exciting, upcoming gathering&lt;/a&gt; of 60~ people in Banff, Canada to discuss a thing called &amp;ldquo;learning analytics.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;After nearly a decade of development, we see clear progress this community has accomplished. The growth of the conference size itself, from 60 to  500+ attendees, while impressive, does not speak to the international sensation around this topic. As someone who first attended LAK as a doctoral student in 2014 and now work on a tenure-track position to grow this area at my institution, I can speak to my lived experiences of observing the rise of local interests in this topic (e.g., the &amp;ldquo;R1&amp;rdquo; university I&amp;rsquo;m part of, the state&amp;rsquo;s Department of Education), as well as an international passion for learning analytics when I travel to Singapore, Manila, and Beijing.&lt;/p&gt;
+
+&lt;p&gt;The rise of learning analytics (the field), LAK (its conference) and &lt;a href=&#34;https://solaresearch.org/&#34; target=&#34;_blank&#34;&gt;SoLAR&lt;/a&gt; (its society), coincides with many other things. In education, there is a push for &amp;ldquo;evidence-based practice&amp;rdquo; and &amp;ldquo;data use&amp;rdquo; in schools (however we mean by evidence or data). In EdTech, words like A.I., adaptive learning, personalization are mentioned in board rooms, websites of philanthropist foundations, and news headlines. Of course, an earlier surge of MOOCs and an ongoing rise of online, lifelong learning demand analytic supports while also offering fertile grounds for learning analytics to grow. In many cases, learning analytics are truly needed and making impossible things possible. But in others, it&amp;rsquo;s scooped up to be a tag on a product to drive sales.&lt;/p&gt;
+
+&lt;p&gt;Realities, for better or worse, just like many other fields we can think of.&lt;/p&gt;
+
+&lt;h2 id=&#34;overall-impression-of-lak19&#34;&gt;Overall impression of LAK19&lt;/h2&gt;
+
+&lt;p&gt;First of all, many thanks to the amazing organizing team who has done a wonderful job to make everything real and enjoyable! The program is cohesively organized; conference amenities are thoughtfully arranged; student volunteers are kind and amazingly helpful. These are on top of myself escaping -30C weather in Minnesota for the 20C dessert temperature.&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Thanks &lt;a href=&#34;https://twitter.com/hashtag/LAK19?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#LAK19&lt;/a&gt; Defrosting in progress. &lt;a href=&#34;https://t.co/C1lPgc52XE&#34;&gt;pic.twitter.com/C1lPgc52XE&lt;/a&gt;&lt;/p&gt;&amp;mdash; Bodong Chen (@bod0ng) &lt;a href=&#34;https://twitter.com/bod0ng/status/1102575805559758849?ref_src=twsrc%5Etfw&#34;&gt;March 4, 2019&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;As the community grows bigger, I always found multiple concurrent sessions/talks I hoped to check out. So my impression and report of this conference are surely biased.&lt;/p&gt;
+
+&lt;h2 id=&#34;monday-full-day-workshop-on-connectivism&#34;&gt;Monday: Full-Day Workshop on Connectivism&lt;/h2&gt;
+
+&lt;p&gt;I went to this workshops mainly for jokes among Canadians, Aussies, and Serbians :). I was sorted of disappointed because &lt;a href=&#34;https://vitomir.kovanovic.info/&#34; target=&#34;_blank&#34;&gt;Vita&lt;/a&gt; was clearly jet-lagged.&lt;/p&gt;
+
+&lt;p&gt;Jokes aside, I&amp;rsquo;ve been a big fan of &lt;em&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Connectivism&#34; target=&#34;_blank&#34;&gt;Connectivism&lt;/a&gt;&lt;/em&gt;, George Siemens, and Stephen Downes for years. Many ideas under Connectivism resonate with me, as a big part of my research is grounded in the &lt;em&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Knowledge_building&#34; target=&#34;_blank&#34;&gt;Knowledge-Building Community&lt;/a&gt;&lt;/em&gt; model created by Scardamalia and Bereiter.&lt;/p&gt;
+
+&lt;p&gt;George kicked off the workshop by briefly explaining its 15-year history. Connectivism emerged in the early stage of the Read/Write web (Web 2.0) and grew out of a dissatisfaction with existing frameworks of learning that were not very helpful in explaining the construction of &amp;ldquo;modern&amp;rdquo; knowledge in a networked world.&lt;/p&gt;
+
+&lt;p&gt;The core arguments made by Connectivism are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Knowledge is networked&lt;/strong&gt;. This idea is in line with works from Rosen (2012), combinatorial creativity, Nielsen (2013), and Borner (network of science).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Learning is the process of developing those networks&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;These two ideas apply beyond learning.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;At this workshop, George challenged us to work on &lt;strong&gt;three domains where learning is networked: Neural; Cognitive/Conceptual; and Social/External&lt;/strong&gt;. Future work on Connectivism should try to deliver quality empirical research about networks of learning at these levels, detail how things fit together, integrate networks across levels, and articulate human and artificial cognition.&lt;/p&gt;
+
+&lt;p&gt;Critiques of Connectivism as a learning theory were mentioned for multiple times. It&amp;rsquo;s probably accurate to say George found these critiques fair and highlighted that Connectivism meant to provide a framework (or paradigm) to think about knowledge and learning in a fresh way. There is a vast empty space left by Connectivism, including pedagogy, learning analytics, etc.&lt;/p&gt;
+
+&lt;p&gt;Stephen Downes joined the workshop remotely and shared a very informative review* of recent work on connectivism. His review looked at scholars&amp;rsquo; various interpretations of connectivism, criticisms, connectivism as pedagogy (e.g., &lt;a href=&#34;http://www.irrodl.org/index.php/irrodl/article/view/3269&#34; target=&#34;_blank&#34;&gt;Wang, Anderson, &amp;amp; Chen 2018&lt;/a&gt;), connectivism as a theory of learning, and properties of a successful network. He offered a number of future directions, including critical thinking and deep learning (not the ML sense), rhizomatic learning, social networking, and &lt;a href=&#34;https://www.researchgate.net/publication/303894484_What_Are_Cognitive_Cities&#34; target=&#34;_blank&#34;&gt;cognitive cities&lt;/a&gt;. Listening to such a review from one of the creators was helpful.&lt;/p&gt;
+
+&lt;p&gt;(*: &lt;em&gt;As a strong advocate of open scholarship, Stephen may have chosen to focus this review on open-access publications.&lt;/em&gt;)&lt;/p&gt;
+
+&lt;p&gt;Coming into this workshop, I was looking for two things:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Conceptually, I was wondering why many research papers on cMOOCs used frameworks such as the &lt;em&gt;Community of Inquiry&lt;/em&gt; to examine connectivist learning instead of connectivism itself. I was curious about further articulation of connectivism.&lt;/li&gt;
+&lt;li&gt;In terms of design &amp;ndash; of both connectivist learning environments and analytics &amp;ndash; I was looking for design principles and design ideas to inform some of our ongoing projects.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Four principles&lt;/strong&gt; of connectivism Stephen laid out later was quite useful. These principles include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Autonomy&lt;/strong&gt; of learners&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Diversity&lt;/strong&gt; of learners, ideas, information, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Openness&lt;/strong&gt; of the environment and process.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Interactivity&lt;/strong&gt; within the network.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I found these principles valuable even though more work is needed to further unpack and articulate them. Stephen predicted a shift is going to happen (if not yet) even if it&amp;rsquo;s not necessarily tagged with connectivism.&lt;/p&gt;
+
+&lt;p&gt;At the workshop, there were several interesting research talks as well, including analyzing group communication (Nia Dowell), assessing idea development using &lt;a href=&#34;https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology&#34; target=&#34;_blank&#34;&gt;epidemiological modeling&lt;/a&gt; (Sasank Peri), and modeling network dynamics (Renzhe Yu). They represented promising directions to further advance connectivism, especially in the areas of analyzing connective learning processes and developing automated indices about connective learning. &lt;a href=&#34;http://sjoksimovic.info/&#34; target=&#34;_blank&#34;&gt;Srećko Joksimović&lt;/a&gt; also presented findings from an ongoing bibliometric study of the connectivism literature. More details can be found on the &lt;a href=&#34;http://connectivism.net/&#34; target=&#34;_blank&#34;&gt;workshop website&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I very much appreciated the multi-level network view laid out by George and his urge for us to connect levels. These ideas are informative for my recent thinking, tinkering, and design (since 2017) to:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Represent, describe, and model learning (at multiple levels) as complex networks&lt;/li&gt;
+&lt;li&gt;Design tools for &lt;em&gt;personal, connectivist learning&lt;/em&gt; that give learners agency to maintain their networks&lt;/li&gt;
+&lt;li&gt;Brainstorm an analytical infrastructure that maintains complexity of all sorts of learning processes&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Attending this workshop was a treat!&lt;/p&gt;
+
+&lt;h2 id=&#34;tuesday-workshop-on-fairness&#34;&gt;Tuesday: Workshop on Fairness&lt;/h2&gt;
+
+&lt;p&gt;It was an honor to give an invited talk about &lt;em&gt;Value-Sensitive Design&lt;/em&gt; in learning analytics at the &lt;a href=&#34;https://sites.google.com/view/fairlak&#34; target=&#34;_blank&#34;&gt;FairLAK workshop&lt;/a&gt; organized by Kenneth Holstein and Shayan Doroudi.&lt;/p&gt;
+
+&lt;p&gt;It is a timely workshop that deals with a topic that&amp;rsquo;s critical for our work in this community and beyond. I didn&amp;rsquo;t know there are 21 fairness definitions (Narayanan, 2018; &lt;a href=&#34;https://www.youtube.com/watch?v=jIXIuYdnyyk&#34; target=&#34;_blank&#34;&gt;Youtube video&lt;/a&gt;). During my limited time spent at the workshop, it is refreshing to see multiple approaches to considering fairness, ranging from creating new metric based on slice analysis to evaluate fairness in predictive models (Josh Gardner), to applying the Socio-Technical Integration Research approach to design processes.&lt;/p&gt;
+
+&lt;p&gt;The program and slides of the FairLAK workshop can be found on &lt;a href=&#34;https://sites.google.com/view/fairlak&#34; target=&#34;_blank&#34;&gt;its website&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;tuesday-workshop-on-curriculum-development-in-la-programs&#34;&gt;Tuesday: Workshop on Curriculum Development in LA Programs&lt;/h2&gt;
+
+&lt;p&gt;Stephanie Teasley and John Stamper asked me to stop by another workshop about curriculum development in learning analytics. It was half-way through after coming from the FairLAK workshop.&lt;/p&gt;
+
+&lt;p&gt;Charles Lang and Leah Macfadyen showed us their informative reviews of degree programs related to learning analytics. John Stamper showed us &lt;a href=&#34;https://hcii.cmu.edu/masters-educational-technology-and-applied-learning-science-program-overview&#34; target=&#34;_blank&#34;&gt;CMU&amp;rsquo;s Master&amp;rsquo;s Educational Technology and Applied Learning Science program&lt;/a&gt; that interestingly integrates courses from different disciplines and connects deeply with the industry.&lt;/p&gt;
+
+&lt;p&gt;Following Charles&amp;rsquo; lead, we even got a chance to co-design a class activity to engage students to consider and experience themselves as data &lt;em&gt;producers&lt;/em&gt;, data &lt;em&gt;analysts&lt;/em&gt;, and analytics &lt;em&gt;consumers&lt;/em&gt;. &lt;strong&gt;I believe nurturing criticality in all course of a learning analytics program is critical.&lt;/strong&gt; Interesting activities like this could be very helpful.&lt;/p&gt;
+
+&lt;p&gt;We discussed collectively mapping out a learning analytics curriculum. Workshop leaders will be working on compiling a list of courses and syllabi to be shared on the SoLAR website. I look forward to being part of this important work.&lt;/p&gt;
+
+&lt;h2 id=&#34;other-pre-conference-workshops&#34;&gt;Other Pre-Conference Workshops&lt;/h2&gt;
+
+&lt;p&gt;There were many interesting workshops happening at LAK.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;Writing Analytics workshop&lt;/strong&gt; has generously shared &lt;a href=&#34;https://docs.google.com/document/d/1cwd90hDVQgDwK_wODCfuA7SXti9pufjWIGU1cV_gDCU/edit#heading=h.lq1iijue859q&#34; target=&#34;_blank&#34;&gt;their notes&lt;/a&gt; that I look forward to dig into. &lt;a href=&#34;https://twitter.com/MladenRakovic&#34; target=&#34;_blank&#34;&gt;Mladen Rakovic&lt;/a&gt; from SFU channeled some &amp;ldquo;knowledge telling vs. knowledge transforming&amp;rdquo; wisdom (Bereiter &amp;amp; Scardamalia) I&amp;rsquo;m familiar with.&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Writing analytics for helping students move from knowledge telling to knowledge transforming in writing &lt;a href=&#34;https://twitter.com/hashtag/WaLAK19?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#WaLAK19&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/LAK19?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#LAK19&lt;/a&gt; &lt;a href=&#34;https://twitter.com/MladenRakovic?ref_src=twsrc%5Etfw&#34;&gt;@MladenRakovic&lt;/a&gt; &lt;a href=&#34;https://t.co/TIb20hWbRl&#34;&gt;pic.twitter.com/TIb20hWbRl&lt;/a&gt;&lt;/p&gt;&amp;mdash; Shibani Antonette (@ShibaniAntonett) &lt;a href=&#34;https://twitter.com/ShibaniAntonett/status/1102637203748876288?ref_src=twsrc%5Etfw&#34;&gt;March 4, 2019&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;The Doctoral Consortium seemed to be going strong as well! I chatted with a couple of student participants during the conference. I&amp;rsquo;m sure they received great advice from this panel (see below). As you may find out from an upcoming SoLAR 10-year anniversary video, I feel in indebted to this community especially because it has been so invested in emerging scholars. Way to go!&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&lt;a href=&#34;https://twitter.com/hashtag/LAK19?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#LAK19&lt;/a&gt; Doctoral Consortium careers panel with special guests  ⁦&lt;a href=&#34;https://twitter.com/aekrumm?ref_src=twsrc%5Etfw&#34;&gt;@aekrumm&lt;/a&gt;⁩ &lt;a href=&#34;https://twitter.com/sasha?ref_src=twsrc%5Etfw&#34;&gt;@sasha&lt;/a&gt; &lt;a href=&#34;https://twitter.com/whitmer?ref_src=twsrc%5Etfw&#34;&gt;@whitmer&lt;/a&gt; joining the co-chairs to share the pros and cons of future trajectories After The PhD&amp;hellip;! &lt;a href=&#34;https://t.co/RheoO3IOH2&#34;&gt;pic.twitter.com/RheoO3IOH2&lt;/a&gt;&lt;/p&gt;&amp;mdash; Simon Buckingham Shum (@sbuckshum) &lt;a href=&#34;https://twitter.com/sbuckshum/status/1103071063141838848?ref_src=twsrc%5Etfw&#34;&gt;March 5, 2019&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;Continue to read &lt;a href=&#34;https://meefen.github.io/post/2019-03-08-lak19-part2/&#34;&gt;&lt;strong&gt;Part 2&lt;/strong&gt;&lt;/a&gt; of the conference report.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -51,8 +269,79 @@ Largest LAK ever &amp;amp; 60% attendees are 1st timers! - shared by conference 
       <pubDate>Fri, 26 Oct 2018 19:48:18 -0500</pubDate>
       
       <guid>https://meefen.github.io/post/2018-10-oa-week/</guid>
-      <description>This week is the Open Access Week 2018. Yesterday we spent some time during a student advising meeting talking about the what and why of Open Access.
-The Open Access Week website has provided a great list of ideas for researchers to get involved in Open Access. My own institution does have an Open Access policy. Our univeristy library system also provides support for Open Access including an Open Access Publishing Fund, a Digital Conservancy system, a Research Data Repository, etc.</description>
+      <description>
+
+&lt;p&gt;This week is the &lt;a href=&#34;http://www.openaccessweek.org/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Open Access Week 2018&lt;/strong&gt;&lt;/a&gt;. Yesterday we spent some time during a student advising meeting talking about the &lt;em&gt;what&lt;/em&gt; and &lt;em&gt;why&lt;/em&gt; of Open Access.&lt;/p&gt;
+
+&lt;p&gt;The Open Access Week website has provided &lt;a href=&#34;http://www.openaccessweek.org/profiles/blogs/researchers-ideas&#34; target=&#34;_blank&#34;&gt;a great list of ideas for researchers to get involved in Open Access&lt;/a&gt;. My own institution does have an &lt;a href=&#34;https://policy.umn.edu/research/scholarlyarticles&#34; target=&#34;_blank&#34;&gt;Open Access policy&lt;/a&gt;. &lt;a href=&#34;https://www.lib.umn.edu/openaccess&#34; target=&#34;_blank&#34;&gt;Our univeristy library system&lt;/a&gt; also provides support for Open Access including &lt;a href=&#34;https://www.lib.umn.edu/openaccess/open-access-publishing-fund&#34; target=&#34;_blank&#34;&gt;an Open Access Publishing Fund&lt;/a&gt;, &lt;a href=&#34;https://conservancy.umn.edu/&#34; target=&#34;_blank&#34;&gt;a Digital Conservancy system&lt;/a&gt;, &lt;a href=&#34;https://conservancy.umn.edu/handle/11299/166578&#34; target=&#34;_blank&#34;&gt;a Research Data Repository&lt;/a&gt;, etc. Not to mention my college is spearheading the &lt;a href=&#34;https://research.cehd.umn.edu/otn/&#34; target=&#34;_blank&#34;&gt;Open Textbook Library&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In this post, I am writing up a few vignettes based on my humble journey with Open Access.&lt;/p&gt;
+
+&lt;h2 id=&#34;being-aware&#34;&gt;Being Aware&lt;/h2&gt;
+
+&lt;p&gt;In 2009, I became aware of Open Access during a talk at Beijing Normal (probably given by &lt;a href=&#34;https://twitter.com/houshuang&#34; target=&#34;_blank&#34;&gt;Stian Haklev&lt;/a&gt;). At that time, he was finishing up his master&amp;rsquo;s thesis on &amp;ldquo;top-quality open courses in China,&amp;rdquo; and &lt;a href=&#34;https://p2pu.org/&#34; target=&#34;_blank&#34;&gt;P2PU&lt;/a&gt; he co-founded was still an emerging thing.&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Open access, Open license, &amp;quot;Free Speech/Beer&amp;quot;, Peer production, Yochai Benkler, P2PU, CMU OLI, Stephen Downes, SLL&amp;hellip; (May 31th in BNU)&lt;/p&gt;&amp;mdash; ʙᴏᴅᴏɴɢ ᴄʜᴇɴ (@bod0ng) &lt;a href=&#34;https://twitter.com/bod0ng/status/1981115328?ref_src=twsrc%5Etfw&#34;&gt;May 31, 2009&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;In 2010, I participated in an Open Access Week event at OISE of the University of Toronto. &lt;a href=&#34;https://www.utsc.utoronto.ca/acm/leslie-chan&#34; target=&#34;_blank&#34;&gt;Leslie Chan&lt;/a&gt;, a professor from University of Toronto at Scarborough, and Stian were running a panel in the OISE library. I don&amp;rsquo;t remember what they were presenting but I&amp;rsquo;m quite sure their arguments were so eloquent that I became invested in Open Access on that day.&lt;/p&gt;
+
+&lt;h2 id=&#34;sharing-drafts-posting-preprints&#34;&gt;Sharing Drafts, Posting Preprints&lt;/h2&gt;
+
+&lt;p&gt;Yesterday, I participated in a fun discussion with colleagues from the &lt;a href=&#34;https://ai.umich.edu/&#34; target=&#34;_blank&#34;&gt;Office of Innovation&lt;/a&gt; at the University of Michigan about my paper about &lt;a href=&#34;https://meefen.github.io/publication/chen2018-tw/&#34;&gt;&amp;ldquo;unLMS&amp;rdquo;&lt;/a&gt;. Interestingly, this paper has yet to be included in a formal, printed issue of the journal &lt;em&gt;TechTrends&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Great turnout for brown bag lunch with guest  &lt;a href=&#34;https://twitter.com/bod0ng?ref_src=twsrc%5Etfw&#34;&gt;@bod0ng&lt;/a&gt; on networked collaborative discourse &lt;a href=&#34;https://twitter.com/UMichiganAI?ref_src=twsrc%5Etfw&#34;&gt;@UMichiganAI&lt;/a&gt; &lt;a href=&#34;https://twitter.com/rebquintana?ref_src=twsrc%5Etfw&#34;&gt;@rebquintana&lt;/a&gt; &lt;a href=&#34;https://t.co/fwe2thdsJE&#34;&gt;pic.twitter.com/fwe2thdsJE&lt;/a&gt;&lt;/p&gt;&amp;mdash; Nobuko Fujita (@nobukofujita) &lt;a href=&#34;https://twitter.com/nobukofujita/status/1055855364405526528?ref_src=twsrc%5Etfw&#34;&gt;October 26, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is the timeline of this particular piece of work:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;In April 2017&lt;/strong&gt;, I started an open manuscript on &lt;a href=&#34;https://www.authorea.com/users/4746/articles/169983-designing-for-collaborative-discourse-in-an-online-class-an-unlms-approach&#34; target=&#34;_blank&#34;&gt;Authorea&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;authorea.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;In June 2017&lt;/strong&gt;, before submitting this paper to &lt;em&gt;TechTrends&lt;/em&gt;, I openly invitated colleagues on Twitter to comment on this manscripts. I received a bunch of comments from Stian, which I incorporated into the submitted version.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;authorea-hy.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;In Jan 2018&lt;/strong&gt;, I uploaded &lt;a href=&#34;https://osf.io/ebjfp/&#34; target=&#34;_blank&#34;&gt;a &lt;em&gt;preprint&lt;/em&gt; on the Open Science Framework&lt;/a&gt;. &lt;a href=&#34;https://twitter.com/dr_jdean&#34; target=&#34;_blank&#34;&gt;Jeremy Dean&lt;/a&gt; from Hypothes.is chimed in on Authorea later in Jan 2018 and we eventually met in June 2018 at the &lt;a href=&#34;http://iannotate.org&#34; target=&#34;_blank&#34;&gt;I Annotate&lt;/a&gt; conference in San Francisco.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;osf.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On April 22, 2018&lt;/strong&gt;, after going through two rounds of revisions (with great comments from reviewers and the editor), the article was publised &amp;ldquo;Online First&amp;rdquo; in &lt;em&gt;TechTrends&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Till now, &lt;strong&gt;October 2018&lt;/strong&gt;, this article is still in its &amp;ldquo;Online First&amp;rdquo; status and may get included in an issue next year. However:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;its first version on Authorea has been annotated 24 times&lt;/li&gt;
+&lt;li&gt;its OSF preprint has been downloaded 89 times&lt;/li&gt;
+&lt;li&gt;its Springer &amp;ldquo;Online First&amp;rdquo; version has been downloaded 89 times, shared 14 times, and annotated 43 times&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;From its inception in 2017 to its &amp;ldquo;formal&amp;rdquo; appearance in a printed issue in 2019, a whole lot has happened to this particular work.&lt;/strong&gt; Indeed, I&amp;rsquo;ve spent extra hours to make things work (e.g., converting between document formats, uploading to OSF). But this journey, which I did not anticipate in the beginning, has been extremely rewarding. This article may not be my seminal work, but &lt;strong&gt;it is reassuring that by doing bits and pieces related to Open Access, we as researchers can (1) receive feedback from a broader audience, (2) make valuable connections with colleagues, and (3) get our work read and discussed &amp;ndash; much earlier than its formal publication&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;voicing-the-stance&#34;&gt;Voicing the Stance&lt;/h2&gt;
+
+&lt;p&gt;Despite the power of Open Access &amp;ndash; and more broadly, &lt;a href=&#34;https://meefen.github.io/notes&#34;&gt;Open Scholarship&lt;/a&gt; &amp;ndash; I&amp;rsquo;ve experienced so far, &lt;strong&gt;it is unfortunate some disciplines and some tenure committees (&lt;em&gt;not mine&lt;/em&gt;) would bluntly equate Open Access with &amp;ldquo;lesser quality.&amp;rdquo;&lt;/strong&gt; The &lt;a href=&#34;http://blogs.sciencemag.org/books/2018/01/30/the-tyranny-of-metrics/&#34; target=&#34;_blank&#34;&gt;tyranny of metrics&lt;/a&gt; is worth a separate post. But here I want to share a statement related to Open Access I decided to include in my dossier (as a tenure-track professor):&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;As an interdisciplinary scholar, I seek to publish in refereed journals from various fields of research, including learning sciences, educational technology, educational psychology, and learning analytics.&lt;/p&gt;
+
+&lt;p&gt;As an advocate of Open Scholarship, I also attempt to balance my publication venues between “traditional” journals and quality open-access alternatives.&lt;/p&gt;
+
+&lt;p&gt;As a scholar with Chinese heritage, I also write for audiences who speak my mother tongue.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Despite 10 years of #OpenAccessWeek, we still have a long way to go to make &lt;strong&gt;&amp;ldquo;Invisible Labour&amp;rdquo;&lt;/strong&gt; in Open Scholarship visible and valued. This is a sudden realization I had this year, thanks to the tweet below.&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-cards=&#34;hidden&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&lt;a href=&#34;https://twitter.com/hashtag/OAweek?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#OAweek&lt;/a&gt; event in Vancouver BC Canada: Open but not free: Invisible Labour in Open Scholarship. &lt;a href=&#34;https://t.co/aNz8txzD1c&#34;&gt;pic.twitter.com/aNz8txzD1c&lt;/a&gt;&lt;/p&gt;&amp;mdash; Christina Hendricks (@clhendricksbc) &lt;a href=&#34;https://twitter.com/clhendricksbc/status/1055265533765926912?ref_src=twsrc%5Etfw&#34;&gt;October 25, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;While I will continue to do those &amp;ldquo;bits and pieces,&amp;rdquo; I will especially try to be a strong adavocate for: (1) valuing work published in many quality open-access journals, and (2) crediting labor put into Open Scholarship &amp;ndash; including &lt;a href=&#34;https://sparcopen.org/why-open-matters/&#34; target=&#34;_blank&#34;&gt;Open Access, Open Education, and Open Data&lt;/a&gt; (according to SPARC) &amp;ndash; in tenure or performance review committees.&lt;/p&gt;
+
+&lt;p&gt;More broadly, we need &lt;a href=&#34;http://www.irrodl.org/index.php/irrodl/article/view/2523/3877&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;changes with institutional culture&lt;/strong&gt;&lt;/a&gt;, &lt;strong&gt;re-imagined writing and publishing practices&lt;/strong&gt; (like &lt;a href=&#34;https://www.pubpub.org&#34; target=&#34;_blank&#34;&gt;PubPub&lt;/a&gt;), and &lt;strong&gt;better Open Scholarship infrastructure&lt;/strong&gt; (like &lt;a href=&#34;https://osf.io/&#34; target=&#34;_blank&#34;&gt;the Open Science Framework&lt;/a&gt;, &lt;a href=&#34;https://www.icpsr.umich.edu/icpsrweb/&#34; target=&#34;_blank&#34;&gt;ICPSR&lt;/a&gt;, and &lt;a href=&#34;https://meefen.github.io/post/2018-07-public-scholarly-annotation&#34;&gt;Open Web Annotation&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;I wonder how things may look like in 2028!&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -61,7 +350,44 @@ The Open Access Week website has provided a great list of ideas for researchers 
       <pubDate>Wed, 18 Jul 2018 00:00:00 -0500</pubDate>
       
       <guid>https://meefen.github.io/post/2018-07-public-scholarly-annotation/</guid>
-      <description>Background stories I value Open Scholarship and have been practicing it for years &amp;ndash; both in terms of doing it and learning to do it. Stian Haklev, an OER and Open Access champion, introduced me to this idea. He built a wiki-based workflow system, named researchr, and convinced a few OISE friends, including Cresencia Fong and Alisa Acosta, to share our annotations publicly, in a well-organized manner. For us, the benefits of using researchr are obvious: the system scaffolds the scholarly process of reading and annotating articles, as well as summarizing and organizing our notes.</description>
+      <description>
+
+&lt;h2 id=&#34;background-stories&#34;&gt;Background stories&lt;/h2&gt;
+
+&lt;p&gt;I value &lt;strong&gt;&lt;em&gt;Open Scholarship&lt;/em&gt;&lt;/strong&gt; and have been practicing it for years &amp;ndash; both in terms of &lt;em&gt;doing&lt;/em&gt; it and &lt;em&gt;learning to do&lt;/em&gt; it. &lt;a href=&#34;https://twitter.com/houshuang&#34; target=&#34;_blank&#34;&gt;Stian Haklev&lt;/a&gt;, an OER and Open Access champion, introduced me to this idea. He built a wiki-based workflow system, named &lt;em&gt;researchr&lt;/em&gt;, and convinced a few OISE friends, including &lt;a href=&#34;http://cresenciafong.com/blog/&#34; target=&#34;_blank&#34;&gt;Cresencia Fong&lt;/a&gt; and &lt;a href=&#34;https://alisaacosta.com/&#34; target=&#34;_blank&#34;&gt;Alisa Acosta&lt;/a&gt;, to share our annotations publicly, in a well-organized manner. For us, the benefits of using researchr are obvious: the system scaffolds the scholarly process of reading and annotating articles, as well as summarizing and organizing our notes. Its openness adds another important piece that&amp;rsquo;s a bit murkier. &lt;strong&gt;What does it mean to share out annotations publicly &amp;ndash; to academics who annotate, to authors of an annotated article, and to academia?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Meeting with &lt;a href=&#34;https://twitter.com/pratim&#34; target=&#34;_blank&#34;&gt;Pratim Sengupta&lt;/a&gt;, whose work was &lt;a href=&#34;http://bodong.ch/notes/2015-12-17-sengupta2015/&#34; target=&#34;_blank&#34;&gt;annotated by myself&lt;/a&gt; when running a journal club with a dozen grad students, just gave me a chance to really ponder on these questions. He and his team&amp;rsquo;s work on &lt;a href=&#34;https://medium.freecodecamp.org/computing-in-public-computing-for-public-b722f60c9f98&#34; target=&#34;_blank&#34;&gt;public computing&lt;/a&gt; inspires my evolving thinking on the value of openness.&lt;/p&gt;
+
+&lt;p&gt;My thinking is also contextualized in my recent attendance to the &lt;a href=&#34;http://iannotate.org/&#34; target=&#34;_blank&#34;&gt;I Annotate&lt;/a&gt; conference and the idea of creating &lt;a href=&#34;https://web.hypothes.is/blog/a-coalition-of-scholarly-annotators/&#34; target=&#34;_blank&#34;&gt;&amp;lsquo;A Coalition for Scholarly Annotation&amp;rsquo;&lt;/a&gt; shared by &lt;a href=&#34;https://twitter.com/judell&#34; target=&#34;_blank&#34;&gt;Jon Udell&lt;/a&gt;. My key takeaway from the conference was that the web annotation community has been thinking deeply about web information, knowledge and workflows. Their work has generated nascent web standards, tools and practices that are making an impact on publishing, information &amp;lsquo;consumption&amp;rsquo;, and human collaboration on the web.&lt;/p&gt;
+
+&lt;h2 id=&#34;now-enters-this-blog-post&#34;&gt;Now enters this blog post&lt;/h2&gt;
+
+&lt;p&gt;This post will be an evolving document reflecting my ongoing thinking on &lt;em&gt;open scholarly annotation&lt;/em&gt;. Writing this blog post is a new experiment. I admit my bias upfront. That is, &lt;strong&gt;I strongly believe scholarly annotations generated at various stages of the scholarly process are of great value&lt;/strong&gt;. However, these annotations have become part of the &amp;lsquo;dark data&amp;rsquo; generated by scholars and are rarely talked about. While &lt;a href=&#34;https://www.nature.com/news/1-500-scientists-lift-the-lid-on-reproducibility-1.19970&#34; target=&#34;_blank&#34;&gt;research reproducibility&lt;/a&gt; has been embraced by many disciplines and scholarly communities, how we actually &amp;lsquo;annotate&amp;rsquo; each other&amp;rsquo;s ideas into new ones remains opaque. Remaining in the dark is not doing justice to hidden value we produce as scholars and is not helping with the training of emerging scholars. Further enriching openness in scholarly practices &amp;ndash; even beyond open data and analysis reproducibility &amp;ndash; would be a meaningful next step.&lt;/p&gt;
+
+&lt;h3 id=&#34;phase-1-of-writing-this-post&#34;&gt;Phase 1 of writing this post&lt;/h3&gt;
+
+&lt;p&gt;In Phase 1, I will publicly annotate web documents about &lt;em&gt;open scholarly annotation&lt;/em&gt;, using &lt;a href=&#34;https://hypothes.is/&#34; target=&#34;_blank&#34;&gt;Hypothes.is&lt;/a&gt; and a tag &lt;code&gt;ValueAnnotation&lt;/code&gt;. Below is an evolving collection of my annotations, and I invite you to annotate with me using the same tag.&lt;/p&gt;
+
+&lt;!-- &lt;iframe width=&#34;560&#34; height=&#34;500&#34; src=&#34;https://meefen.github.io/images/article_images/hypothesis.html&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt; --&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;600&#34; src=&#34;https://hypothes.is/search?q=tag:%22ValueAnnotation%22&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Here is an example of a Hypothesis annotation I created.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://meefen.github.io/images/article_images/h-annotation.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;phase-2&#34;&gt;Phase 2&lt;/h3&gt;
+
+&lt;p&gt;This is an emerging process. The next step, as I see now, is to make sense of generated annotations and update this post with summaries and new ideas that &amp;lsquo;rise above&amp;rsquo; existing ones.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt; (2018-7-20): In preparation for an &lt;a href=&#34;http://www.aera.net/Events-Meetings/Annual-Meeting/2019-Annual-Meeting-Theme&#34; target=&#34;_blank&#34;&gt;AERA 2019&lt;/a&gt; submission, I wrote a research summary describing what I hope to do next. The summary &amp;ndash; embedded below &amp;ndash; is informed by Hypothesis annotations above. However, I found it difficult to demonstrate the &amp;lsquo;moves&amp;rsquo; from annotations to writing.&lt;/p&gt;
+
+&lt;iframe width=&#34;100%&#34; height=&#34;600&#34; src=&#34;https://docs.google.com/document/d/e/2PACX-1vR2KgWL47pKHyfDr_YRnIbJEutWQynICTNxusVrsVXHFjyiTODXxU06mihU6kaHrqUJR8haky2kL3q-/pub&#34; frameborder=&#34;1&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;To be continued&amp;hellip;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -70,8 +396,46 @@ The Open Access Week website has provided a great list of ideas for researchers 
       <pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://meefen.github.io/post/2018-04-24-open-textbooks/</guid>
-      <description>I was included in an MN Daily story about open textbooks last week. It was actually a bit embarrassing as I thought a few other colleagues would ‘co-star’ with me in this story because there are exciting work on open textbooks and affordable content going on at UMN.
-University of Minnesota professors use their free time to write free textbooks: https://t.co/iCgMCxC3qf @mndailynews @bod0ng @dernst @UMNews #UMNproud #CEHD Learn more: https://t.</description>
+      <description>
+
+&lt;p&gt;I was included in &lt;a href=&#34;http://www.mndaily.com/article/2018/04/n-university-of-minnesota-professors-use-their-free-time-to-write-free-textbooks&#34; target=&#34;_blank&#34;&gt;an &lt;em&gt;MN Daily&lt;/em&gt; story about open textbooks&lt;/a&gt; last week. It was actually a bit embarrassing as I thought a few other colleagues would ‘co-star’ with me in this story because there are &lt;a href=&#34;http://research.cehd.umn.edu/otn/&#34; target=&#34;_blank&#34;&gt;exciting work on open textbooks&lt;/a&gt; and &lt;a href=&#34;https://www.lib.umn.edu/elearning/partnership/showcase&#34; target=&#34;_blank&#34;&gt;affordable content&lt;/a&gt; going on at UMN.&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;University of Minnesota professors use their free time to write free textbooks: &lt;a href=&#34;https://t.co/iCgMCxC3qf&#34;&gt;https://t.co/iCgMCxC3qf&lt;/a&gt; &lt;a href=&#34;https://twitter.com/mndailynews?ref_src=twsrc%5Etfw&#34;&gt;@mndailynews&lt;/a&gt; &lt;a href=&#34;https://twitter.com/bod0ng?ref_src=twsrc%5Etfw&#34;&gt;@bod0ng&lt;/a&gt; &lt;a href=&#34;https://twitter.com/dernst?ref_src=twsrc%5Etfw&#34;&gt;@dernst&lt;/a&gt; &lt;a href=&#34;https://twitter.com/UMNews?ref_src=twsrc%5Etfw&#34;&gt;@UMNews&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/UMNproud?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#UMNproud&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/CEHD?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#CEHD&lt;/a&gt; Learn more: &lt;a href=&#34;https://t.co/eydHtKE8Em&#34;&gt;https://t.co/eydHtKE8Em&lt;/a&gt; &lt;a href=&#34;https://twitter.com/open_textbooks?ref_src=twsrc%5Etfw&#34;&gt;@open_textbooks&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/oer?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#oer&lt;/a&gt; &lt;a href=&#34;https://twitter.com/LTMediaLab?ref_src=twsrc%5Etfw&#34;&gt;@LTMediaLab&lt;/a&gt; &lt;a href=&#34;https://twitter.com/UMN_CI?ref_src=twsrc%5Etfw&#34;&gt;@UMN_CI&lt;/a&gt; &lt;a href=&#34;https://t.co/zweg5n1FB5&#34;&gt;pic.twitter.com/zweg5n1FB5&lt;/a&gt;&lt;/p&gt;&amp;mdash; U of Minnesota CEHD (@UMN_CEHD) &lt;a href=&#34;https://twitter.com/UMN_CEHD/status/986960692468178944?ref_src=twsrc%5Etfw&#34;&gt;April 19, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;In this blog post, I’d like to share some personal thoughts that were not included in the news story.&lt;/p&gt;
+
+&lt;h2 id=&#34;open-textbooks-personal-reasons-of-using-them&#34;&gt;Open textbooks: Personal reasons of using them&lt;/h2&gt;
+
+&lt;p&gt;The price of textbooks in the US (and Canada) is ridiculous. I am not knowledgeable enough to explain why. But I had lived experiences with buying bulky textbooks for $200 and using them as laptop stands after a single use. They are from respected textbook publishers (like SAGE) and are indeed well-written. But &amp;hellip; there could be 100 reasons why a textbook should not cost that much.&lt;/p&gt;
+
+&lt;p&gt;More importantly, the notion of ‘a textbook’ has evolved, at least for some disciplines. In many fields that are fast-evolving, textbooks written today will become dated in two years. Also, one textbook can rarely fulfill needs of a course, making it necessary to introduce fresh texts and multimedia content from the ‘open world’. Digital tools, such as &lt;a href=&#34;http://h5p.org/&#34; target=&#34;_blank&#34;&gt;H5P&lt;/a&gt; and &lt;a href=&#34;https://research.google.com/colaboratory/faq.html&#34; target=&#34;_blank&#34;&gt;Colaboratory&lt;/a&gt;, offer richer modalities, interoperability, and interactivity for learning in comparison with traditional paper books.&lt;/p&gt;
+
+&lt;p&gt;More profoundly, &lt;strong&gt;the conceptualization of a textbook as a container of knowledge to be acquired by students is challenged by &lt;a href=&#34;http://www.newcultureoflearning.com/&#34; target=&#34;_blank&#34;&gt;‘new cultures of learning’&lt;/a&gt; that de-emphasize ‘knowledge as stocks’ and value learning as &amp;lsquo;participating in a flow of knowledge production&amp;rsquo;.&lt;/strong&gt; Instructors can surely do inspiring things with a traditional textbook, but &lt;a href=&#34;https://opencontent.org/blog/archives/3221&#34; target=&#34;_blank&#34;&gt;grounding principles of Open Educational Resources (OER)&lt;/a&gt; almost automatically make a philosophical statement that draws one’s teaching closer to new cultures of learning. It’s the (promised) paradigm shift behind OER (and open textbooks) that attracts me, besides cost concerns mentioned above.&lt;/p&gt;
+
+&lt;p&gt;And, by the way, these changes are not limited to textbooks, but also &lt;a href=&#34;https://www.theatlantic.com/science/archive/2018/04/the-scientific-paper-is-obsolete/556676/&#34; target=&#34;_blank&#34;&gt;scholarly knowledge production in general&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;open-educational-practices&#34;&gt;Open educational practices&lt;/h2&gt;
+
+&lt;p&gt;So my thinking on OER are tilted towards &lt;a href=&#34;http://catherinecronin.net/research/openness-and-praxis/&#34; target=&#34;_blank&#34;&gt;‘open educational practices’&lt;/a&gt;. In addition to making my course content open (&lt;a href=&#34;https://github.com/meefen/la-spring16&#34; target=&#34;_blank&#34;&gt;on Github for example&lt;/a&gt;), I am also interested in:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Open participation&lt;/strong&gt; — that does not limit participation within a socially, spatiotemporally, and technologically bounded environment&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Student agency and voice&lt;/strong&gt; — that give students a say about what to learn and how to learn&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Connected learning&lt;/strong&gt; and &lt;a href=&#34;http://www.veletsianos.com/digital-scholarship-social-media-use-and-networked-participatory-scholarship/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;networked scholarship&lt;/strong&gt;&lt;/a&gt; opportunities — that present a fuller picture of learning&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In &lt;strong&gt;&lt;a href=&#34;https://www.researchgate.net/publication/324611447_Designing_for_Networked_Collaborative_Discourse_An_UnLMS_Approach?_sg=PGJY4wgTJg5Cww01tBKT9c1Oo_ePJeI3nSHLFeyQAsJYUyWE6Dv8Ht-S2ofF60vy_b67vRe8oXJxu6xQB2SNhAYX7z7suxd3eW7PBIWm.En9a-PTggG7Kycn1iq4BewoyxPdNV69K57JZI_E-88MS-xc7YknPZ-7TE0_MzyhxrXSwZsC0Z8nUguDTKMBjTQ&#34; target=&#34;_blank&#34;&gt;a design case I recently published in &lt;em&gt;TechTrends&lt;/em&gt;&lt;/a&gt;&lt;/strong&gt;, an EdTech journal, I introduce in great details about a course I designed with these ideas in mind. I wrote a course handbook, which is essentially a compilation of OER, and incorporated tools like &lt;a href=&#34;https://hypothes.is/&#34; target=&#34;_blank&#34;&gt;Hypothes.is&lt;/a&gt; and Slack to facilitate collaborative discourse.&lt;/p&gt;
+
+&lt;p&gt;It would be fun to integrate more ‘open pedagogy’ ideas in the next iteration of this course. Maybe asking students to rewrite the handbook. Maybe setting up open Jupyter Notebooks for students to fork, remix, and redistribute.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-does-this-mean-for-faculty-members&#34;&gt;What does this mean for faculty members?&lt;/h2&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&amp;quot;use their free time&amp;quot;, &amp;quot;on top of their day-to-day work, often only receiving relatively small grants as compensation&amp;quot; 🤔 Bit problematic framing of OER production, as if it&amp;#39;s done by amateurs, out of love.&lt;/p&gt;&amp;mdash; Ewout ter Haar (@ewout) &lt;a href=&#34;https://twitter.com/ewout/status/987005352402137088?ref_src=twsrc%5Etfw&#34;&gt;April 19, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s a good critique. Free-time is an unfamiliar word for many academics. The idea of &lt;a href=&#34;https://er.educause.edu/articles/2014/2/conjecture-tension-and-online-learning&#34; target=&#34;_blank&#34;&gt;teaching online is already facing push-backs&lt;/a&gt; over the years. Structural supports for faculty members are needed to make OER production sustainable. Supporting broader acceptance of OER and open educational practices also requires cultural shifts within an institution, which is often hard to bring about.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -80,9 +444,55 @@ University of Minnesota professors use their free time to write free textbooks: 
       <pubDate>Sat, 07 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://meefen.github.io/post/2018-04-05-china-episodes/</guid>
-      <description>I am not an ethnographer.
-But there were a few episodes from my trip to/in China last month that caught my attention, or &amp;lsquo;gaze&amp;rsquo;. To put these episodes into perspective, my most recent trip to China took place in October 2016.
-On the Escalator As more subways are built underground, I encountered more of those super long escalators in mega cities. On one escalator in Shanghai, I heard its accompanying &amp;lsquo;voice reminder system&amp;rsquo; saying:</description>
+      <description>
+
+&lt;p&gt;I am not an ethnographer.&lt;/p&gt;
+
+&lt;p&gt;But there were a few episodes from my trip to/in China last month that caught my attention, or &amp;lsquo;gaze&amp;rsquo;. To put these episodes into perspective, my most recent trip to China took place &lt;a href=&#34;http://bodong.ch/blog/2016-11-03-trip-to-asia/&#34; target=&#34;_blank&#34;&gt;in October 2016&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;on-the-escalator&#34;&gt;On the Escalator&lt;/h2&gt;
+
+&lt;p&gt;As more subways are built underground, I encountered more of those super long escalators in mega cities. On one escalator in Shanghai, I heard its accompanying &amp;lsquo;voice reminder system&amp;rsquo; saying:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Please hold the handrail firmly and attend to your steps.&lt;/p&gt;
+
+&lt;p&gt;Do not lean on the handrail. &lt;strong&gt;Do not look at your phone.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The last sentence of the voice system was new. The intimate connection between us with screens has been built into another piece of technology.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://sns-img.b0.upaiyun.com/dunzd/1710/2621/53/151240667855781509026035.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;em&gt;(&lt;a href=&#34;http://www.cdsb.com/Public/cdsb_offical/2017-10-26/148418749157279040888484000860608264626.html&#34; target=&#34;_blank&#34;&gt;Image Source&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;say-something-in-english&#34;&gt;&amp;ldquo;Say Something in English&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;On a workday, my pre-schooler son and I were playing in a playground in Shanghai. There were a bunch of other kids &amp;ndash; mostly younger &amp;ndash; also playing there. My son always prefers talking with me in Mandarin but may entertain with a few English words from time to time. Then there was a dad with his young daughter (approximately 2 years old). It didn&amp;rsquo;t take long for him to make a request to his daughter: &lt;strong&gt;&amp;ldquo;Baby, can you say something in English?&amp;rdquo;&lt;/strong&gt;  The same thing happened again the next day in a park.&lt;/p&gt;
+
+&lt;p&gt;A few days later when I was in my hometown, a small town in Western China, I visited a newly built factory where an uncle works. This factory manufactures food supplements with nutritions extracted from traditional Chinese herbs. I somehow ended up meeting with their young sales team, which was made of four fresh college graduates. They were in their early 20s, and two of them graduated from the same high school I attended. Then I began to learn about their goals of taking over their international sales from intermediaries located in costal areas. They were not confident in their English capabilities though and showed tremendous interests in Western culture(s).&lt;/p&gt;
+
+&lt;p&gt;My biggest dream while growing up in my hometown was to go to college in Shanghai or Beijing. Now it seems people living in my hometown are aspiring to ride the tide of globalization. It may be still difficult to attract or retain necessary talents. But they have lofty goals. The new factory aims to become a listed company in 15 years.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://meefen.github.io/images/article_images/shanghai_yuechi.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;i-accept-both-wechat-and-zhifubao&#34;&gt;&amp;ldquo;I accept both WeChat and Zhifubao&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Riding on a taxi from Shanghai Pudong Airport to a hotel, I noticed two QR codes attached to the dashboard of the taxi.&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;I accept both WeChat and Zhifubao,&amp;rdquo; said the driver when we arrived. And he taught me how to use them on the fly.&lt;/p&gt;
+
+&lt;p&gt;This time around, I could basically &lt;a href=&#34;http://www.scmp.com/magazines/post-magazine/long-reads/article/2110118/going-cash-free-why-china-light-years-ahead&#34; target=&#34;_blank&#34;&gt;go cash-free everywhere in China&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn2.i-scmp.com/sites/default/files/images/methode/2017/09/11/1b7d1df6-8ef9-11e7-9f40-4d9615941c08_1320x770_114008.JPG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;i-still-don-t-see-the-point&#34;&gt;&amp;ldquo;I still don&amp;rsquo;t see the point.&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;During my stay at Beijing Normal, I taught a few classes on topics such as MOOCs and learning analytics. In a graduate-level class, a professor introduced to us a project aiming to build a recommender engine to help highschool students choose subjects in &lt;a href=&#34;http://gaokao.eol.cn/news/201710/t20171027_1562295.shtml&#34; target=&#34;_blank&#34;&gt;the newly reformed college entrance exam&lt;/a&gt;. The recommender engine will be based on a wide range of factors, including previous performance, personality traits, competitiveness of the student&amp;rsquo;s aspired college, and so on.&lt;/p&gt;
+
+&lt;p&gt;One student said, &lt;strong&gt;&amp;ldquo;I still don&amp;rsquo;t see the point.&amp;rdquo;&lt;/strong&gt; Her argument was this choice is too high-stake and too personal. She would like to make the choice on her own even if the recommendation is meant to be informational.&lt;/p&gt;
+
+&lt;p&gt;She had a point. A very good one.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -91,9 +501,22 @@ On the Escalator As more subways are built underground, I encountered more of th
       <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://meefen.github.io/post/2017-12-08-jls-web-annotation/</guid>
-      <description>As a member of the Outreach Advisory Board of the Journal of the Learning Sciences (JLS), I was really glad to see the journal putting together a web annotation event during December 11-22, 2017. This activity is yet another move made by the editorial team to engage its readership on various social media venues.
-Coming Soon: Web annotation of JLS articles in Hypothes.is.
-The first article is a study by Akkerman and Bruining published in 2016 in Volume 25 (2).</description>
+      <description>&lt;!-- comments: true
+image: https://c1.staticflickr.com/3/2453/3973300988_824ec066a9_b.jpg --&gt;
+
+&lt;p&gt;As a member of the Outreach Advisory Board of the &lt;a href=&#34;http://www.tandfonline.com/loi/hlns20&#34; target=&#34;_blank&#34;&gt;Journal of the Learning Sciences (JLS)&lt;/a&gt;, I was really glad to see the journal putting together a web annotation event during December 11-22, 2017. This activity is yet another move made by the editorial team to engage its readership on various social media venues.&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Coming Soon: Web annotation of JLS articles in Hypothes.is.&lt;br&gt;The first article is a study by Akkerman and Bruining published in 2016 in Volume 25 (2).Read the full article at &lt;a href=&#34;https://t.co/tGoOiQKLUR&#34;&gt;https://t.co/tGoOiQKLUR&lt;/a&gt;  and visit &lt;a href=&#34;https://t.co/2dYOBe15L8&#34;&gt;https://t.co/2dYOBe15L8&lt;/a&gt;  for instructions for using &lt;a href=&#34;https://twitter.com/hypothes_is?ref_src=twsrc%5Etfw&#34;&gt;@hypothes_is&lt;/a&gt; &lt;a href=&#34;https://t.co/z5oSHleIKB&#34;&gt;pic.twitter.com/z5oSHleIKB&lt;/a&gt;&lt;/p&gt;&amp;mdash; JrnlLearningSciences (@JLearnSciences) &lt;a href=&#34;https://twitter.com/JLearnSciences/status/937719563390672896?ref_src=twsrc%5Etfw&#34;&gt;December 4, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;During this web annotation event, participants are invited to annotate a recently published open-access article, &lt;a href=&#34;http://www.tandfonline.com/doi/full/10.1080/10508406.2016.1147448&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Multilevel Boundary Crossing in a Professional Development School Partnership&lt;/em&gt;&lt;/a&gt;, using an open web annotation tool named &lt;a href=&#34;https://hypothes.is/&#34; target=&#34;_blank&#34;&gt;Hypothes.is&lt;/a&gt;. Hats off to the authors for their support of this event.&lt;/p&gt;
+
+&lt;p&gt;The editorial team has put together &lt;strong&gt;detailed instructions&lt;/strong&gt; in this &lt;a href=&#34;https://docs.google.com/presentation/d/1Cmoz22xEY8QjHBiYC-H2oU0YHJSTLCBhWelbusSXbKM/edit#slide=id.g2b48df0836_0_10&#34; target=&#34;_blank&#34;&gt;Google presentation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;During and after the event, in addition to the Hypothes.is sidebar, a participant can either use &lt;a href=&#34;https://hypothes.is/search?q=url%3Ahttp%3A%2F%2Fwww.tandfonline.com%2Fdoi%2Ffull%2F10.1080%2F10508406.2016.1147448&#34; target=&#34;_blank&#34;&gt;Hypothes.is&amp;rsquo; advanced search functionality&lt;/a&gt; or &lt;a href=&#34;http://jonudell.net/h/facet.html?facet=uri&amp;amp;mode=documents&amp;amp;search=http://www.tandfonline.com/doi/full/10.1080/10508406.2016.1147448&#34; target=&#34;_blank&#34;&gt;an aggregation tool&lt;/a&gt; to &lt;strong&gt;review existing annotations&lt;/strong&gt; made on this article.&lt;/p&gt;
+
+&lt;p&gt;I am excited for this move JLS is making, not only because &lt;strong&gt;scholarship could be more networked and discursive&lt;/strong&gt;, but also because I see great opportunities of using web annotation to bridge learning spaces in classrooms. To me, making an annotation is forming a relationship with an idea. As educators, &lt;strong&gt;we ought to think deeply and design smartly to value such relationships as students are traversing various treks of life&lt;/strong&gt;. See &lt;a href=&#34;https://cligr.github.io/projects/discow.html&#34; target=&#34;_blank&#34;&gt;our ongoing NSF project&lt;/a&gt; for details.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -102,16 +525,63 @@ The first article is a study by Akkerman and Bruining published in 2016 in Volum
       <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://meefen.github.io/post/2017-10-13-at-what-price/</guid>
-      <description>(Photo Credit: Wikipedia)
-The universe is expanding, but at what price.
-The Milky Way is a beauty, but at what price.
-The Sun is shining, but at what price.
-The Earth looks blue, but at what price.
-All continents are moving, but at what price.
-Civilizations boom, but at what price.
-A wall defends &amp;lsquo;us&amp;rsquo;, but at what price.
-Pyramids are built tall, but at what price.
-Boats cross the ocean, but at what price.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/c/c5/Mordecai_MOREH_-_Tree_of_Knowledge_%28Initiation%29.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(Photo Credit: &lt;a href=&#34;https://commons.wikimedia.org/wiki/File:Mordecai_MOREH_-_Tree_of_Knowledge_(Initiation).jpg&#34; target=&#34;_blank&#34;&gt;Wikipedia&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The universe is expanding&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
+The Milky Way is a beauty&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
+The Sun is shining&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
+The Earth looks blue&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;All continents are moving&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
+Civilizations boom&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
+A wall defends &amp;lsquo;us&amp;rsquo;&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
+Pyramids are built tall&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Boats cross the ocean&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
+Nets get casted&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
+People dine and leave bones behind&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
+&amp;lsquo;Research&amp;rsquo; gets conducted&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;We Uber to the airport&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
+Google guides the way&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
+Peppa Pig speaks in the house&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
+A.I. is figuring things out&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Coffee smells delicious&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
+Muscles stretch to the cup&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
+Neurons are fired up&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
+Joy spills over&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Keys are stroked&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
+Bits get sent&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
+Photons dash through a fiber&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
+Particles become entangled&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;~ ~ ~ ~ ~ ~&lt;/p&gt;
+
+&lt;p&gt;A leave is dancing&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
+Stones get erected&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
+People are farming animals&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
+A king is crowned&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;The statue is pushed over&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
+A wall falls down&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
+Another country rises&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
+Humans step on the moon&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;The Earth is half-dark&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
+The Sun has spots&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
+All stars are spinning in the &amp;lsquo;Dark Forest&amp;rsquo;&lt;span style=&#34;color: white&#34;&gt;, but at what price.&lt;/span&gt;&lt;br&gt;
+Until the universe collapses&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Now, please hit Ctrl+A / Cmd+A and read again.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;P.S.: This is &lt;em&gt;not&lt;/em&gt; a poem. Just some musings translated to sentences.&lt;/p&gt;
+
+&lt;p&gt;Yours in struggle.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -120,9 +590,102 @@ Boats cross the ocean, but at what price.</description>
       <pubDate>Thu, 27 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://meefen.github.io/post/2017-07-27-data-sharing-workshop-2/</guid>
-      <description>Story continued, after Part I.
-In the 2.5 days of the workshop, the group continued to deepen the discussion on Data Sharing to more concrete and practical items. In Part II of my personal reflection, I summarize key Data Sharing resources/initiatives to be aware of, possible action items, and some personal random thoughts on future directions.
-The 3-day workshop on &amp;quot;Data Sharing and Research Transparency at the Article Publishing Stage&amp;quot; comes to a close today in D.</description>
+      <description>
+
+&lt;!-- comments: true
+image: /assets/article_images/3574677912_85d6543c27_b.jpg
+
+_(Photo Credit: [Zachary Veach](https://www.flickr.com/photos/labguest/3574677912/in/photostream/))_ --&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Story continued, after &lt;a href=&#34;http://bodong.ch/blog/2017/07/25/data-sharing-workshop-1.html&#34; target=&#34;_blank&#34;&gt;Part I&lt;/a&gt;.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;In the 2.5 days of the workshop, the group continued to deepen the discussion on Data Sharing to more concrete and practical items. In Part II of my personal reflection, I summarize key Data Sharing resources/initiatives to be aware of, possible action items, and some personal random thoughts on future directions.&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;The 3-day workshop on &amp;quot;Data Sharing and Research Transparency at the Article Publishing Stage&amp;quot; comes to a close today in D.C. &lt;a href=&#34;https://t.co/XpXIKp459g&#34;&gt;pic.twitter.com/XpXIKp459g&lt;/a&gt;&lt;/p&gt;&amp;mdash; AERA (@AERA_EdResearch) &lt;a href=&#34;https://twitter.com/AERA_EdResearch/status/890598718914924544&#34;&gt;July 27, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;data-sharing-in-education-science-the-status-quo&#34;&gt;Data Sharing in Education Science: The Status Quo&lt;/h2&gt;
+
+&lt;p&gt;On the second day of the workshop, scholars working at the frontiers of data sharing and open science presented their insights and experiences, together with officers from funding agencies (IES, NSF, NIH) and journal editors.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.arthurlupia.com/&#34; target=&#34;_blank&#34;&gt;Skip Lupia&lt;/a&gt; (UMich), a political scientist and the Chairman of the Board of the &lt;a href=&#34;https://cos.io/&#34; target=&#34;_blank&#34;&gt;Center for Open Science&lt;/a&gt;, gave a talk about &lt;em&gt;Why Share, Why Now, What for?&lt;/em&gt;. He helped us unpacking two important criteria of scientific research: &lt;em&gt;credibility&lt;/em&gt; and &lt;em&gt;legitimacy&lt;/em&gt;. Equally helpful was a recognition that &lt;em&gt;transparency&lt;/em&gt; encompasses &lt;em&gt;production transparency&lt;/em&gt; (the production of data) and &lt;em&gt;analytic transparency&lt;/em&gt; (how a scholar goes from data to knowledge claims). He shared important resources from the &lt;a href=&#34;https://www.dartstatement.org/&#34; target=&#34;_blank&#34;&gt;DA-RT: Data Access and Research Transparency&lt;/a&gt; initiative and its &lt;a href=&#34;https://www.dartstatement.org/2016-da-rt-journal-policy-archive&#34; target=&#34;_blank&#34;&gt;TOP Guidelines&lt;/a&gt;, supported by 29 top journals across disciplines. He shared preliminary evidence of &amp;ldquo;small&amp;rdquo; things like the &lt;a href=&#34;https://cos.io/our-services/open-science-badges/&#34; target=&#34;_blank&#34;&gt;CoS Badges&lt;/a&gt; can effectively spur the adoption of data sharing &amp;amp; research transparency practices. Finally, it was so refreshing to hear that those data sharing initiatives have been and are being championed by &lt;em&gt;qualitative&lt;/em&gt; researchers. Data sharing is indeed doable for qualitative researchers and how qualitative researchers perceive data (and I guess more specifically their ontological and epistemological commitments) are of great value to data sharing practices. This is a very important and mindbolging message that I did not expect before this workshop.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn.cos.io/media/images/badges_chart.original.png&#34; alt=&#34;Source: CoS&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Three recognized &lt;strong&gt;data sharing repositories&lt;/strong&gt; &amp;mdash; &lt;a href=&#34;https://www.icpsr.umich.edu/icpsrweb/&#34; target=&#34;_blank&#34;&gt;Inter‐university Consortium for Political and Social Research (ICPSR)&lt;/a&gt; (UMich), &lt;a href=&#34;https://nyu.databrary.org/&#34; target=&#34;_blank&#34;&gt;Databrary&lt;/a&gt; (PSU &amp;amp; NYU), and &lt;a href=&#34;https://qdr.syr.edu/&#34; target=&#34;_blank&#34;&gt;Qualitative Data Repository (QDR)&lt;/a&gt; (Syracuse) &amp;mdash; and their leaders/PIs presented as a panel. &lt;strong&gt;It was encouraging&lt;/strong&gt; to see: 1) ICPSR&amp;rsquo;s long record of data sharing/archiving since 1962; 2) QDR as a repository focusing on qualitative data; and 3) &amp;ldquo;even&amp;rdquo; research videos are also sharable on Databrary. AERA is partnering with ICPSR to set up a dedicated repository for AERA journals, in line with AERA&amp;rsquo;s forthcoming policies on data sharing. Important questions were asked about possible impact on international researchers &amp;mdash; and non-&lt;a href=&#34;http://www.apa.org/monitor/2010/05/weird.aspx&#34; target=&#34;_blank&#34;&gt;WEIRED&lt;/a&gt; populations &amp;mdash; who are automatically excluded by some data repositories&amp;rsquo; requirements of IRB approvals that are nonexistent in some countries/regions. For me, it was encouraging to learn &lt;strong&gt;existing templates and guidelines&lt;/strong&gt; made available by data sharing repositories that I could refactor for IRB protocols of my projects. Together with emerging policies made by funding agencies, professional associations, and journals, I can feel more confident about pursuing data sharing (as much as possible) when proposing a study.&lt;/p&gt;
+
+&lt;p&gt;It was exiting to hear from &lt;a href=&#34;http://www-personal.umich.edu/~maggiel/&#34; target=&#34;_blank&#34;&gt;Maggie Levenstein&lt;/a&gt; (Director of ICPSR) about work on &lt;strong&gt;researcher credential building blocks&lt;/strong&gt; that&amp;rsquo;s under way. Their framework of credentials includes a researcher&amp;rsquo;s status (incl. academic, geographic, demographics), affiliation, training (e.g., in data sharing), access level, prior contributions, and violations of data stewardship. While companies like &lt;a href=&#34;https://www.researchgate.net/home&#34; target=&#34;_blank&#34;&gt;ResearchGate&lt;/a&gt; are inventing scores to determine researchers&amp;rsquo; &amp;ldquo;status,&amp;rdquo; why not build a non-proprietary system to enable positive feedback loop for data sharing? A researcher credentialing system with an emphasis on data sharing could raise awareness of data sharing, give credits to those who share, and maintain reputation of data users. Exciting stuff!&lt;/p&gt;
+
+&lt;p&gt;Of course, there are still so many issues to be sorted out, especially from an editor&amp;rsquo;s standpoint, who may constantly face work overload and not wish to add another layer to a journal&amp;rsquo;s production pipeline. Extremely legitimate. As an early career scholar, I&amp;rsquo;m quite blind to many challenges an editor or an association&amp;rsquo;s president might be thinking about. Fortunately colleagues running data repositories may have a lot to offer.&lt;/p&gt;
+
+&lt;p&gt;It was helpful to hear from Lupia on the third day about &lt;em&gt;multiple levels&lt;/em&gt; and &lt;em&gt;multiple dimensions&lt;/em&gt; a journal can consider when implementing data sharing practices. Check out this &lt;a href=&#34;https://osf.io/4kdbm/?_ga=2.219522076.428476302.1501263281-1395141731.1501019040&#34; target=&#34;_blank&#34;&gt;one-pager&lt;/a&gt; explaining 8 modular standards and 3 levels. From the lowest level, for example, a journal could &lt;em&gt;encourage&lt;/em&gt; &amp;mdash; instead of &lt;em&gt;requiring&lt;/em&gt; &amp;mdash; authors to put data into a repository. In terms of dimensions, a journal could consider change of &lt;em&gt;citation practices&lt;/em&gt; to reinforce secondary datasets being cited, require &lt;a href=&#34;http://egap.org/content/registration&#34; target=&#34;_blank&#34;&gt;preregistration&lt;/a&gt; of (causal-inferential) research, encourage replication studies, nurture analytic transparency by asking authors to share code, and so forth. As our JLS co-editor-in-chief &lt;a href=&#34;scholar.gse.upenn.edu/yoon&#34; target=&#34;_blank&#34;&gt;Susan Yoon&lt;/a&gt; nicely worded, &amp;ldquo;it seems the train has already departed, and we need to catch it.&amp;rdquo; I was thinking about a slightly different metaphor based on my experiences playing &amp;ldquo;Real-Time Strategy Games&amp;rdquo;: there are multiple pathways towards winning a game (e.g., defeating an opponent), and &lt;strong&gt;doing one thing&lt;/strong&gt; (such as collecting a lot of lamber) &lt;strong&gt;may unlock other components of winning&lt;/strong&gt;; further, in a game that requires teamwork, one player (e.g., a journal editor) could focus on one component (e.g., collecting lamber) and share to teammates, while other teammates (e.g., community advocates, data repositories) could handle other parts. We should not drain an editorial team&amp;rsquo;s limited resources to achieve everything overnight; rather, &lt;strong&gt;maybe we could create a roadmap that involves multiple types of contributors&lt;/strong&gt; &amp;mdash; authors, editors, data sharing services, funders, and maybe also publishers (for-profit or not).&lt;/p&gt;
+
+&lt;p&gt;Funding agencies have been actively looking into data sharing. For instance, discussions on data and data stewardship are central to NSF Programs such as &lt;a href=&#34;https://www.nsf.gov/news/news_summ.jsp?cntn_id=136253&#34; target=&#34;_blank&#34;&gt;smart and connected communities and Internet of Things&lt;/a&gt;. &lt;a href=&#34;https://www.nlm.nih.gov/NIHbmic/nih_data_sharing_repositories.html&#34; target=&#34;_blank&#34;&gt;NIH has 71 data repositories&lt;/a&gt; and is very active in Genomic data sharing. To a great extent, broader impacts sought by funding agencies could become more achievable if research data &amp;mdash; collected with support from tax-payer dollars &amp;mdash; are not sitting in one team&amp;rsquo;s private server for 10 years but instead shared carefully, ethically, and with proper restrictions.&lt;/p&gt;
+
+&lt;p&gt;Like a colleague nicely said:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Data sharing is not a thing in addition to doing science. Data sharing is doing science.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;action-items&#34;&gt;Action Items&lt;/h2&gt;
+
+&lt;p&gt;A collective resolution has been reached near the end of the workshop and is likely to be shared by AERA soon. Below are action items that seem to me thinkable &amp;mdash; if not yet feasible &amp;mdash; for different players.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(Disclaimer: These items are in many cases my personal takeaways and do not represent official policies from funding agencies or professional associations. Some ideas are based on group discussion but may not accurately reflect what was originally said.)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Individual researchers.&lt;/strong&gt; Study issues related to research transparency, reproducibility, replicability, etc. Get familiar with terms like &lt;a href=&#34;https://fivethirtyeight.com/features/science-isnt-broken/&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;p&lt;/em&gt;-hacking&lt;/a&gt;, preregistration, reproducible research, preprints, &lt;a href=&#34;http://www.researchobject.org/overview/&#34; target=&#34;_blank&#34;&gt;Research Objects&lt;/a&gt;, etc. Take a hard look at our own research workflows and think about potential transparency/reproducibility hazards &amp;mdash; which could be related to how we name files, store research memos, document R codes, backup data, etc. Stay current with existing data sharing guidelines from funders, journals, and research societies &amp;mdash; as the train has ignited its engine if not yet departed. Seek support from our institutions, libraries, data stewards, etc. For those ahead of the game, publish your codes in Github, package algorithms in an R package, etc.&lt;/p&gt;
+
+&lt;p&gt;A very important point made by &lt;a href=&#34;https://twitter.com/robyn_read&#34; target=&#34;_blank&#34;&gt;Robyn Read&lt;/a&gt; (an early career peer &amp;amp; also an OISE alumnus): academia has been quite intolerant of failures and mistakes. We get afraid of missteps at every stage of a research project. How about making &lt;a href=&#34;http://home.frontiersin.org/about/review-system&#34; target=&#34;_blank&#34;&gt;peer-review more collaborative&lt;/a&gt;? How about putting drafts/preprints out there early on for open discussions (see &lt;a href=&#34;https://www.atmos-chem-phys.net/16/3761/2016/acp-16-3761-2016-discussion.html&#34; target=&#34;_blank&#34;&gt;this paper originally shared as a draft&lt;/a&gt;)? There are certain norms in academia possibly ripe for &lt;em&gt;disruption&lt;/em&gt; (a word I typically don&amp;rsquo;t like using).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Faculty members.&lt;/strong&gt; Engage students in conversations, in our labs or methodology courses. Point them to training resources on campus or online (webinars, MOOCs, manuals). Help them stay calm, even when we aren&amp;rsquo;t :-). Maybe even develop new courses about research transparency and reproducible research &amp;mdash; typically nonexistent in colleges of Education.&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Reproducibility Guide from the R and rOpenSci communities &lt;a href=&#34;https://t.co/e7DA5PP16h&#34;&gt;https://t.co/e7DA5PP16h&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/DataSharing?src=hash&#34;&gt;#DataSharing&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/openscience?src=hash&#34;&gt;#openscience&lt;/a&gt;&lt;/p&gt;&amp;mdash; Bodong Chen (@bod0ng) &lt;a href=&#34;https://twitter.com/bod0ng/status/890277065051734016&#34;&gt;July 26, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Professional associations and their journals.&lt;/strong&gt; Convey messages to association members and share exemplars. Expect non-supportive reactions and resistance. Treat resistance as good opportunities of conversations, as a colleague said. Engage members &amp;mdash; esp. international members &amp;mdash; in conversations about data sharing at board meetings, conferences, webinars, doctoral consortia, etc. Talk with other journals under a same society, journals in a same field by &amp;ldquo;reside&amp;rdquo; somewhere else, and journals from other fields. Identify early-starters of data sharing and engage them in training and conversations. Maybe consider a new award category for data sharing or research transparency/reproducibility (suggested by Skip).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Data repositories.&lt;/strong&gt; I look forward to digging into datasets already living in those repositories and studying their resources for IRB preparation. For example, to me knowing data sharing is not the same as making data totally open to anyone was helpful (see the tweet below). It would be very useful if data repositories could further provide dataset exemplars. A 3-minute video walkthrough about the process of depositing a dataset will also help. These resources would help us get a more concrete understanding of data sharing.&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;One example ICPSR dataset showing ways to protect data: the words &lt;a href=&#34;https://twitter.com/hashtag/DataSharing?src=hash&#34;&gt;#DataSharing&lt;/a&gt; sound scary but there are strategies &lt;a href=&#34;https://t.co/MfZqqUSWxf&#34;&gt;https://t.co/MfZqqUSWxf&lt;/a&gt; &lt;a href=&#34;https://t.co/FUpfc3SZNh&#34;&gt;pic.twitter.com/FUpfc3SZNh&lt;/a&gt;&lt;/p&gt;&amp;mdash; Bodong Chen (@bod0ng) &lt;a href=&#34;https://twitter.com/bod0ng/status/890211031720611842&#34;&gt;July 26, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Universities and research institutions.&lt;/strong&gt; IRB practices are evolving as well. My institution, the University of Minnesota, hosted IRB Town Halls last academic year discussing the changing landscape of Compliance &amp;amp; Ethics. Engage IRB offices in data sharing conversations, if not yet. Also important is a university&amp;rsquo;s willingness to back up its researchers&amp;rsquo; ethical data sharing practices and stand with them against possible vicious attacks. Just like many universities are backing up their faculty members&amp;rsquo; fair-use claims.&lt;/p&gt;
+
+&lt;h2 id=&#34;towards-my-dream-world&#34;&gt;Towards My Dream World&lt;/h2&gt;
+
+&lt;p&gt;This workshop was so helpful in getting me to think more deeply about data sharing and possible actions I can take as a researcher, faculty member, new investigator, author, international person whose home country&amp;rsquo;s ethical review practice is still emerging.&lt;/p&gt;
+
+&lt;p&gt;Below I explore a few other components touched upon (implicitly) during the workshop. I am quite excited about them even though they are still vague and paradoxical to me, or are totally against our current norms and routines. So I&amp;rsquo;m now throwing them out there for further discussions.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Control.&lt;/strong&gt; Before attending the workshop, I thought data sharing is to put data out there &amp;mdash; totally public and totally beyond one&amp;rsquo;s control after data get shared. That is a scary scene for many of us. As researchers, we can still remain a certain level of control over a shared dataset &amp;mdash; not based on whether we like a data requester or whether a requested usage contradicts our published findings.. But it seems &lt;strong&gt;controls pre- and post-sharing&lt;/strong&gt; are areas that could be further discussed.&lt;/p&gt;
+
+&lt;p&gt;Here I&amp;rsquo;m especially curious about possible controls after data sharing (&lt;em&gt;post-sharing&lt;/em&gt;). Linked to work on researcher credentials, data repositories could have an opportunity to think twice about a data request from someone with many previous violations. For data sharers, they may wish to be able to track who are accessing my shared data, how, and where results are published; so are data repositories.&lt;/p&gt;
+
+&lt;p&gt;Related to post-sharing controls, we also image a shared dataset to keep evolving after secondary analysts invest time to recode, reshape, or link them. When we allow a new version of a dataset to appear? Or do we allow a dataset to fork? Who can make these judgements? Intriguing questions.&lt;/p&gt;
+
+&lt;p&gt;How about research participants? While our currently practices seek clearcut delimiters of data ownership/stewardship in a lifecycle of project. For example, when an informed consent is made, we say data ownership is transferred from a participant to a researcher; similarly, when a dataset gets submitted to shared to a repository after de-identification, we see another change of data ownership and stewardship. However, &lt;strong&gt;in a deeply connected world, should research participants remain control of their own data?&lt;/strong&gt; Would it be more ethical if participants have the choice to stay aware of work conducted on data they contributed &amp;mdash; while remaining hidden from data users? This may seem totally quite counter-intuitive. But see yourself the &lt;a href=&#34;http://www.kavlifoundation.org/kavli-human-project&#34; target=&#34;_blank&#34;&gt;Kavli HUMAN project&lt;/a&gt;, the shift &lt;a href=&#34;http://www.iftf.org/techfutureslab/?utm_content=buffer27233&amp;amp;utm_medium=social&amp;amp;utm_source=twitter.com&amp;amp;utm_campaign=buffer&#34; target=&#34;_blank&#34;&gt;from an Internet of Information to an Internet of Actions&lt;/a&gt;, and &lt;a href=&#34;https://hbr.org/2017/03/the-potential-for-blockchain-to-transform-electronic-health-records&#34; target=&#34;_blank&#34;&gt;a move to store medical records on blockchains&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Ubiquitous networking has transformed cyberspace into a pervasive layer atop our physical reality.  (&lt;a href=&#34;http://www.iftf.org/techfutureslab/?utm_content=buffer27233&amp;amp;utm_medium=social&amp;amp;utm_source=twitter.com&amp;amp;utm_campaign=buffer&#34; target=&#34;_blank&#34;&gt;source&lt;/a&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;What&amp;rsquo;re the implications on research data? What does it mean to data sharing?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Linked data and maintained contexts.&lt;/strong&gt;  Information loss accompanies the lifecycle of research data &amp;ndash; from collection, cleansing, transformation, analysis, synthesis, publication, to meta-analysis&amp;hellip; We are increasingly losing the context where data were originally collected. In a &amp;ldquo;smart&amp;rdquo; connected world, as described above, how about data sharing is not too distant from where data originally reside? &lt;strong&gt;Data sharing is just like adding faces and masks to data and selectively expose data to secondary users?&lt;/strong&gt; In my experiences with secondary data, I saw data shared in forms PDFs, CSVs, Excels, JSONs, and XMLs. How about we say those data formats or shapes all suck, and we wish to (safely &amp;amp; ethically) maintain possible connectivity when sharing data instead of cutting connections?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Broader conceptions of value and incentives.&lt;/strong&gt; I shared an idea in a breakout group discussion about crediting data sharers with a &lt;a href=&#34;https://en.wikipedia.org/wiki/Cryptocurrency&#34; target=&#34;_blank&#34;&gt;crypto- or digital currency&lt;/a&gt;, with which they can &amp;ldquo;purchase&amp;rdquo; other data. Like the &lt;a href=&#34;https://en.wikipedia.org/wiki/Ethereum&#34; target=&#34;_blank&#34;&gt;Ethereum blockchain&lt;/a&gt;, data sharers share data with &amp;ldquo;smart contracts&amp;rdquo; attached to them and users &amp;ldquo;pay&amp;rdquo; a price in a digital currency based on their status (e.g. free for a student or a researcher without funding, a fair amount for someone having funding, expensive for someone with many prior violations). One colleague said this &amp;ldquo;monetization&amp;rdquo; was against the spirit of data sharing. Probably. But is it?&lt;/p&gt;
+
+&lt;p&gt;My intention of mentioning digital currencies was simply &lt;strong&gt;to recognize value generated by research work&lt;/strong&gt;. For data sharing, if citations to a shared dataset with DOIs provide an &amp;ldquo;alternate currency&amp;rdquo; worth considering for tenure promotion. What else mechanisms could be created to promote and facilitate data sharing and &amp;mdash; research integrity, in general? I would argue citations might be too narrow, and not &lt;em&gt;enabling&lt;/em&gt; enough. My citation count may signal my prior achievements and help me get funded. But how many grant proposals can I possibly write each year? And a citation count does not represent my reputation in research collaboration, data sharing, peer review, conference organization, etc. &lt;strong&gt;As academics, what values do we generate from our work? How to give ourselves credit (not until once in a lifetime tenure promotions)?&lt;/strong&gt; Crazy? Maybe. But academia is outsourcing &amp;mdash; if not losing &amp;mdash; values generated by us to others &amp;ndash; for-profit publishers, data-rich startups, etc. See the fight for Open Access against the &amp;ldquo;paywall&amp;rdquo;, &lt;a href=&#34;http://www.sciencemag.org/news/2017/07/sci-hub-s-cache-pirated-papers-so-big-subscription-journals-are-doomed-data-analyst&#34; target=&#34;_blank&#34;&gt;sometimes in dramatic unlawful manners&lt;/a&gt;. See &lt;a href=&#34;http://www.sciencemag.org/news/2016/07/hate-journal-impact-factors-new-study-gives-you-one-more-reason&#34; target=&#34;_blank&#34;&gt;our love-hate relationship with the Impact Factor&lt;/a&gt; or other algorithms like &lt;em&gt;h&lt;/em&gt;-index that influence who get jobs, tenure, and grants. We can stay proud of those nicely formatted PDFs published in high Impact-Factor journals. But what other things can we care more about? If we&amp;rsquo;re not standing with various types of value generated by our work &amp;mdash; during data collect, data analysis, peer review, journal editing, etc. &amp;mdash; it&amp;rsquo;s probably a matter of time another startup or rich company to claim ownership of a piece of our work.&lt;/p&gt;
+
+&lt;p&gt;If ten years later &lt;strong&gt;learning is earning&lt;/strong&gt; (see the video below), &lt;strong&gt;I predict data sharing, and other value generation or value sharing activities in scholarly research, will also be recognized &amp;mdash; not necessarily with money but with something that can more holistically represent the value of our work and can be used/transacted to enable further scholarly activities.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/DcP78cLPGtE&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally, my heartfelt thanks to our leaders &amp;mdash; esp. Dr. Felice levine from AERA and Drs. Susan Yoon, Jan van Aalst &amp;amp; Bill Sandoval from &lt;a href=&#34;isls.org&#34; target=&#34;_blank&#34;&gt;ISLS&lt;/a&gt; &amp;mdash; in engaging me in this exciting and rewarding journey. I look forward to working further on data sharing and in various inter-related areas.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -131,8 +694,47 @@ The 3-day workshop on &amp;quot;Data Sharing and Research Transparency at the Ar
       <pubDate>Tue, 25 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://meefen.github.io/post/2017-07-25-data-sharing-workshop-1/</guid>
-      <description>It was an honor to be invited to attend the AERA-NSF Workshop on Data Sharing and Research Transparency at the Article Publishing Stage in Washington, D.C. during July 25‐27, 2017. I am attending as an early career scholar from the International Society of the Learning Sciences &amp;mdash; my academic home.
-It&amp;rsquo;s only a half-day into the workshop but I&amp;rsquo;m already amazed by so many great thoughts from a full room of journal editors, program officers from funding agencies, and early career peers.</description>
+      <description>
+
+&lt;!-- image: /assets/article_images/data-repository.png
+
+_(Photo Credit: [Roche et al. 2014](https://dx.doi.org/10.1371/journal.pbio.1001779.g001))_ --&gt;
+
+&lt;p&gt;It was an honor to be invited to attend the AERA-NSF Workshop on &lt;em&gt;Data Sharing and Research Transparency at the Article Publishing Stage&lt;/em&gt; in Washington, D.C. during July 25‐27, 2017. I am attending as an early career scholar from the &lt;a href=&#34;http://isls.org/&#34; target=&#34;_blank&#34;&gt;International Society of the Learning Sciences&lt;/a&gt; &amp;mdash; my academic home.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s only a half-day into the workshop but I&amp;rsquo;m already amazed by so many great thoughts from a full room of journal editors, program officers from funding agencies, and early career peers. Below I&amp;rsquo;m sharing some general (not necessarily representative) themes of ideas discussed so far at the workshop.&lt;/p&gt;
+
+&lt;h2 id=&#34;data-sharing-where-are-we&#34;&gt;Data Sharing: Where Are We?&lt;/h2&gt;
+
+&lt;p&gt;In preparation for the conference, Dr. Felice J. Levine, the workshop convener from AERA, shared out the classic National Academies Report on &lt;a href=&#34;http://www.nap.edu/catalog/2033.html&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Sharing Research Data&lt;/em&gt;&lt;/a&gt; that was released in 1985. I read it on my flight into D.C. and it was a worth read. What stroke me was: many thoughts I compiled in preparation of the workshop were already elaborated in this 32-year-old report. The value of data sharing is not newly recognized. Many challenges have persisted.&lt;/p&gt;
+
+&lt;p&gt;Before reading this report, I happened to read a much newer article titled &lt;em&gt;Administrative social science data: The challenge of reproducible research&lt;/em&gt; published in &lt;em&gt;Big Data &amp;amp; Society&lt;/em&gt; &amp;mdash; a journal I reviewed for. There are some clear advancements the social science communities (and scholarly communities in general) have made since 1985. For instance, we have various research tools and platforms available these days to facilitate data management, sharing, and publishing. &lt;em&gt;Git&lt;/em&gt; &amp;mdash; a version control system highly recommended by this article &amp;mdash; was nonexistent when the National Academies Report came out; neither were platforms and initiatives such as &lt;a href=&#34;https://osf.io/&#34; target=&#34;_blank&#34;&gt;Open Science Framework&lt;/a&gt;, &lt;a href=&#34;https://dataverse.org/&#34; target=&#34;_blank&#34;&gt;Harvard Dataverse Network&lt;/a&gt;, and &lt;a href=&#34;https://figshare.com/&#34; target=&#34;_blank&#34;&gt;Figshare&lt;/a&gt;. However, when juxtaposing challenges discussed in both pieces, what stroke me &amp;mdash; again &amp;mdash; was how slow it has been to shift academic cultures to promote data sharing. Indeed, developing tools are easier, whereas changing cultures at many levels &amp;mdash; e.g., in research labs, departments and colleges, institutions, associations, funding agencies &amp;mdash; are much much more difficult.&lt;/p&gt;
+
+&lt;h2 id=&#34;discussion-themes&#34;&gt;Discussion Themes&lt;/h2&gt;
+
+&lt;p&gt;Perspectives from these two pieces were echoed in a round of self-intros at the workshop this afternoon. Below are some keywords I noted, which again, reflect my own bias.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Data.&lt;/strong&gt; One important point was made about what we mean by &lt;em&gt;data&lt;/em&gt;. This is not only about the traditional dichotomy of qualitative vs. quantitative data, but also &amp;mdash; purposes of data, power relations in data and data systems (e.g., whom are served by data), &lt;a href=&#34;http://learning-analytics.info/journals/index.php/JLA/issue/view/405/showToc&#34; target=&#34;_blank&#34;&gt;shapes of data&lt;/a&gt;, etc. I recently wrote in &lt;a href=&#34;https://www.researchgate.net/publication/317586037_Unpacking_Learning_Analytics_An_Attempt_to_Tilt_the_Iceberg_in_Chinese&#34; target=&#34;_blank&#34;&gt;an invited think piece in Chinese&lt;/a&gt; about how the term &lt;em&gt;data (数据)&lt;/em&gt; originally meant punishing people in ancient Chinese. In the same vein, one colleague commented on the word &lt;em&gt;research&lt;/em&gt; being dirty to Indigenous peoples. These views apply here in educational research data as well and therefore in data sharing.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Contexts&lt;/em&gt; of research data are also extremely important. Data shared without sufficient information about their context are useless. This fact places burden on both initial investigators who share data (because they need to explain the context in prep for data sharing) and secondary analysts who need to understand the context (often based on insufficient documentation). More work is probably needed to further unpack &lt;em&gt;data&lt;/em&gt;, and to articulate data that are shareable, situations where data are meaningful to be shared, and constituents of shared data.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Culture and practices.&lt;/strong&gt; I believe this topic was mostly discussed so far. Subtopics include &lt;em&gt;incentives&lt;/em&gt; and &lt;em&gt;disincentives&lt;/em&gt; related to data sharing, which are explored in depth in the National Academies Report. For an assistant professor like me, for example, the current tenure process does not credit my investment in data sharing or data publishing. Even if I publish a dataset with a DOI attached to it, it still doesn&amp;rsquo;t carry the same weight as an empirical piece in a top journal. An editor mentioned it&amp;rsquo;s also considered &amp;ldquo;suboptimal&amp;rdquo; for someone&amp;rsquo;s tenure case to publish a study based on secondary data. While there is currently less credit given to data sharing practices, disincentives abound, which are also elaborated in the National Academies Report. Therefore, data sharing does not only need a few mavericks but systematic investments to incentify and sustain culture changes.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ethics.&lt;/strong&gt; Another major concern was ethical challenges related to data sharing. It was refreshing to hear from one senior colleague sharing that patients whose data were collected for medical research were eager to have their data shared, because they wished to contribute to the quest for a cure, while laws and ethics guidelines prohibit sharing of personal health data. For me as an early career scholar, I tend to make &amp;ldquo;the minimal ask&amp;rdquo; when preparing my IRB protocols &amp;mdash; only because the IRB work with an IRB office and a school district is already so daunting for someone who&amp;rsquo;s still navigating the systems. I worry that being ambitious in data sharing would undermine the likelihood of getting research protocols approved. In addition to putting a sentence to a journal&amp;rsquo;s homepage saying &amp;ldquo;you should share your data&amp;rdquo;, we need additional resources to help scholars deal with ethical challenges even before a study is conducted.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Infrastructure.&lt;/strong&gt; Numerous initiatives have emerged to support data sharing, and open science in general. I look forward to experts who are in the forefront of these matters to share their work. For example, colleagues from the &lt;a href=&#34;https://cos.io/&#34; target=&#34;_blank&#34;&gt;Center for Open Science&lt;/a&gt;, which has developed systems like the Open Science Framework and OSF Preprints, will present tomorrow. As an advocate of open science, I am also intrigued by recent work by writing &amp;amp; preprint platforms like &lt;a href=&#34;authorea.com&#34; target=&#34;_blank&#34;&gt;Authorea&lt;/a&gt; and code sharing platforms like &lt;a href=&#34;https://codeocean.com/about&#34; target=&#34;_blank&#34;&gt;Code Ocean&lt;/a&gt; which do not only allow sharing of &lt;em&gt;&lt;a href=&#34;http://www.researchobject.org/overview/&#34; target=&#34;_blank&#34;&gt;Research Objects&lt;/a&gt;&lt;/em&gt; but more interactive forms of scholarly discourse &amp;amp; content consumption (e.g., interactive visualizations linked with shared data and directly embedded in publications). So, technically we are (almost) there.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Value.&lt;/strong&gt; At the dinner table, it was refreshing to hear from senior scholars how they had to mail out their manuscripts when submitting to a journal and how they needed to fax their reviews to a journal/conference. At that time, the manuscript was almost the only thing others can see from someone&amp;rsquo;s work. We talked about how we can now assign &lt;em&gt;value&lt;/em&gt; to so many &amp;ldquo;middle-products&amp;rdquo; or &amp;ldquo;byproducts&amp;rdquo; of academic research in addition to an article as an end-product. This is linked to a point made in &lt;a href=&#34;http://bodong.ch/blog/2017/07/24/value-in-education.html&#34; target=&#34;_blank&#34;&gt;my last blog&lt;/a&gt; post about the need to expand &lt;em&gt;valuation&lt;/em&gt; in education to include artifacts generated in learning processes. After reading emerging, draft guidelines that encourage and, in some cases, enforce citations of shared data, I&amp;rsquo;m increasingly optimistic about new cultures of research and publishing that are yet to come.&lt;/p&gt;
+
+&lt;p&gt;Stay tuned.&lt;/p&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fienberg, S. E., Martin, M. E., &amp;amp; Straf, M. L. (Eds.). (1985). Sharing Research Data. Washington, D.C.: National Academy Press. Retrieved from &lt;a href=&#34;http://www.nap.edu/catalog/2033.html&#34; target=&#34;_blank&#34;&gt;http://www.nap.edu/catalog/2033.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Playford, C. J., Gayle, V., Connelly, R., &amp;amp; Gray, A. J. G. (2016). Administrative social science data: The challenge of reproducible research. Big Data &amp;amp; Society, 3(2), 2053951716684143. &lt;a href=&#34;https://doi.org/10.1177/2053951716684143&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1177/2053951716684143&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -141,8 +743,52 @@ It&amp;rsquo;s only a half-day into the workshop but I&amp;rsquo;m already amaze
       <pubDate>Mon, 24 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://meefen.github.io/post/2017-07-24-value-in-education/</guid>
-      <description>In his arguments against the Common Core, Prof. Yong Zhao, a known educational thinker, referred to his home village:
- When I was growing up, the most valued talent was the ability to handle water buffalos used to plow the rice field, other than physical strengths to carry things such as newly harvested rice or sweet potatoes. I don’t know for sure how good a water buffalo handler she [Lady Gaga] could be, but I am quite sure she will not be able to run on bumpy muddy paths with 200 pounds of sweet potatoes dangling on each end of a bamboo pole.</description>
+      <description>&lt;!-- image: /assets/article_images/apple-1757528_1920.jpg --&gt;
+
+&lt;p&gt;In his arguments against the &lt;em&gt;Common Core&lt;/em&gt;, Prof. Yong Zhao, a known educational thinker, &lt;a href=&#34;http://zhaolearning.com/2011/09/11/if-lady-gaga-can-be-useful/&#34; target=&#34;_blank&#34;&gt;referred to his home village&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;When I was growing up, the most valued talent was the ability to handle water buffalos used to plow the rice field, other than physical strengths to carry things such as newly harvested rice or sweet potatoes. I don’t know for sure how good a water buffalo handler she [Lady Gaga] could be, but I am quite sure she will not be able to run on bumpy muddy paths with 200 pounds of sweet potatoes dangling on each end of a bamboo pole.&lt;/p&gt;
+
+&lt;p&gt;(See &lt;a href=&#34;http://zhaolearning.com/2011/09/11/if-lady-gaga-can-be-useful/&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;If Lady Gaga Can be Useful&amp;hellip;&lt;/em&gt;&lt;/a&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The village I grew up happens to be only ~20 miles away from Zhao&amp;rsquo;s. And the situation was the same. As a matter of fact, my grandparents never learned to handle a water buffalo. When it came the season to plow the fields, they had to hire experts &amp;mdash; a situation that could be tough when the only buffalo became fully booked. And as picky farmers, they didn&amp;rsquo;t want to hire any random, potentially lousy buffalo handlers, who might plow shallowly (to save the buffalo&amp;rsquo;s energy) and jeopardize the harvest of a whole year. Indeed, for my grandparents&amp;rsquo; generation in the village, knowing how to handle a water buffalo was valuable, more valuable than going to schools.&lt;/p&gt;
+
+&lt;p&gt;Things changed for my parents&amp;rsquo; generation. They saw growing value of formal education. My dad became the first one of his generation in the family to enter a &amp;ldquo;teacher&amp;rsquo;s school&amp;rdquo; (equivalent to high school) and to land a teaching job with a monthly paycheck. My mom went to high school but narrowly missed college. What became remarkable in their careers was the value of &lt;strong&gt;a diploma&lt;/strong&gt;, with which my dad went on to work as a teacher, received additional training, and is now leading a small team in a local educational department. My mom, with &amp;ldquo;only&amp;rdquo; a high-school diploma, has been teaching for decades but is not recognized as a formal member of the teaching force. The differences a diploma could make came up a million times at our dinner table. So my parents&amp;rsquo; shared dream was to send me to college &amp;mdash; to get an even better diploma from a much bigger place.&lt;/p&gt;
+
+&lt;p&gt;The pursuit for advanced degrees became exactly what my generation was all about. While my parents could not fully invest in schoolwork because they had to take care of their families, my generation was generally sucked into homework and crazy amounts of standardized tests. I did get a high-school diploma like my mom and ventured 2,000 miles to Beijing for &lt;strong&gt;a college degree&lt;/strong&gt;, which led me to opportunities of doing what I&amp;rsquo;m doing &amp;mdash; a huge privilege for a kid whose dream was as big and as far as going to college.&lt;/p&gt;
+
+&lt;p&gt;From handling a water buffalo to holding a respected diploma/degree, what is seen as &lt;em&gt;valuable&lt;/em&gt;, or &lt;em&gt;having value&lt;/em&gt;, has dramatically shifted across three generations in my family. If formal education is conceptualized as an activity leading to an outcome. For my grandparents, the outcome was not as valuable as being able to handle a water buffalo. For my parents and myself, the outcome was a diploma, certificate or degree, which accreditates knowledge as &amp;ldquo;entities&amp;rdquo; passed onto us through education and entitles us to work on certain jobs or to pursuit new goals.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Now, what will happen for my son&amp;rsquo;s generation?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;It could be possible when my son graduates from college, there is no or very few jobs. This is not being pessimist about the economy, but a reality check given the rise of &lt;strong&gt;automation and artificial intelligence&lt;/strong&gt;. As a report published by McKinsey claims, automation and artificial intelligence could readily carry out 45% of paid activities across the U.S. economy, influencing about 60% of all occupations. While routine tasks in manufacturing, transportation and food service is already being automated, &lt;strong&gt;jobs requiring creativity and emotions are where humanity will be seeking meaningful work in the foreseeable future&lt;/strong&gt; [1]. Even if technical feasibility of automation does not guarantee adoption, education &amp;mdash; which has been (partially) charged with workforce preparation &amp;mdash; is facing hard questions. What if an education does not lead to a job, because there is no, or not enough, jobs? Are curriculum standards limiting the scope of education to areas that would be soon automated? How the &amp;ldquo;achievement gap&amp;rdquo; will be re-lived (not relieved) in an era when the meaning of achievement will be fundamentally redefined?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;We are enduring another &amp;mdash; and maybe even bigger &amp;mdash; shift in &lt;em&gt;valuation&lt;/em&gt; in education and learning.&lt;/strong&gt; For my grandparents, formal education was irrelevant and learning in schools was too detached from their daily lives. What mattered for them was learning knowledge &lt;em&gt;in-use&lt;/em&gt; and of practical value, like handling a water buffalo, which was not valued in education. This situation changed for my parents&amp;rsquo; and my generation, as formal accreditations from educational institutions are not only relevant but connected to &lt;em&gt;social mobility&lt;/em&gt; more than ever before. Degrees, certificates and transcripts given by respected institutions are trusted accreditation of acquired knowledge and skills valued by curriculum standards. With a teaching certificate, my dad became eligible to teach. With a university degree, many doors opened for me. &lt;strong&gt;These credentials carry great amounts of value and trust&lt;/strong&gt; &amp;mdash; not determined by learners and educational institutions, but the broader changing societal landscape.&lt;/p&gt;
+
+&lt;p&gt;However, &lt;strong&gt;one issue with this model is these credentials mark the endpoints of educational experiences which are put in a &amp;ldquo;black box&amp;rdquo; for outsiders&lt;/strong&gt; and are not consistently regarded by the credentialing process in different societies, institutions, departments, or even different iterations of a same course. And yet a same GPA from a same school is equivalently valued, because it is the only thing that gets valued and remains visible after a learning journey is &amp;ldquo;done.&amp;rdquo; Things that get produced in learning towards these credentials are largely disregarded and discarded during credentialing; in most cases, they are not seen as generating value at all.&lt;/p&gt;
+
+&lt;p&gt;It is only quite recently in &lt;em&gt;new cultures of learning&lt;/em&gt; [2], where artifacts generated in learning are more recognized. Exciting projects are emerging, e.g., &lt;em&gt;&lt;a href=&#34;http://www.badgealliance.org/&#34; target=&#34;_blank&#34;&gt;Open Badges&lt;/a&gt;&lt;/em&gt; and the newer &lt;em&gt;&lt;a href=&#34;https://utx.edu/chainscript-iti-present/&#34; target=&#34;_blank&#34;&gt;Transcripts on blockchain&lt;/a&gt;&lt;/em&gt;, which open up new ways to credit learning. Specifically, we can now credit a broader range of learner achievements, democratize the practice of credentialing, and give learners stronger control over their credentials. &lt;strong&gt;However, in many cases a new technology is adopted to embrace an old educational model &amp;mdash; or more precisely an old valuation model that disregards learning in-situ or knowledge that exists in &lt;em&gt;flows&lt;/em&gt; of participation, collaboration, and authentic problem-solving.&lt;/strong&gt; If automation and artificial intelligence are taking away jobs, and if future generations can only find meaningful work at the &amp;ldquo;creative end,&amp;rdquo; some larger questions regarding value and valuation need to be discussed. In the newer context of broad and deep automation, and after decades of discussing &lt;em&gt;21st century competencies&lt;/em&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What should be seen as having value in learning processes?&lt;/li&gt;
+&lt;li&gt;Who are entitled to the act of valuation, if not (only) traditional institutions?&lt;/li&gt;
+&lt;li&gt;After valuation, how would value be presented? And to whom?&lt;/li&gt;
+&lt;li&gt;Will future learners get paid to learn? Or for what they produce &amp;mdash; such as artifacts, meaningful social connections, something contributing to public goods &amp;mdash; in learning processes?&lt;/li&gt;
+&lt;li&gt;What are the roles of a curriculum?&lt;/li&gt;
+&lt;li&gt;How equatable opportunities could be ensured given existing gaps and new divides introduced by any new valuation model?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I am curious about your responses to these bizarre or maybe unanswerable questions.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Notes&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;[1] Sources from McKinsey Quarterly: &lt;a href=&#34;http://www.mckinsey.com/business-functions/digital-mckinsey/our-insights/where-machines-could-replace-humans-and-where-they-cant-yet&#34; target=&#34;_blank&#34;&gt;Where machines could replace humans—and where they can’t (yet)&lt;/a&gt;, and &lt;a href=&#34;http://www.mckinsey.com/business-functions/digital-mckinsey/our-insights/four-fundamentals-of-workplace-automation&#34; target=&#34;_blank&#34;&gt;Four fundamentals of workplace automation&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;[2] Thomas, D., &amp;amp; Brown, J. S. (2011). A new culture of learning: Cultivating the imagination for a world of constant change. Lexington, KY: CreateSpace.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -151,9 +797,119 @@ It&amp;rsquo;s only a half-day into the workshop but I&amp;rsquo;m already amaze
       <pubDate>Mon, 10 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://meefen.github.io/post/2017-04-10-graphing-reddit-place/</guid>
-      <description>I&amp;rsquo;ver never liked the April Fool&amp;rsquo;s Day, until this year when Reddit decided to launch a social experiment called Reddit Place.
-The idea is simple. The whole world &amp;ndash; or all Reddit users &amp;ndash; were given a 999 x 999 blank canvas to draw on. Some simple rules apply:
- Each user could choose one pixel from 16 colors to place anywhere on the canvas. They could place as many pixels of as many colors as they wanted, but they had to wait a few minutes between placing each one.</description>
+      <description>
+
+&lt;!-- image: /assets/article_images/ajWiAYi.png --&gt;
+
+&lt;p&gt;I&amp;rsquo;ver never liked the April Fool&amp;rsquo;s Day, until this year when &lt;a href=&#34;https://www.reddit.com/&#34; target=&#34;_blank&#34;&gt;Reddit&lt;/a&gt; decided to &lt;a href=&#34;https://www.reddit.com/r/announcements/comments/62mesr/place/&#34; target=&#34;_blank&#34;&gt;launch a social experiment&lt;/a&gt; called &lt;a href=&#34;https://www.reddit.com/r/place/&#34; target=&#34;_blank&#34;&gt;Reddit Place&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The idea is simple. The whole world &amp;ndash; or all Reddit users &amp;ndash; were given a 999 x 999 blank canvas to draw on. Some simple rules apply:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Each user could choose one pixel from 16 colors to place anywhere on the canvas. They could place as many pixels of as many colors as they wanted, but they had to wait a few minutes between placing each one. (&lt;a href=&#34;http://sudoscript.com/reddit-place/&#34; target=&#34;_blank&#34;&gt;source&lt;/a&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;During the following 72 hours, amazingly interesting things happened on this 999 x 999 canvas. Below is a gif that gives you a glimpse into what had happened. Numerous accounts of this event have been posted. See &lt;a href=&#34;http://sudoscript.com/reddit-place/&#34; target=&#34;_blank&#34;&gt;this post&lt;/a&gt; for a good overview, and more posts can be found at the &lt;a href=&#34;https://www.reddit.com/r/place&#34; target=&#34;_blank&#34;&gt;Reddit Place&lt;/a&gt; itself.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://i.redd.it/5p68ukzkwdpy.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;graphing-the-reddit-place-with-neo4j&#34;&gt;Graphing the Reddit Place with Neo4j&lt;/h2&gt;
+
+&lt;p&gt;The Reddit Place as a web-based social phenomenon will be remembered and studied by many people. I didn&amp;rsquo;t follow this event at all but was amazed by the various types of participating users, sub-communities who self-organized to achieve certain goals, clashes and fights, evolving rules, impressive artworks, and so on &amp;ndash; all that happened on this little canvas. I&amp;rsquo;m especially intrigued by the emergent, self-organizing processes of constructing, destructing, negotiating, and re-constructing among numerous users and user networks supported by all kinds of communication tools (mostly Reddit itself).&lt;/p&gt;
+
+&lt;p&gt;With &lt;a href=&#34;https://www.reddit.com/r/PlaceDevs/comments/637ynq/a_datadump_but_from_a_different_scraper/&#34; target=&#34;_blank&#34;&gt;a data dump&lt;/a&gt; that captured the history of this event, I could not resist myself from playing with it using &lt;a href=&#34;https://neo4j.com/&#34; target=&#34;_blank&#34;&gt;Neo4j&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;importing-data&#34;&gt;Importing data&lt;/h3&gt;
+
+&lt;p&gt;To begin with, I wrote the following Cypher scripts to import the csv dump into Neo4j:&lt;/p&gt;
+
+&lt;p&gt;{% highlight cypher %}
+// Set constraints
+CREATE CONSTRAINT ON (p:Point) ASSERT p.location IS UNIQUE;
+CREATE INDEX ON :User(name);&lt;/p&gt;
+
+&lt;p&gt;// Insert data
+USING PERIODIC COMMIT 1000
+LOAD CSV FROM &amp;ldquo;file:///export.csv&amp;rdquo; AS l
+WITH l, [toInt(l[1]), toInt(l[2])] AS loc
+WHERE l[3] IS NOT NULL
+MERGE (p:Point {location: loc})
+  ON CREATE SET p.location = loc, p.count = 1
+  ON MATCH SET p.count = p.count + 1
+MERGE (u:User {name: l[3]})
+  ON CREATE SET u.name = l[3], u.count = 1
+  ON MATCH SET u.count = u.count + 1
+MERGE (u)-[r:PAINT]-&amp;gt;(p)
+  ON CREATE SET r.count = 1, r.ids = [toInt(l[0])],
+    r.colors = [toInt(l[4])], r.times = [toInt(l[5])]
+  ON MATCH SET r.count = r.count + 1,
+    r.ids = r.ids + toInt(l[0]),
+    r.colors = r.colors + toInt(l[4]),
+    r.times = r.times + toInt(l[5]);
+{% endhighlight %}&lt;/p&gt;
+
+&lt;p&gt;The figure below demonstrates the &lt;em&gt;graph model&lt;/em&gt; of the created Neo4j graph database. The model is quite simple and intuitive, including two node types named &lt;code&gt;User&lt;/code&gt; and &lt;code&gt;Point&lt;/code&gt; and one relationship type named &lt;code&gt;Paint&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://meefen.github.io/assets/article_images/r-place-graph-model.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It took my computer ~22 minutes to create 1.6 million labels, 1.6 million nodes, 28.8 million properties, and 4.13 million relationships in this graph database, the size of which ended up to be 4.30 GB.&lt;/p&gt;
+
+&lt;h3 id=&#34;general-queries&#34;&gt;General queries&lt;/h3&gt;
+
+&lt;p&gt;After data were loaded, I did some quick queries.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;First, who were the most active users?&lt;/strong&gt; User &lt;code&gt;itsnotlupus&lt;/code&gt; won the game as s/he painted for 177 times. This may not sound much but if you multiple 177 by 5 minutes (the &amp;lsquo;cooldown&amp;rsquo; time), you will find the user spent roughly 15 hours painting or contemplating the next pixel on the canvas. This time amount does not include activities in other communication tools.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Where did &lt;code&gt;itsnotlupus&lt;/code&gt; paint?&lt;/strong&gt; Below is a graph showing this user (in the center) and 100 pixels s/he painted on. Note that each pixel is identified by its coordinates in the 2D canvas.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://meefen.github.io/assets/article_images/top-user.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I noticed this user painted a whole lot near &lt;code&gt;Point [380, 880]&lt;/code&gt;. By clicking on the [380, 881] Point node, see below, I could check who else have painted on that spot. 16 other users have painted there. Maybe there were some interesting collisions on that single pixel?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://meefen.github.io/assets/article_images/top-user-clashes.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Which colors did &lt;code&gt;itsnotlupus&lt;/code&gt; use?&lt;/strong&gt; It appeared &lt;code&gt;itsnotlupus&lt;/code&gt; painted &lt;span style=&#34;background-color:#e59500&#34;&gt;#E59500&lt;/span&gt; for 104 times, and &lt;span style=&#34;background-color:#e50000&#34;&gt;#E50000&lt;/span&gt; for 70 times. Do those two colors belong to specific clans &lt;code&gt;itsnotlupus&lt;/code&gt; was affiliated with?&lt;/p&gt;
+
+&lt;p&gt;{% highlight cypher %}
+MATCH (u:User {name: &amp;ldquo;itsnotlupus&amp;rdquo;})-[r:PAINT]-&amp;gt;()
+WITH collect(r.colors) as colors
+UNWIND colors as array
+UNWIND array as color
+RETURN color, count(color) as count
+ORDER BY count DESC LIMIT 10
+{% endhighlight %}&lt;/p&gt;
+
+&lt;h3 id=&#34;the-blue-corner&#34;&gt;The Blue Corner&lt;/h3&gt;
+
+&lt;p&gt;Based on &lt;a href=&#34;http://sudoscript.com/reddit-place/&#34; target=&#34;_blank&#34;&gt;this post&lt;/a&gt;, the lower-right corner was occupied by &lt;a href=&#34;https://www.reddit.com/r/BlueCorner/&#34; target=&#34;_blank&#34;&gt;Blue&lt;/a&gt;. So I checked the corner pixel [999, 999]. The following Cypher query returned a total of &lt;strong&gt;&lt;code&gt;10,121&lt;/code&gt; user actions on that single pixel&lt;/strong&gt;. The figure that follows shows 100 of those users who painted at [999, 999].&lt;/p&gt;
+
+&lt;p&gt;{% highlight cypher %}
+MATCH (p:Point {location: [999, 999]})&amp;lt;-[r:PAINT]-()
+RETURN count&amp;reg;
+{% endhighlight %}&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://meefen.github.io/assets/article_images/999x999-users.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Top painters in that corner&lt;/strong&gt; are listed in the figure below. Querying the top [999, 999] painter &lt;code&gt;MrMeltJr&lt;/code&gt; I found him painting &lt;span style=&#34;text-shadow: 4px 4px 2px #0000EA&#34;&gt;&lt;code&gt;blue (#0000EA)&lt;/code&gt;&lt;/span&gt; predominantly (105 out of 116 times). He was clearly a member of the Blue Corner sub-community.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://meefen.github.io/assets/article_images/999x999-top-users.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What was the most used color in that corner?&lt;/strong&gt; The following query found the most dominant color to be &lt;span style=&#34;text-shadow: 4px 4px 2px #0000EA&#34;&gt;&lt;code&gt;#0000EA&lt;/code&gt;&lt;/span&gt;, which appeared for 7400 times, followed by &lt;span style=&#34;text-shadow: 4px 4px 2px #820080&#34;&gt;&lt;code&gt;#820080&lt;/code&gt;&lt;/span&gt;&amp;rsquo;s 2055 times. This finding could be confirmed by the gif above.&lt;/p&gt;
+
+&lt;p&gt;{% highlight cypher %}
+MATCH (p:Point {location: [999, 999]})&amp;lt;-[r:PAINT]-()
+WITH collect(r.colors) as allColors
+UNWIND allColors as array
+UNWIND array as color
+RETURN color, count(color) as count ORDER BY count DESC LIMIT 10
+{% endhighlight %}&lt;/p&gt;
+
+&lt;h2 id=&#34;more-fun-to-come&#34;&gt;More Fun to Come&lt;/h2&gt;
+
+&lt;p&gt;These queries are far from even scratching the surface of the complex social phenomenon. Two aspects I&amp;rsquo;m especially interested in exploring (if I have time) are the &lt;code&gt;temporal&lt;/code&gt; aspect of user actions on single pixels and the &lt;code&gt;spacial&lt;/code&gt; aspect of changes with neighboring pixels. In addition, it would also be useful if we could connect communication and coordination among users and communities external to the canvas.&lt;/p&gt;
+
+&lt;p&gt;Yes, now I see the April Fool&amp;rsquo;s Day could be fun!&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -162,9 +918,20 @@ The idea is simple. The whole world &amp;ndash; or all Reddit users &amp;ndash; 
       <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>https://meefen.github.io/post/2017-03-23-umn-lacop/</guid>
-      <description>Today, we kicked off our Learning Analytics Community of Practice at UMN (#UMNLACoP)! Launching this CoP has been a joint effort among the Center for Educational Innovation, the College of Liberal Arts, the Libraries, and the College of Education and Human Development.
-During today&amp;rsquo;s kick-off event, I spent 15 minutes presenting a quick introduction to the field of Learning Analytics. Below is an audio recording of my presentation.
- The next event will be hosted on April 10, 2:30-4:00pm, in Anderson 110.</description>
+      <description>&lt;!-- image: /assets/article_images/community.jpg
+
+![](/images/article_images/community.jpg)
+
+*(Photo Credit: [Blue Diamond Gallery](http://www.thebluediamondgallery.com/wooden-tile/c/community.html))* --&gt;
+
+&lt;p&gt;Today, we kicked off our &lt;a href=&#34;https://cei.umn.edu/courses-programs/learning-analytics-community-practice&#34; target=&#34;_blank&#34;&gt;Learning Analytics Community of Practice at UMN&lt;/a&gt; (#UMNLACoP)! Launching this CoP has been a joint effort among the &lt;a href=&#34;https://cei.umn.edu/&#34; target=&#34;_blank&#34;&gt;Center for Educational Innovation&lt;/a&gt;, the &lt;a href=&#34;https://cla.umn.edu/&#34; target=&#34;_blank&#34;&gt;College of Liberal Arts&lt;/a&gt;, the &lt;a href=&#34;https://www.lib.umn.edu&#34; target=&#34;_blank&#34;&gt;Libraries&lt;/a&gt;, and the &lt;a href=&#34;https://cehd.umn.edu&#34; target=&#34;_blank&#34;&gt;College of Education and Human Development&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;During today&amp;rsquo;s kick-off event, I spent 15 minutes presenting a quick introduction to the field of Learning Analytics. Below is an audio recording of my presentation.&lt;/p&gt;
+
+&lt;iframe width=&#34;100%&#34; height=&#34;166&#34; scrolling=&#34;no&#34; frameborder=&#34;no&#34; src=&#34;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/314202983&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;The next event will be hosted on April 10, 2:30-4:00pm, in Anderson 110. If you are interested in joining #UMNLACoP, sign up via &lt;a href=&#34;http://z.umn.edu/lacop&#34; target=&#34;_blank&#34;&gt;http://z.umn.edu/lacop&lt;/a&gt;!&lt;/p&gt;
+</description>
     </item>
     
   </channel>

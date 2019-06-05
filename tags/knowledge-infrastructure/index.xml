@@ -4,12 +4,12 @@
     <title>Knowledge Infrastructure on Bodong Chen</title>
     <link>https://meefen.github.io/tags/knowledge-infrastructure/</link>
     <description>Recent content in Knowledge Infrastructure on Bodong Chen</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2019 Bodong Chen</copyright>
+    <copyright>&amp;copy; 2016--2019 Bodong Chen</copyright>
     <lastBuildDate>Thu, 01 Nov 2018 00:00:00 -0500</lastBuildDate>
     
-	<atom:link href="https://meefen.github.io/tags/knowledge-infrastructure/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://meefen.github.io/tags/knowledge-infrastructure/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,8 +18,12 @@
       <pubDate>Thu, 01 Nov 2018 00:00:00 -0500</pubDate>
       
       <guid>https://meefen.github.io/talk/2018-educause/</guid>
-      <description>Click on the Slides button above to view the Google Slides.
- </description>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the Google Slides.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
     </item>
     
   </channel>
