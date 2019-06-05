@@ -6,11 +6,21 @@
     <description>Recent content in blog on Bodong Chen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018 Bodong Chen</copyright>
-    <lastBuildDate>Tue, 24 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <copyright>&amp;copy; 2019 Bodong Chen</copyright>
+    <lastBuildDate>Thu, 14 Mar 2019 13:57:08 -0500</lastBuildDate>
     
 	<atom:link href="https://meefen.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Automate for Whom?</title>
+      <link>https://meefen.github.io/post/2019-03-14-automation/</link>
+      <pubDate>Thu, 14 Mar 2019 13:57:08 -0500</pubDate>
+      
+      <guid>https://meefen.github.io/post/2019-03-14-automation/</guid>
+      <description>I have been working at a large public R1 university long enough &amp;ndash; 4 years &amp;ndash; to witness steady changes with technology installed in public restrooms.
+Below is a newly installed automatic paper towel dispenser in our office building. As someone who tends to use 1 paper towel, I was very frustrated by the design that doesn&amp;rsquo;t keep me &amp;ndash; a user &amp;ndash; in the loop and forces me to use that much paper.</description>
+    </item>
     
     <item>
       <title>Open Textbooks and Open Educational Practices</title>
@@ -113,6 +123,17 @@ The idea is simple. The whole world &amp;ndash; or all Reddit users &amp;ndash; 
       <description>Today, we kicked off our Learning Analytics Community of Practice at UMN (#UMNLACoP)! Launching this CoP has been a joint effort among the Center for Educational Innovation, the College of Liberal Arts, the Libraries, and the College of Education and Human Development.
 During today&amp;rsquo;s kick-off event, I spent 15 minutes presenting a quick introduction to the field of Learning Analytics. Below is an audio recording of my presentation.
  The next event will be hosted on April 10, 2:30-4:00pm, in Anderson 110.</description>
+    </item>
+    
+    <item>
+      <title>五月的天</title>
+      <link>https://meefen.github.io/zh/2009-05-12-may/</link>
+      <pubDate>Tue, 12 May 2009 00:00:00 -0500</pubDate>
+      
+      <guid>https://meefen.github.io/zh/2009-05-12-may/</guid>
+      <description>&lt;p&gt;北京五月的天不属于与茁壮的玉米苗笑脸相迎的白云朵朵，而属于漫天飞舞张牙舞爪的杨树的生殖细胞。印象中的五月不应当如此炎热，因为炎热往常在校园里聚起各种巫师模样衣服的人群，也该意味着楼下西门鸡翅每晚绵延到深夜的喧闹的酒瓶声。是的，炎热就意味着一群人该离开了，无论是在曾经师大的京师广场，还是如今燕园的各个角落。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

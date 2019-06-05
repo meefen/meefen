@@ -6,8 +6,8 @@
     <description>Recent content in Tags on Bodong Chen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018 Bodong Chen</copyright>
-    <lastBuildDate>Thu, 14 Mar 2019 13:57:08 -0500</lastBuildDate>
+    <copyright>&amp;copy; 2019 Bodong Chen</copyright>
+    <lastBuildDate>Mon, 20 May 2019 00:00:00 -0500</lastBuildDate>
     
 	<atom:link href="https://meefen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>AI</title>
       <link>https://meefen.github.io/tags/ai/</link>
-      <pubDate>Thu, 14 Mar 2019 13:57:08 -0500</pubDate>
+      <pubDate>Mon, 20 May 2019 00:00:00 -0500</pubDate>
       
       <guid>https://meefen.github.io/tags/ai/</guid>
       <description></description>
@@ -31,11 +31,29 @@
     </item>
     
     <item>
+      <title>Baby</title>
+      <link>https://meefen.github.io/tags/baby/</link>
+      <pubDate>Fri, 26 Dec 2014 00:00:00 -0600</pubDate>
+      
+      <guid>https://meefen.github.io/tags/baby/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>CSCL</title>
       <link>https://meefen.github.io/tags/cscl/</link>
       <pubDate>Fri, 26 Oct 2018 15:42:17 -0500</pubDate>
       
       <guid>https://meefen.github.io/tags/cscl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>China</title>
+      <link>https://meefen.github.io/tags/china/</link>
+      <pubDate>Tue, 04 Jun 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://meefen.github.io/tags/china/</guid>
       <description></description>
     </item>
     
@@ -166,6 +184,24 @@
     </item>
     
     <item>
+      <title>algorithm</title>
+      <link>https://meefen.github.io/tags/algorithm/</link>
+      <pubDate>Sun, 22 Jul 2018 00:00:00 -0500</pubDate>
+      
+      <guid>https://meefen.github.io/tags/algorithm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>artificial intelligence</title>
+      <link>https://meefen.github.io/tags/artificial-intelligence/</link>
+      <pubDate>Sun, 22 Jul 2018 00:00:00 -0500</pubDate>
+      
+      <guid>https://meefen.github.io/tags/artificial-intelligence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>automation</title>
       <link>https://meefen.github.io/tags/automation/</link>
       <pubDate>Mon, 24 Jul 2017 00:00:00 +0000</pubDate>
@@ -177,7 +213,7 @@
     <item>
       <title>china</title>
       <link>https://meefen.github.io/tags/china/</link>
-      <pubDate>Sat, 07 Apr 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 04 Jun 2019 00:00:00 -0500</pubDate>
       
       <guid>https://meefen.github.io/tags/china/</guid>
       <description></description>
@@ -328,6 +364,15 @@
     </item>
     
     <item>
+      <title>rural</title>
+      <link>https://meefen.github.io/tags/rural/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 -0500</pubDate>
+      
+      <guid>https://meefen.github.io/tags/rural/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>social media</title>
       <link>https://meefen.github.io/tags/social-media/</link>
       <pubDate>Mon, 10 Apr 2017 00:00:00 +0000</pubDate>
@@ -342,6 +387,15 @@
       <pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://meefen.github.io/tags/teaching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>technology</title>
+      <link>https://meefen.github.io/tags/technology/</link>
+      <pubDate>Mon, 20 May 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://meefen.github.io/tags/technology/</guid>
       <description></description>
     </item>
     
