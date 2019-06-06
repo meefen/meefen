@@ -7,10 +7,99 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016--2019 Bodong Chen</copyright>
-    <lastBuildDate>Tue, 04 Jun 2019 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 06 Jun 2019 12:28:46 -0500</lastBuildDate>
     
 	    <atom:link href="https://meefen.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A Call for Third-Order Change in Learning Analytics</title>
+      <link>https://meefen.github.io/post/2019-06-06-ecological-design/</link>
+      <pubDate>Thu, 06 Jun 2019 12:28:46 -0500</pubDate>
+      
+      <guid>https://meefen.github.io/post/2019-06-06-ecological-design/</guid>
+      <description>
+
+&lt;p&gt;&lt;em&gt;[Disclaimer: It&amp;rsquo;s summer time, meaning time for some bold statements.]&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;“Any educational intervention, for the obvious, common-sense reasons mentioned above, can do harm&amp;hellip; ignoring side effects is one of the main reasons for the perpetual wars and pendulum swings in education.” — Yong Zhao (2018)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Education often turns to other disciplines for inspirations. In medicine, &lt;a href=&#34;https://ghr.nlm.nih.gov/primer/precisionmedicine/definition&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;precision medicine&lt;/em&gt;&lt;/a&gt; &amp;ldquo;takes into account individual variability in genes, environment, and lifestyle for each person&amp;rdquo; when treating diseases. In business, &lt;a href=&#34;https://en.wikipedia.org/wiki/Business_intelligence&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;business intelligence&lt;/em&gt;&lt;/a&gt; harnesses information and analytics to improve and optimize decisions and performance. All good stuff, right?&lt;/p&gt;
+
+&lt;p&gt;Indeed, the emergence of &lt;strong&gt;learning analytics&lt;/strong&gt;—now often referred to as ‘AI in Education’—was motivated by these very analogies. With more and richer data, as well as stronger data science methods, education is poised to better understand and support learning.&lt;/p&gt;
+
+&lt;p&gt;However, as pointed out by &lt;a href=&#34;http://zhaolearning.com/2018/10/07/what-evidence-problems-with-evidence-based-education-side-effects-in-education/&#34; target=&#34;_blank&#34;&gt;Yong Zhao&lt;/a&gt;, we rarely talk about ‘side effects’ in education when discussing changes and reforms. So aren’t more of us talking about &lt;a href=&#34;http://www.newcultureoflearning.com/&#34; target=&#34;_blank&#34;&gt;types of learning and learning cultures&lt;/a&gt; out of the ‘curriculum box’, or not in the mainstream accountability-centric education system.&lt;/p&gt;
+
+&lt;p&gt;Work tagged with ‘learning analytics’ is probably facing the same challenges as earlier educational interventions, especially those related to the integration of EdTech in the education systems. While precision medicine is a great idea, is &amp;ldquo;&lt;em&gt;precision education&lt;/em&gt;&amp;rdquo; necessarily a good one? If precision medicine is optimizing conditions of combating a disease, what outcomes would precision education work for? Outcomes worthwhile for whom?&lt;/p&gt;
+
+&lt;!-- **To have a better chance of success, we do not only need to consider ‘side effects’ and but also use some ideas from complexity theory and ecological perspectives.** --&gt;
+
+&lt;h2 id=&#34;different-levels-of-learning&#34;&gt;Different Levels of Learning&lt;/h2&gt;
+
+&lt;p&gt;Let me first turn to the ‘learning’ part in learning analytics.&lt;/p&gt;
+
+&lt;p&gt;In Stephen Sterling’s (2001) book titled &lt;em&gt;Sustainable Education&lt;/em&gt;, he delineates three levels of learning. The &lt;em&gt;first-order&lt;/em&gt; learning is about ‘basic’ acquisition of knowledge and skills. The &lt;em&gt;second-order&lt;/em&gt; learning deals with ‘learning about learning’ and requires reflexitivity. The &lt;em&gt;third-order&lt;/em&gt; learning recognizes the existing paradigm of learning and facilitates paradigmatic reconstruction to transform learning.&lt;/p&gt;
+
+&lt;p&gt;Of course, such categorization is coarse to a certain degree. What is useful an exercise is to scan articles from the &lt;em&gt;Learning Analytics and Knowledge&lt;/em&gt; (LAK) conference or the &lt;em&gt;Journal of Learning Analytics&lt;/em&gt; (JLA) to see what learning analytics research cares about when discussing learning. I would be not surprised if many/most articles are found to deal with &lt;em&gt;first-order&lt;/em&gt; learning, such as earning a passing grade in an introductory algebra course. This is not saying passing a course is not a worthwhile educational goal. Rather, we need to think more broadly about what learning means and entails.&lt;/p&gt;
+
+&lt;p&gt;We need more learning analytics work that pushes our views of learning, given we are now better aided by data, AI, dashboards, and so on. We need to, for instance, look at nurturing higher-order competencies as demonstrated by &lt;a href=&#34;https://learning-analytics.info/journals/index.php/JLA/issue/view/381&#34; target=&#34;_blank&#34;&gt;this JLA special issue&lt;/a&gt;. We need to look at nascent (or simply more natural) learning contexts that involve dynamic, messy interactions among learners, artifacts, information systems, and the physical world. Recent work on ‘&lt;a href=&#34;http://simon.buckinghamshum.net/2019/02/chi19-towards-collaboration-translucence/&#34; target=&#34;_blank&#34;&gt;Collaboration Translucence&lt;/a&gt;’ is one great example. We need to build ‘&lt;a href=&#34;https://www.jstor.org/stable/44429572?seq=1#page_scan_tab_contents&#34; target=&#34;_blank&#34;&gt;pedagogical biases&lt;/a&gt;’ (Scardamalia, 2008)—biases conducive to fresh ideas of learning—into learning analytics applications to combat traditional fixation on first-order learning, and to help educators unlearn and relearn.&lt;/p&gt;
+
+&lt;p&gt;All in all, to realize its full potential, discourse around learning analytics should not be dominantly about first-order learning. While the field is progressing steadily (e.g., penetrating into board rooms of the provost offices), we probably should set bolder educational goals for learning analytics.&lt;/p&gt;
+
+&lt;h2 id=&#34;different-aims-of-education&#34;&gt;Different Aims of Education&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;“I believe that education, therefore, is a process of living and not a preparation for future living.” — John Dewey, &lt;a href=&#34;http://dewey.pragmatism.org/creed.htm&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;My Pedagogic Creed&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Of course, we do not agree on the aims of education, like what we don’t agree on the meanings of learning, and like we don’t agree on &lt;a href=&#34;https://www.independent.co.uk/life-style/food-and-drink/pizza-pineapple-is-it-acceptable-chefs-expert-opinion-a8074571.html&#34; target=&#34;_blank&#34;&gt;whether pineapple can be a legitimate pizza topping&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;When discussing, designing, and integrating learning analytics at an educational institution, we need to recognize that &lt;strong&gt;the education system is multi-functional&lt;/strong&gt; and carries a mix of very different aims like the following (Sterling, 2001):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Liberal&lt;/em&gt;: To develop the individual and his/her potential&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Socializing&lt;/em&gt;: To replicate society and culture and promote citizenship&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Transformative&lt;/em&gt;: To encourage change toward a fairer society and better world&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Vocational&lt;/em&gt;: To train people for employment&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There are fundamental tentions among these educational aims, fueling debates such as whether education ought to be &lt;em&gt;intrinsic&lt;/em&gt; (an end in itself) or &lt;em&gt;instrumental&lt;/em&gt; (a means to an end).&lt;/p&gt;
+
+&lt;p&gt;Just like my prior criticism of the fixation on first-order learning, I also caution a predominant emphasis on the &lt;em&gt;vocational&lt;/em&gt; aim of education. Indeed, graduation rates and employability are important, but only to a degree of serving individual and societal well-being. Without attending to the other aims, the vocational aim would most certainly fail to stand on its own.&lt;/p&gt;
+
+&lt;h2 id=&#34;a-call-for-third-order-change&#34;&gt;A Call for Third-Order Change&lt;/h2&gt;
+
+&lt;p&gt;If learning analytics is serving a narrow band of learning and educational aims, it may lead to changes&amp;mdash;but most likely only at the &lt;em&gt;functional&lt;/em&gt; level.&lt;/p&gt;
+
+&lt;p&gt;In learning analytics, much work is serving the functional realm of education (not learning) that resolves into a current institution and its established system. Earlier attempts of distincting learning analytics from &lt;em&gt;academic analytics&lt;/em&gt; were well-intended but futile. It seems academic analytics would naturally focus more on the functional side, while learning analytics could truly dig into complex processes of learning using sophisticated data science methods. Of course, both tracks are progressing. But I observe a chasm between people whose job codes are on the functional side vs. those who care about the learning side.&lt;/p&gt;
+
+&lt;p&gt;Few learning analytics efforts I witness reside on the &lt;em&gt;third-order change&lt;/em&gt;; that is, to harness data analytics to see learning differently. Startups may conveniently claim to totally transform learning or disrupt education, but unfortunately many fall flat. In the adaptive space, for instance, we already know the story about &lt;a href=&#34;https://www.insidehighered.com/blogs/just-visiting/knewton-gone-larger-threat-remains&#34; target=&#34;_blank&#34;&gt;Knewton&lt;/a&gt;. And we now have &lt;a href=&#34;https://www.edsurge.com/news/2018-02-05-act-bets-big-on-analytics-adaptive-learning-with-7-5m-investment-in-smart-sparrow&#34; target=&#34;_blank&#34;&gt;SmartSparrow&lt;/a&gt; and &lt;a href=&#34;https://medium.com/syncedreview/adaptive-learning-startup-squirrel-ai-raises-cn-1b-df275cbce068&#34; target=&#34;_blank&#34;&gt;Squirrel AI&lt;/a&gt;. A problem with many “disruptive” technologies is on Day One they decide to side themselves with a dated educational paradigm and never look back. Still too often, EdTech products harnessing learning analytics merely contribute to the &lt;em&gt;management&lt;/em&gt; and &lt;em&gt;functional&lt;/em&gt; aspects of education such as tracking student progress in a prescribed curricular space. In this case, third-order change would hardly take place.&lt;/p&gt;
+
+&lt;p&gt;And yet, the side effects of the managerialist use of analytics in education cannot be neglected. It has been warned a long time ago that the managerialist approach tends to corrode what a ‘good education’ could be (Sterling, 2001), leading towards:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;a narrowing of what counts as achievement to that which can be measured&lt;/li&gt;
+&lt;li&gt;deprofessionalization of teachers, who become technicians rather than reflective practitioners&lt;/li&gt;
+&lt;li&gt;decline in teacher-led innovation&lt;/li&gt;
+&lt;li&gt;a creeping up of marks over time as it is in everybody’s interests to demonstrate ‘high standards’&lt;/li&gt;
+&lt;li&gt;valuing what can be measured, rather than measuring what is valued&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;To move towards third-order change, analytics in education need to broaden the scene from perfecting functional/managerial/mechanistic tasks to consider complex, emergent processes in the ‘ecosystem’.&lt;/strong&gt; At a basic level, a learning analytics application needs to be clearly positioned in the existing institutional structure in relation to other ‘agents’—people and information systems. Looking inward into the application, rather than focusing on single variables, it could focus on a set of relations and the whole; rather than powering external evaluation of student learning (or &amp;ldquo;turning students into numbers on a teacher dashboard&amp;rdquo;), it could aim to support self-assessment and self-discovery by students; rather than striving for normative values and homogenization, it could nurture heterogeneity among learners in a class. Looking outward from the application, we need to design for a meaningful social life of learners, and to design interactions between the application and other information systems as well as &amp;lsquo;locations&amp;rsquo; of learning (Edwards &amp;amp; Usher, 2007).&lt;/p&gt;
+
+&lt;p&gt;To a certain degree, I’m advocating for some type of &lt;strong&gt;&amp;lsquo;&lt;a href=&#34;https://en.wikipedia.org/wiki/Ecological_design&#34; target=&#34;_blank&#34;&gt;ecological design&lt;/a&gt;&amp;rsquo; of learning analytics&lt;/strong&gt;. It’s certainly vague right now. It is clear though that the field of learning analytics needs to develop a set of principles and toolkits, like the &lt;a href=&#34;https://drive.google.com/file/d/0B036SlUSi-z4UkkzYUVGTGdocXc/view&#34; target=&#34;_blank&#34;&gt;feminist chatbot design approach&lt;/a&gt;, to help ourselves achieve third-order change.  How can we get there?&lt;/p&gt;
+
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Edwards, R., &amp;amp; Usher, R. (2007). Globalisation &amp;amp; Pedagogy: Space, Place and Identity. Routledge.&lt;/li&gt;
+&lt;li&gt;Scardamalia, M., &amp;amp; Bereiter, C. (2008). Pedagogical biases in educational technologies. Educational Technology, 45(3), 3–11.&lt;/li&gt;
+&lt;li&gt;Sterling, S. (2001). Sustainable Education: Re-Visioning Learning and Change. Schumacher Briefings. Green Books for the Schumacher Society.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>30</title>
@@ -223,6 +312,124 @@ or perhaps even “
 transhuiman”
 beings we are becoming –
 and to the development of a better sense of the limits of humanity.&lt;/strong&gt; (p. 8)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Notes: Hickey2017</title>
+      <link>https://meefen.github.io/note/2019-04-05-hickey2017/</link>
+      <pubDate>Fri, 05 Apr 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://meefen.github.io/note/2019-04-05-hickey2017/</guid>
+      <description>
+
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Citekey&lt;/strong&gt;: @Hickey2017&lt;/p&gt;
+
+&lt;p&gt;NA&lt;/p&gt;
+
+&lt;h2 id=&#34;notes&#34;&gt;Notes&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Summarize&lt;/em&gt;: This chapter introduces the Participatory Learning and Assessment (PLA) framework derived by Dan Hickey and his team in the &amp;ldquo;BOOC&amp;rdquo; context. PLA distinguishes different kinds of interactions that include public, local, private, and discreet.  It explains PLA&amp;rsquo;s five design principles, which draw inspiration from &lt;em&gt;productive disciplinary engagement&lt;/em&gt; (PDE).&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Use Public Contexts to Give Meaning to Knowledge Tools&lt;/li&gt;
+&lt;li&gt;Recognize and Reward Productive Disciplinary Engagement (PDE)&lt;/li&gt;
+&lt;li&gt;Evaluate/Grade Artifacts through Local Endorsements and Reflections&lt;/li&gt;
+&lt;li&gt;Assess Individual Knowledge Privately&lt;/li&gt;
+&lt;li&gt;Measure Aggregated Achievement Discreetly&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;They commened that scaling should be done gradually and iteratively.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Assess&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Reflect&lt;/em&gt;: The BOOC project is inspirational. The distinction made among public/local/private interactions are congruent with my thinking on (public) online pedagogy.&lt;/p&gt;
+
+&lt;p&gt;There are two references I plan to check out.&lt;/p&gt;
+
+&lt;h2 id=&#34;highlights&#34;&gt;Highlights&lt;/h2&gt;
+
+&lt;p&gt;Some observers had already commented on the difficulty of connecting with other learners in the cMOOCs (Mackness, Mack, and Williams 2010). It turned out that supporting social interaction in the xMOOCs was proving much harder. (p. 4)&lt;/p&gt;
+
+&lt;p&gt;the “myths and paradoxes” of xMOOCs (Daniel 2012). These included number of students taught (but single-digit completion rates), value (dubious certificates of completion), purpose (disregard for outcomes and focus on posturing and profits rather than spreading learning), pedagogy (essentially behaviorism), access (mostly serving elites), and risks (MOOCs as degree mills). (p. 5)&lt;/p&gt;
+
+&lt;p&gt;This chapter summarizes one ongoing effort that is intended to inform the entire range of efforts to scale open learning. (p. 5)&lt;/p&gt;
+
+&lt;p&gt;Instructionist approaches are rooted in a more “associationist” perspective on learning (e.g., Anderson 1990; Gagné 1985) which assumes that higher order knowledge can and should be broken down into smaller elements that can be individually learned, mastered, and assessed.1 This perspective is explicitly manifested in artificially intelligent tutors, like those associated with Carnegie Mellon University (Koedinger and Corbett 2006) and competency-based education (Bramante and Colby 2012) (p. 5)&lt;/p&gt;
+
+&lt;p&gt;In contrast, constructivist approaches are rooted in more “rationalist” views of learning (e.g., Glaser 1984) that emphasize the construction of higher-level conceptual schema that learners create to make sense of the world (rather than by assembling numerous smaller associations). (p. 6)&lt;/p&gt;
+
+&lt;p&gt;constructivist approaches can be very difficult to scale. This is because both the people who design a course and then the instructors and facilitators who teach that course need a lot of TPCK (technological pedagogical content knowledge; Koehler and Mishra 2008) concerning the way that disciplinary knowledge can optimally unfold within the particular technology. In many settings this knowledge will be in very short supply, very expensive, or both. (p. 6)&lt;/p&gt;
+
+&lt;p&gt;Participatory Learning and Assessment (PLA) (p. 7)&lt;/p&gt;
+
+&lt;p&gt;Reflecting a continued focus on participation in sociocultural practices, the larger framework that these principles formed was deemed Participatory Learning and Assessment (PLA). (p. 8)&lt;/p&gt;
+
+&lt;p&gt;drew significant inspiration from three strands of research that extended situative theories of learning into the era of digital knowledge networks. Two of these were Henry Jenkins’s (2009) notion of online “participatory culture” and studies by Ito et al. (2009) of the way young people “geek out” in interest-driven social networks. (p. 8)&lt;/p&gt;
+
+&lt;p&gt;What distinguishes the PLA framework that emerged from these two courses were online strategies for delivering useful evidence that could be used to enhance participation, individual knowledge, and group achievement, without undermining any of them, and without compromising that evidence for making claims about the resulting knowledge or achievement. (p. 8)&lt;/p&gt;
+
+&lt;p&gt;Research and Development Context (p. 9)&lt;/p&gt;
+
+&lt;p&gt;Google offered grants to faculty for developing MOOCs that were “more interactive than typical MOOCs.” (p. 9)&lt;/p&gt;
+
+&lt;p&gt;Drawing on Hall and Rubin’s (1989) study of situated learning in mathematics classrooms, the principles distinguish between interactions that are public (presented to every member of the class and potentially beyond), local (in public but between specific peers and/or the instructor), or private (between individuals). A fourth kind of interaction, discreet (i.e., unobtrusive), was added to highlight the core PLA assumption that conventional achievement tests should be used judiciously and inconspicuously. (p. 10)&lt;/p&gt;
+
+&lt;p&gt;draw inspiration from Engle and Conant’s (2002) notions of productive disciplinary engagement (PDE). (p. 10)&lt;/p&gt;
+
+&lt;p&gt;the “multilevel” assessment model (p. 10)&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Use Public Contexts to Give Meaning to Knowledge Tools (p. 10)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;1.1 Personalized learning contexts. In the Assessment BOOC, registrants were directed through a process that asked them questions about their actual or aspirational role in the education system and helped them draft a curricular aim that embodied their practices in that role to personalize their learning in the course. (p. 11)&lt;/p&gt;
+
+&lt;p&gt;1.2 Networking groups. Registration information regarding primary academic domain and role was used to organize students into networking groups (manually in 2013 and automatically in 2014). Doing so structured local interactions with both similar and different peers and revealed how course content interacted with domains and roles. (p. 11)&lt;/p&gt;
+
+&lt;p&gt;discussion forums were not used for group interaction (p. 12)&lt;/p&gt;
+
+&lt;p&gt;1.3 Public course artifacts. (p. 12)&lt;/p&gt;
+
+&lt;p&gt;In contrast, all the BOOC assignments consisted of public (to the class) wikifolios that focused primarily on disciplinary practices. (p. 12)&lt;/p&gt;
+
+&lt;p&gt;1.4 Relevance ranking. (p. 13)&lt;/p&gt;
+
+&lt;p&gt;students rank the relevance of elements of disciplinary knowledge or disciplinary resources to their aim and/or role, and then justify that ranking. (p. 13)&lt;/p&gt;
+
+&lt;p&gt;1.5 Personalized open educational resources (OERs). (p. 13)&lt;/p&gt;
+
+&lt;p&gt;In the BOOC, students posted OER URLs in their wikifolios; the annotated URLs were then automatically placed all together on a separate page, where students could easily review them. (p. 13)&lt;/p&gt;
+
+&lt;p&gt;1.6 Streaming instructor videos. (p. 13)&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Recognize and Reward Productive Disciplinary Engagement (PDE) (p. 14)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;3.2 Engagement reflections. (p. 19)&lt;/p&gt;
+
+&lt;p&gt;students were instructed to reflect on their contextual engagement (“How suitable was your context for learning this knowledge?”), collaborative engagement (“Who else’s work and whose comments helped you learn this new knowledge?”), and consequential engagement (“What will you do differently in your context and beyond as a consequence of learning this knowledge?”). (p. 19)&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Assess Individual Knowledge Privately (p. 20)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Findings, Next Steps, and Conclusions (p. 22)&lt;/p&gt;
+
+&lt;p&gt;The first conclusion is that scaling should be done gradually. To quickly scale up to massive numbers of users, most MOOCs and MOOC platforms were forced to sacrifice interaction and personalization (p. 23)&lt;/p&gt;
+
+&lt;p&gt;Our second conclusion is that scaling should be done iteratively. Our efforts were directly shaped by newer design-based research methods that emphasize the development of “local” theories in the context of reform efforts (Cobb et al. 2003). Furthermore, we conclude that such iterative refinements should be done within a coherent theoretical framework. (p. 23)&lt;/p&gt;
+
+&lt;p&gt;Finally, we conclude that the PLA framework seems generally useful for guiding efforts to scale learning. (p. 23)&lt;/p&gt;
+
+&lt;p&gt;this framework can also “scale out” to large numbers of teachers in conventional online classes. (p. 24)&lt;/p&gt;
+
+&lt;p&gt;Hickey, Daniel, Gita Taasoobshirazi, and Dionne Cross. 2012. “Assessment as Learning: Enhancing Discourse, Understanding, and Achievement in Innovative Science Curricula.” Journal of Research in Science Teaching 49 (10): 1240–70. (p. 26)&lt;/p&gt;
+
+&lt;p&gt;Hickey, Daniel, and Steven J. Zuiker. 2012. “Multilevel Assessment for Discourse, Understanding, and Achievement.” Journal of the Learning Sciences 21 (4): 522–82. (p. 26)&lt;/p&gt;
 </description>
     </item>
     
@@ -515,6 +722,258 @@ and to the development of a better sense of the limits of humanity.&lt;/strong&g
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the slides.
   &lt;/div&gt;
 &lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Notes: Cress2013-av</title>
+      <link>https://meefen.github.io/note/2018-12-27-cress2013-av/</link>
+      <pubDate>Thu, 27 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://meefen.github.io/note/2018-12-27-cress2013-av/</guid>
+      <description>
+
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Citekey&lt;/strong&gt;: @Cress2013-av&lt;/p&gt;
+
+&lt;p&gt;Cress, U., Barron, B., Fischer, G., Halatchliyski, I., &amp;amp; Resnick, M. (2013). Mass collaboration - An emerging field for CSCL research. In CSCL Proceedings (Vol. 1, pp. 557–563).&lt;/p&gt;
+
+&lt;h2 id=&#34;notes&#34;&gt;Notes&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Summarize&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Assess&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Reflect&lt;/em&gt;:&lt;/p&gt;
+
+&lt;h2 id=&#34;highlights&#34;&gt;Highlights&lt;/h2&gt;
+
+&lt;p&gt;The participants in such communities are not just a mass of learning individuals or passive consumers; they actively produce meaningful content and act as “prosumers” (O’Reilly, 2006; Tapscott &amp;amp; Williams, 2006). (p. 2)&lt;/p&gt;
+
+&lt;p&gt;the symposium on long-tail learning at the CSCL conference in 2009 (Brown &amp;amp; Adler, 2008; Collins, et al 2009) (p. 2)&lt;/p&gt;
+
+&lt;p&gt;In sum, the aim of the symposium is threefold: (1) to establish the concept of mass collaboration as a relevant topic of CSCL (2) to present and interconnect existing research on the subject, and (3) to give prototypical examples of learning communities and mass collaboration platforms (p. 2)&lt;/p&gt;
+
+&lt;p&gt;Whereas CSCL in its early times mainly dealt with synchronous small group or classroom-settings, currently, CSCL research faces a much broader range of real-life situations, where people take part in decentralized communities, act asynchronously and do not necessarily all come to a shared conception of a problem. (p. 2)&lt;/p&gt;
+
+&lt;p&gt;shared conception of a problem. In fact, complex knowledge phenomena involve long periods of time, large and changing numbers of people, and fuzzy-structured settings. (p. 3)&lt;/p&gt;
+
+&lt;p&gt;CSCL research is just starting to address this global level of human learning and creation of knowledge (Kafai &amp;amp; Peppler, 2011; Collins et al, 2009). (p. 3)&lt;/p&gt;
+
+&lt;p&gt;Artifacts as Mediators of Mass Collaboration (p. 3)&lt;/p&gt;
+
+&lt;p&gt;All the more so when the process is collaborative and fulfills the conditions that individuals act consciously following a common direction; that they take the perspective of the other participants into account; and that they contribute by building on the accomplishments of others. (p. 3)&lt;/p&gt;
+
+&lt;p&gt;The solution to the coordination problem resides in artifacts that support the collaborative process by mediating common understanding (Bruner, 1996). (p. 3)&lt;/p&gt;
+
+&lt;p&gt;Collaborative artifacts represent crystallized knowledge that is preserved from past interactive situations and that can be built on in future to produce phenomena like scientific understanding, social practices or social norms (Engeström &amp;amp; Sannino, 2010; Paavola, Lipponen &amp;amp; Hakkareinen, 2004). (p. 3)&lt;/p&gt;
+
+&lt;p&gt;An artifact is a means to an end (p. 3)&lt;/p&gt;
+
+&lt;p&gt;learning and knowledge creation in a collaborative setting are one continuous process of internalization and externalization (Nonaka &amp;amp; Takeuchi, 1995; Vygotsky, 1978). (p. 3)&lt;/p&gt;
+
+&lt;p&gt;The “learning” of a community and the learning of the participating individuals are intertwined and suggest a systemic understanding of mass collaboration (Cress &amp;amp; Kimmerle, 2008). (p. 3)&lt;/p&gt;
+
+&lt;p&gt;Mass Collaboration Environments (p. 3)&lt;/p&gt;
+
+&lt;p&gt;While Wikipedia has emerged as a self-organized community, a lot of mass collaboration platforms have been deliberately designed to support learning. (p. 3)&lt;/p&gt;
+
+&lt;p&gt;The third example of a mass collaboration environment in this symposium is Citizen Science (presentation by Brigid Barron). (p. 4)&lt;/p&gt;
+
+&lt;p&gt;the Co-Evolution Model of Individual Learning and Collaborative Knowledge Building (Cress &amp;amp; Kimmerle, 2008) serves as a systemic framework for describing and analyzing mass collaboration. (p. 4)&lt;/p&gt;
+
+&lt;p&gt;Presentation 1: Cultures of Participation — Fundamental Transformations of Learning, Working, and Collaborating (p. 4)&lt;/p&gt;
+
+&lt;p&gt;a world in which everyone would be able to actively participate following their own interests and to make their voices heard. (p. 4)&lt;/p&gt;
+
+&lt;p&gt;Presentation 2: The Co-Evolution Model as a Theoretical Framework for Describing Mass Collaboration (p. 4)&lt;/p&gt;
+
+&lt;p&gt;The model describes individuals as cognitive systems, who externalize their knowledge into an artifact. The community deals with the individuals’ contributions by interlinking, revising or even deleting them. (p. 4)&lt;/p&gt;
+
+&lt;p&gt;Aileen Oeberst will present a study of the development of the Wikipedia article about the nuclear power plant in Fukushima during the first nine days after the nuclear disaster on March 11, 2011. (p. 5)&lt;/p&gt;
+
+&lt;p&gt;Their activities and coordination were only mediated by Wikipedia’s norms, that valuable and thus accepted contribution should be verifiable and written from a neutral point of view. This norm effectively shaped individuals’ edits and enabled authors without much domain expertise to construct an article, which nuclear experts judged to be of high quality. (p. 5)&lt;/p&gt;
+
+&lt;p&gt;Iassen Halatchlyiski will present an approach to studying mass collaboration that can encompass large-scale and long-term characteristics: the macro level of the phenomenon (Halatchliyski, Moskaliuk, Kimmerle &amp;amp; Cress, 2010). His study deals with pivotal knowledge within Wikipedia. He asks (1) what pivotal knowledge in Wikipedia is, and (2) who its authors are. (p. 5)&lt;/p&gt;
+
+&lt;p&gt;he operationalizes “pivotal knowledge” as articles with a central position at the macro level and distinguishes two types of pivotal knowledge: knowledge that is central within a single domain or knowledge that relates two different domains and resides at the border between them. The presentation shows that social network analysis (SNA) is an appropriate methodological approach to go about the complex large-scale and long-term patterns of creation of pivotal knowledge. (p. 5)&lt;/p&gt;
+
+&lt;p&gt;Presentation 3: Large-Scale Collaboration and Cultures of Accountability (p. 5)&lt;/p&gt;
+
+&lt;p&gt;Presentation 4: Learning through Remixing Mitchel Resnick (p. 6)&lt;/p&gt;
+
+&lt;p&gt;Presentation 5: Long-tail learning and access to external resources Brigid Barron and Caitlin Martin from Stanford University will report findings from a study of a genre of cyber-enabled massively collaborative activity known as Citizen Science. Citizen Science projects capitalize on the interest and efforts of non-scientist collaborators who join forces to contribute data that helps address problems of concern. (p. 6)&lt;/p&gt;
+
+&lt;p&gt;We chose to study a Citizen Science project with a significant focus on education called Vital Signs. Vital Signs is a citizen science networked system located in the state of Maine, linked statewide to schools and accessible not only to teachers but to anyone who want to learn. (p. 6)&lt;/p&gt;
+
+&lt;p&gt;Collins, A., Fischer, G., Barron, B., Liu, C., &amp;amp; Spada, H. (2009). Long-Tail Learning: A Unique Opportunity for CSCL? In C. O&amp;rsquo;Malley, D. Suthers, P. Reimann, A. Dimitracopoulou (Eds.), Computer Supported Collaborative Learning Practices: CSCL2009 Conference Proceedings (Vol. II, 22-24). Rhodes, Greece: International Society of the Learning Sciences. (p. 7)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Notes: Mattarelli2018-mn</title>
+      <link>https://meefen.github.io/note/2018-11-10-mattarelli2018-mn/</link>
+      <pubDate>Sat, 10 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://meefen.github.io/note/2018-11-10-mattarelli2018-mn/</guid>
+      <description>
+
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Citekey&lt;/strong&gt;: @Mattarelli2018-mn&lt;/p&gt;
+
+&lt;p&gt;Mattarelli, E., Schecter, A., Hinds, P., Contractor, N., Lu, C., &amp;amp; Topac, B. (2018). How Co-creation Processes Unfold and Predict Submission Quality in Crowd-based Open Innovation. Presented at the Thirty Ninth International Conference on Information Systems, San Francisco, CA: aisel.aisnet.org. Retrieved from &lt;a href=&#34;https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1042&amp;amp;context=icis2018&#34; target=&#34;_blank&#34;&gt;https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1042&amp;amp;context=icis2018&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;notes&#34;&gt;Notes&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Summarize&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Assess&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Reflect&lt;/em&gt;:&lt;/p&gt;
+
+&lt;h2 id=&#34;highlights&#34;&gt;Highlights&lt;/h2&gt;
+
+&lt;p&gt;In crowd-based open innovation, organizations generally invite novel contributions from outside the boundaries of the firm via an online platform that enables a large, diverse network of contributors to participate. (p. 2)&lt;/p&gt;
+
+&lt;p&gt;only a few studies have started to address how work is coordinated within the crowd and how to design systems to support higher levels of innovation among crowdworkers. In particular, crowdworkers engaged with knowledge intensive and innovation activities in online platforms, such as Open Idea and Local Motors, are encouraged to collaborate intensively with each other (e.g., Fuller et al, 2011; Langner and Seidel, 2015) in co-creation processes, such as the joint creation of value by a network of diverse actors (Perks et al, 2012; Lusch and Nambinsan, 2015). (p. 2)&lt;/p&gt;
+
+&lt;p&gt;micro-level patterns of collaboration between knowledge workers impact innovation outcomes (e.g. Perry-Smith and Shalley, 2003) (p. 2)&lt;/p&gt;
+
+&lt;p&gt;we pose the following research question: How do co-creation processes unfold and predict submission quality in crowd-based open innovation and what is the role of the diversity of the crowd in this process? (p. 2)&lt;/p&gt;
+
+&lt;p&gt;Theoretical Background and Hypotheses (p. 2)&lt;/p&gt;
+
+&lt;p&gt;Crowd-based open innovation (p. 2)&lt;/p&gt;
+
+&lt;p&gt;Open innovation has been broadly defined to include flows of knowledge and ideas both into and outside of the organization (e.g. Dahlander and Gann, 2010; Lichtenthaler, 2011). (p. 2)&lt;/p&gt;
+
+&lt;p&gt;work has tended to focus on the firm (West et al., 2014) and not at the level of the workers called upon to enact these new forms of work. (p. 2)&lt;/p&gt;
+
+&lt;p&gt;As defined by Howe (2009), “crowdsourcing represents the act of a company or institution taking a function once performed by employees and outsourcing it to an undefined and generally large network of people in the form of an open call.” (p. 2)&lt;/p&gt;
+
+&lt;p&gt;Studies suggest, for example, that monetary payments, when available, increase motivation (e.g. Boudreau et al., 2014; Brabham, 2010, 2008), but that other intrinsic factors, such as being challenged by a complex problem (Boudreau et al., 2014), developing skills (e.g. Brabham, 2010), being identified with the community and forming friendships (e.g. Brabham, 2010; Langer and Seidel, 2015), and having fun (Brabham, 2008) are all equally or more important. (p. 2)&lt;/p&gt;
+
+&lt;p&gt;Although informative, most studies do not push beyond questions of individual motivation to understand the work itself and few consider how work is coordinated among individuals and what contributes to high quality submissions. (p. 3)&lt;/p&gt;
+
+&lt;p&gt;Unpacking co-creation processes in crowd-based open innovation (p. 3)&lt;/p&gt;
+
+&lt;p&gt;According to Perks et al. (2012) and Lusch and Nambinsan (2015), co-creation involves the joint creation of value. “Innovations are thus the outcomes of behaviors and interactions between individuals and organizations” (Perks et al., 2012: 935). (p. 3)&lt;/p&gt;
+
+&lt;p&gt;Thus, even if they have promising ideas for a challenge, creators are not always able, alone, to refine and develop them into coherent submissions (Kittur et al., 2013). (p. 3)&lt;/p&gt;
+
+&lt;p&gt;the theoretical framework proposed by Lusch and Nambisan (2015) underscores the importance of the processes that lead to knowledge integration within a network of heterogenous actors and calls for more research on the micro-dynamics of co-creation, e.g. on the different roles played by diverse actors. In a similar vein, Storbacka et al. (2016) call for more research on co-creation that unpacks how different actors engage with each other. (p. 3)&lt;/p&gt;
+
+&lt;p&gt;Fewer works, however, have examined how heterogeneous actors involved in co-creation collaborate among themselves, how this evolves over time, and the outcomes of these collaborative processes (see Lusch &amp;amp; Nambisan, 2015; Storbacka et al., 2016). (p. 3)&lt;/p&gt;
+
+&lt;p&gt;One exception is the work of Perks et al. (2012), who investigated the micro-level processes of co-creation and identified two interaction patterns in a network of customers, suppliers, distributors, and intermediaries in the car insurance industry. They found, for example, that successful outcomes often involved high levels of intense interactions among contributors. (p. 3)&lt;/p&gt;
+
+&lt;p&gt;The literature on how creative workers build relationships (e.g., Perry-Smith and Shalley, 2003), interact and exchange feedback (e.g., Perlow, 1999; Harrison and Rouse, 2015; Hargadon and Bechky, 2006), and coordinate their efforts (e.g. Bechky, 2006) is well established and offers important insights into collaboration practices that foster innovative outcomes. (p. 3)&lt;/p&gt;
+
+&lt;p&gt;A handful of recent studies have also begun to examine interactions in teams composed of crowdworkers (e.g., Retelny et al., 2014; Valentine et al., 2017; Riedl and Wooley, 2017). (p. 4)&lt;/p&gt;
+
+&lt;p&gt;Riedl and Woolley also reported that more successful crowdsourcing teams were characterized by “synchrony” dynamics (p. 4)&lt;/p&gt;
+
+&lt;p&gt;Teams that exchanged more diverse information among team members also performed better. (p. 4)&lt;/p&gt;
+
+&lt;p&gt;but extant research leaves us without a clear understanding of which patterns and sequences of interactions, over time, exemplify co-creation, and their influence on innovation outcomes. The objective of our work is thus to unpack the concept of co-creation and identify the core interaction patterns, or “signatures” that make it successful. (p. 4)&lt;/p&gt;
+
+&lt;p&gt;Thus, we focus on how the co-creation patterns contribute to completion and refinement of ideas, i.e. on submission quality. (p. 4)&lt;/p&gt;
+
+&lt;p&gt;Hypotheses (p. 4)&lt;/p&gt;
+
+&lt;p&gt;H1 A submission is more likely to be of higher quality if, over time, the number of different contributors (sources) posting on a design idea decreases. (p. 5)&lt;/p&gt;
+
+&lt;p&gt;H2 A submission is more likely to be of higher quality if, over time, posts are coming from a smaller number of community members who emerge as proportionately dominant. (p. 5)&lt;/p&gt;
+
+&lt;p&gt;H3 A submission is less likely to be of higher quality if the creator is proportionally dominant, e.g. responsible for the majority of posts. (p. 5)&lt;/p&gt;
+
+&lt;p&gt;H4 A submission is more likely to be of higher quality if, over time, the creators’ responses to posts from community members escalates. (p. 6)&lt;/p&gt;
+
+&lt;p&gt;Data and Method (p. 6)&lt;/p&gt;
+
+&lt;p&gt;Research Context (p. 6)&lt;/p&gt;
+
+&lt;p&gt;Local Motors (LM) is a manufacturing company founded in 2007 with the initial aim of becoming the first organization developing an open-source car in collaboration with an online community. (p. 6)&lt;/p&gt;
+
+&lt;p&gt;LM was an ideal company for our study because crowd-based open innovation is a strategic emphasis, and they are engaged on a day-to-day basis with the contributions from their online community. (p. 6)&lt;/p&gt;
+
+&lt;p&gt;Data Collection (p. 6)&lt;/p&gt;
+
+&lt;p&gt;We collected data from multiple sources, both qualitative and quantitative, to have a rich and detailed understanding of community members’ behaviors. (p. 6)&lt;/p&gt;
+
+&lt;p&gt;Preliminary Interviews with Online Community Members and LM Community Managers (p. 6)&lt;/p&gt;
+
+&lt;p&gt;We conducted 13 preliminary interviews with 10 online community members, i.e., external contributors who participated in the challenges, and 3 LM community managers (p. 6)&lt;/p&gt;
+
+&lt;p&gt;These interviews were used exclusively as a foundation for the authors to better understand the context and make informed decisions about how to design our data collection and analysis (p. 6)&lt;/p&gt;
+
+&lt;p&gt;Data from the Online Platform on Project REDACTED and the Airbus Cargo Drone Challenge (p. 7)&lt;/p&gt;
+
+&lt;p&gt;We downloaded all data from the community’s message archives (web log of interactions) during the timeframe of the two contests (i.e., from the initial post of the design brief to the announcement of the winners). In particular, we collected data on all the interactions exchanged by 600 community members and employees during the online contest (consisting of more than 10.000 posts). We downloaded information about the sender of each posting, timing, subject, and message content. We also downloaded demographic and personal information about community members to use as controls. (p. 7)&lt;/p&gt;
+
+&lt;p&gt;Coding of Data from the Online Platform (p. 7)&lt;/p&gt;
+
+&lt;p&gt;we collected information on the timestamp, sender, entry, and content of every comment logged across all entries (p. 7)&lt;/p&gt;
+
+&lt;p&gt;if User A left a comment on Submission B at Time T, with Message K, we would log the observed data point as a tuple of information (A, B, T, K). Our full dataset is then a collection of such tuples, which are grouped by entry and sorted by the time of the post. (p. 7)&lt;/p&gt;
+
+&lt;p&gt;Sequence statistics (p. 7)&lt;/p&gt;
+
+&lt;p&gt;Put another way, we want to use numerical descriptions of past behavior, which we call signatures, to predict future behavior (Leenders, Contractor, &amp;amp; DeChurch, 2016). (p. 7)&lt;/p&gt;
+
+&lt;p&gt;to examine these signatures or interaction patterns over time, we created sequence statistics that capture interaction events (posts) on a creator’s entry over the course of the design challenges. These measures are a post-by-post indicator of who is contributing to an entry. (p. 7)&lt;/p&gt;
+
+&lt;p&gt;Submission Quality (p. 7)&lt;/p&gt;
+
+&lt;p&gt;Table 1. Summary of Sequence Statistics (p. 8)&lt;/p&gt;
+
+&lt;p&gt;only 45% follow (p. 8)&lt;/p&gt;
+
+&lt;p&gt;ed the requirements and were considered ‘complete’ and thus accepted for evaluation. (p. 8)&lt;/p&gt;
+
+&lt;p&gt;Acceptance of a design for evaluation is therefore a proxy for submission quality, distinguishing between higher quality submissions (i.e. those meeting the requirements and being accepted for evaluation=1) and lower quality submissions (i.e. those not meeting the requirements and not being accepted for evaluation=0). (p. 8)&lt;/p&gt;
+
+&lt;p&gt;Relational Event Modeling Analysis (p. 9)&lt;/p&gt;
+
+&lt;p&gt;Explaining communication sequences (p. 9)&lt;/p&gt;
+
+&lt;p&gt;the relational event model (REM), which is a statistical framework for analyzing sequences of actions and interactions, or relational events (Butts 2008). (p. 9)&lt;/p&gt;
+
+&lt;p&gt;This model builds on temporal social network analytic techniques, but emphasizes the role of short-term linkages occurring in sequence (Quintane et al. 2013). We define the rate of activity by an individual 𝑖𝑖 on a particular forum 𝑗𝑗 as the following: (p. 9)&lt;/p&gt;
+
+&lt;p&gt;The resulting parameter estimates 𝜃𝜃 thus capture the overarching patterns observed across entries, as determined by the sequence statistics we previously defined. (p. 9)&lt;/p&gt;
+
+&lt;p&gt;Differentiating Quality Submissions (p. 9)&lt;/p&gt;
+
+&lt;p&gt;This approach is similar to the ANCOVA methodology used by Johnson and Faraj (2011) to delineate network patterns across online communities, as well as the moderation approach of Schecter et al. (2017) to characterize behaviors of teams based on variations in emergent constructs. (p. 9)&lt;/p&gt;
+
+&lt;p&gt;We differentiate our approach from a typical causal inference model; rather than predict the outcome as a function of some antecedents, we characterize an outcome by the underlying process associated with it. In this way, we avoid claiming that a pattern or measure is better or worse, or that a specific sequence leads to a specific result. Rather, we determine if specific variations in certain behaviors are systematically associated with different outcomes. (p. 10)&lt;/p&gt;
+
+&lt;p&gt;Results (p. 10)&lt;/p&gt;
+
+&lt;p&gt;Hypothesis Testing (p. 11)&lt;/p&gt;
+
+&lt;p&gt;To test our four main hypotheses, we conduct relational event analysis. We apply a step-wise approach in which we add additional model terms and determine if there is significant improvement in fit. Our first model (Model 1) contains only the main effects, measured across all entries. Our second model includes these main effects, but also includes number of posts, number of users, and competition version as crossentry controls (Model 2). Finally, our third model includes all prior terms and also differentiates between completed entries and those that were not completed (Model 3). The parameter results for these models are presented in Table 3. Based on reduction in deviance, AIC, and BIC values, we conclude that Model 3 provides the strongest fit to our data. (p. 11)&lt;/p&gt;
+
+&lt;p&gt;Looking first at the main effects (Model 3), we see that, overall, entries tended to have increased diversity over time. That is, over time, different contributors posting to creators’ entries escalated. (p. 11)&lt;/p&gt;
+
+&lt;p&gt;me, it is more likely that 41 quality submissions as compared to low quality submissions, over time, the diversity of contributors to the feedback originates from a smaller number of individuals (other than the creator) in high quality entries as compared to low quality entries,. This finding lends support to Hypothesis 1, suggesting escalating diversity across all submissions, but much less so in high quality submissions. Second, we find a positive and quality submissions (𝛽𝛽 = 1.57, 𝑝𝑝 &amp;lt; 0.001). This result indicates that as interactions revolving around a significant tendency for centralization of contributors over time in high quality as compared with low 42 high-quality submission progresses, feedback is significantly more likely to originate from a small number high quality entries, the creator has a lower overall tendency to post, relative to other contributors (𝛽𝛽 = 44 We also performed additional analyses for robustness which are not included in this manuscript for sake of brevity. Specifically, we tested a variety of interaction terms, as well as a curvilinear effect for diversity. We found that none of the variance associated with these terms across entries explained variance in outcomes among the entries. Surprisingly, this analysis suggests that there is not a point at which increasing diversity has a positive effect. That is, even small amounts of increasing diversity over time were associated with lower submission quality. of active contributors, proving support for Hypothesis 2. Third, as hypothesized (H3), we observe that in −1.20, 𝑝𝑝 &amp;lt; 0.001). In other words, for high quality submissions, the creator of an entry does not dominate to feedback more, over time, in high quality submissions, as compared with low quality submissions (𝛽𝛽 = 43 the discussion of their own idea. Finally, we find a positive and significant tendency for creators to respond 1.21, 𝑝𝑝 &amp;lt; 0.001). Thus, as an entry accumulates more contributor feedback over time, creators of high quality submissions are more likely to respond to and engage with the feedback in the later stages of the context. This result lends support to Hypothesis 4. (p. 11)&lt;/p&gt;
+
+&lt;p&gt;Discussion (p. 12)&lt;/p&gt;
+
+&lt;p&gt;In doing so, we respond to the calls for more research on the micro-mechanisms of co-creation (e.g., Lusch and Nambisan; Storbacka et al., 2016). (p. 12)&lt;/p&gt;
+
+&lt;p&gt;With regard to diversity, our results show that there is a tendency in the overall sample for more unique contributors to flock to an entry over time, but the entries that are most successful have fewer contributors over time. (p. 13)&lt;/p&gt;
+
+&lt;p&gt;in high quality submissions, feedback to the creator tends to originate from a smaller number of individuals, and these individuals are significantly more active relative to other contributors as the project moves from idea generation to elaboration. (p. 13)&lt;/p&gt;
+
+&lt;p&gt;the creators of more successful submissions, while not dominating the discussion, are particularly responsive to feedback in later stages. (p. 13)&lt;/p&gt;
+
+&lt;p&gt;One of the primary contributions of this research is that we were able to detect different interaction patterns over time and their effects. (p. 13)&lt;/p&gt;
+
+&lt;p&gt;Finally, in analyzing the patterns of interactions between actors, we did not consider the role played by the content of the messages exchanged. (p. 14)&lt;/p&gt;
 </description>
     </item>
     

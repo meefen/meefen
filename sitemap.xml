@@ -3,20 +3,59 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://meefen.github.io/zh/2019-06-04-30/</loc>
-    <lastmod>2019-06-04T00:00:00-05:00</lastmod>
+    <loc>https://meefen.github.io/authors/admin/</loc>
+    <lastmod>2019-06-06T12:28:46-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meefen.github.io/post/2019-06-06-ecological-design/</loc>
+    <lastmod>2019-06-06T12:28:46-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meefen.github.io/authors/</loc>
+    <lastmod>2019-06-06T12:28:46-05:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://meefen.github.io/</loc>
-    <lastmod>2019-06-04T00:00:00-05:00</lastmod>
+    <lastmod>2019-06-06T12:28:46-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://meefen.github.io/tags/</loc>
-    <lastmod>2019-06-04T00:00:00-05:00</lastmod>
+    <loc>https://meefen.github.io/categories/</loc>
+    <lastmod>2019-06-06T12:28:46-05:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://meefen.github.io/tags/learning-analytics/</loc>
+    <lastmod>2019-06-06T12:28:46-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://meefen.github.io/post/</loc>
+    <lastmod>2019-06-06T12:28:46-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meefen.github.io/tags/</loc>
+    <lastmod>2019-06-06T12:28:46-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://meefen.github.io/categories/blog/</loc>
+    <lastmod>2019-06-06T12:28:46-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://meefen.github.io/zh/2019-06-04-30/</loc>
+    <lastmod>2019-06-04T00:00:00-05:00</lastmod>
   </url>
   
   <url>
@@ -32,13 +71,12 @@
   </url>
   
   <url>
-    <loc>https://meefen.github.io/categories/</loc>
+    <loc>https://meefen.github.io/note/2019-05-20-verbeek2008-qt/</loc>
     <lastmod>2019-05-20T00:00:00-05:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://meefen.github.io/note/2019-05-20-verbeek2008-qt/</loc>
+    <loc>https://meefen.github.io/note/</loc>
     <lastmod>2019-05-20T00:00:00-05:00</lastmod>
   </url>
   
@@ -55,13 +93,18 @@
   </url>
   
   <url>
-    <loc>https://meefen.github.io/publication_types/2/</loc>
-    <lastmod>2019-03-29T21:08:49-05:00</lastmod>
+    <loc>https://meefen.github.io/tags/assessment/</loc>
+    <lastmod>2019-04-05T00:00:00-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://meefen.github.io/authors/</loc>
+    <loc>https://meefen.github.io/note/2019-04-05-hickey2017/</loc>
+    <lastmod>2019-04-05T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meefen.github.io/publication_types/2/</loc>
     <lastmod>2019-03-29T21:08:49-05:00</lastmod>
     <priority>0</priority>
   </url>
@@ -107,12 +150,6 @@
   </url>
   
   <url>
-    <loc>https://meefen.github.io/categories/blog/</loc>
-    <lastmod>2019-03-14T13:57:08-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://meefen.github.io/post/2019-03-08-lak19-part2/</loc>
     <lastmod>2019-03-09T21:45:15-06:00</lastmod>
   </url>
@@ -134,12 +171,6 @@
   </url>
   
   <url>
-    <loc>https://meefen.github.io/tags/learning-analytics/</loc>
-    <lastmod>2019-03-04T21:08:26-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://meefen.github.io/tags/design-research/</loc>
     <lastmod>2019-03-01T00:00:00-06:00</lastmod>
     <priority>0</priority>
@@ -153,6 +184,16 @@
   <url>
     <loc>https://meefen.github.io/talk/2019-lak/</loc>
     <lastmod>2019-03-01T00:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meefen.github.io/note/2018-12-27-cress2013-av/</loc>
+    <lastmod>2018-12-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meefen.github.io/note/2018-11-10-mattarelli2018-mn/</loc>
+    <lastmod>2018-11-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -547,16 +588,6 @@
   </url>
   
   <url>
-    <loc>https://meefen.github.io/note/</loc>
-    <lastmod>2017-01-01T00:00:00-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meefen.github.io/post/</loc>
-    <lastmod>2017-01-01T00:00:00-06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://meefen.github.io/publication/</loc>
     <lastmod>2017-01-01T00:00:00-06:00</lastmod>
   </url>
@@ -646,10 +677,6 @@
   <url>
     <loc>https://meefen.github.io/zh/2006-06-20-zixishi/</loc>
     <lastmod>2006-06-20T00:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meefen.github.io/authors/admin/</loc>
   </url>
   
   <url>
