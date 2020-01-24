@@ -7,10 +7,37 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Bodong Chen.</copyright>
-    <lastBuildDate>Tue, 20 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jan 2020 12:19:31 -0600</lastBuildDate>
     
 	    <atom:link href="https://meefen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Learning analytics</title>
+      <link>https://meefen.github.io/tags/learning-analytics/</link>
+      <pubDate>Fri, 24 Jan 2020 12:19:31 -0600</pubDate>
+      
+      <guid>https://meefen.github.io/tags/learning-analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>educational data science</title>
+      <link>https://meefen.github.io/tags/educational-data-science/</link>
+      <pubDate>Fri, 24 Jan 2020 12:19:31 -0600</pubDate>
+      
+      <guid>https://meefen.github.io/tags/educational-data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>social network</title>
+      <link>https://meefen.github.io/tags/social-network/</link>
+      <pubDate>Fri, 24 Jan 2020 12:19:31 -0600</pubDate>
+      
+      <guid>https://meefen.github.io/tags/social-network/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Advising</title>
@@ -27,15 +54,6 @@
       <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://meefen.github.io/tags/proflife/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Learning analytics</title>
-      <link>https://meefen.github.io/tags/learning-analytics/</link>
-      <pubDate>Thu, 06 Jun 2019 12:28:46 -0500</pubDate>
-      
-      <guid>https://meefen.github.io/tags/learning-analytics/</guid>
       <description></description>
     </item>
     

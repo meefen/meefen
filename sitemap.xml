@@ -3,24 +3,75 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://meefen.github.io/authors/</loc>
+    <lastmod>2020-01-24T12:19:31-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://meefen.github.io/authors/bodong-chen/</loc>
+    <lastmod>2020-01-24T12:19:31-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://meefen.github.io/</loc>
+    <lastmod>2020-01-24T12:19:31-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://meefen.github.io/tags/learning-analytics/</loc>
+    <lastmod>2020-01-24T12:19:31-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://meefen.github.io/authors/oleksandra-poquet/</loc>
+    <lastmod>2020-01-24T12:19:31-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://meefen.github.io/publication/chen2020-lak/</loc>
+    <lastmod>2020-01-24T12:19:31-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meefen.github.io/tags/</loc>
+    <lastmod>2020-01-24T12:19:31-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://meefen.github.io/tags/educational-data-science/</loc>
+    <lastmod>2020-01-24T12:19:31-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://meefen.github.io/tags/social-network/</loc>
+    <lastmod>2020-01-24T12:19:31-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://meefen.github.io/talk/2019-icce-keynote/</loc>
+    <lastmod>2019-12-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meefen.github.io/talk/2019-pel-episteic-cultures/</loc>
+    <lastmod>2019-12-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://meefen.github.io/authors/admin/</loc>
     <lastmod>2019-08-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://meefen.github.io/tags/advising/</loc>
-    <lastmod>2019-08-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://meefen.github.io/authors/</loc>
-    <lastmod>2019-08-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://meefen.github.io/</loc>
     <lastmod>2019-08-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -48,12 +99,6 @@
   </url>
   
   <url>
-    <loc>https://meefen.github.io/tags/</loc>
-    <lastmod>2019-08-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://meefen.github.io/categories/blog/</loc>
     <lastmod>2019-08-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -62,12 +107,6 @@
   <url>
     <loc>https://meefen.github.io/post/2019-06-06-ecological-design/</loc>
     <lastmod>2019-06-06T12:28:46-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meefen.github.io/tags/learning-analytics/</loc>
-    <lastmod>2019-06-06T12:28:46-05:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -106,12 +145,6 @@
   <url>
     <loc>https://meefen.github.io/tags/technology/</loc>
     <lastmod>2019-05-20T00:00:00-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://meefen.github.io/authors/bodong-chen/</loc>
-    <lastmod>2019-06-12T10:15:32-05:00</lastmod>
     <priority>0</priority>
   </url>
   
