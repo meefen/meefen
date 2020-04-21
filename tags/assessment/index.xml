@@ -18,18 +18,11 @@
       <pubDate>Fri, 05 Apr 2019 00:00:00 -0500</pubDate>
       
       <guid>https://meefen.github.io/note/2019-04-05-hickey2017/</guid>
-      <description>
-
-&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-
+      <description>&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Citekey&lt;/strong&gt;: @Hickey2017&lt;/p&gt;
-
 &lt;p&gt;NA&lt;/p&gt;
-
 &lt;h2 id=&#34;notes&#34;&gt;Notes&lt;/h2&gt;
-
 &lt;p&gt;&lt;em&gt;Summarize&lt;/em&gt;: This chapter introduces the Participatory Learning and Assessment (PLA) framework derived by Dan Hickey and his team in the &amp;ldquo;BOOC&amp;rdquo; context. PLA distinguishes different kinds of interactions that include public, local, private, and discreet.  It explains PLA&amp;rsquo;s five design principles, which draw inspiration from &lt;em&gt;productive disciplinary engagement&lt;/em&gt; (PDE).&lt;/p&gt;
-
 &lt;ol&gt;
 &lt;li&gt;Use Public Contexts to Give Meaning to Knowledge Tools&lt;/li&gt;
 &lt;li&gt;Recognize and Reward Productive Disciplinary Engagement (PDE)&lt;/li&gt;
@@ -37,95 +30,53 @@
 &lt;li&gt;Assess Individual Knowledge Privately&lt;/li&gt;
 &lt;li&gt;Measure Aggregated Achievement Discreetly&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;p&gt;They commened that scaling should be done gradually and iteratively.&lt;/p&gt;
-
 &lt;p&gt;&lt;em&gt;Assess&lt;/em&gt;:&lt;/p&gt;
-
 &lt;p&gt;&lt;em&gt;Reflect&lt;/em&gt;: The BOOC project is inspirational. The distinction made among public/local/private interactions are congruent with my thinking on (public) online pedagogy.&lt;/p&gt;
-
 &lt;p&gt;There are two references I plan to check out.&lt;/p&gt;
-
 &lt;h2 id=&#34;highlights&#34;&gt;Highlights&lt;/h2&gt;
-
 &lt;p&gt;Some observers had already commented on the difficulty of connecting with other learners in the cMOOCs (Mackness, Mack, and Williams 2010). It turned out that supporting social interaction in the xMOOCs was proving much harder. (p. 4)&lt;/p&gt;
-
 &lt;p&gt;the “myths and paradoxes” of xMOOCs (Daniel 2012). These included number of students taught (but single-digit completion rates), value (dubious certificates of completion), purpose (disregard for outcomes and focus on posturing and profits rather than spreading learning), pedagogy (essentially behaviorism), access (mostly serving elites), and risks (MOOCs as degree mills). (p. 5)&lt;/p&gt;
-
 &lt;p&gt;This chapter summarizes one ongoing effort that is intended to inform the entire range of efforts to scale open learning. (p. 5)&lt;/p&gt;
-
 &lt;p&gt;Instructionist approaches are rooted in a more “associationist” perspective on learning (e.g., Anderson 1990; Gagné 1985) which assumes that higher order knowledge can and should be broken down into smaller elements that can be individually learned, mastered, and assessed.1 This perspective is explicitly manifested in artificially intelligent tutors, like those associated with Carnegie Mellon University (Koedinger and Corbett 2006) and competency-based education (Bramante and Colby 2012) (p. 5)&lt;/p&gt;
-
 &lt;p&gt;In contrast, constructivist approaches are rooted in more “rationalist” views of learning (e.g., Glaser 1984) that emphasize the construction of higher-level conceptual schema that learners create to make sense of the world (rather than by assembling numerous smaller associations). (p. 6)&lt;/p&gt;
-
 &lt;p&gt;constructivist approaches can be very difficult to scale. This is because both the people who design a course and then the instructors and facilitators who teach that course need a lot of TPCK (technological pedagogical content knowledge; Koehler and Mishra 2008) concerning the way that disciplinary knowledge can optimally unfold within the particular technology. In many settings this knowledge will be in very short supply, very expensive, or both. (p. 6)&lt;/p&gt;
-
 &lt;p&gt;Participatory Learning and Assessment (PLA) (p. 7)&lt;/p&gt;
-
 &lt;p&gt;Reflecting a continued focus on participation in sociocultural practices, the larger framework that these principles formed was deemed Participatory Learning and Assessment (PLA). (p. 8)&lt;/p&gt;
-
 &lt;p&gt;drew significant inspiration from three strands of research that extended situative theories of learning into the era of digital knowledge networks. Two of these were Henry Jenkins’s (2009) notion of online “participatory culture” and studies by Ito et al. (2009) of the way young people “geek out” in interest-driven social networks. (p. 8)&lt;/p&gt;
-
 &lt;p&gt;What distinguishes the PLA framework that emerged from these two courses were online strategies for delivering useful evidence that could be used to enhance participation, individual knowledge, and group achievement, without undermining any of them, and without compromising that evidence for making claims about the resulting knowledge or achievement. (p. 8)&lt;/p&gt;
-
 &lt;p&gt;Research and Development Context (p. 9)&lt;/p&gt;
-
 &lt;p&gt;Google offered grants to faculty for developing MOOCs that were “more interactive than typical MOOCs.” (p. 9)&lt;/p&gt;
-
 &lt;p&gt;Drawing on Hall and Rubin’s (1989) study of situated learning in mathematics classrooms, the principles distinguish between interactions that are public (presented to every member of the class and potentially beyond), local (in public but between specific peers and/or the instructor), or private (between individuals). A fourth kind of interaction, discreet (i.e., unobtrusive), was added to highlight the core PLA assumption that conventional achievement tests should be used judiciously and inconspicuously. (p. 10)&lt;/p&gt;
-
 &lt;p&gt;draw inspiration from Engle and Conant’s (2002) notions of productive disciplinary engagement (PDE). (p. 10)&lt;/p&gt;
-
 &lt;p&gt;the “multilevel” assessment model (p. 10)&lt;/p&gt;
-
 &lt;ol&gt;
 &lt;li&gt;Use Public Contexts to Give Meaning to Knowledge Tools (p. 10)&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;p&gt;1.1 Personalized learning contexts. In the Assessment BOOC, registrants were directed through a process that asked them questions about their actual or aspirational role in the education system and helped them draft a curricular aim that embodied their practices in that role to personalize their learning in the course. (p. 11)&lt;/p&gt;
-
 &lt;p&gt;1.2 Networking groups. Registration information regarding primary academic domain and role was used to organize students into networking groups (manually in 2013 and automatically in 2014). Doing so structured local interactions with both similar and different peers and revealed how course content interacted with domains and roles. (p. 11)&lt;/p&gt;
-
 &lt;p&gt;discussion forums were not used for group interaction (p. 12)&lt;/p&gt;
-
 &lt;p&gt;1.3 Public course artifacts. (p. 12)&lt;/p&gt;
-
 &lt;p&gt;In contrast, all the BOOC assignments consisted of public (to the class) wikifolios that focused primarily on disciplinary practices. (p. 12)&lt;/p&gt;
-
 &lt;p&gt;1.4 Relevance ranking. (p. 13)&lt;/p&gt;
-
 &lt;p&gt;students rank the relevance of elements of disciplinary knowledge or disciplinary resources to their aim and/or role, and then justify that ranking. (p. 13)&lt;/p&gt;
-
 &lt;p&gt;1.5 Personalized open educational resources (OERs). (p. 13)&lt;/p&gt;
-
 &lt;p&gt;In the BOOC, students posted OER URLs in their wikifolios; the annotated URLs were then automatically placed all together on a separate page, where students could easily review them. (p. 13)&lt;/p&gt;
-
 &lt;p&gt;1.6 Streaming instructor videos. (p. 13)&lt;/p&gt;
-
-&lt;ol&gt;
+&lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;Recognize and Reward Productive Disciplinary Engagement (PDE) (p. 14)&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;p&gt;3.2 Engagement reflections. (p. 19)&lt;/p&gt;
-
 &lt;p&gt;students were instructed to reflect on their contextual engagement (“How suitable was your context for learning this knowledge?”), collaborative engagement (“Who else’s work and whose comments helped you learn this new knowledge?”), and consequential engagement (“What will you do differently in your context and beyond as a consequence of learning this knowledge?”). (p. 19)&lt;/p&gt;
-
-&lt;ol&gt;
+&lt;ol start=&#34;4&#34;&gt;
 &lt;li&gt;Assess Individual Knowledge Privately (p. 20)&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;p&gt;Findings, Next Steps, and Conclusions (p. 22)&lt;/p&gt;
-
 &lt;p&gt;The first conclusion is that scaling should be done gradually. To quickly scale up to massive numbers of users, most MOOCs and MOOC platforms were forced to sacrifice interaction and personalization (p. 23)&lt;/p&gt;
-
 &lt;p&gt;Our second conclusion is that scaling should be done iteratively. Our efforts were directly shaped by newer design-based research methods that emphasize the development of “local” theories in the context of reform efforts (Cobb et al. 2003). Furthermore, we conclude that such iterative refinements should be done within a coherent theoretical framework. (p. 23)&lt;/p&gt;
-
 &lt;p&gt;Finally, we conclude that the PLA framework seems generally useful for guiding efforts to scale learning. (p. 23)&lt;/p&gt;
-
 &lt;p&gt;this framework can also “scale out” to large numbers of teachers in conventional online classes. (p. 24)&lt;/p&gt;
-
 &lt;p&gt;Hickey, Daniel, Gita Taasoobshirazi, and Dionne Cross. 2012. “Assessment as Learning: Enhancing Discourse, Understanding, and Achievement in Innovative Science Curricula.” Journal of Research in Science Teaching 49 (10): 1240–70. (p. 26)&lt;/p&gt;
-
 &lt;p&gt;Hickey, Daniel, and Steven J. Zuiker. 2012. “Multilevel Assessment for Discourse, Understanding, and Achievement.” Journal of the Learning Sciences 21 (4): 522–82. (p. 26)&lt;/p&gt;
 </description>
     </item>

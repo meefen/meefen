@@ -7,7 +7,7 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Bodong Chen.</copyright>
-    <lastBuildDate>Fri, 24 Jan 2020 12:19:31 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2020 15:30:00 -0500</lastBuildDate>
     
 	    <atom:link href="https://meefen.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,9 +15,18 @@
     <item>
       <title>Bodong Chen</title>
       <link>https://meefen.github.io/authors/bodong-chen/</link>
-      <pubDate>Fri, 24 Jan 2020 12:19:31 -0600</pubDate>
+      <pubDate>Mon, 20 Apr 2020 15:30:00 -0500</pubDate>
       
       <guid>https://meefen.github.io/authors/bodong-chen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sasha Poquet</title>
+      <link>https://meefen.github.io/authors/sasha-poquet/</link>
+      <pubDate>Mon, 20 Apr 2020 15:30:00 -0500</pubDate>
+      
+      <guid>https://meefen.github.io/authors/sasha-poquet/</guid>
       <description></description>
     </item>
     
@@ -36,20 +45,22 @@
       <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://meefen.github.io/authors/admin/</guid>
-      <description>
-
-&lt;h1 id=&#34;about-me&#34;&gt;About me&lt;/h1&gt;
-
-&lt;p&gt;I am an &lt;strong&gt;Associate Professor&lt;/strong&gt; in &lt;em&gt;Learning Technologies&lt;/em&gt; and the &lt;strong&gt;Bonnie Westby Huebner Endowed Chair&lt;/strong&gt; in &lt;em&gt;Education &amp;amp; Technology&lt;/em&gt; at the &lt;a href=&#34;https://twin-cities.umn.edu/&#34; target=&#34;_blank&#34;&gt;University of Minnesota&lt;/a&gt;. I also co-direct the newly formed &lt;strong&gt;Learning Informatics Lab&lt;/strong&gt; of the &lt;a href=&#34;http://www.cehd.umn.edu/&#34; target=&#34;_blank&#34;&gt;College of Education and Human Development&lt;/a&gt;. My research is at the intersection of &lt;a href=&#34;https://www.isls.org/&#34; target=&#34;_blank&#34;&gt;learning sciences&lt;/a&gt;, &lt;a href=&#34;https://en.wikipedia.org/wiki/Learning_analytics&#34; target=&#34;_blank&#34;&gt;learning analytics&lt;/a&gt;,
-&lt;!-- [knowledge building](https://en.wikipedia.org/wiki/Knowledge_building),  --&gt;
-&lt;a href=&#34;https://en.wikipedia.org/wiki/Networked_learning&#34; target=&#34;_blank&#34;&gt;networked learning&lt;/a&gt;, and &lt;a href=&#34;https://en.wikipedia.org/wiki/Network_science&#34; target=&#34;_blank&#34;&gt;network science&lt;/a&gt;. My work is broadly published in premier venues and funded by the NSF, the &lt;a href=&#34;http://dl4d.org/&#34; target=&#34;_blank&#34;&gt;Digital Learning for Development initiative&lt;/a&gt;, the University of Minnesota.&lt;/p&gt;
-
-&lt;!-- &lt;hr&gt;
-
-陈伯栋，明尼苏达大学教育与人类发展学院副教授、许布纳讲席教授。主要研究方向包括：学习科学、学习分析学、网络学习、网络分析。
-
-研究项目参见[研究组网站](https://colig.github.io/research/)。 --&gt;
+      <description>&lt;h1 id=&#34;about-me&#34;&gt;About me&lt;/h1&gt;
+&lt;p&gt;I am an &lt;strong&gt;Associate Professor&lt;/strong&gt; in &lt;em&gt;Learning Technologies&lt;/em&gt; and the &lt;strong&gt;Bonnie Westby Huebner Endowed Chair&lt;/strong&gt; in &lt;em&gt;Education &amp;amp; Technology&lt;/em&gt; at the &lt;a href=&#34;https://twin-cities.umn.edu/&#34;&gt;University of Minnesota&lt;/a&gt;. I also co-direct the newly formed &lt;strong&gt;Learning Informatics Lab&lt;/strong&gt; of the &lt;a href=&#34;http://www.cehd.umn.edu/&#34;&gt;College of Education and Human Development&lt;/a&gt;. My research is at the intersection of &lt;a href=&#34;https://www.isls.org/&#34;&gt;learning sciences&lt;/a&gt;, &lt;a href=&#34;https://en.wikipedia.org/wiki/Learning_analytics&#34;&gt;learning analytics&lt;/a&gt;,&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Networked_learning&#34;&gt;networked learning&lt;/a&gt;, and &lt;a href=&#34;https://en.wikipedia.org/wiki/Network_science&#34;&gt;network science&lt;/a&gt;. My work is broadly published in premier venues and funded by the NSF, the &lt;a href=&#34;http://dl4d.org/&#34;&gt;Digital Learning for Development initiative&lt;/a&gt;, the University of Minnesota.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>et al.</title>
+      <link>https://meefen.github.io/authors/et-al./</link>
+      <pubDate>Fri, 12 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://meefen.github.io/authors/et-al./</guid>
+      <description></description>
     </item>
     
     <item>
@@ -76,15 +87,6 @@
       <pubDate>Fri, 12 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://meefen.github.io/authors/yu-hui-chang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>et al.</title>
-      <link>https://meefen.github.io/authors/et-al./</link>
-      <pubDate>Fri, 12 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://meefen.github.io/authors/et-al./</guid>
       <description></description>
     </item>
     

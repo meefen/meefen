@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sasha Poquet on Bodong Chen</title>
+    <link>https://meefen.github.io/authors/sasha-poquet/</link>
+    <description>Recent content in Sasha Poquet on Bodong Chen</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Bodong Chen.</copyright>
+    <lastBuildDate>Mon, 20 Apr 2020 15:30:00 -0500</lastBuildDate>
+    
+	    <atom:link href="https://meefen.github.io/authors/sasha-poquet/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Analyzing Learning and Teaching through the Lens of Networks</title>
+      <link>https://meefen.github.io/talk/2020-solar-webinar/</link>
+      <pubDate>Mon, 20 Apr 2020 15:30:00 -0500</pubDate>
+      
+      <guid>https://meefen.github.io/talk/2020-solar-webinar/</guid>
+      <description>&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;Networks is a popular metaphor we use to make sense of the world. Networks provide a powerful way to think about a variety of phenomena from economic and political interdependencies among countries, interactions between humans in local communities, and to protein interactions in drug development. In education, networks give ways to describe human relationships, neural activities in brains, technology-mediated interactions, language development, discourse patterns, etc. The common use of networks to depict these phenomena is unsurprising given the variety of educational theories and approaches that are deeply committed to a networked view of learning. Compatible with this view, network analysis is applied as a method for understanding learning and connections involved in learning.&lt;/p&gt;
+&lt;p&gt;This webinar will explore the conceptual, methodological, and practical use of networks in learning analytics by presenting examples from real-world learning and teaching scenarios that cover the following areas. First, in learning analytics networks are a powerful tool to visually represent connections of all sorts in ways that are straightforward for humans to act upon. Second, network analysis offers a set of metrics that are useful for characterising and assessing various dimensions of learning. Third, the modelling of networks can help to develop explanatory theories about complex learning processes. We will present case studies in each area to demonstrate the utility of networks in learning analytics. By doing so, we argue for a wider conception of learning as a networked phenomenon and call for future learning analytics work in this area.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
