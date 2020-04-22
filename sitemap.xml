@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://meefen.github.io/talk/2020-solar-webinar/</loc>
-    <lastmod>2020-04-20T21:46:23-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://meefen.github.io/authors/</loc>
     <lastmod>2020-04-20T21:46:23-05:00</lastmod>
   </url>
@@ -29,6 +24,11 @@
   
   <url>
     <loc>https://meefen.github.io/authors/sasha-poquet/</loc>
+    <lastmod>2020-04-20T21:46:23-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meefen.github.io/talk/2020-solar-webinar/</loc>
     <lastmod>2020-04-20T21:46:23-05:00</lastmod>
   </url>
   
