@@ -3,17 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://meefen.github.io/post/2020-04-30-collaboration-analytics/</loc>
+    <lastmod>2020-04-30T10:05:26-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meefen.github.io/</loc>
+    <lastmod>2020-04-30T10:05:26-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meefen.github.io/post/</loc>
+    <lastmod>2020-04-30T10:05:26-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://meefen.github.io/authors/</loc>
     <lastmod>2020-04-20T21:46:23-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://meefen.github.io/authors/bodong-chen/</loc>
-    <lastmod>2020-04-20T21:46:23-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meefen.github.io/</loc>
     <lastmod>2020-04-20T21:46:23-05:00</lastmod>
   </url>
   
@@ -94,11 +104,6 @@
   
   <url>
     <loc>https://meefen.github.io/post/2019-08-20-advising-statement/</loc>
-    <lastmod>2019-08-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meefen.github.io/post/</loc>
     <lastmod>2019-08-20T00:00:00+00:00</lastmod>
   </url>
   
