@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.3.1">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Bodong Chen">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="In response to a special call for papers from Information and Learning Sciences, a team of us rallied and wrote a review article about Using Social Annotation in Online Classes (see preprint). It was an interesting challenge given the short timeframe. But we eventually pulled this off as a team thanks to Xinran Zhu&lsquo;s strong leadership and everyone&rsquo;s dedication to this work.
+In this blog post, I won&rsquo;t talk about what we wrote.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://meefen.github.io/post/2020-05-11-web-annotation/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.2cb7ed0cd490345835ea66ca300b8a4f.css">
+
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-50108133-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://meefen.github.io/post/2020-05-11-web-annotation/">
+
+  
+  
+  
+  
+    
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@bod0ng">
+  <meta property="twitter:creator" content="@bod0ng">
+  
+  <meta property="og:site_name" content="Bodong Chen">
+  <meta property="og:url" content="https://meefen.github.io/post/2020-05-11-web-annotation/">
+  <meta property="og:title" content="Using Web Annotation for Web Annotation Research | Bodong Chen">
+  <meta property="og:description" content="In response to a special call for papers from Information and Learning Sciences, a team of us rallied and wrote a review article about Using Social Annotation in Online Classes (see preprint). It was an interesting challenge given the short timeframe. But we eventually pulled this off as a team thanks to Xinran Zhu&lsquo;s strong leadership and everyone&rsquo;s dedication to this work.
+In this blog post, I won&rsquo;t talk about what we wrote."><meta property="og:image" content="https://meefen.github.io/post/2020-05-11-web-annotation/featured.jpg">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2020-05-11T21:13:01-05:00">
+  
+  <meta property="article:modified_time" content="2020-05-11T21:13:01-05:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>Using Web Annotation for Web Annotation Research | Bodong Chen</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Bodong Chen</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#teaching"><span>Teaching</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  <article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="article-header d-xl-none">
+  <div class="featured-image" style="background-image: url('/post/2020-05-11-web-annotation/featured_huf85ca0150aae27a1d86dba6fb5ab7ad1_36087_800x0_resize_q90_lanczos.jpg');"></div>
+  <span class="article-header-caption"><a href="https://commons.wikimedia.org/wiki/File:Sticky_notes_on_the_wall_of_the_Wikimedia_Foundation_office,_2010-10-26.jpg">Photo Credit</a></span>
+</div>
+
+
+<div class="container-fluid split-header d-none d-xl-block">
+  <div class="row">
+    <div class="col-6">
+      <div class="split-header-content">
+        <h1 itemprop="name">Using Web Annotation for Web Annotation Research</h1>
+
+        
+
+        
+
+
+
+<meta content="2020-05-11 21:13:01 -0500 CDT" itemprop="datePublished">
+<meta content="2020-05-11 21:13:01 -0500 CDT" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>May 11, 2020</time>
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    7 min read
+  </span>
+  
+
+  
+  
+
+  
+  
+
+  
+
+</div>
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Using%20Web%20Annotation%20for%20Web%20Annotation%20Research&amp;url=https%3a%2f%2fmeefen.github.io%2fpost%2f2020-05-11-web-annotation%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fmeefen.github.io%2fpost%2f2020-05-11-web-annotation%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fmeefen.github.io%2fpost%2f2020-05-11-web-annotation%2f&amp;title=Using%20Web%20Annotation%20for%20Web%20Annotation%20Research"
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fmeefen.github.io%2fpost%2f2020-05-11-web-annotation%2f&amp;title=Using%20Web%20Annotation%20for%20Web%20Annotation%20Research"
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Using%20Web%20Annotation%20for%20Web%20Annotation%20Research&amp;body=https%3a%2f%2fmeefen.github.io%2fpost%2f2020-05-11-web-annotation%2f">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="split-header-image">
+        <img src="/post/2020-05-11-web-annotation/featured_huf85ca0150aae27a1d86dba6fb5ab7ad1_36087_680x500_fill_q90_lanczos_smart1.jpg" itemprop="image" alt="">
+        <span class="article-header-caption"><a href="https://commons.wikimedia.org/wiki/File:Sticky_notes_on_the_wall_of_the_Wikimedia_Foundation_office,_2010-10-26.jpg">Photo Credit</a></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="article-container d-xl-none">
+  <h1 itemprop="name">Using Web Annotation for Web Annotation Research</h1>
+
+  
+
+  
+
+
+
+<meta content="2020-05-11 21:13:01 -0500 CDT" itemprop="datePublished">
+<meta content="2020-05-11 21:13:01 -0500 CDT" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>May 11, 2020</time>
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    7 min read
+  </span>
+  
+
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Using%20Web%20Annotation%20for%20Web%20Annotation%20Research&amp;url=https%3a%2f%2fmeefen.github.io%2fpost%2f2020-05-11-web-annotation%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fmeefen.github.io%2fpost%2f2020-05-11-web-annotation%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fmeefen.github.io%2fpost%2f2020-05-11-web-annotation%2f&amp;title=Using%20Web%20Annotation%20for%20Web%20Annotation%20Research"
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fmeefen.github.io%2fpost%2f2020-05-11-web-annotation%2f&amp;title=Using%20Web%20Annotation%20for%20Web%20Annotation%20Research"
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Using%20Web%20Annotation%20for%20Web%20Annotation%20Research&amp;body=https%3a%2f%2fmeefen.github.io%2fpost%2f2020-05-11-web-annotation%2f">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      <p>In response to <a href="https://www.emeraldgrouppublishing.com/journal/ils/evidence-based-and-pragmatic-online-teaching-and-learning-approaches">a special call for papers</a> from <em><a href="https://www.emeraldgrouppublishing.com/journal/ils?distinct_id=171f281115d5e4-01c33f74c6e464-30677c00-1ea000-171f281115e4ea">Information and Learning Sciences</a></em>, a team of us rallied and wrote a review article about <strong>Using Social Annotation in Online Classes</strong> (<a href="https://edarxiv.org/2nmxp/">see preprint</a>). It was an interesting challenge given the short timeframe. But we eventually pulled this off as a team thanks to <a href="https://twitter.com/xinranz1?lang=en">Xinran Zhu</a>&lsquo;s strong leadership and everyone&rsquo;s dedication to this work.</p>
+<p>In this blog post, I won&rsquo;t talk about <em>what</em> we wrote. (You can read the preprint if you are interested.) <strong>Instead, I will talk about <em>how</em> we used social annotation to conduct this collaborative literature review about social annotation.</strong> My hope is to share our collaborative research practice based on social annotation to those who&rsquo;re interested.</p>
+<h1 id="what-is-web-annotation">What is web annotation?</h1>
+<p>My interest in <em>web annotation</em> technologies dates back to my early PhD coursework. In 2010 (exactly 10 years ago), I took a course titled <em>Knowledge Media and Learning</em> offered by Prof Jim Slotta. My colleague <a href="https://ca.linkedin.com/in/cresencia-fong-phd-7a9a66b">Cresencia Fong</a> and I became interested in &ldquo;layered information systems&rdquo; (probably coined by us) and led the class to explore this genre of knowledge media and a tool named <a href="https://www.diigo.com/">Diigo</a>. This work eventually informed my dissertation research on the <a href="https://www.researchgate.net/project/Promisingness-Judgements-in-Knowledge-Building"><em>Promising Ideas tool and promisingness judgments</em></a> in knowledge-building communities.</p>
+<p><strong>What is web annotation exactly?</strong></p>
+<p>In 2017, the W3C Web Annotation Working Group published the <a href="https://www.w3.org/TR/annotation-model/">W3C Web Annotation Data Model</a>. As a technical recommendation, this document thinks about <em>annotation</em> very broadly:</p>
+<blockquote>
+<p>Annotating, the act of creating associations between distinct pieces of information, is a pervasive activity online in many guises. Web citizens make comments about online resources using either tools built in to the hosting website, external web services, or the functionality of an annotation client. Comments about shared photos or videos, reviews of products, or even social network mentions of web resources could all be considered as annotations. In addition, there are a plethora of &ldquo;sticky note&rdquo; systems and stand-alone multimedia annotation systems.</p>
+</blockquote>
+<p>This document further offers several basic principles to help us think about web annotation. It writes:</p>
+<blockquote>
+<p>An <em>annotation</em> is a rooted, directed graph that represents a relationship between resources (see the figure below).</p>
+<p>There are two primary types of resource that participate in this relationship, Bodies and Targets.</p>
+</blockquote>
+<p>I like this basic technical definition because it articulates the boundary of a web annotation while focusing on the <em>relationships</em> and <em>associations</em> between web objects an annotation involves.</p>
+<p><img src="https://www.w3.org/TR/annotation-model/images/intro_model.png" alt="W3C"></p>
+<p>To me, <strong>the crucial, definitive characteristic of web annotation is an active, retrievable link between the annotation body and the annotated target</strong>. Web annotation is fundamentally about the user generating one piece of information and linking it with a pre-existing piece of information on the web.</p>
+<p><strong>Isn&rsquo;t this what we do all the time as academic researchers?</strong> In the following figure created by the  Open Science Framework (OSF) to depict the entire research lifecycle, it appears each stage is about processing existing information and transform it into new information (e.g., from literature to a research idea, from interview data to codes). <strong>One main challenge with the research lifecycle, however, is we do not have a good approach to maintain these links between different types of information.</strong></p>
+<p><img src="https://cdn.cos.io/media/images/research_lifecycle.original.png" alt=""></p>
+<h1 id="using-web-annotation-for-collaborative-literature-review">Using web annotation for collaborative literature review</h1>
+<p>When conducting this literature review, we used web annotation as an important strategy to maintain the linkages between our analysis/interpretation and the literature we analyzed. Five of us collaborated on this project. So we also used web annotation to link us as collaborators.</p>
+<p>The collaborative work roughly involved two stages: <em>initial coding</em>, and <em>theme development</em>. We used a web annotation tool named <strong><a href="https://hypothes.is/">Hypothesis</a></strong> in both stages. Below, I describe how Hypothesis was integrated in our collaborative research workflow.</p>
+<h2 id="initial-coding-stage">Initial coding stage</h2>
+<p>After a systematic literature search and screening, we narrowed our scope down to ~40 research articles. It&rsquo;s a reasonable size for a typical literature review and we had a lot to process within a short timeframe.</p>
+<p>After deciding to use Hypothesis, <strong>we created a private group</strong> for this work.</p>
+<p>After a few Zoom meetings, <strong>we came up with a few key dimensions that would be used to consistently code all articles</strong>. In particular, we agreed that for each article, we would code its content related to &ldquo;level of education,&rdquo; &ldquo;subject area,&rdquo; &ldquo;technology,&rdquo; &ldquo;activity design,&rdquo; &ldquo;research methods,&rdquo; and &ldquo;learning outcomes&rdquo; using their corresponding tags. For each article, <strong>the lead researcher would also create a <em>page note</em> to summarize key take-aways</strong> from this article.</p>
+<p>In total, we generated 494 annotations about ~40 articles. Below is a screenshot of our group page.</p>
+<p><img src="group-page.png" alt=""></p>
+<p>Importantly, our Hypothesis annotations were created within the context of each article, and the <strong>relationships</strong> between our codes and the original content were preserved. For each article, the annotations are both summarized on the group page and remain embedded in the annotated document.</p>
+<p><img src="annotations-of-one-article.png" alt=""></p>
+<h2 id="theme-development-stage">Theme development stage</h2>
+<p>After the initial coding, the next challenge for the team was to distill a couple themes to synthesize our findings and make them useful for the reader.</p>
+<p>To this end, <strong>each of us first reviewed all annotations made by the group</strong> and replied to each other when there was a question or suggestion about a particular annotation.</p>
+<p><strong>We used the native Hypothesis interface to filter our annotations by tags</strong>. For example, clicking on tag <code>#design</code> would help us quickly retrieve information about every study&rsquo;s activity design.</p>
+<p><strong>We also used a tool named <a href="https://jonudell.info/h/facet/">Facet</a></strong> that was developed by Jon Udell. With Facet, we could not only review and filter our annotations, but also download them into different formats (e.g., CSV, JSON).</p>
+<p><img src="facet.png" alt=""></p>
+<p>After several Zoom meetings and writing sprints, <strong>we synthesized our findings into five themes</strong> that are reported in <a href="https://edarxiv.org/2nmxp/">the manuscript</a> (see the table below). During the write-up, I went back to read specific annotations, drawing on our annotations as a database of ideas.</p>
+<p><img src="findings-table.png" alt=""></p>
+<h1 id="how-is-web-annotation-useful-for-a-literature-review-project-like-this">How is web annotation useful for a literature review project like this?</h1>
+<p>There are designers like <a href="https://andymatuschak.org/">Andy Matuschak</a> who are thinking deeply about tools for thought and for knowledge work. A pity we academics do not spend enough time to think about our knowledge work. Rumors are that some of us are still using a giant Word document to keep references.</p>
+<p><strong>To me, tools I use as a researcher are my extended brain and carry out important cognitive work for/with me.</strong> It would also be ideal if tools I use also embody my philosophies.</p>
+<p>With these high-level ideas in mind, web annotation is useful for me in a number of ways.</p>
+<p><strong>First, from both the UI and the technical implementation, web annotation cares about relationships and links and tries to keep them alive.</strong> In this case, it kept my reaction to a piece of information in an article anchored in the exact place where my reaction occurred. I can choose to go back to the location where an annotation was created (assuming the file is not corrupted).</p>
+<p><strong>Second, web annotation enhances within-group accountability.</strong> Within the team, we made our thinking visible to each other by explicitly anchoring our ideas in the analyzed articles. Without the step of socially annotating these articles, we would probably directly write notes in a Google doc, with the links between our ideas and the analyzed literature largely obscure and inconsistently maintained. Being able to see and respond to each other&rsquo;s initial annotations had two effects: 1) it made the annotator more accountable when annotating, as these annotations were not only for herself but for the team; and 2) we did challenge each other&rsquo;s annotations, which lead to greater inter-rater reliability.</p>
+<p><strong>Third, web annotation enhanced research transparency and reproducibility.</strong> The fact we can go back to check our initial coding at any point makes our (qualitative) work much more reproducible. We could even include our annotations in the submission if a journal demands it.</p>
+<p><strong>Finally, using web annotation is fun.</strong> I appreciated so much of everyone&rsquo;s thinking. It made literature reading more social and less like a solo sport. Here, I&rsquo;d like to thank all team members, Xinran Zhu, Rukmini Manasa, Hong Shui, and Raymond Zhang, who shared this journey with me.</p>
+
+    </div>
+
+    
+
+
+
+    
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+      
+      <img class="portrait mr-3" src="/authors/admin/avatar_hud2a4726a1c5d3dcf4bc243158ae9b5f3_519771_250x250_fill_q90_lanczos_center.JPG" itemprop="image" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="https://meefen.github.io/">Bodong Chen</a></h5>
+      <h6 class="card-subtitle">Associate Professor of Learning Technologies</h6>
+      <p class="card-text" itemprop="description">Associate Professor in learning technologies at the University of Minnesota.</p>
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="/#contact" >
+              <i class="fas fa-envelope"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://twitter.com/bod0ng" target="_blank" rel="noopener">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://scholar.google.com/citations?user=BWrZE-MAAAAJ" target="_blank" rel="noopener">
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://www.researchgate.net/profile/Bodong_Chen" target="_blank" rel="noopener">
+              <i class="fab fa-researchgate"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://speakerdeck.com/bodong" target="_blank" rel="noopener">
+              <i class="fab fa-slideshare"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://github.com/meefen" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://orcid.org/0000-0003-4616-4353" target="_blank" rel="noopener">
+              <i class="ai ai-orcid"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="/file/Chen-CV-pub.pdf" >
+              <i class="ai ai-cv"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+      
+      
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.3394a224b26ce58ff36f44c54743e0ab.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    © 2019 Bodong Chen. &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    <span class="float-left" aria-hidden="true">
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+      
+    </span>
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

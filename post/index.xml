@@ -7,10 +7,65 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Bodong Chen.</copyright>
-    <lastBuildDate>Thu, 30 Apr 2020 10:05:26 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2020 21:13:01 -0500</lastBuildDate>
     
 	    <atom:link href="https://meefen.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Using Web Annotation for Web Annotation Research</title>
+      <link>https://meefen.github.io/post/2020-05-11-web-annotation/</link>
+      <pubDate>Mon, 11 May 2020 21:13:01 -0500</pubDate>
+      
+      <guid>https://meefen.github.io/post/2020-05-11-web-annotation/</guid>
+      <description>&lt;p&gt;In response to &lt;a href=&#34;https://www.emeraldgrouppublishing.com/journal/ils/evidence-based-and-pragmatic-online-teaching-and-learning-approaches&#34;&gt;a special call for papers&lt;/a&gt; from &lt;em&gt;&lt;a href=&#34;https://www.emeraldgrouppublishing.com/journal/ils?distinct_id=171f281115d5e4-01c33f74c6e464-30677c00-1ea000-171f281115e4ea&#34;&gt;Information and Learning Sciences&lt;/a&gt;&lt;/em&gt;, a team of us rallied and wrote a review article about &lt;strong&gt;Using Social Annotation in Online Classes&lt;/strong&gt; (&lt;a href=&#34;https://edarxiv.org/2nmxp/&#34;&gt;see preprint&lt;/a&gt;). It was an interesting challenge given the short timeframe. But we eventually pulled this off as a team thanks to &lt;a href=&#34;https://twitter.com/xinranz1?lang=en&#34;&gt;Xinran Zhu&lt;/a&gt;&amp;lsquo;s strong leadership and everyone&amp;rsquo;s dedication to this work.&lt;/p&gt;
+&lt;p&gt;In this blog post, I won&amp;rsquo;t talk about &lt;em&gt;what&lt;/em&gt; we wrote. (You can read the preprint if you are interested.) &lt;strong&gt;Instead, I will talk about &lt;em&gt;how&lt;/em&gt; we used social annotation to conduct this collaborative literature review about social annotation.&lt;/strong&gt; My hope is to share our collaborative research practice based on social annotation to those who&amp;rsquo;re interested.&lt;/p&gt;
+&lt;h1 id=&#34;what-is-web-annotation&#34;&gt;What is web annotation?&lt;/h1&gt;
+&lt;p&gt;My interest in &lt;em&gt;web annotation&lt;/em&gt; technologies dates back to my early PhD coursework. In 2010 (exactly 10 years ago), I took a course titled &lt;em&gt;Knowledge Media and Learning&lt;/em&gt; offered by Prof Jim Slotta. My colleague &lt;a href=&#34;https://ca.linkedin.com/in/cresencia-fong-phd-7a9a66b&#34;&gt;Cresencia Fong&lt;/a&gt; and I became interested in &amp;ldquo;layered information systems&amp;rdquo; (probably coined by us) and led the class to explore this genre of knowledge media and a tool named &lt;a href=&#34;https://www.diigo.com/&#34;&gt;Diigo&lt;/a&gt;. This work eventually informed my dissertation research on the &lt;a href=&#34;https://www.researchgate.net/project/Promisingness-Judgements-in-Knowledge-Building&#34;&gt;&lt;em&gt;Promising Ideas tool and promisingness judgments&lt;/em&gt;&lt;/a&gt; in knowledge-building communities.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What is web annotation exactly?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In 2017, the W3C Web Annotation Working Group published the &lt;a href=&#34;https://www.w3.org/TR/annotation-model/&#34;&gt;W3C Web Annotation Data Model&lt;/a&gt;. As a technical recommendation, this document thinks about &lt;em&gt;annotation&lt;/em&gt; very broadly:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Annotating, the act of creating associations between distinct pieces of information, is a pervasive activity online in many guises. Web citizens make comments about online resources using either tools built in to the hosting website, external web services, or the functionality of an annotation client. Comments about shared photos or videos, reviews of products, or even social network mentions of web resources could all be considered as annotations. In addition, there are a plethora of &amp;ldquo;sticky note&amp;rdquo; systems and stand-alone multimedia annotation systems.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This document further offers several basic principles to help us think about web annotation. It writes:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;An &lt;em&gt;annotation&lt;/em&gt; is a rooted, directed graph that represents a relationship between resources (see the figure below).&lt;/p&gt;
+&lt;p&gt;There are two primary types of resource that participate in this relationship, Bodies and Targets.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I like this basic technical definition because it articulates the boundary of a web annotation while focusing on the &lt;em&gt;relationships&lt;/em&gt; and &lt;em&gt;associations&lt;/em&gt; between web objects an annotation involves.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.w3.org/TR/annotation-model/images/intro_model.png&#34; alt=&#34;W3C&#34;&gt;&lt;/p&gt;
+&lt;p&gt;To me, &lt;strong&gt;the crucial, definitive characteristic of web annotation is an active, retrievable link between the annotation body and the annotated target&lt;/strong&gt;. Web annotation is fundamentally about the user generating one piece of information and linking it with a pre-existing piece of information on the web.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Isn&amp;rsquo;t this what we do all the time as academic researchers?&lt;/strong&gt; In the following figure created by the  Open Science Framework (OSF) to depict the entire research lifecycle, it appears each stage is about processing existing information and transform it into new information (e.g., from literature to a research idea, from interview data to codes). &lt;strong&gt;One main challenge with the research lifecycle, however, is we do not have a good approach to maintain these links between different types of information.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.cos.io/media/images/research_lifecycle.original.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;using-web-annotation-for-collaborative-literature-review&#34;&gt;Using web annotation for collaborative literature review&lt;/h1&gt;
+&lt;p&gt;When conducting this literature review, we used web annotation as an important strategy to maintain the linkages between our analysis/interpretation and the literature we analyzed. Five of us collaborated on this project. So we also used web annotation to link us as collaborators.&lt;/p&gt;
+&lt;p&gt;The collaborative work roughly involved two stages: &lt;em&gt;initial coding&lt;/em&gt;, and &lt;em&gt;theme development&lt;/em&gt;. We used a web annotation tool named &lt;strong&gt;&lt;a href=&#34;https://hypothes.is/&#34;&gt;Hypothesis&lt;/a&gt;&lt;/strong&gt; in both stages. Below, I describe how Hypothesis was integrated in our collaborative research workflow.&lt;/p&gt;
+&lt;h2 id=&#34;initial-coding-stage&#34;&gt;Initial coding stage&lt;/h2&gt;
+&lt;p&gt;After a systematic literature search and screening, we narrowed our scope down to ~40 research articles. It&amp;rsquo;s a reasonable size for a typical literature review and we had a lot to process within a short timeframe.&lt;/p&gt;
+&lt;p&gt;After deciding to use Hypothesis, &lt;strong&gt;we created a private group&lt;/strong&gt; for this work.&lt;/p&gt;
+&lt;p&gt;After a few Zoom meetings, &lt;strong&gt;we came up with a few key dimensions that would be used to consistently code all articles&lt;/strong&gt;. In particular, we agreed that for each article, we would code its content related to &amp;ldquo;level of education,&amp;rdquo; &amp;ldquo;subject area,&amp;rdquo; &amp;ldquo;technology,&amp;rdquo; &amp;ldquo;activity design,&amp;rdquo; &amp;ldquo;research methods,&amp;rdquo; and &amp;ldquo;learning outcomes&amp;rdquo; using their corresponding tags. For each article, &lt;strong&gt;the lead researcher would also create a &lt;em&gt;page note&lt;/em&gt; to summarize key take-aways&lt;/strong&gt; from this article.&lt;/p&gt;
+&lt;p&gt;In total, we generated 494 annotations about ~40 articles. Below is a screenshot of our group page.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;group-page.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Importantly, our Hypothesis annotations were created within the context of each article, and the &lt;strong&gt;relationships&lt;/strong&gt; between our codes and the original content were preserved. For each article, the annotations are both summarized on the group page and remain embedded in the annotated document.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;annotations-of-one-article.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;theme-development-stage&#34;&gt;Theme development stage&lt;/h2&gt;
+&lt;p&gt;After the initial coding, the next challenge for the team was to distill a couple themes to synthesize our findings and make them useful for the reader.&lt;/p&gt;
+&lt;p&gt;To this end, &lt;strong&gt;each of us first reviewed all annotations made by the group&lt;/strong&gt; and replied to each other when there was a question or suggestion about a particular annotation.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;We used the native Hypothesis interface to filter our annotations by tags&lt;/strong&gt;. For example, clicking on tag &lt;code&gt;#design&lt;/code&gt; would help us quickly retrieve information about every study&amp;rsquo;s activity design.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;We also used a tool named &lt;a href=&#34;https://jonudell.info/h/facet/&#34;&gt;Facet&lt;/a&gt;&lt;/strong&gt; that was developed by Jon Udell. With Facet, we could not only review and filter our annotations, but also download them into different formats (e.g., CSV, JSON).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;facet.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;After several Zoom meetings and writing sprints, &lt;strong&gt;we synthesized our findings into five themes&lt;/strong&gt; that are reported in &lt;a href=&#34;https://edarxiv.org/2nmxp/&#34;&gt;the manuscript&lt;/a&gt; (see the table below). During the write-up, I went back to read specific annotations, drawing on our annotations as a database of ideas.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;findings-table.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;how-is-web-annotation-useful-for-a-literature-review-project-like-this&#34;&gt;How is web annotation useful for a literature review project like this?&lt;/h1&gt;
+&lt;p&gt;There are designers like &lt;a href=&#34;https://andymatuschak.org/&#34;&gt;Andy Matuschak&lt;/a&gt; who are thinking deeply about tools for thought and for knowledge work. A pity we academics do not spend enough time to think about our knowledge work. Rumors are that some of us are still using a giant Word document to keep references.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;To me, tools I use as a researcher are my extended brain and carry out important cognitive work for/with me.&lt;/strong&gt; It would also be ideal if tools I use also embody my philosophies.&lt;/p&gt;
+&lt;p&gt;With these high-level ideas in mind, web annotation is useful for me in a number of ways.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;First, from both the UI and the technical implementation, web annotation cares about relationships and links and tries to keep them alive.&lt;/strong&gt; In this case, it kept my reaction to a piece of information in an article anchored in the exact place where my reaction occurred. I can choose to go back to the location where an annotation was created (assuming the file is not corrupted).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Second, web annotation enhances within-group accountability.&lt;/strong&gt; Within the team, we made our thinking visible to each other by explicitly anchoring our ideas in the analyzed articles. Without the step of socially annotating these articles, we would probably directly write notes in a Google doc, with the links between our ideas and the analyzed literature largely obscure and inconsistently maintained. Being able to see and respond to each other&amp;rsquo;s initial annotations had two effects: 1) it made the annotator more accountable when annotating, as these annotations were not only for herself but for the team; and 2) we did challenge each other&amp;rsquo;s annotations, which lead to greater inter-rater reliability.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Third, web annotation enhanced research transparency and reproducibility.&lt;/strong&gt; The fact we can go back to check our initial coding at any point makes our (qualitative) work much more reproducible. We could even include our annotations in the submission if a journal demands it.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Finally, using web annotation is fun.&lt;/strong&gt; I appreciated so much of everyone&amp;rsquo;s thinking. It made literature reading more social and less like a solo sport. Here, I&amp;rsquo;d like to thank all team members, Xinran Zhu, Rukmini Manasa, Hong Shui, and Raymond Zhang, who shared this journey with me.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>A Map of Collaboration Analytics</title>
