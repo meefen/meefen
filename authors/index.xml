@@ -7,7 +7,7 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Bodong Chen.</copyright>
-    <lastBuildDate>Mon, 20 Apr 2020 15:30:00 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2020 10:45:09 -0500</lastBuildDate>
     
 	    <atom:link href="https://meefen.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,9 +15,45 @@
     <item>
       <title>Bodong Chen</title>
       <link>https://meefen.github.io/authors/bodong-chen/</link>
-      <pubDate>Mon, 20 Apr 2020 15:30:00 -0500</pubDate>
+      <pubDate>Tue, 30 Jun 2020 10:45:09 -0500</pubDate>
       
       <guid>https://meefen.github.io/authors/bodong-chen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>et al.</title>
+      <link>https://meefen.github.io/authors/et-al./</link>
+      <pubDate>Tue, 30 Jun 2020 10:45:09 -0500</pubDate>
+      
+      <guid>https://meefen.github.io/authors/et-al./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xinran Zhu</title>
+      <link>https://meefen.github.io/authors/xinran-zhu/</link>
+      <pubDate>Tue, 30 Jun 2020 10:45:09 -0500</pubDate>
+      
+      <guid>https://meefen.github.io/authors/xinran-zhu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alex Edwards</title>
+      <link>https://meefen.github.io/authors/alex-edwards/</link>
+      <pubDate>Thu, 30 Apr 2020 10:52:19 -0500</pubDate>
+      
+      <guid>https://meefen.github.io/authors/alex-edwards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Joshua Rosenberg</title>
+      <link>https://meefen.github.io/authors/joshua-rosenberg/</link>
+      <pubDate>Thu, 30 Apr 2020 10:52:19 -0500</pubDate>
+      
+      <guid>https://meefen.github.io/authors/joshua-rosenberg/</guid>
       <description></description>
     </item>
     
@@ -51,15 +87,6 @@
 &lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>et al.</title>
-      <link>https://meefen.github.io/authors/et-al./</link>
-      <pubDate>Fri, 12 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://meefen.github.io/authors/et-al./</guid>
-      <description></description>
     </item>
     
     <item>
