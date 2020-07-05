@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>et al. on Bodong Chen</title>
-    <link>https://meefen.github.io/authors/et-al./</link>
-    <description>Recent content in et al. on Bodong Chen</description>
+    <title>networked learning on Bodong Chen</title>
+    <link>https://meefen.github.io/tags/networked-learning/</link>
+    <description>Recent content in networked learning on Bodong Chen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Bodong Chen.</copyright>
     <lastBuildDate>Sat, 04 Jul 2020 21:06:47 -0500</lastBuildDate>
     
-	    <atom:link href="https://meefen.github.io/authors/et-al./index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://meefen.github.io/tags/networked-learning/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,33 +20,6 @@
       <guid>https://meefen.github.io/publication/chen2020teachers/</guid>
       <description>&lt;p&gt;&lt;em&gt;Abstract&lt;/em&gt;: Massive Open Online Courses (MOOCs) are used to support professional learning at scale in many countries. The present study examined a MOOC named Flipped Classrooms that was specially designed for in-service teachers in China. This MOOC was offered for seven consecutive iterations across three years and allowed teachers to re-take this course in connection with their teaching practice. Overall, 16% of all 105,370 learners enrolled in at least two iterations of the MOOC. To understand their learning motivations, their learning engagement within the MOOC, and the connections they forged between the MOOC and their teaching, we conducted a mixed-methods study using multiple data sources including course registration records, course entry surveys, learning performance data, click logs, and semi-structured interviews. Results indicated that teacher-learners re-took the MOOC for various reasons such as refreshing domain understanding, improving grades, and addressing practical problems. Click log analysis found MOOC re-takers with different performance trajectories demonstrated distinct learning patterns across iterations. Qualitative analysis of the interview data revealed additional insights into learning within the MOOC and connections forged by the re-takers between the MOOC and their teaching practice. This study contributes fresh insights into the MOOC literature by investigating MOOC re-takers and sheds light on the promise of using MOOC to support networked professional learning. Implications for future MOOCs and teacher learning opportunities are discussed.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Reading and connecting: Using social annotation in online classes</title>
-      <link>https://meefen.github.io/publication/zhu2020reading/</link>
-      <pubDate>Tue, 30 Jun 2020 10:45:09 -0500</pubDate>
-      
-      <guid>https://meefen.github.io/publication/zhu2020reading/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>IdeaMagnets: Towards Knowledge Building on the Open Web</title>
-      <link>https://meefen.github.io/talk/2019-kbsi-ideamagnets/</link>
-      <pubDate>Fri, 12 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://meefen.github.io/talk/2019-kbsi-ideamagnets/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Teachers as Co-designers of a Knowledge Building Environment</title>
-      <link>https://meefen.github.io/talk/2019-kbsi-teacher/</link>
-      <pubDate>Fri, 12 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://meefen.github.io/talk/2019-kbsi-teacher/</guid>
-      <description></description>
     </item>
     
   </channel>
