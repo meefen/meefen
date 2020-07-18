@@ -547,7 +547,7 @@ The idea is simple. The whole world &ndash; or all Reddit users &ndash; were giv
   <div class="article-container">
 
     <div class="article-style" itemprop="articleBody">
-      <!-- raw HTML omitted -->
+      <!-- image: /assets/article_images/ajWiAYi.png -->
 <p>I&rsquo;ver never liked the April Fool&rsquo;s Day, until this year when <a href="https://www.reddit.com/">Reddit</a> decided to <a href="https://www.reddit.com/r/announcements/comments/62mesr/place/">launch a social experiment</a> called <a href="https://www.reddit.com/r/place/">Reddit Place</a>.</p>
 <p>The idea is simple. The whole world &ndash; or all Reddit users &ndash; were given a 999 x 999 blank canvas to draw on. Some simple rules apply:</p>
 <blockquote>
@@ -593,7 +593,7 @@ r.times = r.times + toInt(l[5]);
 <p><img src="/assets/article_images/top-user.png" alt=""></p>
 <p>I noticed this user painted a whole lot near <code>Point [380, 880]</code>. By clicking on the [380, 881] Point node, see below, I could check who else have painted on that spot. 16 other users have painted there. Maybe there were some interesting collisions on that single pixel?</p>
 <p><img src="/assets/article_images/top-user-clashes.png" alt=""></p>
-<p><strong>Which colors did <code>itsnotlupus</code> use?</strong> It appeared <code>itsnotlupus</code> painted <!-- raw HTML omitted -->#E59500<!-- raw HTML omitted --> for 104 times, and <!-- raw HTML omitted -->#E50000<!-- raw HTML omitted --> for 70 times. Do those two colors belong to specific clans <code>itsnotlupus</code> was affiliated with?</p>
+<p><strong>Which colors did <code>itsnotlupus</code> use?</strong> It appeared <code>itsnotlupus</code> painted <span style="background-color:#e59500">#E59500</span> for 104 times, and <span style="background-color:#e50000">#E50000</span> for 70 times. Do those two colors belong to specific clans <code>itsnotlupus</code> was affiliated with?</p>
 <p>{% highlight cypher %}
 MATCH (u:User {name: &ldquo;itsnotlupus&rdquo;})-[r:PAINT]-&gt;()
 WITH collect(r.colors) as colors
@@ -609,9 +609,9 @@ MATCH (p:Point {location: [999, 999]})&lt;-[r:PAINT]-()
 RETURN count(r)
 {% endhighlight %}</p>
 <p><img src="/assets/article_images/999x999-users.png" alt=""></p>
-<p><strong>Top painters in that corner</strong> are listed in the figure below. Querying the top [999, 999] painter <code>MrMeltJr</code> I found him painting <!-- raw HTML omitted --><code>blue (#0000EA)</code><!-- raw HTML omitted --> predominantly (105 out of 116 times). He was clearly a member of the Blue Corner sub-community.</p>
+<p><strong>Top painters in that corner</strong> are listed in the figure below. Querying the top [999, 999] painter <code>MrMeltJr</code> I found him painting <span style="text-shadow: 4px 4px 2px #0000EA"><code>blue (#0000EA)</code></span> predominantly (105 out of 116 times). He was clearly a member of the Blue Corner sub-community.</p>
 <p><img src="/assets/article_images/999x999-top-users.png" alt=""></p>
-<p><strong>What was the most used color in that corner?</strong> The following query found the most dominant color to be <!-- raw HTML omitted --><code>#0000EA</code><!-- raw HTML omitted -->, which appeared for 7400 times, followed by <!-- raw HTML omitted --><code>#820080</code><!-- raw HTML omitted -->'s 2055 times. This finding could be confirmed by the gif above.</p>
+<p><strong>What was the most used color in that corner?</strong> The following query found the most dominant color to be <span style="text-shadow: 4px 4px 2px #0000EA"><code>#0000EA</code></span>, which appeared for 7400 times, followed by <span style="text-shadow: 4px 4px 2px #820080"><code>#820080</code></span>'s 2055 times. This finding could be confirmed by the gif above.</p>
 <p>{% highlight cypher %}
 MATCH (p:Point {location: [999, 999]})&lt;-[r:PAINT]-()
 WITH collect(r.colors) as allColors

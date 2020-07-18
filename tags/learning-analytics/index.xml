@@ -35,7 +35,7 @@
 &lt;p&gt;Indeed, the emergence of &lt;strong&gt;learning analytics&lt;/strong&gt;—now often referred to as ‘AI in Education’—was motivated by these very analogies. With more and richer data, as well as stronger data science methods, education is poised to better understand and support learning.&lt;/p&gt;
 &lt;p&gt;However, as pointed out by &lt;a href=&#34;http://zhaolearning.com/2018/10/07/what-evidence-problems-with-evidence-based-education-side-effects-in-education/&#34;&gt;Yong Zhao&lt;/a&gt;, we rarely talk about ‘side effects’ in education when discussing changes and reforms. So aren’t more of us talking about &lt;a href=&#34;http://www.newcultureoflearning.com/&#34;&gt;types of learning and learning cultures&lt;/a&gt; out of the ‘curriculum box’, or not in the mainstream accountability-centric education system.&lt;/p&gt;
 &lt;p&gt;Work tagged with ‘learning analytics’ is probably facing the same challenges as earlier educational interventions, especially those related to the integration of EdTech in the education systems. While precision medicine is a great idea, is &amp;ldquo;&lt;em&gt;precision education&lt;/em&gt;&amp;rdquo; necessarily a good one? If precision medicine is optimizing conditions of combating a disease, what outcomes would precision education work for? Outcomes worthwhile for whom?&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;!-- **To have a better chance of success, we do not only need to consider ‘side effects’ and but also use some ideas from complexity theory and ecological perspectives.** --&gt;
 &lt;h2 id=&#34;different-levels-of-learning&#34;&gt;Different Levels of Learning&lt;/h2&gt;
 &lt;p&gt;Let me first turn to the ‘learning’ part in learning analytics.&lt;/p&gt;
 &lt;p&gt;In Stephen Sterling’s (2001) book titled &lt;em&gt;Sustainable Education&lt;/em&gt;, he delineates three levels of learning. The &lt;em&gt;first-order&lt;/em&gt; learning is about ‘basic’ acquisition of knowledge and skills. The &lt;em&gt;second-order&lt;/em&gt; learning deals with ‘learning about learning’ and requires reflexitivity. The &lt;em&gt;third-order&lt;/em&gt; learning recognizes the existing paradigm of learning and facilitates paradigmatic reconstruction to transform learning.&lt;/p&gt;
@@ -98,7 +98,11 @@
       <pubDate>Fri, 01 Mar 2019 00:00:00 -0600</pubDate>
       
       <guid>https://meefen.github.io/talk/2019-lak/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the slides.
+  &lt;/div&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -108,7 +112,11 @@
       <pubDate>Thu, 08 Nov 2018 00:00:00 -0600</pubDate>
       
       <guid>https://meefen.github.io/talk/2018-mingda-institute-lecture/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the Google Slides.
+  &lt;/div&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -127,11 +135,14 @@
       <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>https://meefen.github.io/post/2017-03-23-umn-lacop/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
+      <description>&lt;!-- image: /assets/article_images/community.jpg
+
+![](/images/article_images/community.jpg)
+
+*(Photo Credit: [Blue Diamond Gallery](http://www.thebluediamondgallery.com/wooden-tile/c/community.html))* --&gt;
 &lt;p&gt;Today, we kicked off our &lt;a href=&#34;https://cei.umn.edu/courses-programs/learning-analytics-community-practice&#34;&gt;Learning Analytics Community of Practice at UMN&lt;/a&gt; (#UMNLACoP)! Launching this CoP has been a joint effort among the &lt;a href=&#34;https://cei.umn.edu/&#34;&gt;Center for Educational Innovation&lt;/a&gt;, the &lt;a href=&#34;https://cla.umn.edu/&#34;&gt;College of Liberal Arts&lt;/a&gt;, the &lt;a href=&#34;https://www.lib.umn.edu&#34;&gt;Libraries&lt;/a&gt;, and the &lt;a href=&#34;https://cehd.umn.edu&#34;&gt;College of Education and Human Development&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;During today&amp;rsquo;s kick-off event, I spent 15 minutes presenting a quick introduction to the field of Learning Analytics. Below is an audio recording of my presentation.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;iframe width=&#34;100%&#34; height=&#34;166&#34; scrolling=&#34;no&#34; frameborder=&#34;no&#34; src=&#34;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/314202983&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&#34;&gt;&lt;/iframe&gt;
 &lt;p&gt;The next event will be hosted on April 10, 2:30-4:00pm, in Anderson 110. If you are interested in joining #UMNLACoP, sign up via &lt;a href=&#34;http://z.umn.edu/lacop&#34;&gt;http://z.umn.edu/lacop&lt;/a&gt;!&lt;/p&gt;
 </description>
     </item>

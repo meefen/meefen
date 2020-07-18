@@ -7,7 +7,7 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Bodong Chen.</copyright>
-    <lastBuildDate>Sat, 04 Jul 2020 21:06:47 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2020 07:00:00 -0900</lastBuildDate>
     
 	    <atom:link href="https://meefen.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -38,7 +38,7 @@
 &lt;li&gt;&lt;strong&gt;Open Source&lt;/strong&gt;. I try to open-source my R code on Github, for &lt;a href=&#34;https://github.com/meefen/LagSeq&#34;&gt;Lag-sequential Analysis&lt;/a&gt;, building &lt;a href=&#34;https://github.com/meefen/LexFreq&#34;&gt;lexical frequency profile&lt;/a&gt;, &lt;a href=&#34;https://github.com/meefen/twitter-hashtag-analytics&#34;&gt;Twitter analytics 1&lt;/a&gt; and &lt;a href=&#34;https://github.com/meefen/twitterytics-shiny&#34;&gt;2&lt;/a&gt;, &lt;a href=&#34;https://github.com/meefen/CORDTRA-R&#34;&gt;making CORDTRA diagrams&lt;/a&gt;, etc. My research projects&amp;rsquo; source codes will be shared under the &lt;a href=&#34;https://github.com/colig&#34;&gt;CoLIG Github organization&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Open Scholarly Workflow&lt;/strong&gt;. Open Scholarship does not only involve the &amp;ldquo;outputs,&amp;rdquo; but also the &amp;ldquo;process.&amp;rdquo; I frequently post my &lt;strong&gt;annotated bibliography&lt;/strong&gt; &lt;a href=&#34;https://meefen.github.io/categories/notes/&#34;&gt;here&lt;/a&gt;. To get my &lt;em&gt;raw&lt;/em&gt; highlights and &lt;em&gt;rough&lt;/em&gt; notes to this format, I use: 1) &lt;a href=&#34;http://skim-app.sourceforge.net/&#34;&gt;Skim&lt;/a&gt; and &lt;a href=&#34;https://www.metapdf.com/&#34;&gt;MetaPDF&lt;/a&gt; for &lt;em&gt;reading &amp;amp; annotating&lt;/em&gt;; 2) some &lt;a href=&#34;https://github.com/meefen/rBibNotes&#34;&gt;R scripts&lt;/a&gt; I wrote for &lt;em&gt;text transformation&lt;/em&gt;; and 3) &lt;a href=&#34;https://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt; for &lt;em&gt;text rendering&lt;/em&gt; on the Web.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;!-- The tag cloud below would accurately represent my research interests. --&gt;
 </description>
     </item>
     
@@ -67,7 +67,7 @@
       
       <guid>https://meefen.github.io/publication/</guid>
       <description>&lt;h3 id=&#34;link-to-my-cv-pdffilechen-cv-shortpdf&#34;&gt;Link to &lt;a href=&#34;https://meefen.github.io/file/Chen-CV-short.pdf&#34;&gt;my CV (PDF)&lt;/a&gt;.&lt;/h3&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;br&gt;
 </description>
     </item>
     

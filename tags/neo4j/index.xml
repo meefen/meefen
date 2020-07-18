@@ -18,7 +18,7 @@
       <pubDate>Mon, 10 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://meefen.github.io/post/2017-04-10-graphing-reddit-place/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
+      <description>&lt;!-- image: /assets/article_images/ajWiAYi.png --&gt;
 &lt;p&gt;I&amp;rsquo;ver never liked the April Fool&amp;rsquo;s Day, until this year when &lt;a href=&#34;https://www.reddit.com/&#34;&gt;Reddit&lt;/a&gt; decided to &lt;a href=&#34;https://www.reddit.com/r/announcements/comments/62mesr/place/&#34;&gt;launch a social experiment&lt;/a&gt; called &lt;a href=&#34;https://www.reddit.com/r/place/&#34;&gt;Reddit Place&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;The idea is simple. The whole world &amp;ndash; or all Reddit users &amp;ndash; were given a 999 x 999 blank canvas to draw on. Some simple rules apply:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -64,7 +64,7 @@ r.times = r.times + toInt(l[5]);
 &lt;p&gt;&lt;img src=&#34;https://meefen.github.io/assets/article_images/top-user.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;I noticed this user painted a whole lot near &lt;code&gt;Point [380, 880]&lt;/code&gt;. By clicking on the [380, 881] Point node, see below, I could check who else have painted on that spot. 16 other users have painted there. Maybe there were some interesting collisions on that single pixel?&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://meefen.github.io/assets/article_images/top-user-clashes.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Which colors did &lt;code&gt;itsnotlupus&lt;/code&gt; use?&lt;/strong&gt; It appeared &lt;code&gt;itsnotlupus&lt;/code&gt; painted &lt;!-- raw HTML omitted --&gt;#E59500&lt;!-- raw HTML omitted --&gt; for 104 times, and &lt;!-- raw HTML omitted --&gt;#E50000&lt;!-- raw HTML omitted --&gt; for 70 times. Do those two colors belong to specific clans &lt;code&gt;itsnotlupus&lt;/code&gt; was affiliated with?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Which colors did &lt;code&gt;itsnotlupus&lt;/code&gt; use?&lt;/strong&gt; It appeared &lt;code&gt;itsnotlupus&lt;/code&gt; painted &lt;span style=&#34;background-color:#e59500&#34;&gt;#E59500&lt;/span&gt; for 104 times, and &lt;span style=&#34;background-color:#e50000&#34;&gt;#E50000&lt;/span&gt; for 70 times. Do those two colors belong to specific clans &lt;code&gt;itsnotlupus&lt;/code&gt; was affiliated with?&lt;/p&gt;
 &lt;p&gt;{% highlight cypher %}
 MATCH (u:User {name: &amp;ldquo;itsnotlupus&amp;rdquo;})-[r:PAINT]-&amp;gt;()
 WITH collect(r.colors) as colors
@@ -80,9 +80,9 @@ MATCH (p:Point {location: [999, 999]})&amp;lt;-[r:PAINT]-()
 RETURN count(r)
 {% endhighlight %}&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://meefen.github.io/assets/article_images/999x999-users.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Top painters in that corner&lt;/strong&gt; are listed in the figure below. Querying the top [999, 999] painter &lt;code&gt;MrMeltJr&lt;/code&gt; I found him painting &lt;!-- raw HTML omitted --&gt;&lt;code&gt;blue (#0000EA)&lt;/code&gt;&lt;!-- raw HTML omitted --&gt; predominantly (105 out of 116 times). He was clearly a member of the Blue Corner sub-community.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Top painters in that corner&lt;/strong&gt; are listed in the figure below. Querying the top [999, 999] painter &lt;code&gt;MrMeltJr&lt;/code&gt; I found him painting &lt;span style=&#34;text-shadow: 4px 4px 2px #0000EA&#34;&gt;&lt;code&gt;blue (#0000EA)&lt;/code&gt;&lt;/span&gt; predominantly (105 out of 116 times). He was clearly a member of the Blue Corner sub-community.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://meefen.github.io/assets/article_images/999x999-top-users.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;What was the most used color in that corner?&lt;/strong&gt; The following query found the most dominant color to be &lt;!-- raw HTML omitted --&gt;&lt;code&gt;#0000EA&lt;/code&gt;&lt;!-- raw HTML omitted --&gt;, which appeared for 7400 times, followed by &lt;!-- raw HTML omitted --&gt;&lt;code&gt;#820080&lt;/code&gt;&lt;!-- raw HTML omitted --&gt;&#39;s 2055 times. This finding could be confirmed by the gif above.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What was the most used color in that corner?&lt;/strong&gt; The following query found the most dominant color to be &lt;span style=&#34;text-shadow: 4px 4px 2px #0000EA&#34;&gt;&lt;code&gt;#0000EA&lt;/code&gt;&lt;/span&gt;, which appeared for 7400 times, followed by &lt;span style=&#34;text-shadow: 4px 4px 2px #820080&#34;&gt;&lt;code&gt;#820080&lt;/code&gt;&lt;/span&gt;&#39;s 2055 times. This finding could be confirmed by the gif above.&lt;/p&gt;
 &lt;p&gt;{% highlight cypher %}
 MATCH (p:Point {location: [999, 999]})&amp;lt;-[r:PAINT]-()
 WITH collect(r.colors) as allColors

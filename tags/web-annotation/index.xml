@@ -18,7 +18,11 @@
       <pubDate>Thu, 01 Nov 2018 00:00:00 -0500</pubDate>
       
       <guid>https://meefen.github.io/talk/2018-educause/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the Google Slides.
+  &lt;/div&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -28,10 +32,11 @@
       <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://meefen.github.io/post/2017-12-08-jls-web-annotation/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
+      <description>&lt;!-- comments: true
+image: https://c1.staticflickr.com/3/2453/3973300988_824ec066a9_b.jpg --&gt;
 &lt;p&gt;As a member of the Outreach Advisory Board of the &lt;a href=&#34;http://www.tandfonline.com/loi/hlns20&#34;&gt;Journal of the Learning Sciences (JLS)&lt;/a&gt;, I was really glad to see the journal putting together a web annotation event during December 11-22, 2017. This activity is yet another move made by the editorial team to engage its readership on various social media venues.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Coming Soon: Web annotation of JLS articles in Hypothes.is.&lt;br&gt;The first article is a study by Akkerman and Bruining published in 2016 in Volume 25 (2).Read the full article at &lt;a href=&#34;https://t.co/tGoOiQKLUR&#34;&gt;https://t.co/tGoOiQKLUR&lt;/a&gt;  and visit &lt;a href=&#34;https://t.co/2dYOBe15L8&#34;&gt;https://t.co/2dYOBe15L8&lt;/a&gt;  for instructions for using &lt;a href=&#34;https://twitter.com/hypothes_is?ref_src=twsrc%5Etfw&#34;&gt;@hypothes_is&lt;/a&gt; &lt;a href=&#34;https://t.co/z5oSHleIKB&#34;&gt;pic.twitter.com/z5oSHleIKB&lt;/a&gt;&lt;/p&gt;&amp;mdash; JrnlLearningSciences (@JLearnSciences) &lt;a href=&#34;https://twitter.com/JLearnSciences/status/937719563390672896?ref_src=twsrc%5Etfw&#34;&gt;December 4, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 &lt;p&gt;During this web annotation event, participants are invited to annotate a recently published open-access article, &lt;a href=&#34;http://www.tandfonline.com/doi/full/10.1080/10508406.2016.1147448&#34;&gt;&lt;em&gt;Multilevel Boundary Crossing in a Professional Development School Partnership&lt;/em&gt;&lt;/a&gt;, using an open web annotation tool named &lt;a href=&#34;https://hypothes.is/&#34;&gt;Hypothes.is&lt;/a&gt;. Hats off to the authors for their support of this event.&lt;/p&gt;
 &lt;p&gt;The editorial team has put together &lt;strong&gt;detailed instructions&lt;/strong&gt; in this &lt;a href=&#34;https://docs.google.com/presentation/d/1Cmoz22xEY8QjHBiYC-H2oU0YHJSTLCBhWelbusSXbKM/edit#slide=id.g2b48df0836_0_10&#34;&gt;Google presentation&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;During and after the event, in addition to the Hypothes.is sidebar, a participant can either use &lt;a href=&#34;https://hypothes.is/search?q=url%3Ahttp%3A%2F%2Fwww.tandfonline.com%2Fdoi%2Ffull%2F10.1080%2F10508406.2016.1147448&#34;&gt;Hypothes.is&amp;rsquo; advanced search functionality&lt;/a&gt; or &lt;a href=&#34;http://jonudell.net/h/facet.html?facet=uri&amp;amp;mode=documents&amp;amp;search=http://www.tandfonline.com/doi/full/10.1080/10508406.2016.1147448&#34;&gt;an aggregation tool&lt;/a&gt; to &lt;strong&gt;review existing annotations&lt;/strong&gt; made on this article.&lt;/p&gt;

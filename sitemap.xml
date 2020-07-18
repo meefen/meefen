@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://meefen.github.io/</loc>
+    <lastmod>2020-07-17T13:29:51-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meefen.github.io/talk/2020-07-bnu/</loc>
+    <lastmod>2020-07-17T13:29:51-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://meefen.github.io/authors/</loc>
     <lastmod>2020-07-04T21:06:47-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://meefen.github.io/authors/bodong-chen/</loc>
-    <lastmod>2020-07-04T21:06:47-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meefen.github.io/</loc>
     <lastmod>2020-07-04T21:06:47-05:00</lastmod>
   </url>
   
@@ -45,6 +50,11 @@
   <url>
     <loc>https://meefen.github.io/publication/chen2020teachers/</loc>
     <lastmod>2020-07-04T21:06:47-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meefen.github.io/talk/2020-07-ecnu/</loc>
+    <lastmod>2020-07-03T13:29:58-05:00</lastmod>
   </url>
   
   <url>

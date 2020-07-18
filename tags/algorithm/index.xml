@@ -18,8 +18,12 @@
       <pubDate>Sun, 22 Jul 2018 00:00:00 -0500</pubDate>
       
       <guid>https://meefen.github.io/zh/2018-07-22-ai/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
+      <description>&lt;!-- ---
+date: &#39;2018-07-22&#39;
+title: &#39;A.I.与鸡头蛇怪&#39;
+categories: zh
+tags: [artificial intelligence, algorithm]
+--- --&gt;
 &lt;p&gt;&lt;strong&gt;A.I.，也就是人工智能，已渗透到各个领域。它就像一个迅速膨胀的热气球，几乎所有人都在往里鼓气。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;网上报道，中国的人脸识别技术已让世界颤抖。警察戴上人脸识别墨镜，分分钟教“逃犯”做人。它像极了希腊神话里的“鸡头蛇怪”，必杀技是一对电眼，冷却时间为零。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/1/14/Basilisk_aldrovandi.jpg&#34; alt=&#34;&#34;&gt;&lt;br&gt;
