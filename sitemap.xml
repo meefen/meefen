@@ -3,13 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://meefen.github.io/authors/</loc>
+    <lastmod>2020-11-15T10:28:39-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meefen.github.io/authors/bodong-chen/</loc>
+    <lastmod>2020-11-15T10:28:39-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://meefen.github.io/</loc>
-    <lastmod>2020-11-11T15:43:38-06:00</lastmod>
+    <lastmod>2020-11-15T10:28:39-06:00</lastmod>
   </url>
   
   <url>
     <loc>https://meefen.github.io/post/</loc>
-    <lastmod>2020-11-11T15:43:38-06:00</lastmod>
+    <lastmod>2020-11-15T10:28:39-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meefen.github.io/post/2020-11-15-kb-analytics/</loc>
+    <lastmod>2020-11-15T10:28:39-06:00</lastmod>
   </url>
   
   <url>
@@ -20,16 +35,6 @@
   <url>
     <loc>https://meefen.github.io/talk/2020-07-bnu/</loc>
     <lastmod>2020-07-17T13:29:51-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meefen.github.io/authors/</loc>
-    <lastmod>2020-07-04T21:06:47-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meefen.github.io/authors/bodong-chen/</loc>
-    <lastmod>2020-07-04T21:06:47-05:00</lastmod>
   </url>
   
   <url>

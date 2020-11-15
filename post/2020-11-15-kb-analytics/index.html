@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.3.1">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Bodong Chen">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="This year&rsquo;s Knowledge Building Summer Institute (KBSI) is going to be special. First, it&rsquo;s held near the end of November, for the first time in summer for folks from the Southern Hemisphere. Second, the conference is going to be virtual, following a hybrid synchronous&ndash;asynchronous model. Much work will be done in Knowledge Forum asynchronously before interactive sessions in Zoom on the conference days. Last but not least, this year&rsquo;s conference will feature a global KB design experiment, Saving the Planet, Saving Lives, led by colleagues from Ontario and Singpapore.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://meefen.github.io/post/2020-11-15-kb-analytics/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.2cb7ed0cd490345835ea66ca300b8a4f.css">
+
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-50108133-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://meefen.github.io/post/2020-11-15-kb-analytics/">
+
+  
+  
+  
+  
+    
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@bod0ng">
+  <meta property="twitter:creator" content="@bod0ng">
+  
+  <meta property="og:site_name" content="Bodong Chen">
+  <meta property="og:url" content="https://meefen.github.io/post/2020-11-15-kb-analytics/">
+  <meta property="og:title" content="Where is Knowledge Building Analytics Headed? | Bodong Chen">
+  <meta property="og:description" content="This year&rsquo;s Knowledge Building Summer Institute (KBSI) is going to be special. First, it&rsquo;s held near the end of November, for the first time in summer for folks from the Southern Hemisphere. Second, the conference is going to be virtual, following a hybrid synchronous&ndash;asynchronous model. Much work will be done in Knowledge Forum asynchronously before interactive sessions in Zoom on the conference days. Last but not least, this year&rsquo;s conference will feature a global KB design experiment, Saving the Planet, Saving Lives, led by colleagues from Ontario and Singpapore."><meta property="og:image" content="https://meefen.github.io/post/2020-11-15-kb-analytics/featured.png">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2020-11-15T10:28:39-06:00">
+  
+  <meta property="article:modified_time" content="2020-11-15T10:28:39-06:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>Where is Knowledge Building Analytics Headed? | Bodong Chen</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Bodong Chen</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#teaching"><span>Teaching</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  <article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="article-header d-xl-none">
+  <div class="featured-image" style="background-image: url('/post/2020-11-15-kb-analytics/featured_hu6fb6b40480d3f82101f13204e7345810_1049449_800x0_resize_lanczos_2.png');"></div>
+  
+</div>
+
+
+<div class="container-fluid split-header d-none d-xl-block">
+  <div class="row">
+    <div class="col-6">
+      <div class="split-header-content">
+        <h1 itemprop="name">Where is Knowledge Building Analytics Headed?</h1>
+
+        
+
+        
+
+
+
+<meta content="2020-11-15 10:28:39 -0600 CST" itemprop="datePublished">
+<meta content="2020-11-15 10:28:39 -0600 CST" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/bodong-chen/">Bodong Chen</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Nov 15, 2020</time>
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    6 min read
+  </span>
+  
+
+  
+  
+
+  
+  
+
+  
+
+</div>
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Where%20is%20Knowledge%20Building%20Analytics%20Headed%3f&amp;url=https%3a%2f%2fmeefen.github.io%2fpost%2f2020-11-15-kb-analytics%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fmeefen.github.io%2fpost%2f2020-11-15-kb-analytics%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fmeefen.github.io%2fpost%2f2020-11-15-kb-analytics%2f&amp;title=Where%20is%20Knowledge%20Building%20Analytics%20Headed%3f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fmeefen.github.io%2fpost%2f2020-11-15-kb-analytics%2f&amp;title=Where%20is%20Knowledge%20Building%20Analytics%20Headed%3f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Where%20is%20Knowledge%20Building%20Analytics%20Headed%3f&amp;body=https%3a%2f%2fmeefen.github.io%2fpost%2f2020-11-15-kb-analytics%2f">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="split-header-image">
+        <img src="/post/2020-11-15-kb-analytics/featured_hu6fb6b40480d3f82101f13204e7345810_1049449_680x500_fill_q90_lanczos_left_2.png" itemprop="image" alt="">
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="article-container d-xl-none">
+  <h1 itemprop="name">Where is Knowledge Building Analytics Headed?</h1>
+
+  
+
+  
+
+
+
+<meta content="2020-11-15 10:28:39 -0600 CST" itemprop="datePublished">
+<meta content="2020-11-15 10:28:39 -0600 CST" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/bodong-chen/">Bodong Chen</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Nov 15, 2020</time>
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    6 min read
+  </span>
+  
+
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Where%20is%20Knowledge%20Building%20Analytics%20Headed%3f&amp;url=https%3a%2f%2fmeefen.github.io%2fpost%2f2020-11-15-kb-analytics%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fmeefen.github.io%2fpost%2f2020-11-15-kb-analytics%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fmeefen.github.io%2fpost%2f2020-11-15-kb-analytics%2f&amp;title=Where%20is%20Knowledge%20Building%20Analytics%20Headed%3f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fmeefen.github.io%2fpost%2f2020-11-15-kb-analytics%2f&amp;title=Where%20is%20Knowledge%20Building%20Analytics%20Headed%3f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Where%20is%20Knowledge%20Building%20Analytics%20Headed%3f&amp;body=https%3a%2f%2fmeefen.github.io%2fpost%2f2020-11-15-kb-analytics%2f">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      <p>This year&rsquo;s <strong>Knowledge Building Summer Institute (KBSI)</strong> is going to be special. First, it&rsquo;s held near the end of November, for the first time in summer for folks from the Southern Hemisphere. Second, the conference is going to be virtual, following a hybrid synchronous&ndash;asynchronous model. Much work will be done in Knowledge Forum asynchronously before interactive sessions in Zoom on the conference days. Last but not least, this year&rsquo;s conference will feature a global KB design experiment, <em>Saving the Planet, Saving Lives</em>, led by colleagues from Ontario and Singpapore. See <a href="https://ikit.org/summerinstitute2020/index.php/program/">conference program here</a> for details.</p>
+<p>For me, it&rsquo;s especially exciting to see a broadening interest in Knowledge Building (KB) Analytics in this intimate community. I still believe KB has a special place in learning analytics because its views on learning and education (see <a href="https://learning-analytics.info/index.php/JLA/article/view/4552">Chen &amp; Zhang, 2016</a>). KB&rsquo;s attempt to refashion education into an effort aligned with knowledge societies can also help learning analytics find more common grounds with CSCW, HCI, knowledge analytics, etc.</p>
+<p><strong>This year, there are one theme and two sessions dedicated to Knowledge Building Analytics at KBSI. Here are my quick takeaways, before the conference, from reading papers in these sessions.</strong></p>
+<h2 id="graphnetwork-based-approaches">Graph/network based approaches</h2>
+<p>A number of contributions have adopted a graph/network approach.</p>
+<ul>
+<li><strong>Xue, Zhang, &amp; Xu (Nanjing Normal Unversity)</strong> propose to construct <strong>dynamic knowledge graphs (DKG)</strong> to assess and foster conceptual change. The DKG approach integrates a wide range of techniques from natural language processing (POS tagging, topic modeling, Word2vec), association rule mining, and graph visualization. With the constructed graph, centrality indices can be used to surface key concepts, which collectively provide indicators of a community&rsquo;s current conceptual understanding. The DKG approach is an important technical advancement for KB analytics. It builds on a long-term interest in using network/graph approaches (e.g., KBDeX) in the KB community. It expands our KB analytics work by combining nascent graph database technologies, data mining techniques, and front-end web interfaces to deliver a complete analytics package.</li>
+<li>Grounded in the &ldquo;Good moves in knowledge-creating dialogue&rdquo; framework by <a href="http://www.ckbg.org/qwerty/index.php/qwerty/article/view/242">Bereiter and Scardamalia (2016)</a>, <strong>Feng, van Aalst, &amp; Chan (University of Hong Kong)</strong> propose to use the <strong>Idea-Friend Maps</strong> to help students consider new ideas, meta-dialogue, high-level ideas, etc. The Idea-Friend Maps use the word networks extracted from KBDeX and enrich them with important information such as knowledge problems. A major contribution made by the Idea-Friend Maps project is it meaningfully connects sophisticated conceptual ideas (i.e. the Good Moves framework) and analytic tools (i.e., KBDeX) to student engagement. The Maps and their accompanying questions are actionable for students.</li>
+<li><strong>Hussein &amp; Chen (Univeresity of Minnesota)</strong> propose to use network-based text analysis to bridge gaps in knowledge-building discourse, by using network indices and network phenomena such as structural holes. This work is situated in the goal of connecting discourse across spaces but is applicable to meta-discourse.</li>
+</ul>
+<p>A cross-cutting theme among three contributions (Hussein &amp; Chen; Feng, van Aalst, &amp; Chan; Xue, Zhang, &amp; Xu) is the use of network/graph approaches in KB Analytics. Feng et al. use socio-semantic networks created by KBDeX; Hussein &amp; Chen use text networks that rely on network analysis techniques for topic modeling and structural analysis; Xue et al. integrate a range of data science methods in a graph analysis scheme that leads to the identification of dominant terms. We collectively have an interesting mix of ideas about how to use graphs/networks in KB analytics. Graph/network analysis is a promising direction for our community.</p>
+<h2 id="student-facing-analytics">Student-facing analytics</h2>
+<p>Besides Feng, van Aalst, &amp; Chan&rsquo;s Idea-Friend Maps described above, <strong>Ma, Akyea, &amp; Martin (University of Toronto)</strong> have done some really interesting work engaging 8- to 11-year-olds to review and critique current analytic tools in Knowledge Forum. &ldquo;[Students] demonstrated sophisticated interpretations of their online activities with the Knowledge Forum analytic tools. Not only were they honest and open about receiving feedback through novel forms of data visualization, they were also aware of the potential limitations of these tools and offered thoughtful and insightful feedback for our engineers.&rdquo;</p>
+<p>In Xue et al.&lsquo;s paper, they also mention that pilot studies of the DKG with teachers and students are also underway.</p>
+<p>We do not necessarily need more advanced analytical techniques. Work that scaffolds student sense-making and use of analytic information is equally (or even more) important. Trying to put more analytic tools &ndash; good ones &ndash; in the hands of students is a promising idea that&rsquo;s aligned with Knowledge Building.</p>
+<h2 id="bridge-technical-work-on-analytics-and-kb-conceptsprinciples">Bridge technical work on analytics and KB concepts/principles</h2>
+<p><strong>Tan &amp; Teo (National Institute of Education, Singapore)</strong> take a much-needed meta perspective. Based on a literature review of KB analytics, they propose two sets of guiding questions that are instrumental for future KB analytics design and development. They questions two important goals: (1) to ground analytics design and use in KB ideals (e.g., students take high-level responsibility), and (2) to suggest areas to consider as we put KB analytics tools into practice. These questions are applicable to the other three contributions in this session. Tan and Teo remind us that we should not forget what these KB analytics are developed for. They also distinguish augmented intelligence from artificial intelligence (AI) and argue the KB community may want to side with the augmented intelligence camp, which is also called intelligence augmentation (IA) by scholars (Engelbart, 1962).</p>
+<p>It is a promising direction for the community to develop such a set of guiding questions for KB analytics and continue to refine them to bring technical work and KB concepts into alignment.</p>
+<h2 id="thoughts-on-future-work">Thoughts on future work</h2>
+<p><strong>Analyze KB discourse as a multidimensional phenomenon.</strong> It is apparent that we as a community has quite impressive expertise in applying data science methods to KB discourse data (there is exciting work not covered here such as <a href="http://gaoxiazhu.weebly.com/">Dr. Gaoxia Zhu&rsquo;s dissertation work on emotional dynamics</a>).  We now need to push for integrated views of KB discourse by bringing various analytical perspectives together &ndash; social, semantic, temporal, emotional, spatial, etc.</p>
+<p><strong>Involve students and teachers to co-design analytics tools.</strong> Multiple papers in these sessions have highlighted the need to look at human factors as we design and deploy KB analytics. This recognition is aligned with human-centered design sought by the learning analytics community in recent years. Feng et al. show us important work that needs to take place to move from analytical results to actionable insights. What&rsquo;s useful is not determined by the researchers or analytical methods; instead, it&rsquo;s determined by the students and teachers who try to sense-make and problem-solve with the provided information.</p>
+<p><strong>Articulate conceptual groundings of measures and analytical decisions.</strong> As mentioned above, the graph/network approach is a promising direction. However, we still need to do a better job at grounding network measures/indices in KB concepts or phenomena. What does betweenness centrality in the word network really mean? Why only nouns are retained in a knowledge graph? Why a certain threshold is chosen when trimming a network? We need to be mindful of these questions in future work. As a community, we should consider mapping out measures we have, connect them with KB constructs, and examine conceptual congruence and incongruence. We may need to do a network analysis of our own KB analytics work to identify gaps and future directions.</p>
+<hr>
+<p>That&rsquo;s all for now. I will provide an updated view after the conference.</p>
+
+    </div>
+
+    
+
+
+
+    
+      
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+  
+  
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/authors/bodong-chen/"></a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+      
+      
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.3394a224b26ce58ff36f44c54743e0ab.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    © 2019 Bodong Chen. &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    <span class="float-left" aria-hidden="true">
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+      
+    </span>
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
