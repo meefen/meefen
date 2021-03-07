@@ -7,10 +7,40 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Bodong Chen.</copyright>
-    <lastBuildDate>Sun, 15 Nov 2020 10:28:39 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 07 Mar 2021 10:25:55 -0600</lastBuildDate>
     
 	    <atom:link href="https://meefen.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Take note: new note-taking facility in Zotero</title>
+      <link>https://meefen.github.io/post/2021-03-07-zotero-annotation-beta/</link>
+      <pubDate>Sun, 07 Mar 2021 10:25:55 -0600</pubDate>
+      
+      <guid>https://meefen.github.io/post/2021-03-07-zotero-annotation-beta/</guid>
+      <description>&lt;p&gt;Over the years, I have been interested in &lt;em&gt;scholarly workflows&lt;/em&gt; and, more recently, &lt;em&gt;knowledge infrastructures&lt;/em&gt; &amp;ndash; for both knowledge workers and young learners.&lt;/p&gt;
+&lt;p&gt;It has become a hobby for myself to reflect on my own workflows and explore tools that I could add to improve my scholarly practice. I was interested enough in this topic to give &lt;a href=&#34;https://bodong.me/talk/2020-07-bnu/&#34;&gt;a talk on this topic&lt;/a&gt; (in Mandarin) last summer.&lt;/p&gt;
+&lt;h2 id=&#34;annotation-software-as-knowledge-infrastructure&#34;&gt;Annotation software as knowledge infrastructure&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Annotation&lt;/em&gt; is, and has always been, an important part of knowledge processes.&lt;/p&gt;
+&lt;p&gt;I have been a heavy annotator since I learned to take notes as an elementary student. My high-school textbooks are covered with excessive marginalia. That&amp;rsquo;s where ideas from the textbook, my teachers, and myself interacted. I somehow never liked taking notes in a separate notebook because I relied too much on the note-taking contexts and connections. (Of course, as a student my learning at that time was very much focused on textbooks.)&lt;/p&gt;
+&lt;p&gt;As a researcher now, I still tend to heavily annotate papers that interest me, using a web annotation tool named &lt;em&gt;&lt;a href=&#34;https://hypothes.is/&#34;&gt;Hypothesis&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;No matter which tools are used, to me annotation is an important &amp;ldquo;move&amp;rdquo; in my scholarly workflow. It allows me to engage with the reading, connect with ideas I&amp;rsquo;m currently coping with, and reframe the content in relation to ideas in my mind. For a researcher, annotation tools &amp;ndash; when designed and used well &amp;ndash; provide an important &lt;em&gt;knowledge infrastructure&lt;/em&gt; that integrates reading and writing, spurs the creation of new ideas, and supports peer dialogues.&lt;/p&gt;
+&lt;p&gt;Unfortunately, many tools attempt to lock annotations within their own systems. This is understandable as many tool developers have reasons to maximize user engagement with their tools. As a result, researchers either need to do a great deal of manual work to piece together a workable workflow, or simply never attempt to fix their &amp;ldquo;disconnected&amp;rdquo; workflows. Time spent on reflecting on and tweaking our workflows is not explicitly rewarded, until you suddenly realize the benefits of doing so.&lt;/p&gt;
+&lt;p&gt;Zooming out to consider critiques on scholarly work in academia &amp;ndash; research transparency, peer review, and training of future-generation scholars &amp;ndash; &lt;strong&gt;web annotation technologies have matured to offer opportunities for anchored dialogues, portable &amp;amp; interoperable knowledge artifacts, open data, etc. What&amp;rsquo;s missing is a concerted effort to envision new social, cultural, political, and technical configurations to improve the larger system.&lt;/strong&gt; I believe this effort should not be led (only) by players with the most resources but be re-centered on the actual work and humans doing the work.&lt;/p&gt;
+&lt;h2 id=&#34;annotation-in-zotero&#34;&gt;Annotation in Zotero&lt;/h2&gt;
+&lt;p&gt;That&amp;rsquo;s a long way to say I welcome &lt;a href=&#34;https://www.zotero.org/support/pdf_reader_preview&#34;&gt;Zotero&amp;rsquo;s recent experiment with a build-in annotation facility&lt;/a&gt; based on the open-source pdf.js library. It&amp;rsquo;s still in &lt;em&gt;beta&lt;/em&gt; so treat it as work-in-progress.&lt;/p&gt;
+&lt;p&gt;After trying it myself, I found it already quite well designed. It provides an annotating experience that&amp;rsquo;s quite close to Hypothesis (which also integrates pdf.js). You can highlight, annotate, tag an annotation, add sticky notes, etc. What&amp;rsquo;s nice about the tagging system is it&amp;rsquo;s essentially the same as the Zotero library, allowing you to connect paper-level tags with tags made at the annotation level.&lt;/p&gt;
+&lt;p&gt;It even allows you to screen-capture in a paper &amp;ndash; a feature not available in Hypothesis yet.&lt;/p&gt;
+&lt;p&gt;What&amp;rsquo;s also nice is that you can create a paper-level summary with these annotations (see screensho below). In this summary, you can add paper-level commentaries. Within the created summary, you can also click on a &amp;ldquo;Show on Page&amp;rdquo; button of each imported annotation to go back to the original location of the annotation.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;zotero-annotation.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;After twenty minutes spent on the beta annotation tool, I find it already quite useful. Meanwhile, I also have a few suggestions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;First, can the summary page be exportable? A summary can be currently &amp;ldquo;exported&amp;rdquo; by copy-and-paste.&lt;/li&gt;
+&lt;li&gt;Second, can individual annotations be more retrievable? They can now accessed within the summary panel. Can annotations be made discoverable, referenceable, and citeable in other places &amp;ndash; such as the summary of another paper?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Overall, it&amp;rsquo;s exciting to see this new addition to Zotero &amp;ndash; a long-standing open-source tool that has benefited many, and I look forward to further improvements from the project team.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Where is Knowledge Building Analytics Headed?</title>
