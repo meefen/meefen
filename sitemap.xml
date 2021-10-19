@@ -3,28 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://meefen.github.io/authors/</loc>
+    <lastmod>2021-10-19T12:31:47-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meefen.github.io/authors/bodong-chen/</loc>
+    <lastmod>2021-10-19T12:31:47-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://meefen.github.io/</loc>
-    <lastmod>2021-03-07T10:25:55-06:00</lastmod>
+    <lastmod>2021-10-19T12:31:47-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meefen.github.io/tags/knowledge-infrastructure/</loc>
+    <lastmod>2021-10-19T12:31:47-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meefen.github.io/post/2021-10-knowledge-infrastructures/</loc>
+    <lastmod>2021-10-19T12:31:47-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meefen.github.io/tags/knowledge-infrastructures-knowledge-building/</loc>
+    <lastmod>2021-10-19T12:31:47-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://meefen.github.io/post/</loc>
-    <lastmod>2021-03-07T10:25:55-06:00</lastmod>
+    <lastmod>2021-10-19T12:31:47-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meefen.github.io/tags/</loc>
+    <lastmod>2021-10-19T12:31:47-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://meefen.github.io/post/2021-03-07-zotero-annotation-beta/</loc>
     <lastmod>2021-03-07T10:25:55-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meefen.github.io/authors/</loc>
-    <lastmod>2021-01-02T10:45:09-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meefen.github.io/authors/bodong-chen/</loc>
-    <lastmod>2021-01-02T10:45:09-05:00</lastmod>
   </url>
   
   <url>
@@ -79,11 +99,6 @@
   
   <url>
     <loc>https://meefen.github.io/tags/networked-learning/</loc>
-    <lastmod>2020-07-04T21:06:47-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meefen.github.io/tags/</loc>
     <lastmod>2020-07-04T21:06:47-05:00</lastmod>
   </url>
   
@@ -394,11 +409,6 @@
   
   <url>
     <loc>https://meefen.github.io/authors/jeremy-dean/</loc>
-    <lastmod>2018-11-01T00:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meefen.github.io/tags/knowledge-infrastructure/</loc>
     <lastmod>2018-11-01T00:00:00-05:00</lastmod>
   </url>
   
