@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://bodong.netlify.app/"
 theme = "hugo-apero"
 languageCode = "en"
 title = "Bodong Chen"
