@@ -1,9 +1,8 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Collaborative Learning at Scale"
 subtitle: ""
-summary: "The CSCL community has traditionally focused on collaborative learning in small groups or communities. Given the rise of mass collaboration and learning at scale, the community is facing unprecedented opportunity to expand its views to advance collaborative learning at scale. In this chapter, we first explicate the history and development of collaborative learning at scale and contend that both learning and collaboration need to be reconceptualized for the nascent context. We propose a framework that considers scale as either a problem to be mitigated or an asset to be harnessed, and then review pedagogical and technological innovations representing these two approaches. We conclude by discussing key tensions and challenges facing collaborative learning at scale."
+summary: "The CSCL community has traditionally focused on collaborative learning in small groups or communities. In this chapter, we propose a framework that considers scale as either a problem to be mitigated or an asset to be harnessed, and then review pedagogical and technological innovations representing these two approaches."
 authors: ["Bodong Chen", "Stian Håklev", "Carolyn Rosé"]
 tags: []
 categories: []

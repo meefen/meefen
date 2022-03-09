@@ -1,31 +1,24 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
-title: "Liquid Margins 15: Social Annotation: Bridging Theory & Practice"
-subtitle: ""
-summary: "Liquid Margins 15 focuses on the nexus between the work of researchers and practitioners: How learning scientists and instructors can partner to successfully implement and use social annotation in diverse disciplines across higher education. Guest moderator Bodong Chen, associate professor in learning technologies, will be joined by University of Minnesota colleagues Cindy Garcia, associate professor of theatre arts and dance; Malinda Lindquist, associate professor of history; and Xinran Zhu, PhD student in learning technologies."
-authors: []
-tags: []
-categories: []
-date: 2020-12-18T13:00:00-06:00
-lastmod: 2020-12-23T12:45:04-06:00
-featured: false
+author: Bodong Chen
+categories:
+- invited talks
+date: "2020-12-18"
+date_end: "2020-12-18"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ""
-  focal_point: ""
-  preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
+event: Liquid Margins
+event_url: https://web.hypothes.is/event/lm015/
+excerpt: "Liquid Margins 15 focuses on the nexus between the work of researchers and practitioners: How learning scientists and instructors can partner to successfully implement and use social annotation in diverse disciplines across higher education. Guest moderator Bodong Chen, associate professor in learning technologies, will be joined by University of Minnesota colleagues Cindy Garcia, associate professor of theatre arts and dance; Malinda Lindquist, associate professor of history; and Xinran Zhu, PhD student in learning technologies."
+featured: true
+layout: single
+links:
+- icon: door-open
+  icon_pack: fas
+  name: website
+  url: https://web.hypothes.is/event/lm015/
+location: Online
+show_post_time: false
+subtitle: ""
+title: "Liquid Margins 15: Social Annotation: Bridging Theory & Practice"
 ---
 
 [Liquid Margins 15](https://web.hypothes.is/event/lm015/) focuses on the nexus between the work of researchers and practitioners: How learning scientists and instructors can partner to successfully implement and use social annotation in diverse disciplines across higher education. Guest moderator Bodong Chen, associate professor in learning technologies, will be joined by University of Minnesota colleagues Cindy Garcia, associate professor of theatre arts and dance; Malinda Lindquist, associate professor of history; and Xinran Zhu, PhD student in learning technologies.

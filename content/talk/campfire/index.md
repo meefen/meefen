@@ -2,7 +2,7 @@
 author: Alison Hill
 categories:
 - workshop
-date: "2021-01-12"
+date: "2010-01-12"
 date_end: "2021-01-13"
 draft: false
 event: rstudio::global(2021)
