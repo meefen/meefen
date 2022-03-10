@@ -3,9 +3,9 @@ author: Bodong Chen
 categories:
 - software
 date: "2022-01-01"
-draft: true
+draft: false
 excerpt: Researching and promoting the Knowledge Building theory of learning, pedagogy, and technology.
-featured: false
+featured: true
 layout: single-sidebar
 links:
 - icon: door-open
