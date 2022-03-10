@@ -1,18 +1,16 @@
 ---
 ## Configure sidebar content in narrow column
 author: "Bodong Chen"
-role: ""
+role: "Lifelong Kindergartener"
 avatar_shape: rounded # circle, square, rounded, leave blank to exclude
 show_social_links: true # specify social accounts in site config
 # audio_link_label: "How to say my name" # leave blank to exclude
 # link_list_label: "Interests" # bookmarks, elsewhere, etc.
-# link_list:
-# - name: Paris
-#   url: https://en.wikipedia.org/wiki/Paris
-# - name: Pastries
-#   url: https://en.wikipedia.org/wiki/Pastry
-# - name: People
-#   url: https://en.wikipedia.org/wiki/People
+link_list:
+- name: Learning Futures Group
+  url: https://learningfutures.github.io/
+- name: Learning Informatics Lab
+  url: http://informatics.umn.edu/
 ---
 
 ** index doesn't contain a body, just front matter above.
