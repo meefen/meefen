@@ -4,9 +4,9 @@ categories:
 - grant
 - data science education
 date: "2021-07-01"
-draft: true
+draft: false
 excerpt: DataX is an NSF DRK-12 project that aims to develop an integrated, justice-oriented curriculum and a digital platform for teaching secondary students.
-featured: false
+featured: true
 layout: single-sidebar
 links:
 - icon: door-open
