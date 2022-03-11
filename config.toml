@@ -28,7 +28,7 @@ enableEmoji = true
     style = "github"
     
 [params]
-  orgName = "Bodong chen"
+  orgName = "Bodong Chen"
   orgLocal = "Anywhere"
   description = "Personal website"
   favicon = "/img/favicon.ico"
