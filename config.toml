@@ -5,7 +5,7 @@ title = "Bodong Chen"
 author = "Bodong Chen"
 copyright = "" # set to override the auto generated copyright using org info and now year
 googleAnalytics = "UA-50108133-1"
-disqusShortname = "" # see params.utterances to use utterances instead of Disqus
+disqusShortname = "meefen" # see params.utterances to use utterances instead of Disqus
 metaDataFormat = "yaml"
 footnoteReturnLinkContents = "&#8617;" # ↩
 # set deliberately low for testing choose your preffered number based on the blog layout you've chosen
@@ -70,7 +70,7 @@ enableEmoji = true
 
   # Configuration of https://utteranc.es/ for comments
   [params.utterances]
-    use_utterances = true
+    use_utterances = false
     repo_name = "apreshill/apero"
     issue_term = "pathname" # url, pathname, or title
     theme = "boxy-light"

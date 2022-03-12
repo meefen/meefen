@@ -3,13 +3,18 @@ title: Publications
 description: |
   This is home for my research publications, each linked with accompanying preprints, posters, and/or news pieces.
 author: "Bodong Chen"
-show_post_thumbnail: false
+# show_post_thumbnail: true
 thumbnail_left: true # for list-sidebar only
+# show_author_byline: true
+# show_post_date: true
+# # for listing page layout
+# layout: list # list, list-sidebar, list-grid
+layout: list
 show_author_byline: true
+show_button_links: true
 show_post_date: true
-# for listing page layout
-layout: list # list, list-sidebar, list-grid
-
+show_post_thumbnail: true
+show_post_time: true
 # for list-sidebar layout
 sidebar: 
   title: Blog
@@ -29,7 +34,7 @@ cascade:
   show_comments: false # see site config to choose Disqus or Utterances
   # for single-sidebar layout
   sidebar:
-    text_link_label: View recent posts
+    text_link_label: View recent publications
     text_link_url: /publication/
     show_sidebar_adunit: false # show ad container
 ---
