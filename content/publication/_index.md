@@ -3,7 +3,6 @@ title: Publications
 type: talk
 cascade:
   type: talk
-  author: "Bodong Chen"
   show_author_byline: true
   show_comments: false
   show_post_date: true
@@ -14,8 +13,7 @@ cascade:
     text_link_url: /publication/
     show_sidebar_adunit: false # show ad container
 description: |
-  This is home for my research publications, each linked with accompanying preprints, posters, and/or news pieces.
-author: "Bodong Chen"
+  This is home for my research publications, each linked with accompanying preprints, posters, and/or news pieces. **See [my CV](../file/BChen-CV-short.pdf) for more details.** 
 # show_post_thumbnail: true
 thumbnail_left: true # for list-sidebar only
 # show_author_byline: true

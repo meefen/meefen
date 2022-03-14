@@ -1,5 +1,4 @@
 ---
-author: Bodong Chen
 cascade:
   show_author_byline: true
   show_comments: false
@@ -8,7 +7,7 @@ cascade:
     show_sidebar_adunit: true
     text_link_label: View all projects
     text_link_url: /project/
-description: Research projects and open educational materials I have created.
+description: Research and other projects I have worked on.
 layout: list-grid
 show_author_byline: true
 show_button_links: false

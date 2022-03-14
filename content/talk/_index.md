@@ -1,7 +1,6 @@
 ---
 title: Recent Talks
 cascade:
-  author: Bodong Chen
   show_author_byline: true
   show_comments: false
   show_post_date: true
@@ -12,7 +11,6 @@ cascade:
     text_link_url: /talk/
 description: |
   This is a list for your talks, workshops, or other events with a time, date, and place.
-author: Bodong Chen
 layout: list
 show_author_byline: true
 show_button_links: true
