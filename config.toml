@@ -33,7 +33,8 @@ enableEmoji = true
   description = "Personal website"
   favicon = "/img/favicon.ico"
   logo = "/img/blogophonic-mark-dark.png"
-  mainSections = ["blog", "project", "talk"]
+  mainSections = ["blog", "project", "talk", "publication"]
+  yearlySections = ["talk", "publication"]
   navallcaps = true
   # show/hide social icons in site header & footer
   # configure social icons and links below in [[params.social]]
