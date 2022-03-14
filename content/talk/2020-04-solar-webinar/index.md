@@ -3,7 +3,7 @@
 
 title: "SoLAR Webinar: Analyzing Learning and Teaching through the Lens of Networks"
 subtitle: "by Society for Learning Analytics Research (SoLAR)"
-summary: "This webinar will explore the conceptual, methodological, and practical use of networks in learning analytics by presenting examples from real-world learning and teaching scenarios that cover the following areas. First, in learning analytics networks are a powerful tool to visually represent connections of all sorts in ways that are straightforward for humans to act upon. Second, network analysis offers a set of metrics that are useful for characterising and assessing various dimensions of learning. Third, the modelling of networks can help to develop explanatory theories about complex learning processes. We will present case studies in each area to demonstrate the utility of networks in learning analytics. By doing so, we argue for a wider conception of learning as a networked phenomenon and call for future learning analytics work in this area."
+summary: "A webinar exploring the conceptual, methodological, and practical use of networks in learning analytics by presenting examples from real-world learning and teaching scenarios that cover the following areas."
 authors: ["Sasha Poquet", "Bodong Chen"]
 tags: ["network analysis"]
 categories: []

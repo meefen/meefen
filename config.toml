@@ -29,7 +29,7 @@ enableEmoji = true
     
 [params]
   orgName = "Bodong Chen"
-  orgLocal = "Anywhere"
+  # orgLocal = "Anywhere"
   description = "Personal website"
   favicon = "/img/favicon.ico"
   logo = "/img/blogophonic-mark-dark.png"
