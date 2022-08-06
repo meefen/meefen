@@ -2,7 +2,7 @@
 action_label: Read More &rarr;
 action_link: /about
 action_type: text
-description: I am an Associate Professor in [Learning Technologies](https://lt.umn.edu/) and the Huebner Endowed Chair in Education & Technology at the [University of Minnesota](https://twin-cities.umn.edu/). I also co-direct the [Learning Informatics Lab](https://innovation.umn.edu/informatics/) of the [College of Education and Human Development](http://www.cehd.umn.edu/). My research is at the intersection of the learning sciences, learning analytics, and network science. My work is broadly published in different venues and funded by the National Science Foundation, Schmidt Futures, and the University of Minnesota Foundation.
+description: I am an Associate Professor in [Learning Sciences and Technologies](https://www.gse.upenn.edu/academics/programs/learning-sciences-technology-phd) at the [University of Pennsylvania Graduate School of Education](https://www.gse.upenn.edu/). My research is at the intersection of the learning sciences, learning analytics, and network science. I sit on the editorial boards of a number of journals, including The Internet and Higher Education, and was elected to the Executive Committee of the Society for Learning Analytics Research (SoLAR) and the Computer-Supported Collaborative Learning (CSCL) Committee of the International Society of the Learning Sciences (ISLS). 
 image_left: true
 images:
 - img/complexity.jpeg
