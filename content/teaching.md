@@ -6,7 +6,20 @@ show_title_as_headline: true
 title: Teaching
 ---
 
-I teach the following courses in the Department of Curriculum and Instruction at UMN:
+At Penn GSE, I teach the following courses:
+
+__EDUC 6144	Learning Sciences: Past, Present, Future__
+
+- Spring 2023
+
+__EDUC 6116 Master’s Foundations of Learning and Teaching__
+
+- Fall 2022
+
+
+----
+
+At the University of Minnesota, I've taught the following courses:
 
 __CI 8371: Applied Social Network Analysis in Education__\*
 

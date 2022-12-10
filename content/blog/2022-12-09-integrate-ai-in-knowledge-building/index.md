@@ -27,7 +27,7 @@ Like many, my social media feeds (in both English and Chinese) are recently floo
 
 I've been playing with GPT-3 in various contexts of my work and the panel offered me an opportunity to reflect on the interface between learning and generative AI. 
 
-I situate this reflection on my extensive work on support *Knowledge Building* in schools, through both technology design and school partnerships. 
+I situate this reflection on my extensive work on supporting *Knowledge Building* in schools, through both technology design and school partnerships. 
 
 One key goal of Knowledge Building is to make sure students have a greater say about what they learn and how they learn it. Using fancier terms, Knowledge Building aims to turn over greater *epistemic agency* and *cognitive responsiblity* to students by structuring learning around problems and ideas students hope to pursue. 
 
