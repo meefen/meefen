@@ -1,17 +1,13 @@
 ---
 title: Putting Generative AI in Classrooms
 author: Bodong Chen
-date: '2023-06-08'
+date: '2023-06-09'
 slug: []
 categories:
   - blog
 tags:
   - AI
   - chatgpt
-subtitle: ''
-excerpt: ''
-draft: yes
-series: ~
 layout: single
 ---
 
