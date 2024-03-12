@@ -8,14 +8,22 @@ title: Teaching
 
 At Penn GSE, I teach the following courses:
 
+__EDUC 5190	Applied Network Analysis in Learning__
+
+- [Spring 2024](https://penn-wonderlab.github.io/networks_book/intro.html)
+
 __EDUC 6144	Learning Sciences: Past, Present, Future__
 
-- Spring 2023
+- Spring 2023, Spring 2024
 
 __EDUC 6116 Master’s Foundations of Learning and Teaching__
 
-- Fall 2022
+- Fall 2022, Fall 2023
 
+__EDEN 5050: Foundations of Teaching, Learning, and Curriculum,
+Section 002: Digital Innovation for Learning in and out of School__
+
+- Spring 2024
 
 ----
 
