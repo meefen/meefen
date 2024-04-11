@@ -13,7 +13,7 @@ cascade:
     text_link_url: /publication/
     show_sidebar_adunit: false # show ad container
 description: |
-  This is home for my research publications, each linked with accompanying preprints, posters, and/or news pieces. **The list below is likely dated. See [my CV](../file/cv.html) for details.**
+  This is home for my research publications, each linked with accompanying preprints, posters, and/or news pieces. <br /> **The list below is likely dated. See **[my CV](../file/cv.html#pubs)** for recent publications.**
 # show_post_thumbnail: true
 thumbnail_left: true # for list-sidebar only
 # show_author_byline: true
