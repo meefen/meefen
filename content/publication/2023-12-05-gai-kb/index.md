@@ -1,6 +1,6 @@
 ---
 title: Integrating generative AI in knowledge building
-subtitle: Computers and Education: Artificial Intelligence
+subtitle: 'Computers and Education: Artificial Intelligence'
 author: "Bodong Chen, Xinran Zhu, & Fernando Díaz del Castillo H."
 date: '2023-11-11'
 slug: []
