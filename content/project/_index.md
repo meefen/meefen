@@ -7,7 +7,7 @@ cascade:
     show_sidebar_adunit: true
     text_link_label: View all projects
     text_link_url: /project/
-description: Research and other projects I have worked on.
+description: "See research projects at Penn GSE Wonder Lab: https://penn-wonderlab.github.io/research/"
 layout: list-grid
 show_author_byline: true
 show_button_links: false
@@ -15,7 +15,7 @@ show_post_date: false
 show_post_thumbnail: true
 sidebar:
   author: Bodong Chen
-  description: "Research projects and open educational materials I have created."
+  description: "See research projects at [Penn GSE Wonder Lab](https://penn-wonderlab.github.io/research/)."
   show_sidebar_adunit: false
   text_link_label: ""
   text_link_url: ""
