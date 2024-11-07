@@ -7,10 +7,8 @@ show_social_links: true # specify social accounts in site config
 # audio_link_label: "How to say my name" # leave blank to exclude
 # link_list_label: "Interests" # bookmarks, elsewhere, etc.
 link_list:
-- name: Learning Futures Group
-  url: https://learningfutures.github.io/
-- name: Learning Informatics Lab
-  url: http://informatics.umn.edu/
+- name: Penn Wonder Lab
+  url: https://penn-wonderlab.github.io/
 ---
 
 ** index doesn't contain a body, just front matter above.
