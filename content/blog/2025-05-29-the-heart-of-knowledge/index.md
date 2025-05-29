@@ -1,6 +1,6 @@
 ---
 title: 'The Heart of Knowledge: What Chinese Language Evolution Tells Us About the AI Societal Transformation'
-author: Bodong
+author: Bodong Chen
 date: '2025-05-29'
 slug: the-heart-of-knowledge
 categories:
@@ -9,8 +9,6 @@ tags:
   - AI
 subtitle: ''
 excerpt: ''
-draft: yes
-series: ~
 layout: single
 ---
 
