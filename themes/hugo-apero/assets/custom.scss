@@ -1,1 +1,12 @@
 // Override this file to add your own SCSS styling.
+// Make blog post feature images smaller
+article figure {
+    width: 100% !important;
+    max-width: 20% !important; // Change from 40% to 25% on desktop
+}
+
+@media screen and (max-width: 30em) {
+    article figure {
+        max-width: 80% !important; // Smaller on mobile too
+    }
+}
