@@ -19,7 +19,7 @@ layout: single
 
 A quiet shift is happening in how we speak and write, and most of us don't even notice it. Words like "delve," "underscore," and "realm" are suddenly everywhere in academic writing and speech. "[You sound like ChatGPT](https://www.theverge.com/openai/686748/chatgpt-linguistic-impact-common-word-usage)," before you started to notice.
 
-For example, Kobak et al. (2024) analyzed over 14 million PubMed abstracts from 2010-2024 and found certain words showed abrupt frequency increases following the release of ChatGPT. A more recent analysis of 280,000 YouTube videos showed a similar shift to reflect the AI's flavor.
+For example, Kobak et al. (2024) analyzed over 14 million PubMed abstracts from 2010-2024 and found certain words showed abrupt frequency increases following the release of ChatGPT. A more recent analysis of 280,000 YouTube videos showed a similar shift to reflect the AI's flavor (Yakura et al., 2025).
 
 But this isn't just about linguistic trends. It represents a fundamental threat to how humans learn and make meaning.
 
@@ -33,7 +33,7 @@ Wittrock called this **generative learning** because learners actively generate 
 
 The original idea of generative learning, grounded in the cognitive tradition, has been greatly expanded since then. With the advent of Web 2.0 and social media, the term generative learning also conveys the generation and iteration of external knowledge artifacts—wikis, shared documents, code repositories, and multimedia content that embody and extend human cognition beyond individual brains. This shift aligns with broader philosophical movements that challenge anthropocentric views of knowledge creation: such as work on object-centered sociality and actor-network theory that reveals how digital artifacts themselves possess agency in shaping learning processes. In this post-human understanding, generative learning becomes a distributed phenomenon where cognition is not contained within individual brains but emerges through entanglements between human intentions, algorithmic processes, platform affordances, and the material properties of digital objects themselves—transforming learning from a psychological process into an ecological one where knowledge generation occurs through the dynamic interactions between human and non-human actors in networked environments. 
 
-Despite the expansion and shifts, what remains true, I believe, is that **human idiosyncrasy still matters for learning with understanding**. 
+Despite these shifts, what remains true, I believe, is that **human idiosyncrasy matters for learning with understanding**. 
 
 
 ![](featured.svg)
@@ -52,16 +52,17 @@ Recent neuroscience research offers another perspective to this concern. Kosmyna
 
 This creates a profound dilemma for educators. How do we distinguish between a student's authentic understanding expressed in their own voice and AI-influenced expression using algorithmic language patterns? When students write about "delving into complex realms" and "underscoring pivotal insights," are they demonstrating genuine learning or unconsciously echoing AI's preferred vocabulary?
 
-**The stakes are definitely higher than plagiarism detection.** If students lose their distinctive ways of expressing ideas, they may also lose the personal connections that make learning meaningful and transferable. Generative learning depends on learners creating their own semantic associations or creating knowledge artifacts that reflect who they're—but if everyone's associations or production (if any) start sounding the same, something essential is lost.
+**The stakes are definitely higher than plagiarism detection.** If students lose their distinctive ways of expressing ideas, they may also lose the personal connections that make learning meaningful and transferable. Generative learning depends on learners creating their own semantic associations or creating knowledge artifacts that reflect who they're—but if everyone's associations or productions (if any) start sounding the same, something essential is lost.
 
 Consider a student explaining climate change. An authentic response might draw on their experiences with local weather patterns, their concerns about their hometown's future, or connections to their family's farming background. An AI-influenced response might "delve into the multifaceted complexities of this pivotal challenge" without revealing any personal meaning-making.
 
-Educators should not be dealing with this tension alone. Tool developers need to take additional responsibility. Current AI models are trained to produce text that humans perceive as high-quality, which often means formal, polished, or sometimes flattery language. This creates a feedback loop where AI learns to mimic elevated language, humans unconsciously adopt these patterns, and the cycle continues. This feature of LLMs now becomes a bug for our society.
+Educators should not be dealing with this tension alone. Tool developers need to take additional responsibility. Current AI models are trained to produce text that humans perceive as high-quality, which often means formal, polished, or sometimes flattery language. This creates a feedback loop where AI learns to mimic elevated language, humans unconsciously adopt these patterns, and the cycle continues. As shown by these recent studies, **this feature of LLMs now becomes a bug for our society**.
+
 ## Preserving Human Meaning-Making: Open Questions
 
-This challenge raises fundamental questions that educators and developers urgently need to address. 
+This challenge raises fundamental questions that educators and developers urgently need to address:
 
-The question becomes: How do we design AI tools that enhance human expression rather than homogenize it? How do we preserve what the "idiosyncratic" nature of learning while leveraging AI's capabilities?
+How do we design AI tools that enhance human expression rather than homogenize it? How do we preserve what the "idiosyncratic" nature of learning while leveraging AI's capabilities?
 
 How can we better value the "idiosyncratic-ness" of student expression as an indicator of authentic learning? What interventions help students maintain their distinctive voice while working with AI tools? Can we design AI interactions that enhance rather than homogenize student expression? How do we preserve cognitive diversity in an age of algorithmic standardization?
 
