@@ -1,12 +1,9 @@
 ---
 title: Publications
-type: talk
 cascade:
-  type: talk
   show_author_byline: true
   show_comments: false
   show_post_date: true
-  show_post_time: true
   # for single-sidebar layout
   sidebar:
     text_link_label: View recent publications

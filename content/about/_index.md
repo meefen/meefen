@@ -1,6 +1,10 @@
 ---
 cascade:
-  headless: true
+  - build:
+      render: never
+      list: never
+    _target:
+      kind: page
 description: |
   Personal website of Bodong Chen
 show_header: true

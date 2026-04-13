@@ -6,11 +6,8 @@ author = "Bodong Chen"
 copyright = "" # set to override the auto generated copyright using org info and now year
 googleAnalytics = "G-GRKJN0JFNZ"
 disqusShortname = "meefen" # see params.utterances to use utterances instead of Disqus
-metaDataFormat = "yaml"
-footnoteReturnLinkContents = "&#8617;" # ↩
 # set deliberately low for testing choose your preffered number based on the blog layout you've chosen
 paginate = 5
-preserveTaxonomyNames = true
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
 enableEmoji = true
 
@@ -66,7 +63,7 @@ enableEmoji = true
   customheadingFontFamily = ""
   # alternatively, leave empty and select basic font options: sans-serif or serif
   # for more http://tachyons.io/docs/typography/font-family/
-  textFontFamily = "Avenir, sans-serif"
+  textFontFamily = "Atkinson Hyperlegible, sans-serif"
   headingFontFamily = "Metropolis, sans-serif"
 
   # Configuration of https://utteranc.es/ for comments
