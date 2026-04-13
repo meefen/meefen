@@ -4,7 +4,7 @@ languageCode = "en"
 title = "Bodong Chen"
 author = "Bodong Chen"
 copyright = "" # set to override the auto generated copyright using org info and now year
-googleAnalytics = "UA-50108133-1"
+googleAnalytics = "G-GRKJN0JFNZ"
 disqusShortname = "meefen" # see params.utterances to use utterances instead of Disqus
 metaDataFormat = "yaml"
 footnoteReturnLinkContents = "&#8617;" # ↩
@@ -170,7 +170,7 @@ enableEmoji = true
   [privacy.instagram]
     disable = false
     simple = true
-  [privacy.twitter]
+  [privacy.x]
     disable = false
     enableDNT = true
     simple = false
