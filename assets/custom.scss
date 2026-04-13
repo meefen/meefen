@@ -1,0 +1,11 @@
+// Make blog post feature images smaller
+article figure {
+    width: 100% !important;
+    max-width: 20% !important;
+}
+
+@media screen and (max-width: 30em) {
+    article figure {
+        max-width: 80% !important;
+    }
+}
