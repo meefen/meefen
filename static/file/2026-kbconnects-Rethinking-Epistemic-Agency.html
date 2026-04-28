@@ -1083,7 +1083,7 @@ Bodong Chen, Katherine Guangji Yuan, Chew Lee Teo, Monica Ong, <br>Lydia Cao, Xu
 <div style="font-size: 1.1em;">
 <ol type="1">
 <li><strong>Introduction &amp; framing</strong></li>
-<li><strong>Rethinking Epistemic Agency</strong> <em>(Chen)</em></li>
+<li><strong>Tracing Epistemic Agency</strong> <em>(Chen)</em></li>
 <li><strong>Vibe-coding Projects for Secondary Students</strong> <em>(Yuan, Teo &amp; Ong)</em></li>
 <li><strong>Teachers as Inventors Through KB and Vibe Coding</strong> <em>(Cao, Feng, Teo)</em></li>
 <li><strong>Open Discussion</strong></li>
@@ -1111,7 +1111,7 @@ display:block!important;
 <div style="font-size: 0.9em;">
 <ul>
 <li><em>Orchestrating the “Dance of Agency” in Science Education</em> (Tao)</li>
-<li><em>Vibe-coding Projects for Secondary Students</em> (Yuan, Teo &amp; Ong)</li>
+<li><strong><em>Vibe-coding Projects for Secondary Students</em></strong> (Yuan, Teo &amp; Ong)</li>
 <li><em>Promoting Epistemic Agency via AI</em> (Cacciamani &amp; Khanlari)</li>
 <li><em>Manifesting New Knowledge Building Attitudes</em> (Weng &amp; Horng)</li>
 <li><em>Shared Epistemic Agency with Generative AI</em> (Oshima &amp; Naganuma)</li>
@@ -1153,7 +1153,27 @@ display:block!important;
 <div class="column" style="width:55%;">
 <p>If you were asked to define <strong>epistemic agency</strong> in one or two phrases, which words feel essential?</p>
 <p>Drop them on the board.</p>
-<p>2 minutes. All improvable ideas.</p>
+<p>All are improvable ideas.</p>
+<div style="text-align:center; margin-top:1em;">
+  <div id="timer-display" style="font-size:1.5em; font-weight:bold; color:#e67e22; font-family:monospace; cursor:pointer; user-select:none;" title="Click to start / stop">2:00</div>
+</div>
+<script>
+(function () {
+  var display = document.getElementById('timer-display');
+  var secs = 120, iv = null;
+  function fmt(s) { var m = Math.floor(s/60), r = s%60; return m + ':' + (r < 10 ? '0' : '') + r; }
+  display.addEventListener('click', function () {
+    if (display.textContent === 'Done!') { secs = 120; display.textContent = '2:00'; display.style.color = '#e67e22'; return; }
+    if (iv) { clearInterval(iv); iv = null; return; }
+    iv = setInterval(function () {
+      secs--;
+      display.textContent = fmt(secs);
+      display.style.color = secs <= 30 ? '#c0392b' : '#e67e22';
+      if (secs <= 0) { clearInterval(iv); iv = null; display.textContent = 'Done!'; }
+    }, 1000);
+  });
+})();
+</script>
 </div><div class="column" style="width:45%;">
 <p><a href="https://www.tldraw.com/f/-xioWzB3sH2VKi8xWtpV9?d=v0.0.1468.936.page">https://www.tldraw.com/f/-xioWzB3sH2VKi8xWtpV9?d=v0.0.1468.936.page</a></p>
 <p><img role="img" data-src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNyAzNyIgc2hhcGUtcmVuZGVyaW5nPSJjcmlzcEVkZ2VzIj48cGF0aCBmaWxsPSIjZmZmZmZmIiBkPSJNMCAwaDM3djM3SDB6Ii8+PHBhdGggc3Ryb2tlPSIjMDAwMDAwIiBkPSJNMCAwLjVoN20zIDBoMW0yIDBoMm0xIDBoMW0xIDBoMW0xIDBoMW0zIDBoMW0xIDBoMW0zIDBoN00wIDEuNWgxbTUgMGgxbTIgMGgybTIgMGgybTIgMGgzbTIgMGgxbTEgMGgybTQgMGgxbTUgMGgxTTAgMi41aDFtMSAwaDNtMSAwaDFtMSAwaDRtMSAwaDFtNSAwaDRtMSAwaDFtMyAwaDFtMSAwaDFtMSAwaDNtMSAwaDFNMCAzLjVoMW0xIDBoM20xIDBoMW0xIDBoMW0xIDBoMW0yIDBoMW0xIDBoMW0zIDBoMm0zIDBoNW0xIDBoMW0xIDBoM20xIDBoMU0wIDQuNWgxbTEgMGgzbTEgMGgxbTEgMGgxbTEgMGgxbTIgMGgybTEgMGgxbTEgMGgzbTIgMGgybTMgMGgxbTEgMGgxbTEgMGgzbTEgMGgxTTAgNS41aDFtNSAwaDFtMSAwaDJtMiAwaDVtMSAwaDFtMSAwaDFtMSAwaDFtMSAwaDFtMiAwaDFtMiAwaDFtNSAwaDFNMCA2LjVoN20xIDBoMW0xIDBoMW0xIDBoMW0xIDBoMW0xIDBoMW0xIDBoMW0xIDBoMW0xIDBoMW0xIDBoMW0xIDBoMW0xIDBoMW0xIDBoN004IDcuNWg1bTIgMGgybTIgMGgxbTMgMGgxbTIgMGgzTTAgOC41aDFtMSAwaDVtMiAwaDFtMiAwaDFtMSAwaDJtMiAwaDFtMSAwaDNtMSAwaDFtMiAwaDJtMSAwaDVNMCA5LjVoMW0zIDBoMm0zIDBoMW0xIDBoMW0xIDBoNW02IDBoMW0xIDBoMW0xIDBoMW0yIDBoMW0zIDBoMU0yIDEwLjVoMW0xIDBoMW0xIDBoMW0zIDBoMm0yIDBoMW0zIDBoMW0xIDBoNW0yIDBoNG0yIDBoNE0wIDExLjVoMW0xIDBoMm00IDBoM20yIDBoMW0yIDBoMW0xIDBoMW0yIDBoNG0xIDBoMW0yIDBoMW0zIDBoMW0yIDBoMU0xIDEyLjVoMm0xIDBoMW0xIDBoMW0yIDBoMW0yIDBoMW0xIDBoMW0xIDBoM20xIDBoMW0xIDBoMW0xIDBoM20yIDBoNG0xIDBoM004IDEzLjVoMm0xIDBoMm0yIDBoM20xIDBoMW0xIDBoM20xIDBoMm0xIDBoMm0xIDBoMW0zIDBoMk0xIDE0LjVoMW0xIDBoMm0xIDBoMW0zIDBoMW00IDBoMW0xIDBoMW0zIDBoMW0zIDBoMW0xIDBoMW0zIDBoM20xIDBoMk0yIDE1LjVoMW0xIDBoMm0yIDBoMm0xIDBoMm0yIDBoMW0xIDBoM20xIDBoM20yIDBoM20xIDBoM20zIDBoMU0wIDE2LjVoMm0xIDBoMW0yIDBoMW0yIDBoMm0zIDBoMW0xIDBoMW00IDBoMW0xIDBoMW0yIDBoMW0zIDBoMW0xIDBoMW0xIDBoMW0xIDBoMU0wIDE3LjVoNG01IDBoNG0xIDBoMm0yIDBoMW0xIDBoMW0xIDBoM20xIDBoMm01IDBoM00xIDE4LjVoNG0xIDBoNW0xIDBoMm0xIDBoNW0xIDBoMW0xIDBoMW0xIDBoMm0yIDBoMm0xIDBoMW0yIDBoMk0wIDE5LjVoMm0xIDBoM20xIDBoNG0zIDBoMm0yIDBoNG0xIDBoMm0xIDBoNG0xIDBoMW0xIDBoMW0yIDBoMU0xIDIwLjVoMW0xIDBoMm0xIDBoMm0yIDBoMW00IDBoMm0yIDBoMW0yIDBoMW0xIDBoMm0xIDBoMW0xIDBoMm0xIDBoMW0xIDBoMU0wIDIxLjVoMm0xIDBoMm01IDBoM20xIDBoMW0xIDBoMW0zIDBoMW0yIDBoMm0zIDBoMm0zIDBoMW0xIDBoMU0xIDIyLjVoMW0xIDBoMW0yIDBoMW0zIDBoMW00IDBoMW0yIDBoMW0zIDBoMW0yIDBoMW0xIDBoMW0zIDBoM20xIDBoMk0wIDIzLjVoMW0xIDBoMW0xIDBoMm0yIDBoNG0yIDBoMm0zIDBoMW03IDBoMm0yIDBoMm0zIDBoMU0wIDI0LjVoMW01IDBoMW0yIDBoM20yIDBoMW0zIDBoNm0zIDBoMW0yIDBoM20xIDBoM00wIDI1LjVoMm0xIDBoM20xIDBoMm0xIDBoMm0xIDBoMW0xIDBoMm02IDBoM20xIDBoMm0xIDBoMm0yIDBoMU0wIDI2LjVoMW0xIDBoMW0xIDBoMW0xIDBoMW0zIDBoMW0xIDBoMW0xIDBoMW0yIDBoMW0yIDBoMm0xIDBoNG0yIDBoM20yIDBoM00wIDI3LjVoMW0xIDBoM200IDBoMm01IDBoMW0xIDBoMW0yIDBoMm0xIDBoMW0yIDBoMW0xIDBoMW0xIDBoMk0wIDI4LjVoMW0yIDBoMm0xIDBoMm0yIDBoMW01IDBoMW0zIDBoMW0xIDBoMW0xIDBoMTFtMSAwaDFNOCAyOS41aDFtMSAwaDJtNSAwaDVtMSAwaDFtNCAwaDFtMyAwaDJtMSAwaDFNMCAzMC41aDdtMiAwaDFtMSAwaDFtMiAwaDRtMiAwaDJtMyAwaDFtMiAwaDFtMSAwaDFtMSAwaDFtMSAwaDNNMCAzMS41aDFtNSAwaDFtMSAwaDFtMSAwaDJtMyAwaDFtMSAwaDdtNCAwaDFtMyAwaDJtMSAwaDFNMCAzMi41aDFtMSAwaDNtMSAwaDFtMSAwaDFtMSAwaDJtNCAwaDFtNCAwaDFtMSAwaDFtMSAwaDFtMSAwaDZtMSAwaDNNMCAzMy41aDFtMSAwaDNtMSAwaDFtMSAwaDFtMSAwaDRtMSAwaDFtMSAwaDJtMSAwaDFtMSAwaDNtMSAwaDNtMSAwaDFtMSAwaDFtMiAwaDFNMCAzNC41aDFtMSAwaDNtMSAwaDFtMSAwaDFtMSAwaDNtMSAwaDZtMiAwaDFtMSAwaDJtMiAwaDFtNCAwaDFtMiAwaDFNMCAzNS41aDFtNSAwaDFtMiAwaDFtMyAwaDFtMSAwaDFtMyAwaDRtMSAwaDFtMSAwaDJtMSAwaDJtMSAwaDJtMiAwaDFNMCAzNi41aDdtMSAwaDFtMyAwaDJtMSAwaDFtMSAwaDFtMSAwaDhtMiAwaDJtMSAwaDFtMSAwaDMiLz48L3N2Zz4K" width="200"></p>
@@ -1219,7 +1239,7 @@ display:block!important;
 <div class="fragment">
 <p>A slightly more academic definition:</p>
 <blockquote>
-<p>The capacity to <strong>actively engage in and control</strong> one’s own belief formation and reflection processes, rather than passively accepting information.</p>
+<p>The capacity to <strong>actively engage in and control</strong> one’s own <strong>belief formation and reflection</strong> processes, rather than passively accepting information.</p>
 <p>— Ahlstrom-Vij (2013)</p>
 </blockquote>
 </div>
@@ -1245,27 +1265,27 @@ display:block!important;
 <td style="text-align: left;">Form beliefs in light of reasons</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Reflective endorsement</strong></td>
-<td style="text-align: left;">Hold a view, on one’s own grounds</td>
+<td style="text-align: left;"><strong>Active endorsement</strong></td>
+<td style="text-align: left;">Actively reason your way to a belief</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><strong>Apt judgment</strong></td>
-<td style="text-align: left;">Settle a question; close inquiry well</td>
+<td style="text-align: left;">Achieve truth through one’s own competence, not luck</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Socially extended practice</strong></td>
-<td style="text-align: left;">Rely on, defer to, and contest others</td>
+<td style="text-align: left;"><strong>Epistemic dependence</strong></td>
+<td style="text-align: left;">Rationally rely on expertise beyond one’s own</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>Collective / shared agency</strong></td>
-<td style="text-align: left;">Co-construct what <em>we</em> hold and pursue</td>
+<td style="text-align: left;"><strong>Group agency</strong></td>
+<td style="text-align: left;">Collective understanding, intention, responsibility</td>
 </tr>
 </tbody>
 </table>
 </div>
 
 <aside class="notes">
-<p>Contemporary epistemology has moved past the old voluntarism debate. Agency is no longer located in voluntary fiat over belief — that view was abandoned. It now lives across at least these five faces. Knowledge Building has implicit commitments to several of them but tends to talk about only one or two.</p>
+<p>The old voluntarist picture — agency as believing at will — was dismantled by Bernard Williams and then by Hieronymi (2008) and Boyle (2009), who showed that belief is constitutively answerable to reasons: you cannot simply decide to believe, because belief already owes itself to evidence and argument. Rows 1–2 draw on their work: Hieronymi on reasons-responsiveness, Boyle on how actively reasoning to a belief lets one own it as one’s own. Row 3 follows Sosa (2015): an apt judgment is true because it manifests the agent’s competence — not because of luck. Rows 4–5 shift to social epistemology: Hardwig (1985) on the rationality of deferring to experts; Fricker (2007) on contesting testimony as an agentive (and politicized) act; Tollefsen (2015) and Lackey (2021) on genuine group-level agency and knowledge. KB tends to foreground only the managerial face — who controls inquiry — while leaving these richer dimensions largely implicit.</p>
 <style type="text/css">
 span.MJX_Assistive_MathML {
 position:absolute!important;
@@ -1278,7 +1298,7 @@ overflow: hidden!important;
 display:block!important;
 }</style></aside>
 <aside><div>
-<p>Hieronymi (2006, 2008); Boyle (2009, 2024); Sosa (2015); Hardwig (1985); M. Fricker (2007); Lackey (2021); Tollefsen (2015).</p>
+<p>Hieronymi (2008); Boyle (2009); Sosa (2015); Hardwig (1985); Fricker (2007); Lackey (2021); Tollefsen (2015).</p>
 </div></aside></section>
 <section id="two-kinds-of-agency" class="slide level2">
 <h2>Two kinds of agency</h2>
@@ -1291,7 +1311,7 @@ display:block!important;
 <li>settle what is true</li>
 <li>own a judgment</li>
 <li>revise in light of reasons</li>
-<li>stand answerable for it</li>
+<li>stand answerable to new evidence</li>
 </ul>
 </div><div class="column" style="width:50%;">
 <h3 id="managerial-control"><strong>Managerial</strong> control</h3>
@@ -1305,7 +1325,7 @@ display:block!important;
 </div></div>
 
 <aside class="notes">
-<p>This is Hieronymi’s distinction. Managerial control is the indirect agency we exercise over attitudes — taking a course, looking up evidence, deciding to keep thinking. Evaluative control is the constitutive agency we exercise <em>in</em> believing — settling for ourselves whether p, in light of reasons. The crucial point is the second: we are responsible for what we believe even though we cannot believe at will, because belief is constitutively answerable to reasons. Why does this distinction matter for us today? Because the two require different scaffolds.</p>
+<p>This is Hieronymi’s distinction. Managerial control is the indirect agency we exercise over attitudes — taking a course, looking up evidence, deciding to keep thinking. Evaluative control is the constitutive agency we exercise <em>in</em> believing — settling for ourselves whether p, in light of reasons. The crucial point is the second: we are responsible for what we believe even though we cannot believe at will, because belief is constitutively answerable to reasons. Hieronymi also shows that managerial control necessarily involves evaluative control at two points — when one forms the intention to manage, and when the managed attitude is actually formed (pp. 153–154). So the two are not cleanly separable. Applied to KB: even the managerial activities KB foregrounds — deciding what to pursue, judging what counts as progress — must involve evaluative control. KB doesn’t escape it; it just doesn’t theorize it. That gap is what we need to design for.</p>
 <style type="text/css">
 span.MJX_Assistive_MathML {
 position:absolute!important;
@@ -1328,6 +1348,7 @@ display:block!important;
 <p><em>Epistemic agency</em> — students taking on <strong>“high-level decision-making about long-range goals, inquiry strategies, social arrangements, and criteria of success.”</strong></p>
 </blockquote>
 </div>
+<div class="fragment">
 <p>High-level agency emphasizes the <strong><em>managerial</em></strong>:</p>
 <ul>
 <li><em>who</em> decides</li>
@@ -1335,6 +1356,7 @@ display:block!important;
 <li><em>how</em> to organize</li>
 <li><em>what counts</em> as success</li>
 </ul>
+</div>
 <aside class="notes">
 <p>Read with philosophical eyes, the canonical KB gloss on epistemic agency is almost entirely about managerial control — who controls inquiry, not the structure of belief itself. Damșa et al.’s shared epistemic agency, the most cited recent extension, is similarly weighted toward the regulative dimension. None of this is wrong. But it is a partial picture of what KB classrooms actually cultivate.</p>
 <style type="text/css">
@@ -1412,14 +1434,14 @@ The names already exist. We just have not been using them.
 The right column is not a quiz — it's a homecoming. Hieronymi's evaluative control is what idea improvement and rise-above already do: settle, in one's own name, what the community will stand by. Battaly's niche-relative virtues is what KF scaffolds, repeated across years, already cultivate. Lackey's group epistemic agent is the apparatus for "community knowledge" — not aggregation, but a genuine subject that emerges from collective evidence and rational deliberation. Pritchard's anti-luck condition is what "real ideas, authentic problems" was already aimed at. The point is not to import jargon. It is to recognize that the philosophical literature has, in parallel, written the names for what KB has been practicing — and the synthesis is overdue.
 ::: -->
 </section>
-<section id="evaluative-control-a-gap" class="slide level2">
-<h2><em>Evaluative</em> control – A gap?</h2>
+<section id="evaluative-control-worth-more-attention" class="slide level2">
+<h2><em>Evaluative</em> control – Worth more attention?</h2>
 <p>KB’s key commitment <em>(Bereiter, 2002)</em>: shift students from <strong>belief mode</strong> — ideas as claims to accept or reject — into <strong>design mode</strong> — ideas as artifacts to be improved. That move is sound and much needed!</p>
 <div class="fragment" style="margin-top: 0.6em;">
-<p>But what’s under-developed: students’ <strong>evaluative agency</strong> <em>(Hieronymi, 2008)</em> — settling, on reasons of one’s own, what one believes — and the <strong>responsibilist virtues</strong> that support it, e.g., curiosity, humility, attentiveness.</p>
+<p>But what’s under-developed: students’ <strong>evaluative control</strong> over beliefs <em>(Hieronymi, 2008)</em> and the <strong>responsibilist virtues</strong> that support it, e.g., curiosity, humility, attentiveness.</p>
 </div>
 <div class="fragment key-point" style="margin-top: 0em;">
-<p><strong>AI heightens the gap.</strong> LLMs produce text with confidence and opacity. Evaluative agency and associated intellectual virtues are even more important.</p>
+<p><strong>AI heightens the need for evaluative control.</strong> LLMs produce confidence prose but through opaque processes. Evaluative agency and associated intellectual virtues are even more important.</p>
 </div>
 
 <aside class="notes">
@@ -1534,13 +1556,14 @@ Timms and Spurrett's distinction sharpens the design question. Benign scaffoldin
 <h2>AI can do either when embedded in an environment</h2>
 <!-- note: i am dropping the benign vs hostile contrast as it's less useful.  -->
 <div class="columns">
-<div class="column" style="width:45%;">
+<div class="column fragment" style="width:40%;">
 <div style="font-size: 0.85em; padding: 0.6em; background-color: #f0f7fb; border-left: 4px solid var(--accent-calm);">
 <p><strong>Cassinadri (2024)</strong> — <em>contextual virtue epistemology</em></p>
-<p>A calculator in early arithmetic and a calculator in advanced physics are not the same artifact. The educator’s design judgment is what makes one virtue-supporting and the other virtue-undermining.</p>
+<p>A calculator in early arithmetic and a calculator in advanced physics are not the same artifact.</p>
+<p>The educator’s design judgment is what makes one <strong>cultivate</strong> epistemic agency and the other <strong>substitute for</strong> it.</p>
 </div>
-</div><div class="column fragment" style="width:55%;">
-<p>Whether AI <strong>cultivates</strong> or <strong>substitutes for</strong> epistemic agency turns on:</p>
+</div><div class="column fragment" style="width:60%;">
+<p>Whether AI <strong>cultivates</strong> or <strong>substitutes for</strong> epistemic agency depends on:</p>
 <ul>
 <li>who <strong>produces</strong> the idea — student, with AI as material? or AI, with student as reviewer?</li>
 <li>whether <strong>productive frictions</strong> (struggle, forgetting, working memory) are preserved</li>
@@ -1549,7 +1572,7 @@ Timms and Spurrett's distinction sharpens the design question. Benign scaffoldin
 </ul>
 </div></div>
 <aside class="notes">
-<p>Cassinadri’s framing is important because it dissolves the false binary “AI helps vs. AI harms.” The same tool with the same prompt can be virtue-cultivating or virtue-substituting depending on what surrounds it. The educator-as-designer is what determines which. KB has <em>already</em> been doing this kind of design — interposing community discourse between sources and shared knowledge has been a principle since CSILE. The AI moment is asking us to do it more deliberately.</p>
+<p>Cassinadri’s framing is important because it dissolves the false binary “AI helps vs. AI harms.” The same tool with the same prompt can cultivate or substitute for epistemic agency depending on what surrounds it. The educator-as-designer is what determines which. KB has <em>already</em> been doing this kind of design — interposing community discourse between sources and shared knowledge has been a principle since CSILE. The AI moment is asking us to do it more deliberately.</p>
 <style type="text/css">
 span.MJX_Assistive_MathML {
 position:absolute!important;
@@ -1562,19 +1585,19 @@ overflow: hidden!important;
 display:block!important;
 }</style></aside>
 </section>
-<section id="scenario-1-substituted-ai-as-oracle" class="slide level2">
-<h2>Scenario 1 — Substituted: AI as oracle</h2>
+<section id="scenario-1-ai-as-oracle" class="slide level2">
+<h2>Scenario 1 — AI as oracle</h2>
 <div class="columns">
 <div class="column" style="width:55%;">
 <div style="border: 1px solid #d6d6d6; border-radius: 12px; padding: 0.9em 1em; background-color: #fafafa; font-size: 0.85em; box-shadow: 0 2px 6px rgba(0,0,0,0.06);">
-<div style="padding: 0.4em 0.8em; background-color: #eef3f8; border-radius: 8px; margin-bottom: 0.5em;">
+<div style="padding: 0.2em 0.8em; background-color: #eef3f8; border-radius: 8px; margin-bottom: 0.5em;">
 <p><strong>Class:</strong> “AI, which of our notes is most promising?”</p>
 </div>
-<div style="padding: 0.4em 0.8em; background-color: #fdecea; border-radius: 8px; border-left: 3px solid var(--accent-warning);">
+<div style="padding: 0.2em 0.8em; background-color: #fdecea; border-radius: 8px; border-left: 3px solid var(--accent-warning);">
 <p><strong>AI:</strong> Top 3 promising notes:<br>
 1. Note #42 (0.91) 2. Note #17 (0.88) 3. Note #29 (0.84)</p>
 </div>
-<div style="text-align: center; margin-top: 0.6em; color: var(--accent-warning); font-style: italic;">
+<div style="text-align: center; margin-top: 0.1em; color: var(--accent-warning); font-style: italic;">
 <p>Students accept the ranking.</p>
 </div>
 </div>
@@ -1588,7 +1611,7 @@ display:block!important;
 </ul>
 </div>
 </div></div>
-<div style="margin-top: 0.8em; padding: 0.5em 1em; background-color: #fdecea; border-left: 4px solid var(--accent-warning); font-size: 0.9em;">
+<div class="fragment" style="margin-top: 0.8em; padding: 0.5em 1em; background-color: #fdecea; border-left: 4px solid var(--accent-warning); font-size: 0.9em;">
 <p>AI output as <strong>conclusions</strong> – which narrow <strong>imagination</strong>.</p>
 </div>
 <aside class="notes">
@@ -1605,8 +1628,8 @@ overflow: hidden!important;
 display:block!important;
 }</style></aside>
 </section>
-<section id="scenario-2-cultivated-ai-as-material" class="slide level2">
-<h2>Scenario 2 — Cultivated: AI as material</h2>
+<section id="scenario-2-ai-manufactures-new-material" class="slide level2">
+<h2>Scenario 2 — AI manufactures new material</h2>
 <div class="columns">
 <div class="column" style="width:55%;">
 <div style="text-align: center; margin-top: 0.4em; font-size: 0.85em; color: var(--accent-growth); font-style: italic;">
@@ -1623,8 +1646,8 @@ display:block!important;
 </ul>
 </div>
 </div></div>
-<div style="margin-top: 0.8em; padding: 0.5em 1em; background-color: #eafaf1; border-left: 4px solid var(--accent-growth); font-size: 0.9em;">
-<p>AI output enters as <strong>material</strong> — <em>same AI, different design decision about who holds the judgment.</em></p>
+<div class="fragment" style="margin-top: 0.8em; padding: 0.5em 1em; background-color: #eafaf1; border-left: 4px solid var(--accent-growth); font-size: 0.9em;">
+<p>AI output enters as <strong>material</strong> — which offers <strong>new representations</strong> for ideas.</p>
 </div>
 <aside class="notes">
 <p>Path two. Same AI, same KB practice — judging promising ideas — but the model is asked to surface material that the community then judges. AI output enters as something to be worked on. Production stays distributed; community discourse stays in place; the struggle and disagreement that are productive frictions for evaluative control are preserved. The differentiator is not the tool. It is the design decision about who holds the judgment. KB has been doing this kind of design move since CSILE — interposing community discourse between sources and shared knowledge — and it generalizes directly to AI.</p>
@@ -1685,18 +1708,18 @@ to nurture epistemic agency -->
 <p><strong>Libraries · museums</strong><br> <span style="font-size: 0.9em;">slow, curated, citation-rich</span></p>
 </div>
 <div style="padding: 0.4em 0.8em; background-color: #eafaf1; border-left: 4px solid var(--accent-growth); border-radius: 6px; line-height: 1.3;">
-<p><strong>Skate parks</strong><br> <span style="font-size: 0.9em;">failure honored, peer learning</span></p>
+<p><strong>Skate parks</strong><br> <span style="font-size: 0.9em;">agency-first, failure-normed</span></p>
 </div>
 </div><div class="column" style="width:50%;">
 <div style="padding: 0.4em 0.8em; background-color: #fdecea; border-left: 4px solid var(--accent-warning); border-radius: 6px; margin-bottom: 0.3em; line-height: 1.3;">
 <p><strong>Social media feeds</strong><br> <span style="font-size: 0.9em;">engagement-optimized</span></p>
 </div>
 <div style="padding: 0.4em 0.8em; background-color: #fdecea; border-left: 4px solid var(--accent-warning); border-radius: 6px; line-height: 1.3;">
-<p><strong>AI answer machines</strong><br> <span style="font-size: 0.9em;">frictionless, hides nuances</span></p>
+<p><strong>AI chatbots</strong><br> <span style="font-size: 0.9em;">helpful, but frictionless</span></p>
 </div>
 </div></div>
 <div class="fragment" style="margin-top: 0.5em; padding: 0.5em 1em; background-color: #fef5e7; border-left: 4px solid var(--accent-warm); font-size: 0.95em;">
-<p>Broader spaces where epistemic agency can be excercised and where intellectual virtues matter – the same virtues KB attempt to cultivate.</p>
+<p>Consider broader spaces where epistemic agency can be excercised and where intellectual virtues matter.</p>
 </div>
 <!-- ::: aside
 Timms & Spurrett (2023) on hostile scaffolding.
@@ -1715,13 +1738,13 @@ overflow: hidden!important;
 display:block!important;
 }</style></aside>
 </section>
-<section id="work-ahead" class="slide level2 center scrollable" data-background-gradient="linear-gradient(135deg, #e8f4fd, #d6eaf8)">
-<h2>Work ahead</h2>
+<section id="possible-work-ahead-as-a-community" class="slide level2 center scrollable" data-background-gradient="linear-gradient(135deg, #e8f4fd, #d6eaf8)">
+<h2>Possible work ahead as a community</h2>
 <div style="font-size: 1.2em;">
 <ol type="1">
 <li><p><strong>Be specific about the agency we cultivate.</strong> Consider multiple faces of epistemic agency in KB practice.</p></li>
 <li><p><strong>Treat each tool feature as a design decision.</strong> Every scaffold sits somewhere between benign and “hostile”.</p></li>
-<li><p><strong>Empower humans to build their epistemic environment.</strong> Agency is contextual. Entrust teachers and students with the agency in shapring their environments – in and beyond their classroom.</p></li>
+<li><p><strong>Empower humans to build their epistemic environment.</strong> Agency is contextual. Entrust teachers and students with the agency in shapring their environments – within and beyond their classroom.</p></li>
 </ol>
 </div>
 <aside class="notes">
