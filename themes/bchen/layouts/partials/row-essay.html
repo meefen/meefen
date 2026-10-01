@@ -1,0 +1,15 @@
+{{- /* One essay row: a local post, or an external (Substack) item. dict: item, format, tags */ -}}
+{{- with .item.page -}}
+  {{ partial "row-post.html" (dict "page" . "format" $.format "tags" $.tags) }}
+{{- else -}}
+{{- $i := .item -}}
+<li class="row">
+  <div class="row__date"><time datetime="{{ $i.date.Format "2006-01-02" }}">{{ $i.date.Format ($.format | default "Jan 2, 2006") }}</time></div>
+  <div class="row__body">
+    <h3 class="row__title"><a href="{{ $i.url }}">{{ $i.title }}</a> <span class="badge">{{ $i.source }}</span></h3>
+    {{- with $i.summary }}
+    <p>{{ . }}</p>
+    {{- end }}
+  </div>
+</li>
+{{- end -}}

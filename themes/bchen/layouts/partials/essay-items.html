@@ -1,0 +1,21 @@
+{{- /*
+  Unified, newest-first list for an essays section: local posts plus (for the
+  blog section) Substack posts. A Substack post whose title matches a local post
+  is skipped, so cross-posted essays appear once. Returns a slice of dicts
+  {date, title, url, summary, source, page}.
+*/ -}}
+{{- $items := slice -}}
+{{- $seen := dict -}}
+{{- range .RegularPages -}}
+  {{- $items = $items | append (dict "date" .Date "title" .Title "url" .RelPermalink "summary" "" "source" "" "page" .) -}}
+  {{- $seen = merge $seen (dict (.Title | plainify | lower | replaceRE `[^a-z0-9]+` "") true) -}}
+{{- end -}}
+{{- if eq .Section "blog" -}}
+  {{- range partialCached "substack-items.html" . "substack" -}}
+    {{- $key := .title | lower | replaceRE `[^a-z0-9]+` "" -}}
+    {{- if not (index $seen $key) -}}
+      {{- $items = $items | append . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return (sort $items "date" "desc") -}}

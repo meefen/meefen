@@ -6,5 +6,8 @@
     {{- with .Params.lead | default .Description }}
     <p class="lead reveal" style="--i:2">{{ . | markdownify }}</p>
     {{- end }}
+    {{- with .Params.cta }}
+    <p class="reveal" style="--i:3;margin-top:1.5rem"><a class="arrow-link" href="{{ .url }}">{{ .label }}</a></p>
+    {{- end }}
   </div>
 </header>

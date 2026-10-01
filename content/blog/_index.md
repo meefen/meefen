@@ -2,6 +2,7 @@
 # bchen theme
 label: Essays
 all_label: All essays
+cta: { label: Subscribe on Substack, url: "https://bodong.substack.com/" }
 headline: Essays & notes
 lead: "On learning, knowledge building, infrastructures, and AI. Some long, some quick."
 
