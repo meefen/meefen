@@ -4,7 +4,7 @@ draft: false
 layout: teaching
 label: Teaching
 headline: Teaching & advising
-lead: Courses at Penn GSE and the University of Minnesota on learning, analytics, and networks. Several come with open materials anyone can use.
+lead: Courses I've taught on learning, digital innovation, analytics, and networks. Several come with open materials.
 show_title_as_headline: true
 title: Teaching
 ---

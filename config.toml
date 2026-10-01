@@ -31,7 +31,7 @@ enableEmoji = true
     
 [params]
   # bchen theme
-  tagline = "Learning Sciences & Technologies, Penn GSE"
+  tagline = "Learning & Tech, Penn GSE"
   portrait = "/img/bodong-chen-portrait.jpg"
   avatar = "/img/bodong-chen-avatar.jpg"
   footer_note = "University of Pennsylvania"

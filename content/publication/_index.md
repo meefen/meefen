@@ -2,7 +2,7 @@
 # bchen theme
 label: Publications
 headline: Selected publications
-lead: "Papers with preprints and links. For the complete, up-to-date list, see [my CV](/file/cv.html#pubs)."
+lead: "For a more up-to-date list, see [my CV](/file/cv.html#pubs)."
 
 title: Publications
 cascade:

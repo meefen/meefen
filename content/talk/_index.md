@@ -2,7 +2,7 @@
 # bchen theme
 label: Talks
 headline: Talks & workshops
-lead: Keynotes, invited talks, panels, and workshops. Slides open in your browser.
+lead: Keynotes, invited talks, panels, and workshops.
 
 title: Recent Talks
 cascade:
