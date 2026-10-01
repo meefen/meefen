@@ -1,0 +1,53 @@
+{{ define "main" }}
+{{- $p := .Params -}}
+<div class="container">
+  <header class="about-hero">
+    <div>
+      <p class="label reveal" style="--i:0">{{ $p.label | default .Title }}</p>
+      <h1 class="reveal" style="--i:1">{{ $p.headline | default site.Title }}</h1>
+      {{- with $p.role }}<p class="role reveal" style="--i:2">{{ . | markdownify }}</p>{{ end }}
+    </div>
+    {{- with site.Params.portrait }}
+    <div class="portrait reveal" style="--i:2">
+      <img src="{{ . | relURL }}" alt="Portrait of {{ site.Title }}" width="900" height="1125">
+    </div>
+    {{- end }}
+  </header>
+
+  <div class="about-body">
+    <div class="prose prose--plain">{{ .Content }}</div>
+    <aside aria-label="At a glance">
+      {{- with $p.facts }}
+      <p class="label">At a glance</p>
+      <dl class="facts" style="margin-top:1rem">
+        {{- range . }}
+        <div><dt class="meta">{{ .label }}</dt><dd>{{ .value | markdownify }}</dd></div>
+        {{- end }}
+      </dl>
+      {{- end }}
+      {{- with $p.elsewhere }}
+      <p class="label" style="margin-top:2.5rem">Elsewhere</p>
+      <ul class="link-list">
+        {{- range . }}<li><a href="{{ .url | relURL }}">{{ .label }}</a></li>{{ end }}
+      </ul>
+      {{- end }}
+    </aside>
+  </div>
+</div>
+
+{{- with $p.organizers }}
+<section class="section" aria-labelledby="organizers-title" style="padding-top:0">
+  <div class="container">
+    <div class="panel">
+      <p class="label">{{ .label | default "For event organizers" }}</p>
+      <h3 id="organizers-title">{{ .title | default "Short bio & headshot" }}</h3>
+      {{ with .bio }}<p>{{ . | markdownify }}</p>{{ end }}
+      <div class="actions">
+        {{- with site.Params.portrait }}<a class="chip" href="{{ . | relURL }}" download>Download headshot</a>{{ end }}
+        {{- range .links }}<a class="chip" href="{{ .url | relURL }}">{{ .label }}</a>{{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{- end }}
+{{ end }}

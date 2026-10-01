@@ -1,5 +1,5 @@
 baseURL = "https://bchen.net/"
-theme = "hugo-apero"
+theme = "bchen" # previous theme: "hugo-apero" (still in themes/; switch back here)
 languageCode = "en"
 title = "Bodong Chen"
 author = "Bodong Chen"
@@ -25,6 +25,13 @@ enableEmoji = true
     style = "github"
     
 [params]
+  # bchen theme
+  tagline = "Learning Sciences & Technologies, Penn GSE"
+  portrait = "/img/bodong-chen-portrait.jpg"
+  avatar = "/img/bodong-chen-avatar.jpg"
+  footer_note = "University of Pennsylvania"
+
+  # hugo-apero (kept for rollback)
   orgName = "Bodong Chen"
   # orgLocal = "Anywhere"
   description = "Personal website"
@@ -108,74 +115,50 @@ enableEmoji = true
   tag = "tags"
 
 [menu]
-  # Configure header 
+  # Main navigation
   [[menu.header]]
     name = "About"
-    title = "About"
     url = "/about/"
     weight = 1
   [[menu.header]]
-    name = "Blog"
-    title = "Blog"
+    name = "Essays"
     url = "/blog/"
     weight = 2
   [[menu.header]]
-    name = "Teaching"
-    title = "Teaching"
-    url = "/teaching/"
+    name = "Talks"
+    url = "/talk/"
     weight = 3
   [[menu.header]]
-    name = "Projects"
-    title = "Project Portfolio"
-    url = "/project/"
+    name = "Publications"
+    url = "/publication/"
     weight = 4
   [[menu.header]]
-    name = "Talks"
-    title = "Talks"
-    url = "/talk/"
+    name = "Teaching"
+    url = "/teaching/"
     weight = 5
-  [[menu.header]]
-    name = "Publications"
-    title = "Publications"
-    url = "/publication/"
-    weight = 6
-    
-  # Configure footer  
+
+  # Footer links
   [[menu.footer]]
-    name = "License"
-    title = "License"
-    url = "/license/"
+    name = "Google Scholar"
+    url = "https://scholar.google.com/citations?user=BWrZE-MAAAAJ&hl=en"
     weight = 1
   [[menu.footer]]
-    name = "Contact"
-    title = "Contact form"
-    url = "/contact/"
+    name = "ORCID"
+    url = "https://orcid.org/0000-0003-4616-4353"
     weight = 2
-  # [[menu.footer]]
-  #   name = "Contributors"
-  #   title = "Contributors"
-  #   url = "/contributors/"
-  #   weight = 3
-
-# see https://gohugo.io/about/hugo-and-gdpr/    
-[privacy]
-  [privacy.disqus]
-    disable = false
-  [privacy.googleAnalytics]
-    disable = false
-    anonymizeIP = true
-    respectDoNotTrack = true
-  [privacy.instagram]
-    disable = false
-    simple = true
-  [privacy.x]
-    disable = false
-    enableDNT = true
-    simple = false
-  [privacy.vimeo]
-    disable = false
-    enableDNT = true
-    simple = true
-  [privacy.youtube]
-    disable = false
-    privacyEnhanced = true
+  [[menu.footer]]
+    name = "GitHub"
+    url = "https://github.com/meefen"
+    weight = 3
+  [[menu.footer]]
+    name = "RSS"
+    url = "/blog/index.xml"
+    weight = 4
+  [[menu.footer]]
+    name = "CV"
+    url = "/file/cv.html"
+    weight = 5
+  [[menu.footer]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 6

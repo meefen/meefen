@@ -1,0 +1,19 @@
+{{- $p := .page -}}
+{{- $links := partial "links.html" $p -}}
+{{- $href := $p.RelPermalink -}}
+{{- if and (not (partial "has-detail.html" $p)) $links }}{{ $href = (index $links 0).url }}{{ end -}}
+{{- $meta := slice -}}
+{{- with partial "venue.html" $p }}{{ $meta = $meta | append . }}{{ end -}}
+{{- with $p.Params.location }}{{ $meta = $meta | append . }}{{ end -}}
+{{- $authors := partial "authors.html" $p -}}
+{{- if and $authors (ne $authors site.Title) }}{{ $meta = $meta | append $authors }}{{ end -}}
+<li class="row row--links">
+  <div class="row__date"><time datetime="{{ $p.Date.Format "2006-01-02" }}">{{ $p.Date.Format (.format | default "Jan 2006") }}</time></div>
+  <div class="row__body">
+    <h3 class="row__title"><a href="{{ $href }}">{{ $p.Title | markdownify }}</a></h3>
+    {{- with $meta }}
+    <p class="meta">{{ range . }}<span>{{ . }}</span>{{ end }}</p>
+    {{- end }}
+  </div>
+  <div class="row__links">{{ partial "chips.html" $p }}</div>
+</li>

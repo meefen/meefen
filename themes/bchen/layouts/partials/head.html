@@ -1,0 +1,32 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {{- $title := cond .IsHome (printf "%s · %s" site.Title (site.Params.tagline | default site.Params.description)) (printf "%s · %s" .Title site.Title) }}
+  <title>{{ $title | plainify }}</title>
+  {{- $desc := "" }}
+  {{- with .Description }}{{ $desc = . }}{{ else }}{{ with .Params.lead }}{{ $desc = . }}{{ else }}{{ if .IsPage }}{{ $desc = .Summary }}{{ end }}{{ end }}{{ end }}
+  {{- $desc = $desc | default site.Params.description | plainify | strings.TrimSpace | truncate 180 }}
+  <meta name="description" content="{{ $desc }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  {{- with site.Params.favicon }}
+  <link rel="icon" href="{{ . | relURL }}">
+  {{- end }}
+  {{- range .AlternativeOutputFormats }}
+  <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="{{ site.Title }}">
+  {{- end }}
+  {{- template "_internal/opengraph.html" . }}
+  {{- template "_internal/twitter_cards.html" . }}
+  {{- template "_internal/schema.html" . }}
+  {{- $css := resources.Get "css/main.css" | minify | fingerprint }}
+  <link rel="preload" href="{{ "fonts/EBGaramond-Regular.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ "fonts/Atkinson-Hyperlegible-Regular-102a.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+  {{- if .IsHome }}
+  <link rel="preload" href="{{ "fonts/EBGaramond-Italic.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+  {{- end }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+  {{- $js := resources.Get "js/site.js" | minify | fingerprint }}
+  <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+  {{- if hugo.IsProduction }}
+  {{- template "_internal/google_analytics.html" . }}
+  {{- end }}
+</head>

@@ -1,0 +1,61 @@
+{{- /* Article page for blog and zh posts. */ -}}
+{{- $isZh := eq .Section "zh" -}}
+{{- $section := .CurrentSection -}}
+{{- $cats := slice }}{{ range .Params.categories }}{{ if not (in (slice "blog" "Blog" "publications") .) }}{{ $cats = $cats | append (humanize .) }}{{ end }}{{ end -}}
+<article{{ if $isZh }} lang="zh"{{ end }}>
+  <header class="article-head">
+    <div class="container">
+      <div class="inner">
+        <p class="label reveal" style="--i:0"><a href="{{ $section.RelPermalink }}" style="text-decoration:none">{{ $section.Params.label | default $section.Title }}</a>{{ with $cats }} · {{ delimit . " · " }}{{ end }}</p>
+        <h1 class="reveal" style="--i:1">{{ .Title | markdownify }}</h1>
+        {{- with .Params.subtitle }}
+        <p class="standfirst reveal" style="--i:2">{{ . | markdownify }}</p>
+        {{- end }}
+        <div class="byline reveal" style="--i:3">
+          {{- with site.Params.avatar }}<img src="{{ . | relURL }}" alt="" width="48" height="48">{{ end }}
+          <div>
+            <span class="who">{{ .Params.author | default site.Title }}</span>
+            <p class="meta" style="margin:0"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>{{ if not $isZh }}<span>{{ .ReadingTime }} min read</span>{{ end }}</p>
+          </div>
+          {{ partial "tags.html" . }}
+        </div>
+      </div>
+    </div>
+  </header>
+
+  {{- $toc := and (gt .WordCount 600) (ge (len (findRE `<li>` .TableOfContents)) 3) (ne .Params.toc false) }}
+  <div class="container article-layout">
+    {{- if $toc }}
+    <nav class="toc" aria-label="On this page">
+      <p class="label">On this page</p>
+      {{ .TableOfContents }}
+    </nav>
+    {{- end }}
+    {{- /* drop cap only when the article opens with a letter (not "(Photo credit…" etc.) */}}
+    {{- $dropcap := and (ne .Params.dropcap false) (not $isZh) (findRE `^[A-Za-z]` (strings.TrimSpace .Plain)) }}
+    <div class="prose{{ if $dropcap }} prose--dropcap{{ end }}">
+      {{- /* show the bundle's featured image unless the post already embeds it */}}
+      {{- $img := (.Resources.ByType "image").GetMatch "*featured*" }}
+      {{- if and $img (not (strings.Contains .RawContent $img.Name)) }}
+      <figure class="article-figure"><img src="{{ $img.RelPermalink }}" alt="" loading="lazy"></figure>
+      {{- end }}
+      {{ .Content }}
+
+      {{- $pages := where site.RegularPages "Section" .Section }}
+      {{- $older := first 1 (where $pages "Date" "lt" .Date) }}
+      {{- $newer := last 1 (where $pages "Date" "gt" .Date) }}
+      <nav class="post-nav" aria-label="More posts">
+        {{- with $older }}{{ with index . 0 }}
+        <a href="{{ .RelPermalink }}"><span class="label label--prev">{{ $section.Params.older_label | default "Older" }}</span><span class="t">{{ .Title | markdownify }}</span></a>
+        {{- end }}{{ else }}
+        <a href="{{ $section.RelPermalink }}"><span class="label label--prev">{{ $section.Params.all_label | default "All posts" }}</span><span class="t">{{ $section.Params.headline | default $section.Title }}</span></a>
+        {{- end }}
+        {{- with $newer }}{{ with index . 0 }}
+        <a href="{{ .RelPermalink }}"><span class="label label--next">{{ $section.Params.newer_label | default "Newer" }}</span><span class="t">{{ .Title | markdownify }}</span></a>
+        {{- end }}{{ else }}
+        <a href="{{ $section.RelPermalink }}"><span class="label label--next">{{ $section.Params.all_label | default "All posts" }}</span><span class="t">{{ $section.Params.headline | default $section.Title }}</span></a>
+        {{- end }}
+      </nav>
+    </div>
+  </div>
+</article>

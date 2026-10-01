@@ -1,0 +1,7 @@
+{{ define "main" }}
+{{ partial "page-head.html" . }}
+<div class="container">
+  {{ partial "year-groups.html" (dict "pages" .RegularPages "format" "Jan 2") }}
+</div>
+<div style="height:var(--section)"></div>
+{{ end }}

@@ -1,0 +1,42 @@
+{{- /* Detail page for a talk or publication. */ -}}
+{{- $section := .CurrentSection -}}
+{{- $isPub := eq .Section "publication" -}}
+{{- $authors := partial "authors.html" . | htmlEscape -}}
+{{- $authors = replace $authors site.Title (printf "<strong>%s</strong>" site.Title) -}}
+{{- $meta := slice -}}
+{{- with partial "venue.html" . }}{{ $meta = $meta | append (cond $isPub (printf "<i>%s</i>" (htmlEscape .)) (htmlEscape .)) }}{{ end -}}
+{{- with .Params.location }}{{ $meta = $meta | append (htmlEscape .) }}{{ end -}}
+{{- $meta = $meta | append (.Date.Format (cond $isPub "2006" "January 2, 2006")) -}}
+<article>
+  <header class="article-head">
+    <div class="container">
+      <div class="inner">
+        <p class="label reveal" style="--i:0"><a href="{{ $section.RelPermalink }}" style="text-decoration:none">{{ $section.Params.label | default $section.Title }}</a></p>
+        <h1 class="reveal" style="--i:1">{{ .Title | markdownify }}</h1>
+        {{- if and (not $isPub) .Params.subtitle .Params.event }}
+        <p class="standfirst reveal" style="--i:2">{{ .Params.subtitle | markdownify }}</p>
+        {{- end }}
+        <div class="detail-meta reveal" style="--i:3">
+          {{- with $authors }}<p class="meta" style="font-size:1.0625rem;color:var(--text-soft)">{{ . | safeHTML }}</p>{{ end }}
+          <p class="meta">{{ range $meta }}<span>{{ . | safeHTML }}</span>{{ end }}</p>
+          <div class="row__tags">{{ partial "chips.html" . }}</div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container article-layout">
+    <div class="prose prose--plain">
+      {{- with .Params.abstract }}
+      <section class="abstract">
+        <span class="label">Abstract</span>
+        {{ . | markdownify }}
+      </section>
+      {{- end }}
+      {{ .Content }}
+      <nav class="post-nav" aria-label="More">
+        <a href="{{ $section.RelPermalink }}"><span class="label label--prev">All {{ lower ($section.Params.label | default $section.Title) }}</span><span class="t">{{ $section.Params.headline | default $section.Title }}</span></a>
+        <a href="{{ "/" | relURL }}"><span class="label label--next">Home</span><span class="t">{{ site.Title }}</span></a>
+      </nav>
+    </div>
+  </div>
+</article>

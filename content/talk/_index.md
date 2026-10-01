@@ -1,4 +1,9 @@
 ---
+# bchen theme
+label: Talks
+headline: Talks & workshops
+lead: Keynotes, invited talks, panels, and workshops. Slides open in your browser.
+
 title: Recent Talks
 cascade:
   show_author_byline: true

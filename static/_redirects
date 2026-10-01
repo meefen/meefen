@@ -1,1 +1,17 @@
-/* /index.html 200
+# Netlify redirects. Unknown URLs fall through to the real 404 page.
+
+# Lists are no longer paginated
+/blog/page/*          /blog/          301
+/talk/page/*          /talk/          301
+/publication/page/*   /publication/   301
+/form/page/*          /contact/       301
+/form/                /contact/       301!
+
+# Removed or hidden pages
+/zh                   /blog/          301
+/zh/*                 /blog/          301
+/project              /               301
+/project/*            /               301
+/contributors/        /               301
+/talk/campfire/       /talk/          301
+/categories/workshop/ /talk/          301

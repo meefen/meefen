@@ -1,0 +1,80 @@
+{{ define "main" }}
+{{- $t := hugo.Data.teaching | default dict -}}
+{{- $n := 0 -}}
+{{ partial "page-head.html" . }}
+
+{{- with $t.materials }}
+{{- $n = add $n 1 }}
+<section class="section" aria-labelledby="open-title" style="padding-top:0">
+  <div class="container">
+    <div class="section-head">
+      <p class="label"><span class="num">{{ printf "%02d" $n }}</span> Open materials</p>
+      <h2 id="open-title">Learn along</h2>
+      <p>Course books and sites I’ve published openly.</p>
+    </div>
+    <ul class="cards">
+      {{- range . }}
+      <li class="card">
+        <p class="label">{{ .type }}</p>
+        <h3><a href="{{ .url }}">{{ .title }}</a></h3>
+        {{ with .description }}<p>{{ . | markdownify }}</p>{{ end }}
+        <p class="meta">{{ with .institution }}<span>{{ . }}</span>{{ end }}{{ with .years }}<span>{{ . }}</span>{{ end }}</p>
+      </li>
+      {{- end }}
+    </ul>
+  </div>
+</section>
+{{- end }}
+
+{{- with $t.institutions }}
+{{- $n = add $n 1 }}
+<section class="section" aria-labelledby="courses-title">
+  <div class="container">
+    <div class="section-head">
+      <p class="label"><span class="num">{{ printf "%02d" $n }}</span> Courses</p>
+      <h2 id="courses-title">Courses I teach</h2>
+    </div>
+    {{- range . }}
+    <div class="subhead">
+      <h3>{{ .name }}</h3>
+      <span class="meta">{{ with .years }}{{ . }}{{ end }}{{ if .show_new_key }}{{ with .years }} · {{ end }}<span class="badge">New</span> course I developed{{ end }}</span>
+    </div>
+    <ul class="rows">
+      {{- range .courses }}
+      <li class="row">
+        <div class="row__date">{{ .code }}</div>
+        <div class="row__body">
+          <h4 class="row__title">{{ .title }}{{ if .developed }} <span class="badge">New</span>{{ end }}</h4>
+          {{ with .description }}<p>{{ . | markdownify }}</p>{{ end }}
+          {{- with .terms }}
+          <div class="row__tags">
+            {{- range . }}{{ if .url }}<a class="chip" href="{{ .url }}">{{ .label }}</a>{{ else }}<span class="chip">{{ .label }}</span>{{ end }}{{ end }}
+          </div>
+          {{- end }}
+        </div>
+      </li>
+      {{- end }}
+    </ul>
+    {{- end }}
+  </div>
+</section>
+{{- end }}
+
+{{- with $t.advising }}
+{{- $n = add $n 1 }}
+<section class="section" aria-labelledby="advising-title">
+  <div class="container contact">
+    <div>
+      <p class="label"><span class="num">{{ printf "%02d" $n }}</span> Advising</p>
+      <h2 id="advising-title">{{ .title | default "Working with students" }}</h2>
+    </div>
+    <div>
+      {{ with .text }}<p style="margin-top:0;color:var(--text-soft)">{{ . | markdownify }}</p>{{ end }}
+      <ul class="link-list">
+        {{- range .links }}<li><a href="{{ .url | relURL }}">{{ .label }}</a></li>{{ end }}
+      </ul>
+    </div>
+  </div>
+</section>
+{{- end }}
+{{ end }}

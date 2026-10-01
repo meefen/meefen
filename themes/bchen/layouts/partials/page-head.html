@@ -1,0 +1,10 @@
+{{- /* Section/page header: label, headline, lead. */ -}}
+<header class="page-head">
+  <div class="container">
+    <p class="label reveal" style="--i:0">{{ .Params.label | default .Title }}</p>
+    <h1 class="reveal" style="--i:1">{{ .Params.headline | default .Title | markdownify }}</h1>
+    {{- with .Params.lead | default .Description }}
+    <p class="lead reveal" style="--i:2">{{ . | markdownify }}</p>
+    {{- end }}
+  </div>
+</header>

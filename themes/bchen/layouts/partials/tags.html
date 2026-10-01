@@ -1,0 +1,6 @@
+{{- /* Topic chips linking to tag pages. */ -}}
+{{- with .GetTerms "tags" -}}
+<div class="row__tags">
+  {{- range . }}<a class="chip chip--tag" href="{{ .RelPermalink }}">{{ .LinkTitle | strings.FirstUpper }}</a>{{ end -}}
+</div>
+{{- end -}}

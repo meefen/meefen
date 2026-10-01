@@ -1,0 +1,29 @@
+{{- /* Formspree contact form. Reads settings from the contact page (content/form/contact.md). */ -}}
+{{- $form := site.GetPage "/form/contact" -}}
+{{- $id := "" }}{{ $subject := "Contact form submission" }}{{ $label := "Send message" -}}
+{{- with $form }}
+  {{- $id = .Params.formspree_form_id }}
+  {{- with .Params.name }}{{ $subject = printf "%s Submission" . }}{{ end }}
+  {{- with .Params.submit_button_label }}{{ $label = . }}{{ end }}
+{{- end }}
+<form class="form"{{ with $id }} action="https://formspree.io/f/{{ . }}"{{ end }} method="post" accept-charset="utf-8">
+  <div class="form__row">
+    <div class="field">
+      <label for="full-name">Name</label>
+      <input type="text" name="name" id="full-name" autocomplete="name" placeholder="First and last" required>
+    </div>
+    <div class="field">
+      <label for="email-address">Your email</label>
+      <input type="email" name="_replyto" id="email-address" autocomplete="email" placeholder="you@example.org" required>
+    </div>
+  </div>
+  <div class="field">
+    <label for="message">Message</label>
+    <textarea name="message" id="message" rows="6" placeholder="What would you like to talk about?" required></textarea>
+  </div>
+  <input type="hidden" name="_subject" value="{{ $subject }}">
+  <div class="form__foot">
+    <button class="button" type="submit">{{ $label }}</button>
+    <span class="meta">Powered by <a href="https://formspree.io">Formspree</a></span>
+  </div>
+</form>

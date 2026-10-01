@@ -1,4 +1,10 @@
 ---
+# bchen theme
+label: Essays
+all_label: All essays
+headline: Essays & notes
+lead: "On learning, knowledge building, infrastructures, and AI. Some long, some quick."
+
 author: Bodong Chen
 cascade:
   author: Bodong Chen

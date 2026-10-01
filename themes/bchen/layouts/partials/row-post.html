@@ -1,0 +1,12 @@
+{{- $p := .page -}}
+{{- $fmt := .format | default "Jan 2, 2006" -}}
+<li class="row"{{ if eq $p.Section "zh" }} lang="zh"{{ end }}>
+  <div class="row__date"><time datetime="{{ $p.Date.Format "2006-01-02" }}">{{ $p.Date.Format $fmt }}</time></div>
+  <div class="row__body">
+    <h3 class="row__title"><a href="{{ $p.RelPermalink }}">{{ $p.Title | markdownify }}</a></h3>
+    {{- with partial "summary.html" $p }}
+    <p>{{ . }}</p>
+    {{- end }}
+    {{- if .tags }}{{ partial "tags.html" $p }}{{ end }}
+  </div>
+</li>

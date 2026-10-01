@@ -1,0 +1,5 @@
+{{- /* Pick the row style for a page by section. dict: page, format, tags */ -}}
+{{- $s := .page.Section -}}
+{{- if eq $s "talk" }}{{ partial "row-talk.html" . }}
+{{- else if eq $s "publication" }}{{ partial "row-pub.html" . }}
+{{- else }}{{ partial "row-post.html" . }}{{ end -}}

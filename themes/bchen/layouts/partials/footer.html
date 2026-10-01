@@ -1,0 +1,13 @@
+<footer class="site-footer">
+  <div class="container site-footer__inner">
+    <a class="wordmark" href="{{ "/" | relURL }}">{{ site.Title }}</a>
+    <nav aria-label="Footer">
+      <ul>
+        {{- range site.Menus.footer }}
+        <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+        {{- end }}
+      </ul>
+    </nav>
+    <p style="margin:0">© {{ now.Year }} {{ site.Title }}{{ with site.Params.footer_note }} · {{ . }}{{ end }}</p>
+  </div>
+</footer>

@@ -1,0 +1,12 @@
+{{- /* dict: pages, format (row date format), tags (bool) */ -}}
+{{- $ctx := . -}}
+{{- range .pages.GroupByDate "2006" }}
+<section class="year-group" aria-labelledby="y-{{ .Key }}">
+  <h2 id="y-{{ .Key }}">{{ .Key }}</h2>
+  <ul class="rows">
+    {{- range .Pages }}
+    {{ partial "row.html" (dict "page" . "format" $ctx.format "tags" $ctx.tags) }}
+    {{- end }}
+  </ul>
+</section>
+{{- end }}

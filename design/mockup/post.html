@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Preserving Human Idiosyncrasy · Bodong Chen</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="site.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="wordmark" href="index.html">Bodong <span>Chen</span></a>
+      <nav class="nav" aria-label="Main">
+        <button class="menu-toggle" aria-expanded="false" aria-controls="nav-list">Menu</button>
+        <ul class="nav__list" id="nav-list">
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html" aria-current="page">Writing</a></li>
+          <li><a href="index.html#talks">Talks</a></li>
+          <li><a href="index.html#publications">Publications</a></li>
+          <li><a href="teaching.html">Teaching</a></li>
+          <li><a class="zh" href="#" lang="zh">中文</a></li>
+        </ul>
+        <button class="theme-toggle" type="button" aria-pressed="false" aria-label="Switch to dark theme">
+          <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6"/></svg>
+          <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5Z"/></svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <article>
+      <header class="article-head">
+        <div class="container">
+          <div class="inner">
+            <p class="label reveal" style="--i:0"><a href="blog.html" style="text-decoration:none">Writing</a> · Musing</p>
+            <h1 class="reveal" style="--i:1">Preserving Human Idiosyncrasy: Generative Learning in the Age of Generative AI</h1>
+            <p class="standfirst reveal" style="--i:2">When our language is quietly standardized by algorithms, what happens to the idiosyncratic connections that make learning ours?</p>
+            <div class="byline reveal" style="--i:3">
+              <img src="../../static/img/bodong-chen-avatar.jpg" alt="" width="48" height="48">
+              <div>
+                <span class="who">Bodong Chen</span>
+                <p class="meta" style="margin:0"><time datetime="2025-07-03">July 3, 2025</time><span>7 min read</span></p>
+              </div>
+              <div class="row__tags" style="margin:0"><a class="chip chip--tag" href="#">AI</a><a class="chip chip--tag" href="#">Agency</a></div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="container article-layout">
+        <nav class="toc" aria-label="On this page">
+          <p class="label">On this page</p>
+          <ol>
+            <li><a href="#heart">The ‘Heart’ of Learning</a></li>
+            <li><a href="#homogenization">The Homogenization Problem</a></li>
+            <li><a href="#tension">The Educational Tension</a></li>
+            <li><a href="#questions">Open Questions</a></li>
+          </ol>
+        </nav>
+
+        <div class="prose">
+          <p>A quiet shift is happening in how we speak and write, and most of us don’t even notice it. Words like “delve,” “underscore,” and “realm” are suddenly everywhere in academic writing and speech. “<a href="https://www.theverge.com/openai/686748/chatgpt-linguistic-impact-common-word-usage">You sound like ChatGPT</a>,” before you started to notice.</p>
+
+          <p>For example, Kobak et al. (2024) analyzed over 14 million PubMed abstracts from 2010–2024 and found certain words showed abrupt frequency increases following the release of ChatGPT. A more recent analysis of 280,000 YouTube videos showed a similar shift to reflect the AI’s flavor (Yakura et al., 2025).</p>
+
+          <p>But this isn’t just about linguistic trends. It represents a fundamental threat to how humans learn and make meaning.</p>
+
+          <h2 id="heart">The ‘Heart’ of Learning</h2>
+
+          <p>Educational psychologist Merlin Wittrock identified something crucial about authentic learning half a century ago. He argued that genuine understanding occurs when learners create:</p>
+
+          <blockquote>
+            <p>“semantic and distinctive idiosyncratic associations between stimuli and stored information.”</p>
+            <cite>Wittrock (1974), p. 89</cite>
+          </blockquote>
+
+          <p>The word “idiosyncratic” isn’t academic jargon—it’s the key to <strong>learning with understanding</strong>. When you truly understand something, you connect it to your unique knowledge, experiences, and ways of thinking. Your explanation of photosynthesis differs from mine because we bring different mental models, metaphors, and personal connections to the concept. This distinctiveness isn’t a bug in the learning system—it’s a feature.</p>
+
+          <p>Wittrock called this <strong>generative learning</strong> because learners actively generate their own meaningful connections rather than passively receiving information. The learner—and their idiosyncrasy—plays key roles in the processes of generating learning.</p>
+
+          <figure class="wide">
+            <img src="../../content/blog/2025-07-03-preserving-human-idiosyncrasy/featured.svg" alt="An organic network of connected circles of varying sizes and colours.">
+            <figcaption>Generative learning as a distributed phenomenon: knowledge emerges through entanglements of people, artifacts, and algorithms.</figcaption>
+          </figure>
+
+          <p>Despite these shifts, what remains true, I believe, is that <strong>human idiosyncrasy matters for learning with understanding</strong>.</p>
+
+          <h2 id="homogenization">The Homogenization Problem</h2>
+
+          <p>But what happens when our language—the very medium through which we express these idiosyncratic connections—becomes standardized by algorithms?</p>
+
+          <p>Recent studies reveal the scope of this challenge. Multiple studies have described a “creep-in factor” where AI influences human language below our level of perception. Juzek and Ward (2025) found evidence that humans exhibit preferences for AI-favored vocabulary even when they don’t realize it—a feedback loop where AI learns from human preferences and then influences those same preferences.</p>
+
+          <h2 id="tension">The Educational Tension</h2>
+
+          <p>This creates a profound dilemma for educators. When students write about “delving into complex realms” and “underscoring pivotal insights,” are they demonstrating genuine learning or unconsciously echoing AI’s preferred vocabulary?</p>
+
+          <p><strong>The stakes are definitely higher than plagiarism detection.</strong> If students lose their distinctive ways of expressing ideas, they may also lose the personal connections that make learning meaningful and transferable.</p>
+
+          <hr>
+
+          <h2 id="questions">Preserving Human Meaning-Making: Open Questions</h2>
+
+          <ul>
+            <li>How do we design AI tools that enhance human expression rather than homogenize it?</li>
+            <li>How can we better value the idiosyncrasy of student expression as an indicator of authentic learning?</li>
+            <li>How do we preserve cognitive diversity in an age of algorithmic standardization?</li>
+          </ul>
+
+          <p>The future of education may depend on how we answer these questions.</p>
+
+          <section class="references" aria-labelledby="refs">
+            <p class="label" id="refs">References</p>
+            <ol>
+              <li>Juzek, T. S., &amp; Ward, Z. B. (2025). Why does ChatGPT “delve” so much? <i>Proceedings of COLING 2025</i>, 6397–6411.</li>
+              <li>Kobak, D., González-Márquez, R., Horvát, E.-Á., &amp; Lause, J. (2025). <i>Delving into ChatGPT usage in academic writing through excess vocabulary</i>. arXiv:2406.07016.</li>
+              <li>Wittrock, M. C. (1974). Learning as a generative process. <i>Educational Psychologist</i>, 11(2), 87–95.</li>
+              <li>Yakura, H., et al. (2025). <i>Empirical evidence of large language model’s influence on human spoken communication</i>. arXiv:2409.01754.</li>
+            </ol>
+            <p style="margin-top:1.25rem"><i>Authorship: written with the help of Claude and thoroughly edited by me.</i></p>
+          </section>
+
+          <nav class="post-nav" aria-label="More writing">
+            <a href="#">
+              <span class="label">← Previous</span>
+              <span class="t">The Heart of Knowledge: What Chinese Language Evolution Tells Us About the AI Societal Transformation</span>
+            </a>
+            <a href="blog.html">
+              <span class="label">All writing →</span>
+              <span class="t">Essays &amp; notes</span>
+            </a>
+          </nav>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <a class="wordmark" href="index.html">Bodong Chen</a>
+      <nav aria-label="Footer">
+        <ul>
+          <li><a href="https://scholar.google.com/citations?user=BWrZE-MAAAAJ&hl=en">Google Scholar</a></li>
+          <li><a href="https://orcid.org/0000-0003-4616-4353">ORCID</a></li>
+          <li><a href="#">RSS</a></li>
+          <li><a href="../../static/file/cv.html">CV</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <p style="margin:0">© 2026 Bodong Chen · University of Pennsylvania</p>
+    </div>
+  </footer>
+</body>
+</html>

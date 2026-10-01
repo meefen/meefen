@@ -1,0 +1,3 @@
+{{- /* Render link chips for a page. */ -}}
+{{- $links := partial "links.html" . -}}
+{{- range $links }}<a class="chip" href="{{ .url }}">{{ .name | strings.FirstUpper }}</a>{{ end -}}

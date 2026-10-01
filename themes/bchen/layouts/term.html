@@ -1,0 +1,13 @@
+{{ define "main" }}
+<header class="page-head">
+  <div class="container">
+    <p class="label reveal" style="--i:0">Topic</p>
+    <h1 class="reveal" style="--i:1">{{ .Title | strings.FirstUpper }}</h1>
+    <p class="lead reveal" style="--i:2">Essays, talks, and papers tagged “{{ .Title | strings.FirstUpper }}”.</p>
+  </div>
+</header>
+<div class="container">
+  {{ partial "year-groups.html" (dict "pages" .Pages "format" "Jan 2" "tags" true) }}
+</div>
+<div style="height:var(--section)"></div>
+{{ end }}

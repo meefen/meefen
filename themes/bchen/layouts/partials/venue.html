@@ -1,0 +1,3 @@
+{{- /* Venue for talks (event/subtitle) and publications (publication/subtitle). */ -}}
+{{- $v := .Params.publication | default .Params.event | default .Params.subtitle | default "" -}}
+{{- return ($v | markdownify | plainify | strings.TrimSpace) -}}

@@ -1,4 +1,9 @@
 ---
+# bchen theme
+label: Publications
+headline: Selected publications
+lead: "Papers with preprints and links. For the complete, up-to-date list, see [my CV](/file/cv.html#pubs)."
+
 title: Publications
 cascade:
   show_author_byline: true

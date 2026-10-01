@@ -1,0 +1,42 @@
+{{- /*
+  Normalise a page's links into a slice of dicts {name, url}.
+  Handles both front-matter styles in this site:
+    hugo-apero:  links: [{name, url, ...}]
+    Academic:    url_slides / url_video / url_pdf / ... and doi
+  Relative URLs resolve against the page bundle.
+*/ -}}
+{{- $page := . -}}
+{{- $out := slice -}}
+{{- $seen := dict -}}
+{{- $add := slice -}}
+{{- range $page.Params.links -}}
+  {{- $add = $add | append (dict "name" (.name | default "Link") "url" .url) -}}
+{{- end -}}
+{{- with $page.Params.doi -}}
+  {{- $add = $add | append (dict "name" "DOI" "url" (printf "https://doi.org/%s" .)) -}}
+{{- end -}}
+{{- $academic := slice
+  (slice "url_slides" "Slides") (slice "url_video" "Video") (slice "url_pdf" "PDF")
+  (slice "url_preprint" "Preprint") (slice "url_code" "Code") (slice "url_poster" "Poster")
+  (slice "url_dataset" "Data") (slice "url_project" "Project") (slice "url_source" "Source") -}}
+{{- range $academic -}}
+  {{- $label := index . 1 -}}
+  {{- with index $page.Params (index . 0) -}}
+    {{- $add = $add | append (dict "name" $label "url" .) -}}
+  {{- end -}}
+{{- end -}}
+{{- range $add -}}
+  {{- $u := .url | default "" | strings.TrimSpace -}}
+  {{- if $u -}}
+    {{- if not (or (strings.HasPrefix $u "http") (strings.HasPrefix $u "/") (strings.HasPrefix $u "mailto:")) -}}
+      {{- $u = printf "%s%s" $page.RelPermalink $u -}}
+    {{- else if strings.HasPrefix $u "/" -}}
+      {{- $u = $u | relURL -}}
+    {{- end -}}
+    {{- if not (index $seen $u) -}}
+      {{- $seen = merge $seen (dict $u true) -}}
+      {{- $out = $out | append (dict "name" .name "url" $u) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $out -}}

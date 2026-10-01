@@ -1,0 +1,5 @@
+{{- /* Plain-text summary: excerpt > summary param > description > generated summary. */ -}}
+{{- $s := .Params.excerpt | default .Params.summary | default .Description | default .Summary -}}
+{{- $s = $s | markdownify | plainify | htmlUnescape | strings.TrimSpace -}}
+{{- $s = replaceRE `^\(?Photo Credit[^)]*\)+\s*` "" $s -}}
+{{- return (truncate 220 $s) -}}

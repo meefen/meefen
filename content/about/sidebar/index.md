@@ -8,7 +8,7 @@ show_social_links: true # specify social accounts in site config
 # link_list_label: "Interests" # bookmarks, elsewhere, etc.
 link_list:
 - name: Penn Wonder Lab
-  url: https://penn-wonderlab.github.io/
+  url: https://wonderlab.gse.upenn.edu/
 ---
 
 ** index doesn't contain a body, just front matter above.

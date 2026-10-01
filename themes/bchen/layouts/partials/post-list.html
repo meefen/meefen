@@ -1,0 +1,25 @@
+{{- /* Essays list (blog, zh): header, topic filters, posts grouped by year (no pagination). */ -}}
+{{ partial "page-head.html" . }}
+<div class="container">
+  {{- $pages := .RegularPages }}
+  {{- /* most-used tags in this section */}}
+  {{- $counts := dict }}
+  {{- range $pages }}{{ range .GetTerms "tags" }}
+    {{- $counts = merge $counts (dict .LinkTitle (add (index $counts .LinkTitle | default 0) 1)) }}
+  {{- end }}{{ end }}
+  {{- $top := slice }}
+  {{- range $k, $v := $counts }}{{ if ge $v 2 }}{{ $top = $top | append (dict "name" $k "n" $v) }}{{ end }}{{ end }}
+  {{- with $top }}
+  <div class="filters" role="navigation" aria-label="Filter by topic">
+    <span class="label">Topics</span>
+    <a class="chip chip--tag" href="{{ $.RelPermalink }}" aria-current="true">All</a>
+    {{- range first 8 (sort . "n" "desc") }}
+    {{- with site.GetPage (printf "/tags/%s" (.name | urlize)) }}
+    <a class="chip chip--tag" href="{{ .RelPermalink }}">{{ .LinkTitle | strings.FirstUpper }}</a>
+    {{- end }}
+    {{- end }}
+  </div>
+  {{- end }}
+  {{ partial "year-groups.html" (dict "pages" $pages "format" "Jan 2" "tags" true) }}
+</div>
+<div style="height:var(--section)"></div>

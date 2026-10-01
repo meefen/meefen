@@ -1,0 +1,7 @@
+{{- /* "Bodong Chen" -> "Bodong <span>Chen</span>"; pass dict "plain" true for no accent */ -}}
+{{- $words := split site.Title " " -}}
+{{- if and (gt (len $words) 1) (not .plain) -}}
+{{ delimit (first (sub (len $words) 1) $words) " " }} <span>{{ index $words (sub (len $words) 1) }}</span>
+{{- else -}}
+{{ site.Title }}
+{{- end -}}

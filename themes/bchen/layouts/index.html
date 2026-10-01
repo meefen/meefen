@@ -1,0 +1,165 @@
+{{ define "main" }}
+{{- $h := .Params.home | default dict -}}
+{{- $n := 0 -}}
+
+{{- /* Hero */ -}}
+<section class="hero">
+  <div class="container hero__grid">
+    <div>
+      {{- with $h.label }}
+      <p class="label reveal" style="--i:0">{{ . | markdownify }}</p>
+      {{- end }}
+      <h1 class="hero__title reveal" style="--i:1">
+        {{- range $h.headline }}<span class="line">{{ . | markdownify }}</span> {{ end -}}
+      </h1>
+      {{- with $h.lead }}
+      <p class="hero__lead reveal" style="--i:2">{{ . | markdownify }}</p>
+      {{- end }}
+      <div class="hero__actions reveal" style="--i:3">
+        {{- with $h.primary_action }}
+        <a class="button" href="{{ .url | relURL }}">{{ .label }}</a>
+        {{- end }}
+        {{- with $h.secondary_action }}
+        <a class="arrow-link" href="{{ .url | relURL }}">{{ .label }}</a>
+        {{- end }}
+        {{- with $h.elsewhere }}
+        <ul class="social" aria-label="Elsewhere">
+          {{- range . }}
+          <li><a href="{{ .url | relURL }}">{{ .label }}</a></li>
+          {{- end }}
+        </ul>
+        {{- end }}
+      </div>
+    </div>
+    {{- with site.Params.portrait }}
+    <figure class="hero__figure reveal" style="--i:2">
+      {{ partial "network.html" . }}
+      <div class="portrait">
+        <img src="{{ . | relURL }}" alt="Portrait of {{ site.Title }}" width="900" height="1125" fetchpriority="high">
+      </div>
+    </figure>
+    {{- end }}
+  </div>
+</section>
+
+{{- /* Lines of work */ -}}
+{{- with $h.lines }}
+{{- $n = add $n 1 }}
+<section class="section" aria-labelledby="work-title">
+  <div class="container">
+    <div class="section-head">
+      <p class="label"><span class="num">{{ printf "%02d" $n }}</span> Research</p>
+      <h2 id="work-title">{{ $h.lines_title | default "Lines of work" }}</h2>
+      <a class="arrow-link" href="{{ "publication/" | relURL }}">Publications</a>
+    </div>
+    <ol class="lines">
+      {{- range $i, $l := . }}
+      <li>
+        <span class="num">{{ index (slice "i" "ii" "iii" "iv" "v" "vi") $i }}</span>
+        <h3>{{ $l.title | markdownify }}</h3>
+        {{- with $l.description }}<p>{{ . | markdownify }}</p>{{ end }}
+      </li>
+      {{- end }}
+    </ol>
+  </div>
+</section>
+{{- end }}
+
+{{- /* Essays */ -}}
+{{- $posts := first ($h.posts | default 3) (where site.RegularPages "Section" "blog") }}
+{{- with $posts }}
+{{- $n = add $n 1 }}
+<section class="section" aria-labelledby="essays-title">
+  <div class="container">
+    <div class="section-head">
+      <p class="label"><span class="num">{{ printf "%02d" $n }}</span> Essays</p>
+      <h2 id="essays-title">Recent essays</h2>
+      <a class="arrow-link" href="{{ "blog/" | relURL }}">All essays</a>
+    </div>
+    <ul class="rows">
+      {{- range . }}
+      {{ partial "row-post.html" (dict "page" . "format" "Jan 2, 2006") }}
+      {{- end }}
+    </ul>
+  </div>
+</section>
+{{- end }}
+
+{{- /* Talks */ -}}
+{{- $talks := first ($h.talks | default 4) (where site.RegularPages "Section" "talk") }}
+{{- with $talks }}
+{{- $n = add $n 1 }}
+<section class="section band" aria-labelledby="talks-title">
+  <div class="container">
+    <div class="section-head">
+      <p class="label"><span class="num">{{ printf "%02d" $n }}</span> Speaking</p>
+      <h2 id="talks-title">Recent talks</h2>
+      <a class="arrow-link" href="{{ "talk/" | relURL }}">All talks</a>
+    </div>
+    <ul class="rows">
+      {{- range . }}
+      {{ partial "row-talk.html" (dict "page" .) }}
+      {{- end }}
+    </ul>
+  </div>
+</section>
+{{- end }}
+
+{{- /* Publications: most recent */ -}}
+{{- $pubs := first ($h.publications | default 4) (where site.RegularPages "Section" "publication") }}
+{{- with $pubs }}
+{{- $n = add $n 1 }}
+<section class="section" aria-labelledby="pubs-title">
+  <div class="container">
+    <div class="section-head">
+      <p class="label"><span class="num">{{ printf "%02d" $n }}</span> Publications</p>
+      <h2 id="pubs-title">{{ $h.publications_title | default "Recent papers" }}</h2>
+      <a class="arrow-link" href="{{ "publication/" | relURL }}">All publications</a>
+    </div>
+    <ul class="rows">
+      {{- range . }}
+      {{ partial "row-pub.html" (dict "page" .) }}
+      {{- end }}
+    </ul>
+  </div>
+</section>
+{{- end }}
+
+{{- /* Lab & service */ -}}
+{{- with $h.community }}
+{{- $n = add $n 1 }}
+<section class="section" aria-labelledby="lab-title">
+  <div class="container">
+    <div class="section-head">
+      <p class="label"><span class="num">{{ printf "%02d" $n }}</span> Community</p>
+      <h2 id="lab-title">{{ $h.community_title | default "Lab & service" }}</h2>
+    </div>
+    <div class="split">
+      {{- range . }}
+      <div>
+        <h3>{{ .title }}</h3>
+        <ul>
+          {{- range .items }}
+          <li>{{ . | markdownify }}</li>
+          {{- end }}
+        </ul>
+      </div>
+      {{- end }}
+    </div>
+  </div>
+</section>
+{{- end }}
+
+{{- /* Contact */ -}}
+{{- $n = add $n 1 }}
+<section class="section" id="contact" aria-labelledby="contact-title">
+  <div class="container contact">
+    <div>
+      <p class="label"><span class="num">{{ printf "%02d" $n }}</span> Get in touch</p>
+      <h2 id="contact-title">{{ $h.contact_title | default "Get in touch" }}</h2>
+      {{- with $h.contact_text }}<p>{{ . | markdownify }}</p>{{ end }}
+    </div>
+    {{ partial "contact-form.html" . }}
+  </div>
+</section>
+{{ end }}

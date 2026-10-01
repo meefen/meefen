@@ -1,0 +1,8 @@
+{{- /* Author string from `authors` (list) or `author` (string); site owner in bold. */ -}}
+{{- $a := "" -}}
+{{- with .Params.authors -}}
+  {{- if reflect.IsSlice . }}{{ $a = delimit . ", " }}{{ else }}{{ $a = . }}{{ end -}}
+{{- else -}}
+  {{- $a = .Params.author | default "" -}}
+{{- end -}}
+{{- return $a -}}

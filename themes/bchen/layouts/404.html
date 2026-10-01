@@ -1,0 +1,15 @@
+{{ define "main" }}
+<section class="not-found">
+  <div class="container">
+    <p class="label">404 · Not found</p>
+    <h1>This page wandered off.</h1>
+    <p>The link may be old, or the page may have moved during a redesign. Try one of these instead.</p>
+    <div class="hero__actions">
+      <a class="button" href="{{ "/" | relURL }}">Home</a>
+      <a class="arrow-link" href="{{ "blog/" | relURL }}">Essays</a>
+      <a class="arrow-link" href="{{ "talk/" | relURL }}">Talks</a>
+      <a class="arrow-link" href="{{ "publication/" | relURL }}">Publications</a>
+    </div>
+  </div>
+</section>
+{{ end }}

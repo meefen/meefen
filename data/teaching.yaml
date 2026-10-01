@@ -1,0 +1,91 @@
+# Teaching page data (rendered by themes/bchen/layouts/_default/teaching.html)
+# To add a semester, append a term under the course. `url` is optional.
+
+materials:
+  - type: Online book
+    title: Applied Network Analysis in Learning
+    url: https://penn-wonderlab.github.io/networks_book/intro.html
+    description: "An open textbook for EDUC 5190 at Penn GSE: network concepts, methods, and code for studying learning."
+    institution: Penn GSE
+    years: "2024"
+  - type: Online book
+    title: Applied Social Network Analysis in Education
+    url: http://bookdown.org/chen/snaEd/
+    description: An introduction to social network analysis for graduate students in education.
+    institution: University of Minnesota
+    years: 2017–2019
+  - type: Course site
+    title: "Learning Analytics: Theory and Practice"
+    url: https://wonderlab.gse.upenn.edu/laumn/
+    description: A survey of the field of learning analytics and its applications across educational contexts.
+    institution: University of Minnesota
+    years: 2015–2020
+
+institutions:
+  - name: University of Pennsylvania
+    years: 2022–present
+    courses:
+      - code: EDUC 5190
+        title: Applied Network Analysis in Learning
+        description: Network methods for studying how learners, ideas, and resources connect.
+        terms:
+          - { label: Spring 2024 · Book, url: "https://penn-wonderlab.github.io/networks_book/intro.html" }
+      - code: EDUC 6144
+        title: "Learning Sciences: Past, Present, Future"
+        description: The history, core theories, and emerging directions of the learning sciences.
+        terms:
+          - { label: Spring 2024 }
+          - { label: Spring 2023 }
+      - code: EDUC 6116
+        title: Master’s Foundations of Learning and Teaching
+        description: Foundational theories of learning and what they mean for teaching.
+        terms:
+          - { label: Fall 2023 }
+          - { label: Fall 2022 }
+      - code: EDEN 5050
+        title: Foundations of Teaching, Learning, and Curriculum
+        description: "Section 002: Digital Innovation for Learning in and out of School."
+        terms:
+          - { label: Spring 2024 }
+
+  - name: University of Minnesota
+    show_new_key: true
+    courses:
+      - code: CI 8371
+        title: Applied Social Network Analysis in Education
+        developed: true
+        description: An introduction to social network analysis for graduate students in education.
+        terms:
+          - { label: Spring 2019, url: "http://bookdown.org/chen/snaEd/" }
+          - { label: Spring 2017, url: "http://bookdown.org/chen/snaEd/" }
+      - code: CI 5371
+        title: "Learning Analytics: Theory and Practice"
+        developed: true
+        description: A general survey of the nascent field of learning analytics and its applications in various educational contexts.
+        terms:
+          - { label: Fall 2020 }
+          - { label: Fall 2019, url: "https://wonderlab.gse.upenn.edu/laumn/" }
+          - { label: Fall 2018, url: "https://wonderlab.gse.upenn.edu/laumn/" }
+          - { label: Spring 2016, url: "https://github.com/meefen/la-spring16" }
+          - { label: Spring 2015, url: "https://github.com/meefen/LA-UMN" }
+      - code: CI 8134–35
+        title: Foundations of Research in Curriculum and Instruction
+        description: A required course for all first-year PhD students in the department. Co-taught with Dr. Mark Vagle (2016–2017) and Dr. Nina Asher (2017–2018).
+      - code: CI 5301
+        title: Foundations of Computer Applications for Business and Education
+        description: Instructional uses of computers and representative business, education, and marketing applications.
+        terms:
+          - { label: Syllabus, url: "https://github.com/meefen/ci5301" }
+      - code: CI 4331W
+        title: Technology and Ethics in Society
+        description: A liberal education theme, writing-intensive course.
+        terms:
+          - { label: Syllabus, url: "https://github.com/meefen/CI4311W/blob/master/CI4311W-Syllabus-2016-Spring.md" }
+
+advising:
+  title: Working with students
+  text: "I’ve written down how I approach graduate advising: what students can expect from me, and what I hope for from them."
+  links:
+    - { label: My statement of graduate advising, url: /blog/2019-08-20-advising-statement/ }
+    - { label: Penn GSE Wonder Lab, url: "https://wonderlab.gse.upenn.edu/" }
+    - { label: Get in touch, url: /contact/ }

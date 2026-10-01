@@ -1,0 +1,17 @@
+{{- $p := .page -}}
+{{- $links := partial "links.html" $p -}}
+{{- $href := $p.RelPermalink -}}
+{{- if and (not (partial "has-detail.html" $p)) $links }}{{ $href = (index $links 0).url }}{{ end -}}
+{{- $authors := partial "authors.html" $p | htmlEscape -}}
+{{- $authors = replace $authors site.Title (printf "<strong>%s</strong>" site.Title) -}}
+<li class="row row--links">
+  <div class="row__date">{{ $p.Date.Format "2006" }}</div>
+  <div class="row__body">
+    <h3 class="row__title"><a href="{{ $href }}">{{ $p.Title | markdownify }}</a></h3>
+    <p class="meta">
+      {{- with $authors }}<span>{{ . | safeHTML }}</span>{{ end -}}
+      {{- with partial "venue.html" $p }}<span><i>{{ . }}</i></span>{{ end -}}
+    </p>
+  </div>
+  <div class="row__links">{{ partial "chips.html" $p }}</div>
+</li>

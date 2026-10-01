@@ -1,0 +1,12 @@
+{{ define "main" }}
+<section class="section" style="padding-top:clamp(3.5rem, 2rem + 5vw, 6.5rem)">
+  <div class="container contact">
+    <div>
+      <p class="label reveal" style="--i:0">Get in touch</p>
+      <h1 class="reveal" style="--i:1;margin-top:1rem;font-size:var(--text-h1);line-height:1.05">{{ .Title }}</h1>
+      {{ with .Description }}<p class="reveal" style="--i:2;margin-top:1.25rem;color:var(--text-soft);max-width:30rem">{{ . | markdownify }}</p>{{ end }}
+    </div>
+    <div class="reveal" style="--i:2">{{ partial "contact-form.html" . }}</div>
+  </div>
+</section>
+{{ end }}

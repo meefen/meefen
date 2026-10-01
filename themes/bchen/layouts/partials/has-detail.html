@@ -1,0 +1,4 @@
+{{- /* Does a talk/publication have enough for its own page? */ -}}
+{{- $body := .Plain | strings.TrimSpace -}}
+{{- $body = replaceRE `^\*\*[^*]*\*\*$` "" $body -}}
+{{- return (or .Params.abstract .Params.url_video (gt (len $body) 40)) -}}

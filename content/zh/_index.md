@@ -1,6 +1,23 @@
 ---
+# bchen theme
+label: 中文
+lead: "偶尔的迷思。English essays live in [Essays](/blog/)."
+all_label: 全部文章
+older_label: 较早
+newer_label: 较新
+
+# Hidden from the site: not published, not listed. Delete these to bring zh back.
+build:
+  render: never
+  list: never
+  publishResources: false
+
 author: Bodong Chen
 cascade:
+  build:
+    render: never
+    list: never
+    publishResources: false
   author: Bodong Chen
   show_author_byline: true
   show_comments: true

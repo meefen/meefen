@@ -1,0 +1,15 @@
+{{ define "main" }}
+<header class="page-head">
+  <div class="container">
+    <p class="label reveal" style="--i:0">Index</p>
+    <h1 class="reveal" style="--i:1">{{ .Title | strings.FirstUpper }}</h1>
+  </div>
+</header>
+<div class="container" style="padding-bottom:var(--section)">
+  <div class="filters" style="border-bottom:0">
+    {{- range .Data.Terms.ByCount }}
+    <a class="chip chip--tag" href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle | strings.FirstUpper }} <span class="meta">{{ .Count }}</span></a>
+    {{- end }}
+  </div>
+</div>
+{{ end }}

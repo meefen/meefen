@@ -1,7 +1,10 @@
 ---
 description: Courses I have taught
 draft: false
-layout: standard
+layout: teaching
+label: Teaching
+headline: Teaching & advising
+lead: Courses at Penn GSE and the University of Minnesota on learning, analytics, and networks. Several come with open materials anyone can use.
 show_title_as_headline: true
 title: Teaching
 ---
@@ -42,7 +45,7 @@ __CI 8134-35: Foundations of Research in Curriculum and Instruction__
 __CI 5371: Learning Analytics: Theory and Practice__\*
 
 - A general survey of the nascent field of learning analytics and its applications in various educational contexts
-- Fall '20, [Fall '19](https://colig.github.io/laumn/), [Fall '18](https://colig.github.io/laumn/), [Spring '16](https://github.com/meefen/la-spring16), [Spring '15](https://github.com/meefen/LA-UMN)
+- Fall '20, [Fall '19](https://wonderlab.gse.upenn.edu/laumn/), [Fall '18](https://wonderlab.gse.upenn.edu/laumn/), [Spring '16](https://github.com/meefen/la-spring16), [Spring '15](https://github.com/meefen/LA-UMN)
 
 __CI 5301: Foundations of Computer Applications for Business and Education__
 

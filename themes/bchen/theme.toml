@@ -1,0 +1,8 @@
+name = "bchen"
+license = "MIT"
+description = "Warm editorial theme for bchen.net: serif display, humanist sans, cream / ink / gold."
+min_version = "0.146.0"
+
+[author]
+  name = "Bodong Chen"
+  homepage = "https://bchen.net"
