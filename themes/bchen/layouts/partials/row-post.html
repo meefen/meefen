@@ -3,7 +3,7 @@
 <li class="row"{{ if eq $p.Section "zh" }} lang="zh"{{ end }}>
   <div class="row__date"><time datetime="{{ $p.Date.Format "2006-01-02" }}">{{ $p.Date.Format $fmt }}</time></div>
   <div class="row__body">
-    <h3 class="row__title"><a href="{{ $p.RelPermalink }}">{{ $p.Title | markdownify }}</a></h3>
+    <h3 class="row__title"><a href="{{ $p.Params.external | default $p.RelPermalink }}">{{ $p.Title | markdownify }}</a>{{ with $p.Params.source }} <span class="badge">{{ . }}</span>{{ end }}</h3>
     {{- with partial "summary.html" $p }}
     <p>{{ . }}</p>
     {{- end }}

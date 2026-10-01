@@ -41,7 +41,7 @@
       {{- end }}
       {{ .Content }}
 
-      {{- $pages := where site.RegularPages "Section" .Section }}
+      {{- $pages := where (where site.RegularPages "Section" .Section) "Params.external" "eq" nil }}
       {{- $older := first 1 (where $pages "Date" "lt" .Date) }}
       {{- $newer := last 1 (where $pages "Date" "gt" .Date) }}
       <nav class="post-nav" aria-label="More posts">

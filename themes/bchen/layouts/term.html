@@ -7,7 +7,7 @@
   </div>
 </header>
 <div class="container">
-  {{ partial "year-groups.html" (dict "pages" .Pages "format" "Jan 2" "tags" true) }}
+  {{ partial "year-groups.html" (dict "pages" (partial "essay-items.html" .Pages) "format" "Jan 2" "tags" true) }}
 </div>
 <div style="height:var(--section)"></div>
 {{ end }}

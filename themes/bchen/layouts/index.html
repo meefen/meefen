@@ -67,7 +67,7 @@
 
 {{- /* Essays */ -}}
 {{- $posts := slice }}
-{{- with site.GetPage "/blog" }}{{ $posts = first ($h.posts | default 3) (partial "essay-items.html" .) }}{{ end }}
+{{- with site.GetPage "/blog" }}{{ $posts = first ($h.posts | default 3) (partial "essay-items.html" .RegularPages) }}{{ end }}
 {{- with $posts }}
 {{- $n = add $n 1 }}
 <section class="section" aria-labelledby="essays-title">
@@ -79,7 +79,7 @@
     </div>
     <ul class="rows">
       {{- range . }}
-      {{ partial "row-essay.html" (dict "item" . "format" "Jan 2, 2006") }}
+      {{ partial "row-post.html" (dict "page" . "format" "Jan 2, 2006") }}
       {{- end }}
     </ul>
   </div>

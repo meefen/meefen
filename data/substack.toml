@@ -1,0 +1,17 @@
+# Tags for Substack posts, keyed by post slug (the part after /p/ in the URL).
+# Substack's RSS feed carries no tags, so they're set here. Reuse existing site
+# tags (see /tags/) so posts land on the same topic pages. Posts not listed
+# still appear under Essays, just untagged.
+
+pedagogy-of-the-prompt = ["AI", "teaching"]
+promised-provisioned-functional = ["AI", "infrastructure"]
+announcing-wonderbits = ["AI", "EdTech"]
+to-get-ai-right-schools-should-think = ["AI", "infrastructure"]
+ai-squats = ["AI", "musing"]
+from-magic-wand-to-flashlight = ["AI", "teaching"]
+same-principles-different-roles-how = ["AI", "teaching"]
+when-relationships-are-what-were = ["AI", "teaching"]
+how-capitalism-captured-our-languageand = ["AI"]
+from-jet-lag-to-ai-lag = ["AI", "musing"]
+on-vibe-reading = ["AI"]
+coming-soon = ["AI", "musing"]

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+{{- /* Stub for a Substack post (content/blog/_content.gotmpl): redirects to the original. Rendered so the post can carry tags. */}}
+<html lang="{{ site.Language.LanguageCode }}">
+<head>
+  <meta charset="utf-8">
+  <title>{{ .Title }}</title>
+  <link rel="canonical" href="{{ .Params.external }}">
+  <meta name="robots" content="noindex">
+  <meta http-equiv="refresh" content="0; url={{ .Params.external }}">
+</head>
+<body>
+  <p>This essay is on {{ .Params.source }}: <a href="{{ .Params.external }}">{{ .Title }}</a></p>
+</body>
+</html>

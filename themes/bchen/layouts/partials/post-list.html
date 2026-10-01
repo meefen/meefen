@@ -1,4 +1,4 @@
-{{- /* Essays list (blog, zh): header, topic filters, local + Substack posts grouped by year (no pagination). */ -}}
+{{- /* Essays list (blog, zh): header, topic filters, local + Substack posts (content/blog/_content.gotmpl) grouped by year (no pagination). */ -}}
 {{ partial "page-head.html" . }}
 <div class="container">
   {{- $pages := .RegularPages }}
@@ -20,18 +20,6 @@
     {{- end }}
   </div>
   {{- end }}
-  {{- $items := partial "essay-items.html" . }}
-  {{- $years := slice }}{{ range $items }}{{ $years = $years | append (.date.Format "2006") }}{{ end }}
-  {{- range $years | uniq }}
-  {{- $y := . }}
-  <section class="year-group" aria-labelledby="y-{{ $y }}">
-    <h2 id="y-{{ $y }}">{{ $y }}</h2>
-    <ul class="rows">
-      {{- range $items }}{{ if eq (.date.Format "2006") $y }}
-      {{ partial "row-essay.html" (dict "item" . "format" "Jan 2" "tags" true) }}
-      {{- end }}{{ end }}
-    </ul>
-  </section>
-  {{- end }}
+  {{ partial "year-groups.html" (dict "pages" (partial "essay-items.html" $pages) "format" "Jan 2" "tags" true) }}
 </div>
 <div style="height:var(--section)"></div>

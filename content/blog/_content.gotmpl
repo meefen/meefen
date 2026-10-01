@@ -1,0 +1,34 @@
+{{- /*
+  Content adapter: one page per post in the Substack RSS feed
+  (site.Params.substack.feed), fetched at build time. Tags come from
+  data/substack.toml, keyed by post slug. Rows link to params.external; the
+  page itself is only a redirect stub (layouts/blog/external.html), rendered
+  because Hugo leaves unrendered pages out of taxonomies. If the feed can't be
+  fetched, warns and adds nothing so the build still succeeds.
+*/ -}}
+{{- $tags := hugo.Data.substack | default dict -}}
+{{- with .Site.Params.substack.feed -}}
+  {{- $res := try (resources.GetRemote .) -}}
+  {{- if $res.Err -}}
+    {{- warnf "Substack feed unavailable, skipping: %s" $res.Err -}}
+  {{- else if $res.Value -}}
+    {{- $rss := $res.Value | transform.Unmarshal -}}
+    {{- $list := $rss.channel.item | default slice -}}
+    {{- if reflect.IsMap $list }}{{ $list = slice $list }}{{ end -}}
+    {{- range $list -}}
+      {{- $slug := path.Base .link -}}
+      {{- $.AddPage (dict
+          "path" (printf "substack/%s" $slug)
+          "kind" "page"
+          "title" (.title | htmlUnescape)
+          "dates" (dict "date" (time.AsTime .pubDate))
+          "content" (dict "mediaType" "text/markdown" "value" (.description | default "" | plainify | htmlUnescape | strings.TrimSpace))
+          "layout" "external"
+          "sitemap" (dict "disable" true)
+          "params" (dict
+            "tags" (index $tags $slug | default slice)
+            "external" .link
+            "source" "Substack")) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
