@@ -4,6 +4,8 @@
 
 {{- /* Hero */ -}}
 <section class="hero">
+  {{- /* Idea network drifting behind the hero; drawn by js/site.js */}}
+  <svg class="hero__web" aria-hidden="true" focusable="false"></svg>
   <div class="container hero__grid">
     <div>
       {{- with $h.label }}
@@ -33,7 +35,6 @@
     </div>
     {{- with site.Params.portrait }}
     <figure class="hero__figure reveal" style="--i:2">
-      {{ partial "network.html" . }}
       <div class="portrait">
         <img src="{{ . | relURL }}" alt="Portrait of {{ site.Title }}" width="900" height="1125" fetchpriority="high">
       </div>
