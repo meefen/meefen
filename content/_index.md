@@ -15,7 +15,7 @@ type: home
 
 # Homepage content for the bchen theme (the keys above are for hugo-apero)
 home:
-  label: Learning Sciences & Technologies · Penn GSE
+  label: Learning & Tech · Penn GSE
   headline:
     - "Learning with *wonder.*"
     - "Creating with the world."
