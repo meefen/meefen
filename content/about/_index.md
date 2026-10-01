@@ -3,7 +3,7 @@ cascade:
   - build:
       render: never
       list: never
-    _target:
+    target:
       kind: page
 description: |
   Personal website of Bodong Chen
