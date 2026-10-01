@@ -14,5 +14,5 @@ links:
   - icon_pack: fab
     icon: slideshare
     name: Slides
-    url: 'file/LAK22-network-motifs-slides.pdf'
+    url: '/file/LAK22-network-motifs-slides.pdf'
 ---
