@@ -1,11 +1,11 @@
-# Rebuild the site daily so new Substack posts appear under Essays.
+# Rebuild the site weekly so new Substack posts appear under Essays.
 # Setup: in Netlify, Site configuration > Build & deploy > Build hooks > Add build hook
 # (branch: main), then save its URL as the repository secret NETLIFY_BUILD_HOOK.
-name: Daily rebuild
+name: Weekly rebuild
 
 on:
   schedule:
-    - cron: "17 11 * * *"   # 11:17 UTC, early morning US Eastern
+    - cron: "17 11 * * 1"   # Mondays 11:17 UTC, early morning US Eastern
   workflow_dispatch:         # allow "Run workflow" by hand
 
 jobs:
@@ -20,4 +20,4 @@ jobs:
             echo "::error::Repository secret NETLIFY_BUILD_HOOK is not set"
             exit 1
           fi
-          curl -fsS -X POST -d '{}' "$HOOK?trigger_title=Daily+rebuild+for+Substack+posts"
+          curl -fsS -X POST -d '{}' "$HOOK?trigger_title=Weekly+rebuild+for+Substack+posts"
