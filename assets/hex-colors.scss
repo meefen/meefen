@@ -1,16 +1,18 @@
 // set custom hex colors
-$siteBgColorCustom: #f5f5f2;
-$sidebarBgColorCustom: #eaeae6;
-$textColorCustom: #3d3d3b;
-$sidebarTextColorCustom: #3d3d3b;
-$headlineColorCustom: #103742;
-$headingColorCustom: #103742;
-$bodyLinkColorCustom: #a30015;
-$navLinkColorCustom: #103742;
-$sidebarLinkColorCustom: #a30015;
-$footerTextColorCustom: #6b6966;
-$buttonTextColorCustom: #f7f7f4;
-$buttonHoverTextColorCustom: #f9f9f8;
-$buttonBgColorCustom: #103742;
-$buttonHoverBgColorCustom: #a30015;
-$borderColorCustom: #d0cdc8;
+// warm paper surfaces, navy ink, one gold accent
+// contrast vs. site background (#f8f3e8): text 14.1, links 6.1, footer 7.6
+$siteBgColorCustom: #f8f3e8;        // cream
+$sidebarBgColorCustom: #fdfaf4;     // paper (raised surface)
+$textColorCustom: #182437;          // ink
+$sidebarTextColorCustom: #2f3e55;   // ink, soft
+$headlineColorCustom: #182437;
+$headingColorCustom: #182437;
+$bodyLinkColorCustom: #8a4c00;      // gold, deep (text-safe)
+$navLinkColorCustom: #182437;
+$sidebarLinkColorCustom: #8a4c00;
+$footerTextColorCustom: #444e5e;    // ink, muted
+$buttonTextColorCustom: #f8f3e8;
+$buttonHoverTextColorCustom: #f8f3e8;
+$buttonBgColorCustom: #182437;
+$buttonHoverBgColorCustom: #8a4c00;
+$borderColorCustom: #d8d0c3;        // rule

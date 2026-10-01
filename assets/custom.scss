@@ -1,6 +1,116 @@
+// Palette accents not covered by hex-colors.scss
+// (keep in sync with assets/hex-colors.scss)
+$ink: #182437;
+$ink-mute: #444e5e;
+$rule: #d8d0c3;
+$gold: #cb882e;
+$gold-ink: #9d5e00;
+$gold-soft: #e1be89;
+$label-font: "Atkinson Hyperlegible", sans-serif;
+
 // Increase body text size for readability
 body {
     font-size: 1.125rem; // 18px
+    line-height: 1.65;
+}
+
+::selection {
+    background: $gold-soft;
+    color: $ink;
+}
+
+:focus-visible {
+    outline: 2px solid $gold-ink;
+    outline-offset: 2px;
+}
+
+// Serif headings: regular weight, slightly tight
+h1, h2, h3, h4 {
+    font-weight: 400;
+    letter-spacing: -0.01em;
+}
+
+.f-headline, .f-headline-l,
+.f-subheadline, .f-subheadline-l {
+    line-height: 1.05;
+}
+
+// Small uppercase labels (year groups, section labels, event details)
+h5.ttu,
+.row-label {
+    font-family: $label-font;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.24em;
+    color: $gold-ink;
+}
+
+// Header and footer: hairline rules instead of blank space
+.site-header {
+    border-bottom-color: $rule;
+}
+
+.site-footer {
+    border-top-color: $rule;
+}
+
+.site-links a {
+    font-size: 0.8125rem;
+    letter-spacing: 0.2em;
+}
+
+.site-links a.active:after,
+.site-links a:after {
+    background-color: $gold;
+}
+
+// Body links: thin gold underline
+.page-main a:not(.link) {
+    text-decoration-color: rgba($gold, 0.6);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.18em;
+}
+
+.page-main a:not(.link):hover {
+    text-decoration-color: currentColor;
+}
+
+// List titles: ink, no underline, gold on hover
+.page-main .blog-content article h1 a,
+.page-main .featured-content article h1 a {
+    color: $ink;
+    text-decoration: none;
+}
+
+.page-main .blog-content article h1 a:hover,
+.page-main .featured-content article h1 a:hover {
+    color: $gold-ink;
+}
+
+.blog-content article h1.underline,
+.featured-content article h1.underline {
+    text-decoration: none;
+}
+
+// Link buttons (Slides, Paper, ...) as small square chips
+a.btn-links,
+.home .action.button,
+form [type=button],
+form [type=reset],
+form [type=submit] {
+    border-radius: 2px;
+}
+
+a.btn-links {
+    font-size: 0.75rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+}
+
+// Quotes: gold rule
+.post-body blockquote,
+.page-body blockquote {
+    border-left-color: $gold;
 }
 
 // Make blog post feature images smaller
