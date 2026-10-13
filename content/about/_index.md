@@ -19,7 +19,7 @@ facts:
   - label: Position
     value: Associate Professor, Learning Sciences & Technologies, Penn GSE
   - label: Directs
-    value: "[Penn GSE Wonder Lab](https://wonderlab.gse.upenn.edu/); [Penn Knowledge Building Innovation Network](https://www.gse.upenn.edu/global-initiatives/knowledge-building-innovation-network)"
+    value: "[Penn GSE Wonder Lab](https://wonderlab.gse.upenn.edu/); [Penn Knowledge Building Innovation Network](https://www.gse.upenn.edu/global-initiatives/knowledge-building-innovation-network); [Penn GSE Living Laboratory for Human Agency and Artificial Intelligence](https://www.gse.upenn.edu/our-expertise/living-laboratory-human-agency-ai) (founding co-director)"
   - label: Research
     value: Learning sciences · AI · learning analytics · network science
   - label: Previously
@@ -30,13 +30,13 @@ elsewhere:
   - { label: ORCID, url: "https://orcid.org/0000-0003-4616-4353" }
   - { label: Penn GSE profile, url: "https://www.gse.upenn.edu/faculty/bodong-chen" }
 organizers:
-  bio: Bodong Chen is an Associate Professor of Learning Sciences and Technologies at the University of Pennsylvania Graduate School of Education, where he directs the Penn GSE Wonder Lab and the Penn Knowledge Building Innovation Network. His research sits at the intersection of the learning sciences, AI, learning analytics, and network science.
+  bio: Bodong Chen is an Associate Professor of Learning Sciences and Technologies at the University of Pennsylvania Graduate School of Education, where he directs the Penn GSE Wonder Lab and the Penn Knowledge Building Innovation Network, and serve as founding Co-Director of the Penn GSE Living Laboratory for Human Agency and Artificial Intelligence. His research sits at the intersection of the learning sciences, AI, learning analytics, and network science.
   links:
     - { label: Full CV, url: /file/cv.html }
     - { label: Invite me to speak, url: /contact/ }
 ---
 
-I am an associate professor in [Learning Sciences and Technologies](https://www.gse.upenn.edu/academics/programs/learning-sciences-technology-phd) at the [University of Pennsylvania Graduate School of Education](https://www.gse.upenn.edu/). My research is at the intersection of the learning sciences, AI, learning analytics, and network science.
+I am an associate professor in [Learning Sciences and Technologies](https://www.gse.upenn.edu/academics/programs/learning-sciences-technology-phd) at the [University of Pennsylvania Graduate School of Education](https://www.gse.upenn.edu/), where I direct the [Penn GSE Wonder Lab](https://wonderlab.gse.upenn.edu/) and the [Penn Knowledge Building Innovation Network](https://www.gse.upenn.edu/global-initiatives/knowledge-building-innovation-network), and co-direct the [Penn GSE Living Laboratory for Human Agency and Artificial Intelligence](https://www.gse.upenn.edu/our-expertise/living-laboratory-human-agency-ai). My research is at the intersection of the learning sciences, AI, learning analytics, and network science.
 
 As a learning scientist and educational technologist, I strive to make learning a meaningful part of social participation for people of all backgrounds and circumstances. My scholarly inquiry integrates knowledge media design, software engineering, and data science methods to continually improve infrastructures for learning. Guided by design-based research and participatory design approaches, I aim to generate justice-oriented pedagogical designs, technological innovations, and empirical understandings of learning in authentic settings.
 

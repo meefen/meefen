@@ -2,7 +2,7 @@
 action_label: Read More &rarr;
 action_link: /about
 action_type: text
-description: I am an Associate Professor in [Learning Sciences and Technologies](https://www.gse.upenn.edu/academics/programs/learning-sciences-technology-phd) at the [University of Pennsylvania Graduate School of Education](https://www.gse.upenn.edu/), where I direct the [Penn GSE Wonder Lab](https://wonderlab.gse.upenn.edu/) and the [Penn Knowledge Building Innovation Network](https://www.gse.upenn.edu/global-initiatives/knowledge-building-innovation-network). My research is at the intersection of the learning sciences, learning analytics, and network science. I am an Associate Editor of *ijCSCL*, sit on the editorial boards of a number of journals, including the *Journal of the Learning Sciences* and *Journal of Learning Analytics*, and served on the Executive Committee of the Society for Learning Analytics Research (SoLAR) and various committees of the International Society of the Learning Sciences (ISLS). 
+description: I am an Associate Professor in [Learning Sciences and Technologies](https://www.gse.upenn.edu/academics/programs/learning-sciences-technology-phd) at the [University of Pennsylvania Graduate School of Education](https://www.gse.upenn.edu/), where I direct the [Penn GSE Wonder Lab](https://wonderlab.gse.upenn.edu/) and the [Penn Knowledge Building Innovation Network](https://www.gse.upenn.edu/global-initiatives/knowledge-building-innovation-network), and serve as founding Co-Director of the [Penn GSE Living Laboratory for Human Agency and Artificial Intelligence](https://www.gse.upenn.edu/our-expertise/living-laboratory-human-agency-ai). My research is at the intersection of the learning sciences, learning analytics, and network science. I am an Associate Editor of *ijCSCL*, sit on the editorial boards of a number of journals, including the *Journal of the Learning Sciences* and *Journal of Learning Analytics*, and served on the Executive Committee of the Society for Learning Analytics Research (SoLAR) and various committees of the International Society of the Learning Sciences (ISLS). 
 image_left: true
 images:
 - img/bodong-chen-portrait.jpg
@@ -51,6 +51,7 @@ home:
       items:
         - "**[Penn GSE Wonder Lab](https://wonderlab.gse.upenn.edu/)**: design-based research on learning, knowledge building, and AI."
         - "**[Penn Knowledge Building Innovation Network](https://www.gse.upenn.edu/global-initiatives/knowledge-building-innovation-network)**: a network of educators and researchers advancing Knowledge Building."
+        - "**[Penn GSE Living Laboratory for Human Agency and Artificial Intelligence](https://www.gse.upenn.edu/our-expertise/living-laboratory-human-agency-ai)** (founding co-director): connecting technological innovation with research and practice in teaching and learning, in partnership with educators and learners."
     - title: Editorial & professional
       items:
         - "**Associate Editor**, *International Journal of Computer-Supported Collaborative Learning*"
