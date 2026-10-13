@@ -9,7 +9,7 @@
     </div>
     {{- with site.Params.portrait }}
     <div class="portrait reveal" style="--i:2">
-      <img src="{{ . | relURL }}" alt="Portrait of {{ site.Title }}" width="900" height="1125">
+      <img src="{{ . | relURL }}" alt="Portrait of {{ site.Title }}" width="900" height="900">
     </div>
     {{- end }}
   </header>
@@ -40,10 +40,9 @@
   <div class="container">
     <div class="panel">
       <p class="label">{{ .label | default "For event organizers" }}</p>
-      <h3 id="organizers-title">{{ .title | default "Short bio & headshot" }}</h3>
+      <h3 id="organizers-title">{{ .title | default "Short bio" }}</h3>
       {{ with .bio }}<p>{{ . | markdownify }}</p>{{ end }}
       <div class="actions">
-        {{- with site.Params.portrait }}<a class="chip" href="{{ . | relURL }}" download>Download headshot</a>{{ end }}
         {{- range .links }}<a class="chip" href="{{ .url | relURL }}">{{ .label }}</a>{{ end }}
       </div>
     </div>

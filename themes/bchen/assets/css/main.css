@@ -602,7 +602,7 @@ a.chip:hover {
   position: relative;
   justify-self: center;
   width: min(100%, 22rem);
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 1;
 }
 
 .portrait {
@@ -857,7 +857,7 @@ button.button { border: 0; cursor: pointer; font-family: inherit; }
   color: var(--text-soft);
 }
 .about-hero .role em { color: var(--accent-text); }
-.about-hero .portrait { width: min(100%, 20rem); aspect-ratio: 4 / 5; justify-self: start; }
+.about-hero .portrait { width: min(100%, 20rem); aspect-ratio: 1; justify-self: start; }
 @media (min-width: 56rem) { .about-hero .portrait { justify-self: end; } }
 
 .about-body {
