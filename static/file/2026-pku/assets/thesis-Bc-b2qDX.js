@@ -1,0 +1,1 @@
+import{B as e,L as t,y as n}from"./modules/shiki-BdeKa7dA.js";import{n as r}from"./slidev/context-CTGJdUUq.js";var i={class:`slidev-layout thesis`},a={__name:`thesis`,setup(a){let{$slidev:o,$nav:s,$clicksContext:c,$clicks:l,$page:u,$renderContext:d,$frontmatter:f}=r();return(r,a)=>(t(),n(`div`,i,[e(r.$slots,`default`)]))}};export{a as t};

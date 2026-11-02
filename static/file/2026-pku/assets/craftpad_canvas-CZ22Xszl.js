@@ -1,0 +1,1 @@
+var e=`/file/2026-pku/img/craftpad_canvas.jpg`;export{e as t};
