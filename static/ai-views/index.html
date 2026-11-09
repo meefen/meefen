@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Bodong Chen on AI in education</title>
+  <style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+</style>
+  <style type="text/css">
+:root {
+color-scheme: light;
+--bg: #f7f4ee;
+--paper: #fffdf9;
+--ink: #1f2321;
+--muted: #5f655f;
+--rule: #ddd6c9;
+--accent: #2f6b4f;
+--code: #eef0ea;
+--sans: -apple-system, "Helvetica Neue", Arial, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+:root:not([data-theme="light"]) {
+color-scheme: dark;
+--bg: #161917;
+--paper: #1d211e;
+--ink: #e6e8e3;
+--muted: #a2a9a2;
+--rule: #343a35;
+--accent: #7fc4a0;
+--code: #2a302b;
+}
+}
+:root[data-theme="dark"] {
+color-scheme: dark;
+--bg: #161917;
+--paper: #1d211e;
+--ink: #e6e8e3;
+--muted: #a2a9a2;
+--rule: #343a35;
+--accent: #7fc4a0;
+--code: #2a302b;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+margin: 0 auto;
+max-width: 57rem; 
+padding: 3.5rem 1.5rem 6rem;
+background: var(--bg);
+color: var(--ink);
+font: 1.25rem/1.65 Charter, "Iowan Old Style", "Palatino Linotype", Georgia, serif; 
+}
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+
+#title-block-header { margin-bottom: 2rem; }
+h1.title { font-size: 2.4rem; line-height: 1.2; margin: 0 0 0.8rem; font-weight: 600; }
+p.author, p.date { margin: 0.15rem 0; color: var(--muted); font: 1rem/1.5 var(--sans); }
+div.abstract {
+margin: 1.8rem 0 0;
+padding: 1.2rem 1.5rem;
+background: var(--paper);
+border: 1px solid var(--rule);
+border-left: 4px solid var(--accent);
+border-radius: 6px;
+font-size: 1.15rem; 
+}
+div.abstract-title {
+font: 600 0.85rem/1.4 var(--sans);
+letter-spacing: 0.08em;
+text-transform: uppercase;
+color: var(--muted);
+margin-bottom: 0.5rem;
+}
+
+nav#TOC {
+margin: 0 0 2.5rem;
+padding: 1.1rem 1.5rem;
+border: 1px solid var(--rule);
+border-radius: 6px;
+background: var(--paper);
+font: 1rem/1.6 var(--sans);
+}
+nav#TOC > ul { margin: 0; padding-left: 1.2rem; }
+nav#TOC ul ul { padding-left: 1.2rem; }
+nav#TOC a { color: var(--ink); text-decoration: none; }
+nav#TOC a:hover { color: var(--accent); }
+
+h2 { font-size: 1.8rem; line-height: 1.25; margin: 3.2rem 0 0.9rem; padding-top: 1.3rem; border-top: 1px solid var(--rule); }
+h3 { font-size: 1.4rem; line-height: 1.3; margin: 2.2rem 0 0.7rem; }
+h4 { font-size: 1.25rem; font-style: italic; font-weight: 600; margin: 1.8rem 0 0.5rem; }
+p { margin: 0 0 1.1rem; }
+
+blockquote {
+margin: 1.5rem 0;
+padding: 0.9rem 1.3rem;
+background: var(--paper);
+border: 1px solid var(--rule);
+border-left: 4px solid var(--muted);
+border-radius: 6px;
+font-size: 1.1rem;
+}
+blockquote p:last-child { margin-bottom: 0; }
+
+table {
+width: 100%;
+border-collapse: collapse;
+margin: 1.5rem 0 2rem;
+font: 0.95rem/1.5 var(--sans); 
+background: var(--paper);
+hyphens: manual;
+}
+
+@media (min-width: 960px) {
+table {
+width: min(72rem, calc(100vw - 4rem)) !important; 
+position: relative;
+left: 50%;
+transform: translateX(-50%);
+}
+}
+caption { caption-side: top; text-align: left; font-weight: 600; padding-bottom: 0.4rem; }
+th { text-align: left; vertical-align: bottom; border-bottom: 2px solid var(--ink); padding: 0.5rem 0.6rem; }
+td { vertical-align: top; border-bottom: 1px solid var(--rule); padding: 0.5rem 0.6rem; }
+
+code { font: 0.85em/1.4 Menlo, "SF Mono", Consolas, monospace; background: var(--code); padding: 0.1em 0.3em; border-radius: 3px; }
+pre { background: var(--code); padding: 1rem 1.1rem; border-radius: 6px; overflow-x: auto; }
+pre code { background: none; padding: 0; }
+
+span.citation a { color: inherit; text-decoration: none; border-bottom: 1px dotted var(--muted); }
+div#refs { font-size: 1.05rem; } 
+div.csl-entry { margin-bottom: 0.6rem; }
+div.hanging-indent div.csl-entry { margin-left: 2em; padding-left: 0; text-indent: -2em; }
+
+section.footnotes { margin-top: 3rem; font-size: 1rem; color: var(--muted); }
+
+p.subtitle { margin: 0 0 0.7rem; font-size: 1.35rem; font-style: italic; color: var(--muted); }
+div.note {
+margin: 1.2rem 0;
+padding: 0.9rem 1.3rem;
+background: var(--paper);
+border: 1px solid var(--rule);
+border-radius: 6px;
+font: 1rem/1.6 var(--sans);
+}
+div.note p:last-child { margin-bottom: 0; }
+div.note p > strong:first-child {
+margin-right: 0.3rem;
+font: 600 0.8rem/1.4 var(--sans);
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--muted);
+}
+div.in-brief {
+margin: 2rem 0 2.5rem;
+padding: 1.2rem 1.5rem;
+background: var(--paper);
+border: 1px solid var(--rule);
+border-left: 4px solid var(--accent);
+border-radius: 6px;
+}
+div.in-brief > p:first-child {
+margin-bottom: 0.5rem;
+font: 600 0.85rem/1.4 var(--sans);
+letter-spacing: 0.08em;
+text-transform: uppercase;
+color: var(--muted);
+}
+div.in-brief ul { margin: 0; padding-left: 1.2rem; }
+div.in-brief li { margin: 0.4rem 0; }
+div.in-brief a { color: var(--ink); text-decoration-color: var(--rule); }
+div.src p { margin: -0.3rem 0 1.6rem; font: 0.95rem/1.5 var(--sans); color: var(--muted); }
+
+button.theme-toggle {
+position: absolute;
+top: 1rem;
+right: 1rem;
+padding: 0.4rem 0.8rem;
+font: 500 0.8rem/1.2 var(--sans);
+color: var(--muted);
+background: var(--paper);
+border: 1px solid var(--rule);
+border-radius: 999px;
+cursor: pointer;
+}
+button.theme-toggle:hover { color: var(--ink); border-color: var(--muted); }
+a.site-link { 
+position: absolute;
+top: 1.4rem;
+left: 1rem;
+font: 500 0.8rem/1.2 var(--sans);
+color: var(--muted);
+text-decoration: none;
+}
+a.site-link:hover { color: var(--ink); }
+@media print { button.theme-toggle, a.site-link { display: none; } }
+@media (max-width: 640px) {
+body { font-size: 1.125rem; padding: 3.5rem 1.1rem 4rem; hyphens: auto; } 
+h1.title { font-size: 1.9rem; }
+h2 { font-size: 1.5rem; }
+table { display: block; overflow-x: auto; }
+}
+</style>
+  <script>
+  /* Light/dark theme button for quick docs (styles in quickdoc.css).
+     Follows the reader's system setting until they pick a theme; the choice is kept in localStorage.
+     Without JavaScript there is no button and the page follows the system setting. */
+  (function () {
+    var root = document.documentElement;
+    try {
+      var saved = localStorage.getItem("theme");
+      if (saved === "light" || saved === "dark") root.setAttribute("data-theme", saved);
+    } catch (e) {}
+
+    document.addEventListener("DOMContentLoaded", function () {
+      var system = window.matchMedia("(prefers-color-scheme: dark)");
+      var button = document.createElement("button");
+      button.type = "button";
+      button.className = "theme-toggle";
+
+      function current() {
+        return root.getAttribute("data-theme") || (system.matches ? "dark" : "light");
+      }
+      function label() {
+        button.textContent = current() === "dark" ? "Light mode" : "Dark mode";
+      }
+
+      button.addEventListener("click", function () {
+        var next = current() === "dark" ? "light" : "dark";
+        root.setAttribute("data-theme", next);
+        try { localStorage.setItem("theme", next); } catch (e) {}
+        label();
+      });
+      if (system.addEventListener) system.addEventListener("change", label);
+
+      label();
+      document.body.insertBefore(button, document.body.firstChild);
+    });
+  })();
+  </script>
+</head>
+<body>
+<a class="site-link" href="https://bchen.net/">bchen.net</a>
+<header id="title-block-header">
+<h1 class="title">Bodong Chen on AI in education</h1>
+<p class="subtitle">A living, curated summary of my current thinking on
+AI</p>
+<p class="date">Last updated 8 November 2026</p>
+</header>
+<div class="note">
+<p><strong>Latest.</strong> His November 2026 keynote at Peking
+University is folded in, adding sections on the infrastructure people
+are asked to trust and on design principles. A new section on learning
+from AI at the frontier draws on his notes about Lee Sedol and
+professional Go. Every section still awaits his review.</p>
+</div>
+<div class="note">
+<p><strong>How this page is made.</strong> This summary is drafted by an
+AI assistant (Claude) from Bodong Chen’s papers, talks, blog posts, and
+notes, then reviewed and corrected by him. It is revised as his views
+develop. Voice is third person, and not everything he has written
+appears here; omission is editorial.</p>
+</div>
+<p>As Chen puts it, “I’m less interested in whether students use AI than
+in who is doing the thinking, and who gets to shape the
+environment.”</p>
+<div class="in-brief">
+<p>In brief</p>
+<ul>
+<li><a href="#capacity">Capacity comes from the learner’s own work, so
+AI should scaffold that work rather than substitute for it.</a></li>
+<li><a href="#friction">Learning needs productive friction, and AI
+should take on extraneous load while leaving germane load to
+learners.</a></li>
+<li><a href="#idiosyncrasy">Understanding lives in idiosyncratic
+connections, which shared models pull toward one voice.</a></li>
+<li><a href="#frontier">Keeping AI out of learning is not always the
+best way to protect it, as top Go players who study AI’s moves
+show.</a></li>
+<li><a href="#human-time">Learning needs human time.</a></li>
+<li><a href="#interaction-patterns">Whether AI helps depends on how it
+enters the work and what the learner can already do.</a></li>
+<li><a href="#architecture">Every decision about AI in a classroom is an
+architectural decision.</a></li>
+<li><a href="#pedagogy-first">Start from pedagogy, and decide on purpose
+which learning objectives should change.</a></li>
+<li><a href="#epistemic-agency">AI can propose, and people should keep
+the judgment.</a></li>
+<li><a href="#teacher-authority">Teachers should hold authority over the
+AI in their classrooms.</a></li>
+<li><a href="#skills">Education is for people’s growth as knowers and
+members of societies.</a></li>
+<li><a href="#measurement">Measure the right things in education, and
+measure them right.</a></li>
+</ul>
+</div>
+<h2 id="part-learning">Learning and what AI changes about it</h2>
+<h3 id="capacity">Capacity comes from the learner’s own work</h3>
+<p>Chen believes that what a learner can do without help grows out of
+the work the learner does, such as generating ideas, reasoning through
+problems, and revising drafts. AI that does that work can raise
+performance while the tool is present and lower it once the tool is
+gone. In one field experiment, high-school students given GPT-4 during
+practice scored 48% higher than a control group on practice problems and
+17% lower on the closed-book exam that followed, while a tutor version
+that gave hints instead of answers removed the harm (Bastani et al.,
+2025). In another study, university students who revised essays with
+ChatGPT wrote better essays than students with a human expert, a
+checklist, or no support, and gained no more knowledge or transfer.
+Their revising also moved less often between orienting to the task and
+evaluating their own text, a pattern the authors call metacognitive
+laziness (Fan et al., 2025).</p>
+<p>His design rule for AI in learning tools follows from this. The tool
+should scaffold the learner’s work rather than substitute for it.</p>
+<div class="src">
+<p>Sources: Epistemic niche integrative review (in preparation); <a href="https://bchen.net/file/2026-kbsi-niche.html">KBSI featured
+talk</a> (March 2026); <a href="https://bchen.net/file/2026-pku/">From
+Epistemic Infrastructure to Niche Construction: Who Builds Educational
+Futures with AI?</a> (keynote, Peking University, November 2026).</p>
+</div>
+<h3 id="friction">Learning needs productive friction</h3>
+<p>Chen holds that learning needs friction, and that the friction worth
+keeping is the effort that builds understanding. Cognitive load theory
+calls this germane load, as when a learner generates an explanation,
+retrieves what they know, or works out how a new idea fits with old
+ones. It differs from extraneous load, the effort spent on things that
+do not serve learning, such as hunting for materials or fighting a
+confusing interface. Collaboration adds friction of its own. Students
+have to negotiate what they mean, take one another’s perspectives, and
+work through disagreement, and doing that work is part of what they
+learn.</p>
+<p>Minimizing friction can be the central goal for commercial products
+such as social media, which are built to maximize engagement. For
+learning tools it is not always the right goal. Many AI products for
+learners remove the friction through which learning happens, because
+removing it gives learners what they want in the moment, whether the
+answer, the finished essay, or the fast completion. The frictionless
+default is the easy path for builders, for understandable reasons. It
+satisfies what users want right now, and the cost falls on their future
+selves. He leaves open which dynamic does the most damage over time:
+assistance creeping from the margins of a task to its core, dependency,
+assignments and grading reorganizing around AI use, or rising
+expectations for polish and volume.</p>
+<p>His design rule is to let AI absorb extraneous load and leave germane
+load, including the work of collaborating, to learners. CraftPad, his
+lab’s tool for teachers designing lessons, also follows this rule. AI
+retrieves materials, organizes scattered ideas, and formats the plan,
+while teachers reason about the lesson’s purposes, how students will
+think, and which instructional choices to make.</p>
+<div class="src">
+<p>Sources: <a href="https://bchen.net/file/2026-pku/">PKU keynote</a>
+(November 2026); Notes (2026).</p>
+</div>
+<h3 id="idiosyncrasy">Idiosyncrasy in human learning</h3>
+<p>Chen believes that understanding forms when learners connect new
+ideas to their own experiences, knowledge, and ways of thinking, which
+Wittrock called generative learning, and that the idiosyncrasy of those
+connections matters for learning with understanding. He worries about
+what happens when students’ writing drifts toward a model’s vocabulary
+and polish. Words favored by ChatGPT rose abruptly in academic abstracts
+after its release (Kobak et al., 2025). If students lose their
+distinctive ways of expressing ideas, or thinking about them at the
+first place, they may also lose the personal connections that make
+learning meaningful and transferable. He holds tool developers partly
+responsible, since models trained toward polished language feed a loop
+in which people adopt the model’s style.</p>
+<div class="src">
+<p>Sources: <a href="https://bchen.net/blog/2025-07-03-preserving-human-idiosyncrasy/">Preserving
+Human Idiosyncrasy: Generative Learning in the Age of Generative AI</a>
+(blog post, July 2025).</p>
+</div>
+<h3 id="reading">Reading</h3>
+<p>Chen sees reading as relationship building, the slow work of
+developing one’s own thinking in conversation with other people’s ideas.
+Tools that read for you, decide what matters, and hand over the gist
+turn the reader into a consumer of pre-digested insight. He contrasts
+this with vibe coding, where the person still sets directions and tests
+results. With vibe reading, the reader risks dropping out of their own
+learning. His research on reading predates generative AI and includes
+studies of social annotation, where students read a text together and
+discuss it in the margins (Zhu et al., 2020).</p>
+<p>His lab’s InkSpire project uses AI to help instructors guide students
+to read academically, in the ways their discipline reads and reasons.
+Instructors describe their discipline, course, and students, and
+InkSpire drafts reading scaffolds, which are prompts tied to particular
+passages. It chooses the passages by cognitive load and by the
+discipline’s core practices. Instructors accept, edit, or decline each
+scaffold. Students do not use the AI themselves. They see the curated
+scaffolds in Perusall as instructor annotations beside the passages,
+where the scaffolds become starting points for discussing the text
+(Liang, Wang, &amp; Chen, 2026). Pilots in neuroscience and materials
+science courses are under way.</p>
+<div class="src">
+<p>Sources: From Vibe Coding to Vibe Reading (Substack, 2025); Reading
+and Connecting: Using Social Annotation in Online Classes (Zhu et al.,
+2020); <a href="https://bchen.net/talk/2020-12-liquid-margins/">Liquid
+Margins 15: Social Annotation, Bridging Theory and Practice</a>
+(Hypothesis webinar he moderated, December 2020); <a href="https://ceur-ws.org/Vol-4231/itb26_s3s2.pdf">InkSpire: An
+LLM-Powered System for Designing and Generating Disciplinarily Aligned
+and Context-Aware Reading Scaffolds</a> (Liang, Wang, &amp; Chen,
+Intelligent Textbooks workshop, 2026); <a href="https://wonderlab.gse.upenn.edu/projects/inkspire/index.html">InkSpire
+project page</a>.</p>
+</div>
+<h3 id="frontier">Learning from and with AI at the frontier</h3>
+<p>Chen argues that keeping AI out of learning is not always the best
+way to protect it. His example is professional Go. After superhuman Go
+programs arrived, the quality of professional players’ moves rose after
+decades of little change, and novel moves became more frequent and more
+often good (Shin et al., 2023). The gains were uneven. Lee Sedol, whose
+2016 match against AlphaGo marked the start of this period, has said he
+expected AI to lift all players to one standard and saw the opposite,
+with top-ranked players pulling ahead because they used and understood
+AI better (Lee, 2026). By Lee’s estimate, a player who understands even
+three of every ten moves an AI plays can reach the top ranks, and years
+of studying AI raised his own understanding until he began playing a
+human style of Go again.</p>
+<p>Chen reads this as a story about intentional effort to learn from and
+with AI. Top players studied AI’s moves, made sense of them, and brought
+them into their own repertoire, while others memorized the moves or did
+not study them closely. Chess offers a partial parallel, where chess
+engines (like Stockfish) helped players improve by standing in for
+scarce human sparring partners but did not fully replace training with
+people (Gaessler &amp; Piezunka, 2023).</p>
+<p>He proposes adding this kind of learning from and with AI to what
+students already learn. AI could keep stretching the zone of proximal
+development of a learner or a class, as it stretched Go players. If
+education can design for this, refusing AI has an opportunity cost,
+especially in courses meant to train domain experts.</p>
+<div class="src">
+<p>Sources: Notes (November 2026); Lee Sedol’s lecture at the FKI CEO
+Jeju Summer Forum, as reported by <a href="https://en.fnnews.com/news/202607161434012439">FNNews</a> (July
+2026); Lee Sedol at the AI World 2026 panel, as reported by <a href="https://www.fnnews.com/news/202609141430445110">Financial News</a>
+(September 2026, in Korean).</p>
+</div>
+<h2 id="part-human-time">Human scale and well-being</h2>
+<h3 id="human-time">AI lag</h3>
+<p>Chen believes that learning needs human time. Once AI raises the
+expected speed of some kind of work, people collectively can’t slow back
+down, and the mismatch between machine time and human time shows up as
+exhaustion, which he calls <em>AI lag</em>. He argues for deliberately
+choosing when to work at machine speed and when to keep a human pace,
+including slow zones protected from AI acceleration. His own practice is
+to do squats while an AI model finishes a task he has handed it, to stay
+grounded and keep a human scale. He thinks AI literacy programs should
+take the clash between machine time and human time seriously, and he
+warns that the freedom to stay on human time may become a new form of
+inequality.</p>
+<div class="src">
+<p>Sources: From Jet Lag to AI Lag (Substack, 2025); AI Squats
+(2026).</p>
+</div>
+<h2 id="part-communities">Knowing together, from classrooms to
+societies</h2>
+<h3 id="communities">Knowing in a community</h3>
+<p>Chen comes to AI from Knowledge Building, where students work as a
+community to improve ideas and take collective responsibility for what
+they come to know. He argues that AI changes the conditions of that
+work, including how a community checks claims. Fluent output can pass
+unchecked unless a community holds claims to a shared standard.
+Mathematicians keep one. They may disagree about which mathematics is
+interesting, but they broadly agree on what counts as a correct and
+complete proof, and a proof written in a proof assistant such as Lean
+can be checked by computer. The Equational Theories Project accepted
+both human and automated arguments, since each could be checked, and
+settled more than 22 million true-or-false statements in universal
+algebra (Tao, 2026). Designs can also keep people doing the checking.
+When AI feedback was routed through conference reviewers instead of
+replacing them, 26.6% of reviewers revised their reviews, against 9.4%
+in a control group (Thakkar et al., 2026).</p>
+<div class="src">
+<p>Sources: <a href="https://bchen.net/file/2026-kbsi-niche.html">KBSI
+featured talk</a> (March 2026); Epistemic niche integrative review (in
+preparation); <a href="https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf">Math
+2.0</a> (Terence Tao, Caltech talk, 2026).</p>
+</div>
+<h3 id="interaction-patterns">Interaction patterns in using AI</h3>
+<p>Chen believes that whether AI helps depends on how it enters the work
+and on what the learner can already do, so rules that only allow or ban
+AI miss what matters. With colleagues he proposed situating AI use
+within interaction patterns drawn from knowledge-building dialogue
+(Chen, Zhu, &amp; Díaz del Castillo H., 2023). In a high school world
+religions course in Colombia, students used ChatGPT early in an inquiry
+to open up the problem and later to challenge their emerging ideas. AI
+made the learning harder and deeper. Students used it for inspiration,
+not answers, and collaborated more with their peers.</p>
+<p>He thinks of AI as a flashlight rather than a magic wand. A
+flashlight helps someone who has already developed the night vision to
+judge what it shows, and for someone still developing that capacity it
+can shine too bright, too soon. Interaction structure also shapes a
+group’s work. With the same model and task, AI acting as a structured
+critic made people’s work converge, while AI that offered opening
+proposals and then stepped back produced more varied work (Najjar &amp;
+Nasir, 2026). Across the four feedback mechanisms in his integrative
+review, the direction of each traced back to how AI entered the work,
+such as how much of the work it took over and whether people kept doing
+the checking.</p>
+<div class="src">
+<p>Sources: Integrating generative AI in knowledge building (2023); <a href="https://bchen.net/file/202511-singapore-ai">Enhancing Student and
+Teacher Agency in Knowledge Building with AI</a> (talk, Singapore,
+November 2025); From Magic Wand to Flashlight (Substack, 2025); <a href="https://bchen.net/file/2026-pku/">PKU keynote</a> (November
+2026).</p>
+</div>
+<h3 id="variation">Variation across people and traditions</h3>
+<p>Chen argues that shared models can narrow the range of ideas, and
+that the narrowing has a direction. When many people draw on the same
+models, each contribution can improve while the set becomes more alike.
+Stories written with AI ideas were rated more novel one by one and more
+similar to each other as a set (Doshi &amp; Hauser, 2024), and AI
+suggestions moved Indian writers toward Western styles (Agarwal et al.,
+2025). He wants AI for learning to protect variation across classrooms
+and knowledge traditions, the aim behind Yuk Hui’s idea of
+technodiversity. In his reading, China’s AI in education shares the
+West’s datafying, optimizing image of technology and differs mainly in
+the political form of its deployment. For him, technodiversity in
+education remains a horizon rather than a fact.</p>
+<div class="src">
+<p>Sources: Book chapter on AI in Chinese education (in preparation);
+Epistemic niche integrative review (in preparation); <a href="https://bchen.net/file/2026-pku/">PKU keynote</a> (November
+2026).</p>
+</div>
+<h2 id="part-building">Building learning environments</h2>
+<h3 id="infrastructure">Infrastructure for knowing and learning</h3>
+<p>Chen holds that what people know rests on infrastructure they did not
+build and rarely see. A weather forecast rests on more than 150 years of
+shared observation, data exchange, and modeling (Edwards, 2010).
+Education rests on the same kinds of parts, from teachers, students, and
+parents to textbooks, exams, learning platforms, examination
+authorities, and the norms by which a society recognizes good teaching
+and evidence of understanding. Infrastructure is built for some purpose,
+and its users are expected to take it for granted until it breaks down
+(Star, 1999). When Google’s AI Overviews advised adding glue to pizza
+sauce, drawing on a joke posted to Reddit, the breakdown showed what sat
+under the answer.</p>
+<p>Every infrastructure is optimized for some goal, and the goal is not
+always its users’ interest. Algorithmic feeds are tuned to hold
+attention. On social media, false news spread faster than true news
+(Vosoughi et al., 2018), and people rewarded with likes for outrage
+posted more of it (Brady et al., 2021). Chen calls an information
+environment optimized for attention instead of justified belief
+<em>epistemic hijacking</em>, and AI built by the same companies, or on
+the same commercial logic, could repeat the pattern. A forecast earns
+trust because it is scored every day against the weather that came,
+while a feed is scored by the attention it holds. AI in education needs
+a standard of its own. He would check it against what learners can do
+later without the tool, and against how varied and how well checked a
+community’s ideas remain.</p>
+<div class="src">
+<p>Sources: <a href="https://bchen.net/file/2026-pku/">PKU keynote</a>
+(November 2026).</p>
+</div>
+<h3 id="architecture">Every decision is architectural</h3>
+<p>Chen believes that decisions about AI in a classroom are
+architectural. When a student asked whether they could use ChatGPT to
+outline a paper, he thought he was answering a question. He was
+designing the infrastructure of his course. Every course is an
+environment for thinking, and AI is now part of the material it is built
+from. Tools carry epistemologies, so choosing a tool also chooses what
+counts as knowing in that room, and what gets built passes to the next
+cohort as its starting point. He calls the process by which communities
+build the conditions of their knowledge work, and are shaped by them,
+<em>epistemic niche construction</em>. The question he now asks of each
+decision is what kind of knowing he is building infrastructure for.</p>
+<p>Two schools show how differently a niche can be built. At a Knowledge
+Building lab school in Toronto, one Grade 4 teacher redesigned how his
+class worked over three years, moving from fixed groups to teams that
+formed whenever the class’s questions called for them, and the third
+design brought the most knowledge advances (Zhang et al., 2009). At
+Alpha School in Austin, students spend about two hours a day on adaptive
+apps that choose each student’s next lesson, and adults work as guides.
+The two schools differ in what counts as worth knowing and in how
+knowledge gets built, and every AI tool a school adopts now enters a
+niche like one of these. He argues that educational futures in the AI
+era rest on people acting as constructors of their epistemic niches
+rather than as passive adopters of infrastructure built for them.</p>
+<p>The environments that shape what students know also extend beyond
+school. Libraries and museums are slow and curated, social media feeds
+are built for engagement, and AI chatbots are helpful but frictionless.
+He wants teachers and students to have a hand in shaping these
+environments, within the classroom and outside it.</p>
+<div class="src">
+<p>Sources: <a href="https://bchen.net/file/2025-keynote-reclaim-agency.html">Reclaiming
+Agency: Educators as Architects of AI-Enhanced Learning
+Architectures</a> (keynote, Language Educator Symposium, December 2025);
+<a href="https://bchen.net/file/2026-kbsi-niche.html">KBSI featured
+talk</a> (March 2026); <a href="https://bchen.net/file/2026-kbconnects-rethinking-epistemic-agency">Rethinking
+Epistemic Agency</a> (KB Connects, April 2026); <a href="https://bchen.net/file/2026-grad-panel-ai-teaching-learning.html">Who’s
+Doing the Thinking?</a> (September 2026); <a href="https://bchen.net/file/2026-pku/">PKU keynote</a> (November
+2026).</p>
+</div>
+<h3 id="principles">Design principles</h3>
+<p>From his review of how AI enters learning, Chen draws five design
+principles. Each acts on one or two of the feedback mechanisms the
+review identifies, and he treats each as a hypothesis for design
+research.</p>
+<ol type="1">
+<li><strong>Scaffold construction rather than substitute for
+it.</strong> Learners attempt the work first and AI helps after, as in
+the hint-only tutor, with support fading as understanding grows.</li>
+<li><strong>Support meta-representational capacity.</strong> AI produces
+maps of a community’s ideas, showing how they connect, where inquiry has
+stalled, and how similar contributions have become, and learners do the
+interpreting and judge which ideas are promising.</li>
+<li><strong>Make AI’s epistemic dispositions visible and
+contestable.</strong> Designs keep retrieved evidence apart from
+generated synthesis and show uncertainty that matches the model’s
+confidence, so learners can see where a claim comes from and question
+it.</li>
+<li><strong>Protect variation across epistemic niches.</strong> Learners
+generate their own ideas before they see AI suggestions, and models are
+grounded in a community’s own knowledge instead of generic output.</li>
+<li><strong>Design for revisable inheritance.</strong> Teachers log the
+AI-era changes they make to course documents and put expiry dates on
+prompts and templates, so that continuing to use them becomes a
+decision.</li>
+</ol>
+<p>His lab is trying these principles in its own designs, without
+findings yet. In WonderBits, teachers decide which AI agents take part
+in a class, how active they are, and when they are present. Buzz reports
+point out gaps in a class’s ideas, such as claims without evidence, and
+leave the reflecting to students. CraftPad represents the knowledge and
+reasoning behind each lesson plan so teachers can examine and revise
+it.</p>
+<div class="src">
+<p>Sources: <a href="https://bchen.net/file/2026-pku/">PKU keynote</a>
+(November 2026); Epistemic niche integrative review (in
+preparation).</p>
+</div>
+<h3 id="pedagogy-first">Pedagogy first</h3>
+<p>Chen reads AI adoption in higher education as bottom-up and uneven.
+Students moved first, institutions followed with detection and bans, and
+pedagogy is still catching up, with AI on the teaching side drawing far
+less attention. Most of what has happened so far drops AI into existing
+practices, and he is more interested in what practices to design around
+it. He believes such design should start from pedagogy, not technology,
+and that the same principles can lead to different designs. His own
+principles are Dewey’s view that education is life itself rather than
+preparation for it, and authentic disciplinary practice, which lets
+students practice what their field is becoming, research included.</p>
+<p>In two of his courses the same principles led to different decisions.
+In programming fundamentals the learning objectives changed, and
+students now work with GitHub Copilot on authentic problems, with the
+focus moved from syntax to problem solving and reading code critically.
+In learning theories the objectives stayed the same, and ChatLab helps
+students connect the theories to their own interests. He asks
+instructors to decide on purpose which objectives should change, and to
+model their own use of AI, including where they choose not to use
+it.</p>
+<p>His course policy rests on responsibility and transparency. Students
+may use AI to supplement their own critical thinking but not to
+substitute for it, and they say when and where they used it. He prefers
+transparency to detection, since detectors are unreliable and policing
+pushes AI use underground. He also asks instructors to name unequal
+access to paid tools and to the know-how for using them well, and to use
+tools the institution provides where possible.</p>
+<div class="src">
+<p>Sources: <a href="https://bchen.net/file/2025-cetli-faculty-workshop-ai.html">Purposeful
+AI Use: Same Principles, Different Design Outcomes</a> (CETLI faculty
+workshop, Penn, September 2025); <a href="https://bchen.net/file/2026-grad-panel-ai-teaching-learning.html">Who’s
+Doing the Thinking?</a> (September 2026).</p>
+</div>
+<h3 id="teaching-expertise">Teaching expertise</h3>
+<p>Chen argues that teacher-facing AI can substitute for the work
+through which teaching expertise forms. Teachers develop judgment by
+reading student work, planning lessons, and assessing whether a lesson
+worked. When a tool performs those operations, invites teachers to
+accept its output, and gets used repeatedly, it builds deference in
+place of judgment, a pattern he calls epistemic substitution.
+Lesson-plan generators also automate older pedagogy. AI-generated lesson
+plans defaulted to teacher-centered instruction with scripted
+question-and-answer dialogue (Cheng, Wang, &amp; Chen, 2025).</p>
+<div class="src">
+<p>Sources: <a href="https://arxiv.org/abs/2504.06928">Beyond Tools:
+Generative AI as Epistemic Infrastructure in Education</a> (arXiv
+preprint, 2025); <a href="https://bchen.net/file/2025-keynote-reclaim-agency.html">Reclaiming
+Agency keynote</a> (December 2025).</p>
+</div>
+<h3 id="builders">Educators and students as builders</h3>
+<p>Chen believes the best AI tools for learning have not been built yet,
+and that educators and students should help build them. Most AI in
+schools is built by companies with their own goals, and educators and
+learners are rarely at the design table. Educators know things about
+learning that tool engineers don’t, and AI now lets them express that
+craft in tools of their own. He tells graduate students to build tools,
+not only adopt them, since a doctoral student can now prototype a small
+learning tool in a weekend.</p>
+<p>His own experiments include ChatLab for his learning theories class,
+CraftPad for teachers designing lessons, Pip and Buzz in WonderBits, and
+<a href="#reading">InkSpire</a> for instructors scaffolding disciplinary
+reading, each starting from learning goals and keeping students and
+teachers doing the thinking. CraftPad treats teachers as designers of
+Knowledge Building lessons, not consumers of generated plans. Of 52
+teachers who designed lessons with it, many revised beyond the first
+version, and some made up to 96 revisions of a single lesson.</p>
+<p>He sees students as builders too. Students who understand how
+learning works can judge whether a tool helps them learn, and building
+lets them act on that judgment. With Knowledge Building colleagues he
+has explored vibe coding as a way for secondary students and their
+teachers to build tools of their own.</p>
+<div class="src">
+<p>Sources: <a href="https://bchen.net/file/2025-keynote-reclaim-agency.html">Reclaiming
+Agency keynote</a> (December 2025); <a href="https://bchen.net/file/202511-singapore-ai">Enhancing Student and
+Teacher Agency in Knowledge Building with AI</a> (Singapore, November
+2025); <a href="https://bchen.net/file/2026-kbconnects-rethinking-epistemic-agency">Rethinking
+Epistemic Agency</a> (KB Connects, April 2026); <a href="https://bchen.net/file/2026-grad-panel-ai-teaching-learning.html">Who’s
+Doing the Thinking?</a> (September 2026); Notes (2026).</p>
+</div>
+<h3 id="responsibility">Responsibility and reach</h3>
+<p>Chen holds that everyone who builds learning environments shares
+responsibility for them, and that responsibility grows with reach.
+Product teams, platform providers, policymakers, teachers, and
+researchers all build parts of the environments learners inherit. A
+product default becomes the starting condition of every classroom that
+adopts it, and AI companies have the most reach. He criticizes design
+patterns rather than products and pairs each critique with a redesign,
+because the reach that spreads a frictionless default can spread a
+better one. Assessment decides which learning objectives count, new or
+enduring, and it is the structure later cohorts inherit most. What
+researchers measure becomes what gets designed for, as time on the app
+is what a feed is designed for. Learners build too, and he wants designs
+that help them construct their own epistemic niches on purpose.</p>
+<div class="src">
+<p>Sources: <a href="https://bchen.net/file/2026-pku/">PKU keynote</a>
+(November 2026).</p>
+</div>
+<h2 id="part-authority">Authority over AI</h2>
+<h3 id="epistemic-agency">Epistemic agency</h3>
+<p>Chen sees the central tension in AI for learning as a question of
+agency, about who does the thinking and who designs the environment
+where it happens. He distinguishes two kinds of control over belief
+(Hieronymi, 2009). Managerial control is agency over the work around
+forming a belief, such as choosing what to read or how to organize
+collaboration. Evaluative control is agency in settling for oneself, in
+light of reasons, what is true. Knowledge Building has mostly cultivated
+the managerial kind, with students taking on decisions about long-range
+goals, inquiry strategies, social arrangements, and criteria of success
+(Scardamalia, 2002). He argues that evaluative control, and intellectual
+virtues such as curiosity and humility that support it, need more
+attention now that language models produce confident prose through
+opaque processes.</p>
+<p>The same AI, he argues, can cultivate or substitute for epistemic
+agency depending on what surrounds it (Cassinadri, 2024). If a class
+asks AI which of its notes are most promising and accepts the ranking,
+the judgment moves to the model, and the class’s own capacity to judge
+promise can atrophy. If the class asks AI to turn a discussion into an
+argument map, the output enters the discourse as new material, and the
+community keeps the judgment. His advice to learners, teachers, and
+researchers alike is to let AI propose and keep the decision, and to
+practice rejecting outputs and saying why. In his lab’s WonderBits, AI
+assistants suggest connections between students’ ideas and students
+accept or reject them, so each decision leaves a record of student
+judgment that teachers and researchers can examine.</p>
+<div class="src">
+<p>Sources: <a href="https://bchen.net/file/2026-kbconnects-rethinking-epistemic-agency">Rethinking
+Epistemic Agency in Knowledge Building in the Age of AI</a> (KB
+Connects, April 2026, with Yuan, Teo, Ong, Cao, and Feng); <a href="https://bchen.net/file/2026-grad-panel-ai-teaching-learning.html">Who’s
+Doing the Thinking? Purposeful AI for Learners, Teachers, and
+Researchers</a> (graduate panel, Penn GSE, September 2026).</p>
+</div>
+<h3 id="teacher-authority">Teachers</h3>
+<p>Chen believes teachers should hold authority over the AI in their
+classrooms. A teacher’s design, including her goals, the ideas she
+expects to hear, what students compose themselves, and when AI should
+hold back, should reach every AI tool her students use, and evidence of
+student thinking should come back to her in terms of that design.</p>
+<p>Today each tool carries its developer’s idea of good teaching, and
+the teacher’s design does not reach it. How far commercial tools will
+let a teacher’s design in remains open, since many accept only settings
+or custom instructions.</p>
+<div class="src">
+<p>Sources: Notes (2026); <a href="https://arxiv.org/abs/2504.06928">Beyond Tools</a> (arXiv
+preprint, 2025).</p>
+</div>
+<h3 id="student-voice">Students</h3>
+<p>Chen argues that students should have a say in how their schools use
+AI. Schools rarely ask students what AI should do in their learning or
+invite them to help shape it. Students who study their own learning can
+find problems worth solving and bring recommendations on AI use to their
+schools.</p>
+<div class="src">
+<p>Sources: Notes (2026).</p>
+</div>
+<h3 id="disempowerment">Gradual disempowerment</h3>
+<p>Chen connects AI in schools to the risk the AI safety field calls
+gradual disempowerment. General-purpose AI tools are designed to
+complete tasks, so in classrooms they take over the generating and
+judging of ideas that students would otherwise do. Students in school
+now will be the adults living through the transition to more capable AI,
+and if that work keeps getting handed off, fewer of them will be able to
+judge and correct AI systems. He sees schools as an early case of a
+broader question, how communities keep authority over AI systems built
+by others.</p>
+<div class="src">
+<p>Sources: Notes (2026).</p>
+</div>
+<h2 id="part-evidence">Research and evidence</h2>
+<h3 id="evidence">What studies should measure</h3>
+<p>Chen argues that evaluations of AI in education mostly measure how
+well individual learners perform with the tool, in a single session or a
+short course, and that this misses much of what AI does to learning.
+Evaluations at the individual level will overestimate the benefits of
+assistance from a shared model, because gains in quality and losses in
+diversity appear at different levels. He wants studies to report
+unassisted performance after a delay, how alike learners’ work becomes
+alongside its average quality, and, where time allows, changes in the
+practices a community uses to accept knowledge.</p>
+<div class="src">
+<p>Sources: Epistemic niche integrative review (in preparation); <a href="https://bchen.net/file/2026-pku/">PKU keynote</a> (November
+2026).</p>
+</div>
+<h3 id="research-practice">AI in research practice</h3>
+<p>Chen treats AI in research as both topic and tool. His lab uses
+language models to evaluate the promise of ideas in knowledge-building
+discourse, and he regards the validity and reproducibility of such uses
+as open questions, along with what still counts as the researcher’s own
+judgment.</p>
+<p>He advises doctoral students to keep a short AI log of when they used
+AI, for what task, what it did, and what they decided. The log records
+their judgment and helps them answer methods questions while norms for
+AI in dissertation work are still forming.</p>
+<div class="src">
+<p>Sources: <a href="https://bchen.net/file/2026-grad-panel-ai-teaching-learning.html">Who’s
+Doing the Thinking?</a> (graduate panel, Penn GSE, September 2026).</p>
+</div>
+<h2 id="part-purpose">What education is for</h2>
+<h3 id="skills">Beyond the next list of skills</h3>
+<p>Chen thinks that even the most accomplished AI scientists can misread
+education when they forecast its future. Demis Hassabis has said that
+the most important skill for the next generation will be “learning how
+to learn,” so that people can keep pace as AI changes work and schooling
+(Hassabis, 2025). In 2026 he went further and described how he would
+rebuild school. He would “invert the classroom.” Students would do rote
+learning at home with AI that tailors it to each student’s pace, a few
+star teachers would give the lectures everyone uses, and class time
+would go to projects, group work, and Oxbridge-style tutorials
+(Hassabis, 2026). Little of this is new. Flipped classrooms, self-paced
+teaching machines, adaptive tutors, and MOOCs built around celebrated
+lecturers each promised something similar, with modest results (Reich,
+2020), and Alpha School, described above, already runs on a similar
+model. Chen finds the view of learning behind the plan naive. It treats
+knowledge as content that individuals absorb alone and at their own
+speed, while understanding forms when learners connect ideas to their
+own experience and work them through with others. Pacing rote learning
+to each student individualizes it, which is different from making it
+personal.</p>
+<p>The skills answer is not new either. Education has moved through
+lists of 21st-century skills and soft skills to today’s durable skills,
+and each list named what a changing economy was expected to need. The
+lists change with each forecast, while the answer to what education is
+for stays an economic one. Learning how to learn is also an old aim.
+Learning scientists have long studied it as metacognition and
+self-regulated learning, and it grows through the work of learning
+something in particular.</p>
+<p>In his view, education is for people’s growth as knowers and as
+members of societies. That means learning to think for oneself and with
+others, to judge what is true, to improve ideas together, and to shape
+the environments that shape one in turn.</p>
+<div class="src">
+<p>Sources: Notes (2026); Demis Hassabis in Athens, as reported by <a href="https://www.clickondetroit.com/tech/2025/09/12/googles-top-ai-scientist-says-learning-how-to-learn-will-be-next-generations-most-needed-skill/">AP</a>
+(September 2025); Hassabis on inverting the classroom, as reported by <a href="https://officechai.com/ai/schools-should-eventually-be-about-projects-creativity-personalized-ai-will-take-care-of-rote-learning-demis-hassabis/">OfficeChai</a>
+(November 2026) and, from his WCIT lecture with Wendy Hall, by <a href="https://www.the-ai-corner.com/p/demis-hassabis-agi-2030-takeaways">The
+AI Corner</a> (August 2026); Failure to Disrupt: Why Technology Alone
+Can’t Transform Education (Reich, 2020).</p>
+</div>
+<h3 id="measurement">Measuring the right things, and measuring them
+right</h3>
+<p>Chen agrees that education needs to change, and he thinks much of
+that change depends on what gets measured. For decades, U.S. education
+has been judged mainly by K–12 test scores, and once advanced placement,
+dual enrollment, apprenticeships, and other postsecondary paths are
+counted, the dominant trend is growth rather than decline (Kirst &amp;
+Chan, 2026). Narrow measures misread a system, and they also steer it,
+because what gets measured becomes what schools and designers work
+toward. If education is for people’s growth as knowers and members of
+societies, its measures should include how well students judge claims,
+how they consider one another’s ideas, and what they can do later
+without help.</p>
+<p>Even the right measures can be taken badly when they track only what
+is easy to see. Some systems score attention from students’ faces and
+posture or from how often they look up at the front of the room, and
+remote proctoring software flags students who look away from the screen.
+These measures reward the appearance of attention and can mistake quiet
+thinking for distraction (Wang, Song, &amp; Du, 2026), and students who
+know they are watched learn to perform for the measure.</p>
+<div class="src">
+<p>Sources: <a href="https://ed.stanford.edu/news/new-framework-student-success-measuring-what-matters">A
+new framework for student success: Measuring what matters</a> (School’s
+In podcast, Stanford GSE, October 2026); <a href="https://escholarship.org/uc/item/6kf0842w">Broadening Our
+Perspective Concerning America’s Education Attainment: Growth, Progress,
+and Data Gaps</a> (Kirst &amp; Chan, UC Berkeley CSHE, 2026); Book
+chapter on AI in Chinese education (in preparation); Notes (2026).</p>
+</div>
+<h3 id="relational-intelligence">Relational intelligence</h3>
+<p>Relational intelligence is one part of his answer. He proposes that
+education cultivate it, meaning the capacities to sustain relationships,
+exercise moral imagination, and stay connected to community and the
+natural world. These capacities resist automation and support human
+flourishing, and in his view a design can make them possible without
+being able to engineer them.</p>
+<div class="src">
+<p>Sources: Relational intelligence paper (in preparation, 2026); <a href="https://bodong.substack.com/p/when-relationships-are-what-were">When
+Relationships Are What We’re Left With</a> (Substack, August 2025).</p>
+</div>
+<h2 id="changelog">Changelog</h2>
+<ul>
+<li><strong>8 November 2026.</strong> Renamed “Idiosyncrasy and voice”
+to “Idiosyncrasy in human learning” and linked the blog post in its
+Sources. Corrected the InkSpire description in Reading: the AI works
+with instructors, and students see only the scaffolds instructors
+accept. Renamed “The frictionless default” to “Learning needs productive
+friction” and rewrote it around germane and collaborative friction, the
+contrast with engagement-driven products, and his design rule. In
+Knowing in a community, replaced the chemistry-lab example with how
+mathematicians hold proofs to a shared standard. Sources now name the
+unpublished review as the epistemic niche integrative review, without
+the journal. Renamed the part “Learning in groups and communities” to
+“Knowing together, from classrooms to societies.” Removed “What the next
+cohort inherits,” which overlapped with Design principles and
+Responsibility and reach. Restated points in Infrastructure, Learning
+from and with AI at the frontier, AI lag, and Every decision is
+architectural as his views instead of reports of what he asked. Design
+principles now lists the review’s five principles as a numbered list,
+adding “support meta-representational capacity.” Sources now cite
+unpublished proposals, concept notes, and scoping notes as “Notes
+(2026)”, and Beyond Tools is cited as its arXiv preprint with a link.
+Expanded What education is for with two new sections, Beyond the next
+list of skills and Change without surveillance, and reframed Relational
+intelligence as one part of his answer; the In brief line now points to
+the new first section. Added Hassabis’s plan to invert the classroom,
+with Chen’s critique, to Beyond the next list of skills. Replaced
+“Change without surveillance” with “Measuring the right things, and
+measuring them right,” framed around what education measures and how,
+with examples not tied to one country. Moved Epistemic agency from
+Knowing together to open Authority over AI. In brief gains lines for
+productive friction and measurement, and the Go line now matches its
+section.</li>
+<li><strong>7 November 2026.</strong> Folded in the PKU keynote (<a href="https://bchen.net/file/2026-pku/">slides</a>) and his notes on Lee
+Sedol and professional Go. New sections on infrastructure people are
+asked to trust, what the next cohort inherits, four design principles,
+and learning from AI at the frontier; additions to Capacity, Interaction
+patterns, Every decision is architectural, Responsibility and reach, and
+How the view has evolved; keynote slide links replace “Educational
+Futures keynote” in Sources.</li>
+<li><strong>28 October 2026.</strong> Folded in his talks from September
+2025 to September 2026 listed on bchen.net. New sections on epistemic
+agency, pedagogy first, and AI in research practice; additions to
+Reading, Interaction patterns, Every decision is architectural,
+Educators and students as builders, and How the view has evolved; slide
+links in Sources.</li>
+<li><strong>28 October 2026.</strong> Folded in InkSpire and its 2026
+paper (Reading; Educators and students as builders).</li>
+<li><strong>27 October 2026.</strong> First version, drafted from his
+papers, talks, blog posts, and proposals of 2023–26.</li>
+</ul>
+</body>
+</html>
